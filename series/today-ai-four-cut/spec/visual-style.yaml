@@ -1,0 +1,23 @@
+version: 1
+series: today-ai-four-cut
+style_lock: "Original Korean educational webtoon illustration, warm cream paper ground, strong deep-navy ink contours, mustard-yellow highlights, restrained cobalt accents, soft cel shading, clean friendly expressions, polished editorial infographic mood, repeatable original character design, no reader-facing text."
+palette:
+  ground: warm_cream
+  ink: deep_navy
+  primary_accent: mustard_yellow
+  secondary_accent: restrained_cobalt
+framing:
+  - establishing
+  - explanatory_medium
+  - consequence_or_comparison
+  - closing_reaction_or_object_payoff
+forbidden:
+  - readable_text
+  - letters_or_numbers
+  - logos_or_watermarks
+  - speech_or_empty_bubbles
+  - photorealism_or_live_action
+  - deceptive_screenshots
+  - celebrity_likeness
+  - misleading_claims
+  - copied_reference_title_logo_characters_dialogue_or_layout

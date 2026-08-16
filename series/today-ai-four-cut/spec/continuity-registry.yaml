@@ -1,0 +1,24 @@
+version: 1
+series: today-ai-four-cut
+characters:
+  - id: character.nuri.001
+    name: 누리
+    immutable_features:
+      - original Korean woman news editor in her late twenties
+      - short dark-brown bob and warm brown eyes
+      - cream shirt, deep-navy cardigan, mustard notebook
+      - curious, precise, practical posture
+    forbidden:
+      - resemblance to a named real person or supplied reference character
+  - id: character.pik.001
+    name: 픽
+    immutable_features:
+      - original small desktop AI guide robot
+      - rounded deep-navy body and cream face screen
+      - two simple dot eyes and one mustard antenna tip
+      - two short flexible arms
+    forbidden:
+      - brand marks, letters, numbers, commercial mascot resemblance
+generation_policy:
+  repeatable_original_design: true
+  source_art_text_forbidden: true
