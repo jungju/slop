@@ -1,0 +1,4 @@
+interface:
+  display_name: "오늘의 AI 네 컷 연재"
+  short_description: "최신 AI 뉴스를 검증해 네 컷 만화로 제작·게시"
+  default_prompt: "Use $today-ai-four-cut-series to create and publish the next verified AI news comic episode."

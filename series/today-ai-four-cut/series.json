@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "today-ai-four-cut",
+  "slug": "today-ai-four-cut",
+  "type": "comic",
+  "kind": "series",
+  "status": "ongoing",
+  "title": "오늘의 AI 네 컷",
+  "summary": "검증된 AI 소식 하나를 네 장면으로 쉽고 정확하게 설명하는 한국어 교육 웹툰.",
+  "source": "AI Slop Series Harness"
+}

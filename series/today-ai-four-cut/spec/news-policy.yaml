@@ -1,0 +1,21 @@
+version: 1
+series: today-ai-four-cut
+recency:
+  preferred_hours: 48
+  fallback_days: 7
+evidence:
+  primary_required: true
+  independent_confirmation_normal: true
+  social_only_forbidden: true
+claims:
+  atomic_claims_min: 4
+  atomic_claims_max: 8
+  preserve_scope_limits: true
+  distinguish_fact_claim_inference: true
+fingerprint: "normalized primary URL plus announcement date"
+reject:
+  - rumor
+  - unattributed_leak
+  - search_snippet
+  - copied_press_release_aggregator
+  - ai_generated_summary_as_evidence
