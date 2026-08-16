@@ -1,5 +1,5 @@
 import { readFile, readdir, stat } from "node:fs/promises";
-import { dirname, extname, join, resolve } from "node:path";
+import { dirname, extname, join, relative, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const scriptDir = dirname(fileURLToPath(import.meta.url));
@@ -45,6 +45,12 @@ for (const episode of series?.episodes || []) {
 const files = await walk(outDir);
 const htmlFiles = files.filter((path) => extname(path) === ".html");
 const webpFiles = files.filter((path) => extname(path) === ".webp");
+const stylesPath = files.find((path) =>
+  /[\\/]assets[\\/]styles\.[0-9a-f]{12}\.css$/.test(path),
+);
+const appPath = files.find((path) =>
+  /[\\/]assets[\\/]app\.[0-9a-f]{12}\.js$/.test(path),
+);
 const webpStats = await Promise.all(webpFiles.map((path) => stat(path)));
 const totalWebpBytes = webpStats.reduce((sum, info) => sum + info.size, 0);
 const largestWebpBytes = Math.max(...webpStats.map((info) => info.size), 0);
@@ -63,8 +69,24 @@ const cname = (await readFile(join(outDir, "CNAME"), "utf8")).trim();
 assert(cname === "slop.jjgo.io", "CNAME이 slop.jjgo.io가 아닙니다.");
 
 const home = await readFile(join(outDir, "index.html"), "utf8");
-const styles = await readFile(join(outDir, "assets", "styles.css"), "utf8");
-const app = await readFile(join(outDir, "assets", "app.js"), "utf8");
+assert(stylesPath, "내용 해시가 포함된 CSS 빌드 자산이 없습니다.");
+assert(appPath, "내용 해시가 포함된 JavaScript 빌드 자산이 없습니다.");
+const styles = stylesPath ? await readFile(stylesPath, "utf8") : "";
+const app = appPath ? await readFile(appPath, "utf8") : "";
+const stylesUrl = stylesPath
+  ? "/" + relative(outDir, stylesPath).replaceAll("\\", "/")
+  : "";
+const appUrl = appPath
+  ? "/" + relative(outDir, appPath).replaceAll("\\", "/")
+  : "";
+assert(
+  home.includes('href="' + stylesUrl + '"'),
+  "홈이 내용 해시 CSS 자산을 참조하지 않습니다.",
+);
+assert(
+  home.includes('src="' + appUrl + '"'),
+  "홈이 내용 해시 JavaScript 자산을 참조하지 않습니다.",
+);
 assert(home.includes("100% AI 제작"), "홈에 100% AI 제작 설명이 없습니다.");
 assert(home.includes("자동 게시"), "홈에 자동 게시 설명이 없습니다.");
 assert(

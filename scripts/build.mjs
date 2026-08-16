@@ -6,6 +6,7 @@ import {
   stat,
   writeFile,
 } from "node:fs/promises";
+import { createHash } from "node:crypto";
 import { basename, dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -19,6 +20,10 @@ if (dirname(outDir) !== root || basename(outDir) !== "_site") {
 }
 
 const content = JSON.parse(await readFile(contentPath, "utf8"));
+const stylesSource = await readFile(join(root, "src", "styles.css"), "utf8");
+const appSource = await readFile(join(root, "src", "app.js"), "utf8");
+const stylesAsset = "styles." + fingerprint(stylesSource) + ".css";
+const appAsset = "app." + fingerprint(appSource) + ".js";
 const site = content.site;
 const series = content.series[0];
 const episodes = series.episodes;
@@ -28,8 +33,8 @@ const routes = [];
 await rm(outDir, { recursive: true, force: true });
 await mkdir(join(outDir, "assets"), { recursive: true });
 await cp(join(root, "public"), outDir, { recursive: true });
-await cp(join(root, "src", "styles.css"), join(outDir, "assets", "styles.css"));
-await cp(join(root, "src", "app.js"), join(outDir, "assets", "app.js"));
+await writeFile(join(outDir, "assets", stylesAsset), stylesSource, "utf8");
+await writeFile(join(outDir, "assets", appAsset), appSource, "utf8");
 await cp(join(root, "CNAME"), join(outDir, "CNAME"));
 await writeFile(join(outDir, ".nojekyll"), "", "utf8");
 await writeFile(
@@ -265,7 +270,7 @@ function layout({
     <link rel="canonical" href="${escapeHtml(canonical)}">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="manifest" href="/site.webmanifest">
-    <link rel="stylesheet" href="/assets/styles.css">
+    <link rel="stylesheet" href="/assets/${stylesAsset}">
     <meta property="og:type" content="${page === "reader" ? "article" : "website"}">
     <meta property="og:site_name" content="${escapeHtml(site.name)}">
     <meta property="og:title" content="${escapeHtml(fullTitle)}">
@@ -274,7 +279,7 @@ function layout({
     ${image ? '<meta property="og:image" content="' + escapeHtml(image) + '">' : ""}
     <meta name="twitter:card" content="summary_large_image">
     ${jsonLd}
-    <script src="/assets/app.js" defer></script>
+    <script src="/assets/${appAsset}" defer></script>
   </head>
   <body data-page="${escapeHtml(page)}">
     <a class="skip-link" href="#main">본문으로 바로가기</a>
@@ -684,4 +689,8 @@ function escapeHtml(value) {
 
 function escapeXml(value) {
   return escapeHtml(value);
+}
+
+function fingerprint(value) {
+  return createHash("sha256").update(value).digest("hex").slice(0, 12);
 }
