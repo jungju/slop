@@ -87,8 +87,10 @@ assert(
   home.includes('src="' + appUrl + '"'),
   "홈이 내용 해시 JavaScript 자산을 참조하지 않습니다.",
 );
-assert(home.includes("100% AI 제작"), "홈에 100% AI 제작 설명이 없습니다.");
-assert(home.includes("자동 게시"), "홈에 자동 게시 설명이 없습니다.");
+assert(!home.includes('class="signal-list"'), "홈 히어로의 원칙 태그가 제거되지 않았습니다.");
+assert(!home.includes("<li>100% AI 제작</li>"), "홈에 100% AI 제작 태그가 남아 있습니다.");
+assert(!home.includes("<li>자동 게시</li>"), "홈에 자동 게시 태그가 남아 있습니다.");
+assert(!home.includes("<li>모델 정보 공개</li>"), "홈에 모델 정보 공개 태그가 남아 있습니다.");
 assert(
   home.includes("hero__headline-fixed\">AI가</span>"),
   "홈 히어로에 고정 문구 ‘AI가’가 없습니다.",

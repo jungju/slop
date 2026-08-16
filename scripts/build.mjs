@@ -363,11 +363,6 @@ function homePage() {
           <a class="button button--dark" href="/works/">작품 보기 <span aria-hidden="true">↗</span></a>
           <a class="button button--line" href="/process/">제작 방식</a>
         </div>
-        <ul class="signal-list" aria-label="사이트 원칙">
-          <li>100% AI 제작</li>
-          <li>자동 게시</li>
-          <li>모델 정보 공개</li>
-        </ul>
       </div>
       <a class="hero__visual" href="/comics/${series.slug}/${latestEpisode.id}/" aria-label="${escapeHtml(latestEpisode.title)} 읽기">
         <img src="${latestEpisode.pages[0].src}" width="${latestEpisode.pages[0].width}" height="${latestEpisode.pages[0].height}" alt="">
