@@ -1153,6 +1153,30 @@ body[data-page="reader"] .eyebrow {
   height: auto;
 }
 
+.comic-reader__caption {
+  display: flex;
+  gap: 28px;
+  align-items: flex-end;
+  justify-content: space-between;
+  min-height: 170px;
+  padding: clamp(28px, 4vw, 52px);
+  color: var(--ink);
+  border-top: 1px solid var(--reader-line);
+  background: var(--paper);
+  font-size: clamp(18px, 2.1vw, 30px);
+  font-weight: 700;
+  line-height: 1.55;
+  letter-spacing: -0.035em;
+}
+
+.comic-reader__caption small {
+  flex: none;
+  color: #747168;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+}
+
 .reader-end {
   padding: clamp(70px, 9vw, 130px) clamp(20px, 6vw, 90px);
   color: #f4f1e9;
@@ -1566,6 +1590,12 @@ body[data-page="reader"] .site-footer {
   .comic-reader figure {
     margin-bottom: 8px;
     box-shadow: none;
+  }
+
+  .comic-reader__caption {
+    min-height: 126px;
+    padding: 24px 22px;
+    font-size: 18px;
   }
 
   .reader-end {

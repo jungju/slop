@@ -30,11 +30,8 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
-      - name: Build
-        run: node scripts/build.mjs
-
-      - name: Verify
-        run: node scripts/verify.mjs
+      - name: Test, build, and verify
+        run: npm run check
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4

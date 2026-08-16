@@ -1,0 +1,23 @@
+sample_or_template_reference: factories/comic/reference/templates/03-lyrical-narration-card-comic/references/page-01-han-river-arrival.png
+template_number: 3
+template_folder: 03-lyrical-narration-card-comic
+template_id: lyrical-narration-card-comic
+output_intent: 20-page Korean lyrical narration-card webtoon episode
+wind_visual_style_lock: restrained Korean webtoon illustration, soft ink linework,
+  simplified contour lines, flat painterly color, cel-shaded faces and hands; reject
+  live-action, DSLR, cinematic still, hyperreal, photoreal outputs
+expected_panel_count: 20
+page_size: 1055x1491
+source_generation_policy: fresh text prompts only; do not convert photoreal outputs
+  into comic art
+speech_bubble_contract:
+  baked_into_imagegen_output: false
+  local_overlay_required: true
+  caption_vs_dialogue_distinction: narration-card only
+negative_constraints:
+- no_generated_text
+- no_fake_korean
+- no_empty_bubbles
+- no_logo
+- no_watermark
+- no_photorealism

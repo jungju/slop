@@ -1,0 +1,28 @@
+episode: ep-027
+template: 03-lyrical-narration-card-comic
+page_count: 20
+caption_strip_height: 210
+core_elements:
+  - { id: prop.low-bench-brush-set.001, version: 1, panels: [1, 6, 7, 9, 12, 14, 15, 16, 17, 19, 20] }
+  - { id: prop.wooden-chair.001, version: 1, panels: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16] }
+pages:
+  - { panel: 1, beat: "Doyun prematurely sweeps a visitor's paper pieces in Seoul", continuity_refs: [{ id: prop.low-bench-brush-set.001, version: 1 }], caption: "서울 작업실에서, 도윤은 주인이 잠시 비운 종이 조각을 먼저 쓸어 냈다." }
+  - { panel: 2, beat: "The returning visitor searches for one still-needed piece", continuity_refs: [], caption: "돌아온 사람은 아직 맞춰 보던 조각 하나를 찾았다." }
+  - { panel: 3, beat: "Doyun decides to clear the Jeju table before work", continuity_refs: [], caption: "도윤은 제주에서는 시작 전에 작업대를 깨끗이 비우겠다고 생각했다." }
+  - { panel: 4, beat: "Yunseo marks photo corners at a low table beside the canonical chair", continuity_refs: [{ id: prop.wooden-chair.001, version: 1 }], caption: "윤서는 나무 의자 곁 낮은 상에서 사진 모서리를 숯연필로 표시했다." }
+  - { panel: 5, beat: "Paper scraps and eraser dust remain in an unfinished arrangement", continuity_refs: [{ id: prop.wooden-chair.001, version: 1 }], caption: "종이 조각과 지우개 가루가 남았지만, 배열은 아직 끝나지 않았다." }
+  - { panel: 6, beat: "Doyun lifts the blue brush while Yunseo is away", continuity_refs: [{ id: prop.low-bench-brush-set.001, version: 1 }, { id: prop.wooden-chair.001, version: 1 }], caption: "윤서가 다른 사진을 가지러 간 사이, 도윤은 손빗자루를 들었다." }
+  - { panel: 7, beat: "Yunseo stops the sweep because the pieces are still in use", continuity_refs: [{ id: prop.low-bench-brush-set.001, version: 1 }, { id: prop.wooden-chair.001, version: 1 }], caption: "윤서는 돌아오자마자, 아직 쓰는 중인 조각이라고 손을 내밀었다." }
+  - { panel: 8, beat: "Soondeok distinguishes a pause from an ending", continuity_refs: [{ id: prop.wooden-chair.001, version: 1 }], caption: "순덕은 자리를 비운 것과 끝낸 것은 다르다고 말했다." }
+  - { panel: 9, beat: "Doyun restores the gathered pieces to the table edge", continuity_refs: [{ id: prop.low-bench-brush-set.001, version: 1 }, { id: prop.wooden-chair.001, version: 1 }], caption: "도윤은 모은 조각을 작업판 가장자리에 다시 펼쳐 놓았다." }
+  - { panel: 10, beat: "Yunseo tests two remaining pieces under a photograph", continuity_refs: [{ id: prop.wooden-chair.001, version: 1 }], caption: "윤서는 남은 두 조각을 사진 아래에 차례로 대어 보았다." }
+  - { panel: 11, beat: "She chooses one reject and moves it to a cleanup pile", continuity_refs: [{ id: prop.wooden-chair.001, version: 1 }], caption: "맞지 않는 하나만 빼서, 쓸어도 되는 더미로 옮겼다." }
+  - { panel: 12, beat: "Doyun leaves the tools on a reachable low hook instead of handing them over", continuity_refs: [{ id: prop.low-bench-brush-set.001, version: 1 }, { id: prop.wooden-chair.001, version: 1 }], caption: "도윤은 빗자루를 건네지 않고, 손이 닿는 낮은 걸이에 내려놓았다." }
+  - { panel: 13, beat: "Yunseo visibly declares the arrangement finished", continuity_refs: [{ id: prop.wooden-chair.001, version: 1 }], caption: "배열을 마친 윤서는 양손을 떼고 작게 고개를 끄덕였다." }
+  - { panel: 14, beat: "Yunseo sweeps only dust and rejected pieces", continuity_refs: [{ id: prop.low-bench-brush-set.001, version: 1 }, { id: prop.wooden-chair.001, version: 1 }], caption: "윤서는 푸른 손빗자루로 가루와 버린 조각만 모았다." }
+  - { panel: 15, beat: "The cream dustpan receives the small pile", continuity_refs: [{ id: prop.low-bench-brush-set.001, version: 1 }, { id: prop.wooden-chair.001, version: 1 }], caption: "크림색 쓰레받기가 작은 더미를 한 번에 받아 냈다." }
+  - { panel: 16, beat: "Yunseo returns both tools to the low hook", continuity_refs: [{ id: prop.low-bench-brush-set.001, version: 1 }, { id: prop.wooden-chair.001, version: 1 }], caption: "윤서는 두 도구를 나무 의자 옆 낮은 걸이에 돌려놓았다." }
+  - { panel: 17, beat: "Doyun installs a matching reachable hook in Seoul", continuity_refs: [{ id: prop.low-bench-brush-set.001, version: 1 }], caption: "서울에 돌아온 도윤은 공유 작업대 곁에도 같은 높이의 걸이를 달았다." }
+  - { panel: 18, beat: "A visitor leaves an unfinished arrangement untouched", continuity_refs: [], caption: "한 방문객은 미완성 조각을 그대로 둔 채 잠시 자리를 비웠다." }
+  - { panel: 19, beat: "The visitor returns, finishes, and sweeps independently", continuity_refs: [{ id: prop.low-bench-brush-set.001, version: 1 }], caption: "돌아온 방문객은 작업을 마친 뒤, 스스로 조각과 가루를 쓸어 냈다." }
+  - { panel: 20, beat: "Doyun watches the chosen ending rather than an empty table", continuity_refs: [{ id: prop.low-bench-brush-set.001, version: 1 }], caption: "깨끗한 자리가 아니라, 끝낼 때를 고른 손이 다음 사람을 맞았다." }

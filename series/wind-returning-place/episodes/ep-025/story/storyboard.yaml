@@ -1,0 +1,26 @@
+episode: ep-025
+template: 03-lyrical-narration-card-comic
+page_count: 20
+caption_strip_height: 210
+core_elements: [{ id: prop.adjustable-clamp-lamp.001, version: 1, panels: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] }]
+pages:
+  - { panel: 1, beat: "Doyun aims a task lamp at a wet print in Seoul", continuity_refs: [{ id: prop.adjustable-clamp-lamp.001, version: 1 }], caption: "서울 작업대에서, 도윤은 젖은 인화지 위로 작업등을 곧게 비췄다." }
+  - { panel: 2, beat: "Glare hides hands and rope in the print", continuity_refs: [{ id: prop.adjustable-clamp-lamp.001, version: 1 }], caption: "밝아진 표면에서는 오히려 사진 속 손과 밧줄이 보이지 않았다." }
+  - { panel: 3, beat: "He carries the adjustable blue lamp to Jeju", continuity_refs: [{ id: prop.adjustable-clamp-lamp.001, version: 1 }], caption: "도윤은 각도를 바꿀 수 있는 푸른 집게등을 들고 제주 작업장으로 갔다." }
+  - { panel: 4, beat: "Yunseo sorts damp image cards at a low table", continuity_refs: [{ id: prop.adjustable-clamp-lamp.001, version: 1 }], caption: "윤서는 낮은 탁자에서 마르지 않은 사진 카드를 나누고 있었다." }
+  - { panel: 5, beat: "Doyun fixes the lamp high and straight down", continuity_refs: [{ id: prop.adjustable-clamp-lamp.001, version: 1 }], caption: "도윤은 잘 보이게 하려며 등을 높이 고정하고 바로 아래로 돌렸다." }
+  - { panel: 6, beat: "White glare covers every damp card", continuity_refs: [{ id: prop.adjustable-clamp-lamp.001, version: 1 }], caption: "젖은 카드마다 흰 반사가 번져, 윤서는 그림을 구별할 수 없었다." }
+  - { panel: 7, beat: "The loose wing nut lets the shade sag", continuity_refs: [{ id: prop.adjustable-clamp-lamp.001, version: 1 }], caption: "윤서가 갓을 옆으로 돌리자 느슨한 나비나사가 다시 아래로 처졌다." }
+  - { panel: 8, beat: "Yunseo stops Doyun from holding it for her", continuity_refs: [{ id: prop.adjustable-clamp-lamp.001, version: 1 }], caption: "도윤이 대신 등을 붙잡으려 하자, 윤서는 먼저 반사부터 보자고 했다." }
+  - { panel: 9, beat: "Soondeok places wet and matte cards side by side", continuity_refs: [{ id: prop.adjustable-clamp-lamp.001, version: 1 }], caption: "순덕은 젖은 카드와 무광 종이를 같은 빛 아래 나란히 놓았다." }
+  - { panel: 10, beat: "The same light behaves differently on each surface", continuity_refs: [{ id: prop.adjustable-clamp-lamp.001, version: 1 }], caption: "빛은 같아도 표면에 따라 보이는 각도가 달랐다." }
+  - { panel: 11, beat: "Doyun repairs the pivot but keeps it movable", continuity_refs: [{ id: prop.adjustable-clamp-lamp.001, version: 1 }], caption: "도윤은 관절이 멈추되 다시 돌릴 수 있을 만큼만 나사를 조였다." }
+  - { panel: 12, beat: "Yunseo moves the clamp to her table edge", continuity_refs: [{ id: prop.adjustable-clamp-lamp.001, version: 1 }], caption: "윤서는 집게를 자기 자리 가까운 탁자 모서리로 옮겼다." }
+  - { panel: 13, beat: "She chooses a low sideways light angle", continuity_refs: [{ id: prop.adjustable-clamp-lamp.001, version: 1 }], caption: "그리고 갓을 낮게 눕혀 젖은 카드 옆으로 빛을 흘려 보냈다." }
+  - { panel: 14, beat: "The rope knot becomes visible", continuity_refs: [{ id: prop.adjustable-clamp-lamp.001, version: 1 }], caption: "흰 반사가 사라지자 사진 속 밧줄의 매듭이 또렷하게 드러났다." }
+  - { panel: 15, beat: "Yunseo chooses a second angle for a dark card", continuity_refs: [{ id: prop.adjustable-clamp-lamp.001, version: 1 }], caption: "윤서는 어두운 카드에는 등을 조금 더 세워 두 번째 각도를 골랐다." }
+  - { panel: 16, beat: "She adjusts the lamp again for the next task", continuity_refs: [{ id: prop.adjustable-clamp-lamp.001, version: 1 }], caption: "순덕은 말없이 다음 카드를 건넸고, 윤서는 스스로 등을 다시 돌렸다." }
+  - { panel: 17, beat: "Doyun mounts two movable lamps in Seoul", continuity_refs: [{ id: prop.adjustable-clamp-lamp.001, version: 1 }], caption: "서울로 돌아온 도윤은 긴 작업대 양쪽에 움직이는 등을 하나씩 달았다." }
+  - { panel: 18, beat: "A visitor lowers one lamp for a bright print", continuity_refs: [{ id: prop.adjustable-clamp-lamp.001, version: 1 }], caption: "한 방문객은 밝은 인화지를 보려고 등을 낮게 눕혔다." }
+  - { panel: 19, beat: "Another visitor raises the other lamp for dark film", continuity_refs: [{ id: prop.adjustable-clamp-lamp.001, version: 1 }], caption: "맞은편 방문객은 어두운 필름을 보려고 다른 등을 곧게 세웠다." }
+  - { panel: 20, beat: "Doyun leaves the light to each worker's hands", continuity_refs: [{ id: prop.adjustable-clamp-lamp.001, version: 1 }], caption: "도윤은 빛을 정해 두지 않고, 각자의 손이 고른 자리로 가게 두었다." }

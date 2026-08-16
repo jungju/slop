@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "contract_id": "wind-story-clarity-v1",
+  "status": "final_locked",
+  "effective_from": "ep-015",
+  "authority": "Mandatory for every newly drafted or substantially rewritten Wind Returning Place outline, script, storyboard, caption set, and final episode.",
+  "reader_contract": {
+    "target_age": "12+",
+    "first_read_comprehension": "required",
+    "hidden_context_required": false,
+    "concrete_story_before_metaphor": true,
+    "concrete_to_lyrical_ratio_minimum": 0.8
+  },
+  "episode_contract": {
+    "central_question_plain_language": true,
+    "protagonist_goal_visible_by_page": 3,
+    "concrete_problem_visible_by_page": 5,
+    "character_choice_changes_next_action": true,
+    "payoff_visually_observable": true
+  },
+  "page_contract": {
+    "required_fields": ["event", "action", "reason", "change", "image_evidence", "caption_role"],
+    "caption_role_allowed": ["what_happened", "what_character_wants", "why_character_acted", "what_changed", "direct_reaction"],
+    "forbidden_caption_functions": ["mood_only", "replace_missing_action", "unseen_event", "symbol_interpretation_required", "visible_image_repetition_only"]
+  },
+  "metaphor": {
+    "allowed": true,
+    "maximum_pages_per_episode": 3,
+    "consecutive_pages_allowed": false,
+    "allowed_page_roles": ["emotional_turn", "final_page"],
+    "visible_anchor_required": true,
+    "prior_concrete_setup_required": true
+  },
+  "language": {
+    "maximum_caption_characters": 65,
+    "maximum_abstract_terms_per_caption": 1,
+    "abstract_terms": ["기억", "마음", "자리", "빛", "바람", "길", "틈", "온기"],
+    "discouraged_endings": ["인지도 몰랐다", "이 되었다", "을 배웠다", "를 배웠다"],
+    "preferred_order": ["fact", "action", "meaning"]
+  },
+  "structure": [
+    {"pages": "1-3", "requirement": "state who wants what"},
+    {"pages": "4-7", "requirement": "show a concrete problem"},
+    {"pages": "8-12", "requirement": "show action and friction or failure"},
+    {"pages": "13-16", "requirement": "show a character choice"},
+    {"pages": "17-19", "requirement": "show the result caused by that choice"},
+    {"pages": "20", "requirement": "close with an already understood concrete image; optional restrained metaphor"}
+  ],
+  "gates": {
+    "outline_lock": "required",
+    "script_lock": "required",
+    "storyboard_lock": "required",
+    "final_review": "required",
+    "failure_blocks_image_generation": true,
+    "failure_blocks_export_and_publish": true,
+    "waiver_policy": "user_approved_or_db_backed"
+  }
+}

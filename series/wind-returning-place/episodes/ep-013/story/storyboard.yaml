@@ -1,0 +1,24 @@
+episode: ep-013
+template: 03-lyrical-narration-card-comic
+page_count: 20
+pages:
+  - { page: 1, beat: cold Seoul gallery and Doyun's hands }
+  - { page: 2, beat: Soondeok's stove photograph }
+  - { page: 3, beat: north wind message and departure }
+  - { page: 4, beat: Jeju repair shed and glowing stove }
+  - { page: 5, beat: anonymous fisherman warms hands }
+  - { page: 6, beat: Doyun assumes ownership }
+  - { page: 7, beat: Soondeok rejects ownership }
+  - { page: 8, beat: kettle steam crosses the doorway }
+  - { page: 9, beat: Yunseo places damp mittens nearby }
+  - { page: 10, beat: Yunseo's direct question }
+  - { page: 11, beat: Soondeok names uncounted warmth }
+  - { page: 12, beat: different hands share the glow }
+  - { page: 13, beat: Doyun photographs sleeves and palms }
+  - { page: 14, beat: Yunseo takes dry mittens home }
+  - { page: 15, beat: return journey and steam memory }
+  - { page: 16, beat: low gallery bench and lamp }
+  - { page: 17, beat: visitor rests without invitation }
+  - { page: 18, beat: anonymous hand photographs hang apart }
+  - { page: 19, beat: lamp remains on for cleaner }
+  - { page: 20, beat: warm, unclaimed final place }

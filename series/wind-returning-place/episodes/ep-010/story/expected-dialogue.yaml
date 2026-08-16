@@ -1,0 +1,106 @@
+episode_id: ep-010
+expected_text:
+  - id: p01-caption
+    panel: 1
+    kind: caption
+    text: 서울 갤러리 입구에 남겨진 우산 하나가, 비보다 오래 그 자리에 서 있었다.
+    required: true
+  - id: p02-caption
+    panel: 2
+    kind: caption
+    text: 도윤은 주인을 찾으려다, 우산 손잡이에 남은 물방울을 먼저 보았다.
+    required: true
+  - id: p03-caption
+    panel: 3
+    kind: caption
+    text: 순덕은 전화 너머로, 기다리는 물건은 가끔 사람보다 말을 적게 한다고 했다.
+    required: true
+  - id: p04-caption
+    panel: 4
+    kind: caption
+    text: 제주 버스 정류장은 비를 피하는 곳보다, 비를 함께 보내는 곳처럼 보였다.
+    required: true
+  - id: p05-caption
+    panel: 5
+    kind: caption
+    text: 순덕은 우산 손잡이를 만지며, 오래 기다린다고 모두 붙드는 건 아니라고 했다.
+    required: true
+  - id: p06-caption
+    panel: 6
+    kind: caption
+    text: 윤서는 작은 두 손으로 우산을 들고 물었다. "기다리면 누가 꼭 돌아와요?"
+    required: true
+  - id: p07-caption
+    panel: 7
+    kind: caption
+    text: 도윤은 대답 대신, 비어 있는 길과 젖은 의자를 함께 바라보았다.
+    required: true
+  - id: p08-caption
+    panel: 8
+    kind: caption
+    text: 늦게 도착한 사람은 우산을 찾는 대신, 잠시 빌려도 되겠냐고 조심히 물었다.
+    required: true
+  - id: p09-caption
+    panel: 9
+    kind: caption
+    text: 버스가 떠난 뒤에도, 정류장에는 누군가를 붙잡지 않은 기다림이 남았다.
+    required: true
+  - id: p10-caption
+    panel: 10
+    kind: caption
+    text: 도윤은 빈자리와 물자국을 찍으며, 늦음과 배려가 늘 같은 말은 아니라는 걸 배웠다.
+    required: true
+  - id: p11-caption
+    panel: 11
+    kind: caption
+    text: 윤서는 자기 우산을 접으며, 누군가 젖지 않게 두는 것도 기다림이냐고 물었다.
+    required: true
+  - id: p12-caption
+    panel: 12
+    kind: caption
+    text: 유리창의 작은 우산 그림은 곧 사라졌지만, 도윤은 그 사라짐까지 오래 보았다.
+    required: true
+  - id: p13-caption
+    panel: 13
+    kind: caption
+    text: 서울로 돌아온 도윤은 전시장 문가에 낮은 벤치와 우산꽂이를 놓았다.
+    required: true
+  - id: p14-caption
+    panel: 14
+    kind: caption
+    text: 사진 옆에는 설명 대신, 잠시 빗물을 털고 앉을 수 있는 자리가 있었다.
+    required: true
+  - id: p15-caption
+    panel: 15
+    kind: caption
+    text: 관람객들은 우산을 세우고, 젖은 손을 내려놓은 뒤에야 사진을 보았다.
+    required: true
+  - id: p16-caption
+    panel: 16
+    kind: caption
+    text: 윤서가 보낸 작은 우산 사진은 아이 눈높이 선반에 따로 기대었다.
+    required: true
+  - id: p17-caption
+    panel: 17
+    kind: caption
+    text: 누군가는 그 앞에서, 기다림이 지연이 아니라 돌봄이었던 시간을 떠올렸다.
+    required: true
+  - id: p18-caption
+    panel: 18
+    kind: caption
+    text: 밤의 우산 그림자는 서울 바닥 위에 젖은 정류장처럼 길게 누웠다.
+    required: true
+  - id: p19-caption
+    panel: 19
+    kind: caption
+    text: 도윤은 여분의 우산 하나를 꽂아 두고, 주인을 쓰지 않은 빈 자리로 남겨 두었다.
+    required: true
+  - id: p20-caption
+    panel: 20
+    kind: caption
+    text: 남겨진 우산은, 기다림도 누군가를 붙드는 대신 비를 건너게 하는 마음이라고 말했다.
+    required: true
+review_rules:
+  block_on_meaning_change: true
+  block_on_fake_or_pseudo_text: true
+  local_lettering_only: true

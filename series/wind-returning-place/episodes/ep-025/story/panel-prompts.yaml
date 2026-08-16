@@ -1,0 +1,29 @@
+episode: ep-025
+template: 03-lyrical-narration-card-comic
+source_art_contract: exactly 20 text-free imagegen reader-facing source pages
+style_lock: restrained Korean webtoon illustration; soft ink linework; visible simplified contour lines; calm flat painterly color blocks; light cel-shaded faces and hands; gentle paper/comic finish; no live action, cinematic still, DSLR photo, hyperreal portrait, generated text, speech bubbles, logos, or watermarks
+reference_assets:
+  - assets/continuity/prop/prop-adjustable-clamp-lamp-001/v001/model-sheet.png
+  - ../assets/episodes/ep-024/characters/wind-returning-place-character-reference.png
+  - ../assets/episodes/ep-024/locations/wind-returning-place-location-reference.png
+pages:
+  - { page: 1, scene: "Seoul workroom, Doyun aims the blue clamp lamp straight down at a wet glossy print" }
+  - { page: 2, scene: "close view, glare hides photographed hands and rope on the wet print" }
+  - { page: 3, scene: "Doyun packs the blue clamp lamp beside his vintage camera bag before leaving for Jeju" }
+  - { page: 4, scene: "Jeju repair shed, child Yunseo sorts damp image cards at a low workbench" }
+  - { page: 5, scene: "Doyun clamps the lamp high and points it vertically down over Yunseo's work" }
+  - { page: 6, scene: "white reflections flare across damp cards while Yunseo squints and cannot distinguish them" }
+  - { page: 7, scene: "Yunseo turns the blue shade sideways but the loose brass elbow sags downward" }
+  - { page: 8, scene: "Yunseo gives a small stop gesture as Doyun reaches to hold the lamp for her" }
+  - { page: 9, scene: "Soondeok places one wet glossy card and one matte card together beneath the lamp" }
+  - { page: 10, scene: "close practical comparison, glare on wet card and clear detail on matte card under same light" }
+  - { page: 11, scene: "Doyun tightens the prominent brass wing nut with a small hand tool while keeping the joint movable" }
+  - { page: 12, scene: "Yunseo unclips and moves the lamp to the table edge nearest her child-height seat" }
+  - { page: 13, scene: "Yunseo lowers the shade sideways so light grazes across the wet card" }
+  - { page: 14, scene: "the reflection disappears and a rope knot in the photograph becomes clearly visible" }
+  - { page: 15, scene: "Yunseo raises the same lamp to a second angle for a darker image card" }
+  - { page: 16, scene: "Soondeok passes another card while Yunseo independently turns the lamp again" }
+  - { page: 17, scene: "Seoul workroom, Doyun installs two matching movable blue clamp lamps at opposite ends of a long print table" }
+  - { page: 18, scene: "one visitor lowers a lamp sideways to examine a bright glossy print" }
+  - { page: 19, scene: "another visitor raises the second lamp more upright to inspect dark film" }
+  - { page: 20, scene: "wide quiet Seoul workroom, two visitors use different lamp angles while Doyun works nearby without intervening" }

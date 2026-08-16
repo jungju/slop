@@ -1,0 +1,14 @@
+{
+  "action": "already_unified",
+  "comicKey": "comic.wind-returning-place",
+  "episodeNo": 5,
+  "episodeSlug": "ep-005",
+  "fromEntityKey": "comic.wind-returning-place-5",
+  "fromPackagePath": "data/services/comic.wind-returning-place",
+  "migratedAt": "2026-08-13T20:37:32Z",
+  "migrationMode": "comic_unified_episode_v2",
+  "targetAssetsPath": "data/services/comic.wind-returning-place/assets/episodes/ep-005",
+  "targetReleasePath": "data/services/comic.wind-returning-place/releases/episodes/ep-005",
+  "targetSourcePath": "data/services/comic.wind-returning-place/source/episodes/ep-005",
+  "title": "고르지 않은 빛"
+}

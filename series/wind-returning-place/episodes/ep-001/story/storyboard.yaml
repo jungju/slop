@@ -1,0 +1,150 @@
+version: 1
+episode_id: ep-001
+title: "바람이 돌아오는 곳"
+page_count: 20
+layout:
+  page_width: 1080
+  page_height: 1600
+  image_box: [60, 110, 960, 960]
+  lettering_zone: [80, 1140, 920, 260]
+pages:
+  - page: 1
+    scene: seoul-night
+    shot: "Seoul subway at night, Doyun slumped with phone glow, crowded but emotionally isolated."
+    characters: [doyoon]
+    props: [messenger-bag]
+    caption: "서울의 밤은 늘 사람으로 가득했지만, 도윤에게는 빈 화면 같았다."
+    lettering_zone: bottom_caption
+  - page: 2
+    scene: seoul-room
+    shot: "Small apartment doorway, brown package, film camera and folded note, Doyun kneeling beside it."
+    characters: [doyoon]
+    props: [package-box, film-camera]
+    caption: "아버지의 이름이 적힌 상자가 문 앞에 놓여 있었다.\n\"바람이 널 데려갈 거다.\""
+    lettering_zone: bottom_caption
+  - page: 3
+    scene: memory
+    shot: "Fragmented memory of young Doyun and father arguing near a ferry terminal, rain and blurred sea."
+    characters: [doyoon, father]
+    props: [film-camera]
+    caption: "제주는 도윤에게 바다보다 먼저 떠오르는 싸움이었다."
+    lettering_zone: bottom_caption
+  - page: 4
+    scene: seoul-room
+    shot: "Doyun at desk in dim room, open suitcase, plane ticket glow on laptop, camera on table."
+    characters: [doyoon]
+    props: [film-camera]
+    caption: "갈 곳이 사라지자, 도윤은 가장 멀리 도망칠 곳을 골랐다."
+    lettering_zone: bottom_caption
+  - page: 5
+    scene: jeju-airport-wind
+    shot: "Airport doors opening to bright Jeju sky, wind lifting Doyun's hair and coat."
+    characters: [doyoon]
+    props: [messenger-bag]
+    caption: "공항 문이 열리자 바람이 먼저 인사를 했다."
+    lettering_zone: bottom_caption
+  - page: 6
+    scene: father-house
+    shot: "Old Jeju stone house, clean wooden porch, dust motes, Doyun at threshold."
+    characters: [doyoon]
+    props: [film-camera]
+    caption: "오래된 집은 비어 있었지만, 기다린 사람처럼 깨끗했다."
+    lettering_zone: bottom_caption
+  - page: 7
+    scene: father-house
+    shot: "Elderly haenyeo Soondeok in sea-colored jacket greeting Doyun beside stone wall."
+    characters: [doyoon, soondeok]
+    props: []
+    caption: "도윤이 맞주? 네 아버지가 매일 기다리던 아들."
+    lettering_zone: dialogue_bottom
+  - page: 8
+    scene: photo-lab
+    shot: "Freshly developed photo in Doyun's hand: small child Doyun laughing with father by the sea."
+    characters: [doyoon, father]
+    props: [film-rolls]
+    caption: "현상된 첫 사진 속에는, 기억보다 먼저 웃음이 있었다."
+    lettering_zone: bottom_caption
+  - page: 9
+    scene: jeju-sea-village
+    shot: "Jeju neighbors showing old photos, father photographing villagers, Doyun listening uneasily."
+    characters: [doyoon, soondeok, father]
+    props: [film-camera, exhibition-prints]
+    caption: "마을은 그를 '떠돈 사람'이 아니라 '남겨둔 사람'으로 기억했다."
+    lettering_zone: bottom_caption
+  - page: 10
+    scene: jeju-sea-village
+    shot: "Doyun standing near dark volcanic rocks, anger and hurt in his face, Soondeok silent nearby."
+    characters: [doyoon, soondeok]
+    props: []
+    caption: "좋은 사람이었으면 왜 나한텐 아니었는데요?"
+    lettering_zone: dialogue_bottom
+  - page: 11
+    scene: memory
+    shot: "Series of photos on table: father watching young Doyun from far away at school, birthday, Seoul station."
+    characters: [doyoon, father]
+    props: [film-rolls]
+    caption: "두 번째 필름에는 도윤이 모르는 아버지의 거리들이 찍혀 있었다."
+    lettering_zone: bottom_caption
+  - page: 12
+    scene: father-house
+    shot: "Doyun on phone beside window, rainy Jeju outside, mother's voice implied by warm phone light."
+    characters: [doyoon, mother]
+    props: [film-camera]
+    caption: "네 아버지, 아픈 걸 끝까지 숨겼어. 네 짐이 되고 싶지 않다면서."
+    lettering_zone: dialogue_bottom
+  - page: 13
+    scene: father-house
+    shot: "Storm night in father's workroom, wind rattling window, Doyun finds old cassette recorder."
+    characters: [doyoon]
+    props: [recorder]
+    caption: "그날 밤 제주 바람은 오래 닫힌 문들을 흔들었다."
+    lettering_zone: bottom_caption
+  - page: 14
+    scene: father-house
+    shot: "Close view of cassette recorder playing, Doyun's hands trembling, father's silhouette in memory."
+    characters: [doyoon, father]
+    props: [recorder]
+    caption: "좋은 아버지는 못 됐다. 그래도 네가 덜 외로웠으면 했다."
+    lettering_zone: dialogue_bottom
+  - page: 15
+    scene: father-house
+    shot: "Doyun sitting on floor among photos, quietly crying, dawn light beginning."
+    characters: [doyoon]
+    props: [film-rolls, film-camera]
+    caption: "원망은 사라지지 않았다. 다만 그 안에 그리움이 섞였다."
+    lettering_zone: bottom_caption
+  - page: 16
+    scene: father-house
+    shot: "Doyun loading the final blank film into camera, calm hands, open door toward bright sea."
+    characters: [doyoon]
+    props: [film-camera, film-rolls]
+    caption: "마지막 필름엔 아직 비어 있는 컷들이 남아 있었다."
+    lettering_zone: bottom_caption
+  - page: 17
+    scene: jeju-sea-village
+    shot: "Doyun photographing sea, stone walls, tangerine tree, bus stop, smiling Soondeok."
+    characters: [doyoon, soondeok]
+    props: [film-camera]
+    caption: "도윤은 아버지의 제주가 아니라, 자기 눈의 제주를 찍기 시작했다."
+    lettering_zone: bottom_caption
+  - page: 18
+    scene: jeju-airport-wind
+    shot: "Doyun holding Seoul ticket at airport, face changed from escape to choice."
+    characters: [doyoon]
+    props: [film-camera]
+    caption: "서울행 표를 끊는 손은 같았지만, 표정은 달라져 있었다."
+    lettering_zone: bottom_caption
+  - page: 19
+    scene: seoul-night
+    shot: "Doyun editing a video project in Seoul, Jeju photos on desk, city lights outside."
+    characters: [doyoon]
+    props: [film-camera, exhibition-prints]
+    caption: "도윤은 영상 프로젝트의 첫 폴더 이름을 이렇게 적었다. 바람이 돌아오는 곳."
+    lettering_zone: bottom_caption
+  - page: 20
+    scene: seoul-gallery
+    shot: "Small exhibition wall: father's photos and Doyun's photos side by side, Doyun looking out at wind between buildings."
+    characters: [doyoon, father]
+    props: [exhibition-prints, film-camera]
+    caption: "돌아간다는 건 과거로 가는 게 아니라, 나를 다시 데려오는 일이었다."
+    lettering_zone: bottom_caption

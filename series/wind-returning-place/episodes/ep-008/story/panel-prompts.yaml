@@ -1,0 +1,55 @@
+episode_id: ep-008
+generation_mode: built-in image_gen
+source_generation_folder: C:\Users\jeong\.codex\generated_images\019f3904-cdf6-7622-bf66-04cbb8d7bd86
+common_prompt_prefix: >
+  Restrained Korean webtoon illustration, soft ink linework, visible simplified
+  contour lines, calm flat painterly color blocks, light cel-shaded faces and
+  hands, gentle paper/comic finish, template-3 lyrical narration-card page
+  grammar. Portrait page, one large illustration panel, off-white margin, clean
+  empty bottom narration-card area for local Korean lettering.
+common_negative: >
+  No readable Korean, no fake text, no logos, no watermark, no speech bubbles,
+  no captions, no brand marks. Avoid live-action, cinematic still, DSLR photo,
+  film frame, hyperreal render, realistic actor likeness, photographic skin,
+  skin pores, lens bokeh, glossy actor lighting, and generated writing.
+pages:
+  - page: 1
+    prompt_summary: Doyun holds a folded ferry ticket at the Seoul gallery threshold.
+  - page: 2
+    prompt_summary: Folded ticket beside Doyun's black-and-silver vintage camera.
+  - page: 3
+    prompt_summary: Soondeok holds a plain ferry ticket at a Jeju terminal bench.
+  - page: 4
+    prompt_summary: Child Yunseo opens a folded ticket corner in a terminal waiting area.
+  - page: 5
+    prompt_summary: Doyun walks the Jeju harbor road before taking photographs.
+  - page: 6
+    prompt_summary: Ferry passengers wait with bags and quiet reasons.
+  - page: 7
+    prompt_summary: Wind tears a ticket corner on the ferry pier.
+  - page: 8
+    prompt_summary: Yunseo folds scrap paper into a small route and opens it.
+  - page: 9
+    prompt_summary: Soondeok walks ahead along a harbor lane.
+  - page: 10
+    prompt_summary: Doyun photographs hands holding plain tickets.
+  - page: 11
+    prompt_summary: Ferry leaves quietly from a wet Jeju harbor.
+  - page: 12
+    prompt_summary: Doyun stands with an unboarded ticket on a quiet pier.
+  - page: 13
+    prompt_summary: Creased ticket under Seoul gallery desk light.
+  - page: 14
+    prompt_summary: Doyun studies the Seoul gallery doorway threshold.
+  - page: 15
+    prompt_summary: Visitors slow while crossing the gallery threshold.
+  - page: 16
+    prompt_summary: Yunseo's folded paper route rests near the low doorway edge.
+  - page: 17
+    prompt_summary: Doyun unfolds the ferry ticket without flattening its crease.
+  - page: 18
+    prompt_summary: Visitor pauses at the ticket crease and looks back.
+  - page: 19
+    prompt_summary: Doyun stands alone in the closed gallery doorway listening.
+  - page: 20
+    prompt_summary: Morning light opens across the creased ticket like a forward route.

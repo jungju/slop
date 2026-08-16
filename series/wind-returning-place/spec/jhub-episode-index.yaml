@@ -1,0 +1,210 @@
+version: 1
+migration_mode: comic_unified_episode_v2
+comic_id: wind-returning-place
+comic_key: comic.wind-returning-place
+comic_kind: serial
+migrated_at: 2026-08-13T20:37:32Z
+episodes:
+  - episode_no: 1
+    episode_slug: ep-001
+    title: "바람이 돌아오는 곳"
+    from_entity_key: comic.wind-returning-place
+    source_path: data/services/comic.wind-returning-place/source/episodes/ep-001
+    assets_path: data/services/comic.wind-returning-place/assets/episodes/ep-001
+    release_path: data/services/comic.wind-returning-place/releases/episodes/ep-001
+  - episode_no: 2
+    episode_slug: ep-002
+    title: "귤빛 엽서"
+    from_entity_key: comic.wind-returning-place-2
+    source_path: data/services/comic.wind-returning-place/source/episodes/ep-002
+    assets_path: data/services/comic.wind-returning-place/assets/episodes/ep-002
+    release_path: data/services/comic.wind-returning-place/releases/episodes/ep-002
+  - episode_no: 3
+    episode_slug: ep-003
+    title: "겨울의 필름"
+    from_entity_key: comic.wind-returning-place-3
+    source_path: data/services/comic.wind-returning-place/source/episodes/ep-003
+    assets_path: data/services/comic.wind-returning-place/assets/episodes/ep-003
+    release_path: data/services/comic.wind-returning-place/releases/episodes/ep-003
+  - episode_no: 4
+    episode_slug: ep-004
+    title: "수선한 끈"
+    from_entity_key: comic.wind-returning-place-4
+    source_path: data/services/comic.wind-returning-place/source/episodes/ep-004
+    assets_path: data/services/comic.wind-returning-place/assets/episodes/ep-004
+    release_path: data/services/comic.wind-returning-place/releases/episodes/ep-004
+  - episode_no: 5
+    episode_slug: ep-005
+    title: "고르지 않은 빛"
+    from_entity_key: comic.wind-returning-place-5
+    source_path: data/services/comic.wind-returning-place/source/episodes/ep-005
+    assets_path: data/services/comic.wind-returning-place/assets/episodes/ep-005
+    release_path: data/services/comic.wind-returning-place/releases/episodes/ep-005
+  - episode_no: 6
+    episode_slug: ep-006
+    title: "바람의 녹음"
+    from_entity_key: comic.wind-returning-place
+    source_path: data/services/comic.wind-returning-place/source/episodes/ep-006
+    assets_path: data/services/comic.wind-returning-place/assets/episodes/ep-006
+    release_path: data/services/comic.wind-returning-place/releases/episodes/ep-006
+  - episode_no: 7
+    episode_slug: ep-007
+    title: "빌린 벽"
+    from_entity_key: comic.wind-returning-place
+    source_path: data/services/comic.wind-returning-place/source/episodes/ep-007
+    assets_path: data/services/comic.wind-returning-place/assets/episodes/ep-007
+    release_path: data/services/comic.wind-returning-place/releases/episodes/ep-007
+  - episode_no: 8
+    episode_slug: ep-008
+    title: "접힌 표"
+    from_entity_key: comic.wind-returning-place
+    source_path: data/services/comic.wind-returning-place/source/episodes/ep-008
+    assets_path: data/services/comic.wind-returning-place/assets/episodes/ep-008
+    release_path: data/services/comic.wind-returning-place/releases/episodes/ep-008
+  - episode_no: 9
+    episode_slug: ep-009
+    title: "겨울 온실"
+    from_entity_key: comic.wind-returning-place
+    source_path: data/services/comic.wind-returning-place/source/episodes/ep-009
+    assets_path: data/services/comic.wind-returning-place/assets/episodes/ep-009
+    release_path: data/services/comic.wind-returning-place/releases/episodes/ep-009
+  - episode_no: 10
+    episode_slug: ep-010
+    title: "남겨진 우산"
+    from_entity_key: comic.wind-returning-place
+    source_path: data/services/comic.wind-returning-place/source/episodes/ep-010
+    assets_path: data/services/comic.wind-returning-place/assets/episodes/ep-010
+    release_path: data/services/comic.wind-returning-place/releases/episodes/ep-010
+  - episode_no: 11
+    episode_slug: ep-011
+    title: "소금빛 손수건"
+    from_entity_key: comic.wind-returning-place
+    source_path: data/services/comic.wind-returning-place/source/episodes/ep-011
+    assets_path: data/services/comic.wind-returning-place/assets/episodes/ep-011
+    release_path: data/services/comic.wind-returning-place/releases/episodes/ep-011
+  - episode_no: 12
+    episode_slug: ep-012
+    title: "돌담의 빈틈"
+    from_entity_key: comic.wind-returning-place
+    source_path: data/services/comic.wind-returning-place/source/episodes/ep-012
+    assets_path: data/services/comic.wind-returning-place/assets/episodes/ep-012
+    release_path: data/services/comic.wind-returning-place/releases/episodes/ep-012
+  - episode_no: 13
+    episode_slug: ep-013
+    title: "온기가 남는 자리"
+    from_entity_key: comic.wind-returning-place
+    source_path: data/services/comic.wind-returning-place/source/episodes/ep-013
+    assets_path: data/services/comic.wind-returning-place/assets/episodes/ep-013
+    release_path: data/services/comic.wind-returning-place/releases/episodes/ep-013
+  - episode_no: 14
+    episode_slug: ep-014
+    title: "열린 서랍"
+    from_entity_key: comic.wind-returning-place
+    source_path: data/services/comic.wind-returning-place/source/episodes/ep-014
+    assets_path: data/services/comic.wind-returning-place/assets/episodes/ep-014
+    release_path: data/services/comic.wind-returning-place/releases/episodes/ep-014
+  - episode_no: 15
+    episode_slug: ep-015
+    title: "남겨 둔 의자"
+    from_entity_key: comic.wind-returning-place
+    source_path: data/services/comic.wind-returning-place/source/episodes/ep-015
+    assets_path: data/services/comic.wind-returning-place/assets/episodes/ep-015
+    release_path: data/services/comic.wind-returning-place/releases/episodes/ep-015
+  - episode_no: 16
+    episode_slug: ep-016
+    title: "돌아가는 쟁반"
+    from_entity_key: comic.wind-returning-place
+    source_path: data/services/comic.wind-returning-place/source/episodes/ep-016
+    assets_path: data/services/comic.wind-returning-place/assets/episodes/ep-016
+    release_path: data/services/comic.wind-returning-place/releases/episodes/ep-016
+  - episode_no: 17
+    episode_slug: ep-017
+    title: "바람을 거르는 망"
+    from_entity_key: comic.wind-returning-place
+    source_path: data/services/comic.wind-returning-place/source/episodes/ep-017
+    assets_path: data/services/comic.wind-returning-place/assets/episodes/ep-017
+    release_path: data/services/comic.wind-returning-place/releases/episodes/ep-017
+  - episode_no: 18
+    episode_slug: ep-018
+    title: "바람을 맞춘 창"
+    from_entity_key: comic.wind-returning-place
+    source_path: data/services/comic.wind-returning-place/source/episodes/ep-018
+    assets_path: data/services/comic.wind-returning-place/assets/episodes/ep-018
+    release_path: data/services/comic.wind-returning-place/releases/episodes/ep-018
+  - episode_no: 19
+    episode_slug: ep-019
+    title: "한 칸을 비운 줄"
+    from_entity_key: comic.wind-returning-place
+    source_path: data/services/comic.wind-returning-place/source/episodes/ep-019
+    assets_path: data/services/comic.wind-returning-place/assets/episodes/ep-019
+    release_path: data/services/comic.wind-returning-place/releases/episodes/ep-019
+  - episode_no: 20
+    episode_slug: ep-020
+    title: "낮아진 손잡이"
+    from_entity_key: comic.wind-returning-place
+    source_path: data/services/comic.wind-returning-place/source/episodes/ep-020
+    assets_path: data/services/comic.wind-returning-place/assets/episodes/ep-020
+    release_path: data/services/comic.wind-returning-place/releases/episodes/ep-020
+  - episode_no: 21
+    episode_slug: ep-021
+    title: "펴 둔 걸이"
+    from_entity_key: comic.wind-returning-place
+    source_path: data/services/comic.wind-returning-place/source/episodes/ep-021
+    assets_path: data/services/comic.wind-returning-place/assets/episodes/ep-021
+    release_path: data/services/comic.wind-returning-place/releases/episodes/ep-021
+  - episode_no: 22
+    episode_slug: ep-022
+    title: "잡을 수 있는 선"
+    from_entity_key: comic.wind-returning-place
+    source_path: data/services/comic.wind-returning-place/source/episodes/ep-022
+    assets_path: data/services/comic.wind-returning-place/assets/episodes/ep-022
+    release_path: data/services/comic.wind-returning-place/releases/episodes/ep-022
+  - episode_no: 23
+    episode_slug: ep-023
+    title: "뒤집을 수 있는 시간"
+    from_entity_key: comic.wind-returning-place
+    source_path: data/services/comic.wind-returning-place/source/episodes/ep-023
+    assets_path: data/services/comic.wind-returning-place/assets/episodes/ep-023
+    release_path: data/services/comic.wind-returning-place/releases/episodes/ep-023
+  - episode_no: 24
+    episode_slug: ep-024
+    title: "물이 머무는 받침"
+    from_entity_key: comic.wind-returning-place
+    source_path: data/services/comic.wind-returning-place/source/episodes/ep-024
+    assets_path: data/services/comic.wind-returning-place/assets/episodes/ep-024
+    release_path: data/services/comic.wind-returning-place/releases/episodes/ep-024
+  - episode_no: 25
+    episode_slug: ep-025
+    title: "돌려 맞춘 빛"
+    from_entity_key: comic.wind-returning-place
+    source_path: data/services/comic.wind-returning-place/source/episodes/ep-025
+    assets_path: data/services/comic.wind-returning-place/assets/episodes/ep-025
+    release_path: data/services/comic.wind-returning-place/releases/episodes/ep-025
+  - episode_no: 26
+    episode_slug: ep-026
+    title: "갈아 둔 천"
+    from_entity_key: comic.wind-returning-place
+    source_path: data/services/comic.wind-returning-place/source/episodes/ep-026
+    assets_path: data/services/comic.wind-returning-place/assets/episodes/ep-026
+    release_path: data/services/comic.wind-returning-place/releases/episodes/ep-026
+  - episode_no: 27
+    episode_slug: ep-027
+    title: "끝나고 쓰는 빗자루"
+    from_entity_key: comic.wind-returning-place
+    source_path: data/services/comic.wind-returning-place/source/episodes/ep-027
+    assets_path: data/services/comic.wind-returning-place/assets/episodes/ep-027
+    release_path: data/services/comic.wind-returning-place/releases/episodes/ep-027
+  - episode_no: 28
+    episode_slug: ep-028
+    title: "옮겨 놓는 칸"
+    from_entity_key: comic.wind-returning-place
+    source_path: data/services/comic.wind-returning-place/source/episodes/ep-028
+    assets_path: data/services/comic.wind-returning-place/assets/episodes/ep-028
+    release_path: data/services/comic.wind-returning-place/releases/episodes/ep-028
+  - episode_no: 29
+    episode_slug: ep-029
+    title: "멈출 수 있는 부채"
+    from_entity_key: comic.wind-returning-place
+    source_path: data/services/comic.wind-returning-place/source/episodes/ep-029
+    assets_path: data/services/comic.wind-returning-place/assets/episodes/ep-029
+    release_path: data/services/comic.wind-returning-place/releases/episodes/ep-029

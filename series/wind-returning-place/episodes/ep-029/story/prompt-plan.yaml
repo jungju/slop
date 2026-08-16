@@ -1,0 +1,35 @@
+version: 1
+episode: ep-029
+provider: OpenAI built-in imagegen
+use_case: illustration-story
+style_lock: restrained Korean webtoon illustration, soft ink linework, visible simplified contour lines, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper comic finish
+global_constraints:
+  - one reader-facing square source illustration per page
+  - no Korean or other readable text in source art
+  - no captions, speech bubbles, fake signs, logos, brands, or watermarks
+  - no live-action, DSLR, cinematic-still, hyperreal, or photographic rendering
+  - Doyun is a slim Korean man age 26 with slightly long black wavy hair, gray hoodie, dark coat, messenger bag, and black-silver film camera
+  - Yunseo is an elementary-school-age Korean girl with a short black bob and practical muted blue Jeju clothes
+  - Soondeok is an elderly Jeju woman with short gray-white hair, sea-colored work outerwear, and a practical wind-weathered posture
+  - prop.paced-folding-fan.001 uses only its canonical model-sheet reference and never a previous episode panel
+pages:
+  - {page: 1, scene: "Seoul shared photo workroom, Doyun places two wet photographic prints before a small electric desk fan"}
+  - {page: 2, scene: "close view of wet print corners curling upward under overly strong fan air"}
+  - {page: 3, scene: "Doyun glances at a plain analog clock and reaches toward the fan speed switch"}
+  - {page: 4, scene: "Jeju worktable, the canonical muted-blue folding fan rests closed beside a wash basin"}
+  - {page: 5, scene: "child Yunseo studies three wet blue-toned leaf silhouette photographs on a low table"}
+  - {page: 6, scene: "a gust lifts one wet print and it lands face-down, Yunseo startled, no text"}
+  - {page: 7, scene: "Yunseo firmly turns off the electric fan while the canonical folding fan lies within reach"}
+  - {page: 8, scene: "Soondeok shows one visibly curled print corner while the folding fan rests nearby"}
+  - {page: 9, scene: "Yunseo opens the canonical folding fan halfway and sits before the first wet print"}
+  - {page: 10, scene: "Yunseo pauses after fanning and leans close to inspect the print surface"}
+  - {page: 11, scene: "Yunseo turns one photo carefully with both hands, open fan set beside it"}
+  - {page: 12, scene: "Doyun starts to reach in, Yunseo raises one small stopping hand, fan and print visible"}
+  - {page: 13, scene: "close view of Yunseo sending a short breeze only toward one wet right corner"}
+  - {page: 14, scene: "Doyun steadies the wobbly table leg while Yunseo independently fans her print above"}
+  - {page: 15, scene: "three prints at different dry stages, Yunseo moves one completed print, fan visible"}
+  - {page: 16, scene: "the stuck test print kept beside the folded fan as practice material, not discarded"}
+  - {page: 17, scene: "Doyun photographs only the folded fan and dry print, no face in camera frame"}
+  - {page: 18, scene: "Seoul shared workshop, Doyun and one adult participant each fan their own print"}
+  - {page: 19, scene: "participant's fan folded while Doyun continues gently fanning only his own print"}
+  - {page: 20, scene: "two dry photographs and two folded muted-blue fans side by side on a quiet worktable"}

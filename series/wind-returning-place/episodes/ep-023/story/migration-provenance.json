@@ -1,0 +1,14 @@
+{
+  "action": "already_unified",
+  "comicKey": "comic.wind-returning-place",
+  "episodeNo": 23,
+  "episodeSlug": "ep-023",
+  "fromEntityKey": "comic.wind-returning-place",
+  "fromPackagePath": "data/services/comic.wind-returning-place",
+  "migratedAt": "2026-08-13T20:37:32Z",
+  "migrationMode": "comic_unified_episode_v2",
+  "targetAssetsPath": "data/services/comic.wind-returning-place/assets/episodes/ep-023",
+  "targetReleasePath": "data/services/comic.wind-returning-place/releases/episodes/ep-023",
+  "targetSourcePath": "data/services/comic.wind-returning-place/source/episodes/ep-023",
+  "title": "뒤집을 수 있는 시간"
+}

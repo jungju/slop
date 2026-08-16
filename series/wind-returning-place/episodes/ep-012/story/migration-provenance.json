@@ -1,0 +1,14 @@
+{
+  "action": "already_unified",
+  "comicKey": "comic.wind-returning-place",
+  "episodeNo": 12,
+  "episodeSlug": "ep-012",
+  "fromEntityKey": "comic.wind-returning-place",
+  "fromPackagePath": "data/services/comic.wind-returning-place",
+  "migratedAt": "2026-08-13T20:37:32Z",
+  "migrationMode": "comic_unified_episode_v2",
+  "targetAssetsPath": "data/services/comic.wind-returning-place/assets/episodes/ep-012",
+  "targetReleasePath": "data/services/comic.wind-returning-place/releases/episodes/ep-012",
+  "targetSourcePath": "data/services/comic.wind-returning-place/source/episodes/ep-012",
+  "title": "돌담의 빈틈"
+}

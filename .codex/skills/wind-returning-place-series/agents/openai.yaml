@@ -1,0 +1,4 @@
+interface:
+  display_name: "Wind Returning Place Series"
+  short_description: "Create and publish the continuing AI comic series"
+  default_prompt: "Use $wind-returning-place-series to create and publish the next episode in this repository."

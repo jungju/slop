@@ -1,0 +1,49 @@
+version: 1
+episode_id: ep-001
+global_style: "Korean webtoon-style digital painting, cinematic but quiet, soft ink line, expressive faces, muted Seoul grays contrasted with airy Jeju blues and volcanic black, no text, no speech bubbles, no logos, no watermarks."
+character_lock: "Doyun is a slim 26-year-old Korean man with slightly long black wavy hair, tired eyes, gray hoodie under a dark coat, old messenger bag; after page 5 he often carries a black-and-silver vintage film camera."
+negative_constraints:
+  - "Do not include readable text, letters, symbols, logos, signs, speech bubbles, caption boxes, or watermarks."
+  - "Do not change Doyun into a different age, gender, hairstyle, or clothing palette."
+  - "Do not make the father physically present in current-day scenes except as memory, photo, or silhouette."
+pages:
+  - page: 1
+    prompt: "Seoul subway at night, Doyun slumped with phone glow, crowded but emotionally isolated."
+  - page: 2
+    prompt: "Small apartment doorway, brown package, vintage film camera and folded note, Doyun kneeling beside it."
+  - page: 3
+    prompt: "Fragmented rainy memory near a ferry terminal, young Doyun arguing with his father, blurred sea behind."
+  - page: 4
+    prompt: "Dim Seoul room, open suitcase, laptop glow, vintage camera on table, Doyun deciding to leave."
+  - page: 5
+    prompt: "Jeju airport doors opening to bright sky, wind lifting Doyun's hair and coat."
+  - page: 6
+    prompt: "Old Jeju stone house with clean wooden porch, dust motes, Doyun at threshold."
+  - page: 7
+    prompt: "Elderly haenyeo Soondeok in sea-colored jacket greeting Doyun beside volcanic stone wall."
+  - page: 8
+    prompt: "Freshly developed photo in Doyun's hand, image shows child Doyun laughing with father by Jeju sea."
+  - page: 9
+    prompt: "Jeju neighbors showing old photos, father in memory photographing villagers, Doyun listening uneasily."
+  - page: 10
+    prompt: "Doyun angry and hurt near dark volcanic rocks, Soondeok silent nearby, windy sea."
+  - page: 11
+    prompt: "Table covered with old photos showing father watching young Doyun from far away at school and station."
+  - page: 12
+    prompt: "Doyun on phone beside rainy Jeju window, warm phone light, quiet shock."
+  - page: 13
+    prompt: "Storm night in father's workroom, wind rattling window, Doyun finds old cassette recorder."
+  - page: 14
+    prompt: "Cassette recorder playing close-up, Doyun's trembling hands, father's soft silhouette in memory."
+  - page: 15
+    prompt: "Doyun sitting on floor among photos, quietly crying as dawn light enters."
+  - page: 16
+    prompt: "Doyun loading final blank film into vintage camera, open door toward bright Jeju sea."
+  - page: 17
+    prompt: "Doyun photographing Jeju sea, stone walls, tangerine tree, bus stop, smiling Soondeok."
+  - page: 18
+    prompt: "Jeju airport, Doyun holding Seoul ticket, face calm and changed from escape to choice."
+  - page: 19
+    prompt: "Doyun editing a video project in Seoul, Jeju photos on desk, city lights outside."
+  - page: 20
+    prompt: "Small Seoul exhibition wall, father's photos and Doyun's photos side by side, Doyun looking out at wind between buildings."

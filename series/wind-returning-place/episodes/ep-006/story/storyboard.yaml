@@ -1,0 +1,85 @@
+episode_id: ep-006
+title: "바람이 돌아오는 곳 6: 바람의 녹음"
+template_id: lyrical-narration-card-comic
+page_count: 20
+pages:
+- page: 1
+  beat: Doyun discovers cassette box in Seoul gallery archive.
+  setting: Seoul gallery archive
+  focal_object: cassette box
+- page: 2
+  beat: Doyun handles an unmarked cassette carefully.
+  setting: Seoul gallery archive table
+  focal_object: cassette tape
+- page: 3
+  beat: First playback is wind and water before words.
+  setting: Seoul gallery archive
+  focal_object: portable recorder and headphones
+- page: 4
+  beat: Doyun calls to ask context without demanding an answer.
+  setting: Seoul gallery archive
+  focal_object: recorder and phone
+- page: 5
+  beat: Doyun returns to Jeju with the wrapped recorder.
+  setting: Jeju road and stone wall
+  focal_object: recorder bundle
+- page: 6
+  beat: Soondeok names the tapes as village sound records.
+  setting: Jeju community room
+  focal_object: cassette boxes
+- page: 7
+  beat: Yunseo asks if wind can be a voice.
+  setting: Jeju community room
+  focal_object: child's hand and recorder
+- page: 8
+  beat: The three walk toward the harbor.
+  setting: Jeju harbor path
+  focal_object: recorder, stone wall, wind
+- page: 9
+  beat: Harbor ropes and water match the tape noise.
+  setting: Jeju harbor pier
+  focal_object: ropes, water, recorder
+- page: 10
+  beat: Soondeok refuses to over-explain the sound.
+  setting: Jeju harbor railing
+  focal_object: Soondeok's hand and recorder
+- page: 11
+  beat: Yunseo listens to a shell or stone.
+  setting: Jeju harbor edge
+  focal_object: child's small hand and stone
+- page: 12
+  beat: Doyun accepts that noise can belong to the record.
+  setting: Jeju stone wall at dusk
+  focal_object: recorder and wind
+- page: 13
+  beat: Doyun prepares the listening bench in Seoul.
+  setting: Seoul gallery worktable
+  focal_object: headphones, photos, cassette
+- page: 14
+  beat: He hangs headphones instead of explanatory text.
+  setting: Seoul gallery wall
+  focal_object: listening bench and headphones
+- page: 15
+  beat: A visitor listens without interpretation.
+  setting: Seoul gallery listening bench
+  focal_object: visitor with headphones
+- page: 16
+  beat: Yunseo places a Jeju stone beside the headphones.
+  setting: Seoul gallery
+  focal_object: child's hand, stone, headphones
+- page: 17
+  beat: Doyun chooses not to remove all tape noise.
+  setting: Seoul gallery sound desk
+  focal_object: audio controls and cassette
+- page: 18
+  beat: Visitors leave the headphones carefully.
+  setting: Seoul gallery
+  focal_object: headphones and Jeju stone
+- page: 19
+  beat: Doyun listens alone after closing.
+  setting: empty Seoul gallery
+  focal_object: bench, recorder, stone
+- page: 20
+  beat: Doyun carries the recorder into dawn.
+  setting: Seoul street at dawn
+  focal_object: recorder, camera, moving air

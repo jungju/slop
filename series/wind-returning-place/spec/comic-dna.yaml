@@ -1,0 +1,39 @@
+version: 1
+comic_id: wind-returning-place
+title: "바람이 돌아오는 곳"
+episode_title: "바람이 돌아오는 곳"
+logline: "서울에서 삶의 방향을 잃은 청년 도윤이 아버지의 유품인 필름 카메라를 따라 제주로 내려가, 오해했던 과거와 자기 시선을 다시 찾아가는 20장 성장 단편."
+genre:
+  - 현실 드라마
+  - 여행 성장물
+  - 가족 회복
+tone:
+  - 잔잔함
+  - 서정적
+  - 감정 절제
+  - 마지막에 따뜻한 여운
+target_audience: "청소년 이상, 가족과 진로에 대한 성장 드라마를 좋아하는 독자"
+rating:
+  age_band: "12+"
+  sensitive_topics:
+    - 부모의 죽음과 그리움
+    - 병을 숨긴 가족의 선택
+  prohibited_content:
+    - 노골적 폭력
+    - 선정성
+    - 혐오 표현
+    - 실제 브랜드 로고
+    - 생성 이미지 안의 가짜 글자
+output:
+  mode: webtoon
+  pages: 20
+  final_webtoon_png: exports/webtoon/wind-returning-place-ep-001-final.png
+  final_pdf: exports/pdf/wind-returning-place-ep-001-final.pdf
+  final_zip: exports/zip/wind-returning-place-ep-001-package.zip
+protected_copy:
+  title: "바람이 돌아오는 곳"
+  closing_line: "돌아간다는 건 과거로 가는 게 아니라, 나를 다시 데려오는 일이었다."
+explicit_exclusions:
+  - "이미지 생성 단계에서 말풍선, 캡션, 로고, 간판 글자를 만들지 않는다."
+  - "제주를 관광 홍보물처럼 과장하지 않는다."
+  - "도윤의 감정 변화를 갑작스러운 화해로 처리하지 않는다."

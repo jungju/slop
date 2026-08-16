@@ -1,0 +1,23 @@
+episode_id: ep-006
+title: "바람이 돌아오는 곳 6: 바람의 녹음"
+template:
+  id: lyrical-narration-card-comic
+  number: 3
+  folder: factories/comic/reference/templates/03-lyrical-narration-card-comic
+page_count: 20
+page_size: 1055x1491
+style_lock: >
+  Restrained Korean webtoon illustration, soft ink linework, visible simplified
+  contour lines, calm flat painterly color blocks, light cel-shaded faces and
+  hands, gentle paper/comic finish, template-3 lyrical narration-card page
+  grammar. Generated art must be text-free and must not read as live-action,
+  cinematic still, DSLR photo, hyperreal render, or realistic actor portrait.
+text_policy:
+  generated_art: no readable Korean, no pseudo-text, no speech bubbles, no logos
+  reader_text: local Korean narration-card lettering only
+motif: old cassette tape, portable recorder, wind noise, listening bench
+core_locations:
+  - Seoul gallery archive
+  - Jeju community room
+  - Jeju harbor
+  - Seoul gallery listening bench

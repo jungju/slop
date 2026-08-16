@@ -1,0 +1,105 @@
+episode: ep-015
+template: 03-lyrical-narration-card-comic
+page_count: 20
+caption_strip_height: 180
+core_elements:
+  - id: prop.wooden-chair.001
+    version: 1
+    panels: [1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20]
+pages:
+  - page: 1
+    beat: Seoul gallery empty chair discovery
+    location: seoul_gallery
+    continuity_refs:
+      - { id: prop.wooden-chair.001, version: 1 }
+  - page: 2
+    beat: Doyun clears prints from chair
+    location: seoul_gallery
+    continuity_refs:
+      - { id: prop.wooden-chair.001, version: 1 }
+  - page: 3
+    beat: Soondeok photo message
+    location: seoul_gallery
+    continuity_refs:
+      - { id: prop.wooden-chair.001, version: 1 }
+  - page: 4
+    beat: Jeju harbor waiting room arrival
+    location: jeju_waiting_room
+  - page: 5
+    beat: unassigned scratched chair
+    location: jeju_waiting_room
+    continuity_refs:
+      - { id: prop.wooden-chair.001, version: 1 }
+  - page: 6
+    beat: Doyun prepares explanation card
+    location: jeju_waiting_room
+    continuity_refs:
+      - { id: prop.wooden-chair.001, version: 1 }
+  - page: 7
+    beat: Soondeok removes tape
+    location: jeju_waiting_room
+    continuity_refs:
+      - { id: prop.wooden-chair.001, version: 1 }
+  - page: 8
+    beat: Doyun waits beside bare chair
+    location: jeju_waiting_room
+    continuity_refs:
+      - { id: prop.wooden-chair.001, version: 1 }
+  - page: 9
+    beat: Yunseo rests with small bag
+    location: jeju_waiting_room
+    continuity_refs:
+      - { id: prop.wooden-chair.001, version: 1 }
+  - page: 10
+    beat: Yunseo chooses to yield seat
+    location: jeju_waiting_room
+    continuity_refs:
+      - { id: prop.wooden-chair.001, version: 1 }
+  - page: 11
+    beat: delivery worker waits at wall
+    location: jeju_waiting_room
+    continuity_refs:
+      - { id: prop.wooden-chair.001, version: 1 }
+  - page: 12
+    beat: Yunseo gets up herself
+    location: jeju_waiting_room
+    continuity_refs:
+      - { id: prop.wooden-chair.001, version: 1 }
+  - page: 13
+    beat: worker ties shoe then leaves
+    location: jeju_waiting_room
+    continuity_refs:
+      - { id: prop.wooden-chair.001, version: 1 }
+  - page: 14
+    beat: Doyun photographs chair legs and traces
+    location: jeju_waiting_room
+    continuity_refs:
+      - { id: prop.wooden-chair.001, version: 1 }
+  - page: 15
+    beat: chair ready again
+    location: jeju_waiting_room
+    continuity_refs:
+      - { id: prop.wooden-chair.001, version: 1 }
+  - page: 16
+    beat: ferry return and folded blank card
+    location: ferry
+  - page: 17
+    beat: Doyun repairs plain Seoul chair
+    location: seoul_gallery
+    continuity_refs:
+      - { id: prop.wooden-chair.001, version: 1 }
+  - page: 18
+    beat: window chair, hook and water
+    location: seoul_gallery
+    continuity_refs:
+      - { id: prop.wooden-chair.001, version: 1 }
+  - page: 19
+    beat: visitor rests in rain
+    location: seoul_gallery
+    continuity_refs:
+      - { id: prop.wooden-chair.001, version: 1 }
+  - page: 20
+    beat: chair remains after closing
+    location: seoul_gallery
+    continuity_refs:
+      - { id: prop.wooden-chair.001, version: 1 }

@@ -1,0 +1,30 @@
+episode: ep-027
+template: 03-lyrical-narration-card-comic
+source_art_contract: exactly 20 text-free imagegen reader-facing source pages
+style_lock: restrained Korean webtoon illustration; soft ink linework; visible simplified contour lines; calm flat painterly color blocks; light cel-shaded faces and hands; gentle paper/comic finish; no live action, cinematic still, DSLR photo, hyperreal portrait, generated text, speech bubbles, logos, or watermarks
+reference_assets:
+  - assets/continuity/prop/prop.wooden-chair.001/v001/model-sheet.png
+  - assets/continuity/prop/prop-low-bench-brush-set-001/v001/model-sheet.png
+  - ../assets/episodes/ep-024/characters/wind-returning-place-character-reference.png
+  - ../assets/episodes/ep-024/locations/wind-returning-place-location-reference.png
+pages:
+  - { page: 1, scene: "Seoul shared workroom, Doyun prematurely sweeps paper pieces from a visitor's low worktable" }
+  - { page: 2, scene: "adult visitor returns and searches the partly cleared table for a missing paper corner" }
+  - { page: 3, scene: "Doyun pauses beside the clean Seoul table with the blue brush in hand" }
+  - { page: 4, scene: "Jeju workroom, child Yunseo marks photo corners at a low table beside the canonical wooden chair" }
+  - { page: 5, scene: "close practical view of an unfinished photo arrangement, paper scraps, and eraser dust" }
+  - { page: 6, scene: "Doyun lifts the canonical cobalt-handled bench brush while Yunseo is away" }
+  - { page: 7, scene: "Yunseo returns and extends one small hand to stop Doyun's sweep" }
+  - { page: 8, scene: "Soondeok points calmly to the unfinished arrangement while Doyun listens" }
+  - { page: 9, scene: "Doyun carefully restores gathered paper pieces along the worktable edge" }
+  - { page: 10, scene: "Yunseo tests two paper corners beneath a photograph, deciding independently" }
+  - { page: 11, scene: "Yunseo moves one rejected piece into a separate small cleanup pile" }
+  - { page: 12, scene: "Doyun places the blue brush and cream dustpan on a reachable low brass hook" }
+  - { page: 13, scene: "Yunseo removes both hands from her completed photo arrangement and nods" }
+  - { page: 14, scene: "Yunseo uses the cobalt-handled horsehair bench brush to collect only dust and rejected scraps" }
+  - { page: 15, scene: "close view of the cream metal dustpan receiving the small swept pile" }
+  - { page: 16, scene: "Yunseo returns the nested brush and dustpan to the low hook beside the wooden chair" }
+  - { page: 17, scene: "Seoul shared workroom, Doyun installs a matching low brass hook beside a worktable" }
+  - { page: 18, scene: "adult visitor leaves a clearly unfinished paper arrangement untouched while stepping away" }
+  - { page: 19, scene: "the visitor returns after finishing and sweeps the discarded pieces independently" }
+  - { page: 20, scene: "wide quiet Seoul workroom, Doyun watches from nearby as the visitor returns the brush set" }

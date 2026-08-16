@@ -1,0 +1,419 @@
+version: 1
+factory_type: comic
+entity_type: comic
+entity_model: comic_unified_episode_v2
+comic_kind: serial
+comic_id: wind-returning-place
+title: "바람이 돌아오는 곳"
+status: complete
+track_key: comic:wind-returning-place:production
+default_episode_track: comic:wind-returning-place:episode:ep-025:production
+default_episode_plan_key: comic:wind-returning-place:episode:ep-025
+output_mode: webtoon
+production_profile: standard_webtoon
+
+workspace:
+  root: data/services/comic.wind-returning-place/source
+  comic_dna: comic-dna.yaml
+  asset_ledger: asset-ledger.yaml
+  continuity_registry: continuity-registry.yaml
+  page_layout_contract: page-layout-contract.yaml
+  story_clarity_contract: story-clarity-contract.yaml
+
+episodes:
+  - id: ep-001
+    number: 1
+    title: "바람이 돌아오는 곳"
+    status: complete
+    migrated_from_entity_key: comic.wind-returning-place
+    outline: episodes/ep-001/outline.md
+    script: episodes/ep-001/script.md
+    storyboard: episodes/ep-001/storyboard.yaml
+    panels_root: episodes/ep-001/panels
+    lettering_root: episodes/ep-001/lettering
+    exports_root: episodes/ep-001/exports
+
+  - id: ep-002
+    number: 2
+    title: "귤빛 엽서"
+    status: complete
+    migrated_from_entity_key: comic.wind-returning-place-2
+    outline: episodes/ep-002/outline.md
+    script: episodes/ep-002/script.md
+    storyboard: episodes/ep-002/storyboard.yaml
+    panels_root: episodes/ep-002/panels
+    lettering_root: episodes/ep-002/lettering
+    exports_root: episodes/ep-002/exports
+
+  - id: ep-003
+    number: 3
+    title: "겨울의 필름"
+    status: complete
+    migrated_from_entity_key: comic.wind-returning-place-3
+    outline: episodes/ep-003/outline.md
+    script: episodes/ep-003/script.md
+    storyboard: episodes/ep-003/storyboard.yaml
+    panels_root: episodes/ep-003/panels
+    lettering_root: episodes/ep-003/lettering
+    exports_root: episodes/ep-003/exports
+
+  - id: ep-004
+    number: 4
+    title: "수선한 끈"
+    status: complete
+    migrated_from_entity_key: comic.wind-returning-place-4
+    outline: episodes/ep-004/outline.md
+    script: episodes/ep-004/script.md
+    storyboard: episodes/ep-004/storyboard.yaml
+    panels_root: episodes/ep-004/panels
+    lettering_root: episodes/ep-004/lettering
+    exports_root: episodes/ep-004/exports
+
+  - id: ep-005
+    number: 5
+    title: "고르지 않은 빛"
+    status: complete
+    migrated_from_entity_key: comic.wind-returning-place-5
+    outline: episodes/ep-005/outline.md
+    script: episodes/ep-005/script.md
+    storyboard: episodes/ep-005/storyboard.yaml
+    panels_root: episodes/ep-005/panels
+    lettering_root: episodes/ep-005/lettering
+    exports_root: episodes/ep-005/exports
+
+  - id: ep-006
+    number: 6
+    title: "바람의 녹음"
+    status: complete
+    migrated_from_entity_key: comic.wind-returning-place
+    outline: episodes/ep-006/outline.md
+    script: episodes/ep-006/script.md
+    storyboard: episodes/ep-006/storyboard.yaml
+    panels_root: episodes/ep-006/panels
+    lettering_root: episodes/ep-006/lettering
+    exports_root: episodes/ep-006/exports
+
+  - id: ep-007
+    number: 7
+    title: "빌린 벽"
+    status: complete
+    migrated_from_entity_key: comic.wind-returning-place
+    outline: episodes/ep-007/outline.md
+    script: episodes/ep-007/script.md
+    storyboard: episodes/ep-007/storyboard.yaml
+    panels_root: episodes/ep-007/panels
+    lettering_root: episodes/ep-007/lettering
+    exports_root: episodes/ep-007/exports
+
+  - id: ep-008
+    number: 8
+    title: "접힌 표"
+    status: complete
+    migrated_from_entity_key: comic.wind-returning-place
+    outline: episodes/ep-008/outline.md
+    script: episodes/ep-008/script.md
+    storyboard: episodes/ep-008/storyboard.yaml
+    panels_root: episodes/ep-008/panels
+    lettering_root: episodes/ep-008/lettering
+    exports_root: episodes/ep-008/exports
+
+  - id: ep-009
+    number: 9
+    title: "겨울 온실"
+    status: complete
+    migrated_from_entity_key: comic.wind-returning-place
+    outline: episodes/ep-009/outline.md
+    script: episodes/ep-009/script.md
+    storyboard: episodes/ep-009/storyboard.yaml
+    panels_root: episodes/ep-009/panels
+    lettering_root: episodes/ep-009/lettering
+    exports_root: episodes/ep-009/exports
+
+  - id: ep-010
+    number: 10
+    title: "남겨진 우산"
+    status: complete
+    migrated_from_entity_key: comic.wind-returning-place
+    outline: episodes/ep-010/outline.md
+    script: episodes/ep-010/script.md
+    storyboard: episodes/ep-010/storyboard.yaml
+    panels_root: episodes/ep-010/panels
+    lettering_root: episodes/ep-010/lettering
+    exports_root: episodes/ep-010/exports
+
+  - id: ep-011
+    number: 11
+    title: "소금빛 손수건"
+    status: complete
+    migrated_from_entity_key: comic.wind-returning-place
+    outline: episodes/ep-011/outline.md
+    script: episodes/ep-011/script.md
+    storyboard: episodes/ep-011/storyboard.yaml
+    panels_root: episodes/ep-011/panels
+    lettering_root: episodes/ep-011/lettering
+    exports_root: episodes/ep-011/exports
+
+  - id: ep-012
+    number: 12
+    title: "돌담의 빈틈"
+    status: complete
+    migrated_from_entity_key: comic.wind-returning-place
+    outline: episodes/ep-012/outline.md
+    script: episodes/ep-012/script.md
+    storyboard: episodes/ep-012/storyboard.yaml
+    panels_root: episodes/ep-012/panels
+    lettering_root: episodes/ep-012/lettering
+    exports_root: episodes/ep-012/exports
+
+  - id: ep-013
+    number: 13
+    title: "온기가 남는 자리"
+    status: complete
+    migrated_from_entity_key: comic.wind-returning-place
+    outline: episodes/ep-013/outline.md
+    script: episodes/ep-013/script.md
+    storyboard: episodes/ep-013/storyboard.yaml
+    panels_root: episodes/ep-013/panels
+    lettering_root: episodes/ep-013/lettering
+    exports_root: episodes/ep-013/exports
+
+  - id: ep-014
+    number: 14
+    title: "열린 서랍"
+    status: complete
+    migrated_from_entity_key: comic.wind-returning-place
+    outline: episodes/ep-014/outline.md
+    script: episodes/ep-014/script.md
+    storyboard: episodes/ep-014/storyboard.yaml
+    panels_root: episodes/ep-014/panels
+    lettering_root: episodes/ep-014/lettering
+    exports_root: episodes/ep-014/exports
+
+  - id: ep-015
+    number: 15
+    title: "남겨 둔 의자"
+    status: complete
+    migrated_from_entity_key: comic.wind-returning-place
+    outline: episodes/ep-015/outline.md
+    script: episodes/ep-015/script.md
+    storyboard: episodes/ep-015/storyboard.yaml
+    panels_root: episodes/ep-015/panels
+    lettering_root: episodes/ep-015/lettering
+    exports_root: episodes/ep-015/exports
+
+  - id: ep-016
+    number: 16
+    title: "돌아가는 쟁반"
+    status: complete
+    migrated_from_entity_key: comic.wind-returning-place
+    outline: episodes/ep-016/outline.md
+    script: episodes/ep-016/script.md
+    storyboard: episodes/ep-016/storyboard.yaml
+    panels_root: episodes/ep-016/panels
+    lettering_root: episodes/ep-016/lettering
+    exports_root: episodes/ep-016/exports
+
+  - id: ep-017
+    number: 17
+    title: "바람을 거르는 망"
+    status: complete
+    migrated_from_entity_key: comic.wind-returning-place
+    outline: episodes/ep-017/outline.md
+    script: episodes/ep-017/script.md
+    storyboard: episodes/ep-017/storyboard.yaml
+    panels_root: episodes/ep-017/panels
+    lettering_root: episodes/ep-017/lettering
+    exports_root: episodes/ep-017/exports
+
+  - id: ep-018
+    number: 18
+    title: "바람을 맞춘 창"
+    status: complete
+    migrated_from_entity_key: comic.wind-returning-place
+    outline: episodes/ep-018/outline.md
+    script: episodes/ep-018/script.md
+    storyboard: episodes/ep-018/storyboard.yaml
+    panels_root: episodes/ep-018/panels
+    lettering_root: episodes/ep-018/lettering
+    exports_root: episodes/ep-018/exports
+
+  - id: ep-019
+    number: 19
+    title: "한 칸을 비운 줄"
+    status: complete
+    migrated_from_entity_key: comic.wind-returning-place
+    outline: episodes/ep-019/outline.md
+    script: episodes/ep-019/script.md
+    storyboard: episodes/ep-019/storyboard.yaml
+    panels_root: episodes/ep-019/panels
+    lettering_root: episodes/ep-019/lettering
+    exports_root: episodes/ep-019/exports
+
+  - id: ep-020
+    number: 20
+    title: "낮아진 손잡이"
+    status: complete
+    migrated_from_entity_key: comic.wind-returning-place
+    outline: episodes/ep-020/outline.md
+    script: episodes/ep-020/script.md
+    storyboard: episodes/ep-020/storyboard.yaml
+    panels_root: episodes/ep-020/panels
+    lettering_root: episodes/ep-020/lettering
+    exports_root: episodes/ep-020/exports
+
+  - id: ep-021
+    number: 21
+    title: "펴 둔 걸이"
+    status: complete
+    migrated_from_entity_key: comic.wind-returning-place
+    outline: episodes/ep-021/outline.md
+    script: episodes/ep-021/script.md
+    storyboard: episodes/ep-021/storyboard.yaml
+    panels_root: episodes/ep-021/panels
+    lettering_root: episodes/ep-021/lettering
+    exports_root: episodes/ep-021/exports
+
+  - id: ep-022
+    number: 22
+    title: "잡을 수 있는 선"
+    status: complete
+    migrated_from_entity_key: comic.wind-returning-place
+    outline: episodes/ep-022/outline.md
+    script: episodes/ep-022/script.md
+    storyboard: episodes/ep-022/storyboard.yaml
+    panels_root: episodes/ep-022/panels
+    lettering_root: episodes/ep-022/lettering
+    exports_root: episodes/ep-022/exports
+
+  - id: ep-023
+    number: 23
+    title: "뒤집을 수 있는 시간"
+    status: complete
+    migrated_from_entity_key: comic.wind-returning-place
+    outline: episodes/ep-023/outline.md
+    script: episodes/ep-023/script.md
+    storyboard: episodes/ep-023/storyboard.yaml
+    panels_root: episodes/ep-023/panels
+    lettering_root: episodes/ep-023/lettering
+    exports_root: episodes/ep-023/exports
+
+  - id: ep-024
+    number: 24
+    title: "물이 머무는 받침"
+    status: complete
+    migrated_from_entity_key: comic.wind-returning-place
+    outline: episodes/ep-024/outline.md
+    script: episodes/ep-024/script.md
+    storyboard: episodes/ep-024/storyboard.yaml
+    panels_root: episodes/ep-024/panels
+    lettering_root: episodes/ep-024/lettering
+    exports_root: episodes/ep-024/exports
+
+  - id: ep-025
+    number: 25
+    title: "돌려 맞춘 빛"
+    status: complete
+    migrated_from_entity_key: comic.wind-returning-place
+    outline: episodes/ep-025/outline.md
+    script: episodes/ep-025/script.md
+    storyboard: episodes/ep-025/storyboard.yaml
+    panels_root: episodes/ep-025/panels
+    lettering_root: episodes/ep-025/lettering
+    exports_root: episodes/ep-025/exports
+
+  - id: ep-026
+    number: 26
+    title: "갈아 둔 천"
+    status: complete
+    migrated_from_entity_key: comic.wind-returning-place
+    outline: episodes/ep-026/outline.md
+    script: episodes/ep-026/script.md
+    storyboard: episodes/ep-026/storyboard.yaml
+    panels_root: episodes/ep-026/panels
+    lettering_root: episodes/ep-026/lettering
+    exports_root: episodes/ep-026/exports
+
+  - id: ep-027
+    number: 27
+    title: "끝나고 쓰는 빗자루"
+    status: complete
+    migrated_from_entity_key: comic.wind-returning-place
+    outline: episodes/ep-027/outline.md
+    script: episodes/ep-027/script.md
+    storyboard: episodes/ep-027/storyboard.yaml
+    panels_root: episodes/ep-027/panels
+    lettering_root: episodes/ep-027/lettering
+    exports_root: episodes/ep-027/exports
+
+  - id: ep-028
+    number: 28
+    title: "옮겨 놓는 칸"
+    status: complete
+    migrated_from_entity_key: comic.wind-returning-place
+    outline: episodes/ep-028/outline.md
+    script: episodes/ep-028/script.md
+    storyboard: episodes/ep-028/storyboard.yaml
+    panels_root: episodes/ep-028/panels
+    lettering_root: episodes/ep-028/lettering
+    exports_root: episodes/ep-028/exports
+
+  - id: ep-029
+    number: 29
+    title: "멈출 수 있는 부채"
+    status: complete
+    migrated_from_entity_key: comic.wind-returning-place
+    outline: episodes/ep-029/outline.md
+    script: episodes/ep-029/script.md
+    storyboard: episodes/ep-029/storyboard.yaml
+    panels_root: episodes/ep-029/panels
+    lettering_root: episodes/ep-029/lettering
+    exports_root: episodes/ep-029/exports
+
+references:
+  characters_root: assets/characters
+  locations_root: assets/locations
+  props_root: assets/props
+  continuity_root: assets/continuity
+  style_bible: bible/style.yaml
+
+validation:
+  page_layout_contract: page-layout-contract.yaml
+  page_layout_contract_verification: verification/layout-contract-v1/verification.md
+  story_clarity_contract: story-clarity-contract.yaml
+  story_clarity_contract_verification: verification/story-clarity-v1/verification.md
+  story_beat_contract: qa/story-beat-contract.md
+  panel_causality_lap: qa/panel-causality-lap.md
+  identity_continuity_matrix: qa/identity-continuity-matrix.md
+  continuity_report: qa/continuity-report.md
+  continuity_reference_gate: qa/continuity-reference-gate.md
+  core_element_continuity_lap: qa/core-element-continuity-lap.md
+  next_episode_continuity_carry_forward: qa/next-episode-continuity-carry-forward.md
+  reference_lock: qa/reference-lock.md
+  layout_contract: qa/layout-contract.md
+  lettering_zone_contract: qa/lettering-zone-contract.md
+  panel_fidelity_map: qa/panel-fidelity-map.md
+  asset_strategy: qa/asset-strategy.md
+  generated_artifact_audit: qa/generated-artifact-audit.md
+  speech_bubble_cleanup: qa/speech-bubble-cleanup.md
+  lettering_collision_sweep: qa/lettering-collision-sweep.md
+  story_image_alignment: qa/story-image-alignment.md
+  reader_comprehension_lap: qa/reader-comprehension-lap.md
+  readability_report: qa/readability-report.md
+  phase_evidence_audit: qa/phase-evidence-audit.md
+  final_review: qa/final-review.md
+
+render_policy:
+  mode: standard_webtoon
+  batch_size: null
+  max_retries_per_panel: null
+  final_page_contract: page-layout-contract.yaml
+  approved_final_reference: verification/layout-contract-v1/page-01-lettered.png
+  integrity_checks:
+    - exact_canvas_size
+    - final_reader_facing_page_role
+    - wind_layout_contract_renderer_v1
+    - no_mixed_page_dimensions
+    - all_pages_pass_before_export
+    - all_pages_pass_before_site_sync
+    - story_clarity_pass_before_image_generation
+    - story_clarity_pass_before_export

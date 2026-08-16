@@ -1,0 +1,530 @@
+version: 1
+factory_type: comic
+comic_id: wind-returning-place
+elements:
+  - id: character.doyun.001
+    name: 한도윤
+    category: character
+    scope: series
+    status: active
+    introduced_in: ep-029
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-029
+        active_until: null
+        supersedes: null
+        immutable_features:
+          - Korean man age 26 with slim build and slightly long wavy black hair
+          - tired but softening dark eyes and restrained posture
+          - gray hoodie under a dark long coat with an old brown messenger bag
+          - black-and-silver vintage film camera when photographing
+        mutable_features:
+          - coat worn open or closed
+          - standing, crouching, reaching, or holding the camera
+          - Seoul or Jeju practical workroom light
+        reference_asset_ids:
+          - character-doyun-001-v1-model-sheet
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: reference_guided
+  - id: character.yunseo.001
+    name: 강윤서
+    category: character
+    scope: series
+    status: active
+    introduced_in: ep-029
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-029
+        active_until: null
+        supersedes: null
+        immutable_features:
+          - elementary-school-age Korean girl with clear child proportions
+          - short straight black bob ending at the jaw with soft blunt bangs
+          - clear direct dark eyes and calm curious posture
+          - muted sea-blue hooded rain jacket, cream sweatshirt, charcoal pants, dark rubber boots
+        mutable_features:
+          - jacket open or closed and hood down
+          - sitting, standing, inspecting, fanning, or carrying a photograph
+          - Jeju indoor or sheltered worktable light
+        reference_asset_ids:
+          - character-yunseo-001-v1-model-sheet
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: reference_guided
+  - id: character.soondeok.001
+    name: 순덕
+    category: character
+    scope: series
+    status: active
+    introduced_in: ep-029
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-029
+        active_until: null
+        supersedes: null
+        immutable_features:
+          - elderly Jeju Korean woman with short gray-white hair
+          - wind-weathered face and grounded practical posture
+          - sea-colored work outerwear over dark practical clothes
+        mutable_features:
+          - gloves on or off
+          - standing beside a table or showing a damaged print
+          - Jeju workroom light and weather
+        reference_asset_ids:
+          - character-soondeok-001-v1-model-sheet
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: reference_guided
+  - id: prop.paced-folding-fan.001
+    name: 멈춰 가며 부치는 푸른 접이식 부채
+    category: prop
+    scope: episode
+    status: active
+    introduced_in: ep-029
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-029
+        active_until: ep-029
+        supersedes: null
+        immutable_features:
+          - small practical hand-held folding fan with slim cream-colored wooden ribs
+          - plain muted cobalt-blue paper leaf with no decorative pattern
+          - one small aged-brass pivot pin
+          - one tiny crescent-shaped wear mark near the lower-left paper edge
+          - no tassel, text, numbers, logo, label, or printed mark
+        mutable_features:
+          - closed, half-open, or fully open state
+          - held by Yunseo, Doyun, or an adult workshop participant
+          - Jeju wet-print worktable or Seoul shared photo workroom
+          - nearby wet prints, dry prints, hands, wash basin, and lighting
+        reference_asset_ids:
+          - prop-paced-folding-fan-001-v1-model-sheet
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: reference_guided
+  - id: prop.removable-divider-sorting-tray.001
+    name: 옮겨 쓰는 푸른 칸막이 사진 쟁반
+    category: prop
+    scope: episode
+    status: active
+    introduced_in: ep-028
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-028
+        active_until: ep-028
+        supersedes: null
+        immutable_features:
+          - shallow rectangular cream-painted wooden sorting tray with rounded outer corners
+          - six evenly spaced narrow brass-lined divider grooves along each long inner wall
+          - exactly three removable muted cobalt-blue wooden dividers with rounded top edges
+          - one small triangular paint chip on the tray's front-right outer corner
+          - no text, numbers, logo, label, or printed mark
+        mutable_features:
+          - dividers seated in different grooves or laid loose beside the tray
+          - empty or holding photographic prints in unequal groups
+          - Jeju workroom or Seoul shared workroom lighting
+        reference_asset_ids:
+          - prop-removable-divider-sorting-tray-001-v1-model-sheet
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: reference_guided
+  - id: prop.low-bench-brush-set.001
+    name: 끝나고 쓰는 낮은 손빗자루 세트
+    category: prop
+    scope: episode
+    status: active
+    introduced_in: ep-027
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-027
+        active_until: ep-027
+        supersedes: null
+        immutable_features:
+          - compact bench brush with muted cobalt-blue painted wooden handle
+          - short dense natural brown horsehair bristles in a straight row
+          - shallow cream enamel metal dustpan with rounded corners
+          - small aged-brass hanging loops allowing the brush to nest over the dustpan
+          - no text, numbers, logo, label, or printed mark
+        mutable_features:
+          - hanging, held, sweeping, nested, or resting beside a low worktable
+          - Jeju repair workroom or Seoul shared workroom
+          - nearby paper scraps, eraser dust, photographs, hands, chair, and lighting
+        reference_asset_ids:
+          - prop-low-bench-brush-set-001-v1-model-sheet
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: reference_guided
+  - id: prop.replaceable-chair-cover.001
+    name: 갈아 두는 푸른 의자 덮개
+    category: prop
+    scope: episode
+    status: active
+    introduced_in: ep-026
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-026
+        active_until: ep-026
+        supersedes: null
+        immutable_features:
+          - muted cobalt-blue washed canvas seat-and-lower-back cover
+          - narrow cream cotton binding around the entire edge
+          - one cream cotton tie at each rear corner
+          - one small cream crescent-shaped repaired patch near the front-left seat edge
+          - practical washable layer with no text, logo, label, or printed mark
+        mutable_features:
+          - wet, rinsed, drying, folded, or tied onto the wooden chair
+          - Jeju repair workroom or Seoul shared workroom
+          - nearby hands, basket, shelf, raincoat, and lighting
+        reference_asset_ids:
+          - prop-replaceable-chair-cover-001-v1-model-sheet
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: reference_guided
+  - id: prop.adjustable-clamp-lamp.001
+    name: 돌려 맞추는 푸른 집게 작업등
+    category: prop
+    scope: episode
+    status: active
+    introduced_in: ep-025
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-025
+        active_until: ep-025
+        supersedes: null
+        immutable_features:
+          - muted cobalt-blue shallow enamel dome shade
+          - two short aged-brass arm segments joined by one prominent round wing nut at the middle elbow
+          - dark steel spring clamp with two cream rubber jaw pads
+          - small crescent enamel chip on the lower-left rim of the shade
+          - braided cream power cord with no visible brand, label, text, or logo
+        mutable_features:
+          - clamped to a Seoul print table or Jeju repair-shed workbench
+          - shade angle, arm angle, clamp position, light on or off
+          - nearby wet prints, matte cards, hands, and practical work tools
+        reference_asset_ids:
+          - prop-adjustable-clamp-lamp-001-v1-model-sheet
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: reference_guided
+  - id: prop.ceramic-plant-saucer.001
+    name: 물이 머무는 푸른 선 화분 받침
+    category: prop
+    scope: episode
+    status: active
+    introduced_in: ep-024
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-024
+        active_until: ep-024
+        supersedes: null
+        immutable_features:
+          - shallow round ivory crackle-glazed ceramic saucer
+          - muted cobalt-blue hand-painted waterline around the inner wall
+          - one small semicircular drainage notch in the rim
+          - one small brown kiln-freckle cluster near the notch
+          - no text, numbers, logo, or decorative lettering
+        mutable_features:
+          - dry, partly filled, or holding a thin water film
+          - under a small terracotta camellia pot or shown separately
+          - Jeju greenhouse or Seoul workroom window table
+          - camera angle, nearby hands, soil, leaves, and lighting
+        reference_asset_ids:
+          - prop-ceramic-plant-saucer-001-v1-model-sheet
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: reference_guided
+  - id: prop.reversible-sand-timer.001
+    name: 뒤집을 수 있는 푸른 모래시계
+    category: prop
+    scope: episode
+    status: active
+    introduced_in: ep-023
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-023
+        active_until: ep-023
+        supersedes: null
+        immutable_features:
+          - clear hand-sized hourglass with two rounded glass bulbs
+          - muted cobalt-blue sand for a three-minute full flow
+          - aged-brass rectangular top and bottom frames joined by four slim posts
+          - one small movable brass ring marking the one-minute sand level
+          - no numbers, text, logo, or printed scale
+        mutable_features:
+          - upright, inverted, or resting sideways
+          - sand level and flow direction
+          - Jeju wet-work room or Seoul print-drying station
+          - nearby hands, photo paper, trays, and lighting
+        reference_asset_ids:
+          - prop-reversible-sand-timer-001-v1-model-sheet
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: reference_guided
+  - id: prop.removable-guide-rope.001
+    name: 잡을 수 있는 탈착식 안내줄
+    category: prop
+    scope: episode
+    status: active
+    introduced_in: ep-022
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-022
+        active_until: ep-022
+        supersedes: null
+        immutable_features:
+          - blue-and-cream braided rope
+          - galvanized steel snap hooks at both ends
+          - single red stitched hand loop near one end
+          - light salt wear without broken fibers
+        mutable_features:
+          - coiled, stretched, sagging, or tensioned state
+          - Jeju harbor posts or Seoul gallery ramp anchors
+          - wet or dry surface and lighting
+        reference_asset_ids:
+          - prop-removable-guide-rope-001-v1-model-sheet
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: reference_guided
+  - id: prop.folding-raincoat-hook.001
+    name: 펴 둔 접이식 우비 걸이
+    category: prop
+    scope: episode
+    status: active
+    introduced_in: ep-021
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-021
+        active_until: ep-021
+        supersedes: null
+        immutable_features:
+          - aged-brass rounded-rectangle wall plate
+          - two visible dark screw heads
+          - short hinged arm that folds flush against the plate
+          - blunt upturned tip when open
+          - one shallow diagonal scratch beside the hinge
+        mutable_features:
+          - folded or open state
+          - Jeju weathered repair-shed wall or Seoul pale workroom wall
+          - wet raincoat, gloves, camera angle, and lighting
+        reference_asset_ids:
+          - prop-folding-raincoat-hook-001-v1-model-sheet
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: reference_guided
+  - id: prop.low-brass-door-handle.001
+    name: 낮아진 황동 문손잡이
+    category: prop
+    scope: episode
+    status: active
+    introduced_in: ep-020
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-020
+        active_until: ep-020
+        supersedes: null
+        immutable_features:
+          - short horizontal aged-brass lever with rounded rectangular grip
+          - narrow oval brass backplate with two visible dark screws
+          - one shallow diagonal scratch near the lever root
+          - installed as a second lower handle beneath an older matching adult-height handle
+        mutable_features:
+          - Jeju weathered green-gray wooden door or Seoul pale workroom door
+          - wet glove, bare hand, child hand, and camera angle
+          - polished or rain-dulled surface
+        reference_asset_ids:
+          - prop-low-brass-door-handle-001-v1-model-sheet
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: reference_guided
+  - id: prop.blue-clothespin-line.001
+    name: 한 칸을 비운 파란 집게 건조줄
+    category: prop
+    scope: episode
+    status: active
+    introduced_in: ep-019
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-019
+        active_until: ep-019
+        supersedes: null
+        immutable_features:
+          - taut cream cotton drying line between two dark wooden posts
+          - matte cobalt-blue wooden clothespins with simple steel springs
+          - one blue boundary pin marks the start of a deliberately open span
+          - practical shared drying equipment, never a decorative installation
+        mutable_features:
+          - number and spacing of hanging photographs, cloths, or posters
+          - Jeju courtyard or Seoul workroom surroundings
+          - daylight, dusk light, and wind movement
+        reference_asset_ids:
+          - prop-blue-clothespin-line-001-v1-model-sheet
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: reference_guided
+  - id: prop.window-stay.001
+    name: 바람을 맞추는 황동 창 고정쇠
+    category: prop
+    scope: episode
+    status: active
+    introduced_in: ep-018
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-018
+        active_until: ep-018
+        supersedes: null
+        immutable_features:
+          - small aged brass sliding window stay with a narrow rectangular rail
+          - round thumb knob and three visible adjustment notches
+          - warm dulled brass, one small dark scratch beside the middle notch
+          - mounted inside a pale wooden casement window; it sets a narrow opening and is never decorative jewelry
+        mutable_features:
+          - open position among the three notches
+          - camera angle, season light, nearby paper, curtain, or hands
+        reference_asset_ids:
+          - prop-window-stay-001-v1-model-sheet
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: reference_guided
+  - id: prop.green-wind-net.001
+    name: 바람을 거르는 초록 방풍망
+    category: prop
+    scope: episode
+    status: active
+    introduced_in: ep-017
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-017
+        active_until: ep-017
+        supersedes: null
+        immutable_features:
+          - muted dark-green polyethylene mesh with a regular square weave
+          - slightly frayed repaired edge and thin natural-fiber tie
+          - air and light visibly pass through the mesh
+          - used as a working wind filter, never a decorative museum object
+        mutable_features:
+          - rolled or stretched state
+          - camera angle, lighting, and surrounding garden or workroom
+          - loose leaves or small harbor debris caught temporarily in the weave
+        reference_asset_ids:
+          - prop-green-wind-net-001-v1-model-sheet
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: reference_guided
+  - id: prop.blue-enamel-tray.001
+    name: 돌아가는 파란 법랑 쟁반
+    category: prop
+    scope: episode
+    status: active
+    introduced_in: ep-016
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-016
+        active_until: ep-016
+        supersedes: null
+        immutable_features:
+          - shallow rectangular blue enamel body with rounded corners
+          - dark navy rolled rim
+          - one pale-metal crescent chip at front-left rim
+          - three faint parallel scratches at center
+          - no handles and no compartments
+        mutable_features:
+          - camera angle and crop
+          - loaded bowls or cups
+          - lighting and surrounding room
+          - surface wetness after washing
+        reference_asset_ids:
+          - prop-blue-enamel-tray-001-v1-model-sheet
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: reference_guided
+  - id: prop.wooden-chair.001
+    name: 남겨 둔 나무 의자
+    category: prop
+    scope: series
+    status: active
+    introduced_in: ep-015
+    fidelity: structural
+    current_version: 1
+    migration:
+      source_episode: ep-015
+      canonical_source_panel: 12
+      baseline_work: W260713-013
+      historical_panel_drift_waived: true
+      future_enforcement_from: ep-016
+      note: Existing published ep-015 panels remain historical evidence; future generation must start from the dedicated canonical copy, not from an episode panel.
+    versions:
+      - version: 1
+        active_from: ep-015
+        active_until: null
+        supersedes: null
+        immutable_features:
+          - two tall square side posts
+          - one broad rectangular top back board
+          - five narrow vertical back slats below the top board
+          - no armrests
+          - rectangular worn wooden seat
+          - dark weathered brown wood with visible scratches
+          - straight squared wooden legs with low horizontal stretchers
+        mutable_features:
+          - camera angle and crop
+          - scene lighting and color temperature
+          - temporary rain, dust, or surface moisture
+          - surrounding room and nearby people
+        reference_asset_ids:
+          - prop-wooden-chair-001-v1-model-sheet
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: reference_guided

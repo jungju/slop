@@ -1,0 +1,29 @@
+version: 1
+episode_id: ep-001
+global_style: "Korean webtoon-style digital painting, soft ink line, painterly watercolor texture, quiet emotional drama, winter Seoul gray-white, Jeju sea blue-green, lighthouse amber, muted tangerine echoes, volcanic black, no text, no speech bubbles, no logos, no watermarks."
+character_lock: "Doyun is a slim 26-year-old Korean man with slightly long black wavy hair, gray hoodie under a dark winter coat, old messenger bag, black-and-silver vintage film camera. Yunseo is a 24-year-old Korean woman with short black bob, beige knit, deep green winter coat, small travel bag, calm direct eyes. Soondeok is an elderly Jeju woman with short gray hair and a sea-colored padded jacket."
+negative_constraints:
+  - "Do not include readable text, letters, numbers, symbols, logos, signs, speech bubbles, caption boxes, watermarks, or blank balloons."
+  - "Do not make the father physically present in current-day scenes except as a memory-like photo/film image."
+  - "Do not make the ending romance-first; keep it about memory and forward motion."
+pages:
+  - {page: 1, prompt: "Doyun in winter Seoul gallery receives old film canister near window."}
+  - {page: 2, prompt: "Close-up of old camera bag, hidden film canister, Doyun's hands, no labels."}
+  - {page: 3, prompt: "Warm darkroom light, Doyun sees mostly blurred developed photo strips."}
+  - {page: 4, prompt: "Doyun studies blurred frames at Seoul desk and decides to return to Jeju."}
+  - {page: 5, prompt: "Doyun arrives at cold winter Jeju sea with camera bag and wind."}
+  - {page: 6, prompt: "Soondeok explains storm memory near winter harbor, Doyun listens with film canister."}
+  - {page: 7, prompt: "Yunseo joins Doyun in Jeju winter, green coat, travel bag, sea wind."}
+  - {page: 8, prompt: "Doyun and Yunseo walk toward old lighthouse through volcanic coastal path."}
+  - {page: 9, prompt: "Doyun holds blank/blurred film frame against winter sea light."}
+  - {page: 10, prompt: "Night inside old lighthouse, film strips flutter in amber beam, no writing."}
+  - {page: 11, prompt: "Yunseo and Doyun in lighthouse light, Yunseo gestures gently to invisible image."}
+  - {page: 12, prompt: "Doyun decides to exhibit failed light, holding blurred print near lighthouse window."}
+  - {page: 13, prompt: "Seoul gallery worktable, Doyun and Yunseo arrange blurred film works and light table."}
+  - {page: 14, prompt: "Visitors quietly look at pale blurred photographs in Seoul gallery, no labels."}
+  - {page: 15, prompt: "Small child in winter coat looks up at nearly blank framed image, Doyun kneels nearby."}
+  - {page: 16, prompt: "Doyun shines small flashlight behind translucent film while child watches."}
+  - {page: 17, prompt: "Blurred light projection suggests winter sea, wind, and waiting on gallery wall."}
+  - {page: 18, prompt: "Yunseo quietly hangs her first Seoul photo beside blurred film pieces."}
+  - {page: 19, prompt: "Gallery wall where Jeju sea light and Seoul winter window light meet."}
+  - {page: 20, prompt: "Doyun at gallery window holding film frame, peaceful forward-looking ending."}

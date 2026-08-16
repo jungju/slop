@@ -1,0 +1,29 @@
+episode: ep-013
+title: "바람이 돌아오는 곳 13: 온기가 남는 자리"
+lettering_mode: local_template3_narration_cards
+factory_profile_exception: "The Wind series hard rule forbids generated Korean/fake text and requires local lettering; this overrides the standard sample-image baked-text expectation."
+expected_text:
+  - { page: 1, text: "비가 갠 서울 전시장에서는, 손끝의 차가움이 더 또렷했다." }
+  - { page: 2, text: "순덕이 보낸 사진에는, 제주 수리소 문 앞의 작은 난로가 찍혀 있었다." }
+  - { page: 3, text: "북풍이 시작되면, 누군가는 그 난로에 숯을 더했다." }
+  - { page: 4, text: "도윤이 도착한 아침, 낡은 난로는 문 바깥에서 조용히 빛나고 있었다." }
+  - { page: 5, text: "한 어부가 말없이 손을 녹이고는, 이름도 남기지 않은 채 길을 건넜다." }
+  - { page: 6, text: "도윤은 그 난로가 수리소 주인의 것인 줄 알았다." }
+  - { page: 7, text: "순덕은 고개를 저었다. \"추운 사람들 것이지.\"" }
+  - { page: 8, text: "주전자에서 나온 김은 열린 문과 바람 사이에서 천천히 접혔다." }
+  - { page: 9, text: "윤서는 젖은 장갑을 난로 곁에 가지런히 놓았다." }
+  - { page: 10, text: "\"난로는 누구를 기다려요?\"" }
+  - { page: 11, text: "순덕은 따뜻한 곳은 온 사람 수를 세지 않아도 된다고 말했다." }
+  - { page: 12, text: "늙은 손과 어린 손, 기름 묻은 손이 잠깐씩 같은 빛을 나누었다." }
+  - { page: 13, text: "도윤은 얼굴 대신 소매와 손바닥만 카메라에 담았다." }
+  - { page: 14, text: "장갑이 마르자 윤서는 말했다. \"이제 집에 가도 되겠네.\"" }
+  - { page: 15, text: "서울로 돌아오는 길에도, 문 밖의 김은 오래 눈앞에 남았다." }
+  - { page: 16, text: "도윤은 전시장 벽 곁에 낮은 나무 벤치와 작은 등을 놓았다." }
+  - { page: 17, text: "앉으라는 말은 없었지만, 누군가는 그 위에 손을 얹고 오래 쉬었다." }
+  - { page: 18, text: "익명으로 남은 손들의 사진은, 서로의 빈자리도 남긴 채 걸렸다." }
+  - { page: 19, text: "문을 닫은 뒤에도 도윤은 청소하는 사람을 위해 작은 등을 켜 두었다." }
+  - { page: 20, text: "온기가 남는 자리는, 돌아오라고 부르지 않아도 오래 열려 있었다." }
+review_rules:
+  generated_text_forbidden: true
+  local_lettering_only: true
+  panel_count: 20

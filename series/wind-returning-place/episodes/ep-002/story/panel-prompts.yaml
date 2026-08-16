@@ -1,0 +1,49 @@
+version: 1
+episode_id: ep-001
+global_style: "Korean webtoon-style digital painting, soft ink line, subtle watercolor texture, quiet emotional drama, Seoul gallery whites and grays contrasted with autumn Jeju tangerine orange, sea blue-green, and volcanic black, no text, no speech bubbles, no logos, no watermarks."
+character_lock: "Doyun is a slim 26-year-old Korean man with slightly long black wavy hair, gray hoodie under a dark coat, old messenger bag, black-and-silver vintage film camera. Yunseo is a 24-year-old Korean woman with a short black bob, beige knit, green jacket, small travel bag, calm but guarded eyes. Soondeok is an elderly Jeju haenyeo woman with short gray hair and sea-colored windbreaker."
+negative_constraints:
+  - "Do not include readable text, letters, symbols, logos, signs, speech bubbles, caption boxes, or watermarks."
+  - "Do not make the father physically present in current-day scenes except as a photo/memory."
+  - "Do not make Doyun solve Yunseo's choice for her."
+pages:
+  - page: 1
+    prompt: "Doyun at his small Seoul exhibition desk, orange postcard on table, framed photos behind."
+  - page: 2
+    prompt: "Close-up of orange postcard and old tangerine orchard photo, Doyun's hands, no visible writing."
+  - page: 3
+    prompt: "Doyun by Seoul window at night, packed camera bag, city behind him, hesitant but resolved."
+  - page: 4
+    prompt: "Autumn Jeju tangerine road, wind, Doyun stepping into warm orange light."
+  - page: 5
+    prompt: "Soondeok points toward an old road near tangerine trees, Doyun listens."
+  - page: 6
+    prompt: "Yunseo with short black bob, green jacket, small suitcase outside tangerine storage building."
+  - page: 7
+    prompt: "Yunseo confronts Doyun among tangerine trees, Doyun holds camera lowered and listens."
+  - page: 8
+    prompt: "Doyun alone at bus stop by sea, thinking about his past, wind moving his coat."
+  - page: 9
+    prompt: "Doyun opens old envelope with blank orange postcards and photo sleeves, no writing."
+  - page: 10
+    prompt: "Doyun and Yunseo enter dusty tangerine storage, shafts of light, wood crates."
+  - page: 11
+    prompt: "Yunseo holds old photo of her young mother smiling in tangerine orchard, emotional close-up."
+  - page: 12
+    prompt: "Yunseo and Doyun sit at quiet seaside bus stop, suitcase between them, sea wind."
+  - page: 13
+    prompt: "Sunlit close-up of old photo, orange postcard, and Yunseo's hands, message of release."
+  - page: 14
+    prompt: "Doyun speaks gently to Yunseo on tangerine road, camera lowered, respectful distance."
+  - page: 15
+    prompt: "Yunseo photographs her own Jeju: tangerines, wind, stone wall, Doyun in background."
+  - page: 16
+    prompt: "Yunseo standing at seaside bus stop with suitcase, Doyun beside her, calm choice."
+  - page: 17
+    prompt: "Doyun back in Seoul arranging photos and blank orange postcards on desk, editing differently."
+  - page: 18
+    prompt: "Yunseo enters Seoul gallery after interview carrying small suitcase, Doyun surprised and glad."
+  - page: 19
+    prompt: "Gallery wall of photos and orange postcards, Doyun and Yunseo hang old mother photo."
+  - page: 20
+    prompt: "Final gallery window, orange postcard in Doyun's hand, Seoul wind and Jeju tangerine light blended."

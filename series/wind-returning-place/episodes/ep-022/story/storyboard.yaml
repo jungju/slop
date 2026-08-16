@@ -1,0 +1,26 @@
+episode: ep-022
+template: 03-lyrical-narration-card-comic
+page_count: 20
+caption_strip_height: 210
+core_elements: [{ id: prop.removable-guide-rope.001, version: 1, panels: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] }]
+pages:
+  - { panel: 1, beat: "Doyun coils the guide rope in Seoul", continuity_refs: [{ id: prop.removable-guide-rope.001, version: 1 }], caption: "서울 작업실에서, 도윤은 파란색과 미색이 섞인 줄을 천천히 감았다." }
+  - { panel: 2, beat: "A photo shows wet Jeju steps", continuity_refs: [{ id: prop.removable-guide-rope.001, version: 1 }], caption: "사진 속 제주 포구 계단에는 비가 지나간 물기가 남아 있었다." }
+  - { panel: 3, beat: "He carries the rope to Jeju", continuity_refs: [{ id: prop.removable-guide-rope.001, version: 1 }], caption: "도윤은 양끝에 고리가 달린 줄을 가방에 넣어 제주로 갔다." }
+  - { panel: 4, beat: "Yunseo pauses at the wet steps", continuity_refs: [{ id: prop.removable-guide-rope.001, version: 1 }], caption: "윤서는 젖은 계단 앞에서 발을 멈추고 손을 비워 두었다." }
+  - { panel: 5, beat: "Doyun clips the rope too high", continuity_refs: [{ id: prop.removable-guide-rope.001, version: 1 }], caption: "도윤은 두 기둥 사이 높은 곳에 줄을 걸었다." }
+  - { panel: 6, beat: "Yunseo cannot reach comfortably", continuity_refs: [{ id: prop.removable-guide-rope.001, version: 1 }], caption: "윤서가 팔을 뻗었지만 손끝만 줄에 닿았다." }
+  - { panel: 7, beat: "Soondeok rejects decoration", continuity_refs: [{ id: prop.removable-guide-rope.001, version: 1 }], caption: "순덕은 잡을 수 없는 줄은 장식과 다르지 않다고 말했다." }
+  - { panel: 8, beat: "Doyun removes the first placement", continuity_refs: [{ id: prop.removable-guide-rope.001, version: 1 }], caption: "도윤은 설명하는 대신 두 고리를 다시 풀었다." }
+  - { panel: 9, beat: "Yunseo marks her hand height", continuity_refs: [{ id: prop.removable-guide-rope.001, version: 1 }], caption: "윤서는 계단 옆 기둥에 자기 손이 편한 높이를 짚었다." }
+  - { panel: 10, beat: "Soondeok load-tests the hooks", continuity_refs: [{ id: prop.removable-guide-rope.001, version: 1 }], caption: "순덕은 두 손으로 줄을 당겨 고리가 버티는지 살폈다." }
+  - { panel: 11, beat: "The middle sags", continuity_refs: [{ id: prop.removable-guide-rope.001, version: 1 }], caption: "긴 줄의 가운데는 젖은 돌 가까이까지 처졌다." }
+  - { panel: 12, beat: "Doyun shortens span and adds loop", continuity_refs: [{ id: prop.removable-guide-rope.001, version: 1 }], caption: "도윤은 간격을 줄이고 가운데 붉은 고리를 한 번 더 걸었다." }
+  - { panel: 13, beat: "Yunseo checks the new tension", continuity_refs: [{ id: prop.removable-guide-rope.001, version: 1 }], caption: "윤서는 한 손으로 줄을 눌러 높이와 팽팽함을 확인했다." }
+  - { panel: 14, beat: "She chooses the red loop", continuity_refs: [{ id: prop.removable-guide-rope.001, version: 1 }], caption: "윤서는 가장 편한 붉은 고리를 스스로 골라 잡았다." }
+  - { panel: 15, beat: "Yunseo crosses independently", continuity_refs: [{ id: prop.removable-guide-rope.001, version: 1 }], caption: "그 손을 따라 윤서는 젖은 계단을 자기 속도로 건넜다." }
+  - { panel: 16, beat: "Soondeok unclips it after drying", continuity_refs: [{ id: prop.removable-guide-rope.001, version: 1 }], caption: "길이 마르자 순덕은 줄을 풀어 벽의 고리에 가볍게 감아 두었다." }
+  - { panel: 17, beat: "Doyun installs low anchors in Seoul", continuity_refs: [{ id: prop.removable-guide-rope.001, version: 1 }], caption: "서울로 돌아온 도윤은 경사로 옆 낮은 곳에 고리를 달았다." }
+  - { panel: 18, beat: "He clips a reachable rope", continuity_refs: [{ id: prop.removable-guide-rope.001, version: 1 }], caption: "그는 통로를 막지 않는 높이에 같은 줄을 걸었다." }
+  - { panel: 19, beat: "A visitor uses it without asking", continuity_refs: [{ id: prop.removable-guide-rope.001, version: 1 }], caption: "한 방문객은 길을 묻지 않고 줄을 잡아 천천히 올라왔다." }
+  - { panel: 20, beat: "Doyun leaves it reachable", continuity_refs: [{ id: prop.removable-guide-rope.001, version: 1 }], caption: "도윤은 길을 정하지 않은 채, 잡을 수 있는 선만 남겨 두었다." }

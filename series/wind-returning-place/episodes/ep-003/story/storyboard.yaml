@@ -1,0 +1,23 @@
+version: 1
+episode_id: ep-001
+pages:
+  - {page: 1, beat: "Seoul winter gallery; Doyun receives old film."}
+  - {page: 2, beat: "Camera bag and hidden film reveal father connection."}
+  - {page: 3, beat: "Darkroom shows blurred developed images."}
+  - {page: 4, beat: "Doyun studies blurry frames and decides on Jeju."}
+  - {page: 5, beat: "Winter Jeju sea arrival."}
+  - {page: 6, beat: "Soondeok identifies storm memory."}
+  - {page: 7, beat: "Yunseo joins Doyun in Jeju winter."}
+  - {page: 8, beat: "Walk toward old lighthouse."}
+  - {page: 9, beat: "Doyun sees meaning in blank/blurred frames."}
+  - {page: 10, beat: "Night lighthouse, film strips in wind."}
+  - {page: 11, beat: "Yunseo suggests invisible things can be passed on."}
+  - {page: 12, beat: "Doyun chooses failed light as exhibition material."}
+  - {page: 13, beat: "Return to Seoul, prepare blurred film works."}
+  - {page: 14, beat: "Visitors contemplate empty-looking photographs."}
+  - {page: 15, beat: "Child asks what is in the picture."}
+  - {page: 16, beat: "Doyun uses small light behind film instead of explanation."}
+  - {page: 17, beat: "Sea and waiting emerge from blurred light."}
+  - {page: 18, beat: "Yunseo hangs her first Seoul photo."}
+  - {page: 19, beat: "Jeju wind and Seoul winter light meet on wall."}
+  - {page: 20, beat: "Doyun accepts unclear memory as forward light."}

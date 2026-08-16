@@ -1,0 +1,106 @@
+episode_id: ep-004
+expected_text:
+- id: p01-caption
+  panel: 1
+  kind: caption
+  text: 전시 벽을 맞추던 날, 도윤의 카메라 끈이 조용히 끊어졌다.
+  required: true
+- id: p02-caption
+  panel: 2
+  kind: caption
+  text: 끊어진 자리보다 먼저 보인 것은, 오래전에 덧댄 실밥이었다.
+  required: true
+- id: p03-caption
+  panel: 3
+  kind: caption
+  text: 수리공은 새 끈을 권했지만, 도윤은 낡은 자국을 따라가 보기로 했다.
+  required: true
+- id: p04-caption
+  panel: 4
+  kind: caption
+  text: 그는 답을 찾으러 간 것이 아니라, 손때가 남은 길을 따라갔다.
+  required: true
+- id: p05-caption
+  panel: 5
+  kind: caption
+  text: 제주의 바람은 낡은 끈을 잡은 손가락 사이로 먼저 들어왔다.
+  required: true
+- id: p06-caption
+  panel: 6
+  kind: caption
+  text: 순덕은 끈을 보자마자, 오래된 이름을 꺼내지 않고 잠시 웃었다.
+  required: true
+- id: p07-caption
+  panel: 7
+  kind: caption
+  text: 작은 수선집의 문은 낮게 열렸고, 실과 바늘은 아직 그 자리에 있었다.
+  required: true
+- id: p08-caption
+  panel: 8
+  kind: caption
+  text: 주인은 실밥을 만져 보더니, 고친 사람의 손버릇을 알아보았다.
+  required: true
+- id: p09-caption
+  panel: 9
+  kind: caption
+  text: 아버지는 새것을 사는 대신, 버티는 쪽을 자주 골랐다고 했다.
+  required: true
+- id: p10-caption
+  panel: 10
+  kind: caption
+  text: 그 말은 변명이 아니라, 오래 늦게 도착한 생활의 모양이었다.
+  required: true
+- id: p11-caption
+  panel: 11
+  kind: caption
+  text: 바늘은 끊어진 곳을 숨기지 않고, 다시 쓸 수 있을 만큼만 붙잡았다.
+  required: true
+- id: p12-caption
+  panel: 12
+  kind: caption
+  text: 도윤은 완전히 나아진 물건보다, 고친 자리가 보이는 물건을 오래 바라보았다.
+  required: true
+- id: p13-caption
+  panel: 13
+  kind: caption
+  text: 서울로 돌아온 벽에는 여전히 고른 사진들만 얌전히 걸려 있었다.
+  required: true
+- id: p14-caption
+  panel: 14
+  kind: caption
+  text: 윤서는 빈 벽 한쪽을 보며, 거기에도 바람이 지나갈 수 있겠다고 했다.
+  required: true
+- id: p15-caption
+  panel: 15
+  kind: caption
+  text: 도윤은 설명 대신, 끈의 그림자가 닿을 자리를 천천히 비워 두었다.
+  required: true
+- id: p16-caption
+  panel: 16
+  kind: caption
+  text: 사진 사이에 걸린 것은 사진이 아니라, 계속 매고 온 시간의 그림자였다.
+  required: true
+- id: p17-caption
+  panel: 17
+  kind: caption
+  text: 누군가는 그 그림자를 보고, 왜 고친 자국을 숨기지 않았느냐고 물었다.
+  required: true
+- id: p18-caption
+  panel: 18
+  kind: caption
+  text: 도윤은 처음으로, 숨기지 않아도 남는 것들이 있다고 생각했다.
+  required: true
+- id: p19-caption
+  panel: 19
+  kind: caption
+  text: 닫힌 전시장 안에서 낡은 끈은 다시 카메라의 무게를 견뎠다.
+  required: true
+- id: p20-caption
+  panel: 20
+  kind: caption
+  text: 끊어진 자리에서, 바람은 다시 돌아올 길을 배웠다.
+  required: true
+review_rules:
+  block_on_meaning_change: true
+  block_on_fake_or_pseudo_text: true
+  local_lettering_only: true

@@ -20,19 +20,5 @@
       "episodeRange": "4–29화"
     }
   ],
-  "series": [
-    {
-      "id": "wind-returning-place",
-      "slug": "wind-returning-place",
-      "type": "comic",
-      "kind": "series",
-      "status": "ongoing",
-      "title": "바람이 돌아오는 곳",
-      "summary": "서울과 제주 사이, 사진과 바람에 남은 기억을 따라가는 조용한 회복 드라마.",
-      "source": "JHub Comic Factory",
-      "sourceKey": "comic.wind-returning-place",
-      "episodes": []
-    }
-  ],
   "videos": []
 }

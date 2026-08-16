@@ -1,0 +1,26 @@
+episode: ep-021
+template: 03-lyrical-narration-card-comic
+page_count: 20
+caption_strip_height: 210
+core_elements: [{ id: prop.folding-raincoat-hook.001, version: 1, panels: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] }]
+pages:
+  - { panel: 1, beat: "Doyun folds a Seoul wall hook flat", continuity_refs: [{ id: prop.folding-raincoat-hook.001, version: 1 }], caption: "서울 작업실에서, 도윤은 벽의 접이식 걸이를 접어 두었다." }
+  - { panel: 2, beat: "He sees rain on the Jeju forecast", continuity_refs: [{ id: prop.folding-raincoat-hook.001, version: 1 }], caption: "제주에는 오후부터 비가 온다는 예보가 떠 있었다." }
+  - { panel: 3, beat: "He packs a photo of the matching shed wall", continuity_refs: [{ id: prop.folding-raincoat-hook.001, version: 1 }], caption: "도윤은 수리방 벽의 낡은 걸이 사진을 가방에 넣었다." }
+  - { panel: 4, beat: "Yunseo arrives with a wet raincoat", continuity_refs: [{ id: prop.folding-raincoat-hook.001, version: 1 }], caption: "제주에 온 윤서는 젖은 우비를 벗어 의자 위에 올렸다." }
+  - { panel: 5, beat: "The wet coat covers a repair chair", continuity_refs: [{ id: prop.folding-raincoat-hook.001, version: 1 }], caption: "의자는 젖은 우비 때문에 바로 쓸 수 없게 되었다." }
+  - { panel: 6, beat: "Soondeok points to the folded hook", continuity_refs: [{ id: prop.folding-raincoat-hook.001, version: 1 }], caption: "순덕은 벽에 접힌 걸이가 오래전부터 있었다고 말했다." }
+  - { panel: 7, beat: "Doyun says the passage should stay tidy", continuity_refs: [{ id: prop.folding-raincoat-hook.001, version: 1 }], caption: "도윤은 통로가 좁아 걸이를 펴기 망설인다고 답했다." }
+  - { panel: 8, beat: "Yunseo unfolds the hook herself", continuity_refs: [{ id: prop.folding-raincoat-hook.001, version: 1 }], caption: "윤서는 벽의 걸이를 펴고 우비 고리를 걸었다." }
+  - { panel: 9, beat: "The wet coat clears the chair", continuity_refs: [{ id: prop.folding-raincoat-hook.001, version: 1 }], caption: "우비가 벽으로 옮겨가자 의자는 다시 비었다." }
+  - { panel: 10, beat: "Soondeok adds a heavy wet-coat test", continuity_refs: [{ id: prop.folding-raincoat-hook.001, version: 1 }], caption: "순덕은 젖은 장갑과 두꺼운 외투도 버텨야 한다고 덧붙였다." }
+  - { panel: 11, beat: "Doyun measures hinge screws", continuity_refs: [{ id: prop.folding-raincoat-hook.001, version: 1 }], caption: "도윤은 카메라를 내려놓고 걸이의 나사 간격을 쟀다." }
+  - { panel: 12, beat: "They find a sturdy matching hook", continuity_refs: [{ id: prop.folding-raincoat-hook.001, version: 1 }], caption: "세 사람은 창고에서 넓은 받침의 접이식 걸이를 찾았다." }
+  - { panel: 13, beat: "Yunseo selects the open height", continuity_refs: [{ id: prop.folding-raincoat-hook.001, version: 1 }], caption: "윤서는 우비가 바닥에 닿지 않는 높이를 직접 골랐다." }
+  - { panel: 14, beat: "Doyun installs the new hook", continuity_refs: [{ id: prop.folding-raincoat-hook.001, version: 1 }], caption: "도윤은 그 표시대로 새 걸이를 벽에 고정했다." }
+  - { panel: 15, beat: "Soondeok load-tests it", continuity_refs: [{ id: prop.folding-raincoat-hook.001, version: 1 }], caption: "순덕은 젖은 외투와 장갑을 함께 걸어 흔들림을 살폈다." }
+  - { panel: 16, beat: "Yunseo hangs her coat without asking", continuity_refs: [{ id: prop.folding-raincoat-hook.001, version: 1 }], caption: "윤서는 아무에게 묻지 않고 우비를 걸고 안으로 들어갔다." }
+  - { panel: 17, beat: "Doyun marks the Seoul wall", continuity_refs: [{ id: prop.folding-raincoat-hook.001, version: 1 }], caption: "서울로 돌아온 도윤은 작업실 벽에 같은 높이를 표시했다." }
+  - { panel: 18, beat: "He installs a second open hook", continuity_refs: [{ id: prop.folding-raincoat-hook.001, version: 1 }], caption: "그는 출입문 옆에 두 번째 접이식 걸이를 달았다." }
+  - { panel: 19, beat: "A visitor hangs a wet coat first", continuity_refs: [{ id: prop.folding-raincoat-hook.001, version: 1 }], caption: "비를 맞은 방문객은 먼저 외투를 걸고 작업실에 들어왔다." }
+  - { panel: 20, beat: "Doyun leaves the hook open", continuity_refs: [{ id: prop.folding-raincoat-hook.001, version: 1 }], caption: "도윤은 빈 의자와 펴 둔 걸이를 보고, 통로를 그대로 두었다." }
