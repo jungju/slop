@@ -1,0 +1,54 @@
+episode_id: ep-006
+generation_mode: built-in image_gen
+common_prompt_prefix: >
+  Restrained Korean webtoon illustration, soft ink linework, visible simplified
+  contour lines, calm flat painterly color blocks, light cel-shaded faces and
+  hands, gentle paper/comic finish, template-3 lyrical narration-card page
+  grammar. Portrait page, one large illustration panel, off-white margin, clean
+  empty bottom narration-card area for local Korean lettering.
+common_negative: >
+  No readable Korean, no fake text, no logos, no watermark, no speech bubbles,
+  no captions, no brand marks. Avoid live-action, cinematic still, DSLR photo,
+  film frame, hyperreal render, realistic actor likeness, photographic skin,
+  skin pores, lens bokeh, glossy actor lighting, and generated writing.
+pages:
+- page: 1
+  prompt_summary: Doyun finds old cassette box in Seoul gallery archive.
+- page: 2
+  prompt_summary: Doyun holds unmarked cassette to gray gallery window light.
+- page: 3
+  prompt_summary: Doyun listens to portable recorder; abstract wind/sea shapes.
+- page: 4
+  prompt_summary: Doyun phones Soondeok beside open recorder.
+- page: 5
+  prompt_summary: Doyun arrives on windy Jeju road with recorder bundle.
+- page: 6
+  prompt_summary: Soondeok and Doyun in Jeju community room with tape boxes.
+- page: 7
+  prompt_summary: Child Yunseo touches recorder and asks a small question.
+- page: 8
+  prompt_summary: Doyun, Soondeok, and Yunseo walk toward harbor.
+- page: 9
+  prompt_summary: Close harbor ropes, wet stone, recorder, and listening hands.
+- page: 10
+  prompt_summary: Soondeok's hand on harbor railing, recorder between them.
+- page: 11
+  prompt_summary: Yunseo listens to a small shell or stone near harbor.
+- page: 12
+  prompt_summary: Doyun at dusk on Jeju stone wall accepting tape noise.
+- page: 13
+  prompt_summary: Doyun prepares cassette, headphones, photos in Seoul gallery.
+- page: 14
+  prompt_summary: Listening bench and headphones on blank gallery wall.
+- page: 15
+  prompt_summary: Gallery visitor listens while Doyun stays back.
+- page: 16
+  prompt_summary: Yunseo places Jeju stone beside headphones.
+- page: 17
+  prompt_summary: Doyun stops adjusting audio controls, leaving noise.
+- page: 18
+  prompt_summary: Visitor leaves headphones carefully beside stone and recorder.
+- page: 19
+  prompt_summary: Doyun sits alone on listening bench after closing.
+- page: 20
+  prompt_summary: Doyun carries recorder into dawn outside Seoul gallery.

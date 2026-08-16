@@ -1,0 +1,29 @@
+episode: ep-028
+template: 03-lyrical-narration-card-comic
+source_art_contract: exactly 20 text-free imagegen reader-facing source pages
+style_lock: restrained Korean webtoon illustration; soft ink linework; visible simplified contour lines; calm flat painterly color blocks; light cel-shaded faces and hands; gentle paper/comic finish; no live action, cinematic still, DSLR photo, hyperreal portrait, generated text, speech bubbles, logos, or watermarks
+reference_assets:
+  - assets/continuity/prop/prop-removable-divider-sorting-tray-001/v001/model-sheet.png
+  - ../assets/episodes/ep-024/characters/wind-returning-place-character-reference.png
+  - ../assets/episodes/ep-024/locations/wind-returning-place-location-reference.png
+pages:
+  - { page: 1, scene: "Seoul shared workroom, Doyun pre-sorts adult visitor prints into three equal compartments of the canonical tray" }
+  - { page: 2, scene: "adult visitor returns and discovers a long panoramic print gently bent inside a narrow tray compartment" }
+  - { page: 3, scene: "Doyun pauses beside the over-neat Seoul worktable, noticing the bent print and fixed categories" }
+  - { page: 4, scene: "Jeju workroom, child Yunseo spreads small sea and stone-wall photographs across the canonical tray" }
+  - { page: 5, scene: "clear overhead practical view of three equal tray compartments failing to fit Yunseo's longer middle sequence" }
+  - { page: 6, scene: "Doyun reaches to fill empty tray compartments by photograph size while Yunseo watches" }
+  - { page: 7, scene: "Yunseo pulls the tray toward herself and protects the longer middle sequence with one small hand" }
+  - { page: 8, scene: "Soondeok removes one cobalt divider and places it beside the tray while redirecting attention to the photos" }
+  - { page: 9, scene: "Doyun removes the remaining two dividers and lays them loose beside the shallow tray" }
+  - { page: 10, scene: "Yunseo studies empty brass-lined grooves and two removable cobalt dividers" }
+  - { page: 11, scene: "Yunseo slots the first cobalt divider after two sea photographs" }
+  - { page: 12, scene: "Yunseo places the second divider farther right, visibly creating one wide middle compartment" }
+  - { page: 13, scene: "three linked photographs including one vertical print lie unbent inside the wide middle compartment" }
+  - { page: 14, scene: "one small cream-backed stone-wall photo rests inside the narrow final compartment" }
+  - { page: 15, scene: "Yunseo tests the first divider in an adjacent groove, sees a print press, and moves it back herself" }
+  - { page: 16, scene: "overhead completed arrangement with two photos, a wide three-photo middle, and one final photo in Yunseo's chosen compartments" }
+  - { page: 17, scene: "Seoul shared workroom, Doyun leaves the canonical tray empty with three dividers unseated beside it" }
+  - { page: 18, scene: "adult visitor creates one wide compartment for a long panoramic photo strip" }
+  - { page: 19, scene: "a different adult visitor repositions the blue dividers for several small prints while Doyun stays back" }
+  - { page: 20, scene: "quiet close-wide Seoul composition, Doyun photographs an adult hand moving one cobalt divider" }

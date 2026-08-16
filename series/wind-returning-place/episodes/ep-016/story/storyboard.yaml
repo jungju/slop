@@ -1,0 +1,66 @@
+episode: ep-016
+template: 03-lyrical-narration-card-comic
+page_count: 20
+caption_strip_height: 210
+core_elements:
+  - id: prop.blue-enamel-tray.001
+    version: 1
+    panels: [1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, 18, 19, 20]
+pages:
+  - panel: 1
+    beat: Seoul gallery tray scratch discovery
+    continuity_refs: [{ id: prop.blue-enamel-tray.001, version: 1 }]
+  - panel: 2
+    beat: Doyun lifts tray away from cups
+    continuity_refs: [{ id: prop.blue-enamel-tray.001, version: 1 }]
+  - panel: 3
+    beat: Soondeok photo message
+    continuity_refs: [{ id: prop.blue-enamel-tray.001, version: 1 }]
+  - panel: 4
+    beat: Jeju harbor restaurant arrival
+  - panel: 5
+    beat: tray carries bowls to table
+    continuity_refs: [{ id: prop.blue-enamel-tray.001, version: 1 }]
+  - panel: 6
+    beat: Doyun asks to set tray aside
+    continuity_refs: [{ id: prop.blue-enamel-tray.001, version: 1 }]
+  - panel: 7
+    beat: Soondeok loads bowls on tray
+    continuity_refs: [{ id: prop.blue-enamel-tray.001, version: 1 }]
+  - panel: 8
+    beat: Doyun carries tray across threshold
+    continuity_refs: [{ id: prop.blue-enamel-tray.001, version: 1 }]
+  - panel: 9
+    beat: Yunseo finishes soup and searches for return place
+    continuity_refs: [{ id: prop.blue-enamel-tray.001, version: 1 }]
+  - panel: 10
+    beat: Yunseo asks return question
+    continuity_refs: [{ id: prop.blue-enamel-tray.001, version: 1 }]
+  - panel: 11
+    beat: fisherwoman arrives with cups
+  - panel: 12
+    beat: Yunseo starts tray toward door
+    continuity_refs: [{ id: prop.blue-enamel-tray.001, version: 1 }]
+  - panel: 13
+    beat: Doyun joins after Yunseo choice
+    continuity_refs: [{ id: prop.blue-enamel-tray.001, version: 1 }]
+  - panel: 14
+    beat: tray returns to kitchen
+    continuity_refs: [{ id: prop.blue-enamel-tray.001, version: 1 }]
+  - panel: 15
+    beat: Doyun photographs washed tray
+    continuity_refs: [{ id: prop.blue-enamel-tray.001, version: 1 }]
+  - panel: 16
+    beat: ferry return and deleted label draft
+  - panel: 17
+    beat: return tray placed in Seoul
+    continuity_refs: [{ id: prop.blue-enamel-tray.001, version: 1 }]
+  - panel: 18
+    beat: cups show return loop
+    continuity_refs: [{ id: prop.blue-enamel-tray.001, version: 1 }]
+  - panel: 19
+    beat: visitors complete the loop
+    continuity_refs: [{ id: prop.blue-enamel-tray.001, version: 1 }]
+  - panel: 20
+    beat: clean tray after closing
+    continuity_refs: [{ id: prop.blue-enamel-tray.001, version: 1 }]

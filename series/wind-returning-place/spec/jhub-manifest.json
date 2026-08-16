@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "key": "comic.wind-returning-place",
+  "type": "comic",
+  "id": "wind-returning-place",
+  "title": "바람이 돌아오는 곳",
+  "paths": {
+    "spec": "spec",
+    "source": "source",
+    "assets": "assets",
+    "factoryArtifacts": "factory-artifacts",
+    "verification": "verification",
+    "releases": "releases"
+  }
+}

@@ -1,0 +1,20 @@
+version: 1
+episode: ep-029
+number: 29
+title: "바람이 돌아오는 곳 29: 멈출 수 있는 부채"
+subtitle: "멈출 수 있는 부채"
+status: production
+track_key: comic:wind-returning-place:episode:ep-029:production
+plan_key: comic:wind-returning-place:episode:ep-029
+template_id: lyrical-narration-card-comic
+template_number: 3
+page_contract_id: wind-template3-page-v1
+page_count: 20
+source_art:
+  provider: OpenAI imagegen
+  reader_facing_text: forbidden
+  speech_bubbles: forbidden
+lettering:
+  method: local_comical_js
+  placement: fixed_lower_narration_card
+  page_counter: NN/20

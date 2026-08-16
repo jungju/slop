@@ -1,0 +1,18 @@
+version: 1
+comic_id: wind-returning-place
+genre:
+  - contemporary_healing_drama
+  - lyrical_webtoon
+audience_rating: all_ages
+tone:
+  - restrained
+  - humane
+  - quietly_forward_moving
+reader_promise: "Concrete acts of shared work let memory move forward without being possessed or neatly solved."
+visual_identity: "Restrained Korean webtoon illustration with soft ink contours, calm flat painterly color, light cel shading, and template-3 narration-card pages."
+lettering_style: "Local Korean lettering in a fixed lower narration card; no speech bubbles."
+content_limits:
+  - no present-day Han Minjae
+  - no Doyun-Yunseo romance
+  - no generated text, logos, marks, or speech bubbles in source art
+  - no live-action, photographic, cinematic-still, or hyperreal rendering

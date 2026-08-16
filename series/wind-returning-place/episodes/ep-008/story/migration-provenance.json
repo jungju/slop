@@ -1,0 +1,14 @@
+{
+  "action": "already_unified",
+  "comicKey": "comic.wind-returning-place",
+  "episodeNo": 8,
+  "episodeSlug": "ep-008",
+  "fromEntityKey": "comic.wind-returning-place",
+  "fromPackagePath": "data/services/comic.wind-returning-place",
+  "migratedAt": "2026-08-13T20:37:32Z",
+  "migrationMode": "comic_unified_episode_v2",
+  "targetAssetsPath": "data/services/comic.wind-returning-place/assets/episodes/ep-008",
+  "targetReleasePath": "data/services/comic.wind-returning-place/releases/episodes/ep-008",
+  "targetSourcePath": "data/services/comic.wind-returning-place/source/episodes/ep-008",
+  "title": "접힌 표"
+}

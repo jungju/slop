@@ -1,0 +1,55 @@
+episode_id: ep-007
+generation_mode: built-in image_gen
+source_generation_folder: C:\Users\jeong\.codex\generated_images\019f33df-2367-71b3-a1af-95de27aeb04a
+common_prompt_prefix: >
+  Restrained Korean webtoon illustration, soft ink linework, visible simplified
+  contour lines, calm flat painterly color blocks, light cel-shaded faces and
+  hands, gentle paper/comic finish, template-3 lyrical narration-card page
+  grammar. Portrait page, one large illustration panel, off-white margin, clean
+  empty bottom narration-card area for local Korean lettering.
+common_negative: >
+  No readable Korean, no fake text, no logos, no watermark, no speech bubbles,
+  no captions, no brand marks. Avoid live-action, cinematic still, DSLR photo,
+  film frame, hyperreal render, realistic actor likeness, photographic skin,
+  skin pores, lens bokeh, glossy actor lighting, and generated writing.
+pages:
+  - page: 1
+    prompt_summary: Doyun before a blank borrowed Seoul gallery wall.
+  - page: 2
+    prompt_summary: Doyun studies a blank rental agreement and wall sketch.
+  - page: 3
+    prompt_summary: Soondeok challenges Doyun in a Jeju community room.
+  - page: 4
+    prompt_summary: Child Yunseo asks why people borrow walls.
+  - page: 5
+    prompt_summary: Doyun carries cloth and photos on a windy Jeju lane.
+  - page: 6
+    prompt_summary: Villagers place personal photos and objects on a table.
+  - page: 7
+    prompt_summary: Soondeok moves Doyun's neat grid aside.
+  - page: 8
+    prompt_summary: Yunseo tapes a small photo at child height.
+  - page: 9
+    prompt_summary: Wind lifts the borrowed cloth wall.
+  - page: 10
+    prompt_summary: Weathered hands pin old and new photos together.
+  - page: 11
+    prompt_summary: Doyun lowers his camera and listens.
+  - page: 12
+    prompt_summary: Shared uneven wall of photos, leaves, cloth, and stones.
+  - page: 13
+    prompt_summary: Doyun copies Jeju wall rhythm into Seoul gallery.
+  - page: 14
+    prompt_summary: Visitors pause before the uneven wall.
+  - page: 15
+    prompt_summary: Visitor bends down to see the low child-height photo.
+  - page: 16
+    prompt_summary: Yunseo places a Jeju stone below the low photo.
+  - page: 17
+    prompt_summary: Doyun removes the centered title card.
+  - page: 18
+    prompt_summary: Visitors leave blank cards and stones near the wall.
+  - page: 19
+    prompt_summary: Doyun sits alone before the wall after closing.
+  - page: 20
+    prompt_summary: Morning gap on the wall for someone else's memory.

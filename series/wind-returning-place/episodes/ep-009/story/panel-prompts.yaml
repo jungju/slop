@@ -1,0 +1,55 @@
+episode_id: ep-009
+generation_mode: built-in image_gen
+source_generation_folder: C:\Users\jeong\.codex\generated_images\019f3e2b-7122-71d1-90d4-9f28f887f3a2
+common_prompt_prefix: >
+  Restrained Korean webtoon illustration, soft ink linework, visible simplified
+  contour lines, calm flat painterly color blocks, light cel-shaded faces and
+  hands, gentle paper/comic finish, template-3 lyrical narration-card page
+  grammar. Portrait page, one large illustration panel, off-white margin, clean
+  empty bottom narration-card area for local Korean lettering.
+common_negative: >
+  No readable Korean, no fake text, no logos, no watermark, no speech bubbles,
+  no captions, no brand marks. Avoid live-action, cinematic still, DSLR photo,
+  film frame, hyperreal render, realistic actor likeness, photographic skin,
+  skin pores, lens bokeh, glossy actor lighting, and generated writing.
+pages:
+  - page: 1
+    prompt_summary: Doyun studies dry soil in a small pot at the Seoul gallery window.
+  - page: 2
+    prompt_summary: Water marks on gallery glass beside Doyun's camera and pot.
+  - page: 3
+    prompt_summary: Soondeok on a phone call from Jeju near a winter greenhouse.
+  - page: 4
+    prompt_summary: Doyun's vintage camera fogs a cold Jeju greenhouse door.
+  - page: 5
+    prompt_summary: Low unnamed sprouts grow inside a quiet winter greenhouse.
+  - page: 6
+    prompt_summary: Child Yunseo draws a small circle in fogged greenhouse glass.
+  - page: 7
+    prompt_summary: Yunseo looks through fogged glass toward hidden sprouts.
+  - page: 8
+    prompt_summary: Doyun photographs a small leaf through blurred greenhouse light.
+  - page: 9
+    prompt_summary: Soondeok sets down a watering can among greenhouse trays.
+  - page: 10
+    prompt_summary: Doyun pauses with hands off the plants, learning restraint.
+  - page: 11
+    prompt_summary: Strong wind outside, small leaves slowly turning inside the greenhouse.
+  - page: 12
+    prompt_summary: Yunseo covers an unseen seed in a plain paper cup.
+  - page: 13
+    prompt_summary: Doyun leaves a water-marked Seoul gallery window uncleaned.
+  - page: 14
+    prompt_summary: Visitors pause before blurred green seen through window marks.
+  - page: 15
+    prompt_summary: Empty watering can placed quietly below a gallery photograph.
+  - page: 16
+    prompt_summary: Yunseo's paper cup photo rests on a low gallery shelf.
+  - page: 17
+    prompt_summary: A visitor pauses, remembering unseen waiting.
+  - page: 18
+    prompt_summary: Night Seoul lights tremble through water-marked glass.
+  - page: 19
+    prompt_summary: Doyun waters the dry pot once after setting down the camera.
+  - page: 20
+    prompt_summary: Morning light on small sprouts and the gallery pot, quiet forward growth.

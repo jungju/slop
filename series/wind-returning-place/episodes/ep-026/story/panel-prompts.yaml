@@ -1,0 +1,30 @@
+episode: ep-026
+template: 03-lyrical-narration-card-comic
+source_art_contract: exactly 20 text-free imagegen reader-facing source pages
+style_lock: restrained Korean webtoon illustration; soft ink linework; visible simplified contour lines; calm flat painterly color blocks; light cel-shaded faces and hands; gentle paper/comic finish; no live action, cinematic still, DSLR photo, hyperreal portrait, generated text, speech bubbles, logos, or watermarks
+reference_assets:
+  - assets/continuity/prop/prop.wooden-chair.001/v001/model-sheet.png
+  - assets/continuity/prop/prop-replaceable-chair-cover-001/v001/model-sheet.png
+  - ../assets/episodes/ep-024/characters/wind-returning-place-character-reference.png
+  - ../assets/episodes/ep-024/locations/wind-returning-place-location-reference.png
+pages:
+  - { page: 1, scene: "Seoul workroom, Doyun clears the canonical dark worn wooden chair as a display object" }
+  - { page: 2, scene: "Doyun wipes the wooden seat and blocks it with his black vintage camera bag" }
+  - { page: 3, scene: "Jeju repair workroom, Doyun places the canonical wooden chair beside an ordinary worktable" }
+  - { page: 4, scene: "child Yunseo removes a wet raincoat and sits on the cobalt-blue removable chair cover" }
+  - { page: 5, scene: "close practical view, the cobalt canvas cover is visibly soaked and clings flat to the wooden seat" }
+  - { page: 6, scene: "Doyun reaches to close off the chair while Yunseo stands beside it" }
+  - { page: 7, scene: "Soondeok gestures bluntly at the covered chair, resisting Doyun's display-only response" }
+  - { page: 8, scene: "Yunseo walks behind the chair and unties the two cream corner ties herself" }
+  - { page: 9, scene: "Soondeok rinses the blue cover and spreads it open in a practical wicker draining basket" }
+  - { page: 10, scene: "Doyun wipes the bare canonical wooden seat dry with a plain cloth" }
+  - { page: 11, scene: "low reachable shelf with a dry cobalt replacement cover, cream binding, and crescent repair patch" }
+  - { page: 12, scene: "Yunseo gives a small stop gesture when Doyun reaches for the dry cover ties" }
+  - { page: 13, scene: "behind the chair, Yunseo ties both cream straps in small practical knots" }
+  - { page: 14, scene: "Yunseo sits and tests the secured blue cover, both child feet planted on the floor" }
+  - { page: 15, scene: "wet cover hangs open in moving Jeju air while one dry spare rests on a low shelf" }
+  - { page: 16, scene: "Yunseo sits on the covered chair and resumes sorting photographs at child height" }
+  - { page: 17, scene: "Seoul shared workroom, Doyun places a basket of folded dry blue covers beside the wooden chair" }
+  - { page: 18, scene: "one adult visitor unties a damp blue cover and places it in the basket" }
+  - { page: 19, scene: "another adult visitor chooses a dry crescent-patched cover and ties it onto the chair" }
+  - { page: 20, scene: "wide quiet Seoul workroom, the covered wooden chair remains in use while Doyun works nearby without resetting it" }

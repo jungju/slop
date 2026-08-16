@@ -1,0 +1,150 @@
+version: 1
+episode_id: ep-001
+title: "귤빛 엽서"
+page_count: 20
+layout:
+  page_width: 1080
+  page_height: 1600
+  image_box: [60, 110, 960, 960]
+  lettering_zone: [80, 1140, 920, 260]
+pages:
+  - page: 1
+    scene: seoul-gallery
+    shot: "Doyun at his small Seoul exhibition desk, orange postcard on the table, framed photos behind."
+    characters: [doyoon]
+    props: [orange-postcard, film-camera]
+    caption: "전시가 끝나갈 무렵, 도윤의 책상 위에 귤빛 엽서 한 장이 놓였다."
+    lettering_zone: bottom_caption
+  - page: 2
+    scene: seoul-workroom
+    shot: "Close-up of orange postcard and old tangerine-orchard photo, Doyun's hands, no visible writing."
+    characters: [doyoon, yunseo_mother, father]
+    props: [orange-postcard, mother-photo]
+    caption: "엽서 속 사진에는, 도윤도 모르는 아버지의 제주가 남아 있었다."
+    lettering_zone: bottom_caption
+  - page: 3
+    scene: seoul-workroom
+    shot: "Doyun by window at night, packed camera bag, city behind him, hesitant but resolved."
+    characters: [doyoon]
+    props: [film-camera, orange-postcard]
+    caption: "이번엔 도망이 아니었다. 그래도 다시 내려가는 일은 쉽지 않았다."
+    lettering_zone: bottom_caption
+  - page: 4
+    scene: jeju-tangerine-road
+    shot: "Autumn Jeju tangerine road, wind, Doyun stepping into warm orange light."
+    characters: [doyoon]
+    props: [film-camera]
+    caption: "가을의 제주는 바다보다 먼저 귤빛으로 도윤을 맞았다."
+    lettering_zone: bottom_caption
+  - page: 5
+    scene: jeju-tangerine-road
+    shot: "Soondeok points toward an old road near tangerine trees, Doyun listens."
+    characters: [doyoon, soondeok]
+    props: [orange-postcard]
+    caption: "그 사진, 아마 윤서 어멍일 거라. 폐창고 쪽에 가 봐라."
+    lettering_zone: dialogue_bottom
+  - page: 6
+    scene: old-storage
+    shot: "Yunseo with short black bob, green jacket and small suitcase outside a tangerine storage building."
+    characters: [yunseo, doyoon]
+    props: [small-suitcase]
+    caption: "윤서는 작은 가방 하나로 서울을 준비하고 있었다."
+    lettering_zone: bottom_caption
+  - page: 7
+    scene: jeju-tangerine-road
+    shot: "Yunseo confronts Doyun among tangerine trees; Doyun holds camera lowered, listening."
+    characters: [yunseo, doyoon]
+    props: [film-camera]
+    caption: "제주는 누군가의 추억만 있는 곳이 아니에요."
+    lettering_zone: dialogue_bottom
+  - page: 8
+    scene: jeju-sea-stop
+    shot: "Doyun alone at bus stop by sea, thinking about his past, wind moving his coat."
+    characters: [doyoon]
+    props: [film-camera]
+    caption: "그 말은 도윤이 한때 제주를 미워했던 방식과 닮아 있었다."
+    lettering_zone: bottom_caption
+  - page: 9
+    scene: old-storage
+    shot: "Doyun opens an old envelope with blank orange postcards and photo sleeves, no writing."
+    characters: [doyoon]
+    props: [orange-postcard, mother-photo]
+    caption: "아버지의 봉투 안에는 사진보다 더 오래 기다린 빈 엽서들이 있었다."
+    lettering_zone: bottom_caption
+  - page: 10
+    scene: old-storage
+    shot: "Doyun and Yunseo enter dusty tangerine storage, shafts of light, wood crates."
+    characters: [doyoon, yunseo]
+    props: [small-suitcase, film-camera]
+    caption: "낡은 귤 창고는 오래 닫힌 기억처럼 먼지를 품고 있었다."
+    lettering_zone: bottom_caption
+  - page: 11
+    scene: old-storage
+    shot: "Yunseo holds old photo of her young mother smiling in tangerine orchard, emotional close-up."
+    characters: [yunseo, yunseo_mother]
+    props: [mother-photo]
+    caption: "사진 속 젊은 여자는, 윤서가 잊지 못한 어머니의 얼굴이었다."
+    lettering_zone: bottom_caption
+  - page: 12
+    scene: jeju-sea-stop
+    shot: "Yunseo and Doyun sit at quiet seaside bus stop, suitcase between them, Yunseo looks toward Seoul direction."
+    characters: [yunseo, doyoon]
+    props: [small-suitcase]
+    caption: "떠나고 싶은데, 자꾸 미안해져요."
+    lettering_zone: dialogue_bottom
+  - page: 13
+    scene: old-storage
+    shot: "Sunlit close-up of old photo, orange postcard, and Yunseo's hands, feeling of a message meant to release her."
+    characters: [yunseo]
+    props: [mother-photo, orange-postcard]
+    caption: "남겨진 말은 윤서를 붙잡기 위해서가 아니라, 보내기 위해 있었다."
+    lettering_zone: bottom_caption
+  - page: 14
+    scene: jeju-tangerine-road
+    shot: "Doyun speaks gently to Yunseo on tangerine road, camera lowered, respectful distance."
+    characters: [doyoon, yunseo]
+    props: [film-camera]
+    caption: "저도 처음엔 기억을 붙잡으러 왔어요. 이제는 전해 주고 싶어요."
+    lettering_zone: dialogue_bottom
+  - page: 15
+    scene: jeju-tangerine-road
+    shot: "Yunseo photographs her own Jeju: tangerines, wind, stone wall, Doyun in background."
+    characters: [yunseo, doyoon]
+    props: [film-camera]
+    caption: "윤서는 처음으로 자기 눈의 제주를 찍었다."
+    lettering_zone: bottom_caption
+  - page: 16
+    scene: jeju-sea-stop
+    shot: "Yunseo standing at seaside bus stop with suitcase, Doyun beside her, sea wind, calm choice."
+    characters: [yunseo, doyoon]
+    props: [small-suitcase]
+    caption: "바닷가 정류장에서, 윤서는 떠남을 죄책감이 아니라 선택으로 불렀다."
+    lettering_zone: bottom_caption
+  - page: 17
+    scene: seoul-workroom
+    shot: "Doyun back in Seoul, arranging photos and blank orange postcards on his desk, editing differently."
+    characters: [doyoon]
+    props: [orange-postcard, film-camera, mother-photo]
+    caption: "서울로 돌아온 도윤은 사진 옆에 빈 엽서를 남기기 시작했다."
+    lettering_zone: bottom_caption
+  - page: 18
+    scene: seoul-gallery
+    shot: "Yunseo enters the Seoul gallery after an interview, carrying small suitcase, Doyun surprised and glad."
+    characters: [yunseo, doyoon]
+    props: [small-suitcase]
+    caption: "며칠 뒤, 윤서가 전시장 문을 열고 들어왔다."
+    lettering_zone: bottom_caption
+  - page: 19
+    scene: seoul-gallery
+    shot: "Gallery wall of photos and orange postcards, Doyun and Yunseo hang the old mother photo carefully."
+    characters: [doyoon, yunseo, yunseo_mother]
+    props: [exhibition-postcards, mother-photo]
+    caption: "귤빛 벽에는 떠난 사람과 떠나려는 사람의 사진이 나란히 걸렸다."
+    lettering_zone: bottom_caption
+  - page: 20
+    scene: seoul-gallery
+    shot: "Final gallery window, orange postcard in Doyun's hand, Seoul wind and Jeju tangerine light blended."
+    characters: [doyoon]
+    props: [orange-postcard, film-camera]
+    caption: "기억은 사람을 붙잡기 위해서가 아니라, 다시 걸어가게 하려고 남는지도 몰랐다."
+    lettering_zone: bottom_caption

@@ -1,0 +1,17 @@
+episode_slug: ep-026
+title: "바람이 돌아오는 곳 26: 갈아 둔 천"
+template: 03-lyrical-narration-card-comic
+page_count: 20
+audience_rating: all_ages
+episode_intent: "Care keeps a shared object usable by changing a washable layer, not by protecting the original from people."
+emotional_arc: "Doyun moves from preserving the bare wooden chair for display to preparing replaceable covers that Soondeok, Yunseo, and later Seoul visitors can change for themselves."
+scene_density: one concrete action per page
+panel_rhythm: "setup 1-4, wet-cover problem 5-8, practical wash-and-swap test 9-12, Yunseo choice 13-16, Seoul payoff 17-20"
+character_agency:
+  doyun: tries to preserve the bare chair, sews a second cover, and stops deciding when the chair may be used
+  yunseo: notices the damp cover, removes it, selects the dry replacement, and ties it without waiting for Doyun
+  soondeok: refuses a display-only chair and makes the wet-work constraint concrete
+  minjae: absent from the present and not used as a clue engine
+narration_level: restrained concrete captions
+metaphor_level: one grounded final metaphor
+payoff_rule: Seoul visitors independently swap a damp cover for a dry one while Doyun leaves the wooden chair in circulation

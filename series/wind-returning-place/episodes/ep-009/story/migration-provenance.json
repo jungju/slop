@@ -1,0 +1,14 @@
+{
+  "action": "already_unified",
+  "comicKey": "comic.wind-returning-place",
+  "episodeNo": 9,
+  "episodeSlug": "ep-009",
+  "fromEntityKey": "comic.wind-returning-place",
+  "fromPackagePath": "data/services/comic.wind-returning-place",
+  "migratedAt": "2026-08-13T20:37:32Z",
+  "migrationMode": "comic_unified_episode_v2",
+  "targetAssetsPath": "data/services/comic.wind-returning-place/assets/episodes/ep-009",
+  "targetReleasePath": "data/services/comic.wind-returning-place/releases/episodes/ep-009",
+  "targetSourcePath": "data/services/comic.wind-returning-place/source/episodes/ep-009",
+  "title": "겨울 온실"
+}

@@ -1,0 +1,10 @@
+episode: ep-023
+style_lock: restrained Korean webtoon illustration; soft ink linework; simplified contour lines; calm flat painterly color blocks; light cel-shaded faces and hands; gentle paper/comic finish; never live-action or photographic
+negative_lock: no text, Korean, pseudo-text, logos, watermarks, signs, captions, speech bubbles, empty bubbles, photorealism, DSLR, lens bokeh, or cinematic-still rendering
+canonical_reference: assets/continuity/prop/prop-reversible-sand-timer-001/v001/model-sheet.png
+batches:
+  - { pages: [1, 2, 3, 4], source_output: "C:/Users/jeong/.codex/generated_images/019fa005-3e5a-73f0-8a12-1a4e95c0521d/call_lMZ09UIsOpqN2eGEq94AHHZe.png", scenes: "drawer discovery; three-minute observation; cloth packing; Yunseo prepares wet print" }
+  - { pages: [5, 6, 7, 8], source_output: "C:/Users/jeong/.codex/generated_images/019fa005-3e5a-73f0-8a12-1a4e95c0521d/call_7kAVqzETg7ayV5efIhPJIM7a.png", scenes: "early flip; rush; folded corner; Yunseo stops" }
+  - { pages: [9, 10, 11, 12], source_output: "C:/Users/jeong/.codex/generated_images/019fa005-3e5a-73f0-8a12-1a4e95c0521d/call_Ocm1Xvy58QWc0v5CODb9s2I0.png", scenes: "Soondeok stops timer; practical instruction; brass-ring adjustment; untimed rehearsal" }
+  - { pages: [13, 14, 15, 16], source_output: "C:/Users/jeong/.codex/generated_images/019fa005-3e5a-73f0-8a12-1a4e95c0521d/call_Xpy9eoUVl5Eq0hCYHDrMRoar.png", scenes: "timer within reach; Yunseo chooses marker; Yunseo flips; flat print payoff" }
+  - { pages: [17, 18, 19, 20], source_output: "C:/Users/jeong/.codex/generated_images/019fa005-3e5a-73f0-8a12-1a4e95c0521d/call_HvzSzOjYSvrQ9QTAyZYrb8D8.png", scenes: "Seoul station; timer waiting sideways; visitor starts it; shared-time payoff" }

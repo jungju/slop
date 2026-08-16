@@ -1,0 +1,66 @@
+episode_id: ep-004
+prompt_prefix: 'Wind Visual Style Lock: restrained Korean webtoon illustration; soft
+  ink linework; visible simplified contour lines; calm flat painterly color blocks;
+  light cel-shaded faces and hands; no live-action, no DSLR, no cinematic still, no
+  photorealism, no generated text.'
+pages:
+- page: 1
+  caption: 전시 벽을 맞추던 날, 도윤의 카메라 끈이 조용히 끊어졌다.
+  source_original_path: C:\Users\jeong\.codex\generated_images\019f2aa6-4ba4-7e21-ba62-385e65cbadbc\ig_05785a5c0e13f442016a485d5390708191979167df444bf04c.png
+- page: 2
+  caption: 끊어진 자리보다 먼저 보인 것은, 오래전에 덧댄 실밥이었다.
+  source_original_path: C:\Users\jeong\.codex\generated_images\019f2aa6-4ba4-7e21-ba62-385e65cbadbc\ig_0a38903b975bd55a016a485db28fb481918ad1647fb0f29d70.png
+- page: 3
+  caption: 수리공은 새 끈을 권했지만, 도윤은 낡은 자국을 따라가 보기로 했다.
+  source_original_path: C:\Users\jeong\.codex\generated_images\019f2aa6-4ba4-7e21-ba62-385e65cbadbc\ig_0a38903b975bd55a016a485e10a2608191b44e539a9fadefae.png
+- page: 4
+  caption: 그는 답을 찾으러 간 것이 아니라, 손때가 남은 길을 따라갔다.
+  source_original_path: C:\Users\jeong\.codex\generated_images\019f2aa6-4ba4-7e21-ba62-385e65cbadbc\ig_0a38903b975bd55a016a485e786b188191b7775e729145dca5.png
+- page: 5
+  caption: 제주의 바람은 낡은 끈을 잡은 손가락 사이로 먼저 들어왔다.
+  source_original_path: C:\Users\jeong\.codex\generated_images\019f2aa6-4ba4-7e21-ba62-385e65cbadbc\ig_0a38903b975bd55a016a485eb0bd848191ad48ab6f9b8d0066.png
+- page: 6
+  caption: 순덕은 끈을 보자마자, 오래된 이름을 꺼내지 않고 잠시 웃었다.
+  source_original_path: C:\Users\jeong\.codex\generated_images\019f2aa6-4ba4-7e21-ba62-385e65cbadbc\ig_0a38903b975bd55a016a485ee8e65c8191a428a85c066be492.png
+- page: 7
+  caption: 작은 수선집의 문은 낮게 열렸고, 실과 바늘은 아직 그 자리에 있었다.
+  source_original_path: C:\Users\jeong\.codex\generated_images\019f2aa6-4ba4-7e21-ba62-385e65cbadbc\ig_0a38903b975bd55a016a485f5f65508191a004b6fe486be756.png
+- page: 8
+  caption: 주인은 실밥을 만져 보더니, 고친 사람의 손버릇을 알아보았다.
+  source_original_path: C:\Users\jeong\.codex\generated_images\019f2aa6-4ba4-7e21-ba62-385e65cbadbc\ig_0a38903b975bd55a016a485fcbdf0c81918348cdb6cafcc672.png
+- page: 9
+  caption: 아버지는 새것을 사는 대신, 버티는 쪽을 자주 골랐다고 했다.
+  source_original_path: C:\Users\jeong\.codex\generated_images\019f2aa6-4ba4-7e21-ba62-385e65cbadbc\ig_0a38903b975bd55a016a485ffefd0c8191b76a4b994d1ddb40.png
+- page: 10
+  caption: 그 말은 변명이 아니라, 오래 늦게 도착한 생활의 모양이었다.
+  source_original_path: C:\Users\jeong\.codex\generated_images\019f2aa6-4ba4-7e21-ba62-385e65cbadbc\ig_0a38903b975bd55a016a486039284481919620b19f9f556a24.png
+- page: 11
+  caption: 바늘은 끊어진 곳을 숨기지 않고, 다시 쓸 수 있을 만큼만 붙잡았다.
+  source_original_path: C:\Users\jeong\.codex\generated_images\019f2aa6-4ba4-7e21-ba62-385e65cbadbc\ig_0a38903b975bd55a016a48607638b8819189144a61d78c0758.png
+- page: 12
+  caption: 도윤은 완전히 나아진 물건보다, 고친 자리가 보이는 물건을 오래 바라보았다.
+  source_original_path: C:\Users\jeong\.codex\generated_images\019f2aa6-4ba4-7e21-ba62-385e65cbadbc\ig_0a38903b975bd55a016a4860b2e31c8191b748cf975ea247d7.png
+- page: 13
+  caption: 서울로 돌아온 벽에는 여전히 고른 사진들만 얌전히 걸려 있었다.
+  source_original_path: C:\Users\jeong\.codex\generated_images\019f2aa6-4ba4-7e21-ba62-385e65cbadbc\ig_0a38903b975bd55a016a4860f515788191908f7d8c2cbfb43a.png
+- page: 14
+  caption: 윤서는 빈 벽 한쪽을 보며, 거기에도 바람이 지나갈 수 있겠다고 했다.
+  source_original_path: C:\Users\jeong\.codex\generated_images\019f2aa6-4ba4-7e21-ba62-385e65cbadbc\ig_0a38903b975bd55a016a48612f40c48191b65807686c0c683c.png
+- page: 15
+  caption: 도윤은 설명 대신, 끈의 그림자가 닿을 자리를 천천히 비워 두었다.
+  source_original_path: C:\Users\jeong\.codex\generated_images\019f2aa6-4ba4-7e21-ba62-385e65cbadbc\ig_0e7a3b3cefa6f534016a486e37be608191a4072110b33094dc.png
+- page: 16
+  caption: 사진 사이에 걸린 것은 사진이 아니라, 계속 매고 온 시간의 그림자였다.
+  source_original_path: C:\Users\jeong\.codex\generated_images\019f2aa6-4ba4-7e21-ba62-385e65cbadbc\ig_0a38903b975bd55a016a4861b2d3708191aadab917d614916f.png
+- page: 17
+  caption: 누군가는 그 그림자를 보고, 왜 고친 자국을 숨기지 않았느냐고 물었다.
+  source_original_path: C:\Users\jeong\.codex\generated_images\019f2aa6-4ba4-7e21-ba62-385e65cbadbc\ig_0a38903b975bd55a016a4861f1ddfc8191abe5bda8b436d6d6.png
+- page: 18
+  caption: 도윤은 처음으로, 숨기지 않아도 남는 것들이 있다고 생각했다.
+  source_original_path: C:\Users\jeong\.codex\generated_images\019f2aa6-4ba4-7e21-ba62-385e65cbadbc\ig_0a38903b975bd55a016a48623780b481919cf5d7ae7ae4e52f.png
+- page: 19
+  caption: 닫힌 전시장 안에서 낡은 끈은 다시 카메라의 무게를 견뎠다.
+  source_original_path: C:\Users\jeong\.codex\generated_images\019f2aa6-4ba4-7e21-ba62-385e65cbadbc\ig_0a38903b975bd55a016a48627913cc819186375810a9111f16.png
+- page: 20
+  caption: 끊어진 자리에서, 바람은 다시 돌아올 길을 배웠다.
+  source_original_path: C:\Users\jeong\.codex\generated_images\019f2aa6-4ba4-7e21-ba62-385e65cbadbc\ig_0a38903b975bd55a016a4862b484208191b00195dedb9805e7.png

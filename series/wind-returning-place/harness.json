@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "series": "wind-returning-place",
+  "episodeIdPattern": "ep-NNN",
+  "pageCount": 20,
+  "sourceArt": {
+    "format": "png",
+    "readerFacingText": "forbidden",
+    "model": "OpenAI Image Generation",
+    "tool": "built-in image_gen"
+  },
+  "readerAsset": {
+    "format": "webp",
+    "maxWidth": 1080,
+    "quality": 88,
+    "storage": "repository"
+  },
+  "presentation": {
+    "migratedEpisodes": "baked-lettered",
+    "newEpisodes": "site-native-caption"
+  },
+  "publishing": {
+    "repository": "jungju/slop",
+    "branch": "main",
+    "liveUrl": "https://slop.jjgo.io",
+    "routePattern": "/comics/{series}/{episode}/"
+  }
+}

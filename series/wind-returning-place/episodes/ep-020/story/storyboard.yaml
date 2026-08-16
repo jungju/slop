@@ -1,0 +1,26 @@
+episode: ep-020
+template: 03-lyrical-narration-card-comic
+page_count: 20
+caption_strip_height: 210
+core_elements: [{ id: prop.low-brass-door-handle.001, version: 1, panels: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] }]
+pages:
+  - { panel: 1, beat: "Doyun opens the high Seoul handle", continuity_refs: [{ id: prop.low-brass-door-handle.001, version: 1 }], caption: "서울 작업실에서, 도윤은 높은 황동 손잡이를 밀어 문을 열었다." }
+  - { panel: 2, beat: "He packs a photo of the matching Jeju door", continuity_refs: [{ id: prop.low-brass-door-handle.001, version: 1 }], caption: "그는 제주 수리방 문도 같은 높이였다는 사진을 챙겼다." }
+  - { panel: 3, beat: "Yunseo stops at the Jeju door carrying a box", continuity_refs: [{ id: prop.low-brass-door-handle.001, version: 1 }], caption: "제주에 도착한 윤서는 양손에 상자를 들고 문 앞에 멈췄다." }
+  - { panel: 4, beat: "Yunseo sets down the box and stands on tiptoe", continuity_refs: [{ id: prop.low-brass-door-handle.001, version: 1 }], caption: "윤서는 상자를 내려놓고 까치발로 손잡이를 돌렸다." }
+  - { panel: 5, beat: "Soondeok names the recurring waiting problem", continuity_refs: [{ id: prop.low-brass-door-handle.001, version: 1 }], caption: "순덕은 비 오는 날마다 아이들이 여기서 기다린다고 말했다." }
+  - { panel: 6, beat: "Doyun cites the old door as difficult to change", continuity_refs: [{ id: prop.low-brass-door-handle.001, version: 1 }], caption: "도윤은 문이 오래돼 높이를 바꾸기 어렵다고 답했다." }
+  - { panel: 7, beat: "Yunseo measures her reach", continuity_refs: [{ id: prop.low-brass-door-handle.001, version: 1 }], caption: "윤서는 벽에 기대 둔 줄자로 자기 손이 닿는 높이를 쟀다." }
+  - { panel: 8, beat: "She marks a lower point with chalk", continuity_refs: [{ id: prop.low-brass-door-handle.001, version: 1 }], caption: "그녀는 문 아래쪽에 분필로 작은 점을 찍었다." }
+  - { panel: 9, beat: "Soondeok adds the wet-glove grip constraint", continuity_refs: [{ id: prop.low-brass-door-handle.001, version: 1 }], caption: "순덕은 젖은 장갑으로도 잡히는 손잡이어야 한다고 덧붙였다." }
+  - { panel: 10, beat: "Doyun measures screw spacing", continuity_refs: [{ id: prop.low-brass-door-handle.001, version: 1 }], caption: "도윤은 카메라를 내려놓고 기존 손잡이의 나사 간격을 쟀다." }
+  - { panel: 11, beat: "They find a short brass lever and backing plate", continuity_refs: [{ id: prop.low-brass-door-handle.001, version: 1 }], caption: "세 사람은 창고에서 짧은 황동 손잡이와 받침판을 찾았다." }
+  - { panel: 12, beat: "Yunseo aligns the plate at her chalk mark", continuity_refs: [{ id: prop.low-brass-door-handle.001, version: 1 }], caption: "윤서는 분필점에 받침판을 대고 직접 위치를 다시 맞췄다." }
+  - { panel: 13, beat: "Doyun drills and installs at her mark", continuity_refs: [{ id: prop.low-brass-door-handle.001, version: 1 }], caption: "도윤은 그 표시대로 구멍을 뚫고 낮은 손잡이를 고정했다." }
+  - { panel: 14, beat: "Soondeok tests it with a wet glove", continuity_refs: [{ id: prop.low-brass-door-handle.001, version: 1 }], caption: "순덕은 젖은 장갑으로 문을 열어 미끄러지지 않는지 시험했다." }
+  - { panel: 15, beat: "Yunseo opens the door while carrying the box", continuity_refs: [{ id: prop.low-brass-door-handle.001, version: 1 }], caption: "윤서는 상자를 든 채 낮은 손잡이를 눌러 문을 열었다." }
+  - { panel: 16, beat: "They clean only the new lower handle", continuity_refs: [{ id: prop.low-brass-door-handle.001, version: 1 }], caption: "세 사람은 높은 손잡이는 남겨 두고 낮은 손잡이만 닦았다." }
+  - { panel: 17, beat: "Doyun marks the same reachable height in Seoul", continuity_refs: [{ id: prop.low-brass-door-handle.001, version: 1 }], caption: "서울로 돌아온 도윤은 작업실 문 아래쪽에 같은 높이를 표시했다." }
+  - { panel: 18, beat: "He installs a second visitor handle", continuity_refs: [{ id: prop.low-brass-door-handle.001, version: 1 }], caption: "그는 방문객용 출입문에 두 번째 손잡이를 달았다." }
+  - { panel: 19, beat: "A visiting child enters before the adult", continuity_refs: [{ id: prop.low-brass-door-handle.001, version: 1 }], caption: "전시를 보러 온 아이가 어른보다 먼저 문을 열고 들어왔다." }
+  - { panel: 20, beat: "Doyun lets the door close behind the child", continuity_refs: [{ id: prop.low-brass-door-handle.001, version: 1 }], caption: "도윤은 열린 문을 붙잡지 않고, 아이가 지나간 뒤 천천히 닫히는 문을 보았다." }

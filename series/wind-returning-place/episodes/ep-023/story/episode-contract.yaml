@@ -1,0 +1,17 @@
+episode_slug: ep-023
+title: "바람이 돌아오는 곳 23: 뒤집을 수 있는 시간"
+template: 03-lyrical-narration-card-comic
+page_count: 20
+audience_rating: all_ages
+episode_intent: "Care becomes useful when another person can choose when to begin, pause, and begin again."
+emotional_arc: "Doyun moves from timing Yunseo's work for her to leaving a clear, reversible timer within her reach."
+scene_density: one concrete action per page
+panel_rhythm: "setup 1-4, mistimed attempt 5-8, practical test 9-13, Yunseo choice 14-16, Seoul payoff 17-20"
+character_agency:
+  doyun: prepares, observes, adjusts, and leaves the timing decision visible without directing it
+  yunseo: stops the rushed process, chooses the shorter interval, and flips the timer herself
+  soondeok: insists that a timer must serve the worker rather than the schedule
+  minjae: absent from the present and not used as a clue engine
+narration_level: restrained concrete captions
+metaphor_level: one grounded metaphor on the final page
+payoff_rule: a visitor resets the shared timer in Seoul without asking Doyun for permission

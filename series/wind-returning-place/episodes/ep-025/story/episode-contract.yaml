@@ -1,0 +1,17 @@
+episode_slug: ep-025
+title: "바람이 돌아오는 곳 25: 돌려 맞춘 빛"
+template: 03-lyrical-narration-card-comic
+page_count: 20
+audience_rating: all_ages
+episode_intent: "Help can make work visible without fixing another person's viewpoint; the person doing the work chooses the useful angle."
+emotional_arc: "Doyun moves from aiming a lamp for Yunseo to repairing its movable joint and leaving the final angle to her and later Seoul visitors."
+scene_density: one concrete action per page
+panel_rhythm: "setup 1-4, glare problem 5-8, practical test 9-12, Yunseo choice 13-16, Seoul payoff 17-20"
+character_agency:
+  doyun: notices the glare, repairs the pivot, and stops choosing the viewing angle for others
+  yunseo: identifies the glare, moves the clamp, chooses two useful angles, and continues her own sorting task
+  soondeok: tests the light against wet and matte surfaces and insists the worker's eyes decide the angle
+  minjae: absent from the present and not used as a clue engine
+narration_level: restrained concrete captions
+metaphor_level: one grounded final metaphor
+payoff_rule: Seoul visitors independently move two lamps to different angles while Doyun keeps working

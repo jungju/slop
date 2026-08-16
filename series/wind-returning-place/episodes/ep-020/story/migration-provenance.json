@@ -1,0 +1,14 @@
+{
+  "action": "already_unified",
+  "comicKey": "comic.wind-returning-place",
+  "episodeNo": 20,
+  "episodeSlug": "ep-020",
+  "fromEntityKey": "comic.wind-returning-place",
+  "fromPackagePath": "data/services/comic.wind-returning-place",
+  "migratedAt": "2026-08-13T20:37:32Z",
+  "migrationMode": "comic_unified_episode_v2",
+  "targetAssetsPath": "data/services/comic.wind-returning-place/assets/episodes/ep-020",
+  "targetReleasePath": "data/services/comic.wind-returning-place/releases/episodes/ep-020",
+  "targetSourcePath": "data/services/comic.wind-returning-place/source/episodes/ep-020",
+  "title": "낮아진 손잡이"
+}

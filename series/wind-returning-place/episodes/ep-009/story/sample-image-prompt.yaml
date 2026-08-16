@@ -1,0 +1,15 @@
+episode_id: ep-009
+template_reference: factories/comic/reference/templates/03-lyrical-narration-card-comic
+selected_template_number: 3
+selected_template_id: lyrical-narration-card-comic
+expected_panel_count: 20
+text_policy: generated_art_text_free_local_korean_lettering
+protected_title_text: "바람이 돌아오는 곳 9: 겨울 온실"
+protected_closing_line: "겨울 온실은, 보이지 않는 자람도 돌아올 시간을 품고 있다고 말했다."
+visual_style_lock: >
+  Restrained Korean webtoon illustration, soft ink linework, visible simplified
+  contour lines, calm flat painterly color blocks, light cel-shaded faces and
+  hands, gentle paper/comic finish, template-3 lyrical narration-card page
+  grammar. No live-action, cinematic still, DSLR photo, hyperreal rendering, or
+  generated text.
+review_decision: pending_generation

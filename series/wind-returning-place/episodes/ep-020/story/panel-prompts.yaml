@@ -1,0 +1,28 @@
+episode: ep-020
+style_lock: "Restrained Korean webtoon illustration, soft ink linework, simplified contours, flat painterly color blocks, light cel shading, paper finish; no photorealism and no generated text, signs, logos, captions, watermarks, speech bubbles, or empty bubbles."
+identity_lock:
+  doyun: "Korean man early 30s, lean, short slightly wavy black hair, navy overshirt, gray tee, dark trousers, black camera strap."
+  yunseo: "Elementary-school-age Korean girl, short black bob, yellow-gray rain jacket, small child proportions."
+  soondeok: "Older Korean woman, short salt-and-pepper hair, rust cardigan, dark work apron."
+continuity_reference: prop-low-brass-door-handle-001-v1-model-sheet
+pages:
+  - { page: 1, prompt: "Doyun opens Seoul workroom's high brass handle." }
+  - { page: 2, prompt: "Doyun packs a photograph of the matching Jeju door." }
+  - { page: 3, prompt: "Yunseo stops at Jeju door carrying a box." }
+  - { page: 4, prompt: "Yunseo sets box down and tiptoes to high lever." }
+  - { page: 5, prompt: "Soondeok points to rain-wet threshold." }
+  - { page: 6, prompt: "Doyun hesitates at old joinery." }
+  - { page: 7, prompt: "Yunseo measures her own reach." }
+  - { page: 8, prompt: "Yunseo marks lower position with chalk." }
+  - { page: 9, prompt: "Soondeok demonstrates wet glove grip constraint." }
+  - { page: 10, prompt: "Doyun measures old screw spacing." }
+  - { page: 11, prompt: "They select compatible brass lever and plate." }
+  - { page: 12, prompt: "Yunseo aligns backing plate at her mark." }
+  - { page: 13, prompt: "Doyun drills and installs lower lever." }
+  - { page: 14, prompt: "Soondeok tests lower lever with wet glove." }
+  - { page: 15, prompt: "Yunseo opens door while carrying box." }
+  - { page: 16, prompt: "Three clean the new lower handle." }
+  - { page: 17, prompt: "Doyun transfers reachable height to Seoul door." }
+  - { page: 18, prompt: "Doyun installs second lower visitor handle." }
+  - { page: 19, prompt: "Visiting child enters independently before adult." }
+  - { page: 20, prompt: "Door closes after child; Doyun does not hold it." }

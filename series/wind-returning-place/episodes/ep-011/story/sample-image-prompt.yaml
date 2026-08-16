@@ -1,0 +1,17 @@
+episode_id: ep-011
+template: "03-lyrical-narration-card-comic"
+template_number: 3
+title: "바람이 돌아오는 곳 11: 소금빛 손수건"
+source_generation_folder: C:\Users\jeong\.codex\generated_images\019f4878-dfce-7763-af03-cc707afe5782
+style_lock: >
+  Restrained Korean webtoon illustration, soft ink linework, visible simplified
+  contour lines, calm flat painterly color blocks, light cel-shaded faces and
+  hands, gentle paper/comic finish, template-3 lyrical narration-card page
+  grammar.
+negative_lock: >
+  No readable Korean, no fake text, no logos, no watermark, no speech bubbles,
+  no captions, no brand marks. Avoid live-action, cinematic still, DSLR photo,
+  film frame, hyperreal render, realistic actor likeness, photographic skin,
+  skin pores, lens bokeh, glossy actor lighting, and generated writing.
+motif: salt-stiff handkerchief, laundry line, traces that do not need erasing
+local_lettering: true

@@ -1,38 +1,34 @@
-import {
-  cp,
-  mkdir,
-  readFile,
-  rm,
-  stat,
-  writeFile,
-} from "node:fs/promises";
+import { cp, mkdir, readFile, rm, stat, writeFile } from "node:fs/promises";
 import { createHash } from "node:crypto";
 import { basename, dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+import { copySeriesAssets, loadSeriesContent } from "./lib/series-content.mjs";
 
 const scriptDir = dirname(fileURLToPath(import.meta.url));
 const root = resolve(scriptDir, "..");
 const outDir = resolve(root, "_site");
-const contentPath = join(root, "content", "site.json");
 
 if (dirname(outDir) !== root || basename(outDir) !== "_site") {
   throw new Error("안전하지 않은 빌드 출력 경로입니다: " + outDir);
 }
 
-const content = JSON.parse(await readFile(contentPath, "utf8"));
+const { content, packages } = await loadSeriesContent(root);
 const stylesSource = await readFile(join(root, "src", "styles.css"), "utf8");
 const appSource = await readFile(join(root, "src", "app.js"), "utf8");
 const stylesAsset = "styles." + fingerprint(stylesSource) + ".css";
 const appAsset = "app." + fingerprint(appSource) + ".js";
 const site = content.site;
-const series = content.series[0];
-const episodes = series.episodes;
-const latestEpisode = episodes.at(-1);
+const allSeries = content.series;
+const primarySeries = allSeries[0];
+const primaryEpisodes = primarySeries.episodes;
+const latestEpisode = primaryEpisodes.at(-1);
+const allEpisodes = allSeries.flatMap((item) => item.episodes);
 const routes = [];
 
 await rm(outDir, { recursive: true, force: true });
 await mkdir(join(outDir, "assets"), { recursive: true });
 await cp(join(root, "public"), outDir, { recursive: true });
+await copySeriesAssets(outDir, packages);
 await writeFile(join(outDir, "assets", stylesAsset), stylesSource, "utf8");
 await writeFile(join(outDir, "assets", appAsset), appSource, "utf8");
 await cp(join(root, "CNAME"), join(outDir, "CNAME"));
@@ -110,57 +106,60 @@ await route(
   }),
 );
 
-await route(
-  "/series/" + series.slug + "/",
-  layout({
-    path: "/series/" + series.slug + "/",
-    title: series.title,
-    description: series.summary,
-    page: "series",
-    ogImage: latestEpisode.pages[0].src,
-    structuredData: {
-      "@context": "https://schema.org",
-      "@type": "CreativeWorkSeries",
-      name: series.title,
-      description: series.summary,
-      url: site.url + "/series/" + series.slug + "/",
-      numberOfEpisodes: episodes.length,
-      inLanguage: "ko",
-      isFamilyFriendly: true,
-    },
-    body: seriesPage(),
-  }),
-);
-
-for (const [index, episode] of episodes.entries()) {
-  const path =
-    "/comics/" + series.slug + "/" + episode.id + "/";
+for (const currentSeries of allSeries) {
+  const currentEpisodes = currentSeries.episodes;
+  const currentLatest = currentEpisodes.at(-1);
   await route(
-    path,
+    "/series/" + currentSeries.slug + "/",
     layout({
-      path,
-      title: episode.title + " — " + series.title,
-      description: episode.lead,
-      page: "reader",
-      ogImage: episode.pages[0].src,
+      path: "/series/" + currentSeries.slug + "/",
+      title: currentSeries.title,
+      description: currentSeries.summary,
+      page: "series",
+      ogImage: currentLatest.pages[0].src,
       structuredData: {
         "@context": "https://schema.org",
-        "@type": "ComicStory",
-        name: episode.title,
-        description: episode.lead,
-        url: site.url + path,
-        position: episode.number,
-        image: site.url + episode.pages[0].src,
+        "@type": "CreativeWorkSeries",
+        name: currentSeries.title,
+        description: currentSeries.summary,
+        url: site.url + "/series/" + currentSeries.slug + "/",
+        numberOfEpisodes: currentEpisodes.length,
         inLanguage: "ko",
-        isPartOf: {
-          "@type": "CreativeWorkSeries",
-          name: series.title,
-          url: site.url + "/series/" + series.slug + "/",
-        },
+        isFamilyFriendly: true,
       },
-      body: readerPage(episode, index),
+      body: seriesPage(currentSeries),
     }),
   );
+
+  for (const [index, episode] of currentEpisodes.entries()) {
+    const path = "/comics/" + currentSeries.slug + "/" + episode.id + "/";
+    await route(
+      path,
+      layout({
+        path,
+        title: episode.title + " — " + currentSeries.title,
+        description: episode.lead,
+        page: "reader",
+        ogImage: episode.pages[0].src,
+        structuredData: {
+          "@context": "https://schema.org",
+          "@type": "ComicStory",
+          name: episode.title,
+          description: episode.lead,
+          url: site.url + path,
+          position: episode.number,
+          image: site.url + episode.pages[0].src,
+          inLanguage: "ko",
+          isPartOf: {
+            "@type": "CreativeWorkSeries",
+            name: currentSeries.title,
+            url: site.url + "/series/" + currentSeries.slug + "/",
+          },
+        },
+        body: readerPage(currentSeries, episode, index),
+      }),
+    );
+  }
 }
 
 const notFound = layout({
@@ -224,7 +223,9 @@ process.stdout.write(
   "빌드 완료: " +
     routes.length +
     "개 경로, " +
-    episodes.length +
+    allSeries.length +
+    "개 연재, " +
+    allEpisodes.length +
     "화, 최신 표지 " +
     assetStats.size +
     " bytes\n",
@@ -344,7 +345,15 @@ function footer() {
 }
 
 function homePage() {
-  const latestThree = episodes.slice(-3).reverse();
+  const latestThree = allSeries
+    .flatMap((item) => item.episodes.map((episode) => ({ series: item, episode })))
+    .sort((a, b) => {
+      const publishedA = a.episode.publishedAt ? Date.parse(a.episode.publishedAt) : 0;
+      const publishedB = b.episode.publishedAt ? Date.parse(b.episode.publishedAt) : 0;
+      const dateDifference = publishedB - publishedA;
+      return dateDifference || b.episode.number - a.episode.number;
+    })
+    .slice(0, 3);
   return `
     <section class="hero">
       <div class="hero__copy">
@@ -364,10 +373,10 @@ function homePage() {
           <a class="button button--line" href="/process/">제작 방식</a>
         </div>
       </div>
-      <a class="hero__visual" href="/comics/${series.slug}/${latestEpisode.id}/" aria-label="${escapeHtml(latestEpisode.title)} 읽기">
+      <a class="hero__visual" href="/comics/${primarySeries.slug}/${latestEpisode.id}/" aria-label="${escapeHtml(latestEpisode.title)} 읽기">
         <img src="${latestEpisode.pages[0].src}" width="${latestEpisode.pages[0].width}" height="${latestEpisode.pages[0].height}" alt="">
         <span class="hero__visual-index">COMIC · SERIAL ${String(latestEpisode.number).padStart(3, "0")}</span>
-        <span class="hero__visual-title">${escapeHtml(series.title)}<br><strong>${escapeHtml(latestEpisode.title)}</strong></span>
+        <span class="hero__visual-title">${escapeHtml(primarySeries.title)}<br><strong>${escapeHtml(latestEpisode.title)}</strong></span>
       </a>
     </section>
 
@@ -389,9 +398,11 @@ function homePage() {
           <p class="eyebrow">CONNECTED SERIAL</p>
           <h2 id="current-work-title">현재 연결된 연재</h2>
         </div>
-        <a class="text-link" href="/series/${series.slug}/">전체 ${episodes.length}화 보기 <span aria-hidden="true">→</span></a>
+        <a class="text-link" href="/works/">전체 ${allSeries.length}개 연재 보기 <span aria-hidden="true">→</span></a>
       </div>
-      ${seriesFeature()}
+      <div class="work-grid">
+        ${allSeries.map((item) => seriesFeature(item)).join("")}
+      </div>
     </section>
 
     <section class="latest" aria-labelledby="latest-title">
@@ -402,7 +413,7 @@ function homePage() {
         </div>
       </div>
       <div class="episode-grid episode-grid--three">
-        ${latestThree.map((episode) => episodeCard(episode)).join("")}
+        ${latestThree.map((item) => episodeCard(item.series, item.episode)).join("")}
       </div>
     </section>
   `;
@@ -418,14 +429,12 @@ function worksPage() {
     <section class="works-list" aria-labelledby="works-filter-title">
       <h2 class="sr-only" id="works-filter-title">작품 필터</h2>
       <div class="filter-tabs" role="group" aria-label="작품 종류">
-        <button type="button" data-filter="all" aria-pressed="true">전체 <span>1</span></button>
-        <button type="button" data-filter="comic" aria-pressed="false">만화 <span>1</span></button>
+        <button type="button" data-filter="all" aria-pressed="true">전체 <span>${allSeries.length}</span></button>
+        <button type="button" data-filter="comic" aria-pressed="false">만화 <span>${allSeries.filter((item) => item.type === "comic").length}</span></button>
         <button type="button" data-filter="video" aria-pressed="false">영상 <span>0</span></button>
       </div>
       <div class="work-grid">
-        <article class="work-card" data-work-card data-type="comic">
-          ${seriesFeature()}
-        </article>
+        ${allSeries.map((item) => `<article class="work-card" data-work-card data-type="${escapeHtml(item.type)}">${seriesFeature(item)}</article>`).join("")}
       </div>
       <div class="empty-state" data-filter-empty hidden>
         <p class="eyebrow">NO OUTPUT YET</p>
@@ -436,17 +445,19 @@ function worksPage() {
   `;
 }
 
-function seriesFeature() {
+function seriesFeature(currentSeries) {
+  const currentEpisodes = currentSeries.episodes;
+  const currentLatest = currentEpisodes.at(-1);
   return `
-    <a class="series-feature" href="/series/${series.slug}/">
+    <a class="series-feature" href="/series/${currentSeries.slug}/">
       <div class="series-feature__image">
-        <img src="${latestEpisode.pages[0].src}" width="${latestEpisode.pages[0].width}" height="${latestEpisode.pages[0].height}" alt="${escapeHtml(series.title)} ${latestEpisode.title} 표지" loading="lazy">
-        <span>${episodes.length} EPISODES</span>
+        <img src="${currentLatest.pages[0].src}" width="${currentLatest.pages[0].width}" height="${currentLatest.pages[0].height}" alt="${escapeHtml(currentSeries.title)} ${currentLatest.title} 표지" loading="lazy">
+        <span>${currentEpisodes.length} EPISODES</span>
       </div>
       <div class="series-feature__body">
         <div class="meta-row"><span>만화</span><span>연재 중</span><span>AI 제작</span></div>
-        <h3>${escapeHtml(series.title)}</h3>
-        <p>${escapeHtml(series.summary)}</p>
+        <h3>${escapeHtml(currentSeries.title)}</h3>
+        <p>${escapeHtml(currentSeries.summary)}</p>
         <strong>연재 보기 <span aria-hidden="true">↗</span></strong>
       </div>
     </a>
@@ -466,7 +477,7 @@ function modelsPage() {
         <div class="model-card__index">?</div>
         <div>
           <p class="eyebrow">RECORD NOT AVAILABLE</p>
-          <h2>초기 1–3화 모델 기록 없음</h2>
+          <h2>일부 초기 회차 모델 기록 없음</h2>
           <p>AI 이미지 생성물임은 확인되지만 제공사와 정확한 모델을 확인할 제작 기록이 없습니다.</p>
         </div>
       </article>
@@ -496,7 +507,11 @@ function modelCard(model) {
 }
 
 function modelDetailPage(model) {
-  const knownEpisodes = episodes.filter((episode) => episode.number >= 4);
+  const knownEpisodes = allSeries.flatMap((item) =>
+    item.episodes
+      .filter((episode) => episode.provenance?.image?.model === model.name)
+      .map((episode) => ({ series: item, episode })),
+  );
   return `
     <section class="page-intro page-intro--model">
       <a class="back-link" href="/models/">← AI 모델</a>
@@ -516,7 +531,7 @@ function modelDetailPage(model) {
         <span>${knownEpisodes.length}화</span>
       </div>
       <div class="episode-grid">
-        ${knownEpisodes.slice().reverse().map((episode) => episodeCard(episode)).join("")}
+        ${knownEpisodes.slice().reverse().map((item) => episodeCard(item.series, item.episode)).join("")}
       </div>
     </section>
   `;
@@ -546,25 +561,29 @@ function processPage() {
   `;
 }
 
-function seriesPage() {
+function seriesPage(currentSeries) {
+  const currentEpisodes = currentSeries.episodes;
+  const currentLatest = currentEpisodes.at(-1);
+  const known = currentEpisodes.filter((episode) => episode.provenance?.image?.status === "known-provider");
+  const knownRange = known.length ? `${known[0].number}–${known.at(-1).number}화` : "기록 없음";
   return `
     <section class="series-hero">
       <div class="series-hero__copy">
         <p class="eyebrow">AI COMIC · SERIAL</p>
-        <h1>${escapeHtml(series.title)}</h1>
-        <p>${escapeHtml(series.summary)}</p>
-        <div class="meta-row meta-row--large"><span>만화</span><span>연재 중</span><span>${episodes.length}화</span></div>
-        <a class="button button--dark" href="/comics/${series.slug}/${latestEpisode.id}/">최신화 읽기 <span aria-hidden="true">→</span></a>
+        <h1>${escapeHtml(currentSeries.title)}</h1>
+        <p>${escapeHtml(currentSeries.summary)}</p>
+        <div class="meta-row meta-row--large"><span>만화</span><span>연재 중</span><span>${currentEpisodes.length}화</span></div>
+        <a class="button button--dark" href="/comics/${currentSeries.slug}/${currentLatest.id}/">최신화 읽기 <span aria-hidden="true">→</span></a>
       </div>
       <div class="series-hero__image">
-        <img src="${latestEpisode.pages[0].src}" width="${latestEpisode.pages[0].width}" height="${latestEpisode.pages[0].height}" alt="${escapeHtml(latestEpisode.title)} 표지">
-        <span>LATEST · ${String(latestEpisode.number).padStart(3, "0")}</span>
+        <img src="${currentLatest.pages[0].src}" width="${currentLatest.pages[0].width}" height="${currentLatest.pages[0].height}" alt="${escapeHtml(currentLatest.title)} 표지">
+        <span>LATEST · ${String(currentLatest.number).padStart(3, "0")}</span>
       </div>
     </section>
     <section class="series-model">
       <div><p class="eyebrow">MODEL DISCLOSURE</p><h2>제작 모델</h2></div>
       <dl>
-        <div><dt>4–29화 이미지</dt><dd><a href="/models/openai-image-generation/">OpenAI Image Generation</a></dd></div>
+        <div><dt>${knownRange} 이미지</dt><dd><a href="/models/openai-image-generation/">OpenAI Image Generation</a></dd></div>
         <div><dt>정확한 버전</dt><dd>기록 없음</dd></div>
         <div><dt>1–3화 이미지</dt><dd>모델 기록 없음</dd></div>
       </dl>
@@ -572,16 +591,16 @@ function seriesPage() {
     <section class="episodes" aria-labelledby="episodes-title">
       <div class="section-heading section-heading--row">
         <div><p class="eyebrow">ALL EPISODES</p><h2 id="episodes-title">전체 회차</h2></div>
-        <span>최신순 · ${episodes.length}</span>
+        <span>최신순 · ${currentEpisodes.length}</span>
       </div>
       <div class="episode-grid">
-        ${episodes.slice().reverse().map((episode) => episodeCard(episode)).join("")}
+        ${currentEpisodes.slice().reverse().map((episode) => episodeCard(currentSeries, episode)).join("")}
       </div>
     </section>
   `;
 }
 
-function episodeCard(episode) {
+function episodeCard(currentSeries, episode) {
   const cover = episode.pages[0];
   const modelLabel =
     episode.provenance.image.status === "known-provider"
@@ -589,7 +608,7 @@ function episodeCard(episode) {
       : "모델 기록 없음";
   return `
     <article class="episode-card">
-      <a href="/comics/${series.slug}/${episode.id}/">
+      <a href="/comics/${currentSeries.slug}/${episode.id}/">
         <div class="episode-card__image">
           <img src="${cover.src}" width="${cover.width}" height="${cover.height}" alt="${escapeHtml(episode.title)} 표지" loading="lazy">
           <span>EP. ${String(episode.number).padStart(3, "0")}</span>
@@ -604,9 +623,10 @@ function episodeCard(episode) {
   `;
 }
 
-function readerPage(episode, index) {
-  const previous = episodes[index - 1];
-  const next = episodes[index + 1];
+function readerPage(currentSeries, episode, index) {
+  const currentEpisodes = currentSeries.episodes;
+  const previous = currentEpisodes[index - 1];
+  const next = currentEpisodes[index + 1];
   const imageDisclosure =
     episode.provenance.image.status === "known-provider"
       ? `
@@ -619,15 +639,15 @@ function readerPage(episode, index) {
     <div class="reader-progress" aria-hidden="true"><span></span></div>
     <section class="reader-intro">
       <nav class="breadcrumbs" aria-label="현재 위치">
-        <a href="/works/">작품</a><span>/</span><a href="/series/${series.slug}/">${escapeHtml(series.title)}</a><span>/</span><strong>${episode.number}화</strong>
+        <a href="/works/">작품</a><span>/</span><a href="/series/${currentSeries.slug}/">${escapeHtml(currentSeries.title)}</a><span>/</span><strong>${episode.number}화</strong>
       </nav>
       <div class="reader-intro__title">
         <div>
-          <p class="eyebrow">EPISODE ${String(episode.number).padStart(3, "0")} · 20 PAGES</p>
+          <p class="eyebrow">EPISODE ${String(episode.number).padStart(3, "0")} · ${episode.pageCount} PAGES</p>
           <h1>${escapeHtml(episode.shortTitle)}</h1>
           <p>${escapeHtml(episode.lead)}</p>
         </div>
-        <a class="text-link" href="/series/${series.slug}/">회차 목록 <span aria-hidden="true">↗</span></a>
+        <a class="text-link" href="/series/${currentSeries.slug}/">회차 목록 <span aria-hidden="true">↗</span></a>
       </div>
       <details class="provenance">
         <summary>이 작품의 제작 정보 <span aria-hidden="true">＋</span></summary>
@@ -652,7 +672,7 @@ function readerPage(episode, index) {
                 decoding="async"
                 ${pageIndex === 0 ? 'fetchpriority="high"' : ""}
               >
-              <figcaption class="sr-only">${episode.number}화 ${page.number}/20페이지</figcaption>
+              ${episode.presentation?.mode === "site-native-caption" ? `<figcaption class="comic-reader__caption"><span>${escapeHtml(page.caption)}</span><small>${String(page.number).padStart(2, "0")}/${String(episode.pageCount).padStart(2, "0")}</small></figcaption>` : `<figcaption class="sr-only">${episode.number}화 ${page.number}/${episode.pageCount}페이지</figcaption>`}
             </figure>
           `,
         )
@@ -662,8 +682,8 @@ function readerPage(episode, index) {
       <p class="eyebrow">END OF EPISODE ${String(episode.number).padStart(3, "0")}</p>
       <blockquote>“${escapeHtml(episode.closingLine)}”</blockquote>
       <nav class="reader-nav" aria-label="회차 이동">
-        ${previous ? '<a href="/comics/' + series.slug + "/" + previous.id + '/"><span>이전 화</span><strong>← ' + escapeHtml(previous.shortTitle) + "</strong></a>" : "<span></span>"}
-        ${next ? '<a href="/comics/' + series.slug + "/" + next.id + '/"><span>다음 화</span><strong>' + escapeHtml(next.shortTitle) + " →</strong></a>" : '<a href="/series/' + series.slug + '/"><span>최신화입니다</span><strong>전체 회차 →</strong></a>'}
+        ${previous ? '<a href="/comics/' + currentSeries.slug + "/" + previous.id + '/"><span>이전 화</span><strong>← ' + escapeHtml(previous.shortTitle) + "</strong></a>" : "<span></span>"}
+        ${next ? '<a href="/comics/' + currentSeries.slug + "/" + next.id + '/"><span>다음 화</span><strong>' + escapeHtml(next.shortTitle) + " →</strong></a>" : '<a href="/series/' + currentSeries.slug + '/"><span>최신화입니다</span><strong>전체 회차 →</strong></a>'}
       </nav>
     </section>
   `;

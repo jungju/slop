@@ -14,11 +14,16 @@ Node.js 22 이상에서 다음 명령을 사용합니다.
     npm run check
     npm run serve
 
-## 바람이 돌아오는 곳 동기화
+## 연재 구조
 
-로컬 JHub의 공개용 독자 이미지를 WebP로 변환하고 메타데이터를 갱신합니다.
+모든 연재는 `series/<slug>` 안에 스토리, 스펙, 하네스, 회차 메타데이터와
+독자용 이미지를 함께 보관합니다. 빌드는 이 디렉터리를 자동으로 발견합니다.
 
-    npm run import:wind
+    npm run series:list
+    npm run series -- next wind-returning-place
+    npm run series -- verify wind-returning-place
+    npm run series -- scaffold wind-returning-place --title "새 회차 제목"
+    npm run series -- finalize wind-returning-place ep-030 --source <원본 이미지 폴더>
 
-원본 JHub 패키지는 읽기만 하며 수정하지 않습니다. 다른 위치의 JHub를 사용할 때는
-JHUB_WIND_SITE_ROOT 환경 변수로 web_app.wind-returning-place 패키지 경로를 지정합니다.
+새 연재를 추가할 때는 같은 구조의 `series.json`, `harness.json`, `episodes/`만
+만들면 됩니다. 작품별 사이트나 가져오기 스크립트는 만들지 않습니다.

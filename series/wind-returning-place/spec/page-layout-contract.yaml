@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "contract_id": "wind-template3-page-v1",
+  "status": "final_locked",
+  "locked_at": "2026-07-13",
+  "authority": "Mandatory final reader-facing page contract for every newly produced Wind Returning Place episode page, final scroll, PDF page, ZIP page, release page, and site panel. Historical pages remain migration evidence until explicitly rerendered.",
+  "approved_final_reference": "verification/layout-contract-v1/page-01-lettered.png",
+  "final_output": {
+    "artifact_role": "final_reader_facing_page",
+    "render_method": "wind_layout_contract_renderer_v1",
+    "source_art_must_be_imagegen": true,
+    "local_korean_lettering_required": true,
+    "episode_completion_requires_all_pages_pass": true,
+    "export_requires_only_passing_pages": true,
+    "site_sync_requires_only_passing_pages": true,
+    "waiver_policy": "user_approved_or_db_backed_before_render"
+  },
+  "canvas": {
+    "width": 1055,
+    "height": 1491,
+    "background": "#F4F0E7",
+    "color_space": "srgb"
+  },
+  "art_region": {
+    "x": 24,
+    "y": 24,
+    "width": 1007,
+    "height": 1136,
+    "fit": "cover",
+    "focal_point": "prompt_or_storyboard",
+    "corner_radius": 10
+  },
+  "caption_card": {
+    "x": 32,
+    "y": 1192,
+    "width": 991,
+    "height": 210,
+    "padding_x": 54,
+    "padding_y": 34,
+    "fill": "#FFFCF6",
+    "stroke": "#3C3A36",
+    "stroke_width": 2,
+    "corner_radius": 14
+  },
+  "caption_text": {
+    "font_family": "NanumGothic",
+    "font_weight": 400,
+    "font_size": 30,
+    "line_height": 44,
+    "color": "#282724",
+    "align": "center",
+    "max_lines": 3,
+    "max_characters_per_line": 30
+  },
+  "page_number": {
+    "right": 28,
+    "baseline_y": 1454,
+    "font_family": "NanumGothic",
+    "font_size": 20,
+    "color": "#6E6A62",
+    "format": "NN/20"
+  },
+  "source_art": {
+    "reader_facing_text": "forbidden",
+    "speech_bubbles": "forbidden",
+    "logos_and_watermarks": "forbidden",
+    "required_medium": "restrained Korean webtoon illustration with soft ink linework, simplified contour lines, calm flat painterly color blocks, and light cel shading",
+    "prohibited_medium": ["live_action", "cinematic_still", "DSLR_photo", "hyperreal_portrait"]
+  },
+  "validation": {
+    "exact_canvas_size": true,
+    "mixed_page_dimensions": "fail",
+    "position_tolerance_px": 0,
+    "maximum_unassigned_vertical_gap_px": 32,
+    "caption_overflow": "fail",
+    "caption_underflow_policy": "keep_fixed_card",
+    "required_manifest_fields": ["contract_id", "artifact_role", "render_method", "canvas", "art_region", "caption_card", "caption_text", "page_number", "source_art", "final_page"]
+  }
+}

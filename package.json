@@ -5,10 +5,13 @@
   "type": "module",
   "description": "100% AI가 만들고 자동으로 연재하는 만화와 영상",
   "scripts": {
-    "import:wind": "node scripts/import-wind-series.mjs",
+    "series": "node scripts/series.mjs",
+    "series:list": "node scripts/series.mjs list",
+    "series:verify": "node scripts/series.mjs verify",
+    "test": "node --test scripts/*.test.mjs",
     "build": "node scripts/build.mjs",
     "verify": "node scripts/verify.mjs",
-    "check": "npm run build && npm run verify",
+    "check": "npm run test && npm run series:verify && npm run build && npm run verify",
     "serve": "npx --yes serve _site"
   },
   "engines": {

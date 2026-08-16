@@ -1,0 +1,25 @@
+version: 1
+episode_id: ep-015
+global_style: "Restrained Korean webtoon illustration, soft ink contours, calm flat painterly colors, light cel shading, vertical template-3 page with quiet upper narration-safe area. Text-free, no bubbles, no logos, no watermarks, never live action or photorealistic."
+character_lock: "Doyun is slim, 26, slightly long wavy black hair, gray hoodie under dark navy coat, messenger bag, black-and-silver vintage camera. Soondeok has short gray hair and sea-blue practical work coat. Yunseo is a child with short black bob and yellow-gray rain jacket."
+pages:
+  - { page: 1, prompt: "Seoul gallery morning, Doyun pauses beside one empty worn wooden chair and unframed photographs, winter glass." }
+  - { page: 2, prompt: "Doyun carefully clears a stack of photo prints from a plain wooden chair, close hands and chair seat." }
+  - { page: 3, prompt: "Doyun studies a phone photo showing a similar scratched chair in Jeju harbor waiting room, no phone text visible." }
+  - { page: 4, prompt: "Windy Jeju harbor waiting room arrival, wet coats, volcanic stone outside, Doyun enters with camera." }
+  - { page: 5, prompt: "Scratched dry unassigned wooden chair facing a bright harbor window, quiet empty room." }
+  - { page: 6, prompt: "Doyun prepares a blank small card and tape near the chair back, hesitant hands." }
+  - { page: 7, prompt: "Soondeok gently removes tape from chair, Doyun listening, practical calm." }
+  - { page: 8, prompt: "Doyun stands near bare chair, uncertain, wind moving his coat through doorway." }
+  - { page: 9, prompt: "Child Yunseo puts down small bag and rests on chair, tired but self-possessed." }
+  - { page: 10, prompt: "Yunseo drinks water and looks toward ferry while sitting, clear child-scale resolve." }
+  - { page: 11, prompt: "Wet-haired delivery worker enters, sees occupied chair and leans by wall to retie shoe." }
+  - { page: 12, prompt: "Yunseo notices worker and rises on her own, lifting her small bag from chair." }
+  - { page: 13, prompt: "Delivery worker briefly sits and ties shoe then runs toward ferry, chair and motion clear." }
+  - { page: 14, prompt: "Doyun photographs chair legs and damp floor traces, no faces, vintage camera foreground." }
+  - { page: 15, prompt: "The chair is empty and ready again in harbor window light, clear visible calm." }
+  - { page: 16, prompt: "Ferry deck return, Doyun folds a blank card and places it inside camera case, wind and sea." }
+  - { page: 17, prompt: "Seoul gallery, Doyun sands and steadies a plain worn chair, wood dust and careful hands." }
+  - { page: 18, prompt: "Finished plain chair by Seoul gallery window with coat hook and small water cup, no labels." }
+  - { page: 19, prompt: "Rainy Seoul visitor rests on chair, Doyun photographs only shoes, chair legs, and rain window." }
+  - { page: 20, prompt: "Gallery after closing, chair remains unassigned in warm-blue window light, Doyun walking away in background." }

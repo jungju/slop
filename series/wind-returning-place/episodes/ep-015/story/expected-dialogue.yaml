@@ -1,0 +1,8 @@
+expected_text:
+  - { id: p07-d1, panel: 7, kind: dialogue, speaker: Soondeok, text: "앉을 수 있으면 됐지.", required: true }
+  - { id: p10-d1, panel: 10, kind: dialogue, speaker: Yunseo, text: "다음 사람 오면 일어날게요.", required: true }
+review_rules:
+  locally_lettered: true
+  generated_art_must_be_text_free: true
+  block_on_empty_bubble: true
+  block_on_fake_or_pseudo_text: true

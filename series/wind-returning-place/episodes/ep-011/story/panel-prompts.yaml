@@ -1,0 +1,55 @@
+episode_id: ep-011
+generation_mode: built-in image_gen
+source_generation_folder: C:\Users\jeong\.codex\generated_images\019f4878-dfce-7763-af03-cc707afe5782
+common_prompt_prefix: >
+  Restrained Korean webtoon illustration, soft ink linework, visible simplified
+  contour lines, calm flat painterly color blocks, light cel-shaded faces and
+  hands, gentle paper/comic finish, template-3 lyrical narration-card page
+  grammar. Portrait page, one large illustration panel, off-white margin, clean
+  empty bottom narration-card area for local Korean lettering.
+common_negative: >
+  No readable Korean, no fake text, no logos, no watermark, no speech bubbles,
+  no captions, no brand marks. Avoid live-action, cinematic still, DSLR photo,
+  film frame, hyperreal render, realistic actor likeness, photographic skin,
+  skin pores, lens bokeh, glossy actor lighting, and generated writing.
+pages:
+  - page: 1
+    prompt_summary: Doyun finds a salt-stiff handkerchief among Seoul gallery archive boxes.
+  - page: 2
+    prompt_summary: He notices the white salt line before dusting the handkerchief clean.
+  - page: 3
+    prompt_summary: The salt mark remains when he lifts the cloth into gallery light.
+  - page: 4
+    prompt_summary: Doyun arrives in a Jeju harbor lane with laundry lines in wind.
+  - page: 5
+    prompt_summary: Elderly Soondeok wrings cloth at a basin and refuses spotless meaning.
+  - page: 6
+    prompt_summary: Child Yunseo asks whether clean means nothing happened.
+  - page: 7
+    prompt_summary: Soondeok pins the cloth and lets the remaining mark stay visible.
+  - page: 8
+    prompt_summary: A local worker uses a plain cloth for practical sea-spray care.
+  - page: 9
+    prompt_summary: Yunseo finds the faint salt line after the cloth dries.
+  - page: 10
+    prompt_summary: Doyun photographs the salt line and moving laundry shadow.
+  - page: 11
+    prompt_summary: Yunseo chooses a clothespin placement for the handkerchief corner.
+  - page: 12
+    prompt_summary: Doyun lowers the camera and lets the trace dry in its own time.
+  - page: 13
+    prompt_summary: Back in Seoul, Doyun installs a translucent cloth screen beside photos.
+  - page: 14
+    prompt_summary: Visitors encounter Jeju light through cloth before explanation.
+  - page: 15
+    prompt_summary: Doyun places Yunseo’s clothespin at child height.
+  - page: 16
+    prompt_summary: A visitor touches their own handkerchief while viewing the display.
+  - page: 17
+    prompt_summary: A child visitor sees Yunseo’s low photograph before the adults do.
+  - page: 18
+    prompt_summary: After closing, the cloth shadow leaves a wind-like trace on the floor.
+  - page: 19
+    prompt_summary: Doyun folds the handkerchief loosely with the salt line visible.
+  - page: 20
+    prompt_summary: Final still life of handkerchief, camera, cloth screen, and morning doorway light.

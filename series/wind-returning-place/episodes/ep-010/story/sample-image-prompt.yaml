@@ -1,0 +1,17 @@
+episode_id: ep-010
+template: "03-lyrical-narration-card-comic"
+template_number: 3
+title: "바람이 돌아오는 곳 10: 남겨진 우산"
+source_generation_folder: C:\Users\jeong\.codex\generated_images\019f4353-0fb9-7452-88c8-b7e562a09a68
+style_lock: >
+  Restrained Korean webtoon illustration, soft ink linework, visible simplified
+  contour lines, calm flat painterly color blocks, light cel-shaded faces and
+  hands, gentle paper/comic finish, template-3 lyrical narration-card page
+  grammar.
+negative_lock: >
+  No readable Korean, no fake text, no logos, no watermark, no speech bubbles,
+  no captions, no brand marks. Avoid live-action, cinematic still, DSLR photo,
+  film frame, hyperreal render, realistic actor likeness, photographic skin,
+  skin pores, lens bokeh, glossy actor lighting, and generated writing.
+motif: left umbrella, rainy bus stop, waiting as care
+local_lettering: true

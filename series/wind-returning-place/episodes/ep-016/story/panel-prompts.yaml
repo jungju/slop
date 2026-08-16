@@ -1,0 +1,25 @@
+version: 1
+episode_id: ep-016
+global_style: "Restrained Korean webtoon illustration, soft ink contours, calm flat painterly colors, light cel shading, vertical template-3 page with calm image area and a clean fixed lower caption strip. Text-free, no bubbles, no logos, no watermarks, never live action or photorealistic."
+character_lock: "Doyun is slim, 26, slightly long wavy black hair, gray hoodie under dark navy coat, messenger bag, black-and-silver vintage camera. Soondeok has short gray hair and sea-blue practical work coat. Yunseo is a child with short black bob and yellow-gray rain jacket. The tray is the canonical shallow blue enamel rectangle with navy rim, front-left crescent chip and three center scratches."
+pages:
+  - { page: 1, prompt: "Seoul gallery tea corner, Doyun notices a worn blue enamel tray beneath used tea cups, close view of visible chip and scratches." }
+  - { page: 2, prompt: "Doyun gently lifts the blue enamel tray away from visitors, concerned hands and cups on white gallery counter." }
+  - { page: 3, prompt: "Doyun studies a phone photo of matching blue tray at Jeju harbor meal, no phone text visible." }
+  - { page: 4, prompt: "Windy Jeju harbor restaurant before lunch rush, low tables, soup steam, Doyun enters with camera and messenger bag." }
+  - { page: 5, prompt: "Blue enamel tray carrying bowls from kitchen to a long wooden harbor table, clear chip and rim visible." }
+  - { page: 6, prompt: "Doyun points to chipped tray rim while asking Soondeok to set it aside, practical restaurant background." }
+  - { page: 7, prompt: "Soondeok calmly sets two bowls on the blue tray, Doyun listening, no text." }
+  - { page: 8, prompt: "Doyun carefully carries loaded blue tray over restaurant doorway threshold, weight and careful hands clear." }
+  - { page: 9, prompt: "Child Yunseo finishes soup, looks around with small empty bowl and blue tray nearby, child-scale posture." }
+  - { page: 10, prompt: "Yunseo looks at tray and kitchen doorway, curious direct expression, blue tray and bowl visible." }
+  - { page: 11, prompt: "Tired middle-aged Jeju fisherwoman enters carrying cups in both hands and pauses at a closed wash-room door." }
+  - { page: 12, prompt: "Yunseo independently places her empty bowl on blue tray and starts pushing it toward doorway, short black bob and yellow-gray jacket clear." }
+  - { page: 13, prompt: "Doyun takes the other side of blue tray after Yunseo starts, making space for fisherwoman to pass through doorway." }
+  - { page: 14, prompt: "Blue enamel tray returns toward kitchen carrying bowls and cups, chip still visible, service motion clear." }
+  - { page: 15, prompt: "Doyun photographs freshly washed blue tray from above, only camera hands and the tray visible, no faces." }
+  - { page: 16, prompt: "Ferry deck return, Doyun deletes a blank label draft on phone and closes camera case, sea and wind." }
+  - { page: 17, prompt: "Seoul gallery, Doyun places plain blue return tray beside tea cups on low counter, no label." }
+  - { page: 18, prompt: "Gallery tea corner with a few stacked empty cups on blue tray, the visible arrangement explains return loop without signs." }
+  - { page: 19, prompt: "One Seoul visitor places a finished tea cup on blue tray while another carries tray toward counter, faces not emphasized." }
+  - { page: 20, prompt: "Gallery after closing, clean empty blue tray waits beside tea cups in calm warm-blue window light, Doyun walking away in background." }

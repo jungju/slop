@@ -1,0 +1,85 @@
+episode_id: ep-007
+title: "바람이 돌아오는 곳 7: 빌린 벽"
+template_id: lyrical-narration-card-comic
+page_count: 20
+pages:
+  - page: 1
+    beat: Doyun stands before a blank movable Seoul gallery wall.
+    setting: Seoul gallery after closing
+    focal_object: borrowed blank wall
+  - page: 2
+    beat: Doyun studies a rental agreement and gallery wall sketch.
+    setting: Seoul gallery worktable
+    focal_object: blank contract and measuring tape
+  - page: 3
+    beat: Soondeok reframes wall borrowing as holding memory.
+    setting: Jeju community room
+    focal_object: blank community wall
+  - page: 4
+    beat: Yunseo asks why a wall is borrowed.
+    setting: Jeju community room
+    focal_object: child-height wall and small photo
+  - page: 5
+    beat: Doyun carries cloth and photos through a windy Jeju lane.
+    setting: Jeju village lane
+    focal_object: rolled hanging cloth
+  - page: 6
+    beat: Villagers place personal photos and objects on the table.
+    setting: Jeju community room
+    focal_object: photos and everyday objects
+  - page: 7
+    beat: Soondeok moves Doyun's neat grid aside.
+    setting: Jeju community wall
+    focal_object: crooked photo
+  - page: 8
+    beat: Yunseo hangs a photo at her own height.
+    setting: Jeju community wall
+    focal_object: low child-height photo
+  - page: 9
+    beat: Wind lifts the borrowed cloth wall.
+    setting: outside Jeju community room
+    focal_object: cloth wall and photo clips
+  - page: 10
+    beat: Weathered hands pin an old photo beside a new one.
+    setting: Jeju wall close-up
+    focal_object: old photo edge
+  - page: 11
+    beat: Doyun lowers his camera and listens.
+    setting: Jeju community room
+    focal_object: lowered camera
+  - page: 12
+    beat: The wall becomes an uneven shared arrangement.
+    setting: Jeju community wall
+    focal_object: living wall arrangement
+  - page: 13
+    beat: Doyun copies the uneven rhythm into the Seoul gallery.
+    setting: Seoul gallery wall
+    focal_object: loose measuring tape
+  - page: 14
+    beat: Visitors pause before the wall without explanation.
+    setting: Seoul gallery opening
+    focal_object: uneven Jeju wall display
+  - page: 15
+    beat: A visitor bends down to see the low child-height image.
+    setting: Seoul gallery
+    focal_object: low photo
+  - page: 16
+    beat: Yunseo places a small Jeju stone under the low photo.
+    setting: Seoul gallery
+    focal_object: Jeju stone
+  - page: 17
+    beat: Doyun removes the centered title card.
+    setting: Seoul gallery wall
+    focal_object: blank card
+  - page: 18
+    beat: Visitors leave blank cards and stones near the wall.
+    setting: Seoul gallery
+    focal_object: blank cards and stones
+  - page: 19
+    beat: Doyun sits alone before the wall after closing.
+    setting: empty Seoul gallery
+    focal_object: resting camera
+  - page: 20
+    beat: Morning leaves a gap for someone else's memory.
+    setting: Seoul gallery morning
+    focal_object: open gap in wall

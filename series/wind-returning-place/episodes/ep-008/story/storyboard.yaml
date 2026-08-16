@@ -1,0 +1,85 @@
+episode_id: ep-008
+title: "바람이 돌아오는 곳 8: 접힌 표"
+template_id: lyrical-narration-card-comic
+page_count: 20
+pages:
+  - page: 1
+    beat: Doyun holds a folded ferry ticket at the Seoul gallery threshold.
+    setting: Seoul gallery doorway after closing
+    focal_object: folded ferry ticket
+  - page: 2
+    beat: The ticket beside Doyun's vintage camera looks like a small path.
+    setting: Seoul gallery worktable
+    focal_object: folded ticket and camera
+  - page: 3
+    beat: Soondeok reframes a ticket as movement, not an explanation.
+    setting: Jeju ferry terminal bench
+    focal_object: ticket in weathered hand
+  - page: 4
+    beat: Yunseo asks why used tickets are folded.
+    setting: Jeju terminal waiting area
+    focal_object: folded ticket corner
+  - page: 5
+    beat: Doyun walks the harbor road before taking photographs.
+    setting: Jeju harbor road
+    focal_object: ticket in coat pocket
+  - page: 6
+    beat: Ferry passengers wait with bags and quiet reasons.
+    setting: Jeju ferry terminal
+    focal_object: waiting passengers and bags
+  - page: 7
+    beat: Wind tears a ticket corner and Doyun keeps it.
+    setting: windy ferry pier
+    focal_object: torn ticket corner
+  - page: 8
+    beat: Yunseo folds scrap paper into a small route and opens it.
+    setting: Jeju terminal table
+    focal_object: child-folded paper route
+  - page: 9
+    beat: Soondeok walks ahead, refusing to decide Doyun's route.
+    setting: harbor lane
+    focal_object: Soondeok's back and road line
+  - page: 10
+    beat: Doyun photographs hands holding tickets instead of faces.
+    setting: ferry terminal close-up
+    focal_object: hands with tickets
+  - page: 11
+    beat: The ferry leaves without dramatic farewell.
+    setting: Jeju harbor edge
+    focal_object: departing ferry and wet ropes
+  - page: 12
+    beat: Doyun understands not boarding can also be a choice.
+    setting: quiet pier
+    focal_object: unboarded ticket
+  - page: 13
+    beat: Doyun returns to Seoul with the creased ticket.
+    setting: Seoul gallery desk
+    focal_object: creased ticket under gallery light
+  - page: 14
+    beat: He studies the gallery doorway as part of the exhibit route.
+    setting: Seoul gallery entry
+    focal_object: doorway threshold
+  - page: 15
+    beat: Visitors slow down while crossing the threshold.
+    setting: Seoul gallery opening
+    focal_object: visitor feet at threshold
+  - page: 16
+    beat: Yunseo's folded paper route rests near the low doorway edge.
+    setting: Seoul gallery doorway
+    focal_object: small folded paper route
+  - page: 17
+    beat: Doyun unfolds the ticket without flattening its crease.
+    setting: gallery worktable
+    focal_object: unfolded creased ticket
+  - page: 18
+    beat: A visitor pauses at the crease and looks back.
+    setting: gallery entry display
+    focal_object: ticket crease and turning visitor
+  - page: 19
+    beat: After closing, Doyun stands in the doorway listening to wind.
+    setting: closed Seoul gallery doorway
+    focal_object: Doyun at threshold
+  - page: 20
+    beat: Morning light opens across the creased ticket like a forward route.
+    setting: Seoul gallery morning
+    focal_object: creased ticket in doorway light

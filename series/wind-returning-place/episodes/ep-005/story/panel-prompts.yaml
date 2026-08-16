@@ -1,0 +1,66 @@
+episode_id: ep-005
+prompt_prefix: 'Wind Visual Style Lock: restrained Korean webtoon illustration; soft
+  ink linework; visible simplified contour lines; calm flat painterly color blocks;
+  light cel-shaded faces and hands; no live-action, no DSLR, no cinematic still, no
+  photorealism, no generated text.'
+pages:
+- page: 1
+  caption: 도윤은 전시할 사진을 고르며, 흐릿한 연락지를 따로 밀어 두었다.
+  source_original_path: C:\Users\jeong\.codex\generated_images\019f2aa6-4ba4-7e21-ba62-385e65cbadbc\ig_09be41d0a56e9e5b016a4863888b588191a7720f667d29645e.png
+- page: 2
+  caption: 좋은 사진은 벽으로 가고, 흔들린 얼굴은 조용히 봉투 속으로 밀렸다.
+  source_original_path: C:\Users\jeong\.codex\generated_images\019f2aa6-4ba4-7e21-ba62-385e65cbadbc\ig_09be41d0a56e9e5b016a486410d3f481918f2bd55311e27c92.png
+- page: 3
+  caption: 제주 마을 회관 창가에서 윤서가 그 사진을 집어 들었다.
+  source_original_path: C:\Users\jeong\.codex\generated_images\019f2aa6-4ba4-7e21-ba62-385e65cbadbc\ig_09be41d0a56e9e5b016a48645b644081919295d026a3933793.png
+- page: 4
+  caption: 윤서는 사진을 들고 물었다. "왜 이건 나쁜 사진이에요?"
+  source_original_path: C:\Users\jeong\.codex\generated_images\019f2aa6-4ba4-7e21-ba62-385e65cbadbc\ig_09be41d0a56e9e5b016a4864eca2d88191b7d6aedd7ed2808a.png
+- page: 5
+  caption: 도윤은 흔들렸다는 말 말고는, 아이에게 줄 말을 찾지 못했다.
+  source_original_path: C:\Users\jeong\.codex\generated_images\019f2aa6-4ba4-7e21-ba62-385e65cbadbc\ig_09be41d0a56e9e5b016a48657853c481919da15775fd173242.png
+- page: 6
+  caption: 순덕은 대답을 대신하지 않고, 바람에 뒤집히는 종이만 눌러 주었다.
+  source_original_path: C:\Users\jeong\.codex\generated_images\019f2aa6-4ba4-7e21-ba62-385e65cbadbc\ig_09be41d0a56e9e5b016a4865c3f0d48191873f6cbe635d8adc.png
+- page: 7
+  caption: 연락지의 작은 칸들은 실패처럼 보였지만, 모두 같은 하루를 지나온 빛이었다.
+  source_original_path: C:\Users\jeong\.codex\generated_images\019f2aa6-4ba4-7e21-ba62-385e65cbadbc\ig_09be41d0a56e9e5b016a48660ecb6881918a8228bc5e8ed51e.png
+- page: 8
+  caption: 윤서는 작은 카메라를 들고, 잘 찍는 법보다 보고 싶은 곳을 먼저 골랐다.
+  source_original_path: C:\Users\jeong\.codex\generated_images\019f2aa6-4ba4-7e21-ba62-385e65cbadbc\ig_09be41d0a56e9e5b016a48666460e88191b4bf11bd767ba2c1.png
+- page: 9
+  caption: 항구의 빛은 고르지 않았고, 아이의 손도 바람을 따라 조금씩 흔들렸다.
+  source_original_path: C:\Users\jeong\.codex\generated_images\019f2aa6-4ba4-7e21-ba62-385e65cbadbc\ig_00db39cd8ea61f7f016a4867143d28819193d653ddf501e0a8.png
+- page: 10
+  caption: 도윤은 초점을 맞추라고 말하려다, 그 말을 다시 주머니에 넣었다.
+  source_original_path: C:\Users\jeong\.codex\generated_images\019f2aa6-4ba4-7e21-ba62-385e65cbadbc\ig_00db39cd8ea61f7f016a4867ac58108191a503c5aafac28091.png
+- page: 11
+  caption: 셔터 소리 사이로, 바다는 선명하지 않은 얼굴들을 잠깐씩 비추었다.
+  source_original_path: C:\Users\jeong\.codex\generated_images\019f2aa6-4ba4-7e21-ba62-385e65cbadbc\ig_00db39cd8ea61f7f016a486837329c8191aad3aa0b43bca9bf.png
+- page: 12
+  caption: 화면 속 사진은 기울어 있었지만, 그 안의 웃음은 지워지지 않았다.
+  source_original_path: C:\Users\jeong\.codex\generated_images\019f2aa6-4ba4-7e21-ba62-385e65cbadbc\ig_00db39cd8ea61f7f016a4868813e4481919a964c60d081e27b.png
+- page: 13
+  caption: 도윤은 봉투 속에 남겨 둔 사진을 다시 꺼내, 손바닥 위에 올려 보았다.
+  source_original_path: C:\Users\jeong\.codex\generated_images\019f2aa6-4ba4-7e21-ba62-385e65cbadbc\ig_00db39cd8ea61f7f016a486914fb588191a020f8d4967c6f88.png
+- page: 14
+  caption: 서울의 벽 앞에서 그는 제목 없는 카드 하나를 오래 들고 있었다.
+  source_original_path: C:\Users\jeong\.codex\generated_images\019f2aa6-4ba4-7e21-ba62-385e65cbadbc\ig_00db39cd8ea61f7f016a48699ff974819192cc9bd0e42ce941.png
+- page: 15
+  caption: 그는 흐릿한 프레임을 지우지 않고, 고른 사진들 사이에 조용히 걸었다.
+  source_original_path: C:\Users\jeong\.codex\generated_images\019f2aa6-4ba4-7e21-ba62-385e65cbadbc\ig_0a85d50fdc09f966016a486aa126e081918b8e93ac9ef39820.png
+- page: 16
+  caption: 누군가는 그 사진 앞에서 오래 멈췄고, 아무 설명도 먼저 찾지 않았다.
+  source_original_path: C:\Users\jeong\.codex\generated_images\019f2aa6-4ba4-7e21-ba62-385e65cbadbc\ig_0a85d50fdc09f966016a486b2d6cf481919cac6c96334c5119.png
+- page: 17
+  caption: 윤서가 남긴 사진도 한쪽에 놓였다. 빛은 조금 삐뚤었고, 그래서 살아 있었다.
+  source_original_path: C:\Users\jeong\.codex\generated_images\019f2aa6-4ba4-7e21-ba62-385e65cbadbc\ig_0a85d50fdc09f966016a486b79a3f881919569530d38798d30.png
+- page: 18
+  caption: 빈 카드는 빈 채로 남았다. 모르는 마음을 모른다고 두기 위해서였다.
+  source_original_path: C:\Users\jeong\.codex\generated_images\019f2aa6-4ba4-7e21-ba62-385e65cbadbc\ig_0a85d50fdc09f966016a486c0e04c88191bd433757d6dce462.png
+- page: 19
+  caption: 전시장 불이 낮아질 때, 도윤은 버린 줄 알았던 빛이 돌아오는 것을 보았다.
+  source_original_path: C:\Users\jeong\.codex\generated_images\019f2aa6-4ba4-7e21-ba62-385e65cbadbc\ig_0a85d50fdc09f966016a486c59948c819182be76cdfeb82967.png
+- page: 20
+  caption: 고르지 않은 빛도, 누군가에게는 돌아갈 길이 되었다.
+  source_original_path: C:\Users\jeong\.codex\generated_images\019f2aa6-4ba4-7e21-ba62-385e65cbadbc\ig_0a85d50fdc09f966016a486cf23424819199910dbbf7c701ec.png

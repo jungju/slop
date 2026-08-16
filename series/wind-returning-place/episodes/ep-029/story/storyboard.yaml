@@ -1,0 +1,33 @@
+version: 1
+episode: ep-029
+title: "멈출 수 있는 부채"
+format: vertical_scroll
+caption_strip_height: 210
+page_count: 20
+reading_order: top_to_bottom
+core_elements:
+  - { id: character.doyun.001, version: 1, panels: [1, 3, 12, 14, 17, 18, 19] }
+  - { id: character.yunseo.001, version: 1, panels: [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16] }
+  - { id: character.soondeok.001, version: 1, panels: [8] }
+  - { id: prop.paced-folding-fan.001, version: 1, panels: [4, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] }
+pages:
+  - { panel: 1, beat: "도윤이 젖은 인화지 두 장을 선풍기 앞에 놓는다", continuity_refs: [{ id: character.doyun.001, version: 1 }], protected_zones: [doyun_face, hands, wet_prints], caption: "서울 작업실에서 도윤은 젖은 인화지 두 장을 선풍기 앞에 놓았다." }
+  - { panel: 2, beat: "센 바람에 종이 모서리가 말린다", continuity_refs: [], protected_zones: [curled_print_corner], caption: "센 바람이 닿자, 종이 모서리부터 위로 말려 올라갔다." }
+  - { panel: 3, beat: "도윤이 풍량을 더 높이려 한다", continuity_refs: [{ id: character.doyun.001, version: 1 }], protected_zones: [doyun_face, hand, fan_switch], caption: "마감 시계를 본 도윤은 풍량 버튼에 다시 손을 댔다." }
+  - { panel: 4, beat: "제주 작업대에서 접힌 푸른 부채가 보인다", continuity_refs: [{ id: prop.paced-folding-fan.001, version: 1 }], protected_zones: [folding_fan], caption: "제주 작업대에는 무늬 없는 푸른 부채 하나가 접혀 있었다." }
+  - { panel: 5, beat: "윤서의 젖은 잎사귀 사진 세 장이 놓인다", continuity_refs: [{ id: character.yunseo.001, version: 1 }], protected_zones: [yunseo_face, three_prints], caption: "윤서의 젖은 잎사귀 사진 세 장은 아직 서로 다른 빛을 머금었다." }
+  - { panel: 6, beat: "선풍기 바람에 한 장이 날아가 붙는다", continuity_refs: [{ id: character.yunseo.001, version: 1 }], protected_zones: [flying_print, yunseo_hands], caption: "선풍기가 켜지자 한 장이 날아가 젖은 면으로 작업대에 붙었다." }
+  - { panel: 7, beat: "윤서가 선풍기를 끄고 자기 선택을 말한다", continuity_refs: [{ id: character.yunseo.001, version: 1 }, { id: prop.paced-folding-fan.001, version: 1 }], protected_zones: [yunseo_face, switch, folding_fan], caption: "윤서가 스위치를 껐다. “제 종이는 제가 말리면 안 돼요?”" }
+  - { panel: 8, beat: "순덕이 말린 모서리를 실제 제약으로 보여 준다", continuity_refs: [{ id: character.soondeok.001, version: 1 }, { id: character.yunseo.001, version: 1 }, { id: prop.paced-folding-fan.001, version: 1 }], protected_zones: [soondeok_face, curled_corner, folding_fan], caption: "순덕은 들뜬 모서리를 보여 줬다. “급한 바람은 여기부터 망쳐.”" }
+  - { panel: 9, beat: "윤서가 부채를 반만 편다", continuity_refs: [{ id: character.yunseo.001, version: 1 }, { id: prop.paced-folding-fan.001, version: 1 }], protected_zones: [yunseo_face, half_open_fan, print], caption: "윤서는 푸른 부채를 반만 펴고 첫 번째 사진 앞에 앉았다." }
+  - { panel: 10, beat: "윤서가 세 번 부친 뒤 멈춰 살핀다", continuity_refs: [{ id: character.yunseo.001, version: 1 }, { id: prop.paced-folding-fan.001, version: 1 }], protected_zones: [yunseo_eyes, fan, print_surface], caption: "세 번 부친 뒤, 손을 멈추고 종이 표면을 가까이 살폈다." }
+  - { panel: 11, beat: "윤서가 사진을 두 손으로 뒤집는다", continuity_refs: [{ id: character.yunseo.001, version: 1 }, { id: prop.paced-folding-fan.001, version: 1 }], protected_zones: [yunseo_hands, fan, print], caption: "한쪽이 마르자 윤서는 사진을 두 손으로 천천히 뒤집었다." }
+  - { panel: 12, beat: "도윤이 도우려 하지만 윤서가 기다리게 한다", continuity_refs: [{ id: character.doyun.001, version: 1 }, { id: character.yunseo.001, version: 1 }, { id: prop.paced-folding-fan.001, version: 1 }], protected_zones: [doyun_hand, yunseo_face, fan], caption: "도윤이 손을 내밀자 윤서가 말했다. “아직요. 제가 볼게요.”" }
+  - { panel: 13, beat: "윤서가 젖은 모서리에만 짧게 부친다", continuity_refs: [{ id: character.yunseo.001, version: 1 }, { id: prop.paced-folding-fan.001, version: 1 }], protected_zones: [fan, wet_corner, yunseo_hand], caption: "윤서는 젖은 오른쪽 모서리에만 짧은 바람을 보냈다." }
+  - { panel: 14, beat: "도윤은 종이 대신 작업대만 잡아 준다", continuity_refs: [{ id: character.doyun.001, version: 1 }, { id: character.yunseo.001, version: 1 }, { id: prop.paced-folding-fan.001, version: 1 }], protected_zones: [doyun_hand, table_leg, fan], caption: "도윤은 종이 대신 흔들리는 작업대의 다리를 단단히 잡았다." }
+  - { panel: 15, beat: "윤서가 각기 다른 시점에 사진을 옮긴다", continuity_refs: [{ id: character.yunseo.001, version: 1 }, { id: prop.paced-folding-fan.001, version: 1 }], protected_zones: [three_prints, yunseo_hands, fan], caption: "세 장은 서로 다른 때에 말랐고, 윤서는 한 장씩 옮겼다." }
+  - { panel: 16, beat: "윤서가 실패한 시험지를 연습용으로 남긴다", continuity_refs: [{ id: character.yunseo.001, version: 1 }, { id: prop.paced-folding-fan.001, version: 1 }], protected_zones: [stuck_test_print, folded_fan], caption: "붙었던 시험지는 버리지 않고 다음 부채질 연습 옆에 두었다." }
+  - { panel: 17, beat: "도윤이 부채와 마른 사진만 기록한다", continuity_refs: [{ id: character.doyun.001, version: 1 }, { id: prop.paced-folding-fan.001, version: 1 }], protected_zones: [camera, folded_fan, dry_print], caption: "도윤은 얼굴 대신 접힌 부채와 마른 사진을 카메라에 담았다." }
+  - { panel: 18, beat: "서울에서 두 사람이 각자의 사진을 말린다", continuity_refs: [{ id: character.doyun.001, version: 1 }, { id: prop.paced-folding-fan.001, version: 1 }], protected_zones: [two_people, two_fans, two_prints], caption: "서울 공동 작업에서 두 사람은 각자의 인화지 앞에 부채를 들었다." }
+  - { panel: 19, beat: "옆 사람이 먼저 멈추고 도윤은 자기 작업을 계속한다", continuity_refs: [{ id: character.doyun.001, version: 1 }, { id: prop.paced-folding-fan.001, version: 1 }], protected_zones: [folded_fan, open_fan, doyun_face], caption: "옆 사람이 먼저 부채를 접어도 도윤은 자기 종이만 조금 더 말렸다." }
+  - { panel: 20, beat: "마른 사진과 접힌 부채가 나란히 놓인다", continuity_refs: [{ id: prop.paced-folding-fan.001, version: 1 }], protected_zones: [two_dry_prints, two_folded_fans], caption: "같이 말리는 일에도, 멈추는 때는 각자 달랐다." }

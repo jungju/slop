@@ -1,0 +1,32 @@
+episode_id: ep-008
+template_number: 3
+template_folder: factories/comic/reference/templates/03-lyrical-narration-card-comic
+template_id: lyrical-narration-card-comic
+output_intent: final_reader_facing_comic_pages
+imagegen_prompt_contract: panel-prompts.yaml
+expected_panel_count: 20
+layout_notes:
+  page_size: 1055x1491
+  panel_order: one_page_per_beat
+  narration_card: local_korean_lettering_bottom_card
+speech_bubble_contract:
+  baked_into_imagegen_output: false
+  local_overlay_allowed: true
+  reason: Wind series policy requires generated source art to be text-free and Korean lettering to be applied locally.
+  correction_path: regenerate_text_free_source_or_adjust_local_lettering
+metadata_post_compose:
+  deterministic: true
+  allowed:
+    - page_number
+  forbidden:
+    - dialogue
+    - speech_bubbles
+    - panel_content
+negative_constraints:
+  - no_readable_generated_text
+  - no_fake_korean
+  - no_empty_bubbles
+  - no_photorealism
+  - no_live_action
+  - no_cinematic_still
+  - no_dslr_photo

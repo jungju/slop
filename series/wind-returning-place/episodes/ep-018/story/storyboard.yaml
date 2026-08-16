@@ -1,0 +1,26 @@
+episode: ep-018
+template: 03-lyrical-narration-card-comic
+page_count: 20
+caption_strip_height: 210
+core_elements: [{ id: prop.window-stay.001, version: 1, panels: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] }]
+pages:
+  - { panel: 1, beat: "Doyun finds a worn brass window stay on a Seoul sill", continuity_refs: [{ id: prop.window-stay.001, version: 1 }], caption: "서울 작업실 창틀에서, 도윤은 닳은 황동 고정쇠 하나를 발견했다.", protected_zones: [Doyun face, camera, brass stay] }
+  - { panel: 2, beat: "Close view of three adjustment notches and dark scratch", continuity_refs: [{ id: prop.window-stay.001, version: 1 }], caption: "고정쇠에는 창을 조금씩 멈추게 하는 세 개의 홈이 남아 있었다." }
+  - { panel: 3, beat: "Doyun considers removing it while keeping window shut", continuity_refs: [{ id: prop.window-stay.001, version: 1 }], caption: "그는 창을 닫은 채, 이건 떼어 두는 편이 낫겠다고 혼잣말했다." }
+  - { panel: 4, beat: "Phone message sends a reference to Jeju", continuity_refs: [{ id: prop.window-stay.001, version: 1 }], caption: "순덕에게 사진을 보내자, 순덕은 제주 창에도 같은 물건이 있다고 답했다." }
+  - { panel: 5, beat: "Soondeok sets Jeju stay to middle notch at rattling window", continuity_refs: [{ id: prop.window-stay.001, version: 1 }], caption: "제주 작업방의 창은 바람에 덜컹였고, 순덕은 고정쇠를 가운데 홈에 맞췄다.", protected_zones: [Soondeok hand, brass stay] }
+  - { panel: 6, beat: "Hand-width opening keeps papers on the table", continuity_refs: [{ id: prop.window-stay.001, version: 1 }], caption: "창은 손바닥 너비만 열렸고, 식탁의 종이는 더 이상 날리지 않았다." }
+  - { panel: 7, beat: "Yunseo opens a paper map beside the window", continuity_refs: [{ id: prop.window-stay.001, version: 1 }], caption: "윤서는 창가에 앉아 종이 지도를 펴고, 더 열면 모서리가 들린다고 말했다.", protected_zones: [Yunseo face, map] }
+  - { panel: 8, beat: "Yunseo independently chooses the middle notch", continuity_refs: [{ id: prop.window-stay.001, version: 1 }], caption: "그녀는 스스로 가운데 홈을 골라 지도를 눌렀다.", protected_zones: [Yunseo hand, brass stay, map] }
+  - { panel: 9, beat: "Doyun raises camera and wants one fixed setting", continuity_refs: [{ id: prop.window-stay.001, version: 1 }], caption: "도윤은 카메라를 들며, 이렇게 고정해 두면 안전하겠다고 말했다." }
+  - { panel: 10, beat: "Soondeok moves one notch for today's wind", continuity_refs: [{ id: prop.window-stay.001, version: 1 }], caption: "순덕은 고정쇠를 한 칸 옮겼다. 오늘 바람에는 이만하면 돼." }
+  - { panel: 11, beat: "Doyun lowers camera and watches movable window", continuity_refs: [{ id: prop.window-stay.001, version: 1 }], caption: "도윤은 창이 움직일 수 있다는 것을 보고 카메라를 내렸다." }
+  - { panel: 12, beat: "Three people tighten screws and clean scratch", continuity_refs: [{ id: prop.window-stay.001, version: 1 }], caption: "세 사람은 닳은 나사를 조이고, 어두운 흠집 옆을 천천히 닦았다." }
+  - { panel: 13, beat: "Window tests all three notches in clear sequence", continuity_refs: [{ id: prop.window-stay.001, version: 1 }], caption: "창은 세 홈을 따라 조금씩 열리고 닫혔다." }
+  - { panel: 14, beat: "Yunseo marks the workable wind setting on her map", continuity_refs: [{ id: prop.window-stay.001, version: 1 }], caption: "윤서는 바람이 지도를 넘기지 않는 자리를 다시 찾아 표시했다." }
+  - { panel: 15, beat: "Doyun asks Yunseo before taking a photo", continuity_refs: [{ id: prop.window-stay.001, version: 1 }], caption: "도윤은 그 표시를 찍기 전에, 윤서에게 먼저 찍어도 되겠냐고 물었다." }
+  - { panel: 16, beat: "Doyun leaves stay mounted and usable", continuity_refs: [{ id: prop.window-stay.001, version: 1 }], caption: "그는 고정쇠를 떼지 않고, 작동하는 자리 그대로 남겨 두었다." }
+  - { panel: 17, beat: "Doyun cleans his own Seoul stay at reachable height", continuity_refs: [{ id: prop.window-stay.001, version: 1 }], caption: "서울로 돌아온 뒤, 도윤은 자기 창의 고정쇠를 닦고 손이 닿는 높이에 두었다." }
+  - { panel: 18, beat: "Visitor adjusts stay to dry prints", continuity_refs: [{ id: prop.window-stay.001, version: 1 }], caption: "찾아온 사람은 종이를 말리려다 창을 중간 홈으로 옮겼다." }
+  - { panel: 19, beat: "Doyun leaves visitor's hand alone and checks wind together", continuity_refs: [{ id: prop.window-stay.001, version: 1 }], caption: "도윤은 그 손을 멈추게 하지 않고, 바람의 방향만 함께 살폈다." }
+  - { panel: 20, beat: "Shared Seoul room has open window and moving prints", continuity_refs: [{ id: prop.window-stay.001, version: 1 }], caption: "열린 창과 움직이는 종이 사이에서, 누구도 혼자 바람을 정하지 않는 방이 되었다.", protected_zones: [hands, window stay, prints] }

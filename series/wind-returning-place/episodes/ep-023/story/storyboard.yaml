@@ -1,0 +1,26 @@
+episode: ep-023
+template: 03-lyrical-narration-card-comic
+page_count: 20
+caption_strip_height: 210
+core_elements: [{ id: prop.reversible-sand-timer.001, version: 1, panels: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] }]
+pages:
+  - { panel: 1, beat: "Doyun finds a small sand timer in Seoul", continuity_refs: [{ id: prop.reversible-sand-timer.001, version: 1 }], caption: "서울 작업실 서랍에서, 도윤은 작은 모래시계를 꺼냈다." }
+  - { panel: 2, beat: "He tests its three-minute flow", continuity_refs: [{ id: prop.reversible-sand-timer.001, version: 1 }], caption: "푸른 모래가 아래로 다 내려가는 데에는 세 분이 걸렸다." }
+  - { panel: 3, beat: "He carries it to Jeju", continuity_refs: [{ id: prop.reversible-sand-timer.001, version: 1 }], caption: "도윤은 모래시계를 천에 싸서 제주 작업장으로 가져갔다." }
+  - { panel: 4, beat: "Yunseo prepares wet photo paper", continuity_refs: [{ id: prop.reversible-sand-timer.001, version: 1 }], caption: "윤서는 젖은 사진 종이를 집게로 들어 헹굼 통 앞에 섰다." }
+  - { panel: 5, beat: "Doyun flips the timer without asking", continuity_refs: [{ id: prop.reversible-sand-timer.001, version: 1 }], caption: "도윤은 준비됐는지 묻기 전에 모래시계를 뒤집었다." }
+  - { panel: 6, beat: "Yunseo rushes to match the timer", continuity_refs: [{ id: prop.reversible-sand-timer.001, version: 1 }], caption: "윤서는 내려가는 모래를 보며 손을 서둘렀다." }
+  - { panel: 7, beat: "Paper corner folds in the rinse tray", continuity_refs: [{ id: prop.reversible-sand-timer.001, version: 1 }], caption: "급히 옮긴 종이의 한쪽 모서리가 헹굼 통 안에서 접혔다." }
+  - { panel: 8, beat: "Yunseo stops the process", continuity_refs: [{ id: prop.reversible-sand-timer.001, version: 1 }], caption: "윤서는 집게를 내려놓고, 아직 시작할 때가 아니었다고 말했다." }
+  - { panel: 9, beat: "Soondeok turns the timer sideways", continuity_refs: [{ id: prop.reversible-sand-timer.001, version: 1 }], caption: "순덕은 모래시계를 옆으로 눕혀 흐름부터 멈췄다." }
+  - { panel: 10, beat: "She asks what interval helps", continuity_refs: [{ id: prop.reversible-sand-timer.001, version: 1 }], caption: "순덕은 시간을 맞추지 말고, 필요한 시간을 먼저 물으라고 했다." }
+  - { panel: 11, beat: "Doyun marks a shorter level", continuity_refs: [{ id: prop.reversible-sand-timer.001, version: 1 }], caption: "도윤은 유리 옆에 한 분 높이를 작은 황동 고리로 표시했다." }
+  - { panel: 12, beat: "Yunseo rehearses the steps untimed", continuity_refs: [{ id: prop.reversible-sand-timer.001, version: 1 }], caption: "윤서는 모래를 세우지 않은 채 집게와 통의 순서를 한 번 익혔다." }
+  - { panel: 13, beat: "She places the timer within reach", continuity_refs: [{ id: prop.reversible-sand-timer.001, version: 1 }], caption: "준비를 마친 윤서는 모래시계를 자기 손 가까이에 놓았다." }
+  - { panel: 14, beat: "Yunseo chooses the one-minute mark", continuity_refs: [{ id: prop.reversible-sand-timer.001, version: 1 }], caption: "윤서는 세 분 대신 황동 고리가 있는 한 분을 골랐다." }
+  - { panel: 15, beat: "She flips it herself", continuity_refs: [{ id: prop.reversible-sand-timer.001, version: 1 }], caption: "그리고 자기 손으로 모래시계를 뒤집었다." }
+  - { panel: 16, beat: "The photo paper rinses flat", continuity_refs: [{ id: prop.reversible-sand-timer.001, version: 1 }], caption: "모래가 고리에 닿았을 때, 사진 종이는 구김 없이 물 위에 펴져 있었다." }
+  - { panel: 17, beat: "Doyun builds a shared drying station in Seoul", continuity_refs: [{ id: prop.reversible-sand-timer.001, version: 1 }], caption: "서울로 돌아온 도윤은 인화물 건조대 옆에 작은 자리를 비워 두었다." }
+  - { panel: 18, beat: "He leaves the timer lying sideways", continuity_refs: [{ id: prop.reversible-sand-timer.001, version: 1 }], caption: "그 자리의 모래시계는 흐르지 않도록 옆으로 누워 있었다." }
+  - { panel: 19, beat: "A visitor flips it when ready", continuity_refs: [{ id: prop.reversible-sand-timer.001, version: 1 }], caption: "한 방문객은 종이를 모두 건 뒤에야 모래시계를 세웠다." }
+  - { panel: 20, beat: "The timer can always be turned again", continuity_refs: [{ id: prop.reversible-sand-timer.001, version: 1 }], caption: "도윤은 끝을 재촉하지 않고, 다시 뒤집을 수 있는 시간을 남겼다." }

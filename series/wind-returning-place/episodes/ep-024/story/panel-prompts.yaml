@@ -1,0 +1,10 @@
+episode: ep-024
+style_lock: restrained Korean webtoon illustration; soft ink linework; simplified contour lines; calm flat painterly color blocks; light cel-shaded faces and hands; gentle paper/comic finish; never live-action or photographic
+negative_lock: no text, Korean, pseudo-text, logos, watermarks, signs, captions, speech bubbles, empty bubbles, photorealism, DSLR, lens bokeh, or cinematic-still rendering
+canonical_reference: assets/continuity/prop/prop-ceramic-plant-saucer-001/v001/model-sheet.png
+batches:
+  - { pages: [1, 2, 3, 4], source_output: "C:/Users/jeong/.codex/generated_images/019fa52b-1b22-7c50-95b8-e691654bfed1/call_4vO58dBw0Csf6nsRqKiUUWWk.png", scenes: "Seoul cleaning; waterline inspection; cloth packing; Yunseo waters camellia" }
+  - { pages: [5, 6, 7, 8], source_output: "C:/Users/jeong/.codex/generated_images/019fa52b-1b22-7c50-95b8-e691654bfed1/call_AKPO4ADJJ4r9cbZNueTsflbJ.png", scenes: "premature emptying; Yunseo stops hand; soil absorbs; blue threshold choice" }
+  - { pages: [9, 10, 11, 12], source_output: "C:/Users/jeong/.codex/generated_images/019fa52b-1b22-7c50-95b8-e691654bfed1/call_5UgPdqf19aWYvOZoPS2az5Ro.png", scenes: "Soondeok reframes; soil test; drain-notch repair; Yunseo rotates pot" }
+  - { pages: [13, 14, 15, 16], source_output: "C:/Users/jeong/.codex/generated_images/019fa52b-1b22-7c50-95b8-e691654bfed1/call_i7g7UWTTIsNTAZlGjFjnBsf2.png", scenes: "Yunseo checks; chooses enough; returns water; shallow mark payoff" }
+  - { pages: [17, 18, 19, 20], source_output: "C:/Users/jeong/.codex/generated_images/019fa52b-1b22-7c50-95b8-e691654bfed1/call_PqYGczZhe1Lj5a3KiTLAjm8B.png", scenes: "varied Seoul plants; individual blue dots; visitor checks and empties; respectful-distance payoff" }

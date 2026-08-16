@@ -1,0 +1,9 @@
+sample_or_template_reference: "factories/comic/reference/templates/03-lyrical-narration-card-comic"
+selected_template_number: 3
+selected_template_id: lyrical-narration-card-comic
+expected_panel_count: 20
+reader_facing_art_mode: "fresh built-in image_gen text-free source panels; local Korean narration-card lettering per Wind series hard rule"
+bubble_readability_contract: "No generated speech bubbles or text. Reserve a clean lower-card region for local Korean narration; keep faces, hands, camera, stove, mittens, and doorways clear."
+reading_order: top_to_bottom
+global_prompt_prefix: "Restrained Korean webtoon illustration, soft ink linework, simplified contour lines, calm flat painterly color blocks, gentle light cel shading on faces and hands, quiet template-3 lyrical narration-card page grammar, vertical 2:3 webtoon page with a clean low-detail lower region reserved for local narration card. Doyun: slim Korean man, 26, slightly long wavy black hair, gray hoodie under dark navy coat, old black-and-silver film camera and messenger bag. Soondeok: elderly Korean Jeju woman, short gray hair, sea-blue practical work coat. Yunseo: elementary-school-age Korean girl, short black bob, yellow-gray rain jacket. Cold Jeju sea winter palette of charcoal, sea blue-green, warm amber stove glow. Text-free art only; no Korean or any lettering, no speech bubbles, no logos, no watermark. Never photorealistic, never live action, no DSLR/photo/film-still look, no cinematic bokeh."
+factory_profile_exception: "The selected Wind series template and canon require text-free imagegen art plus local lettering; generated text is explicitly prohibited."

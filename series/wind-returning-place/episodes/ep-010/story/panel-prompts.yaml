@@ -1,0 +1,55 @@
+episode_id: ep-010
+generation_mode: built-in image_gen
+source_generation_folder: C:\Users\jeong\.codex\generated_images\019f4353-0fb9-7452-88c8-b7e562a09a68
+common_prompt_prefix: >
+  Restrained Korean webtoon illustration, soft ink linework, visible simplified
+  contour lines, calm flat painterly color blocks, light cel-shaded faces and
+  hands, gentle paper/comic finish, template-3 lyrical narration-card page
+  grammar. Portrait page, one large illustration panel, off-white margin, clean
+  empty bottom narration-card area for local Korean lettering.
+common_negative: >
+  No readable Korean, no fake text, no logos, no watermark, no speech bubbles,
+  no captions, no brand marks. Avoid live-action, cinematic still, DSLR photo,
+  film frame, hyperreal render, realistic actor likeness, photographic skin,
+  skin pores, lens bokeh, glossy actor lighting, and generated writing.
+pages:
+  - page: 1
+    prompt_summary: Doyun notices a plain umbrella left at the rainy Seoul gallery entrance.
+  - page: 2
+    prompt_summary: Water drops remain on the umbrella handle beside Doyun's camera.
+  - page: 3
+    prompt_summary: Doyun listens to Soondeok by phone near a rainy gallery window.
+  - page: 4
+    prompt_summary: Doyun arrives at a rainy Jeju bus stop with the umbrella.
+  - page: 5
+    prompt_summary: Elderly Soondeok points to the worn umbrella handle.
+  - page: 6
+    prompt_summary: Child Yunseo holds the umbrella and asks a small direct question.
+  - page: 7
+    prompt_summary: Doyun, Yunseo, and Soondeok wait beside the empty road.
+  - page: 8
+    prompt_summary: A late traveler borrows the umbrella from Doyun.
+  - page: 9
+    prompt_summary: The bus leaves while Doyun, child Yunseo, and Soondeok remain.
+  - page: 10
+    prompt_summary: Doyun photographs the empty wet road and bus stop.
+  - page: 11
+    prompt_summary: Child Yunseo folds her small umbrella beside elderly Soondeok.
+  - page: 12
+    prompt_summary: Child Yunseo draws a tiny umbrella shape on fogged glass.
+  - page: 13
+    prompt_summary: Doyun places a bench and umbrella stand at the Seoul gallery entrance.
+  - page: 14
+    prompt_summary: Gallery visitors pause beside the bench and umbrella stand.
+  - page: 15
+    prompt_summary: Visitor hands place a borrowed umbrella into the stand.
+  - page: 16
+    prompt_summary: Doyun places Yunseo's small umbrella photo at child height.
+  - page: 17
+    prompt_summary: A visitor sits on the bench remembering care-filled waiting.
+  - page: 18
+    prompt_summary: Umbrella shadows stretch across the closed rainy Seoul gallery floor.
+  - page: 19
+    prompt_summary: Doyun leaves one spare umbrella in the stand by the open door.
+  - page: 20
+    prompt_summary: Final still life of open doorway, bench, camera, and umbrella stand.

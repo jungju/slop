@@ -1,24 +1,33 @@
 import { readFile, readdir, stat } from "node:fs/promises";
 import { dirname, extname, join, relative, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+import { loadSeriesContent } from "./lib/series-content.mjs";
 
 const scriptDir = dirname(fileURLToPath(import.meta.url));
 const root = resolve(scriptDir, "..");
 const outDir = join(root, "_site");
-const content = JSON.parse(
-  await readFile(join(root, "content", "site.json"), "utf8"),
-);
-const series = content.series.find(
-  (item) => item.id === "wind-returning-place",
-);
+const { content, packages } = await loadSeriesContent(root);
+const series = content.series.find((item) => item.id === "wind-returning-place");
+const allEpisodes = content.series.flatMap((item) => item.episodes);
+const expectedWebpCount = allEpisodes.reduce((sum, episode) => sum + episode.pageCount, 0);
+const packageById = new Map(packages.map((item) => [item.definition.id, item]));
 const errors = [];
 
 assert(series, "wind-returning-place 시리즈가 없습니다.");
-assert(series?.episodes.length === 29, "에피소드 수가 29화가 아닙니다.");
+assert(content.series.length > 0, "등록된 연재가 없습니다.");
 
-for (const episode of series?.episodes || []) {
-  assert(episode.pageCount === 20, episode.id + " pageCount가 20이 아닙니다.");
-  assert(episode.pages.length === 20, episode.id + " 페이지가 20장이 아닙니다.");
+for (const item of packages) {
+  assert(item.harness.series === item.definition.id, `${item.definition.slug} 하네스의 series가 일치하지 않습니다.`);
+  assert(item.harness.pageCount > 0, `${item.definition.slug} 하네스에 pageCount가 없습니다.`);
+  for (let index = 0; index < item.definition.episodes.length; index += 1) {
+    assert(item.definition.episodes[index].number === index + 1, `${item.definition.slug} 회차 번호가 연속적이지 않습니다.`);
+  }
+}
+
+for (const episode of allEpisodes) {
+  const expectedPages = packageById.get(episode.seriesId)?.harness.pageCount;
+  assert(episode.pageCount === expectedPages, `${episode.seriesSlug}/${episode.id} pageCount가 하네스와 다릅니다.`);
+  assert(episode.pages.length === expectedPages, `${episode.seriesSlug}/${episode.id} 페이지 수가 하네스와 다릅니다.`);
   assert(
     episode.pages.every(
       (page) =>
@@ -30,14 +39,14 @@ for (const episode of series?.episodes || []) {
     episode.id + " 페이지 메타데이터가 불완전합니다.",
   );
 
-  if (episode.number <= 3) {
+  if (episode.provenance.image.status === "not-recorded") {
     assert(
-      episode.provenance.image.status === "not-recorded",
-      episode.id + "은 모델 기록 없음으로 표시해야 합니다.",
+      !episode.provenance.image.model,
+      episode.id + "의 모델 기록 없음 상태에 모델명이 포함되어 있습니다.",
     );
   } else {
     assert(
-      episode.provenance.image.model === "OpenAI Image Generation",
+      episode.provenance.image.model,
       episode.id + "의 확인된 이미지 모델 정보가 없습니다.",
     );
   }
@@ -55,7 +64,7 @@ const webpStats = await Promise.all(webpFiles.map((path) => stat(path)));
 const totalWebpBytes = webpStats.reduce((sum, info) => sum + info.size, 0);
 const largestWebpBytes = Math.max(...webpStats.map((info) => info.size), 0);
 
-assert(webpFiles.length === 580, "독자용 WebP 이미지가 580장이 아닙니다.");
+assert(webpFiles.length === expectedWebpCount, `독자용 WebP 이미지가 ${expectedWebpCount}장이 아닙니다.`);
 assert(
   totalWebpBytes < 250 * 1024 * 1024,
   "WebP 총용량이 250MiB를 넘습니다.",
@@ -133,6 +142,23 @@ assert(
 assert(!home.includes("인기"), "초기 홈에 인기 영역이 포함되어 있습니다.");
 assert(!home.includes("추천"), "초기 홈에 추천 영역이 포함되어 있습니다.");
 
+const windPackage = packages.find((item) => item.definition.id === "wind-returning-place");
+for (const required of [
+  "series-canon.md",
+  "episode-ledger.md",
+  "comic-dna.yaml",
+  "comic-profile.yaml",
+  "continuity-registry.yaml",
+  "story-clarity-contract.yaml",
+  "page-layout-contract.yaml",
+]) {
+  try {
+    await stat(join(windPackage.packageRoot, "spec", required));
+  } catch {
+    errors.push(`바람이 돌아오는 곳 스펙이 없습니다: ${required}`);
+  }
+}
+
 for (const htmlPath of htmlFiles) {
   const html = await readFile(htmlPath, "utf8");
   const publicPath =
@@ -181,6 +207,10 @@ process.stdout.write(
   "검증 통과: " +
     htmlFiles.length +
     " HTML, " +
+    content.series.length +
+    " Series, " +
+    allEpisodes.length +
+    " Episodes, " +
     webpFiles.length +
     " WebP, " +
     (totalWebpBytes / 1024 / 1024).toFixed(2) +
