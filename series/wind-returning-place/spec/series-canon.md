@@ -293,6 +293,16 @@ should avoid immediately repeating hand fans, forced drying, electric fans,
 staggered stop times, counting beats, or visitor payoffs based on mismatched
 work speed.
 
+Episode 30 turns help into reversible handoff. The muted cobalt canvas photo
+wrap with a broad quick-release loop, `prop.quick-release-photo-wrap.001@v1`,
+teaches Doyun that a careful finish must still leave the owner able to reopen
+and revise their own work. Yunseo rejects scissors, reorders her five coastal
+photos, builds and tests a knot she can release herself, and later opens the
+bundle alone. Soondeok supplies the practical knot; Minjae remains absent in
+the present. Future episodes should avoid immediately repeating photo bundles,
+cut cords, quick-release knots, broad pull loops, scissors, or self-opening
+handoff payoffs.
+
 ## Good Future Episode Engines
 
 Use one concrete motif and one emotional question:

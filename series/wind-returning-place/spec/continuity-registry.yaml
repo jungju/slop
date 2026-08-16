@@ -2,6 +2,35 @@ version: 1
 factory_type: comic
 comic_id: wind-returning-place
 elements:
+  - id: prop.quick-release-photo-wrap.001
+    name: 내가 푸는 푸른 사진 보자기
+    category: prop
+    scope: episode
+    status: active
+    introduced_in: ep-030
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-030
+        active_until: ep-030
+        supersedes: null
+        immutable_features:
+          - square muted cobalt-blue washed-canvas photo wrap with narrow cream cotton binding
+          - one attached flat cream cotton cord used as a quick-release knot
+          - one broad muted cobalt-blue fabric pull loop large enough for a child's hand
+          - one small cream crescent-shaped repaired patch near the lower-left outer corner
+          - no text, numbers, logo, label, printed mark, buckle, or metal hardware
+        mutable_features:
+          - opened flat, folded around photographs, tied, released, or placed in a carrying box
+          - holding exactly five coastal photographs or shown empty during practice
+          - Jeju workroom, Jeju doorstep, or Seoul photo workroom
+        reference_asset_ids:
+          - prop-quick-release-photo-wrap-001-v1-text-lock
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: text_locked
   - id: character.doyun.001
     name: 한도윤
     category: character
