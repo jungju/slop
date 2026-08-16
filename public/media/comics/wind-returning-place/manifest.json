@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "seriesId": "wind-returning-place",
+  "sourceKey": "comic.wind-returning-place",
+  "sourceSite": "https://wind-returning-place.jjgo.io",
+  "format": "WebP",
+  "quality": 88,
+  "maxWidth": 1080,
+  "episodeCount": 29,
+  "pageCount": 580,
+  "provenance": {
+    "episodes1To3": "AI 이미지 생성 · 모델 기록 없음",
+    "episodes4To29": "OpenAI Image Generation · built-in image_gen · 버전 기록 없음",
+    "lettering": "자동화된 로컬 레터링 도구"
+  }
+}

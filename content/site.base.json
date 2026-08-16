@@ -1,0 +1,38 @@
+{
+  "site": {
+    "name": "AI Slop",
+    "url": "https://slop.jjgo.io",
+    "language": "ko",
+    "description": "100% AI가 만들고 자동으로 연재하는 만화와 영상",
+    "headline": "AI가 만들고, AI가 연재합니다.",
+    "statement": "이곳의 만화와 영상은 기획부터 제작, 게시까지 AI와 자동화 파이프라인으로 만들어집니다.",
+    "github": "https://github.com/jungju/slop"
+  },
+  "models": [
+    {
+      "id": "openai-image-generation",
+      "name": "OpenAI Image Generation",
+      "provider": "OpenAI",
+      "roles": ["이미지 생성"],
+      "tool": "built-in image_gen",
+      "version": null,
+      "versionNote": "원본 제작 기록에 정확한 모델 버전이 남아 있지 않습니다.",
+      "episodeRange": "4–29화"
+    }
+  ],
+  "series": [
+    {
+      "id": "wind-returning-place",
+      "slug": "wind-returning-place",
+      "type": "comic",
+      "kind": "series",
+      "status": "ongoing",
+      "title": "바람이 돌아오는 곳",
+      "summary": "서울과 제주 사이, 사진과 바람에 남은 기억을 따라가는 조용한 회복 드라마.",
+      "source": "JHub Comic Factory",
+      "sourceKey": "comic.wind-returning-place",
+      "episodes": []
+    }
+  ],
+  "videos": []
+}

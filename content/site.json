@@ -1,0 +1,5087 @@
+{
+  "site": {
+    "name": "AI Slop",
+    "url": "https://slop.jjgo.io",
+    "language": "ko",
+    "description": "100% AI가 만들고 자동으로 연재하는 만화와 영상",
+    "headline": "AI가 만들고, AI가 연재합니다.",
+    "statement": "이곳의 만화와 영상은 기획부터 제작, 게시까지 AI와 자동화 파이프라인으로 만들어집니다.",
+    "github": "https://github.com/jungju/slop"
+  },
+  "models": [
+    {
+      "id": "openai-image-generation",
+      "name": "OpenAI Image Generation",
+      "provider": "OpenAI",
+      "roles": [
+        "이미지 생성"
+      ],
+      "tool": "built-in image_gen",
+      "version": null,
+      "versionNote": "원본 제작 기록에 정확한 모델 버전이 남아 있지 않습니다.",
+      "episodeRange": "4–29화"
+    }
+  ],
+  "series": [
+    {
+      "id": "wind-returning-place",
+      "slug": "wind-returning-place",
+      "type": "comic",
+      "kind": "series",
+      "status": "ongoing",
+      "title": "바람이 돌아오는 곳",
+      "summary": "서울과 제주 사이, 사진과 바람에 남은 기억을 따라가는 조용한 회복 드라마.",
+      "source": "JHub Comic Factory",
+      "sourceKey": "comic.wind-returning-place",
+      "episodes": [
+        {
+          "id": "ep-001",
+          "number": 1,
+          "title": "1화: 돌아오는 바람",
+          "shortTitle": "돌아오는 바람",
+          "lead": "잃어버린 시간을 따라, 바람은 다시 제자리로 돌아온다.",
+          "closingLine": "돌아간다는 건 과거로 가는 게 아니라, 나를 다시 데려오는 일이었다.",
+          "pageCount": 20,
+          "pages": [
+            {
+              "number": 1,
+              "src": "/media/comics/wind-returning-place/ep-001/page-01.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "1화: 돌아오는 바람 1페이지. 서울의 밤은 늘 사람으로 가득했지만, 도윤에게는 빈 화면 같았다."
+            },
+            {
+              "number": 2,
+              "src": "/media/comics/wind-returning-place/ep-001/page-02.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "1화: 돌아오는 바람 2페이지. 아버지의 이름이 적힌 상자가 문 앞에 놓여 있었다."
+            },
+            {
+              "number": 3,
+              "src": "/media/comics/wind-returning-place/ep-001/page-03.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "1화: 돌아오는 바람 3페이지. 제주는 도윤에게 바다보다 먼저 떠오르는 싸움이었다."
+            },
+            {
+              "number": 4,
+              "src": "/media/comics/wind-returning-place/ep-001/page-04.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "1화: 돌아오는 바람 4페이지. 갈 곳이 사라지자, 도윤은 가장 멀리 도망칠 곳을 골랐다."
+            },
+            {
+              "number": 5,
+              "src": "/media/comics/wind-returning-place/ep-001/page-05.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "1화: 돌아오는 바람 5페이지. 공항 문이 열리자 바람이 먼저 인사를 했다."
+            },
+            {
+              "number": 6,
+              "src": "/media/comics/wind-returning-place/ep-001/page-06.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "1화: 돌아오는 바람 6페이지. 오래된 집은 비어 있었지만, 기다린 사람처럼 깨끗했다."
+            },
+            {
+              "number": 7,
+              "src": "/media/comics/wind-returning-place/ep-001/page-07.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "1화: 돌아오는 바람 7페이지. 도윤이 맞주? 네 아버지가 매일 기다리던 아들."
+            },
+            {
+              "number": 8,
+              "src": "/media/comics/wind-returning-place/ep-001/page-08.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "1화: 돌아오는 바람 8페이지. 현상된 첫 사진 속에는, 기억보다 먼저 웃음이 있었다."
+            },
+            {
+              "number": 9,
+              "src": "/media/comics/wind-returning-place/ep-001/page-09.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "1화: 돌아오는 바람 9페이지. 마을은 그를 떠돈 사람이 아니라 남겨둔 사람으로 기억했다."
+            },
+            {
+              "number": 10,
+              "src": "/media/comics/wind-returning-place/ep-001/page-10.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "1화: 돌아오는 바람 10페이지. 좋은 사람이었으면 왜 나한텐 아니었는데요?"
+            },
+            {
+              "number": 11,
+              "src": "/media/comics/wind-returning-place/ep-001/page-11.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "1화: 돌아오는 바람 11페이지. 두 번째 필름에는 도윤이 모르는 아버지의 거리들이 찍혀 있었다."
+            },
+            {
+              "number": 12,
+              "src": "/media/comics/wind-returning-place/ep-001/page-12.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "1화: 돌아오는 바람 12페이지. 네 아버지, 아픈 걸 끝까지 숨겼어."
+            },
+            {
+              "number": 13,
+              "src": "/media/comics/wind-returning-place/ep-001/page-13.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "1화: 돌아오는 바람 13페이지. 그날 밤 제주 바람은 오래 닫힌 문들을 흔들었다."
+            },
+            {
+              "number": 14,
+              "src": "/media/comics/wind-returning-place/ep-001/page-14.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "1화: 돌아오는 바람 14페이지. 좋은 아버지는 못 됐다. 그래도 네가 덜 외로웠으면 했다."
+            },
+            {
+              "number": 15,
+              "src": "/media/comics/wind-returning-place/ep-001/page-15.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "1화: 돌아오는 바람 15페이지. 원망은 사라지지 않았다. 다만 그 안에 그리움이 섞였다."
+            },
+            {
+              "number": 16,
+              "src": "/media/comics/wind-returning-place/ep-001/page-16.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "1화: 돌아오는 바람 16페이지. 마지막 필름엔 아직 비어 있는 컷들이 남아 있었다."
+            },
+            {
+              "number": 17,
+              "src": "/media/comics/wind-returning-place/ep-001/page-17.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "1화: 돌아오는 바람 17페이지. 도윤은 아버지의 제주가 아니라, 자기 눈의 제주를 찍기 시작했다."
+            },
+            {
+              "number": 18,
+              "src": "/media/comics/wind-returning-place/ep-001/page-18.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "1화: 돌아오는 바람 18페이지. 서울행 표를 끊는 손은 같았지만, 표정은 달라져 있었다."
+            },
+            {
+              "number": 19,
+              "src": "/media/comics/wind-returning-place/ep-001/page-19.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "1화: 돌아오는 바람 19페이지. 도윤은 영상 프로젝트의 첫 폴더 이름을 이렇게 적었다."
+            },
+            {
+              "number": 20,
+              "src": "/media/comics/wind-returning-place/ep-001/page-20.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "1화: 돌아오는 바람 20페이지. 돌아간다는 건 과거로 가는 게 아니라, 나를 다시 데려오는 일이었다."
+            }
+          ],
+          "provenance": {
+            "story": {
+              "stage": "기획·대본",
+              "model": null,
+              "status": "not-recorded",
+              "note": "AI 제작 파이프라인을 사용했으나 정확한 모델 기록은 남아 있지 않습니다."
+            },
+            "image": {
+              "stage": "이미지 생성",
+              "model": null,
+              "tool": null,
+              "version": null,
+              "status": "not-recorded",
+              "note": "1–3화의 원본 제작 기록에는 제공사와 정확한 모델이 남아 있지 않습니다."
+            },
+            "lettering": {
+              "stage": "레터링·내보내기",
+              "model": null,
+              "tool": "자동화된 로컬 레터링 도구",
+              "status": "automated-tool",
+              "note": "생성 이미지에 한국어 텍스트와 페이지 정보를 자동 합성했습니다."
+            }
+          }
+        },
+        {
+          "id": "ep-002",
+          "number": 2,
+          "title": "2화: 귤빛 엽서",
+          "shortTitle": "귤빛 엽서",
+          "lead": "서울에서 전시를 시작한 도윤이 제주에서 온 귤빛 엽서를 따라 다시 내려간다.",
+          "closingLine": "기억은 사람을 붙잡기 위해서가 아니라, 다시 걸어가게 하려고 남는지도 몰랐다.",
+          "pageCount": 20,
+          "pages": [
+            {
+              "number": 1,
+              "src": "/media/comics/wind-returning-place/ep-002/page-01.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "2화: 귤빛 엽서 1페이지. 전시가 끝나갈 무렵, 도윤의 책상 위에 귤빛 엽서 한 장이 놓였다."
+            },
+            {
+              "number": 2,
+              "src": "/media/comics/wind-returning-place/ep-002/page-02.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "2화: 귤빛 엽서 2페이지. 엽서 속 사진에는, 도윤도 모르는 아버지의 제주가 남아 있었다."
+            },
+            {
+              "number": 3,
+              "src": "/media/comics/wind-returning-place/ep-002/page-03.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "2화: 귤빛 엽서 3페이지. 이번엔 도망이 아니었다. 그래도 다시 내려가는 일은 쉽지 않았다."
+            },
+            {
+              "number": 4,
+              "src": "/media/comics/wind-returning-place/ep-002/page-04.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "2화: 귤빛 엽서 4페이지. 가을의 제주는 바다보다 먼저 귤빛으로 도윤을 맞았다."
+            },
+            {
+              "number": 5,
+              "src": "/media/comics/wind-returning-place/ep-002/page-05.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "2화: 귤빛 엽서 5페이지. 그 사진, 아마 윤서 어멍일 거라. 폐창고 쪽에 가 봐라."
+            },
+            {
+              "number": 6,
+              "src": "/media/comics/wind-returning-place/ep-002/page-06.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "2화: 귤빛 엽서 6페이지. 윤서는 작은 가방 하나로 서울을 준비하고 있었다."
+            },
+            {
+              "number": 7,
+              "src": "/media/comics/wind-returning-place/ep-002/page-07.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "2화: 귤빛 엽서 7페이지. 제주는 누군가의 추억만 있는 곳이 아니에요."
+            },
+            {
+              "number": 8,
+              "src": "/media/comics/wind-returning-place/ep-002/page-08.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "2화: 귤빛 엽서 8페이지. 그 말은 도윤이 한때 제주를 미워했던 방식과 닮아 있었다."
+            },
+            {
+              "number": 9,
+              "src": "/media/comics/wind-returning-place/ep-002/page-09.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "2화: 귤빛 엽서 9페이지. 아버지의 봉투 안에는 사진보다 더 오래 기다린 빈 엽서들이 있었다."
+            },
+            {
+              "number": 10,
+              "src": "/media/comics/wind-returning-place/ep-002/page-10.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "2화: 귤빛 엽서 10페이지. 낡은 귤 창고는 오래 닫힌 기억처럼 먼지를 품고 있었다."
+            },
+            {
+              "number": 11,
+              "src": "/media/comics/wind-returning-place/ep-002/page-11.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "2화: 귤빛 엽서 11페이지. 사진 속 젊은 여자는, 윤서가 잊지 못한 어머니의 얼굴이었다."
+            },
+            {
+              "number": 12,
+              "src": "/media/comics/wind-returning-place/ep-002/page-12.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "2화: 귤빛 엽서 12페이지. 떠나고 싶은데, 자꾸 미안해져요."
+            },
+            {
+              "number": 13,
+              "src": "/media/comics/wind-returning-place/ep-002/page-13.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "2화: 귤빛 엽서 13페이지. 남겨진 말은 윤서를 붙잡기 위해서가 아니라, 보내기 위해 있었다."
+            },
+            {
+              "number": 14,
+              "src": "/media/comics/wind-returning-place/ep-002/page-14.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "2화: 귤빛 엽서 14페이지. 저도 처음엔 기억을 붙잡으러 왔어요. 이제는 전해 주고 싶어요."
+            },
+            {
+              "number": 15,
+              "src": "/media/comics/wind-returning-place/ep-002/page-15.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "2화: 귤빛 엽서 15페이지. 윤서는 처음으로 자기 눈의 제주를 찍었다."
+            },
+            {
+              "number": 16,
+              "src": "/media/comics/wind-returning-place/ep-002/page-16.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "2화: 귤빛 엽서 16페이지. 바닷가 정류장에서, 윤서는 떠남을 죄책감이 아니라 선택으로 불렀다."
+            },
+            {
+              "number": 17,
+              "src": "/media/comics/wind-returning-place/ep-002/page-17.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "2화: 귤빛 엽서 17페이지. 서울로 돌아온 도윤은 사진 옆에 빈 엽서를 남기기 시작했다."
+            },
+            {
+              "number": 18,
+              "src": "/media/comics/wind-returning-place/ep-002/page-18.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "2화: 귤빛 엽서 18페이지. 며칠 뒤, 윤서가 전시장 문을 열고 들어왔다."
+            },
+            {
+              "number": 19,
+              "src": "/media/comics/wind-returning-place/ep-002/page-19.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "2화: 귤빛 엽서 19페이지. 귤빛 벽에는 떠난 사람과 떠나려는 사람의 사진이 나란히 걸렸다."
+            },
+            {
+              "number": 20,
+              "src": "/media/comics/wind-returning-place/ep-002/page-20.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "2화: 귤빛 엽서 20페이지. 기억은 사람을 붙잡기 위해서가 아니라, 다시 걸어가게 하려고 남는지도 몰랐다."
+            }
+          ],
+          "provenance": {
+            "story": {
+              "stage": "기획·대본",
+              "model": null,
+              "status": "not-recorded",
+              "note": "AI 제작 파이프라인을 사용했으나 정확한 모델 기록은 남아 있지 않습니다."
+            },
+            "image": {
+              "stage": "이미지 생성",
+              "model": null,
+              "tool": null,
+              "version": null,
+              "status": "not-recorded",
+              "note": "1–3화의 원본 제작 기록에는 제공사와 정확한 모델이 남아 있지 않습니다."
+            },
+            "lettering": {
+              "stage": "레터링·내보내기",
+              "model": null,
+              "tool": "자동화된 로컬 레터링 도구",
+              "status": "automated-tool",
+              "note": "생성 이미지에 한국어 텍스트와 페이지 정보를 자동 합성했습니다."
+            }
+          }
+        },
+        {
+          "id": "ep-003",
+          "number": 3,
+          "title": "3화: 겨울의 필름",
+          "shortTitle": "겨울의 필름",
+          "lead": "서울의 겨울 전시를 앞둔 도윤은 오래된 미현상 필름을 따라 겨울 제주로 내려간다.",
+          "closingLine": "선명하지 않아도, 어떤 기억은 사람을 다시 앞으로 비춘다.",
+          "pageCount": 20,
+          "pages": [
+            {
+              "number": 1,
+              "src": "/media/comics/wind-returning-place/ep-003/page-01.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "3화: 겨울의 필름 1페이지. 겨울이 서울의 창문에 내려앉던 날, 도윤은 오래된 필름 한 통을 받았다."
+            },
+            {
+              "number": 2,
+              "src": "/media/comics/wind-returning-place/ep-003/page-02.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "3화: 겨울의 필름 2페이지. 필름은 아버지의 카메라 가방 안쪽, 그가 끝내 열지 못한 자리에서 나왔다."
+            },
+            {
+              "number": 3,
+              "src": "/media/comics/wind-returning-place/ep-003/page-03.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "3화: 겨울의 필름 3페이지. 현상소의 불빛 아래서, 사진들은 대부분 흐린 빛과 바람만 남겼다."
+            },
+            {
+              "number": 4,
+              "src": "/media/comics/wind-returning-place/ep-003/page-04.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "3화: 겨울의 필름 4페이지. 선명하지 않은 장면들이 오히려 도윤을 다시 제주로 불렀다."
+            },
+            {
+              "number": 5,
+              "src": "/media/comics/wind-returning-place/ep-003/page-05.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "3화: 겨울의 필름 5페이지. 겨울의 제주는 귤빛보다 먼저 차가운 파도로 말을 걸었다."
+            },
+            {
+              "number": 6,
+              "src": "/media/comics/wind-returning-place/ep-003/page-06.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "3화: 겨울의 필름 6페이지. 순덕은 그 필름이 오래전 폭풍 뒤에 찍힌 것일 거라 했다."
+            },
+            {
+              "number": 7,
+              "src": "/media/comics/wind-returning-place/ep-003/page-07.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "3화: 겨울의 필름 7페이지. 윤서는 서울에서의 첫 겨울을 잠시 접고, 도윤과 함께 제주로 내려왔다."
+            },
+            {
+              "number": 8,
+              "src": "/media/comics/wind-returning-place/ep-003/page-08.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "3화: 겨울의 필름 8페이지. 두 사람은 사진에 없는 풍경을 따라 오래된 등대로 걸었다."
+            },
+            {
+              "number": 9,
+              "src": "/media/comics/wind-returning-place/ep-003/page-09.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "3화: 겨울의 필름 9페이지. 빈 프레임 속에서도, 도윤은 아버지가 보려 했던 빛을 느꼈다."
+            },
+            {
+              "number": 10,
+              "src": "/media/comics/wind-returning-place/ep-003/page-10.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "3화: 겨울의 필름 10페이지. 밤의 등대 안에서 필름 조각들은 바람 소리처럼 흔들렸다."
+            },
+            {
+              "number": 11,
+              "src": "/media/comics/wind-returning-place/ep-003/page-11.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "3화: 겨울의 필름 11페이지. 보이지 않는 것도 남겨진 거라면, 전할 수 있지 않을까요."
+            },
+            {
+              "number": 12,
+              "src": "/media/comics/wind-returning-place/ep-003/page-12.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "3화: 겨울의 필름 12페이지. 도윤은 처음으로 완성된 사진이 아니라 실패한 빛을 전시장에 걸기로 했다."
+            },
+            {
+              "number": 13,
+              "src": "/media/comics/wind-returning-place/ep-003/page-13.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "3화: 겨울의 필름 13페이지. 서울로 돌아온 두 사람은 흐린 필름과 제주 바람을 함께 정리했다."
+            },
+            {
+              "number": 14,
+              "src": "/media/comics/wind-returning-place/ep-003/page-14.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "3화: 겨울의 필름 14페이지. 사람들은 빈 듯한 사진 앞에서 자기의 겨울을 오래 바라보았다."
+            },
+            {
+              "number": 15,
+              "src": "/media/comics/wind-returning-place/ep-003/page-15.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "3화: 겨울의 필름 15페이지. 한 아이가 물었다. 여긴 뭐가 찍힌 거예요?"
+            },
+            {
+              "number": 16,
+              "src": "/media/comics/wind-returning-place/ep-003/page-16.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "3화: 겨울의 필름 16페이지. 도윤은 대답 대신 작은 손전등으로 필름 뒤의 빛을 켰다."
+            },
+            {
+              "number": 17,
+              "src": "/media/comics/wind-returning-place/ep-003/page-17.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "3화: 겨울의 필름 17페이지. 흐린 장면 속에 바다와 바람과 기다림이 천천히 떠올랐다."
+            },
+            {
+              "number": 18,
+              "src": "/media/comics/wind-returning-place/ep-003/page-18.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "3화: 겨울의 필름 18페이지. 윤서는 그 앞에 자신의 첫 서울 사진을 조용히 걸었다."
+            },
+            {
+              "number": 19,
+              "src": "/media/comics/wind-returning-place/ep-003/page-19.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "3화: 겨울의 필름 19페이지. 제주에서 온 바람과 서울의 겨울빛이 같은 벽에서 만났다."
+            },
+            {
+              "number": 20,
+              "src": "/media/comics/wind-returning-place/ep-003/page-20.webp",
+              "width": 1080,
+              "height": 1600,
+              "alt": "3화: 겨울의 필름 20페이지. 도윤은 알았다. 선명하지 않아도, 어떤 기억은 사람을 다시 앞으로 비춘다."
+            }
+          ],
+          "provenance": {
+            "story": {
+              "stage": "기획·대본",
+              "model": null,
+              "status": "not-recorded",
+              "note": "AI 제작 파이프라인을 사용했으나 정확한 모델 기록은 남아 있지 않습니다."
+            },
+            "image": {
+              "stage": "이미지 생성",
+              "model": null,
+              "tool": null,
+              "version": null,
+              "status": "not-recorded",
+              "note": "1–3화의 원본 제작 기록에는 제공사와 정확한 모델이 남아 있지 않습니다."
+            },
+            "lettering": {
+              "stage": "레터링·내보내기",
+              "model": null,
+              "tool": "자동화된 로컬 레터링 도구",
+              "status": "automated-tool",
+              "note": "생성 이미지에 한국어 텍스트와 페이지 정보를 자동 합성했습니다."
+            }
+          }
+        },
+        {
+          "id": "ep-004",
+          "number": 4,
+          "title": "4화: 수선한 끈",
+          "shortTitle": "수선한 끈",
+          "lead": "끊어진 카메라 끈을 따라 도윤은 기억을 새것처럼 고치는 대신 이어 쓰는 법을 배운다.",
+          "closingLine": "끊어진 자리에서, 바람은 다시 돌아올 길을 배웠다.",
+          "pageCount": 20,
+          "pages": [
+            {
+              "number": 1,
+              "src": "/media/comics/wind-returning-place/ep-004/page-01.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "4화: 수선한 끈 1페이지. 전시 벽을 맞추던 날, 도윤의 카메라 끈이 조용히 끊어졌다."
+            },
+            {
+              "number": 2,
+              "src": "/media/comics/wind-returning-place/ep-004/page-02.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "4화: 수선한 끈 2페이지. 끊어진 자리보다 먼저 보인 것은, 오래전에 덧댄 실밥이었다."
+            },
+            {
+              "number": 3,
+              "src": "/media/comics/wind-returning-place/ep-004/page-03.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "4화: 수선한 끈 3페이지. 수리공은 새 끈을 권했지만, 도윤은 낡은 자국을 따라가 보기로 했다."
+            },
+            {
+              "number": 4,
+              "src": "/media/comics/wind-returning-place/ep-004/page-04.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "4화: 수선한 끈 4페이지. 그는 답을 찾으러 간 것이 아니라, 손때가 남은 길을 따라갔다."
+            },
+            {
+              "number": 5,
+              "src": "/media/comics/wind-returning-place/ep-004/page-05.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "4화: 수선한 끈 5페이지. 제주의 바람은 낡은 끈을 잡은 손가락 사이로 먼저 들어왔다."
+            },
+            {
+              "number": 6,
+              "src": "/media/comics/wind-returning-place/ep-004/page-06.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "4화: 수선한 끈 6페이지. 순덕은 끈을 보자마자, 오래된 이름을 꺼내지 않고 잠시 웃었다."
+            },
+            {
+              "number": 7,
+              "src": "/media/comics/wind-returning-place/ep-004/page-07.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "4화: 수선한 끈 7페이지. 작은 수선집의 문은 낮게 열렸고, 실과 바늘은 아직 그 자리에 있었다."
+            },
+            {
+              "number": 8,
+              "src": "/media/comics/wind-returning-place/ep-004/page-08.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "4화: 수선한 끈 8페이지. 주인은 실밥을 만져 보더니, 고친 사람의 손버릇을 알아보았다."
+            },
+            {
+              "number": 9,
+              "src": "/media/comics/wind-returning-place/ep-004/page-09.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "4화: 수선한 끈 9페이지. 아버지는 새것을 사는 대신, 버티는 쪽을 자주 골랐다고 했다."
+            },
+            {
+              "number": 10,
+              "src": "/media/comics/wind-returning-place/ep-004/page-10.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "4화: 수선한 끈 10페이지. 그 말은 변명이 아니라, 오래 늦게 도착한 생활의 모양이었다."
+            },
+            {
+              "number": 11,
+              "src": "/media/comics/wind-returning-place/ep-004/page-11.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "4화: 수선한 끈 11페이지. 바늘은 끊어진 곳을 숨기지 않고, 다시 쓸 수 있을 만큼만 붙잡았다."
+            },
+            {
+              "number": 12,
+              "src": "/media/comics/wind-returning-place/ep-004/page-12.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "4화: 수선한 끈 12페이지. 도윤은 완전히 나아진 물건보다, 고친 자리가 보이는 물건을 오래 바라보았다."
+            },
+            {
+              "number": 13,
+              "src": "/media/comics/wind-returning-place/ep-004/page-13.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "4화: 수선한 끈 13페이지. 서울로 돌아온 벽에는 여전히 고른 사진들만 얌전히 걸려 있었다."
+            },
+            {
+              "number": 14,
+              "src": "/media/comics/wind-returning-place/ep-004/page-14.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "4화: 수선한 끈 14페이지. 윤서는 빈 벽 한쪽을 보며, 거기에도 바람이 지나갈 수 있겠다고 했다."
+            },
+            {
+              "number": 15,
+              "src": "/media/comics/wind-returning-place/ep-004/page-15.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "4화: 수선한 끈 15페이지. 도윤은 설명 대신, 끈의 그림자가 닿을 자리를 천천히 비워 두었다."
+            },
+            {
+              "number": 16,
+              "src": "/media/comics/wind-returning-place/ep-004/page-16.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "4화: 수선한 끈 16페이지. 사진 사이에 걸린 것은 사진이 아니라, 계속 매고 온 시간의 그림자였다."
+            },
+            {
+              "number": 17,
+              "src": "/media/comics/wind-returning-place/ep-004/page-17.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "4화: 수선한 끈 17페이지. 누군가는 그 그림자를 보고, 왜 고친 자국을 숨기지 않았느냐고 물었다."
+            },
+            {
+              "number": 18,
+              "src": "/media/comics/wind-returning-place/ep-004/page-18.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "4화: 수선한 끈 18페이지. 도윤은 처음으로, 숨기지 않아도 남는 것들이 있다고 생각했다."
+            },
+            {
+              "number": 19,
+              "src": "/media/comics/wind-returning-place/ep-004/page-19.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "4화: 수선한 끈 19페이지. 닫힌 전시장 안에서 낡은 끈은 다시 카메라의 무게를 견뎠다."
+            },
+            {
+              "number": 20,
+              "src": "/media/comics/wind-returning-place/ep-004/page-20.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "4화: 수선한 끈 20페이지. 끊어진 자리에서, 바람은 다시 돌아올 길을 배웠다."
+            }
+          ],
+          "provenance": {
+            "story": {
+              "stage": "기획·대본",
+              "model": null,
+              "status": "not-recorded",
+              "note": "AI 제작 파이프라인을 사용했으나 정확한 모델 기록은 남아 있지 않습니다."
+            },
+            "image": {
+              "stage": "이미지 생성",
+              "model": "OpenAI Image Generation",
+              "tool": "built-in image_gen",
+              "version": null,
+              "status": "known-provider",
+              "note": "제공사와 생성 도구는 확인되며 정확한 모델 버전은 기록되지 않았습니다."
+            },
+            "lettering": {
+              "stage": "레터링·내보내기",
+              "model": null,
+              "tool": "자동화된 로컬 레터링 도구",
+              "status": "automated-tool",
+              "note": "생성 이미지에 한국어 텍스트와 페이지 정보를 자동 합성했습니다."
+            }
+          }
+        },
+        {
+          "id": "ep-005",
+          "number": 5,
+          "title": "5화: 고르지 않은 빛",
+          "shortTitle": "고르지 않은 빛",
+          "lead": "도윤은 흐린 사진을 실패로 접어 두려다, 아이의 작은 질문 앞에서 고르지 않은 빛을 다시 본다.",
+          "closingLine": "고르지 않은 빛도, 누군가에게는 돌아갈 길이 되었다.",
+          "pageCount": 20,
+          "pages": [
+            {
+              "number": 1,
+              "src": "/media/comics/wind-returning-place/ep-005/page-01.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "5화: 고르지 않은 빛 1페이지. 도윤은 전시할 사진을 고르며, 흐릿한 연락지를 따로 밀어 두었다."
+            },
+            {
+              "number": 2,
+              "src": "/media/comics/wind-returning-place/ep-005/page-02.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "5화: 고르지 않은 빛 2페이지. 좋은 사진은 벽으로 가고, 흔들린 얼굴은 조용히 봉투 속으로 밀렸다."
+            },
+            {
+              "number": 3,
+              "src": "/media/comics/wind-returning-place/ep-005/page-03.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "5화: 고르지 않은 빛 3페이지. 제주 마을 회관 창가에서 윤서가 그 사진을 집어 들었다."
+            },
+            {
+              "number": 4,
+              "src": "/media/comics/wind-returning-place/ep-005/page-04.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "5화: 고르지 않은 빛 4페이지. 윤서는 사진을 들고 물었다. \"왜 이건 나쁜 사진이에요?\""
+            },
+            {
+              "number": 5,
+              "src": "/media/comics/wind-returning-place/ep-005/page-05.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "5화: 고르지 않은 빛 5페이지. 도윤은 흔들렸다는 말 말고는, 아이에게 줄 말을 찾지 못했다."
+            },
+            {
+              "number": 6,
+              "src": "/media/comics/wind-returning-place/ep-005/page-06.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "5화: 고르지 않은 빛 6페이지. 순덕은 대답을 대신하지 않고, 바람에 뒤집히는 종이만 눌러 주었다."
+            },
+            {
+              "number": 7,
+              "src": "/media/comics/wind-returning-place/ep-005/page-07.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "5화: 고르지 않은 빛 7페이지. 연락지의 작은 칸들은 실패처럼 보였지만, 모두 같은 하루를 지나온 빛이었다."
+            },
+            {
+              "number": 8,
+              "src": "/media/comics/wind-returning-place/ep-005/page-08.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "5화: 고르지 않은 빛 8페이지. 윤서는 작은 카메라를 들고, 잘 찍는 법보다 보고 싶은 곳을 먼저 골랐다."
+            },
+            {
+              "number": 9,
+              "src": "/media/comics/wind-returning-place/ep-005/page-09.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "5화: 고르지 않은 빛 9페이지. 항구의 빛은 고르지 않았고, 아이의 손도 바람을 따라 조금씩 흔들렸다."
+            },
+            {
+              "number": 10,
+              "src": "/media/comics/wind-returning-place/ep-005/page-10.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "5화: 고르지 않은 빛 10페이지. 도윤은 초점을 맞추라고 말하려다, 그 말을 다시 주머니에 넣었다."
+            },
+            {
+              "number": 11,
+              "src": "/media/comics/wind-returning-place/ep-005/page-11.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "5화: 고르지 않은 빛 11페이지. 셔터 소리 사이로, 바다는 선명하지 않은 얼굴들을 잠깐씩 비추었다."
+            },
+            {
+              "number": 12,
+              "src": "/media/comics/wind-returning-place/ep-005/page-12.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "5화: 고르지 않은 빛 12페이지. 화면 속 사진은 기울어 있었지만, 그 안의 웃음은 지워지지 않았다."
+            },
+            {
+              "number": 13,
+              "src": "/media/comics/wind-returning-place/ep-005/page-13.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "5화: 고르지 않은 빛 13페이지. 도윤은 봉투 속에 남겨 둔 사진을 다시 꺼내, 손바닥 위에 올려 보았다."
+            },
+            {
+              "number": 14,
+              "src": "/media/comics/wind-returning-place/ep-005/page-14.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "5화: 고르지 않은 빛 14페이지. 서울의 벽 앞에서 그는 제목 없는 카드 하나를 오래 들고 있었다."
+            },
+            {
+              "number": 15,
+              "src": "/media/comics/wind-returning-place/ep-005/page-15.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "5화: 고르지 않은 빛 15페이지. 그는 흐릿한 프레임을 지우지 않고, 고른 사진들 사이에 조용히 걸었다."
+            },
+            {
+              "number": 16,
+              "src": "/media/comics/wind-returning-place/ep-005/page-16.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "5화: 고르지 않은 빛 16페이지. 누군가는 그 사진 앞에서 오래 멈췄고, 아무 설명도 먼저 찾지 않았다."
+            },
+            {
+              "number": 17,
+              "src": "/media/comics/wind-returning-place/ep-005/page-17.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "5화: 고르지 않은 빛 17페이지. 윤서가 남긴 사진도 한쪽에 놓였다. 빛은 조금 삐뚤었고, 그래서 살아 있었다."
+            },
+            {
+              "number": 18,
+              "src": "/media/comics/wind-returning-place/ep-005/page-18.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "5화: 고르지 않은 빛 18페이지. 빈 카드는 빈 채로 남았다. 모르는 마음을 모른다고 두기 위해서였다."
+            },
+            {
+              "number": 19,
+              "src": "/media/comics/wind-returning-place/ep-005/page-19.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "5화: 고르지 않은 빛 19페이지. 전시장 불이 낮아질 때, 도윤은 버린 줄 알았던 빛이 돌아오는 것을 보았다."
+            },
+            {
+              "number": 20,
+              "src": "/media/comics/wind-returning-place/ep-005/page-20.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "5화: 고르지 않은 빛 20페이지. 고르지 않은 빛도, 누군가에게는 돌아갈 길이 되었다."
+            }
+          ],
+          "provenance": {
+            "story": {
+              "stage": "기획·대본",
+              "model": null,
+              "status": "not-recorded",
+              "note": "AI 제작 파이프라인을 사용했으나 정확한 모델 기록은 남아 있지 않습니다."
+            },
+            "image": {
+              "stage": "이미지 생성",
+              "model": "OpenAI Image Generation",
+              "tool": "built-in image_gen",
+              "version": null,
+              "status": "known-provider",
+              "note": "제공사와 생성 도구는 확인되며 정확한 모델 버전은 기록되지 않았습니다."
+            },
+            "lettering": {
+              "stage": "레터링·내보내기",
+              "model": null,
+              "tool": "자동화된 로컬 레터링 도구",
+              "status": "automated-tool",
+              "note": "생성 이미지에 한국어 텍스트와 페이지 정보를 자동 합성했습니다."
+            }
+          }
+        },
+        {
+          "id": "ep-006",
+          "number": 6,
+          "title": "6화: 바람의 녹음",
+          "shortTitle": "바람의 녹음",
+          "lead": "도윤은 오래된 카세트의 잡음 속에서, 지우지 않아야 들리는 기억을 배운다.",
+          "closingLine": "잡음으로 남은 바람도, 누군가에게는 돌아오는 목소리였다.",
+          "pageCount": 20,
+          "pages": [
+            {
+              "number": 1,
+              "src": "/media/comics/wind-returning-place/ep-006/page-01.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "6화: 바람의 녹음 1페이지. 서울 갤러리 창고에서 도윤은 작은 카세트 상자 하나를 발견했다."
+            },
+            {
+              "number": 2,
+              "src": "/media/comics/wind-returning-place/ep-006/page-02.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "6화: 바람의 녹음 2페이지. 그는 사진을 들 때처럼, 이름 없는 테이프를 빛에 비춰 보았다."
+            },
+            {
+              "number": 3,
+              "src": "/media/comics/wind-returning-place/ep-006/page-03.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "6화: 바람의 녹음 3페이지. 재생 버튼을 누르자 목소리보다 먼저 바람과 물소리가 밀려왔다."
+            },
+            {
+              "number": 4,
+              "src": "/media/comics/wind-returning-place/ep-006/page-04.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "6화: 바람의 녹음 4페이지. 도윤은 답을 캐묻는 대신, 소리가 온 곳을 조심스레 물었다."
+            },
+            {
+              "number": 5,
+              "src": "/media/comics/wind-returning-place/ep-006/page-05.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "6화: 바람의 녹음 5페이지. 제주의 길은 이번에도 바람을 먼저 보내 그를 맞았다."
+            },
+            {
+              "number": 6,
+              "src": "/media/comics/wind-returning-place/ep-006/page-06.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "6화: 바람의 녹음 6페이지. 순덕은 테이프를 보더니, 오래된 마을의 소리라고만 말했다."
+            },
+            {
+              "number": 7,
+              "src": "/media/comics/wind-returning-place/ep-006/page-07.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "6화: 바람의 녹음 7페이지. 윤서는 녹음기를 만지며 물었다. \"바람도 목소리예요?\""
+            },
+            {
+              "number": 8,
+              "src": "/media/comics/wind-returning-place/ep-006/page-08.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "6화: 바람의 녹음 8페이지. 세 사람은 테이프 속 잡음이 닮은 항구 쪽으로 천천히 걸었다."
+            },
+            {
+              "number": 9,
+              "src": "/media/comics/wind-returning-place/ep-006/page-09.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "6화: 바람의 녹음 9페이지. 밧줄과 물살과 젖은 돌이, 테이프 속 소리와 비슷하게 흔들렸다."
+            },
+            {
+              "number": 10,
+              "src": "/media/comics/wind-returning-place/ep-006/page-10.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "6화: 바람의 녹음 10페이지. 순덕은 그 소리를 설명하지 않고, 손으로 난간의 결만 짚었다."
+            },
+            {
+              "number": 11,
+              "src": "/media/comics/wind-returning-place/ep-006/page-11.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "6화: 바람의 녹음 11페이지. 윤서는 작은 돌을 귀에 대고, 들리지 않는 대답을 오래 들었다."
+            },
+            {
+              "number": 12,
+              "src": "/media/comics/wind-returning-place/ep-006/page-12.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "6화: 바람의 녹음 12페이지. 도윤은 잡음을 지우면 사라질 마음도 있다는 것을 처음 알았다."
+            },
+            {
+              "number": 13,
+              "src": "/media/comics/wind-returning-place/ep-006/page-13.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "6화: 바람의 녹음 13페이지. 서울로 돌아온 그는 사진 옆에 작은 듣는 자리를 만들었다."
+            },
+            {
+              "number": 14,
+              "src": "/media/comics/wind-returning-place/ep-006/page-14.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "6화: 바람의 녹음 14페이지. 벽에는 긴 설명 대신, 잠시 머물 수 있는 헤드폰 하나를 걸었다."
+            },
+            {
+              "number": 15,
+              "src": "/media/comics/wind-returning-place/ep-006/page-15.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "6화: 바람의 녹음 15페이지. 누군가는 그 앞에 앉아, 사진보다 오래 바람 소리를 들었다."
+            },
+            {
+              "number": 16,
+              "src": "/media/comics/wind-returning-place/ep-006/page-16.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "6화: 바람의 녹음 16페이지. 윤서는 제주에서 가져온 작은 돌을 헤드폰 옆에 조용히 놓았다."
+            },
+            {
+              "number": 17,
+              "src": "/media/comics/wind-returning-place/ep-006/page-17.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "6화: 바람의 녹음 17페이지. 도윤은 편집기의 손잡이를 돌리다 말고, 남겨 둘 소리를 골랐다."
+            },
+            {
+              "number": 18,
+              "src": "/media/comics/wind-returning-place/ep-006/page-18.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "6화: 바람의 녹음 18페이지. 사람들은 각자의 침묵을 들고, 헤드폰을 천천히 내려놓았다."
+            },
+            {
+              "number": 19,
+              "src": "/media/comics/wind-returning-place/ep-006/page-19.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "6화: 바람의 녹음 19페이지. 빈 갤러리에서 도윤은 지우지 않은 바람을 다시 들었다."
+            },
+            {
+              "number": 20,
+              "src": "/media/comics/wind-returning-place/ep-006/page-20.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "6화: 바람의 녹음 20페이지. 잡음으로 남은 바람도, 누군가에게는 돌아오는 목소리였다."
+            }
+          ],
+          "provenance": {
+            "story": {
+              "stage": "기획·대본",
+              "model": null,
+              "status": "not-recorded",
+              "note": "AI 제작 파이프라인을 사용했으나 정확한 모델 기록은 남아 있지 않습니다."
+            },
+            "image": {
+              "stage": "이미지 생성",
+              "model": "OpenAI Image Generation",
+              "tool": "built-in image_gen",
+              "version": null,
+              "status": "known-provider",
+              "note": "제공사와 생성 도구는 확인되며 정확한 모델 버전은 기록되지 않았습니다."
+            },
+            "lettering": {
+              "stage": "레터링·내보내기",
+              "model": null,
+              "tool": "자동화된 로컬 레터링 도구",
+              "status": "automated-tool",
+              "note": "생성 이미지에 한국어 텍스트와 페이지 정보를 자동 합성했습니다."
+            }
+          }
+        },
+        {
+          "id": "ep-007",
+          "number": 7,
+          "title": "7화: 빌린 벽",
+          "shortTitle": "빌린 벽",
+          "lead": "도윤은 빌린 전시 벽 앞에서, 기억을 걸 자리도 함께 맡아야 한다는 것을 배운다.",
+          "closingLine": "빌린 벽은, 누군가의 기억이 잠시 기대어 다시 걸어가는 자리였다.",
+          "pageCount": 20,
+          "pages": [
+            {
+              "number": 1,
+              "src": "/media/comics/wind-returning-place/ep-007/page-01.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "7화: 빌린 벽 1페이지. 서울 갤러리의 빈 벽 앞에서, 도윤은 빌린 자리가 얼마나 조용한지 들었다."
+            },
+            {
+              "number": 2,
+              "src": "/media/comics/wind-returning-place/ep-007/page-02.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "7화: 빌린 벽 2페이지. 계약서 위의 선들은 곧았지만, 마음은 자꾸 비어 있는 곳으로 기울었다."
+            },
+            {
+              "number": 3,
+              "src": "/media/comics/wind-returning-place/ep-007/page-03.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "7화: 빌린 벽 3페이지. 순덕은 벽을 빌리는 건, 남의 기억을 잠시 맡는 일이라고 했다."
+            },
+            {
+              "number": 4,
+              "src": "/media/comics/wind-returning-place/ep-007/page-04.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "7화: 빌린 벽 4페이지. 윤서는 낮은 벽을 올려다보며 물었다. \"왜 벽을 빌려요?\""
+            },
+            {
+              "number": 5,
+              "src": "/media/comics/wind-returning-place/ep-007/page-05.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "7화: 빌린 벽 5페이지. 도윤은 대답 대신, 천과 사진을 들고 바람 부는 길을 걸었다."
+            },
+            {
+              "number": 6,
+              "src": "/media/comics/wind-returning-place/ep-007/page-06.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "7화: 빌린 벽 6페이지. 마을 사람들은 사진보다 먼저, 손때 묻은 물건들을 조심히 내려놓았다."
+            },
+            {
+              "number": 7,
+              "src": "/media/comics/wind-returning-place/ep-007/page-07.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "7화: 빌린 벽 7페이지. 순덕은 도윤이 맞춘 줄을 살짝 밀고, 삐뚠 사진 하나를 먼저 걸었다."
+            },
+            {
+              "number": 8,
+              "src": "/media/comics/wind-returning-place/ep-007/page-08.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "7화: 빌린 벽 8페이지. 윤서는 자기 키에 맞는 곳에, 작은 사진을 낮게 붙였다."
+            },
+            {
+              "number": 9,
+              "src": "/media/comics/wind-returning-place/ep-007/page-09.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "7화: 빌린 벽 9페이지. 바람이 천벽을 흔들자, 도윤과 윤서는 말없이 양끝을 붙잡았다."
+            },
+            {
+              "number": 10,
+              "src": "/media/comics/wind-returning-place/ep-007/page-10.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "7화: 빌린 벽 10페이지. 오래된 손은 새 사진 옆에, 오래된 가장자리를 숨기지 않고 걸었다."
+            },
+            {
+              "number": 11,
+              "src": "/media/comics/wind-returning-place/ep-007/page-11.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "7화: 빌린 벽 11페이지. 도윤은 카메라를 내리고, 어디에 걸지 말하는 목소리를 들었다."
+            },
+            {
+              "number": 12,
+              "src": "/media/comics/wind-returning-place/ep-007/page-12.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "7화: 빌린 벽 12페이지. 벽은 점점 전시가 아니라, 잠시 머물 수 있는 마을의 자리처럼 보였다."
+            },
+            {
+              "number": 13,
+              "src": "/media/comics/wind-returning-place/ep-007/page-13.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "7화: 빌린 벽 13페이지. 서울로 돌아온 도윤은 고른 높이 대신, 그날의 흔들림을 옮겨 걸었다."
+            },
+            {
+              "number": 14,
+              "src": "/media/comics/wind-returning-place/ep-007/page-14.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "7화: 빌린 벽 14페이지. 관람객들은 긴 설명 없는 벽 앞에서, 자기 걸음의 속도를 늦췄다."
+            },
+            {
+              "number": 15,
+              "src": "/media/comics/wind-returning-place/ep-007/page-15.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "7화: 빌린 벽 15페이지. 한 사람은 낮은 사진을 보려고 허리를 숙였고, 시선도 함께 낮아졌다."
+            },
+            {
+              "number": 16,
+              "src": "/media/comics/wind-returning-place/ep-007/page-16.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "7화: 빌린 벽 16페이지. 윤서는 제주에서 가져온 작은 돌을, 가장 낮은 사진 아래에 두었다."
+            },
+            {
+              "number": 17,
+              "src": "/media/comics/wind-returning-place/ep-007/page-17.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "7화: 빌린 벽 17페이지. 도윤은 가운데 제목 카드를 떼고, 작은 빈 카드 하나만 남겨 두었다."
+            },
+            {
+              "number": 18,
+              "src": "/media/comics/wind-returning-place/ep-007/page-18.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "7화: 빌린 벽 18페이지. 사람들은 빈 카드 옆에, 말하지 않은 기억을 잠시 놓고 갔다."
+            },
+            {
+              "number": 19,
+              "src": "/media/comics/wind-returning-place/ep-007/page-19.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "7화: 빌린 벽 19페이지. 닫힌 갤러리에서 도윤은 카메라를 쉬게 두고 빌린 벽을 오래 바라보았다."
+            },
+            {
+              "number": 20,
+              "src": "/media/comics/wind-returning-place/ep-007/page-20.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "7화: 빌린 벽 20페이지. 빌린 벽은, 누군가의 기억이 잠시 기대어 다시 걸어가는 자리였다."
+            }
+          ],
+          "provenance": {
+            "story": {
+              "stage": "기획·대본",
+              "model": null,
+              "status": "not-recorded",
+              "note": "AI 제작 파이프라인을 사용했으나 정확한 모델 기록은 남아 있지 않습니다."
+            },
+            "image": {
+              "stage": "이미지 생성",
+              "model": "OpenAI Image Generation",
+              "tool": "built-in image_gen",
+              "version": null,
+              "status": "known-provider",
+              "note": "제공사와 생성 도구는 확인되며 정확한 모델 버전은 기록되지 않았습니다."
+            },
+            "lettering": {
+              "stage": "레터링·내보내기",
+              "model": null,
+              "tool": "자동화된 로컬 레터링 도구",
+              "status": "automated-tool",
+              "note": "생성 이미지에 한국어 텍스트와 페이지 정보를 자동 합성했습니다."
+            }
+          }
+        },
+        {
+          "id": "ep-008",
+          "number": 8,
+          "title": "8화: 접힌 표",
+          "shortTitle": "접힌 표",
+          "lead": "도윤은 접힌 배표를 따라, 돌아오는 길도 선택이 될 수 있음을 배운다.",
+          "closingLine": "접힌 표는, 돌아온 길도 자국을 품은 채 앞으로 열릴 수 있다고 말했다.",
+          "pageCount": 20,
+          "pages": [
+            {
+              "number": 1,
+              "src": "/media/comics/wind-returning-place/ep-008/page-01.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "8화: 접힌 표 1페이지. 서울 갤러리 문턱에서, 도윤은 접힌 배표 한 장을 오래 쥐고 있었다."
+            },
+            {
+              "number": 2,
+              "src": "/media/comics/wind-returning-place/ep-008/page-02.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "8화: 접힌 표 2페이지. 버리려던 표는 카메라 옆에 놓이자, 작은 길처럼 다시 보였다."
+            },
+            {
+              "number": 3,
+              "src": "/media/comics/wind-returning-place/ep-008/page-03.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "8화: 접힌 표 3페이지. 순덕은 표가 말해 주는 건 움직였다는 사실뿐이라고 했다."
+            },
+            {
+              "number": 4,
+              "src": "/media/comics/wind-returning-place/ep-008/page-04.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "8화: 접힌 표 4페이지. 윤서는 접힌 모서리를 펴 보며 물었다. \"다 쓴 표는 왜 접어요?\""
+            },
+            {
+              "number": 5,
+              "src": "/media/comics/wind-returning-place/ep-008/page-05.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "8화: 접힌 표 5페이지. 도윤은 대답 대신, 사진보다 먼저 항구로 난 길을 따라 걸었다."
+            },
+            {
+              "number": 6,
+              "src": "/media/comics/wind-returning-place/ep-008/page-06.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "8화: 접힌 표 6페이지. 사람들은 각자의 가방과 말하지 않은 이유를 들고 배를 기다렸다."
+            },
+            {
+              "number": 7,
+              "src": "/media/comics/wind-returning-place/ep-008/page-07.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "8화: 접힌 표 7페이지. 바람이 표 한 귀퉁이를 찢자, 도윤은 그 조각까지 주머니에 넣었다."
+            },
+            {
+              "number": 8,
+              "src": "/media/comics/wind-returning-place/ep-008/page-08.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "8화: 접힌 표 8페이지. 윤서는 빈 종이를 접어 작은 길을 만들고, 다시 조심히 펼쳤다."
+            },
+            {
+              "number": 9,
+              "src": "/media/comics/wind-returning-place/ep-008/page-09.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "8화: 접힌 표 9페이지. 순덕은 앞서 걸으며, 돌아오는 길도 남이 대신 정해 주지 않는다고 했다."
+            },
+            {
+              "number": 10,
+              "src": "/media/comics/wind-returning-place/ep-008/page-10.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "8화: 접힌 표 10페이지. 도윤은 얼굴 대신, 표를 쥔 손들의 망설임을 조용히 찍었다."
+            },
+            {
+              "number": 11,
+              "src": "/media/comics/wind-returning-place/ep-008/page-11.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "8화: 접힌 표 11페이지. 배는 큰 작별 없이 떠났고, 항구에는 흔들린 줄과 젖은 빛만 남았다."
+            },
+            {
+              "number": 12,
+              "src": "/media/comics/wind-returning-place/ep-008/page-12.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "8화: 접힌 표 12페이지. 도윤은 타지 않은 배도, 어떤 날에는 선택이 될 수 있음을 알았다."
+            },
+            {
+              "number": 13,
+              "src": "/media/comics/wind-returning-place/ep-008/page-13.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "8화: 접힌 표 13페이지. 서울로 돌아온 표에는 여전히 접힌 자국이 또렷하게 남아 있었다."
+            },
+            {
+              "number": 14,
+              "src": "/media/comics/wind-returning-place/ep-008/page-14.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "8화: 접힌 표 14페이지. 그는 전시 벽보다 먼저, 사람들이 드나드는 문턱을 오래 바라보았다."
+            },
+            {
+              "number": 15,
+              "src": "/media/comics/wind-returning-place/ep-008/page-15.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "8화: 접힌 표 15페이지. 관람객들은 사진 사이보다, 문을 지나가는 자기 걸음을 더 천천히 느꼈다."
+            },
+            {
+              "number": 16,
+              "src": "/media/comics/wind-returning-place/ep-008/page-16.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "8화: 접힌 표 16페이지. 윤서가 접어 보낸 종이길은 낮은 문가에 작게 놓였다."
+            },
+            {
+              "number": 17,
+              "src": "/media/comics/wind-returning-place/ep-008/page-17.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "8화: 접힌 표 17페이지. 도윤은 배표를 펼쳤지만, 접힌 선을 억지로 누르지 않았다."
+            },
+            {
+              "number": 18,
+              "src": "/media/comics/wind-returning-place/ep-008/page-18.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "8화: 접힌 표 18페이지. 한 관람객은 그 선 앞에서 잠시 멈췄다가, 다시 뒤를 돌아보았다."
+            },
+            {
+              "number": 19,
+              "src": "/media/comics/wind-returning-place/ep-008/page-19.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "8화: 접힌 표 19페이지. 문을 닫은 뒤, 도윤은 벽이 아니라 문턱에 서서 바람을 들었다."
+            },
+            {
+              "number": 20,
+              "src": "/media/comics/wind-returning-place/ep-008/page-20.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "8화: 접힌 표 20페이지. 접힌 표는, 돌아온 길도 자국을 품은 채 앞으로 열릴 수 있다고 말했다."
+            }
+          ],
+          "provenance": {
+            "story": {
+              "stage": "기획·대본",
+              "model": null,
+              "status": "not-recorded",
+              "note": "AI 제작 파이프라인을 사용했으나 정확한 모델 기록은 남아 있지 않습니다."
+            },
+            "image": {
+              "stage": "이미지 생성",
+              "model": "OpenAI Image Generation",
+              "tool": "built-in image_gen",
+              "version": null,
+              "status": "known-provider",
+              "note": "제공사와 생성 도구는 확인되며 정확한 모델 버전은 기록되지 않았습니다."
+            },
+            "lettering": {
+              "stage": "레터링·내보내기",
+              "model": null,
+              "tool": "자동화된 로컬 레터링 도구",
+              "status": "automated-tool",
+              "note": "생성 이미지에 한국어 텍스트와 페이지 정보를 자동 합성했습니다."
+            }
+          }
+        },
+        {
+          "id": "ep-009",
+          "number": 9,
+          "title": "9화: 겨울 온실",
+          "shortTitle": "겨울 온실",
+          "lead": "도윤은 겨울 온실의 작은 새순 앞에서, 보이지 않는 자람을 기다리는 법을 배운다.",
+          "closingLine": "겨울 온실은, 보이지 않는 자람도 돌아올 시간을 품고 있다고 말했다.",
+          "pageCount": 20,
+          "pages": [
+            {
+              "number": 1,
+              "src": "/media/comics/wind-returning-place/ep-009/page-01.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "9화: 겨울 온실 1페이지. 서울 갤러리 창가에 놓인 작은 화분은, 잎보다 먼저 마른 흙을 보여 주었다."
+            },
+            {
+              "number": 2,
+              "src": "/media/comics/wind-returning-place/ep-009/page-02.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "9화: 겨울 온실 2페이지. 도윤은 버려진 화분을 치우려다, 유리 안쪽에 남은 물자국을 오래 보았다."
+            },
+            {
+              "number": 3,
+              "src": "/media/comics/wind-returning-place/ep-009/page-03.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "9화: 겨울 온실 3페이지. 순덕은 전화로, 겨울에도 온실은 쉬는 게 아니라 천천히 숨 쉰다고 했다."
+            },
+            {
+              "number": 4,
+              "src": "/media/comics/wind-returning-place/ep-009/page-04.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "9화: 겨울 온실 4페이지. 제주 온실 문 앞에서, 도윤의 카메라는 차가운 유리에 먼저 김을 만들었다."
+            },
+            {
+              "number": 5,
+              "src": "/media/comics/wind-returning-place/ep-009/page-05.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "9화: 겨울 온실 5페이지. 안에는 큰 꽃보다, 아직 이름표가 붙지 않은 작은 새순들이 낮게 자라고 있었다."
+            },
+            {
+              "number": 6,
+              "src": "/media/comics/wind-returning-place/ep-009/page-06.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "9화: 겨울 온실 6페이지. 윤서는 입김으로 흐려진 유리에 손가락 하나로 동그라미를 그렸다."
+            },
+            {
+              "number": 7,
+              "src": "/media/comics/wind-returning-place/ep-009/page-07.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "9화: 겨울 온실 7페이지. \"밖에서는 안 보이는데, 안에서는 자라고 있는 거예요?\""
+            },
+            {
+              "number": 8,
+              "src": "/media/comics/wind-returning-place/ep-009/page-08.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "9화: 겨울 온실 8페이지. 도윤은 대답을 찾는 대신, 유리 너머 흐린 빛과 작은 잎을 함께 찍었다."
+            },
+            {
+              "number": 9,
+              "src": "/media/comics/wind-returning-place/ep-009/page-09.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "9화: 겨울 온실 9페이지. 순덕은 물을 너무 많이 주면 뿌리가 숨을 못 쉰다며, 물뿌리개를 내려놓았다."
+            },
+            {
+              "number": 10,
+              "src": "/media/comics/wind-returning-place/ep-009/page-10.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "9화: 겨울 온실 10페이지. 기다림도 손을 떼는 일이 될 수 있다는 말을, 도윤은 처음으로 믿어 보았다."
+            },
+            {
+              "number": 11,
+              "src": "/media/comics/wind-returning-place/ep-009/page-11.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "9화: 겨울 온실 11페이지. 바깥 바람은 세게 불었지만, 온실 안의 잎은 아주 조금씩 방향을 바꾸었다."
+            },
+            {
+              "number": 12,
+              "src": "/media/comics/wind-returning-place/ep-009/page-12.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "9화: 겨울 온실 12페이지. 윤서는 종이컵에 작은 흙을 담고, 아직 보이지 않는 씨앗을 조심히 덮었다."
+            },
+            {
+              "number": 13,
+              "src": "/media/comics/wind-returning-place/ep-009/page-13.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "9화: 겨울 온실 13페이지. 서울로 돌아온 도윤은 갤러리 한쪽 창을 닦지 않고 그대로 두었다."
+            },
+            {
+              "number": 14,
+              "src": "/media/comics/wind-returning-place/ep-009/page-14.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "9화: 겨울 온실 14페이지. 관람객들은 선명한 사진보다, 물자국 너머의 흐린 초록 앞에서 오래 멈췄다."
+            },
+            {
+              "number": 15,
+              "src": "/media/comics/wind-returning-place/ep-009/page-15.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "9화: 겨울 온실 15페이지. 도윤은 사진 아래에 설명 대신, 빈 물뿌리개 하나를 조용히 놓았다."
+            },
+            {
+              "number": 16,
+              "src": "/media/comics/wind-returning-place/ep-009/page-16.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "9화: 겨울 온실 16페이지. 윤서가 보낸 작은 종이컵 사진은 전시장 낮은 선반에 따로 기대었다."
+            },
+            {
+              "number": 17,
+              "src": "/media/comics/wind-returning-place/ep-009/page-17.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "9화: 겨울 온실 17페이지. 누군가는 그 앞에서, 아직 보이지 않는 일을 기다리는 자기 시간을 떠올렸다."
+            },
+            {
+              "number": 18,
+              "src": "/media/comics/wind-returning-place/ep-009/page-18.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "9화: 겨울 온실 18페이지. 밤이 되자 창의 물자국은 서울 불빛을 작게 흔들어, 온실의 숨처럼 보였다."
+            },
+            {
+              "number": 19,
+              "src": "/media/comics/wind-returning-place/ep-009/page-19.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "9화: 겨울 온실 19페이지. 도윤은 카메라를 내려놓고, 마른 화분에 물을 한 번만 천천히 주었다."
+            },
+            {
+              "number": 20,
+              "src": "/media/comics/wind-returning-place/ep-009/page-20.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "9화: 겨울 온실 20페이지. 겨울 온실은, 보이지 않는 자람도 돌아올 시간을 품고 있다고 말했다."
+            }
+          ],
+          "provenance": {
+            "story": {
+              "stage": "기획·대본",
+              "model": null,
+              "status": "not-recorded",
+              "note": "AI 제작 파이프라인을 사용했으나 정확한 모델 기록은 남아 있지 않습니다."
+            },
+            "image": {
+              "stage": "이미지 생성",
+              "model": "OpenAI Image Generation",
+              "tool": "built-in image_gen",
+              "version": null,
+              "status": "known-provider",
+              "note": "제공사와 생성 도구는 확인되며 정확한 모델 버전은 기록되지 않았습니다."
+            },
+            "lettering": {
+              "stage": "레터링·내보내기",
+              "model": null,
+              "tool": "자동화된 로컬 레터링 도구",
+              "status": "automated-tool",
+              "note": "생성 이미지에 한국어 텍스트와 페이지 정보를 자동 합성했습니다."
+            }
+          }
+        },
+        {
+          "id": "ep-010",
+          "number": 10,
+          "title": "10화: 남겨진 우산",
+          "shortTitle": "남겨진 우산",
+          "lead": "도윤은 남겨진 우산을 따라, 기다림이 붙잡음이 아니라 돌봄이 될 수 있음을 배운다.",
+          "closingLine": "남겨진 우산은, 기다림도 누군가를 붙드는 대신 비를 건너게 하는 마음이라고 말했다.",
+          "pageCount": 20,
+          "pages": [
+            {
+              "number": 1,
+              "src": "/media/comics/wind-returning-place/ep-010/page-01.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "10화: 남겨진 우산 1페이지. 서울 갤러리 입구에 남겨진 우산 하나가, 비보다 오래 그 자리에 서 있었다."
+            },
+            {
+              "number": 2,
+              "src": "/media/comics/wind-returning-place/ep-010/page-02.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "10화: 남겨진 우산 2페이지. 도윤은 주인을 찾으려다, 우산 손잡이에 남은 물방울을 먼저 보았다."
+            },
+            {
+              "number": 3,
+              "src": "/media/comics/wind-returning-place/ep-010/page-03.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "10화: 남겨진 우산 3페이지. 순덕은 전화 너머로, 기다리는 물건은 가끔 사람보다 말을 적게 한다고 했다."
+            },
+            {
+              "number": 4,
+              "src": "/media/comics/wind-returning-place/ep-010/page-04.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "10화: 남겨진 우산 4페이지. 제주 버스 정류장은 비를 피하는 곳보다, 비를 함께 보내는 곳처럼 보였다."
+            },
+            {
+              "number": 5,
+              "src": "/media/comics/wind-returning-place/ep-010/page-05.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "10화: 남겨진 우산 5페이지. 순덕은 우산 손잡이를 만지며, 오래 기다린다고 모두 붙드는 건 아니라고 했다."
+            },
+            {
+              "number": 6,
+              "src": "/media/comics/wind-returning-place/ep-010/page-06.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "10화: 남겨진 우산 6페이지. 윤서는 작은 두 손으로 우산을 들고 물었다. \"기다리면 누가 꼭 돌아와요?\""
+            },
+            {
+              "number": 7,
+              "src": "/media/comics/wind-returning-place/ep-010/page-07.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "10화: 남겨진 우산 7페이지. 도윤은 대답 대신, 비어 있는 길과 젖은 의자를 함께 바라보았다."
+            },
+            {
+              "number": 8,
+              "src": "/media/comics/wind-returning-place/ep-010/page-08.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "10화: 남겨진 우산 8페이지. 늦게 도착한 사람은 우산을 찾는 대신, 잠시 빌려도 되겠냐고 조심히 물었다."
+            },
+            {
+              "number": 9,
+              "src": "/media/comics/wind-returning-place/ep-010/page-09.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "10화: 남겨진 우산 9페이지. 버스가 떠난 뒤에도, 정류장에는 누군가를 붙잡지 않은 기다림이 남았다."
+            },
+            {
+              "number": 10,
+              "src": "/media/comics/wind-returning-place/ep-010/page-10.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "10화: 남겨진 우산 10페이지. 도윤은 빈자리와 물자국을 찍으며, 늦음과 배려가 늘 같은 말은 아니라는 걸 배웠다."
+            },
+            {
+              "number": 11,
+              "src": "/media/comics/wind-returning-place/ep-010/page-11.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "10화: 남겨진 우산 11페이지. 윤서는 자기 우산을 접으며, 누군가 젖지 않게 두는 것도 기다림이냐고 물었다."
+            },
+            {
+              "number": 12,
+              "src": "/media/comics/wind-returning-place/ep-010/page-12.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "10화: 남겨진 우산 12페이지. 유리창의 작은 우산 그림은 곧 사라졌지만, 도윤은 그 사라짐까지 오래 보았다."
+            },
+            {
+              "number": 13,
+              "src": "/media/comics/wind-returning-place/ep-010/page-13.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "10화: 남겨진 우산 13페이지. 서울로 돌아온 도윤은 전시장 문가에 낮은 벤치와 우산꽂이를 놓았다."
+            },
+            {
+              "number": 14,
+              "src": "/media/comics/wind-returning-place/ep-010/page-14.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "10화: 남겨진 우산 14페이지. 사진 옆에는 설명 대신, 잠시 빗물을 털고 앉을 수 있는 자리가 있었다."
+            },
+            {
+              "number": 15,
+              "src": "/media/comics/wind-returning-place/ep-010/page-15.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "10화: 남겨진 우산 15페이지. 관람객들은 우산을 세우고, 젖은 손을 내려놓은 뒤에야 사진을 보았다."
+            },
+            {
+              "number": 16,
+              "src": "/media/comics/wind-returning-place/ep-010/page-16.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "10화: 남겨진 우산 16페이지. 윤서가 보낸 작은 우산 사진은 아이 눈높이 선반에 따로 기대었다."
+            },
+            {
+              "number": 17,
+              "src": "/media/comics/wind-returning-place/ep-010/page-17.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "10화: 남겨진 우산 17페이지. 누군가는 그 앞에서, 기다림이 지연이 아니라 돌봄이었던 시간을 떠올렸다."
+            },
+            {
+              "number": 18,
+              "src": "/media/comics/wind-returning-place/ep-010/page-18.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "10화: 남겨진 우산 18페이지. 밤의 우산 그림자는 서울 바닥 위에 젖은 정류장처럼 길게 누웠다."
+            },
+            {
+              "number": 19,
+              "src": "/media/comics/wind-returning-place/ep-010/page-19.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "10화: 남겨진 우산 19페이지. 도윤은 여분의 우산 하나를 꽂아 두고, 주인을 쓰지 않은 빈 자리로 남겨 두었다."
+            },
+            {
+              "number": 20,
+              "src": "/media/comics/wind-returning-place/ep-010/page-20.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "10화: 남겨진 우산 20페이지. 남겨진 우산은, 기다림도 누군가를 붙드는 대신 비를 건너게 하는 마음이라고 말했다."
+            }
+          ],
+          "provenance": {
+            "story": {
+              "stage": "기획·대본",
+              "model": null,
+              "status": "not-recorded",
+              "note": "AI 제작 파이프라인을 사용했으나 정확한 모델 기록은 남아 있지 않습니다."
+            },
+            "image": {
+              "stage": "이미지 생성",
+              "model": "OpenAI Image Generation",
+              "tool": "built-in image_gen",
+              "version": null,
+              "status": "known-provider",
+              "note": "제공사와 생성 도구는 확인되며 정확한 모델 버전은 기록되지 않았습니다."
+            },
+            "lettering": {
+              "stage": "레터링·내보내기",
+              "model": null,
+              "tool": "자동화된 로컬 레터링 도구",
+              "status": "automated-tool",
+              "note": "생성 이미지에 한국어 텍스트와 페이지 정보를 자동 합성했습니다."
+            }
+          }
+        },
+        {
+          "id": "ep-011",
+          "number": 11,
+          "title": "11화: 소금빛 손수건",
+          "shortTitle": "소금빛 손수건",
+          "lead": "도윤은 소금이 남은 손수건을 따라, 지워지지 않은 자국도 돌봄의 일부가 될 수 있음을 배운다.",
+          "closingLine": "소금빛 손수건은, 지워지지 않은 자국도 누군가를 다시 마르게 하는 바람이라고 말했다.",
+          "pageCount": 20,
+          "pages": [
+            {
+              "number": 1,
+              "src": "/media/comics/wind-returning-place/ep-011/page-01.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "11화: 소금빛 손수건 1페이지. 서울 갤러리의 회색 아침, 도윤은 사진 상자 사이에서 소금이 굳은 손수건을 발견했다."
+            },
+            {
+              "number": 2,
+              "src": "/media/comics/wind-returning-place/ep-011/page-02.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "11화: 소금빛 손수건 2페이지. 그는 먼지를 털어 내려다, 접힌 천 끝에 남은 흰 자국을 먼저 보았다."
+            },
+            {
+              "number": 3,
+              "src": "/media/comics/wind-returning-place/ep-011/page-03.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "11화: 소금빛 손수건 3페이지. 창가에 손수건을 흔들어도, 소금빛 선은 쉽게 사라지지 않았다."
+            },
+            {
+              "number": 4,
+              "src": "/media/comics/wind-returning-place/ep-011/page-04.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "11화: 소금빛 손수건 4페이지. 제주의 항구 골목은 빨래줄마다 바람을 조금씩 붙잡아 두고 있었다."
+            },
+            {
+              "number": 5,
+              "src": "/media/comics/wind-returning-place/ep-011/page-05.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "11화: 소금빛 손수건 5페이지. 순덕은 천을 비틀어 짜며, 다 지워야만 깨끗한 건 아니라고 말했다."
+            },
+            {
+              "number": 6,
+              "src": "/media/comics/wind-returning-place/ep-011/page-06.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "11화: 소금빛 손수건 6페이지. 윤서는 손수건을 들고 물었다. \"깨끗하면 아무 일도 없던 거예요?\""
+            },
+            {
+              "number": 7,
+              "src": "/media/comics/wind-returning-place/ep-011/page-07.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "11화: 소금빛 손수건 7페이지. 순덕은 젖은 천을 줄에 걸고, 남는 자국도 가끔은 몸이 기억한 길이라고 했다."
+            },
+            {
+              "number": 8,
+              "src": "/media/comics/wind-returning-place/ep-011/page-08.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "11화: 소금빛 손수건 8페이지. 항구의 일꾼은 바닷물을 닦은 천을 말없이 널어 두고 다시 걸어갔다."
+            },
+            {
+              "number": 9,
+              "src": "/media/comics/wind-returning-place/ep-011/page-09.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "11화: 소금빛 손수건 9페이지. 마른 뒤에도 손수건 가장자리에는 희미한 소금 선이 남아 있었다."
+            },
+            {
+              "number": 10,
+              "src": "/media/comics/wind-returning-place/ep-011/page-10.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "11화: 소금빛 손수건 10페이지. 도윤은 그 선을 없애는 대신, 바람에 흔들리는 그림자까지 함께 찍었다."
+            },
+            {
+              "number": 11,
+              "src": "/media/comics/wind-returning-place/ep-011/page-11.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "11화: 소금빛 손수건 11페이지. 윤서는 작은 집게를 꽂으며, 남길 자리를 스스로 골랐다."
+            },
+            {
+              "number": 12,
+              "src": "/media/comics/wind-returning-place/ep-011/page-12.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "11화: 소금빛 손수건 12페이지. 도윤은 카메라를 내리고, 사라지지 않은 자국이 조용히 마르는 시간을 보았다."
+            },
+            {
+              "number": 13,
+              "src": "/media/comics/wind-returning-place/ep-011/page-13.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "11화: 소금빛 손수건 13페이지. 서울로 돌아온 그는 사진 옆에 얇은 천 스크린을 조심스럽게 걸었다."
+            },
+            {
+              "number": 14,
+              "src": "/media/comics/wind-returning-place/ep-011/page-14.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "11화: 소금빛 손수건 14페이지. 관람객들은 설명보다 먼저, 천 뒤에서 흔들리는 제주 빛을 보았다."
+            },
+            {
+              "number": 15,
+              "src": "/media/comics/wind-returning-place/ep-011/page-15.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "11화: 소금빛 손수건 15페이지. 윤서가 고른 작은 집게는 아이 눈높이 선반에 따로 놓였다."
+            },
+            {
+              "number": 16,
+              "src": "/media/comics/wind-returning-place/ep-011/page-16.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "11화: 소금빛 손수건 16페이지. 누군가는 주머니 속 손수건을 만지며, 지우지 못한 하루를 떠올렸다."
+            },
+            {
+              "number": 17,
+              "src": "/media/comics/wind-returning-place/ep-011/page-17.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "11화: 소금빛 손수건 17페이지. 낮은 선반 앞에서 아이는 어른들보다 먼저 소금빛 사진을 올려다보았다."
+            },
+            {
+              "number": 18,
+              "src": "/media/comics/wind-returning-place/ep-011/page-18.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "11화: 소금빛 손수건 18페이지. 문을 닫은 뒤에도 천의 그림자는 서울 바닥에 바람의 결을 남겼다."
+            },
+            {
+              "number": 19,
+              "src": "/media/comics/wind-returning-place/ep-011/page-19.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "11화: 소금빛 손수건 19페이지. 도윤은 손수건을 느슨하게 접어, 흰 선이 밖으로 보이게 두었다."
+            },
+            {
+              "number": 20,
+              "src": "/media/comics/wind-returning-place/ep-011/page-20.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "11화: 소금빛 손수건 20페이지. 소금빛 손수건은, 지워지지 않은 자국도 누군가를 다시 마르게 하는 바람이라고 말했다."
+            }
+          ],
+          "provenance": {
+            "story": {
+              "stage": "기획·대본",
+              "model": null,
+              "status": "not-recorded",
+              "note": "AI 제작 파이프라인을 사용했으나 정확한 모델 기록은 남아 있지 않습니다."
+            },
+            "image": {
+              "stage": "이미지 생성",
+              "model": "OpenAI Image Generation",
+              "tool": "built-in image_gen",
+              "version": null,
+              "status": "known-provider",
+              "note": "제공사와 생성 도구는 확인되며 정확한 모델 버전은 기록되지 않았습니다."
+            },
+            "lettering": {
+              "stage": "레터링·내보내기",
+              "model": null,
+              "tool": "자동화된 로컬 레터링 도구",
+              "status": "automated-tool",
+              "note": "생성 이미지에 한국어 텍스트와 페이지 정보를 자동 합성했습니다."
+            }
+          }
+        },
+        {
+          "id": "ep-012",
+          "number": 12,
+          "title": "12화: 돌담의 빈틈",
+          "shortTitle": "돌담의 빈틈",
+          "lead": "도윤은 제주 돌담의 작은 빈틈 앞에서, 모든 자리를 메우지 않아도 되는 돌봄을 배운다.",
+          "closingLine": "돌담의 빈틈은, 막히지 않은 길도 오래 남을 수 있다고 말했다.",
+          "pageCount": 20,
+          "pages": [
+            {
+              "number": 1,
+              "src": "/media/comics/wind-returning-place/ep-012/page-01.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "12화: 돌담의 빈틈 1페이지. 서울 작업대의 현무암 조각은, 맞을 곳을 찾지 못한 채 손바닥에 남아 있었다."
+            },
+            {
+              "number": 2,
+              "src": "/media/comics/wind-returning-place/ep-012/page-02.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "12화: 돌담의 빈틈 2페이지. 도윤은 비어 있는 자리를 보면, 자꾸 무언가를 끼워 넣고 싶어졌다."
+            },
+            {
+              "number": 3,
+              "src": "/media/comics/wind-returning-place/ep-012/page-03.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "12화: 돌담의 빈틈 3페이지. 순덕은 전화로, 돌담은 사진보다 바람을 먼저 생각한다며 제주로 오라 했다."
+            },
+            {
+              "number": 4,
+              "src": "/media/comics/wind-returning-place/ep-012/page-04.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "12화: 돌담의 빈틈 4페이지. 제주 아침의 낮은 돌담에는 손바닥만 한 틈이 하나 있었다."
+            },
+            {
+              "number": 5,
+              "src": "/media/comics/wind-returning-place/ep-012/page-05.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "12화: 돌담의 빈틈 5페이지. 바람은 그 틈에서 멈추지 않고, 반대편 풀을 조금 흔들었다."
+            },
+            {
+              "number": 6,
+              "src": "/media/comics/wind-returning-place/ep-012/page-06.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "12화: 돌담의 빈틈 6페이지. 도윤은 주운 돌을 들고, 금방이라도 그 자리를 막을 듯 서 있었다."
+            },
+            {
+              "number": 7,
+              "src": "/media/comics/wind-returning-place/ep-012/page-07.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "12화: 돌담의 빈틈 7페이지. 순덕은 돌보다 먼저, 그 틈으로 무엇이 지나는지 보라고 했다."
+            },
+            {
+              "number": 8,
+              "src": "/media/comics/wind-returning-place/ep-012/page-08.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "12화: 돌담의 빈틈 8페이지. 틈 사이에는 마른 풀잎 하나와 멀리 바다의 옅은 빛이 함께 보였다."
+            },
+            {
+              "number": 9,
+              "src": "/media/comics/wind-returning-place/ep-012/page-09.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "12화: 돌담의 빈틈 9페이지. 윤서는 작은 돌을 들고 물었다. \"꼭 막아야 해요?\""
+            },
+            {
+              "number": 10,
+              "src": "/media/comics/wind-returning-place/ep-012/page-10.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "12화: 돌담의 빈틈 10페이지. 도윤은 대답 대신 카메라의 초점을 그 작은 어둠에 맞췄다."
+            },
+            {
+              "number": 11,
+              "src": "/media/comics/wind-returning-place/ep-012/page-11.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "12화: 돌담의 빈틈 11페이지. 순덕은 사람이 다니는 길은 고치되, 바람 길까지 막지는 않는다고 말했다."
+            },
+            {
+              "number": 12,
+              "src": "/media/comics/wind-returning-place/ep-012/page-12.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "12화: 돌담의 빈틈 12페이지. 이웃은 낮은 담 곁을 지나며, 오늘도 바람이 세다 하고 웃었다."
+            },
+            {
+              "number": 13,
+              "src": "/media/comics/wind-returning-place/ep-012/page-13.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "12화: 돌담의 빈틈 13페이지. 도윤은 돌을 옆에 내려두고, 빈틈의 빛이 움직이는 순간을 찍었다."
+            },
+            {
+              "number": 14,
+              "src": "/media/comics/wind-returning-place/ep-012/page-14.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "12화: 돌담의 빈틈 14페이지. 윤서는 조약돌을 틈 앞에 두었다가, 바람이 안 보인다며 다시 치웠다."
+            },
+            {
+              "number": 15,
+              "src": "/media/comics/wind-returning-place/ep-012/page-15.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "12화: 돌담의 빈틈 15페이지. 서울로 돌아온 도윤은 사진들 아래에 낮은 돌 선을 조용히 놓았다."
+            },
+            {
+              "number": 16,
+              "src": "/media/comics/wind-returning-place/ep-012/page-16.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "12화: 돌담의 빈틈 16페이지. 돌 선 한가운데에는, 손바닥만 한 자리를 끝내 비워 두었다."
+            },
+            {
+              "number": 17,
+              "src": "/media/comics/wind-returning-place/ep-012/page-17.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "12화: 돌담의 빈틈 17페이지. 관람객들은 완성된 벽보다, 그 빈칸 너머의 제주 빛 앞에서 오래 멈췄다."
+            },
+            {
+              "number": 18,
+              "src": "/media/comics/wind-returning-place/ep-012/page-18.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "12화: 돌담의 빈틈 18페이지. 윤서가 보낸 작은 조약돌 사진은 아이 눈높이 선반에 기대어 있었다."
+            },
+            {
+              "number": 19,
+              "src": "/media/comics/wind-returning-place/ep-012/page-19.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "12화: 돌담의 빈틈 19페이지. 문을 닫은 뒤, 도윤은 전시장 문틈으로 들어오는 바람을 가만히 들었다."
+            },
+            {
+              "number": 20,
+              "src": "/media/comics/wind-returning-place/ep-012/page-20.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "12화: 돌담의 빈틈 20페이지. 돌담의 빈틈은, 막히지 않은 길도 오래 남을 수 있다고 말했다."
+            }
+          ],
+          "provenance": {
+            "story": {
+              "stage": "기획·대본",
+              "model": null,
+              "status": "not-recorded",
+              "note": "AI 제작 파이프라인을 사용했으나 정확한 모델 기록은 남아 있지 않습니다."
+            },
+            "image": {
+              "stage": "이미지 생성",
+              "model": "OpenAI Image Generation",
+              "tool": "built-in image_gen",
+              "version": null,
+              "status": "known-provider",
+              "note": "제공사와 생성 도구는 확인되며 정확한 모델 버전은 기록되지 않았습니다."
+            },
+            "lettering": {
+              "stage": "레터링·내보내기",
+              "model": null,
+              "tool": "자동화된 로컬 레터링 도구",
+              "status": "automated-tool",
+              "note": "생성 이미지에 한국어 텍스트와 페이지 정보를 자동 합성했습니다."
+            }
+          }
+        },
+        {
+          "id": "ep-013",
+          "number": 13,
+          "title": "13화: 온기가 남는 자리",
+          "shortTitle": "온기가 남는 자리",
+          "lead": "도윤은 제주 수리소의 작은 난로 앞에서, 누군가를 붙잡지 않는 온기를 배운다.",
+          "closingLine": "온기가 남는 자리는, 돌아오라고 부르지 않아도 오래 열려 있었다.",
+          "pageCount": 20,
+          "pages": [
+            {
+              "number": 1,
+              "src": "/media/comics/wind-returning-place/ep-013/page-01.webp",
+              "width": 845,
+              "height": 1862,
+              "alt": "13화: 온기가 남는 자리 1페이지. 비가 갠 서울 전시장에서는, 손끝의 차가움이 더 또렷했다."
+            },
+            {
+              "number": 2,
+              "src": "/media/comics/wind-returning-place/ep-013/page-02.webp",
+              "width": 1024,
+              "height": 1536,
+              "alt": "13화: 온기가 남는 자리 2페이지. 순덕이 보낸 사진에는, 제주 수리소 문 앞의 작은 난로가 찍혀 있었다."
+            },
+            {
+              "number": 3,
+              "src": "/media/comics/wind-returning-place/ep-013/page-03.webp",
+              "width": 1024,
+              "height": 1536,
+              "alt": "13화: 온기가 남는 자리 3페이지. 북풍이 시작되면, 누군가는 그 난로에 숯을 더했다."
+            },
+            {
+              "number": 4,
+              "src": "/media/comics/wind-returning-place/ep-013/page-04.webp",
+              "width": 1024,
+              "height": 1536,
+              "alt": "13화: 온기가 남는 자리 4페이지. 도윤이 도착한 아침, 낡은 난로는 문 바깥에서 조용히 빛나고 있었다."
+            },
+            {
+              "number": 5,
+              "src": "/media/comics/wind-returning-place/ep-013/page-05.webp",
+              "width": 1024,
+              "height": 1536,
+              "alt": "13화: 온기가 남는 자리 5페이지. 한 어부가 말없이 손을 녹이고는, 이름도 남기지 않은 채 길을 건넜다."
+            },
+            {
+              "number": 6,
+              "src": "/media/comics/wind-returning-place/ep-013/page-06.webp",
+              "width": 1024,
+              "height": 1536,
+              "alt": "13화: 온기가 남는 자리 6페이지. 도윤은 그 난로가 수리소 주인의 것인 줄 알았다."
+            },
+            {
+              "number": 7,
+              "src": "/media/comics/wind-returning-place/ep-013/page-07.webp",
+              "width": 1024,
+              "height": 1536,
+              "alt": "13화: 온기가 남는 자리 7페이지. 순덕은 고개를 저었다. \"추운 사람들 것이지.\""
+            },
+            {
+              "number": 8,
+              "src": "/media/comics/wind-returning-place/ep-013/page-08.webp",
+              "width": 1024,
+              "height": 1536,
+              "alt": "13화: 온기가 남는 자리 8페이지. 주전자에서 나온 김은 열린 문과 바람 사이에서 천천히 접혔다."
+            },
+            {
+              "number": 9,
+              "src": "/media/comics/wind-returning-place/ep-013/page-09.webp",
+              "width": 1024,
+              "height": 1536,
+              "alt": "13화: 온기가 남는 자리 9페이지. 윤서는 젖은 장갑을 난로 곁에 가지런히 놓았다."
+            },
+            {
+              "number": 10,
+              "src": "/media/comics/wind-returning-place/ep-013/page-10.webp",
+              "width": 1024,
+              "height": 1536,
+              "alt": "13화: 온기가 남는 자리 10페이지. \"난로는 누구를 기다려요?\""
+            },
+            {
+              "number": 11,
+              "src": "/media/comics/wind-returning-place/ep-013/page-11.webp",
+              "width": 887,
+              "height": 1774,
+              "alt": "13화: 온기가 남는 자리 11페이지. 순덕은 따뜻한 곳은 온 사람 수를 세지 않아도 된다고 말했다."
+            },
+            {
+              "number": 12,
+              "src": "/media/comics/wind-returning-place/ep-013/page-12.webp",
+              "width": 1024,
+              "height": 1536,
+              "alt": "13화: 온기가 남는 자리 12페이지. 늙은 손과 어린 손, 기름 묻은 손이 잠깐씩 같은 빛을 나누었다."
+            },
+            {
+              "number": 13,
+              "src": "/media/comics/wind-returning-place/ep-013/page-13.webp",
+              "width": 1024,
+              "height": 1536,
+              "alt": "13화: 온기가 남는 자리 13페이지. 도윤은 얼굴 대신 소매와 손바닥만 카메라에 담았다."
+            },
+            {
+              "number": 14,
+              "src": "/media/comics/wind-returning-place/ep-013/page-14.webp",
+              "width": 887,
+              "height": 1774,
+              "alt": "13화: 온기가 남는 자리 14페이지. 장갑이 마르자 윤서는 말했다. \"이제 집에 가도 되겠네.\""
+            },
+            {
+              "number": 15,
+              "src": "/media/comics/wind-returning-place/ep-013/page-15.webp",
+              "width": 1024,
+              "height": 1536,
+              "alt": "13화: 온기가 남는 자리 15페이지. 서울로 돌아오는 길에도, 문 밖의 김은 오래 눈앞에 남았다."
+            },
+            {
+              "number": 16,
+              "src": "/media/comics/wind-returning-place/ep-013/page-16.webp",
+              "width": 1024,
+              "height": 1536,
+              "alt": "13화: 온기가 남는 자리 16페이지. 도윤은 전시장 벽 곁에 낮은 나무 벤치와 작은 등을 놓았다."
+            },
+            {
+              "number": 17,
+              "src": "/media/comics/wind-returning-place/ep-013/page-17.webp",
+              "width": 1024,
+              "height": 1536,
+              "alt": "13화: 온기가 남는 자리 17페이지. 앉으라는 말은 없었지만, 누군가는 그 위에 손을 얹고 오래 쉬었다."
+            },
+            {
+              "number": 18,
+              "src": "/media/comics/wind-returning-place/ep-013/page-18.webp",
+              "width": 1024,
+              "height": 1536,
+              "alt": "13화: 온기가 남는 자리 18페이지. 익명으로 남은 손들의 사진은, 서로의 빈자리도 남긴 채 걸렸다."
+            },
+            {
+              "number": 19,
+              "src": "/media/comics/wind-returning-place/ep-013/page-19.webp",
+              "width": 1024,
+              "height": 1536,
+              "alt": "13화: 온기가 남는 자리 19페이지. 문을 닫은 뒤에도 도윤은 청소하는 사람을 위해 작은 등을 켜 두었다."
+            },
+            {
+              "number": 20,
+              "src": "/media/comics/wind-returning-place/ep-013/page-20.webp",
+              "width": 1024,
+              "height": 1536,
+              "alt": "13화: 온기가 남는 자리 20페이지. 온기가 남는 자리는, 돌아오라고 부르지 않아도 오래 열려 있었다."
+            }
+          ],
+          "provenance": {
+            "story": {
+              "stage": "기획·대본",
+              "model": null,
+              "status": "not-recorded",
+              "note": "AI 제작 파이프라인을 사용했으나 정확한 모델 기록은 남아 있지 않습니다."
+            },
+            "image": {
+              "stage": "이미지 생성",
+              "model": "OpenAI Image Generation",
+              "tool": "built-in image_gen",
+              "version": null,
+              "status": "known-provider",
+              "note": "제공사와 생성 도구는 확인되며 정확한 모델 버전은 기록되지 않았습니다."
+            },
+            "lettering": {
+              "stage": "레터링·내보내기",
+              "model": null,
+              "tool": "자동화된 로컬 레터링 도구",
+              "status": "automated-tool",
+              "note": "생성 이미지에 한국어 텍스트와 페이지 정보를 자동 합성했습니다."
+            }
+          }
+        },
+        {
+          "id": "ep-014",
+          "number": 14,
+          "title": "14화: 열린 서랍",
+          "shortTitle": "열린 서랍",
+          "lead": "도윤은 제주와 서울의 열린 서랍 앞에서, 돌봄이 소유가 아닌 접근으로 남을 수 있음을 배운다.",
+          "closingLine": "열린 서랍은, 돌아올 사람을 세지 않아도 다음 손을 맞을 수 있었다.",
+          "pageCount": 20,
+          "pages": [
+            {
+              "number": 1,
+              "src": "/media/comics/wind-returning-place/ep-014/page-01.webp",
+              "width": 845,
+              "height": 1862,
+              "alt": "14화: 열린 서랍 1페이지. 서울 전시장 서랍에서, 도윤은 이름 없는 작은 열쇠고리를 발견했다."
+            },
+            {
+              "number": 2,
+              "src": "/media/comics/wind-returning-place/ep-014/page-02.webp",
+              "width": 845,
+              "height": 1862,
+              "alt": "14화: 열린 서랍 2페이지. 닳아진 금속에는, 오래 누군가의 손을 거친 둥근 자국만 남아 있었다."
+            },
+            {
+              "number": 3,
+              "src": "/media/comics/wind-returning-place/ep-014/page-03.webp",
+              "width": 845,
+              "height": 1862,
+              "alt": "14화: 열린 서랍 3페이지. 순덕은 그 고리가 제주 집의 열린 서랍에 있던 것이라고 짧게 말했다."
+            },
+            {
+              "number": 4,
+              "src": "/media/comics/wind-returning-place/ep-014/page-04.webp",
+              "width": 845,
+              "height": 1862,
+              "alt": "14화: 열린 서랍 4페이지. 바람 센 골목 끝에는, 바다 일을 돕는 작은 서랍장이 있었다."
+            },
+            {
+              "number": 5,
+              "src": "/media/comics/wind-returning-place/ep-014/page-05.webp",
+              "width": 845,
+              "height": 1862,
+              "alt": "14화: 열린 서랍 5페이지. 서랍은 잠기지 않았다. 필요한 사람이 잠시 열어 두는 자리였다."
+            },
+            {
+              "number": 6,
+              "src": "/media/comics/wind-returning-place/ep-014/page-06.webp",
+              "width": 845,
+              "height": 1862,
+              "alt": "14화: 열린 서랍 6페이지. 도윤은 장갑과 줄, 손전등이 든 칸을 오래 바라보았다."
+            },
+            {
+              "number": 7,
+              "src": "/media/comics/wind-returning-place/ep-014/page-07.webp",
+              "width": 845,
+              "height": 1862,
+              "alt": "14화: 열린 서랍 7페이지. 순덕은 열쇠고리를 그의 손에 올렸다가, 곧 다시 서랍을 가리켰다."
+            },
+            {
+              "number": 8,
+              "src": "/media/comics/wind-returning-place/ep-014/page-08.webp",
+              "width": 845,
+              "height": 1862,
+              "alt": "14화: 열린 서랍 8페이지. 도윤은 혹시 잃어버릴까 봐, 서랍을 닫으려 했다."
+            },
+            {
+              "number": 9,
+              "src": "/media/comics/wind-returning-place/ep-014/page-09.webp",
+              "width": 845,
+              "height": 1862,
+              "alt": "14화: 열린 서랍 9페이지. 윤서는 손전등을 들고 물었다. “이건 누구 거예요?”"
+            },
+            {
+              "number": 10,
+              "src": "/media/comics/wind-returning-place/ep-014/page-10.webp",
+              "width": 845,
+              "height": 1862,
+              "alt": "14화: 열린 서랍 10페이지. 비를 맞은 배달원은 말없이 손전등을 빌려 골목으로 나갔다."
+            },
+            {
+              "number": 11,
+              "src": "/media/comics/wind-returning-place/ep-014/page-11.webp",
+              "width": 845,
+              "height": 1862,
+              "alt": "14화: 열린 서랍 11페이지. 빈 서랍은 사라진 것이 아니라, 다음 손을 기다리지 않고 남아 있었다."
+            },
+            {
+              "number": 12,
+              "src": "/media/comics/wind-returning-place/ep-014/page-12.webp",
+              "width": 845,
+              "height": 1862,
+              "alt": "14화: 열린 서랍 12페이지. 도윤은 얼굴 대신, 쓰임을 기다리는 물건들의 자리를 사진에 담았다."
+            },
+            {
+              "number": 13,
+              "src": "/media/comics/wind-returning-place/ep-014/page-13.webp",
+              "width": 845,
+              "height": 1862,
+              "alt": "14화: 열린 서랍 13페이지. 순덕은 열쇠고리도 한 사람의 주머니가 아니라 서랍 안에 두었다."
+            },
+            {
+              "number": 14,
+              "src": "/media/comics/wind-returning-place/ep-014/page-14.webp",
+              "width": 845,
+              "height": 1862,
+              "alt": "14화: 열린 서랍 14페이지. 윤서는 젖은 모자를 걸어 두었다가, 스스로 마르면 다시 가져갔다."
+            },
+            {
+              "number": 15,
+              "src": "/media/comics/wind-returning-place/ep-014/page-15.webp",
+              "width": 845,
+              "height": 1862,
+              "alt": "14화: 열린 서랍 15페이지. 돌아오는 배 위에서 도윤은 손을 펴고, 열쇠고리를 바람에 보였다."
+            },
+            {
+              "number": 16,
+              "src": "/media/comics/wind-returning-place/ep-014/page-16.webp",
+              "width": 845,
+              "height": 1862,
+              "alt": "14화: 열린 서랍 16페이지. 서울에서 그는 낮은 보관 서랍 하나를 천천히 만들었다."
+            },
+            {
+              "number": 17,
+              "src": "/media/comics/wind-returning-place/ep-014/page-17.webp",
+              "width": 845,
+              "height": 1862,
+              "alt": "14화: 열린 서랍 17페이지. 연필과 손전등과 빈 사진 봉투는, 누구의 이름도 붙지 않은 채 놓였다."
+            },
+            {
+              "number": 18,
+              "src": "/media/comics/wind-returning-place/ep-014/page-18.webp",
+              "width": 845,
+              "height": 1862,
+              "alt": "14화: 열린 서랍 18페이지. 한 방문객은 물건을 잠시 빌렸고, 도윤은 멀리서 그 손을 기록했다."
+            },
+            {
+              "number": 19,
+              "src": "/media/comics/wind-returning-place/ep-014/page-19.webp",
+              "width": 845,
+              "height": 1862,
+              "alt": "14화: 열린 서랍 19페이지. 문을 닫는 밤에도 도윤은 서랍을 끝까지 밀어 넣지 않았다."
+            },
+            {
+              "number": 20,
+              "src": "/media/comics/wind-returning-place/ep-014/page-20.webp",
+              "width": 845,
+              "height": 1862,
+              "alt": "14화: 열린 서랍 20페이지. 열린 서랍은, 돌아올 사람을 세지 않아도 다음 손을 맞을 수 있었다."
+            }
+          ],
+          "provenance": {
+            "story": {
+              "stage": "기획·대본",
+              "model": null,
+              "status": "not-recorded",
+              "note": "AI 제작 파이프라인을 사용했으나 정확한 모델 기록은 남아 있지 않습니다."
+            },
+            "image": {
+              "stage": "이미지 생성",
+              "model": "OpenAI Image Generation",
+              "tool": "built-in image_gen",
+              "version": null,
+              "status": "known-provider",
+              "note": "제공사와 생성 도구는 확인되며 정확한 모델 버전은 기록되지 않았습니다."
+            },
+            "lettering": {
+              "stage": "레터링·내보내기",
+              "model": null,
+              "tool": "자동화된 로컬 레터링 도구",
+              "status": "automated-tool",
+              "note": "생성 이미지에 한국어 텍스트와 페이지 정보를 자동 합성했습니다."
+            }
+          }
+        },
+        {
+          "id": "ep-015",
+          "number": 15,
+          "title": "15화: 남겨 둔 의자",
+          "shortTitle": "남겨 둔 의자",
+          "lead": "도윤은 제주 항구의 낡은 의자를 통해, 빈자리를 특정한 사람의 것으로 정하지 않고 남겨 두는 법을 배운다.",
+          "closingLine": "빈자리는, 다음 사람을 위해 남겨 둘 수 있었다.",
+          "pageCount": 20,
+          "pages": [
+            {
+              "number": 1,
+              "src": "/media/comics/wind-returning-place/ep-015/page-01.webp",
+              "width": 864,
+              "height": 2001,
+              "alt": "15화: 남겨 둔 의자 1페이지. 서울 전시장 벽 곁에, 비어 있는 나무 의자가 하나 놓여 있었다."
+            },
+            {
+              "number": 2,
+              "src": "/media/comics/wind-returning-place/ep-015/page-02.webp",
+              "width": 1024,
+              "height": 1716,
+              "alt": "15화: 남겨 둔 의자 2페이지. 도윤은 쌓인 인화지를 치우며, 빈자리가 너무 오래 비어 보인다고 생각했다."
+            },
+            {
+              "number": 3,
+              "src": "/media/comics/wind-returning-place/ep-015/page-03.webp",
+              "width": 864,
+              "height": 2001,
+              "alt": "15화: 남겨 둔 의자 3페이지. 순덕이 보낸 사진 속에도, 제주 항구 대합실의 같은 의자가 보였다."
+            },
+            {
+              "number": 4,
+              "src": "/media/comics/wind-returning-place/ep-015/page-04.webp",
+              "width": 887,
+              "height": 623,
+              "alt": "15화: 남겨 둔 의자 4페이지. 바람 센 항구의 대합실은, 배 시간보다 먼저 젖은 외투 냄새가 났다."
+            },
+            {
+              "number": 5,
+              "src": "/media/comics/wind-returning-place/ep-015/page-05.webp",
+              "width": 887,
+              "height": 623,
+              "alt": "15화: 남겨 둔 의자 5페이지. 의자는 낡았지만 마른 채, 아무 이름 없이 창가를 향하고 있었다."
+            },
+            {
+              "number": 6,
+              "src": "/media/comics/wind-returning-place/ep-015/page-06.webp",
+              "width": 887,
+              "height": 623,
+              "alt": "15화: 남겨 둔 의자 6페이지. 도윤은 그 의자에 작은 설명 카드를 붙이려 했다."
+            },
+            {
+              "number": 7,
+              "src": "/media/comics/wind-returning-place/ep-015/page-07.webp",
+              "width": 887,
+              "height": 624,
+              "alt": "15화: 남겨 둔 의자 7페이지. 순덕은 테이프를 떼며 말했다. “앉을 수 있으면 됐지.”"
+            },
+            {
+              "number": 8,
+              "src": "/media/comics/wind-returning-place/ep-015/page-08.webp",
+              "width": 864,
+              "height": 635,
+              "alt": "15화: 남겨 둔 의자 8페이지. 도윤은 빈 등받이를 보며, 아무 표시도 없는 것이 불안했다."
+            },
+            {
+              "number": 9,
+              "src": "/media/comics/wind-returning-place/ep-015/page-09.webp",
+              "width": 864,
+              "height": 635,
+              "alt": "15화: 남겨 둔 의자 9페이지. 윤서는 작은 가방을 내려놓고, 말없이 의자에 앉았다."
+            },
+            {
+              "number": 10,
+              "src": "/media/comics/wind-returning-place/ep-015/page-10.webp",
+              "width": 864,
+              "height": 635,
+              "alt": "15화: 남겨 둔 의자 10페이지. “다음 사람 오면 일어날게요.” 윤서는 물을 한 모금 마셨다."
+            },
+            {
+              "number": 11,
+              "src": "/media/comics/wind-returning-place/ep-015/page-11.webp",
+              "width": 864,
+              "height": 635,
+              "alt": "15화: 남겨 둔 의자 11페이지. 젖은 머리의 배달원이 들어와, 앉지 못하고 벽에 기대 신발끈을 만졌다."
+            },
+            {
+              "number": 12,
+              "src": "/media/comics/wind-returning-place/ep-015/page-12.webp",
+              "width": 864,
+              "height": 2001,
+              "alt": "15화: 남겨 둔 의자 12페이지. 윤서는 그를 보고 스스로 일어나 가방을 다시 들었다."
+            },
+            {
+              "number": 13,
+              "src": "/media/comics/wind-returning-place/ep-015/page-13.webp",
+              "width": 864,
+              "height": 635,
+              "alt": "15화: 남겨 둔 의자 13페이지. 배달원은 잠깐 앉아 끈을 묶고, 곧 배를 향해 뛰었다."
+            },
+            {
+              "number": 14,
+              "src": "/media/comics/wind-returning-place/ep-015/page-14.webp",
+              "width": 864,
+              "height": 635,
+              "alt": "15화: 남겨 둔 의자 14페이지. 도윤은 얼굴 대신, 비었다가 채워지는 의자 다리만 사진에 담았다."
+            },
+            {
+              "number": 15,
+              "src": "/media/comics/wind-returning-place/ep-015/page-15.webp",
+              "width": 864,
+              "height": 635,
+              "alt": "15화: 남겨 둔 의자 15페이지. 사람들은 의자를 떠났지만, 의자는 다음 사람 쪽으로 조용히 남아 있었다."
+            },
+            {
+              "number": 16,
+              "src": "/media/comics/wind-returning-place/ep-015/page-16.webp",
+              "width": 793,
+              "height": 576,
+              "alt": "15화: 남겨 둔 의자 16페이지. 돌아오는 배에서 도윤은 쓰려던 설명 카드를 접어 카메라 가방에 넣었다."
+            },
+            {
+              "number": 17,
+              "src": "/media/comics/wind-returning-place/ep-015/page-17.webp",
+              "width": 793,
+              "height": 576,
+              "alt": "15화: 남겨 둔 의자 17페이지. 서울에서 그는 낡은 의자의 나무 결을 천천히 닦고 흔들리는 다리를 고쳤다."
+            },
+            {
+              "number": 18,
+              "src": "/media/comics/wind-returning-place/ep-015/page-18.webp",
+              "width": 793,
+              "height": 576,
+              "alt": "15화: 남겨 둔 의자 18페이지. 창가에는 의자와 옷걸이, 물컵 하나만 남았다."
+            },
+            {
+              "number": 19,
+              "src": "/media/comics/wind-returning-place/ep-015/page-19.webp",
+              "width": 793,
+              "height": 576,
+              "alt": "15화: 남겨 둔 의자 19페이지. 비를 피하던 방문객은 잠시 앉았고, 도윤은 신발과 의자 그림자만 기록했다."
+            },
+            {
+              "number": 20,
+              "src": "/media/comics/wind-returning-place/ep-015/page-20.webp",
+              "width": 793,
+              "height": 579,
+              "alt": "15화: 남겨 둔 의자 20페이지. 문을 닫은 뒤에도 의자는 그 자리에 있었다. 빈자리는, 다음 사람을 위해 남겨 둘 수 있었다."
+            }
+          ],
+          "provenance": {
+            "story": {
+              "stage": "기획·대본",
+              "model": null,
+              "status": "not-recorded",
+              "note": "AI 제작 파이프라인을 사용했으나 정확한 모델 기록은 남아 있지 않습니다."
+            },
+            "image": {
+              "stage": "이미지 생성",
+              "model": "OpenAI Image Generation",
+              "tool": "built-in image_gen",
+              "version": null,
+              "status": "known-provider",
+              "note": "제공사와 생성 도구는 확인되며 정확한 모델 버전은 기록되지 않았습니다."
+            },
+            "lettering": {
+              "stage": "레터링·내보내기",
+              "model": null,
+              "tool": "자동화된 로컬 레터링 도구",
+              "status": "automated-tool",
+              "note": "생성 이미지에 한국어 텍스트와 페이지 정보를 자동 합성했습니다."
+            }
+          }
+        },
+        {
+          "id": "ep-016",
+          "number": 16,
+          "title": "16화: 돌아가는 쟁반",
+          "shortTitle": "돌아가는 쟁반",
+          "lead": "도윤은 제주 항구의 긁힌 법랑 쟁반을 통해, 돌봄이 전시품이 아니라 평범한 손길 사이를 오가는 쓰임이 될 수 있음을 배운다.",
+          "closingLine": "쓸모 있는 것은, 건네지며 다시 돌아올 수 있었다.",
+          "pageCount": 20,
+          "pages": [
+            {
+              "number": 1,
+              "src": "/media/comics/wind-returning-place/ep-016/page-01.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "16화: 돌아가는 쟁반 1페이지. 서울 전시장 찻잔 아래, 파란 법랑 쟁반의 긁힌 자국이 먼저 눈에 들어왔다."
+            },
+            {
+              "number": 2,
+              "src": "/media/comics/wind-returning-place/ep-016/page-02.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "16화: 돌아가는 쟁반 2페이지. 도윤은 깨진 모서리를 보며, 이건 더 쓰면 안 된다고 생각했다."
+            },
+            {
+              "number": 3,
+              "src": "/media/comics/wind-returning-place/ep-016/page-03.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "16화: 돌아가는 쟁반 3페이지. 순덕이 보낸 사진에는 제주 항구 밥상 위의 같은 색 쟁반이 있었다."
+            },
+            {
+              "number": 4,
+              "src": "/media/comics/wind-returning-place/ep-016/page-04.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "16화: 돌아가는 쟁반 4페이지. 점심 전 항구 식당은 국 냄새와 바람 소리로 이미 분주했다."
+            },
+            {
+              "number": 5,
+              "src": "/media/comics/wind-returning-place/ep-016/page-05.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "16화: 돌아가는 쟁반 5페이지. 쟁반은 그릇을 싣고 주방과 긴 식탁 사이를 오갔다."
+            },
+            {
+              "number": 6,
+              "src": "/media/comics/wind-returning-place/ep-016/page-06.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "16화: 돌아가는 쟁반 6페이지. 도윤은 모서리를 가리키며, 잠깐 빼 두면 어떻겠냐고 물었다."
+            },
+            {
+              "number": 7,
+              "src": "/media/comics/wind-returning-place/ep-016/page-07.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "16화: 돌아가는 쟁반 7페이지. 순덕은 그 위에 그릇 둘을 올렸다. “조심해서 들면 돼.”"
+            },
+            {
+              "number": 8,
+              "src": "/media/comics/wind-returning-place/ep-016/page-08.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "16화: 돌아가는 쟁반 8페이지. 도윤은 문턱을 넘으며, 쟁반이 비었을 때와 다를 만큼 무거워지는 것을 알았다."
+            },
+            {
+              "number": 9,
+              "src": "/media/comics/wind-returning-place/ep-016/page-09.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "16화: 돌아가는 쟁반 9페이지. 윤서는 국을 다 먹고, 빈 그릇을 어디에 둘지 둘러보았다."
+            },
+            {
+              "number": 10,
+              "src": "/media/comics/wind-returning-place/ep-016/page-10.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "16화: 돌아가는 쟁반 10페이지. “이 쟁반도 다시 주방에 가요?” 윤서가 물었다."
+            },
+            {
+              "number": 11,
+              "src": "/media/comics/wind-returning-place/ep-016/page-11.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "16화: 돌아가는 쟁반 11페이지. 두 손에 컵을 든 어부 아주머니가 들어와, 문을 열지 못하고 잠시 멈췄다."
+            },
+            {
+              "number": 12,
+              "src": "/media/comics/wind-returning-place/ep-016/page-12.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "16화: 돌아가는 쟁반 12페이지. 윤서는 빈 그릇을 쟁반에 올리고, 먼저 문 쪽으로 밀었다."
+            },
+            {
+              "number": 13,
+              "src": "/media/comics/wind-returning-place/ep-016/page-13.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "16화: 돌아가는 쟁반 13페이지. 도윤은 윤서가 움직인 뒤에야 반대쪽을 들어, 아주머니가 지나가게 했다."
+            },
+            {
+              "number": 14,
+              "src": "/media/comics/wind-returning-place/ep-016/page-14.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "16화: 돌아가는 쟁반 14페이지. 쟁반은 빈 그릇과 컵을 싣고 다시 주방으로 돌아갔다."
+            },
+            {
+              "number": 15,
+              "src": "/media/comics/wind-returning-place/ep-016/page-15.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "16화: 돌아가는 쟁반 15페이지. 씻긴 쟁반의 긁힌 자국은 남아 있었고, 도윤은 위에서 그것만 찍었다."
+            },
+            {
+              "number": 16,
+              "src": "/media/comics/wind-returning-place/ep-016/page-16.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "16화: 돌아가는 쟁반 16페이지. 돌아오는 배에서 그는 쟁반을 기념품이라 적은 문장을 지웠다."
+            },
+            {
+              "number": 17,
+              "src": "/media/comics/wind-returning-place/ep-016/page-17.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "16화: 돌아가는 쟁반 17페이지. 서울 전시장에는 파란 반납 쟁반 하나가 찻잔 곁에 놓였다."
+            },
+            {
+              "number": 18,
+              "src": "/media/comics/wind-returning-place/ep-016/page-18.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "16화: 돌아가는 쟁반 18페이지. 글 대신, 쌓인 빈 컵이 어디로 가는지 먼저 보여 주었다."
+            },
+            {
+              "number": 19,
+              "src": "/media/comics/wind-returning-place/ep-016/page-19.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "16화: 돌아가는 쟁반 19페이지. 방문객 하나가 찻잔을 올렸고, 다른 사람이 쟁반을 카운터로 옮겼다."
+            },
+            {
+              "number": 20,
+              "src": "/media/comics/wind-returning-place/ep-016/page-20.webp",
+              "width": 1055,
+              "height": 1491,
+              "alt": "16화: 돌아가는 쟁반 20페이지. 문을 닫을 때 쟁반은 깨끗이 비어 있었다. 쓸모 있는 것은, 건네지며 다시 돌아올 수 있었다."
+            }
+          ],
+          "provenance": {
+            "story": {
+              "stage": "기획·대본",
+              "model": null,
+              "status": "not-recorded",
+              "note": "AI 제작 파이프라인을 사용했으나 정확한 모델 기록은 남아 있지 않습니다."
+            },
+            "image": {
+              "stage": "이미지 생성",
+              "model": "OpenAI Image Generation",
+              "tool": "built-in image_gen",
+              "version": null,
+              "status": "known-provider",
+              "note": "제공사와 생성 도구는 확인되며 정확한 모델 버전은 기록되지 않았습니다."
+            },
+            "lettering": {
+              "stage": "레터링·내보내기",
+              "model": null,
+              "tool": "자동화된 로컬 레터링 도구",
+              "status": "automated-tool",
+              "note": "생성 이미지에 한국어 텍스트와 페이지 정보를 자동 합성했습니다."
+            }
+          }
+        },
+        {
+          "id": "ep-017",
+          "number": 17,
+          "title": "17화: 바람을 거르는 망",
+          "shortTitle": "바람을 거르는 망",
+          "lead": "도윤은 제주 밭의 초록 방풍망을 통해, 돌봄이 바람을 막아 세우는 일이 아니라 필요한 만큼 걸러 주는 일일 수 있음을 배운다.",
+          "closingLine": "막지 않아도, 지켜 줄 수 있는 바람이 있었다.",
+          "pageCount": 20,
+          "pages": [
+            {
+              "number": 1,
+              "src": "/media/comics/wind-returning-place/ep-017/page-01.webp",
+              "width": 864,
+              "height": 2031,
+              "alt": "17화: 바람을 거르는 망 1페이지. 서울 작업대 위에서, 도윤은 사진들 사이에 말린 초록 망 하나를 발견했다."
+            },
+            {
+              "number": 2,
+              "src": "/media/comics/wind-returning-place/ep-017/page-02.webp",
+              "width": 887,
+              "height": 630,
+              "alt": "17화: 바람을 거르는 망 2페이지. 끝이 조금 헤진 망 아래에는 바람에 흔들린 밭 사진이 끼어 있었다."
+            },
+            {
+              "number": 3,
+              "src": "/media/comics/wind-returning-place/ep-017/page-03.webp",
+              "width": 887,
+              "height": 630,
+              "alt": "17화: 바람을 거르는 망 3페이지. 그는 순덕에게 사진을 보내고, 제주로 가져가도 되겠냐고 물었다."
+            },
+            {
+              "number": 4,
+              "src": "/media/comics/wind-returning-place/ep-017/page-04.webp",
+              "width": 887,
+              "height": 630,
+              "alt": "17화: 바람을 거르는 망 4페이지. 항구 옆 밭에서 순덕은 망을 받아 들고, 이건 아직 쓰는 거라고 말했다."
+            },
+            {
+              "number": 5,
+              "src": "/media/comics/wind-returning-place/ep-017/page-05.webp",
+              "width": 887,
+              "height": 630,
+              "alt": "17화: 바람을 거르는 망 5페이지. 윤서는 망 양쪽의 잎이 같이 흔들리는 것을 손으로 가리켰다."
+            },
+            {
+              "number": 6,
+              "src": "/media/comics/wind-returning-place/ep-017/page-06.webp",
+              "width": 864,
+              "height": 640,
+              "alt": "17화: 바람을 거르는 망 6페이지. 망에는 가벼운 종이 조각만 걸렸고, 바람과 빛은 지나갔다."
+            },
+            {
+              "number": 7,
+              "src": "/media/comics/wind-returning-place/ep-017/page-07.webp",
+              "width": 864,
+              "height": 640,
+              "alt": "17화: 바람을 거르는 망 7페이지. 도윤은 카메라를 들며, 이대로 걸어 두면 예쁘겠다고 말했다."
+            },
+            {
+              "number": 8,
+              "src": "/media/comics/wind-returning-place/ep-017/page-08.webp",
+              "width": 864,
+              "height": 640,
+              "alt": "17화: 바람을 거르는 망 8페이지. 순덕은 망을 밭 쪽으로 당겼다. “바람까지 걸어 둘 거냐.”"
+            },
+            {
+              "number": 9,
+              "src": "/media/comics/wind-returning-place/ep-017/page-09.webp",
+              "width": 864,
+              "height": 640,
+              "alt": "17화: 바람을 거르는 망 9페이지. 도윤은 카메라를 내리고, 망 너머에서 움직이는 모종을 보았다."
+            },
+            {
+              "number": 10,
+              "src": "/media/comics/wind-returning-place/ep-017/page-10.webp",
+              "width": 864,
+              "height": 640,
+              "alt": "17화: 바람을 거르는 망 10페이지. 그는 순덕과 작은 찢어진 곳에 끈을 묶었다."
+            },
+            {
+              "number": 11,
+              "src": "/media/comics/wind-returning-place/ep-017/page-11.webp",
+              "width": 864,
+              "height": 640,
+              "alt": "17화: 바람을 거르는 망 11페이지. 윤서는 낮은 모종이 가려지지 않게 묶을 자리를 스스로 골랐다."
+            },
+            {
+              "number": 12,
+              "src": "/media/comics/wind-returning-place/ep-017/page-12.webp",
+              "width": 864,
+              "height": 640,
+              "alt": "17화: 바람을 거르는 망 12페이지. 망은 다시 밭 가장자리에 걸렸고, 바람은 그 사이로 천천히 지나갔다."
+            },
+            {
+              "number": 13,
+              "src": "/media/comics/wind-returning-place/ep-017/page-13.webp",
+              "width": 864,
+              "height": 640,
+              "alt": "17화: 바람을 거르는 망 13페이지. 그물 너머로 보이는 밭과 항구는 조금 덜 거칠었지만, 사라지지 않았다."
+            },
+            {
+              "number": 14,
+              "src": "/media/comics/wind-returning-place/ep-017/page-14.webp",
+              "width": 872,
+              "height": 640,
+              "alt": "17화: 바람을 거르는 망 14페이지. 윤서는 망 너머의 잎을 보고, 여기서는 바람도 길을 찾는다고 말했다."
+            },
+            {
+              "number": 15,
+              "src": "/media/comics/wind-returning-place/ep-017/page-15.webp",
+              "width": 872,
+              "height": 640,
+              "alt": "17화: 바람을 거르는 망 15페이지. 도윤은 두 사람이 일하는 모습을 찍되, 먼저 손을 멈추고 고개를 물었다."
+            },
+            {
+              "number": 16,
+              "src": "/media/comics/wind-returning-place/ep-017/page-16.webp",
+              "width": 872,
+              "height": 640,
+              "alt": "17화: 바람을 거르는 망 16페이지. 그는 원래 망은 두고, 남은 작은 조각만 말아 가방에 넣었다."
+            },
+            {
+              "number": 17,
+              "src": "/media/comics/wind-returning-place/ep-017/page-17.webp",
+              "width": 872,
+              "height": 640,
+              "alt": "17화: 바람을 거르는 망 17페이지. 서울 작업실 창가에는 그 작은 망이 사진 말림대 옆에 걸렸다."
+            },
+            {
+              "number": 18,
+              "src": "/media/comics/wind-returning-place/ep-017/page-18.webp",
+              "width": 864,
+              "height": 780,
+              "alt": "17화: 바람을 거르는 망 18페이지. 찾아온 사람은 망 뒤에 사진을 두고, 바람이 종이를 넘기지 않게 했다."
+            },
+            {
+              "number": 19,
+              "src": "/media/comics/wind-returning-place/ep-017/page-19.webp",
+              "width": 864,
+              "height": 780,
+              "alt": "17화: 바람을 거르는 망 19페이지. 도윤은 창을 조금 더 열고, 망이 흔들리는 만큼만 바람을 들였다."
+            },
+            {
+              "number": 20,
+              "src": "/media/comics/wind-returning-place/ep-017/page-20.webp",
+              "width": 864,
+              "height": 780,
+              "alt": "17화: 바람을 거르는 망 20페이지. 망 너머에서 사진과 손이 함께 움직였다. 막지 않아도, 지켜 줄 수 있는 바람이 있었다."
+            }
+          ],
+          "provenance": {
+            "story": {
+              "stage": "기획·대본",
+              "model": null,
+              "status": "not-recorded",
+              "note": "AI 제작 파이프라인을 사용했으나 정확한 모델 기록은 남아 있지 않습니다."
+            },
+            "image": {
+              "stage": "이미지 생성",
+              "model": "OpenAI Image Generation",
+              "tool": "built-in image_gen",
+              "version": null,
+              "status": "known-provider",
+              "note": "제공사와 생성 도구는 확인되며 정확한 모델 버전은 기록되지 않았습니다."
+            },
+            "lettering": {
+              "stage": "레터링·내보내기",
+              "model": null,
+              "tool": "자동화된 로컬 레터링 도구",
+              "status": "automated-tool",
+              "note": "생성 이미지에 한국어 텍스트와 페이지 정보를 자동 합성했습니다."
+            }
+          }
+        },
+        {
+          "id": "ep-018",
+          "number": 18,
+          "title": "18화: 바람을 맞춘 창",
+          "shortTitle": "바람을 맞춘 창",
+          "lead": "도윤은 닳은 황동 창 고정쇠를 통해, 돌봄이 바람을 막는 일이 아니라 함께 맞추는 일일 수 있음을 배운다.",
+          "closingLine": "열린 창과 움직이는 종이 사이에서, 누구도 혼자 바람을 정하지 않는 방이 되었다.",
+          "pageCount": 20,
+          "pages": [
+            {
+              "number": 1,
+              "src": "/media/comics/wind-returning-place/ep-018/page-01.webp",
+              "width": 1080,
+              "height": 1513,
+              "alt": "18화: 바람을 맞춘 창 1페이지. 서울 작업실 창틀에서, 도윤은 닳은 황동 고정쇠 하나를 발견했다."
+            },
+            {
+              "number": 2,
+              "src": "/media/comics/wind-returning-place/ep-018/page-02.webp",
+              "width": 864,
+              "height": 2031,
+              "alt": "18화: 바람을 맞춘 창 2페이지. 고정쇠에는 창을 조금씩 멈추게 하는 세 개의 홈이 남아 있었다."
+            },
+            {
+              "number": 3,
+              "src": "/media/comics/wind-returning-place/ep-018/page-03.webp",
+              "width": 864,
+              "height": 2031,
+              "alt": "18화: 바람을 맞춘 창 3페이지. 그는 창을 닫은 채, 이건 떼어 두는 편이 낫겠다고 혼잣말했다."
+            },
+            {
+              "number": 4,
+              "src": "/media/comics/wind-returning-place/ep-018/page-04.webp",
+              "width": 909,
+              "height": 1941,
+              "alt": "18화: 바람을 맞춘 창 4페이지. 순덕에게 사진을 보내자, 순덕은 제주 창에도 같은 물건이 있다고 답했다."
+            },
+            {
+              "number": 5,
+              "src": "/media/comics/wind-returning-place/ep-018/page-05.webp",
+              "width": 1024,
+              "height": 1746,
+              "alt": "18화: 바람을 맞춘 창 5페이지. 제주 작업방의 창은 바람에 덜컹였고, 순덕은 고정쇠를 가운데 홈에 맞췄다."
+            },
+            {
+              "number": 6,
+              "src": "/media/comics/wind-returning-place/ep-018/page-06.webp",
+              "width": 926,
+              "height": 1908,
+              "alt": "18화: 바람을 맞춘 창 6페이지. 창은 손바닥 너비만 열렸고, 식탁의 종이는 더 이상 날리지 않았다."
+            },
+            {
+              "number": 7,
+              "src": "/media/comics/wind-returning-place/ep-018/page-07.webp",
+              "width": 1024,
+              "height": 1746,
+              "alt": "18화: 바람을 맞춘 창 7페이지. 윤서는 창가에 앉아 종이 지도를 펴고, 더 열면 모서리가 들린다고 말했다."
+            },
+            {
+              "number": 8,
+              "src": "/media/comics/wind-returning-place/ep-018/page-08.webp",
+              "width": 941,
+              "height": 1882,
+              "alt": "18화: 바람을 맞춘 창 8페이지. 그녀는 스스로 가운데 홈을 골라 지도를 눌렀다."
+            },
+            {
+              "number": 9,
+              "src": "/media/comics/wind-returning-place/ep-018/page-09.webp",
+              "width": 1024,
+              "height": 1746,
+              "alt": "18화: 바람을 맞춘 창 9페이지. 도윤은 카메라를 들며, 이렇게 고정해 두면 안전하겠다고 말했다."
+            },
+            {
+              "number": 10,
+              "src": "/media/comics/wind-returning-place/ep-018/page-10.webp",
+              "width": 1024,
+              "height": 1746,
+              "alt": "18화: 바람을 맞춘 창 10페이지. 순덕은 고정쇠를 한 칸 옮겼다. “오늘 바람에는 이만하면 돼.”"
+            },
+            {
+              "number": 11,
+              "src": "/media/comics/wind-returning-place/ep-018/page-11.webp",
+              "width": 1024,
+              "height": 1746,
+              "alt": "18화: 바람을 맞춘 창 11페이지. 도윤은 창이 움직일 수 있다는 것을 보고 카메라를 내렸다."
+            },
+            {
+              "number": 12,
+              "src": "/media/comics/wind-returning-place/ep-018/page-12.webp",
+              "width": 1024,
+              "height": 1746,
+              "alt": "18화: 바람을 맞춘 창 12페이지. 세 사람은 닳은 나사를 조이고, 어두운 흠집 옆을 천천히 닦았다."
+            },
+            {
+              "number": 13,
+              "src": "/media/comics/wind-returning-place/ep-018/page-13.webp",
+              "width": 1024,
+              "height": 1746,
+              "alt": "18화: 바람을 맞춘 창 13페이지. 창은 세 홈을 따라 조금씩 열리고 닫혔다."
+            },
+            {
+              "number": 14,
+              "src": "/media/comics/wind-returning-place/ep-018/page-14.webp",
+              "width": 1024,
+              "height": 1746,
+              "alt": "18화: 바람을 맞춘 창 14페이지. 윤서는 바람이 지도를 넘기지 않는 자리를 다시 찾아 표시했다."
+            },
+            {
+              "number": 15,
+              "src": "/media/comics/wind-returning-place/ep-018/page-15.webp",
+              "width": 1024,
+              "height": 1746,
+              "alt": "18화: 바람을 맞춘 창 15페이지. 도윤은 그 표시를 찍기 전에, 윤서에게 먼저 찍어도 되겠냐고 물었다."
+            },
+            {
+              "number": 16,
+              "src": "/media/comics/wind-returning-place/ep-018/page-16.webp",
+              "width": 1024,
+              "height": 1746,
+              "alt": "18화: 바람을 맞춘 창 16페이지. 그는 고정쇠를 떼지 않고, 작동하는 자리 그대로 남겨 두었다."
+            },
+            {
+              "number": 17,
+              "src": "/media/comics/wind-returning-place/ep-018/page-17.webp",
+              "width": 1024,
+              "height": 1746,
+              "alt": "18화: 바람을 맞춘 창 17페이지. 서울로 돌아온 뒤, 도윤은 자기 창의 고정쇠를 닦고 손이 닿는 높이에 두었다."
+            },
+            {
+              "number": 18,
+              "src": "/media/comics/wind-returning-place/ep-018/page-18.webp",
+              "width": 1024,
+              "height": 1746,
+              "alt": "18화: 바람을 맞춘 창 18페이지. 찾아온 사람은 종이를 말리려다 창을 중간 홈으로 옮겼다."
+            },
+            {
+              "number": 19,
+              "src": "/media/comics/wind-returning-place/ep-018/page-19.webp",
+              "width": 1024,
+              "height": 1746,
+              "alt": "18화: 바람을 맞춘 창 19페이지. 도윤은 그 손을 멈추게 하지 않고, 바람의 방향만 함께 살폈다."
+            },
+            {
+              "number": 20,
+              "src": "/media/comics/wind-returning-place/ep-018/page-20.webp",
+              "width": 1024,
+              "height": 1746,
+              "alt": "18화: 바람을 맞춘 창 20페이지. 열린 창과 움직이는 종이 사이에서, 누구도 혼자 바람을 정하지 않는 방이 되었다."
+            }
+          ],
+          "provenance": {
+            "story": {
+              "stage": "기획·대본",
+              "model": null,
+              "status": "not-recorded",
+              "note": "AI 제작 파이프라인을 사용했으나 정확한 모델 기록은 남아 있지 않습니다."
+            },
+            "image": {
+              "stage": "이미지 생성",
+              "model": "OpenAI Image Generation",
+              "tool": "built-in image_gen",
+              "version": null,
+              "status": "known-provider",
+              "note": "제공사와 생성 도구는 확인되며 정확한 모델 버전은 기록되지 않았습니다."
+            },
+            "lettering": {
+              "stage": "레터링·내보내기",
+              "model": null,
+              "tool": "자동화된 로컬 레터링 도구",
+              "status": "automated-tool",
+              "note": "생성 이미지에 한국어 텍스트와 페이지 정보를 자동 합성했습니다."
+            }
+          }
+        },
+        {
+          "id": "ep-019",
+          "number": 19,
+          "title": "19화: 한 칸을 비운 줄",
+          "shortTitle": "한 칸을 비운 줄",
+          "lead": "도윤은 공동 건조줄의 빈 구간을 통해, 돌봄이 다른 사람의 몫을 남기는 일일 수 있음을 배운다.",
+          "closingLine": "도윤은 남은 한 칸을 채우지 않은 채, 함께 마르는 종이를 바라보았다.",
+          "pageCount": 20,
+          "pages": [
+            {
+              "number": 1,
+              "src": "/media/comics/wind-returning-place/ep-019/page-01.webp",
+              "width": 1024,
+              "height": 1746,
+              "alt": "19화: 한 칸을 비운 줄 1페이지. 서울 작업실에서, 도윤은 갓 씻은 사진 스무 장을 건조 상자에 넣었다."
+            },
+            {
+              "number": 2,
+              "src": "/media/comics/wind-returning-place/ep-019/page-02.webp",
+              "width": 1024,
+              "height": 1746,
+              "alt": "19화: 한 칸을 비운 줄 2페이지. 그는 제주 마당의 긴 줄이면 모두 한꺼번에 말릴 수 있다고 계산했다."
+            },
+            {
+              "number": 3,
+              "src": "/media/comics/wind-returning-place/ep-019/page-03.webp",
+              "width": 1080,
+              "height": 868,
+              "alt": "19화: 한 칸을 비운 줄 3페이지. 제주에 도착하자, 도윤은 파란 집게로 사진을 줄 끝까지 빽빽하게 걸었다."
+            },
+            {
+              "number": 4,
+              "src": "/media/comics/wind-returning-place/ep-019/page-04.webp",
+              "width": 1024,
+              "height": 1746,
+              "alt": "19화: 한 칸을 비운 줄 4페이지. 마지막 집게를 채운 순간, 순덕이 젖은 작업 수건을 들고 마당에 들어왔다."
+            },
+            {
+              "number": 5,
+              "src": "/media/comics/wind-returning-place/ep-019/page-05.webp",
+              "width": 1024,
+              "height": 1746,
+              "alt": "19화: 한 칸을 비운 줄 5페이지. 순덕은 오늘 안에 말려야 한다며 줄의 한쪽을 가리켰다."
+            },
+            {
+              "number": 6,
+              "src": "/media/comics/wind-returning-place/ep-019/page-06.webp",
+              "width": 1024,
+              "height": 1746,
+              "alt": "19화: 한 칸을 비운 줄 6페이지. 도윤은 사진이 마를 때까지만 기다려 달라고 말했다."
+            },
+            {
+              "number": 7,
+              "src": "/media/comics/wind-returning-place/ep-019/page-07.webp",
+              "width": 1023,
+              "height": 1747,
+              "alt": "19화: 한 칸을 비운 줄 7페이지. 윤서는 줄 아래 놓인 빈 바구니와 남은 집게 수를 세었다."
+            },
+            {
+              "number": 8,
+              "src": "/media/comics/wind-returning-place/ep-019/page-08.webp",
+              "width": 1024,
+              "height": 1746,
+              "alt": "19화: 한 칸을 비운 줄 8페이지. 그녀는 사진 사이 간격이 손가락 하나뿐이라 바람도 잘 통하지 않는다고 말했다."
+            },
+            {
+              "number": 9,
+              "src": "/media/comics/wind-returning-place/ep-019/page-09.webp",
+              "width": 1055,
+              "height": 1701,
+              "alt": "19화: 한 칸을 비운 줄 9페이지. 윤서는 자기 키에 닿는 집게부터 두 칸씩 옮기기 시작했다."
+            },
+            {
+              "number": 10,
+              "src": "/media/comics/wind-returning-place/ep-019/page-10.webp",
+              "width": 1024,
+              "height": 1746,
+              "alt": "19화: 한 칸을 비운 줄 10페이지. 순덕은 수건을 들고 기다렸고, 도윤은 카메라 대신 줄을 바라보았다."
+            },
+            {
+              "number": 11,
+              "src": "/media/comics/wind-returning-place/ep-019/page-11.webp",
+              "width": 1024,
+              "height": 1746,
+              "alt": "19화: 한 칸을 비운 줄 11페이지. 도윤은 가장 비슷한 사진 네 장을 골라 줄에서 내렸다."
+            },
+            {
+              "number": 12,
+              "src": "/media/comics/wind-returning-place/ep-019/page-12.webp",
+              "width": 1024,
+              "height": 1746,
+              "alt": "19화: 한 칸을 비운 줄 12페이지. 세 사람은 사진 사이를 벌리고, 오른쪽에 빈 구간을 만들었다."
+            },
+            {
+              "number": 13,
+              "src": "/media/comics/wind-returning-place/ep-019/page-13.webp",
+              "width": 1080,
+              "height": 868,
+              "alt": "19화: 한 칸을 비운 줄 13페이지. 순덕은 빈 구간에 작업 수건을 걸었고, 사진과 수건 모두 바람을 받았다."
+            },
+            {
+              "number": 14,
+              "src": "/media/comics/wind-returning-place/ep-019/page-14.webp",
+              "width": 1024,
+              "height": 1746,
+              "alt": "19화: 한 칸을 비운 줄 14페이지. 윤서는 파란 집게 하나를 경계에 끼워 빈 구간의 시작을 표시했다."
+            },
+            {
+              "number": 15,
+              "src": "/media/comics/wind-returning-place/ep-019/page-15.webp",
+              "width": 1024,
+              "height": 1746,
+              "alt": "19화: 한 칸을 비운 줄 15페이지. 도윤은 그 표시를 옮기지 않고, 사진 순서만 다시 맞췄다."
+            },
+            {
+              "number": 16,
+              "src": "/media/comics/wind-returning-place/ep-019/page-16.webp",
+              "width": 1024,
+              "height": 1746,
+              "alt": "19화: 한 칸을 비운 줄 16페이지. 해가 기울 무렵 사진과 수건은 함께 말랐다."
+            },
+            {
+              "number": 17,
+              "src": "/media/comics/wind-returning-place/ep-019/page-17.webp",
+              "width": 1080,
+              "height": 868,
+              "alt": "19화: 한 칸을 비운 줄 17페이지. 서울로 돌아온 도윤은 작업실 건조줄에 사진을 절반만 걸었다."
+            },
+            {
+              "number": 18,
+              "src": "/media/comics/wind-returning-place/ep-019/page-18.webp",
+              "width": 1024,
+              "height": 1746,
+              "alt": "19화: 한 칸을 비운 줄 18페이지. 그는 파란 집게 하나를 중간에 두고, 그 뒤를 비워 두었다."
+            },
+            {
+              "number": 19,
+              "src": "/media/comics/wind-returning-place/ep-019/page-19.webp",
+              "width": 1024,
+              "height": 1746,
+              "alt": "19화: 한 칸을 비운 줄 19페이지. 찾아온 사람은 묻지 않고 그 빈 구간에 작은 포스터를 걸었다."
+            },
+            {
+              "number": 20,
+              "src": "/media/comics/wind-returning-place/ep-019/page-20.webp",
+              "width": 1024,
+              "height": 1746,
+              "alt": "19화: 한 칸을 비운 줄 20페이지. 도윤은 남은 한 칸을 채우지 않은 채, 함께 마르는 종이를 바라보았다."
+            }
+          ],
+          "provenance": {
+            "story": {
+              "stage": "기획·대본",
+              "model": null,
+              "status": "not-recorded",
+              "note": "AI 제작 파이프라인을 사용했으나 정확한 모델 기록은 남아 있지 않습니다."
+            },
+            "image": {
+              "stage": "이미지 생성",
+              "model": "OpenAI Image Generation",
+              "tool": "built-in image_gen",
+              "version": null,
+              "status": "known-provider",
+              "note": "제공사와 생성 도구는 확인되며 정확한 모델 버전은 기록되지 않았습니다."
+            },
+            "lettering": {
+              "stage": "레터링·내보내기",
+              "model": null,
+              "tool": "자동화된 로컬 레터링 도구",
+              "status": "automated-tool",
+              "note": "생성 이미지에 한국어 텍스트와 페이지 정보를 자동 합성했습니다."
+            }
+          }
+        },
+        {
+          "id": "ep-020",
+          "number": 20,
+          "title": "20화: 낮아진 손잡이",
+          "shortTitle": "낮아진 손잡이",
+          "lead": "윤서가 직접 잰 높이에서, 함께 쓰는 문은 기다림을 덜어 내는 쪽으로 바뀐다.",
+          "closingLine": "도윤은 열린 문을 붙잡지 않고, 아이가 지나간 뒤 천천히 닫히는 문을 보았다.",
+          "pageCount": 20,
+          "pages": [
+            {
+              "number": 1,
+              "src": "/media/comics/wind-returning-place/ep-020/page-01.webp",
+              "width": 1024,
+              "height": 1490,
+              "alt": "20화: 낮아진 손잡이 1페이지. 서울 작업실에서, 도윤은 높은 황동 손잡이를 밀어 문을 열었다."
+            },
+            {
+              "number": 2,
+              "src": "/media/comics/wind-returning-place/ep-020/page-02.webp",
+              "width": 1024,
+              "height": 1490,
+              "alt": "20화: 낮아진 손잡이 2페이지. 그는 제주 수리방 문도 같은 높이였다는 사진을 챙겼다."
+            },
+            {
+              "number": 3,
+              "src": "/media/comics/wind-returning-place/ep-020/page-03.webp",
+              "width": 1024,
+              "height": 1490,
+              "alt": "20화: 낮아진 손잡이 3페이지. 제주에 도착한 윤서는 양손에 상자를 들고 문 앞에 멈췄다."
+            },
+            {
+              "number": 4,
+              "src": "/media/comics/wind-returning-place/ep-020/page-04.webp",
+              "width": 1024,
+              "height": 1490,
+              "alt": "20화: 낮아진 손잡이 4페이지. 윤서는 상자를 내려놓고 까치발로 손잡이를 돌렸다."
+            },
+            {
+              "number": 5,
+              "src": "/media/comics/wind-returning-place/ep-020/page-05.webp",
+              "width": 1024,
+              "height": 1490,
+              "alt": "20화: 낮아진 손잡이 5페이지. 순덕은 비 오는 날마다 아이들이 여기서 기다린다고 말했다."
+            },
+            {
+              "number": 6,
+              "src": "/media/comics/wind-returning-place/ep-020/page-06.webp",
+              "width": 1024,
+              "height": 1490,
+              "alt": "20화: 낮아진 손잡이 6페이지. 도윤은 문이 오래돼 높이를 바꾸기 어렵다고 답했다."
+            },
+            {
+              "number": 7,
+              "src": "/media/comics/wind-returning-place/ep-020/page-07.webp",
+              "width": 1024,
+              "height": 1490,
+              "alt": "20화: 낮아진 손잡이 7페이지. 윤서는 벽에 기대 둔 줄자로 자기 손이 닿는 높이를 쟀다."
+            },
+            {
+              "number": 8,
+              "src": "/media/comics/wind-returning-place/ep-020/page-08.webp",
+              "width": 1024,
+              "height": 1490,
+              "alt": "20화: 낮아진 손잡이 8페이지. 그녀는 문 아래쪽에 분필로 작은 점을 찍었다."
+            },
+            {
+              "number": 9,
+              "src": "/media/comics/wind-returning-place/ep-020/page-09.webp",
+              "width": 1024,
+              "height": 1490,
+              "alt": "20화: 낮아진 손잡이 9페이지. 순덕은 젖은 장갑으로도 잡히는 손잡이어야 한다고 덧붙였다."
+            },
+            {
+              "number": 10,
+              "src": "/media/comics/wind-returning-place/ep-020/page-10.webp",
+              "width": 1024,
+              "height": 1490,
+              "alt": "20화: 낮아진 손잡이 10페이지. 도윤은 카메라를 내려놓고 기존 손잡이의 나사 간격을 쟀다."
+            },
+            {
+              "number": 11,
+              "src": "/media/comics/wind-returning-place/ep-020/page-11.webp",
+              "width": 1024,
+              "height": 1490,
+              "alt": "20화: 낮아진 손잡이 11페이지. 세 사람은 창고에서 짧은 황동 손잡이와 받침판을 찾았다."
+            },
+            {
+              "number": 12,
+              "src": "/media/comics/wind-returning-place/ep-020/page-12.webp",
+              "width": 1024,
+              "height": 1490,
+              "alt": "20화: 낮아진 손잡이 12페이지. 윤서는 분필점에 받침판을 대고 직접 위치를 다시 맞췄다."
+            },
+            {
+              "number": 13,
+              "src": "/media/comics/wind-returning-place/ep-020/page-13.webp",
+              "width": 1024,
+              "height": 1490,
+              "alt": "20화: 낮아진 손잡이 13페이지. 도윤은 그 표시대로 구멍을 뚫고 낮은 손잡이를 고정했다."
+            },
+            {
+              "number": 14,
+              "src": "/media/comics/wind-returning-place/ep-020/page-14.webp",
+              "width": 1024,
+              "height": 1490,
+              "alt": "20화: 낮아진 손잡이 14페이지. 순덕은 젖은 장갑으로 문을 열어 미끄러지지 않는지 시험했다."
+            },
+            {
+              "number": 15,
+              "src": "/media/comics/wind-returning-place/ep-020/page-15.webp",
+              "width": 1024,
+              "height": 1490,
+              "alt": "20화: 낮아진 손잡이 15페이지. 윤서는 상자를 든 채 낮은 손잡이를 눌러 문을 열었다."
+            },
+            {
+              "number": 16,
+              "src": "/media/comics/wind-returning-place/ep-020/page-16.webp",
+              "width": 1024,
+              "height": 1490,
+              "alt": "20화: 낮아진 손잡이 16페이지. 세 사람은 높은 손잡이는 남겨 두고 낮은 손잡이만 닦았다."
+            },
+            {
+              "number": 17,
+              "src": "/media/comics/wind-returning-place/ep-020/page-17.webp",
+              "width": 1024,
+              "height": 1490,
+              "alt": "20화: 낮아진 손잡이 17페이지. 서울로 돌아온 도윤은 작업실 문 아래쪽에 같은 높이를 표시했다."
+            },
+            {
+              "number": 18,
+              "src": "/media/comics/wind-returning-place/ep-020/page-18.webp",
+              "width": 1024,
+              "height": 1490,
+              "alt": "20화: 낮아진 손잡이 18페이지. 그는 방문객용 출입문에 두 번째 손잡이를 달았다."
+            },
+            {
+              "number": 19,
+              "src": "/media/comics/wind-returning-place/ep-020/page-19.webp",
+              "width": 1024,
+              "height": 1490,
+              "alt": "20화: 낮아진 손잡이 19페이지. 전시를 보러 온 아이가 어른보다 먼저 문을 열고 들어왔다."
+            },
+            {
+              "number": 20,
+              "src": "/media/comics/wind-returning-place/ep-020/page-20.webp",
+              "width": 1024,
+              "height": 1490,
+              "alt": "20화: 낮아진 손잡이 20페이지. 도윤은 열린 문을 붙잡지 않고, 아이가 지나간 뒤 천천히 닫히는 문을 보았다."
+            }
+          ],
+          "provenance": {
+            "story": {
+              "stage": "기획·대본",
+              "model": null,
+              "status": "not-recorded",
+              "note": "AI 제작 파이프라인을 사용했으나 정확한 모델 기록은 남아 있지 않습니다."
+            },
+            "image": {
+              "stage": "이미지 생성",
+              "model": "OpenAI Image Generation",
+              "tool": "built-in image_gen",
+              "version": null,
+              "status": "known-provider",
+              "note": "제공사와 생성 도구는 확인되며 정확한 모델 버전은 기록되지 않았습니다."
+            },
+            "lettering": {
+              "stage": "레터링·내보내기",
+              "model": null,
+              "tool": "자동화된 로컬 레터링 도구",
+              "status": "automated-tool",
+              "note": "생성 이미지에 한국어 텍스트와 페이지 정보를 자동 합성했습니다."
+            }
+          }
+        },
+        {
+          "id": "ep-021",
+          "number": 21,
+          "title": "21화: 펴 둔 걸이",
+          "shortTitle": "펴 둔 걸이",
+          "lead": "윤서가 먼저 펴 본 걸이에서, 함께 쓰는 자리는 단정함보다 실제 쓰임을 향해 열린다.",
+          "closingLine": "도윤은 빈 의자와 펴 둔 걸이를 보고, 통로를 그대로 두었다.",
+          "pageCount": 20,
+          "pages": [
+            {
+              "number": 1,
+              "src": "/media/comics/wind-returning-place/ep-021/page-01.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "21화: 펴 둔 걸이 1페이지. 서울 작업실에서, 도윤은 벽의 접이식 걸이를 접어 두었다."
+            },
+            {
+              "number": 2,
+              "src": "/media/comics/wind-returning-place/ep-021/page-02.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "21화: 펴 둔 걸이 2페이지. 제주에는 오후부터 비가 온다는 예보가 떠 있었다."
+            },
+            {
+              "number": 3,
+              "src": "/media/comics/wind-returning-place/ep-021/page-03.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "21화: 펴 둔 걸이 3페이지. 도윤은 수리방 벽의 낡은 걸이 사진을 가방에 넣었다."
+            },
+            {
+              "number": 4,
+              "src": "/media/comics/wind-returning-place/ep-021/page-04.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "21화: 펴 둔 걸이 4페이지. 제주에 온 윤서는 젖은 우비를 벗어 의자 위에 올렸다."
+            },
+            {
+              "number": 5,
+              "src": "/media/comics/wind-returning-place/ep-021/page-05.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "21화: 펴 둔 걸이 5페이지. 의자는 젖은 우비 때문에 바로 쓸 수 없게 되었다."
+            },
+            {
+              "number": 6,
+              "src": "/media/comics/wind-returning-place/ep-021/page-06.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "21화: 펴 둔 걸이 6페이지. 순덕은 벽에 접힌 걸이가 오래전부터 있었다고 말했다."
+            },
+            {
+              "number": 7,
+              "src": "/media/comics/wind-returning-place/ep-021/page-07.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "21화: 펴 둔 걸이 7페이지. 도윤은 통로가 좁아 걸이를 펴기 망설인다고 답했다."
+            },
+            {
+              "number": 8,
+              "src": "/media/comics/wind-returning-place/ep-021/page-08.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "21화: 펴 둔 걸이 8페이지. 윤서는 벽의 걸이를 펴고 우비 고리를 걸었다."
+            },
+            {
+              "number": 9,
+              "src": "/media/comics/wind-returning-place/ep-021/page-09.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "21화: 펴 둔 걸이 9페이지. 우비가 벽으로 옮겨가자 의자는 다시 비었다."
+            },
+            {
+              "number": 10,
+              "src": "/media/comics/wind-returning-place/ep-021/page-10.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "21화: 펴 둔 걸이 10페이지. 순덕은 젖은 장갑과 두꺼운 외투도 버텨야 한다고 덧붙였다."
+            },
+            {
+              "number": 11,
+              "src": "/media/comics/wind-returning-place/ep-021/page-11.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "21화: 펴 둔 걸이 11페이지. 도윤은 카메라를 내려놓고 걸이의 나사 간격을 쟀다."
+            },
+            {
+              "number": 12,
+              "src": "/media/comics/wind-returning-place/ep-021/page-12.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "21화: 펴 둔 걸이 12페이지. 세 사람은 창고에서 넓은 받침의 접이식 걸이를 찾았다."
+            },
+            {
+              "number": 13,
+              "src": "/media/comics/wind-returning-place/ep-021/page-13.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "21화: 펴 둔 걸이 13페이지. 윤서는 우비가 바닥에 닿지 않는 높이를 직접 골랐다."
+            },
+            {
+              "number": 14,
+              "src": "/media/comics/wind-returning-place/ep-021/page-14.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "21화: 펴 둔 걸이 14페이지. 도윤은 그 표시대로 새 걸이를 벽에 고정했다."
+            },
+            {
+              "number": 15,
+              "src": "/media/comics/wind-returning-place/ep-021/page-15.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "21화: 펴 둔 걸이 15페이지. 순덕은 젖은 외투와 장갑을 함께 걸어 흔들림을 살폈다."
+            },
+            {
+              "number": 16,
+              "src": "/media/comics/wind-returning-place/ep-021/page-16.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "21화: 펴 둔 걸이 16페이지. 윤서는 아무에게 묻지 않고 우비를 걸고 안으로 들어갔다."
+            },
+            {
+              "number": 17,
+              "src": "/media/comics/wind-returning-place/ep-021/page-17.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "21화: 펴 둔 걸이 17페이지. 서울로 돌아온 도윤은 작업실 벽에 같은 높이를 표시했다."
+            },
+            {
+              "number": 18,
+              "src": "/media/comics/wind-returning-place/ep-021/page-18.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "21화: 펴 둔 걸이 18페이지. 그는 출입문 옆에 두 번째 접이식 걸이를 달았다."
+            },
+            {
+              "number": 19,
+              "src": "/media/comics/wind-returning-place/ep-021/page-19.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "21화: 펴 둔 걸이 19페이지. 비를 맞은 방문객은 먼저 외투를 걸고 작업실에 들어왔다."
+            },
+            {
+              "number": 20,
+              "src": "/media/comics/wind-returning-place/ep-021/page-20.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "21화: 펴 둔 걸이 20페이지. 도윤은 빈 의자와 펴 둔 걸이를 보고, 통로를 그대로 두었다."
+            }
+          ],
+          "provenance": {
+            "story": {
+              "stage": "기획·대본",
+              "model": null,
+              "status": "not-recorded",
+              "note": "AI 제작 파이프라인을 사용했으나 정확한 모델 기록은 남아 있지 않습니다."
+            },
+            "image": {
+              "stage": "이미지 생성",
+              "model": "OpenAI Image Generation",
+              "tool": "built-in image_gen",
+              "version": null,
+              "status": "known-provider",
+              "note": "제공사와 생성 도구는 확인되며 정확한 모델 버전은 기록되지 않았습니다."
+            },
+            "lettering": {
+              "stage": "레터링·내보내기",
+              "model": null,
+              "tool": "자동화된 로컬 레터링 도구",
+              "status": "automated-tool",
+              "note": "생성 이미지에 한국어 텍스트와 페이지 정보를 자동 합성했습니다."
+            }
+          }
+        },
+        {
+          "id": "ep-022",
+          "number": 22,
+          "title": "22화: 잡을 수 있는 선",
+          "shortTitle": "잡을 수 있는 선",
+          "lead": "윤서가 스스로 고른 손높이에서, 도윤은 길을 정하지 않고도 도움을 닿게 둘 수 있음을 배운다.",
+          "closingLine": "도윤은 길을 정하지 않은 채, 잡을 수 있는 선만 남겨 두었다.",
+          "pageCount": 20,
+          "pages": [
+            {
+              "number": 1,
+              "src": "/media/comics/wind-returning-place/ep-022/page-01.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "22화: 잡을 수 있는 선 1페이지. 서울 작업실에서, 도윤은 파란색과 미색이 섞인 줄을 천천히 감았다."
+            },
+            {
+              "number": 2,
+              "src": "/media/comics/wind-returning-place/ep-022/page-02.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "22화: 잡을 수 있는 선 2페이지. 사진 속 제주 포구 계단에는 비가 지나간 물기가 남아 있었다."
+            },
+            {
+              "number": 3,
+              "src": "/media/comics/wind-returning-place/ep-022/page-03.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "22화: 잡을 수 있는 선 3페이지. 도윤은 양끝에 고리가 달린 줄을 가방에 넣어 제주로 갔다."
+            },
+            {
+              "number": 4,
+              "src": "/media/comics/wind-returning-place/ep-022/page-04.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "22화: 잡을 수 있는 선 4페이지. 윤서는 젖은 계단 앞에서 발을 멈추고 손을 비워 두었다."
+            },
+            {
+              "number": 5,
+              "src": "/media/comics/wind-returning-place/ep-022/page-05.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "22화: 잡을 수 있는 선 5페이지. 도윤은 두 기둥 사이 높은 곳에 줄을 걸었다."
+            },
+            {
+              "number": 6,
+              "src": "/media/comics/wind-returning-place/ep-022/page-06.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "22화: 잡을 수 있는 선 6페이지. 윤서가 팔을 뻗었지만 손끝만 줄에 닿았다."
+            },
+            {
+              "number": 7,
+              "src": "/media/comics/wind-returning-place/ep-022/page-07.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "22화: 잡을 수 있는 선 7페이지. 순덕은 잡을 수 없는 줄은 장식과 다르지 않다고 말했다."
+            },
+            {
+              "number": 8,
+              "src": "/media/comics/wind-returning-place/ep-022/page-08.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "22화: 잡을 수 있는 선 8페이지. 도윤은 설명하는 대신 두 고리를 다시 풀었다."
+            },
+            {
+              "number": 9,
+              "src": "/media/comics/wind-returning-place/ep-022/page-09.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "22화: 잡을 수 있는 선 9페이지. 윤서는 계단 옆 기둥에 자기 손이 편한 높이를 짚었다."
+            },
+            {
+              "number": 10,
+              "src": "/media/comics/wind-returning-place/ep-022/page-10.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "22화: 잡을 수 있는 선 10페이지. 순덕은 두 손으로 줄을 당겨 고리가 버티는지 살폈다."
+            },
+            {
+              "number": 11,
+              "src": "/media/comics/wind-returning-place/ep-022/page-11.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "22화: 잡을 수 있는 선 11페이지. 긴 줄의 가운데는 젖은 돌 가까이까지 처졌다."
+            },
+            {
+              "number": 12,
+              "src": "/media/comics/wind-returning-place/ep-022/page-12.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "22화: 잡을 수 있는 선 12페이지. 도윤은 간격을 줄이고 가운데 붉은 고리를 한 번 더 걸었다."
+            },
+            {
+              "number": 13,
+              "src": "/media/comics/wind-returning-place/ep-022/page-13.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "22화: 잡을 수 있는 선 13페이지. 윤서는 한 손으로 줄을 눌러 높이와 팽팽함을 확인했다."
+            },
+            {
+              "number": 14,
+              "src": "/media/comics/wind-returning-place/ep-022/page-14.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "22화: 잡을 수 있는 선 14페이지. 윤서는 가장 편한 붉은 고리를 스스로 골라 잡았다."
+            },
+            {
+              "number": 15,
+              "src": "/media/comics/wind-returning-place/ep-022/page-15.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "22화: 잡을 수 있는 선 15페이지. 그 손을 따라 윤서는 젖은 계단을 자기 속도로 건넜다."
+            },
+            {
+              "number": 16,
+              "src": "/media/comics/wind-returning-place/ep-022/page-16.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "22화: 잡을 수 있는 선 16페이지. 길이 마르자 순덕은 줄을 풀어 벽의 고리에 가볍게 감아 두었다."
+            },
+            {
+              "number": 17,
+              "src": "/media/comics/wind-returning-place/ep-022/page-17.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "22화: 잡을 수 있는 선 17페이지. 서울로 돌아온 도윤은 경사로 옆 낮은 곳에 고리를 달았다."
+            },
+            {
+              "number": 18,
+              "src": "/media/comics/wind-returning-place/ep-022/page-18.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "22화: 잡을 수 있는 선 18페이지. 그는 통로를 막지 않는 높이에 같은 줄을 걸었다."
+            },
+            {
+              "number": 19,
+              "src": "/media/comics/wind-returning-place/ep-022/page-19.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "22화: 잡을 수 있는 선 19페이지. 한 방문객은 길을 묻지 않고 줄을 잡아 천천히 올라왔다."
+            },
+            {
+              "number": 20,
+              "src": "/media/comics/wind-returning-place/ep-022/page-20.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "22화: 잡을 수 있는 선 20페이지. 도윤은 길을 정하지 않은 채, 잡을 수 있는 선만 남겨 두었다."
+            }
+          ],
+          "provenance": {
+            "story": {
+              "stage": "기획·대본",
+              "model": null,
+              "status": "not-recorded",
+              "note": "AI 제작 파이프라인을 사용했으나 정확한 모델 기록은 남아 있지 않습니다."
+            },
+            "image": {
+              "stage": "이미지 생성",
+              "model": "OpenAI Image Generation",
+              "tool": "built-in image_gen",
+              "version": null,
+              "status": "known-provider",
+              "note": "제공사와 생성 도구는 확인되며 정확한 모델 버전은 기록되지 않았습니다."
+            },
+            "lettering": {
+              "stage": "레터링·내보내기",
+              "model": null,
+              "tool": "자동화된 로컬 레터링 도구",
+              "status": "automated-tool",
+              "note": "생성 이미지에 한국어 텍스트와 페이지 정보를 자동 합성했습니다."
+            }
+          }
+        },
+        {
+          "id": "ep-023",
+          "number": 23,
+          "title": "23화: 뒤집을 수 있는 시간",
+          "shortTitle": "뒤집을 수 있는 시간",
+          "lead": "윤서가 시작할 때를 직접 고르자, 도윤은 도움의 시간도 손 닿는 곳에서 기다려야 함을 배운다.",
+          "closingLine": "도윤은 끝을 재촉하지 않고, 다시 뒤집을 수 있는 시간을 남겼다.",
+          "pageCount": 20,
+          "pages": [
+            {
+              "number": 1,
+              "src": "/media/comics/wind-returning-place/ep-023/page-01.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "23화: 뒤집을 수 있는 시간 1페이지. 서울 작업실 서랍에서, 도윤은 작은 모래시계를 꺼냈다."
+            },
+            {
+              "number": 2,
+              "src": "/media/comics/wind-returning-place/ep-023/page-02.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "23화: 뒤집을 수 있는 시간 2페이지. 푸른 모래가 아래로 다 내려가는 데에는 세 분이 걸렸다."
+            },
+            {
+              "number": 3,
+              "src": "/media/comics/wind-returning-place/ep-023/page-03.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "23화: 뒤집을 수 있는 시간 3페이지. 도윤은 모래시계를 천에 싸서 제주 작업장으로 가져갔다."
+            },
+            {
+              "number": 4,
+              "src": "/media/comics/wind-returning-place/ep-023/page-04.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "23화: 뒤집을 수 있는 시간 4페이지. 윤서는 젖은 사진 종이를 집게로 들어 헹굼 통 앞에 섰다."
+            },
+            {
+              "number": 5,
+              "src": "/media/comics/wind-returning-place/ep-023/page-05.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "23화: 뒤집을 수 있는 시간 5페이지. 도윤은 준비됐는지 묻기 전에 모래시계를 뒤집었다."
+            },
+            {
+              "number": 6,
+              "src": "/media/comics/wind-returning-place/ep-023/page-06.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "23화: 뒤집을 수 있는 시간 6페이지. 윤서는 내려가는 모래를 보며 손을 서둘렀다."
+            },
+            {
+              "number": 7,
+              "src": "/media/comics/wind-returning-place/ep-023/page-07.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "23화: 뒤집을 수 있는 시간 7페이지. 급히 옮긴 종이의 한쪽 모서리가 헹굼 통 안에서 접혔다."
+            },
+            {
+              "number": 8,
+              "src": "/media/comics/wind-returning-place/ep-023/page-08.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "23화: 뒤집을 수 있는 시간 8페이지. 윤서는 집게를 내려놓고, 아직 시작할 때가 아니었다고 말했다."
+            },
+            {
+              "number": 9,
+              "src": "/media/comics/wind-returning-place/ep-023/page-09.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "23화: 뒤집을 수 있는 시간 9페이지. 순덕은 모래시계를 옆으로 눕혀 흐름부터 멈췄다."
+            },
+            {
+              "number": 10,
+              "src": "/media/comics/wind-returning-place/ep-023/page-10.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "23화: 뒤집을 수 있는 시간 10페이지. 순덕은 시간을 맞추지 말고, 필요한 시간을 먼저 물으라고 했다."
+            },
+            {
+              "number": 11,
+              "src": "/media/comics/wind-returning-place/ep-023/page-11.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "23화: 뒤집을 수 있는 시간 11페이지. 도윤은 유리 옆에 한 분 높이를 작은 황동 고리로 표시했다."
+            },
+            {
+              "number": 12,
+              "src": "/media/comics/wind-returning-place/ep-023/page-12.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "23화: 뒤집을 수 있는 시간 12페이지. 윤서는 모래를 세우지 않은 채 집게와 통의 순서를 한 번 익혔다."
+            },
+            {
+              "number": 13,
+              "src": "/media/comics/wind-returning-place/ep-023/page-13.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "23화: 뒤집을 수 있는 시간 13페이지. 준비를 마친 윤서는 모래시계를 자기 손 가까이에 놓았다."
+            },
+            {
+              "number": 14,
+              "src": "/media/comics/wind-returning-place/ep-023/page-14.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "23화: 뒤집을 수 있는 시간 14페이지. 윤서는 세 분 대신 황동 고리가 있는 한 분을 골랐다."
+            },
+            {
+              "number": 15,
+              "src": "/media/comics/wind-returning-place/ep-023/page-15.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "23화: 뒤집을 수 있는 시간 15페이지. 그리고 자기 손으로 모래시계를 뒤집었다."
+            },
+            {
+              "number": 16,
+              "src": "/media/comics/wind-returning-place/ep-023/page-16.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "23화: 뒤집을 수 있는 시간 16페이지. 모래가 고리에 닿았을 때, 사진 종이는 구김 없이 물 위에 펴져 있었다."
+            },
+            {
+              "number": 17,
+              "src": "/media/comics/wind-returning-place/ep-023/page-17.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "23화: 뒤집을 수 있는 시간 17페이지. 서울로 돌아온 도윤은 인화물 건조대 옆에 작은 자리를 비워 두었다."
+            },
+            {
+              "number": 18,
+              "src": "/media/comics/wind-returning-place/ep-023/page-18.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "23화: 뒤집을 수 있는 시간 18페이지. 그 자리의 모래시계는 흐르지 않도록 옆으로 누워 있었다."
+            },
+            {
+              "number": 19,
+              "src": "/media/comics/wind-returning-place/ep-023/page-19.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "23화: 뒤집을 수 있는 시간 19페이지. 한 방문객은 종이를 모두 건 뒤에야 모래시계를 세웠다."
+            },
+            {
+              "number": 20,
+              "src": "/media/comics/wind-returning-place/ep-023/page-20.webp",
+              "width": 627,
+              "height": 837,
+              "alt": "23화: 뒤집을 수 있는 시간 20페이지. 도윤은 끝을 재촉하지 않고, 다시 뒤집을 수 있는 시간을 남겼다."
+            }
+          ],
+          "provenance": {
+            "story": {
+              "stage": "기획·대본",
+              "model": null,
+              "status": "not-recorded",
+              "note": "AI 제작 파이프라인을 사용했으나 정확한 모델 기록은 남아 있지 않습니다."
+            },
+            "image": {
+              "stage": "이미지 생성",
+              "model": "OpenAI Image Generation",
+              "tool": "built-in image_gen",
+              "version": null,
+              "status": "known-provider",
+              "note": "제공사와 생성 도구는 확인되며 정확한 모델 버전은 기록되지 않았습니다."
+            },
+            "lettering": {
+              "stage": "레터링·내보내기",
+              "model": null,
+              "tool": "자동화된 로컬 레터링 도구",
+              "status": "automated-tool",
+              "note": "생성 이미지에 한국어 텍스트와 페이지 정보를 자동 합성했습니다."
+            }
+          }
+        },
+        {
+          "id": "ep-024",
+          "number": 24,
+          "title": "24화: 물이 머무는 받침",
+          "shortTitle": "물이 머무는 받침",
+          "lead": "윤서가 뿌리가 물을 올릴 시간을 직접 살피자, 도윤은 기다림과 방치를 구별하는 법을 배운다.",
+          "closingLine": "도윤은 깨끗함보다 먼저, 무엇이 아직 머물러야 하는지 바라보았다.",
+          "pageCount": 20,
+          "pages": [
+            {
+              "number": 1,
+              "src": "/media/comics/wind-returning-place/ep-024/page-01.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "24화: 물이 머무는 받침 1페이지. 서울 작업실 창가에서, 도윤은 화분 밑의 마른 받침을 닦아 냈다."
+            },
+            {
+              "number": 2,
+              "src": "/media/comics/wind-returning-place/ep-024/page-02.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "24화: 물이 머무는 받침 2페이지. 가장자리의 푸른 선은 물이 머물던 높이를 보여 주고 있었다."
+            },
+            {
+              "number": 3,
+              "src": "/media/comics/wind-returning-place/ep-024/page-03.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "24화: 물이 머무는 받침 3페이지. 도윤은 받침을 천에 싸서 제주 온실 작업대로 가져갔다."
+            },
+            {
+              "number": 4,
+              "src": "/media/comics/wind-returning-place/ep-024/page-04.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "24화: 물이 머무는 받침 4페이지. 윤서는 작은 동백 묘목에 물을 주고 화분을 받침 위에 놓았다."
+            },
+            {
+              "number": 5,
+              "src": "/media/comics/wind-returning-place/ep-024/page-05.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "24화: 물이 머무는 받침 5페이지. 도윤은 고인 물을 보자마자 받침을 들어 비우려 했다."
+            },
+            {
+              "number": 6,
+              "src": "/media/comics/wind-returning-place/ep-024/page-06.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "24화: 물이 머무는 받침 6페이지. 윤서는 아직 뿌리가 물을 올리는 중이라며 그의 손을 막았다."
+            },
+            {
+              "number": 7,
+              "src": "/media/comics/wind-returning-place/ep-024/page-07.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "24화: 물이 머무는 받침 7페이지. 마른 흙 가장자리는 물을 천천히 다시 끌어올리고 있었다."
+            },
+            {
+              "number": 8,
+              "src": "/media/comics/wind-returning-place/ep-024/page-08.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "24화: 물이 머무는 받침 8페이지. 윤서는 푸른 선 아래까지는 물을 남겨 두겠다고 정했다."
+            },
+            {
+              "number": 9,
+              "src": "/media/comics/wind-returning-place/ep-024/page-09.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "24화: 물이 머무는 받침 9페이지. 순덕은 기다리는 물과 썩게 두는 물은 다르다고 말했다."
+            },
+            {
+              "number": 10,
+              "src": "/media/comics/wind-returning-place/ep-024/page-10.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "24화: 물이 머무는 받침 10페이지. 그리고 손가락으로 흙의 촉촉함을 먼저 확인해 보였다."
+            },
+            {
+              "number": 11,
+              "src": "/media/comics/wind-returning-place/ep-024/page-11.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "24화: 물이 머무는 받침 11페이지. 도윤은 받침 안쪽에 낮은 배수 홈 하나를 더 닦아 열었다."
+            },
+            {
+              "number": 12,
+              "src": "/media/comics/wind-returning-place/ep-024/page-12.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "24화: 물이 머무는 받침 12페이지. 윤서는 화분을 돌려 뿌리 쪽이 고르게 젖도록 자리를 맞췄다."
+            },
+            {
+              "number": 13,
+              "src": "/media/comics/wind-returning-place/ep-024/page-13.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "24화: 물이 머무는 받침 13페이지. 물이 푸른 선 아래로 내려가자 윤서는 잎과 흙을 다시 살폈다."
+            },
+            {
+              "number": 14,
+              "src": "/media/comics/wind-returning-place/ep-024/page-14.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "24화: 물이 머무는 받침 14페이지. 윤서는 이제 충분하다며 두 손으로 받침을 꺼냈다."
+            },
+            {
+              "number": 15,
+              "src": "/media/comics/wind-returning-place/ep-024/page-15.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "24화: 물이 머무는 받침 15페이지. 남은 물은 윤서가 직접 온실의 물통에 돌려 부었다."
+            },
+            {
+              "number": 16,
+              "src": "/media/comics/wind-returning-place/ep-024/page-16.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "24화: 물이 머무는 받침 16페이지. 받침에는 뿌리가 가져간 만큼의 얕은 물자국만 남았다."
+            },
+            {
+              "number": 17,
+              "src": "/media/comics/wind-returning-place/ep-024/page-17.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "24화: 물이 머무는 받침 17페이지. 서울로 돌아온 도윤은 창가 화분마다 같은 받침을 놓지 않았다."
+            },
+            {
+              "number": 18,
+              "src": "/media/comics/wind-returning-place/ep-024/page-18.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "24화: 물이 머무는 받침 18페이지. 대신 식물마다 물을 남길 높이를 작은 푸른 점으로 표시했다."
+            },
+            {
+              "number": 19,
+              "src": "/media/comics/wind-returning-place/ep-024/page-19.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "24화: 물이 머무는 받침 19페이지. 한 방문객은 자기 화분의 흙을 만져 본 뒤 받침을 비웠다."
+            },
+            {
+              "number": 20,
+              "src": "/media/comics/wind-returning-place/ep-024/page-20.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "24화: 물이 머무는 받침 20페이지. 도윤은 깨끗함보다 먼저, 무엇이 아직 머물러야 하는지 바라보았다."
+            }
+          ],
+          "provenance": {
+            "story": {
+              "stage": "기획·대본",
+              "model": null,
+              "status": "not-recorded",
+              "note": "AI 제작 파이프라인을 사용했으나 정확한 모델 기록은 남아 있지 않습니다."
+            },
+            "image": {
+              "stage": "이미지 생성",
+              "model": "OpenAI Image Generation",
+              "tool": "built-in image_gen",
+              "version": null,
+              "status": "known-provider",
+              "note": "제공사와 생성 도구는 확인되며 정확한 모델 버전은 기록되지 않았습니다."
+            },
+            "lettering": {
+              "stage": "레터링·내보내기",
+              "model": null,
+              "tool": "자동화된 로컬 레터링 도구",
+              "status": "automated-tool",
+              "note": "생성 이미지에 한국어 텍스트와 페이지 정보를 자동 합성했습니다."
+            }
+          }
+        },
+        {
+          "id": "ep-025",
+          "number": 25,
+          "title": "25화: 돌려 맞춘 빛",
+          "shortTitle": "돌려 맞춘 빛",
+          "lead": "윤서가 표면마다 다른 빛의 각도를 고르자, 도윤은 밝히는 일과 시선을 정하는 일을 구별한다.",
+          "closingLine": "도윤은 빛을 정해 두지 않고, 각자의 손이 고른 자리로 가게 두었다.",
+          "pageCount": 20,
+          "pages": [
+            {
+              "number": 1,
+              "src": "/media/comics/wind-returning-place/ep-025/page-01.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "25화: 돌려 맞춘 빛 1페이지. 서울 작업대에서, 도윤은 젖은 인화지 위로 작업등을 곧게 비췄다."
+            },
+            {
+              "number": 2,
+              "src": "/media/comics/wind-returning-place/ep-025/page-02.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "25화: 돌려 맞춘 빛 2페이지. 밝아진 표면에서는 오히려 사진 속 손과 밧줄이 보이지 않았다."
+            },
+            {
+              "number": 3,
+              "src": "/media/comics/wind-returning-place/ep-025/page-03.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "25화: 돌려 맞춘 빛 3페이지. 도윤은 각도를 바꿀 수 있는 푸른 집게등을 들고 제주 작업장으로 갔다."
+            },
+            {
+              "number": 4,
+              "src": "/media/comics/wind-returning-place/ep-025/page-04.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "25화: 돌려 맞춘 빛 4페이지. 윤서는 낮은 탁자에서 마르지 않은 사진 카드를 나누고 있었다."
+            },
+            {
+              "number": 5,
+              "src": "/media/comics/wind-returning-place/ep-025/page-05.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "25화: 돌려 맞춘 빛 5페이지. 도윤은 잘 보이게 하려며 등을 높이 고정하고 바로 아래로 돌렸다."
+            },
+            {
+              "number": 6,
+              "src": "/media/comics/wind-returning-place/ep-025/page-06.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "25화: 돌려 맞춘 빛 6페이지. 젖은 카드마다 흰 반사가 번져, 윤서는 그림을 구별할 수 없었다."
+            },
+            {
+              "number": 7,
+              "src": "/media/comics/wind-returning-place/ep-025/page-07.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "25화: 돌려 맞춘 빛 7페이지. 윤서가 갓을 옆으로 돌리자 느슨한 나비나사가 다시 아래로 처졌다."
+            },
+            {
+              "number": 8,
+              "src": "/media/comics/wind-returning-place/ep-025/page-08.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "25화: 돌려 맞춘 빛 8페이지. 도윤이 대신 등을 붙잡으려 하자, 윤서는 먼저 반사부터 보자고 했다."
+            },
+            {
+              "number": 9,
+              "src": "/media/comics/wind-returning-place/ep-025/page-09.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "25화: 돌려 맞춘 빛 9페이지. 순덕은 젖은 카드와 무광 종이를 같은 빛 아래 나란히 놓았다."
+            },
+            {
+              "number": 10,
+              "src": "/media/comics/wind-returning-place/ep-025/page-10.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "25화: 돌려 맞춘 빛 10페이지. 빛은 같아도 표면에 따라 보이는 각도가 달랐다."
+            },
+            {
+              "number": 11,
+              "src": "/media/comics/wind-returning-place/ep-025/page-11.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "25화: 돌려 맞춘 빛 11페이지. 도윤은 관절이 멈추되 다시 돌릴 수 있을 만큼만 나사를 조였다."
+            },
+            {
+              "number": 12,
+              "src": "/media/comics/wind-returning-place/ep-025/page-12.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "25화: 돌려 맞춘 빛 12페이지. 윤서는 집게를 자기 자리 가까운 탁자 모서리로 옮겼다."
+            },
+            {
+              "number": 13,
+              "src": "/media/comics/wind-returning-place/ep-025/page-13.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "25화: 돌려 맞춘 빛 13페이지. 그리고 갓을 낮게 눕혀 젖은 카드 옆으로 빛을 흘려 보냈다."
+            },
+            {
+              "number": 14,
+              "src": "/media/comics/wind-returning-place/ep-025/page-14.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "25화: 돌려 맞춘 빛 14페이지. 흰 반사가 사라지자 사진 속 밧줄의 매듭이 또렷하게 드러났다."
+            },
+            {
+              "number": 15,
+              "src": "/media/comics/wind-returning-place/ep-025/page-15.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "25화: 돌려 맞춘 빛 15페이지. 윤서는 어두운 카드에는 등을 조금 더 세워 두 번째 각도를 골랐다."
+            },
+            {
+              "number": 16,
+              "src": "/media/comics/wind-returning-place/ep-025/page-16.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "25화: 돌려 맞춘 빛 16페이지. 순덕은 말없이 다음 카드를 건넸고, 윤서는 스스로 등을 다시 돌렸다."
+            },
+            {
+              "number": 17,
+              "src": "/media/comics/wind-returning-place/ep-025/page-17.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "25화: 돌려 맞춘 빛 17페이지. 서울로 돌아온 도윤은 긴 작업대 양쪽에 움직이는 등을 하나씩 달았다."
+            },
+            {
+              "number": 18,
+              "src": "/media/comics/wind-returning-place/ep-025/page-18.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "25화: 돌려 맞춘 빛 18페이지. 한 방문객은 밝은 인화지를 보려고 등을 낮게 눕혔다."
+            },
+            {
+              "number": 19,
+              "src": "/media/comics/wind-returning-place/ep-025/page-19.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "25화: 돌려 맞춘 빛 19페이지. 맞은편 방문객은 어두운 필름을 보려고 다른 등을 곧게 세웠다."
+            },
+            {
+              "number": 20,
+              "src": "/media/comics/wind-returning-place/ep-025/page-20.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "25화: 돌려 맞춘 빛 20페이지. 도윤은 빛을 정해 두지 않고, 각자의 손이 고른 자리로 가게 두었다."
+            }
+          ],
+          "provenance": {
+            "story": {
+              "stage": "기획·대본",
+              "model": null,
+              "status": "not-recorded",
+              "note": "AI 제작 파이프라인을 사용했으나 정확한 모델 기록은 남아 있지 않습니다."
+            },
+            "image": {
+              "stage": "이미지 생성",
+              "model": "OpenAI Image Generation",
+              "tool": "built-in image_gen",
+              "version": null,
+              "status": "known-provider",
+              "note": "제공사와 생성 도구는 확인되며 정확한 모델 버전은 기록되지 않았습니다."
+            },
+            "lettering": {
+              "stage": "레터링·내보내기",
+              "model": null,
+              "tool": "자동화된 로컬 레터링 도구",
+              "status": "automated-tool",
+              "note": "생성 이미지에 한국어 텍스트와 페이지 정보를 자동 합성했습니다."
+            }
+          }
+        },
+        {
+          "id": "ep-026",
+          "number": 26,
+          "title": "26화: 갈아 둔 천",
+          "shortTitle": "갈아 둔 천",
+          "lead": "젖은 덮개를 갈아 끼우는 작은 손을 보며, 도윤은 보존과 사용을 함께 남기는 법을 배운다.",
+          "closingLine": "나무를 숨기지 않아도, 갈아 둔 천 덕분에 의자는 계속 쓰였다.",
+          "pageCount": 20,
+          "pages": [
+            {
+              "number": 1,
+              "src": "/media/comics/wind-returning-place/ep-026/page-01.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "26화: 갈아 둔 천 1페이지. 서울 작업실에서, 도윤은 낡은 나무 의자를 전시용으로 비웠다."
+            },
+            {
+              "number": 2,
+              "src": "/media/comics/wind-returning-place/ep-026/page-02.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "26화: 갈아 둔 천 2페이지. 좌면의 손때를 닦고, 아무도 앉지 않도록 카메라 가방으로 길을 막았다."
+            },
+            {
+              "number": 3,
+              "src": "/media/comics/wind-returning-place/ep-026/page-03.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "26화: 갈아 둔 천 3페이지. 제주에서도 의자를 쓰게 하면서, 나무 표면은 그대로 남겨 두고 싶었다."
+            },
+            {
+              "number": 4,
+              "src": "/media/comics/wind-returning-place/ep-026/page-04.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "26화: 갈아 둔 천 4페이지. 윤서는 젖은 우비를 벗고 푸른 덮개 위에 앉았다."
+            },
+            {
+              "number": 5,
+              "src": "/media/comics/wind-returning-place/ep-026/page-05.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "26화: 갈아 둔 천 5페이지. 비에 젖은 천이 나무 좌면에 납작하게 붙었다."
+            },
+            {
+              "number": 6,
+              "src": "/media/comics/wind-returning-place/ep-026/page-06.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "26화: 갈아 둔 천 6페이지. 도윤은 덮개가 마를 때까지 의자를 다시 비우려 했다."
+            },
+            {
+              "number": 7,
+              "src": "/media/comics/wind-returning-place/ep-026/page-07.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "26화: 갈아 둔 천 7페이지. 순덕은 젖을 때마다 못 앉게 하면, 덮개가 무슨 소용이냐고 물었다."
+            },
+            {
+              "number": 8,
+              "src": "/media/comics/wind-returning-place/ep-026/page-08.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "26화: 갈아 둔 천 8페이지. 윤서는 뒤로 돌아가 크림색 끈을 하나씩 풀었다."
+            },
+            {
+              "number": 9,
+              "src": "/media/comics/wind-returning-place/ep-026/page-09.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "26화: 갈아 둔 천 9페이지. 순덕은 젖은 덮개를 헹군 뒤, 물이 빠지게 바구니에 넓게 펼쳐 놓았다."
+            },
+            {
+              "number": 10,
+              "src": "/media/comics/wind-returning-place/ep-026/page-10.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "26화: 갈아 둔 천 10페이지. 도윤은 빈 좌면을 닦았고, 의자는 곧 다시 쓸 수 있었다."
+            },
+            {
+              "number": 11,
+              "src": "/media/comics/wind-returning-place/ep-026/page-11.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "26화: 갈아 둔 천 11페이지. 낮은 선반에는 초승달 패치가 달린 마른 덮개가 하나 더 있었다."
+            },
+            {
+              "number": 12,
+              "src": "/media/comics/wind-returning-place/ep-026/page-12.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "26화: 갈아 둔 천 12페이지. 도윤이 끈을 잡자, 윤서는 자기가 할 수 있다며 의자 뒤로 갔다."
+            },
+            {
+              "number": 13,
+              "src": "/media/comics/wind-returning-place/ep-026/page-13.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "26화: 갈아 둔 천 13페이지. 윤서는 두 끈을 짧게 잡아당겨, 자신의 매듭으로 묶었다."
+            },
+            {
+              "number": 14,
+              "src": "/media/comics/wind-returning-place/ep-026/page-14.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "26화: 갈아 둔 천 14페이지. 덮개는 밀리지 않았고, 윤서의 두 발은 그대로 바닥에 닿았다."
+            },
+            {
+              "number": 15,
+              "src": "/media/comics/wind-returning-place/ep-026/page-15.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "26화: 갈아 둔 천 15페이지. 젖은 덮개는 바람 통하는 걸이에, 마른 여분은 손이 닿는 선반에 남았다."
+            },
+            {
+              "number": 16,
+              "src": "/media/comics/wind-returning-place/ep-026/page-16.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "26화: 갈아 둔 천 16페이지. 윤서는 다시 의자에 앉아, 멈춰 둔 사진 분류를 이어 갔다."
+            },
+            {
+              "number": 17,
+              "src": "/media/comics/wind-returning-place/ep-026/page-17.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "26화: 갈아 둔 천 17페이지. 서울에 돌아온 도윤은 의자 곁에 마른 덮개 바구니를 함께 놓았다."
+            },
+            {
+              "number": 18,
+              "src": "/media/comics/wind-returning-place/ep-026/page-18.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "26화: 갈아 둔 천 18페이지. 한 방문객은 젖은 덮개를 스스로 풀어 바구니에 넣었다."
+            },
+            {
+              "number": 19,
+              "src": "/media/comics/wind-returning-place/ep-026/page-19.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "26화: 갈아 둔 천 19페이지. 다른 방문객은 마른 덮개를 골라 뒤 끈을 직접 묶었다."
+            },
+            {
+              "number": 20,
+              "src": "/media/comics/wind-returning-place/ep-026/page-20.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "26화: 갈아 둔 천 20페이지. 나무를 숨기지 않아도, 갈아 둔 천 덕분에 의자는 계속 쓰였다."
+            }
+          ],
+          "provenance": {
+            "story": {
+              "stage": "기획·대본",
+              "model": null,
+              "status": "not-recorded",
+              "note": "AI 제작 파이프라인을 사용했으나 정확한 모델 기록은 남아 있지 않습니다."
+            },
+            "image": {
+              "stage": "이미지 생성",
+              "model": "OpenAI Image Generation",
+              "tool": "built-in image_gen",
+              "version": null,
+              "status": "known-provider",
+              "note": "제공사와 생성 도구는 확인되며 정확한 모델 버전은 기록되지 않았습니다."
+            },
+            "lettering": {
+              "stage": "레터링·내보내기",
+              "model": null,
+              "tool": "자동화된 로컬 레터링 도구",
+              "status": "automated-tool",
+              "note": "생성 이미지에 한국어 텍스트와 페이지 정보를 자동 합성했습니다."
+            }
+          }
+        },
+        {
+          "id": "ep-027",
+          "number": 27,
+          "title": "27화: 끝나고 쓰는 빗자루",
+          "shortTitle": "끝나고 쓰는 빗자루",
+          "lead": "도윤은 먼저 치우는 도움을 멈추고, 각자가 작업의 끝을 고를 수 있는 도구를 낮은 자리에 남긴다.",
+          "closingLine": "깨끗한 자리가 아니라, 끝낼 때를 고른 손이 다음 사람을 맞았다.",
+          "pageCount": 20,
+          "pages": [
+            {
+              "number": 1,
+              "src": "/media/comics/wind-returning-place/ep-027/page-01.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "27화: 끝나고 쓰는 빗자루 1페이지. 서울 작업실에서, 도윤은 주인이 잠시 비운 종이 조각을 먼저 쓸어 냈다."
+            },
+            {
+              "number": 2,
+              "src": "/media/comics/wind-returning-place/ep-027/page-02.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "27화: 끝나고 쓰는 빗자루 2페이지. 돌아온 사람은 아직 맞춰 보던 조각 하나를 찾았다."
+            },
+            {
+              "number": 3,
+              "src": "/media/comics/wind-returning-place/ep-027/page-03.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "27화: 끝나고 쓰는 빗자루 3페이지. 도윤은 제주에서는 시작 전에 작업대를 깨끗이 비우겠다고 생각했다."
+            },
+            {
+              "number": 4,
+              "src": "/media/comics/wind-returning-place/ep-027/page-04.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "27화: 끝나고 쓰는 빗자루 4페이지. 윤서는 나무 의자 곁 낮은 상에서 사진 모서리를 숯연필로 표시했다."
+            },
+            {
+              "number": 5,
+              "src": "/media/comics/wind-returning-place/ep-027/page-05.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "27화: 끝나고 쓰는 빗자루 5페이지. 종이 조각과 지우개 가루가 남았지만, 배열은 아직 끝나지 않았다."
+            },
+            {
+              "number": 6,
+              "src": "/media/comics/wind-returning-place/ep-027/page-06.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "27화: 끝나고 쓰는 빗자루 6페이지. 윤서가 다른 사진을 가지러 간 사이, 도윤은 손빗자루를 들었다."
+            },
+            {
+              "number": 7,
+              "src": "/media/comics/wind-returning-place/ep-027/page-07.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "27화: 끝나고 쓰는 빗자루 7페이지. 윤서는 돌아오자마자, 아직 쓰는 중인 조각이라고 손을 내밀었다."
+            },
+            {
+              "number": 8,
+              "src": "/media/comics/wind-returning-place/ep-027/page-08.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "27화: 끝나고 쓰는 빗자루 8페이지. 순덕은 자리를 비운 것과 끝낸 것은 다르다고 말했다."
+            },
+            {
+              "number": 9,
+              "src": "/media/comics/wind-returning-place/ep-027/page-09.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "27화: 끝나고 쓰는 빗자루 9페이지. 도윤은 모은 조각을 작업판 가장자리에 다시 펼쳐 놓았다."
+            },
+            {
+              "number": 10,
+              "src": "/media/comics/wind-returning-place/ep-027/page-10.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "27화: 끝나고 쓰는 빗자루 10페이지. 윤서는 남은 두 조각을 사진 아래에 차례로 대어 보았다."
+            },
+            {
+              "number": 11,
+              "src": "/media/comics/wind-returning-place/ep-027/page-11.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "27화: 끝나고 쓰는 빗자루 11페이지. 맞지 않는 하나만 빼서, 쓸어도 되는 더미로 옮겼다."
+            },
+            {
+              "number": 12,
+              "src": "/media/comics/wind-returning-place/ep-027/page-12.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "27화: 끝나고 쓰는 빗자루 12페이지. 도윤은 빗자루를 건네지 않고, 손이 닿는 낮은 걸이에 내려놓았다."
+            },
+            {
+              "number": 13,
+              "src": "/media/comics/wind-returning-place/ep-027/page-13.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "27화: 끝나고 쓰는 빗자루 13페이지. 배열을 마친 윤서는 양손을 떼고 작게 고개를 끄덕였다."
+            },
+            {
+              "number": 14,
+              "src": "/media/comics/wind-returning-place/ep-027/page-14.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "27화: 끝나고 쓰는 빗자루 14페이지. 윤서는 푸른 손빗자루로 가루와 버린 조각만 모았다."
+            },
+            {
+              "number": 15,
+              "src": "/media/comics/wind-returning-place/ep-027/page-15.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "27화: 끝나고 쓰는 빗자루 15페이지. 크림색 쓰레받기가 작은 더미를 한 번에 받아 냈다."
+            },
+            {
+              "number": 16,
+              "src": "/media/comics/wind-returning-place/ep-027/page-16.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "27화: 끝나고 쓰는 빗자루 16페이지. 윤서는 두 도구를 나무 의자 옆 낮은 걸이에 돌려놓았다."
+            },
+            {
+              "number": 17,
+              "src": "/media/comics/wind-returning-place/ep-027/page-17.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "27화: 끝나고 쓰는 빗자루 17페이지. 서울에 돌아온 도윤은 공유 작업대 곁에도 같은 높이의 걸이를 달았다."
+            },
+            {
+              "number": 18,
+              "src": "/media/comics/wind-returning-place/ep-027/page-18.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "27화: 끝나고 쓰는 빗자루 18페이지. 한 방문객은 미완성 조각을 그대로 둔 채 잠시 자리를 비웠다."
+            },
+            {
+              "number": 19,
+              "src": "/media/comics/wind-returning-place/ep-027/page-19.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "27화: 끝나고 쓰는 빗자루 19페이지. 돌아온 방문객은 작업을 마친 뒤, 스스로 조각과 가루를 쓸어 냈다."
+            },
+            {
+              "number": 20,
+              "src": "/media/comics/wind-returning-place/ep-027/page-20.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "27화: 끝나고 쓰는 빗자루 20페이지. 깨끗한 자리가 아니라, 끝낼 때를 고른 손이 다음 사람을 맞았다."
+            }
+          ],
+          "provenance": {
+            "story": {
+              "stage": "기획·대본",
+              "model": null,
+              "status": "not-recorded",
+              "note": "AI 제작 파이프라인을 사용했으나 정확한 모델 기록은 남아 있지 않습니다."
+            },
+            "image": {
+              "stage": "이미지 생성",
+              "model": "OpenAI Image Generation",
+              "tool": "built-in image_gen",
+              "version": null,
+              "status": "known-provider",
+              "note": "제공사와 생성 도구는 확인되며 정확한 모델 버전은 기록되지 않았습니다."
+            },
+            "lettering": {
+              "stage": "레터링·내보내기",
+              "model": null,
+              "tool": "자동화된 로컬 레터링 도구",
+              "status": "automated-tool",
+              "note": "생성 이미지에 한국어 텍스트와 페이지 정보를 자동 합성했습니다."
+            }
+          }
+        },
+        {
+          "id": "ep-028",
+          "number": 28,
+          "title": "28화: 옮겨 놓는 칸",
+          "shortTitle": "옮겨 놓는 칸",
+          "lead": "도윤은 같은 칸에 맞추는 정돈을 멈추고, 윤서가 사진의 순서에 맞춰 칸을 옮기도록 자리를 내어 준다.",
+          "closingLine": "칸은 사진을 나누기보다, 고르는 손을 따라 옮겨졌다.",
+          "pageCount": 20,
+          "pages": [
+            {
+              "number": 1,
+              "src": "/media/comics/wind-returning-place/ep-028/page-01.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "28화: 옮겨 놓는 칸 1페이지. 서울 작업실에서, 도윤은 방문객의 인화지를 같은 크기의 칸에 미리 나눠 두었다."
+            },
+            {
+              "number": 2,
+              "src": "/media/comics/wind-returning-place/ep-028/page-02.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "28화: 옮겨 놓는 칸 2페이지. 돌아온 사람은 긴 사진 한 장이 좁은 칸에 눌려 휘어진 것을 발견했다."
+            },
+            {
+              "number": 3,
+              "src": "/media/comics/wind-returning-place/ep-028/page-03.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "28화: 옮겨 놓는 칸 3페이지. 가지런한 칸이, 사진보다 먼저 다른 사람의 순서를 정하고 있었다."
+            },
+            {
+              "number": 4,
+              "src": "/media/comics/wind-returning-place/ep-028/page-04.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "28화: 옮겨 놓는 칸 4페이지. 제주 작업방에서 윤서는 바다와 돌담을 찍은 작은 사진들을 쟁반에 펼쳤다."
+            },
+            {
+              "number": 5,
+              "src": "/media/comics/wind-returning-place/ep-028/page-05.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "28화: 옮겨 놓는 칸 5페이지. 같은 넓이의 세 칸에는 윤서가 고른 긴 가운데 순서가 들어가지 않았다."
+            },
+            {
+              "number": 6,
+              "src": "/media/comics/wind-returning-place/ep-028/page-06.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "28화: 옮겨 놓는 칸 6페이지. 도윤은 사진 크기에 맞춰 한 장씩 빈칸을 채우려 했다."
+            },
+            {
+              "number": 7,
+              "src": "/media/comics/wind-returning-place/ep-028/page-07.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "28화: 옮겨 놓는 칸 7페이지. 윤서는 쟁반을 자기 쪽으로 당기고, 가운데 이야기가 더 길다고 알렸다."
+            },
+            {
+              "number": 8,
+              "src": "/media/comics/wind-returning-place/ep-028/page-08.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "28화: 옮겨 놓는 칸 8페이지. 순덕은 푸른 칸막이 하나를 빼서 옆에 놓고, 사진부터 보라고 했다."
+            },
+            {
+              "number": 9,
+              "src": "/media/comics/wind-returning-place/ep-028/page-09.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "28화: 옮겨 놓는 칸 9페이지. 도윤은 남은 칸막이도 뽑아 쟁반 옆에 느슨하게 내려놓았다."
+            },
+            {
+              "number": 10,
+              "src": "/media/comics/wind-returning-place/ep-028/page-10.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "28화: 옮겨 놓는 칸 10페이지. 윤서는 빈 홈과 두 개의 푸른 칸막이를 차례로 살폈다."
+            },
+            {
+              "number": 11,
+              "src": "/media/comics/wind-returning-place/ep-028/page-11.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "28화: 옮겨 놓는 칸 11페이지. 바다 사진 두 장 뒤에, 첫 칸막이가 곧게 꽂혔다."
+            },
+            {
+              "number": 12,
+              "src": "/media/comics/wind-returning-place/ep-028/page-12.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "28화: 옮겨 놓는 칸 12페이지. 두 번째 칸막이는 더 오른쪽으로 가서 가운데 칸을 넓혔다."
+            },
+            {
+              "number": 13,
+              "src": "/media/comics/wind-returning-place/ep-028/page-13.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "28화: 옮겨 놓는 칸 13페이지. 넓어진 칸에는 세로 사진과 이어지는 두 장이 눌리지 않고 놓였다."
+            },
+            {
+              "number": 14,
+              "src": "/media/comics/wind-returning-place/ep-028/page-14.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "28화: 옮겨 놓는 칸 14페이지. 마지막 좁은 칸에는 크림색 뒷면의 작은 돌담 사진이 들어갔다."
+            },
+            {
+              "number": 15,
+              "src": "/media/comics/wind-returning-place/ep-028/page-15.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "28화: 옮겨 놓는 칸 15페이지. 윤서는 첫 칸막이를 한 홈 옮겨 보고, 사진이 눌리자 다시 돌려놓았다."
+            },
+            {
+              "number": 16,
+              "src": "/media/comics/wind-returning-place/ep-028/page-16.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "28화: 옮겨 놓는 칸 16페이지. 두 장, 넓은 세 장, 한 장의 순서가 윤서가 만든 칸 안에 완성됐다."
+            },
+            {
+              "number": 17,
+              "src": "/media/comics/wind-returning-place/ep-028/page-17.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "28화: 옮겨 놓는 칸 17페이지. 서울에 돌아온 도윤은 칸막이를 꽂지 않은 채 쟁반 곁에 두었다."
+            },
+            {
+              "number": 18,
+              "src": "/media/comics/wind-returning-place/ep-028/page-18.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "28화: 옮겨 놓는 칸 18페이지. 한 방문객은 긴 사진 띠에 맞춰 넓은 칸 하나를 만들었다."
+            },
+            {
+              "number": 19,
+              "src": "/media/comics/wind-returning-place/ep-028/page-19.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "28화: 옮겨 놓는 칸 19페이지. 다음 방문객은 작은 인화지에 맞춰 칸막이를 다시 옮겼다."
+            },
+            {
+              "number": 20,
+              "src": "/media/comics/wind-returning-place/ep-028/page-20.webp",
+              "width": 845,
+              "height": 1055,
+              "alt": "28화: 옮겨 놓는 칸 20페이지. 칸은 사진을 나누기보다, 고르는 손을 따라 옮겨졌다."
+            }
+          ],
+          "provenance": {
+            "story": {
+              "stage": "기획·대본",
+              "model": null,
+              "status": "not-recorded",
+              "note": "AI 제작 파이프라인을 사용했으나 정확한 모델 기록은 남아 있지 않습니다."
+            },
+            "image": {
+              "stage": "이미지 생성",
+              "model": "OpenAI Image Generation",
+              "tool": "built-in image_gen",
+              "version": null,
+              "status": "known-provider",
+              "note": "제공사와 생성 도구는 확인되며 정확한 모델 버전은 기록되지 않았습니다."
+            },
+            "lettering": {
+              "stage": "레터링·내보내기",
+              "model": null,
+              "tool": "자동화된 로컬 레터링 도구",
+              "status": "automated-tool",
+              "note": "생성 이미지에 한국어 텍스트와 페이지 정보를 자동 합성했습니다."
+            }
+          }
+        },
+        {
+          "id": "ep-029",
+          "number": 29,
+          "title": "29화: 멈출 수 있는 부채",
+          "shortTitle": "멈출 수 있는 부채",
+          "lead": "도윤은 빨리 말리는 도움을 멈추고, 윤서가 사진마다 다른 속도와 멈출 때를 직접 고르도록 곁을 지킨다.",
+          "closingLine": "같이 말리는 일에도, 멈추는 때는 각자 달랐다.",
+          "pageCount": 20,
+          "pages": [
+            {
+              "number": 1,
+              "src": "/media/comics/wind-returning-place/ep-029/page-01.webp",
+              "width": 1080,
+              "height": 1261,
+              "alt": "29화: 멈출 수 있는 부채 1페이지. 서울 작업실에서 도윤은 젖은 인화지 두 장을 선풍기 앞에 놓았다."
+            },
+            {
+              "number": 2,
+              "src": "/media/comics/wind-returning-place/ep-029/page-02.webp",
+              "width": 1080,
+              "height": 1261,
+              "alt": "29화: 멈출 수 있는 부채 2페이지. 센 바람이 닿자, 종이 모서리부터 위로 말려 올라갔다."
+            },
+            {
+              "number": 3,
+              "src": "/media/comics/wind-returning-place/ep-029/page-03.webp",
+              "width": 1080,
+              "height": 1261,
+              "alt": "29화: 멈출 수 있는 부채 3페이지. 마감 시계를 본 도윤은 풍량 버튼에 다시 손을 댔다."
+            },
+            {
+              "number": 4,
+              "src": "/media/comics/wind-returning-place/ep-029/page-04.webp",
+              "width": 1080,
+              "height": 1261,
+              "alt": "29화: 멈출 수 있는 부채 4페이지. 제주 작업대에는 무늬 없는 푸른 부채 하나가 접혀 있었다."
+            },
+            {
+              "number": 5,
+              "src": "/media/comics/wind-returning-place/ep-029/page-05.webp",
+              "width": 1080,
+              "height": 1261,
+              "alt": "29화: 멈출 수 있는 부채 5페이지. 윤서의 젖은 잎사귀 사진 세 장은 아직 서로 다른 빛을 머금었다."
+            },
+            {
+              "number": 6,
+              "src": "/media/comics/wind-returning-place/ep-029/page-06.webp",
+              "width": 1080,
+              "height": 1261,
+              "alt": "29화: 멈출 수 있는 부채 6페이지. 선풍기가 켜지자 한 장이 날아가 젖은 면으로 작업대에 붙었다."
+            },
+            {
+              "number": 7,
+              "src": "/media/comics/wind-returning-place/ep-029/page-07.webp",
+              "width": 1080,
+              "height": 1261,
+              "alt": "29화: 멈출 수 있는 부채 7페이지. 윤서가 스위치를 껐다. “제 종이는 제가 말리면 안 돼요?”"
+            },
+            {
+              "number": 8,
+              "src": "/media/comics/wind-returning-place/ep-029/page-08.webp",
+              "width": 1080,
+              "height": 1261,
+              "alt": "29화: 멈출 수 있는 부채 8페이지. 순덕은 들뜬 모서리를 보여 줬다. “급한 바람은 여기부터 망쳐.”"
+            },
+            {
+              "number": 9,
+              "src": "/media/comics/wind-returning-place/ep-029/page-09.webp",
+              "width": 1080,
+              "height": 1261,
+              "alt": "29화: 멈출 수 있는 부채 9페이지. 윤서는 푸른 부채를 반만 펴고 첫 번째 사진 앞에 앉았다."
+            },
+            {
+              "number": 10,
+              "src": "/media/comics/wind-returning-place/ep-029/page-10.webp",
+              "width": 1080,
+              "height": 1261,
+              "alt": "29화: 멈출 수 있는 부채 10페이지. 세 번 부친 뒤, 손을 멈추고 종이 표면을 가까이 살폈다."
+            },
+            {
+              "number": 11,
+              "src": "/media/comics/wind-returning-place/ep-029/page-11.webp",
+              "width": 1080,
+              "height": 1261,
+              "alt": "29화: 멈출 수 있는 부채 11페이지. 한쪽이 마르자 윤서는 사진을 두 손으로 천천히 뒤집었다."
+            },
+            {
+              "number": 12,
+              "src": "/media/comics/wind-returning-place/ep-029/page-12.webp",
+              "width": 1080,
+              "height": 1261,
+              "alt": "29화: 멈출 수 있는 부채 12페이지. 도윤이 손을 내밀자 윤서가 말했다. “아직요. 제가 볼게요.”"
+            },
+            {
+              "number": 13,
+              "src": "/media/comics/wind-returning-place/ep-029/page-13.webp",
+              "width": 1080,
+              "height": 1261,
+              "alt": "29화: 멈출 수 있는 부채 13페이지. 윤서는 젖은 오른쪽 모서리에만 짧은 바람을 보냈다."
+            },
+            {
+              "number": 14,
+              "src": "/media/comics/wind-returning-place/ep-029/page-14.webp",
+              "width": 1080,
+              "height": 1261,
+              "alt": "29화: 멈출 수 있는 부채 14페이지. 도윤은 종이 대신 흔들리는 작업대의 다리를 단단히 잡았다."
+            },
+            {
+              "number": 15,
+              "src": "/media/comics/wind-returning-place/ep-029/page-15.webp",
+              "width": 1080,
+              "height": 1261,
+              "alt": "29화: 멈출 수 있는 부채 15페이지. 세 장은 서로 다른 때에 말랐고, 윤서는 한 장씩 옮겼다."
+            },
+            {
+              "number": 16,
+              "src": "/media/comics/wind-returning-place/ep-029/page-16.webp",
+              "width": 1080,
+              "height": 1261,
+              "alt": "29화: 멈출 수 있는 부채 16페이지. 붙었던 시험지는 버리지 않고 다음 부채질 연습 옆에 두었다."
+            },
+            {
+              "number": 17,
+              "src": "/media/comics/wind-returning-place/ep-029/page-17.webp",
+              "width": 1080,
+              "height": 1261,
+              "alt": "29화: 멈출 수 있는 부채 17페이지. 도윤은 얼굴 대신 접힌 부채와 마른 사진을 카메라에 담았다."
+            },
+            {
+              "number": 18,
+              "src": "/media/comics/wind-returning-place/ep-029/page-18.webp",
+              "width": 1080,
+              "height": 1261,
+              "alt": "29화: 멈출 수 있는 부채 18페이지. 서울 공동 작업에서 두 사람은 각자의 인화지 앞에 부채를 들었다."
+            },
+            {
+              "number": 19,
+              "src": "/media/comics/wind-returning-place/ep-029/page-19.webp",
+              "width": 1080,
+              "height": 1261,
+              "alt": "29화: 멈출 수 있는 부채 19페이지. 옆 사람이 먼저 부채를 접어도 도윤은 자기 종이만 조금 더 말렸다."
+            },
+            {
+              "number": 20,
+              "src": "/media/comics/wind-returning-place/ep-029/page-20.webp",
+              "width": 1080,
+              "height": 1261,
+              "alt": "29화: 멈출 수 있는 부채 20페이지. 같이 말리는 일에도, 멈추는 때는 각자 달랐다."
+            }
+          ],
+          "provenance": {
+            "story": {
+              "stage": "기획·대본",
+              "model": null,
+              "status": "not-recorded",
+              "note": "AI 제작 파이프라인을 사용했으나 정확한 모델 기록은 남아 있지 않습니다."
+            },
+            "image": {
+              "stage": "이미지 생성",
+              "model": "OpenAI Image Generation",
+              "tool": "built-in image_gen",
+              "version": null,
+              "status": "known-provider",
+              "note": "제공사와 생성 도구는 확인되며 정확한 모델 버전은 기록되지 않았습니다."
+            },
+            "lettering": {
+              "stage": "레터링·내보내기",
+              "model": null,
+              "tool": "자동화된 로컬 레터링 도구",
+              "status": "automated-tool",
+              "note": "생성 이미지에 한국어 텍스트와 페이지 정보를 자동 합성했습니다."
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "videos": []
+}
