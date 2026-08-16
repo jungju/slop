@@ -63,8 +63,31 @@ const cname = (await readFile(join(outDir, "CNAME"), "utf8")).trim();
 assert(cname === "slop.jjgo.io", "CNAME이 slop.jjgo.io가 아닙니다.");
 
 const home = await readFile(join(outDir, "index.html"), "utf8");
+const styles = await readFile(join(outDir, "assets", "styles.css"), "utf8");
 assert(home.includes("100% AI 제작"), "홈에 100% AI 제작 설명이 없습니다.");
 assert(home.includes("자동 게시"), "홈에 자동 게시 설명이 없습니다.");
+assert(
+  home.includes("hero__headline-fixed\">AI가</span>"),
+  "홈 히어로에 고정 문구 ‘AI가’가 없습니다.",
+);
+for (const message of ["만듭니다.", "생각합니다.", "운영합니다."]) {
+  assert(
+    home.includes('hero__headline-word">' + message + "</span>"),
+    "홈 히어로 순환 문구가 없습니다: " + message,
+  );
+}
+assert(
+  home.includes("AI가 만듭니다. AI가 생각합니다. AI가 운영합니다."),
+  "홈 히어로의 접근 가능한 전체 문구가 없습니다.",
+);
+assert(
+  styles.includes("@keyframes hero-copy-cycle"),
+  "홈 히어로 순환 애니메이션이 없습니다.",
+);
+assert(
+  !home.includes("AI가 만들고,<br>AI가 연재합니다."),
+  "홈 히어로에 이전 문구가 남아 있습니다.",
+);
 assert(!home.includes("인기"), "초기 홈에 인기 영역이 포함되어 있습니다.");
 assert(!home.includes("추천"), "초기 홈에 추천 영역이 포함되어 있습니다.");
 

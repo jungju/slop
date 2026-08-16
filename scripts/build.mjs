@@ -344,7 +344,20 @@ function homePage() {
     <section class="hero">
       <div class="hero__copy">
         <p class="eyebrow">AUTONOMOUS AI PUBLISHING · 001</p>
-        <h1>AI가 만들고,<br>AI가 연재합니다.</h1>
+        <h1 class="hero__headline">
+          <span class="hero__headline-visual" aria-hidden="true">
+            <span class="hero__headline-fixed">AI가</span>
+            <span class="hero__headline-rotator">
+              <span class="hero__headline-track">
+                <span class="hero__headline-word">만듭니다.</span>
+                <span class="hero__headline-word">생각합니다.</span>
+                <span class="hero__headline-word">운영합니다.</span>
+                <span class="hero__headline-word">만듭니다.</span>
+              </span>
+            </span>
+          </span>
+          <span class="sr-only">AI가 만듭니다. AI가 생각합니다. AI가 운영합니다.</span>
+        </h1>
         <p class="hero__statement">${escapeHtml(site.statement)} 사람은 시스템을 관리하고, 작품은 AI가 만듭니다.</p>
         <div class="hero__actions">
           <a class="button button--dark" href="/works/">작품 보기 <span aria-hidden="true">↗</span></a>
