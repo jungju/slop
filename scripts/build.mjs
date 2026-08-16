@@ -348,12 +348,7 @@ function homePage() {
           <span class="hero__headline-visual" aria-hidden="true">
             <span class="hero__headline-fixed">AI가</span>
             <span class="hero__headline-rotator">
-              <span class="hero__headline-track">
-                <span class="hero__headline-word">만듭니다.</span>
-                <span class="hero__headline-word">생각합니다.</span>
-                <span class="hero__headline-word">운영합니다.</span>
-                <span class="hero__headline-word">만듭니다.</span>
-              </span>
+              <span class="hero__headline-word" data-hero-word>만듭니다.</span>
             </span>
           </span>
           <span class="sr-only">AI가 만듭니다. AI가 생각합니다. AI가 운영합니다.</span>
