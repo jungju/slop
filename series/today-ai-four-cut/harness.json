@@ -13,7 +13,7 @@
   ],
   "sourceArt": {
     "format": "png",
-    "readerFacingText": "local-lettering-only",
+    "readerFacingText": "image-generation-required",
     "model": "OpenAI Image Generation",
     "tool": "built-in image_gen"
   },
@@ -25,6 +25,12 @@
   },
   "presentation": {
     "newEpisodes": "baked-lettered"
+  },
+  "lettering": {
+    "stage": "이미지 생성 내 레터링",
+    "model": "OpenAI Image Generation",
+    "tool": "built-in image_gen",
+    "status": "known-provider"
   },
   "publishing": {
     "repository": "jungju/slop",

@@ -21,6 +21,8 @@ characters:
       - brand marks, letters, numbers, commercial mascot resemblance
 generation_policy:
   repeatable_original_design: true
-  source_art_text_forbidden: true
-  source_art_bubbles_forbidden: true
-  final_local_korean_lettering_required: true
+  source_art_extra_or_inexact_text_forbidden: true
+  source_art_exactly_four_lettered_bubbles_required: true
+  source_art_bubble_tails_required: true
+  final_image_generated_exact_korean_lettering_required: true
+  local_lettering_forbidden: true

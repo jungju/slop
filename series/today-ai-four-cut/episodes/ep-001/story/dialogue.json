@@ -7,34 +7,22 @@
     {
       "number": 1,
       "speaker": "누리",
-      "text": "코드를 정리했는데,\n겉모습만 같으면 괜찮을까요?",
-      "bubbleSide": "left",
-      "tailSide": "right",
-      "gravity": "north"
+      "text": "코드를 정리했는데,\n겉모습만 같으면 괜찮을까요?"
     },
     {
       "number": 2,
       "speaker": "픽",
-      "text": "연구팀은 AI에게\n변경 전후 코드 217쌍을\n비교하게 했어요.",
-      "bubbleSide": "right",
-      "tailSide": "left",
-      "gravity": "north"
+      "text": "연구팀은 AI에게\n변경 전후 코드 217쌍을\n비교하게 했어요."
     },
     {
       "number": 3,
       "speaker": "누리",
-      "text": "13개 문제를 찾았고,\n12개는 실제 버그로\n확인됐대요!",
-      "bubbleSide": "left",
-      "tailSide": "left",
-      "gravity": "center"
+      "text": "13개 문제를 찾았고,\n12개는 실제 버그로\n확인됐대요!"
     },
     {
       "number": 4,
       "speaker": "픽",
-      "text": "하지만 한 프로젝트 결과예요.\nAI는 테스트와 사람 리뷰를\n돕는 경보기예요.",
-      "bubbleSide": "right",
-      "tailSide": "right",
-      "gravity": "north"
+      "text": "하지만 한 프로젝트 결과예요.\nAI는 테스트와 사람 리뷰를\n돕는 경보기예요."
     }
   ]
 }

@@ -1,6 +1,6 @@
 version: 1
 series: today-ai-four-cut
-style_lock: "Original Korean educational webtoon illustration, warm cream paper ground, strong deep-navy ink contours, mustard-yellow highlights, restrained cobalt accents, soft cel shading, clean friendly expressions, polished editorial infographic mood, repeatable original character design, no generated text."
+style_lock: "Original Korean educational webtoon illustration, warm cream paper ground, strong deep-navy ink contours, mustard-yellow highlights, restrained cobalt accents, soft cel shading, clean friendly expressions, polished editorial infographic mood, repeatable original character design, exact Korean title and dialogue integrated by image generation."
 palette:
   ground: warm_cream
   ink: deep_navy
@@ -16,14 +16,17 @@ final_layout:
   panel_grid: "2x2"
   speech_balloons: 4
   balloon_style: "white fill, deep-navy outline, visible tail"
-  lettering: "local Noto Sans KR"
+  balloon_source: "built-in image generation"
+  lettering: "built-in image generation"
   reference: ".codex/skills/today-ai-four-cut-series/assets/reference-layout.png"
 forbidden:
   - generated_readable_text
   - logos_or_watermarks
   - generated_speech_or_empty_bubbles
   - separate_reader_pages
-  - missing_local_korean_balloons
+  - missing_or_inexact_image_generated_korean
+  - locally_drawn_balloon_geometry
+  - local_post_typesetting
   - photorealism_or_live_action
   - deceptive_screenshots
   - celebrity_likeness
