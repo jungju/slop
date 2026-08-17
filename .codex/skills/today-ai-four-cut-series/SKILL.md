@@ -27,7 +27,8 @@ Before any run, read:
 - Keep research evidence, story files, prompts, episode metadata, and final
   reader WebP pages inside each episode package.
 - Deliver every episode as exactly one portrait WebP containing a 2×2 panel
-  grid and four locally typeset Korean speech balloons.
+  grid, four speech balloons, and all Korean title/dialogue/footer lettering
+  completed together inside the built-in image-generation result.
 - Use the shared `scripts/series.mjs` harness. Add work-specific code only when
   the common contract cannot represent a verified requirement.
 - Keep accepted final reader assets. Do not commit rejected candidates,
@@ -55,13 +56,17 @@ episode. Never leave a discovered empty or draft-only series package behind.
    numbered Korean balloon lines in `story/script.md`, exact text and speaker
    bindings in `story/dialogue.json`, and four panel bindings in
    `story/storyboard.yaml`.
-6. Generate four text-free source illustrations under the production contract.
-   Reject generated text, logos, watermarks, photorealism, identity drift,
-   misleading interfaces, or repeated scenes.
-7. Run `.codex/skills/today-ai-four-cut-series/scripts/compose-four-cut.mjs`
-   to assemble the four sources into one 2×2 poster and add four exact Korean
-   speech balloons with local fonts. Never publish the four source panels as
-   four reader pages.
+6. Generate exactly one complete lettered poster under the production
+   contract. In the same image-generation call, create the header, exact Korean
+   title, 2×2 panels, four numbered badges, four speech balloons and tails, all
+   four exact Korean dialogue lines, and the exact Korean footer. Reject any
+   misspelling, paraphrase, missing or extra balloon, missing tail, logo,
+   watermark, photorealism, identity drift, or misleading scene.
+7. Visually compare every generated Korean character and number with
+   `story/dialogue.json`. Retry image generation if any string differs. Copy
+   only the fully correct result to `source-art/page-01-source.png`. Do not use
+   Pillow, ImageMagick, SVG, CSS, canvas, or site markup to add or repair text,
+   balloons, tails, borders, badges, or panels.
 8. Complete `episode.json`, including `lead`, `closingLine`, publication date,
    and confirmed story/image provenance.
 9. Run

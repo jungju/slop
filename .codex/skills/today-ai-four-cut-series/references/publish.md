@@ -20,6 +20,9 @@ Publish only through:
    image containing four distinct bordered panels and four readable Korean
    speech balloons with tails, no redundant caption cards, no overflow, correct
    source-grounded story, and no console errors.
+   Confirm `source-art/page-01-source.png` already contains the exact title,
+   numbers, four balloon dialogues, footer, every balloon, and every tail before
+   finalization, with no local lettering or geometry overlay.
 4. Create a `codex/` branch, stage only the episode, its ledger entry, and
    intentional series changes, commit, push, and open a PR.
 5. Merge only after local gates and PR state pass.

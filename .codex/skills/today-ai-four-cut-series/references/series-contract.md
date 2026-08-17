@@ -20,8 +20,8 @@ Create `series.json` with schema version 1 and the identity above. Create
 - `episodeIdPattern`: `ep-NNN`
 - `pageCount`: `1`
 - `storyLineCount`: `4`
-- source art: PNG, generated reader-facing text forbidden, local Korean
-  lettering required, model
+- source art: one complete PNG poster with four image-generated speech balloons
+  and exact image-generated Korean title, dialogue, numbers, and footer, model
   `OpenAI Image Generation`, tool `built-in image_gen`
 - reader asset: WebP, maximum width 1080, quality 88, repository storage
 - presentation: new episodes use `baked-lettered`
@@ -68,4 +68,7 @@ Create these specs before the first episode:
 Each panel must show a distinct visible action or information-bearing object.
 The final reader asset must be one portrait image with a header, a 2×2 bordered
 panel grid, four white speech balloons with deep-navy outlines and tails, and a
-small footer. The four balloon lines must form a complete explanation.
+small footer. The image model must create the entire lettered poster in one
+generation result. Local code must not add or repair text, digits, balloons,
+tails, borders, or panels. The four balloon lines must form a complete
+explanation.

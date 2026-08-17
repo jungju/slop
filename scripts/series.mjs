@@ -55,14 +55,7 @@ if (command === "list") {
         version: null,
         status: "known-provider",
       },
-      lettering: {
-        stage: item.harness.presentation.newEpisodes === "baked-lettered" ? "이미지 내 레터링" : "웹 레터링",
-        model: null,
-        tool: item.harness.presentation.newEpisodes === "baked-lettered"
-          ? "deterministic local compositor"
-          : "AI Slop site-native captions",
-        status: "automated-tool",
-      },
+      lettering: letteringProvenance(item.harness),
     },
   });
   await writeFile(join(episodeRoot, "story", "outline.md"), `# ${item.definition.title} ${number}: ${title}\n\n`, "utf8");
@@ -180,14 +173,7 @@ async function finalizeEpisode(item, id, sourceRoot, force) {
   episode.status = "published";
   episode.publishedAt ||= new Date().toISOString();
   episode.presentation = { mode: item.harness.presentation.newEpisodes };
-  if (item.harness.presentation.newEpisodes === "baked-lettered") {
-    episode.provenance.lettering = {
-      stage: "이미지 내 레터링",
-      model: null,
-      tool: "deterministic local compositor",
-      status: "automated-tool",
-    };
-  }
+  episode.provenance.lettering = letteringProvenance(item.harness);
   await writeJson(episodePath, episode);
   process.stdout.write(`${item.definition.slug}/${id} 최종화 완료: ${pages.length}페이지\n`);
 }
@@ -210,6 +196,24 @@ function parseOptions(args) {
 
 function parseNumberedLines(text) {
   return text.split(/\r?\n/).map((line) => line.match(/^\s*\d+\.\s+(.+?)\s*$/)?.[1] || "").filter(Boolean);
+}
+
+function letteringProvenance(harness) {
+  if (harness.lettering) return { ...harness.lettering };
+  if (harness.presentation.newEpisodes === "baked-lettered") {
+    return {
+      stage: "이미지 내 레터링",
+      model: null,
+      tool: "deterministic local compositor",
+      status: "automated-tool",
+    };
+  }
+  return {
+    stage: "웹 레터링",
+    model: null,
+    tool: "AI Slop site-native captions",
+    status: "automated-tool",
+  };
 }
 
 async function firstExisting(paths) {
