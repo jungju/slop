@@ -2,10 +2,18 @@
   "schemaVersion": 1,
   "series": "today-ai-four-cut",
   "episodeIdPattern": "ep-NNN",
-  "pageCount": 4,
+  "pageCount": 1,
+  "storyLineCount": 4,
+  "requiredStoryFiles": [
+    "outline.md",
+    "script.md",
+    "storyboard.yaml",
+    "sources.md",
+    "dialogue.json"
+  ],
   "sourceArt": {
     "format": "png",
-    "readerFacingText": "forbidden",
+    "readerFacingText": "local-lettering-only",
     "model": "OpenAI Image Generation",
     "tool": "built-in image_gen"
   },
@@ -16,7 +24,7 @@
     "storage": "repository"
   },
   "presentation": {
-    "newEpisodes": "site-native-caption"
+    "newEpisodes": "baked-lettered"
   },
   "publishing": {
     "repository": "jungju/slop",

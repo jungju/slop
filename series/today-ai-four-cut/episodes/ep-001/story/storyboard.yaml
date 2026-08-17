@@ -1,28 +1,30 @@
 version: 1
 episode: ep-001
-pages:
-  - page: 1
+reader_page: 1
+layout: single_image_2x2
+panels:
+  - panel: 1
     role: hook
     visual_action: "누리가 겉보기에는 같은 크림색 코드 카드 두 장을 나란히 들어 비교하고, 픽이 작은 돋보기를 든다."
     source_claims: [C1]
     continuity: [character.nuri.001, character.pik.001]
     caption: "8월 10일 새 연구는 AI가 파이썬 코드 정리 뒤 숨어든 동작 변화를 찾게 했어요."
     prompt: "Original Korean educational webtoon illustration, warm cream paper ground, strong deep-navy ink contours, mustard-yellow highlights, restrained cobalt accents, soft cel shading, clean friendly expressions, polished editorial infographic mood, repeatable original character design, no reader-facing text. Portrait establishing shot in a cozy editorial desk setting. Nuri, an original Korean woman news editor in her late twenties with short dark-brown bob, warm brown eyes, cream shirt, deep-navy cardigan and mustard notebook tucked under one arm, compares two cream code-like cards containing only abstract navy blocks and lines with no glyphs. Pik, a small original desktop AI guide robot with rounded deep-navy body, cream face screen, two dot eyes, one mustard antenna tip and short flexible arms, raises a plain magnifying glass. Curious precise mood, generous breathing room, absolutely no readable text, letters, numbers, logos, watermark, interface labels, caption, speech bubble or empty bubble, no photorealism."
-  - page: 2
+  - panel: 2
     role: fact
     visual_action: "픽이 변환 전후 코드 카드 쌍들을 차례로 추상적인 AI 검사 장치에 넣고, 누리는 흐름을 노트로 확인한다."
     source_claims: [C2, C3]
     continuity: [character.nuri.001, character.pik.001]
     caption: "연구팀은 Rope가 만든 217쌍의 코드 차이를 모델에 보여 주고, 실행 결과가 달라지는지 물었죠."
     prompt: "Original Korean educational webtoon illustration, warm cream paper ground, strong deep-navy ink contours, mustard-yellow highlights, restrained cobalt accents, soft cel shading, clean friendly expressions, polished editorial infographic mood, repeatable original character design, no reader-facing text. Portrait explanatory medium shot. Pik, the same small rounded deep-navy desktop robot with cream face screen, two dot eyes and mustard antenna tip, feeds paired cream cards with only abstract navy code blocks into a simple cobalt inspection box shaped like a magnifier, while Nuri, same short dark-brown bob, cream shirt and deep-navy cardigan, follows the card flow with her mustard notebook. Several paired cards move in an orderly arc, no count displayed. Generic nonfunctional infographic props, no readable text, letters, numbers, logos, trademarks, watermark, deceptive screenshot, caption, speech bubble or empty bubble, no photorealism."
-  - page: 3
+  - panel: 3
     role: meaning_and_limit
     visual_action: "겨자색 경고 표식 여러 개가 확인 바구니로 옮겨지고, 옆에는 실험 범위를 상징하는 하나의 작은 프로젝트 상자가 남아 있다."
     source_claims: [C4, C5, C6, C7]
     continuity: [character.nuri.001, character.pik.001]
     caption: "13가지 버그를 찾았고 12건은 이슈 추적기에서 버그로 인정됐지만, 한 프로젝트 중심의 실험이에요."
     prompt: "Original Korean educational webtoon illustration, warm cream paper ground, strong deep-navy ink contours, mustard-yellow highlights, restrained cobalt accents, soft cel shading, clean friendly expressions, polished editorial infographic mood, repeatable original character design, no reader-facing text. Portrait consequence-and-comparison composition. Nuri and Pik sort a cluster of distinct mustard warning tokens shaped as plain cracked gears into a deep-navy verification basket; nearly all are in the basket and one differently colored neutral token rests outside. Beside them sits one small cream project box under a modest cobalt spotlight, visually signaling a limited study scope. Nuri's expression is careful rather than triumphant, Pik gestures to the small scope box. Do not depict any quantities as digits or countable numbered labels. No readable text, letters, numbers, logos, watermark, caption, speech bubble, empty bubble, photorealism or exaggerated claim."
-  - page: 4
+  - panel: 4
     role: takeaway
     visual_action: "누리와 픽이 AI 경보기, 테스트 체크 도구, 사람의 돋보기를 삼각형으로 놓고 함께 확인한다."
     source_claims: [C8]
