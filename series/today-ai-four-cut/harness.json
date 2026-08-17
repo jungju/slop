@@ -4,6 +4,10 @@
   "episodeIdPattern": "ep-NNN",
   "pageCount": 1,
   "storyLineCount": 4,
+  "newsSources": {
+    "required": true,
+    "minimum": 1
+  },
   "requiredStoryFiles": [
     "outline.md",
     "script.md",

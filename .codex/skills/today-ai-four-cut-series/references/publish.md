@@ -23,6 +23,8 @@ Publish only through:
    Confirm `source-art/page-01-source.png` already contains the exact title,
    numbers, four balloon dialogues, footer, every balloon, and every tail before
    finalization, with no local lettering or geometry overlay.
+   Confirm the visible “이번 화의 뉴스 근거” section identifies the selected
+   news and opens every structured source URL.
 4. Create a `codex/` branch, stage only the episode, its ledger entry, and
    intentional series changes, commit, push, and open a PR.
 5. Merge only after local gates and PR state pass.

@@ -20,9 +20,9 @@ final_layout:
   lettering: "built-in image generation"
   reference: ".codex/skills/today-ai-four-cut-series/assets/reference-layout.png"
 forbidden:
-  - generated_readable_text
+  - extra_or_inexact_generated_text
   - logos_or_watermarks
-  - generated_speech_or_empty_bubbles
+  - missing_or_extra_generated_speech_bubbles
   - separate_reader_pages
   - missing_or_inexact_image_generated_korean
   - locally_drawn_balloon_geometry

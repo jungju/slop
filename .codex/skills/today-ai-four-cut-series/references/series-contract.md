@@ -27,6 +27,9 @@ Create `series.json` with schema version 1 and the identity above. Create
 - presentation: new episodes use `baked-lettered`
 - publishing repository `jungju/slop`, branch `main`, Live URL
   `https://slop.jjgo.io`, route `/comics/{series}/{episode}/`
+- public episode metadata: a `news` object and at least one structured
+  `sources` entry with label, title, publisher, publication date, URL, and a
+  concise note
 
 Create these specs before the first episode:
 
