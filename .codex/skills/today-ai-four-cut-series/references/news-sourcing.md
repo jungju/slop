@@ -52,3 +52,16 @@ Record:
 
 If a required claim cannot be supported, remove it. If no accurate four-panel
 story remains, stop the run and record the blocker instead of publishing.
+
+## Public source disclosure
+
+Copy the selected news summary and reader-useful source records into
+`episode.json`:
+
+- `news.headline`, `eventDate`, `researchDate`, `summary`, and
+  `selectionNote`
+- `sources[]` entries with `kind`, `label`, `title`, `publisher`,
+  `publishedAt`, `url`, and `note`
+
+Expose the primary source and meaningful confirmation material on the public
+episode page. Do not publish an episode whose source section is missing.

@@ -67,8 +67,9 @@ episode. Never leave a discovered empty or draft-only series package behind.
    only the fully correct result to `source-art/page-01-source.png`. Do not use
    Pillow, ImageMagick, SVG, CSS, canvas, or site markup to add or repair text,
    balloons, tails, borders, badges, or panels.
-8. Complete `episode.json`, including `lead`, `closingLine`, publication date,
-   and confirmed story/image provenance.
+8. Complete `episode.json`, including `lead`, `closingLine`, publication
+   date, public `news` summary, public `sources` links, and confirmed
+   story/image provenance.
 9. Run
    `npm run series -- finalize today-ai-four-cut ep-NNN --source <dir>`.
 10. Run `npm run series -- verify today-ai-four-cut ep-NNN` and `npm run check`.

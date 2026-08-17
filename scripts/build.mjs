@@ -455,7 +455,7 @@ function seriesFeature(currentSeries) {
         <span>${currentEpisodes.length} EPISODES</span>
       </div>
       <div class="series-feature__body">
-        <div class="meta-row"><span>만화</span><span>연재 중</span><span>AI 제작</span></div>
+        <div class="meta-row"><span>만화</span><span>연재 중</span><span>${escapeHtml(currentSeries.schedule?.shortLabel || "AI 제작")}</span></div>
         <h3>${escapeHtml(currentSeries.title)}</h3>
         <p>${escapeHtml(currentSeries.summary)}</p>
         <strong>연재 보기 <span aria-hidden="true">↗</span></strong>
@@ -547,7 +547,7 @@ function processPage() {
     <section class="process-flow" aria-label="제작 과정">
       <article><span>01</span><div><p class="eyebrow">PLAN</p><h2>AI가 기획합니다.</h2><p>주제, 이야기 구조와 회차 구성을 AI 제작 파이프라인이 만듭니다.</p></div></article>
       <article><span>02</span><div><p class="eyebrow">GENERATE</p><h2>AI가 제작합니다.</h2><p>만화 이미지, 영상, 음성과 필요한 구성 요소를 생성합니다.</p></div></article>
-      <article><span>03</span><div><p class="eyebrow">ASSEMBLE</p><h2>자동으로 조립합니다.</h2><p>페이지 순서, 한국어 레터링, 영상 편집과 출력 형식을 자동화 도구가 완성합니다.</p></div></article>
+      <article><span>03</span><div><p class="eyebrow">ASSEMBLE</p><h2>자동으로 조립합니다.</h2><p>작품별 규칙에 따라 이미지 안 대사 또는 사이트 캡션을 사용하고, 페이지 순서와 출력 형식을 완성합니다.</p></div></article>
       <article><span>04</span><div><p class="eyebrow">PUBLISH</p><h2>자동으로 게시합니다.</h2><p>만화는 사이트 내부에 저장하고, 영상은 YouTube에 게시한 뒤 사이트에 연결합니다.</p></div></article>
     </section>
     <section class="format-split">
@@ -580,12 +580,13 @@ function seriesPage(currentSeries) {
         <span>LATEST · ${String(currentLatest.number).padStart(3, "0")}</span>
       </div>
     </section>
+    ${seriesGuide(currentSeries)}
     <section class="series-model">
       <div><p class="eyebrow">MODEL DISCLOSURE</p><h2>제작 모델</h2></div>
       <dl>
         <div><dt>${knownRange} 이미지</dt><dd><a href="/models/openai-image-generation/">OpenAI Image Generation</a></dd></div>
         <div><dt>정확한 버전</dt><dd>기록 없음</dd></div>
-        <div><dt>1–3화 이미지</dt><dd>모델 기록 없음</dd></div>
+        <div><dt>기록 상태</dt><dd>${known.length}/${currentEpisodes.length}화 제공사 확인</dd></div>
       </dl>
     </section>
     <section class="episodes" aria-labelledby="episodes-title">
@@ -595,6 +596,48 @@ function seriesPage(currentSeries) {
       </div>
       <div class="episode-grid">
         ${currentEpisodes.slice().reverse().map((episode) => episodeCard(currentSeries, episode)).join("")}
+      </div>
+    </section>
+  `;
+}
+
+function seriesGuide(currentSeries) {
+  const guideItems = [
+    {
+      label: "연재 일정",
+      title: currentSeries.schedule?.label,
+      detail: currentSeries.schedule?.note,
+    },
+    {
+      label: "작품 형식",
+      title: currentSeries.format?.label,
+      detail: currentSeries.format?.detail,
+    },
+    {
+      label: "내용 기반",
+      title: currentSeries.basis?.label,
+      detail: currentSeries.basis?.detail,
+    },
+    {
+      label: "대상 독자",
+      title: currentSeries.audience,
+      detail: `시간대 · ${currentSeries.schedule?.timezone || "Asia/Seoul"}`,
+    },
+  ];
+  return `
+    <section class="series-guide" aria-labelledby="series-guide-title">
+      <div class="series-guide__intro">
+        <div><p class="eyebrow">SERIES GUIDE</p><h2 id="series-guide-title">작품 안내</h2></div>
+        <p>${escapeHtml(currentSeries.about || currentSeries.summary)}</p>
+      </div>
+      <div class="series-guide__grid">
+        ${guideItems.map((item) => `
+          <article>
+            <span>${escapeHtml(item.label)}</span>
+            <h3>${escapeHtml(item.title)}</h3>
+            <p>${escapeHtml(item.detail)}</p>
+          </article>
+        `).join("")}
       </div>
     </section>
   `;
@@ -635,6 +678,23 @@ function readerPage(currentSeries, episode, index) {
       : `
           <div><dt>이미지 생성</dt><dd>AI 이미지 생성<small>제공사와 정확한 모델 기록 없음</small></dd></div>
         `;
+  const storyDisclosure = `
+    <div>
+      <dt>기획·대본</dt>
+      <dd>${escapeHtml(episode.provenance.story.model || "AI 제작 파이프라인")}
+        <small>${episode.provenance.story.model ? "확인된 모델 기록" : "정확한 모델 기록 없음"}</small>
+      </dd>
+    </div>
+  `;
+  const lettering = episode.provenance.lettering || {};
+  const letteringDisclosure = `
+    <div>
+      <dt>레터링·내보내기</dt>
+      <dd>${escapeHtml(lettering.model || lettering.tool || "기록 없음")}
+        <small>${escapeHtml([lettering.stage, lettering.tool].filter(Boolean).join(" · ") || "제작 기록 없음")}</small>
+      </dd>
+    </div>
+  `;
   return `
     <div class="reader-progress" aria-hidden="true"><span></span></div>
     <section class="reader-intro">
@@ -652,12 +712,13 @@ function readerPage(currentSeries, episode, index) {
       <details class="provenance">
         <summary>이 작품의 제작 정보 <span aria-hidden="true">＋</span></summary>
         <dl>
-          <div><dt>기획·대본</dt><dd>AI 제작 파이프라인<small>정확한 모델 기록 없음</small></dd></div>
+          ${storyDisclosure}
           ${imageDisclosure}
-          <div><dt>레터링·내보내기</dt><dd>자동화된 로컬 도구<small>한국어 텍스트와 페이지 정보를 자동 합성</small></dd></div>
+          ${letteringDisclosure}
         </dl>
       </details>
     </section>
+    ${episodeSources(episode)}
     <section class="comic-reader" aria-label="${escapeHtml(episode.title)} 만화 본문">
       ${episode.pages
         .map(
@@ -685,6 +746,38 @@ function readerPage(currentSeries, episode, index) {
         ${previous ? '<a href="/comics/' + currentSeries.slug + "/" + previous.id + '/"><span>이전 화</span><strong>← ' + escapeHtml(previous.shortTitle) + "</strong></a>" : "<span></span>"}
         ${next ? '<a href="/comics/' + currentSeries.slug + "/" + next.id + '/"><span>다음 화</span><strong>' + escapeHtml(next.shortTitle) + " →</strong></a>" : '<a href="/series/' + currentSeries.slug + '/"><span>최신화입니다</span><strong>전체 회차 →</strong></a>'}
       </nav>
+    </section>
+  `;
+}
+
+function episodeSources(episode) {
+  if (!Array.isArray(episode.sources) || episode.sources.length === 0) return "";
+  const news = episode.news || {};
+  return `
+    <section class="episode-sources" aria-labelledby="episode-sources-title">
+      <div class="episode-sources__intro">
+        <div>
+          <p class="eyebrow">NEWS SOURCES</p>
+          <h2 id="episode-sources-title">이번 화의 뉴스 근거</h2>
+        </div>
+        <p>${escapeHtml(news.summary || "이 회차를 제작할 때 확인한 공개 자료입니다.")}</p>
+      </div>
+      <dl class="episode-sources__facts">
+        <div><dt>선정 뉴스</dt><dd>${escapeHtml(news.headline || episode.shortTitle)}</dd></div>
+        <div><dt>사건일</dt><dd>${escapeHtml(news.eventDate || "기록 없음")}</dd></div>
+        <div><dt>조사일</dt><dd>${escapeHtml(news.researchDate || "기록 없음")}</dd></div>
+      </dl>
+      <div class="episode-sources__list">
+        ${episode.sources.map((source) => `
+          <article>
+            <span>${escapeHtml(source.label)}</span>
+            <h3><a href="${escapeHtml(source.url)}" target="_blank" rel="noreferrer">${escapeHtml(source.title)} <span aria-hidden="true">↗</span></a></h3>
+            <small>${escapeHtml(source.publisher)} · ${escapeHtml(source.publishedAt)}</small>
+            <p>${escapeHtml(source.note || "")}</p>
+          </article>
+        `).join("")}
+      </div>
+      ${news.selectionNote ? `<p class="episode-sources__note"><strong>선정 기준</strong> ${escapeHtml(news.selectionNote)}</p>` : ""}
     </section>
   `;
 }

@@ -95,6 +95,19 @@ async function verifySeries(item, onlyEpisode, errors) {
   for (const episode of episodes) {
     if (episode.pages.length !== episode.pageCount) errors.push(`${episode.id} 페이지 메타데이터가 ${episode.pageCount}개가 아닙니다.`);
     if (!episode.lead || !episode.closingLine) errors.push(`${episode.id} 소개 또는 마지막 문장이 없습니다.`);
+    if (item.harness.newsSources?.required) {
+      const minimum = item.harness.newsSources.minimum || 1;
+      if (!episode.news?.summary) errors.push(`${episode.id} 공개 뉴스 요약이 없습니다.`);
+      if (!Array.isArray(episode.sources) || episode.sources.length < minimum) {
+        errors.push(`${episode.id} 공개 출처가 ${minimum}개 이상 필요합니다.`);
+      } else {
+        for (const source of episode.sources) {
+          if (!(source.label && source.title && source.publisher && source.publishedAt && /^https:\/\//.test(source.url || ""))) {
+            errors.push(`${episode.id} 공개 출처 메타데이터가 불완전합니다.`);
+          }
+        }
+      }
+    }
     const requiredStoryFiles = item.harness.requiredStoryFiles || ["outline.md", "script.md", "storyboard.yaml"];
     for (const storyFile of requiredStoryFiles) {
       try {

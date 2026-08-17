@@ -19,9 +19,27 @@ assert(content.series.length > 0, "등록된 연재가 없습니다.");
 for (const item of packages) {
   assert(item.harness.series === item.definition.id, `${item.definition.slug} 하네스의 series가 일치하지 않습니다.`);
   assert(item.harness.pageCount > 0, `${item.definition.slug} 하네스에 pageCount가 없습니다.`);
+  assert(item.definition.about, `${item.definition.slug} 작품 소개가 없습니다.`);
+  assert(item.definition.audience, `${item.definition.slug} 대상 독자 정보가 없습니다.`);
+  assert(item.definition.format?.label && item.definition.format?.detail, `${item.definition.slug} 형식 정보가 없습니다.`);
+  assert(
+    item.definition.schedule?.label &&
+      item.definition.schedule?.time &&
+      item.definition.schedule?.timezone &&
+      item.definition.schedule?.note,
+    `${item.definition.slug} 연재 일정 정보가 없습니다.`,
+  );
+  assert(item.definition.basis?.label && item.definition.basis?.detail, `${item.definition.slug} 내용 기반 정보가 없습니다.`);
   for (let index = 0; index < item.definition.episodes.length; index += 1) {
     assert(item.definition.episodes[index].number === index + 1, `${item.definition.slug} 회차 번호가 연속적이지 않습니다.`);
   }
+  const seriesHtml = await readFile(
+    join(outDir, "series", item.definition.slug, "index.html"),
+    "utf8",
+  );
+  assert(seriesHtml.includes('id="series-guide-title"'), `${item.definition.slug} 작품 안내가 공개되지 않았습니다.`);
+  assert(seriesHtml.includes(item.definition.schedule.label), `${item.definition.slug} 연재 일정이 공개되지 않았습니다.`);
+  assert(seriesHtml.includes(item.definition.format.label), `${item.definition.slug} 작품 형식이 공개되지 않았습니다.`);
 }
 
 for (const episode of allEpisodes) {
@@ -49,6 +67,16 @@ for (const episode of allEpisodes) {
       episode.provenance.image.model,
       episode.id + "의 확인된 이미지 모델 정보가 없습니다.",
     );
+  }
+  if (Array.isArray(episode.sources) && episode.sources.length > 0) {
+    const readerHtml = await readFile(
+      join(outDir, "comics", episode.seriesSlug, episode.id, "index.html"),
+      "utf8",
+    );
+    assert(readerHtml.includes('id="episode-sources-title"'), `${episode.seriesSlug}/${episode.id} 출처 영역이 공개되지 않았습니다.`);
+    for (const source of episode.sources) {
+      assert(readerHtml.includes(source.url), `${episode.seriesSlug}/${episode.id} 출처 링크가 공개되지 않았습니다: ${source.url}`);
+    }
   }
 }
 const files = await walk(outDir);
