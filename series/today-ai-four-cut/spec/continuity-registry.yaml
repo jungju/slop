@@ -22,3 +22,5 @@ characters:
 generation_policy:
   repeatable_original_design: true
   source_art_text_forbidden: true
+  source_art_bubbles_forbidden: true
+  final_local_korean_lettering_required: true

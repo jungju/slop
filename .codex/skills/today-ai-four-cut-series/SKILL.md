@@ -1,6 +1,6 @@
 ---
 name: today-ai-four-cut-series
-description: Create, continue, audit, or publish the Korean AI-news comic series "오늘의 AI 네 컷" in the AI Slop monorepo. Use for current AI news research, source verification, four-panel episode production, the recurring characters Nuri and Pik, episode packages, reader assets, GitHub Pages publication, or the authorized daily serial automation.
+description: Create, continue, repair, audit, or publish the Korean AI-news comic series "오늘의 AI 네 컷" in the AI Slop monorepo. Use for current AI news research, source verification, single-image four-panel episodes with Korean speech balloons, the recurring characters Nuri and Pik, episode packages, reader assets, GitHub Pages publication, or the authorized daily serial automation.
 ---
 
 # Today AI Four-Cut Series
@@ -26,6 +26,8 @@ Before any run, read:
 - Treat `series/today-ai-four-cut` as the source of truth after bootstrap.
 - Keep research evidence, story files, prompts, episode metadata, and final
   reader WebP pages inside each episode package.
+- Deliver every episode as exactly one portrait WebP containing a 2×2 panel
+  grid and four locally typeset Korean speech balloons.
 - Use the shared `scripts/series.mjs` harness. Add work-specific code only when
   the common contract cannot represent a verified requirement.
 - Keep accepted final reader assets. Do not commit rejected candidates,
@@ -50,17 +52,22 @@ episode. Never leave a discovered empty or draft-only series package behind.
    `npm run series -- scaffold today-ai-four-cut --title "<headline>"` once.
 4. Research and lock one news item under `references/news-sourcing.md`.
 5. Write `story/sources.md`, then a four-beat `story/outline.md`, exactly four
-   numbered Korean lines in `story/script.md`, and four page bindings in
+   numbered Korean balloon lines in `story/script.md`, exact text and speaker
+   bindings in `story/dialogue.json`, and four panel bindings in
    `story/storyboard.yaml`.
-6. Generate exactly four text-free source illustrations under the production
-   contract. Reject generated text, logos, watermarks, speech bubbles,
-   photorealism, identity drift, misleading interfaces, or repeated scenes.
-7. Complete `episode.json`, including `lead`, `closingLine`, publication date,
+6. Generate four text-free source illustrations under the production contract.
+   Reject generated text, logos, watermarks, photorealism, identity drift,
+   misleading interfaces, or repeated scenes.
+7. Run `.codex/skills/today-ai-four-cut-series/scripts/compose-four-cut.mjs`
+   to assemble the four sources into one 2×2 poster and add four exact Korean
+   speech balloons with local fonts. Never publish the four source panels as
+   four reader pages.
+8. Complete `episode.json`, including `lead`, `closingLine`, publication date,
    and confirmed story/image provenance.
-8. Run
+9. Run
    `npm run series -- finalize today-ai-four-cut ep-NNN --source <dir>`.
-9. Run `npm run series -- verify today-ai-four-cut ep-NNN` and `npm run check`.
-10. Append the episode and its source fingerprint to
+10. Run `npm run series -- verify today-ai-four-cut ep-NNN` and `npm run check`.
+11. Append the episode and its source fingerprint to
     `spec/episode-ledger.md`. Update durable series rules only when they change.
 
 ## Publication boundary

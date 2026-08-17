@@ -18,11 +18,13 @@ Create `series.json` with schema version 1 and the identity above. Create
 `harness.json` with:
 
 - `episodeIdPattern`: `ep-NNN`
-- `pageCount`: `4`
-- source art: PNG, reader-facing text forbidden, model
+- `pageCount`: `1`
+- `storyLineCount`: `4`
+- source art: PNG, generated reader-facing text forbidden, local Korean
+  lettering required, model
   `OpenAI Image Generation`, tool `built-in image_gen`
 - reader asset: WebP, maximum width 1080, quality 88, repository storage
-- presentation: new episodes use `site-native-caption`
+- presentation: new episodes use `baked-lettered`
 - publishing repository `jungju/slop`, branch `main`, Live URL
   `https://slop.jjgo.io`, route `/comics/{series}/{episode}/`
 
@@ -63,5 +65,7 @@ Create these specs before the first episode:
 4. Takeaway: give a useful conclusion without hype, investment advice, or a
    prediction presented as fact.
 
-Each page must show a distinct visible action or information-bearing object.
-The four captions must form a complete explanation when read without the art.
+Each panel must show a distinct visible action or information-bearing object.
+The final reader asset must be one portrait image with a header, a 2×2 bordered
+panel grid, four white speech balloons with deep-navy outlines and tails, and a
+small footer. The four balloon lines must form a complete explanation.

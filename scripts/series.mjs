@@ -1,5 +1,5 @@
 import { execFile } from "node:child_process";
-import { access, mkdir, readFile, stat, writeFile } from "node:fs/promises";
+import { access, mkdir, readFile, readdir, rm, stat, writeFile } from "node:fs/promises";
 import { basename, dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { promisify } from "node:util";
@@ -56,9 +56,11 @@ if (command === "list") {
         status: "known-provider",
       },
       lettering: {
-        stage: "웹 레터링",
+        stage: item.harness.presentation.newEpisodes === "baked-lettered" ? "이미지 내 레터링" : "웹 레터링",
         model: null,
-        tool: "AI Slop site-native captions",
+        tool: item.harness.presentation.newEpisodes === "baked-lettered"
+          ? "deterministic local compositor"
+          : "AI Slop site-native captions",
         status: "automated-tool",
       },
     },
@@ -100,7 +102,8 @@ async function verifySeries(item, onlyEpisode, errors) {
   for (const episode of episodes) {
     if (episode.pages.length !== episode.pageCount) errors.push(`${episode.id} 페이지 메타데이터가 ${episode.pageCount}개가 아닙니다.`);
     if (!episode.lead || !episode.closingLine) errors.push(`${episode.id} 소개 또는 마지막 문장이 없습니다.`);
-    for (const storyFile of ["outline.md", "script.md", "storyboard.yaml"]) {
+    const requiredStoryFiles = item.harness.requiredStoryFiles || ["outline.md", "script.md", "storyboard.yaml"];
+    for (const storyFile of requiredStoryFiles) {
       try {
         await access(join(item.episodesRoot, episode.id, "story", storyFile));
       } catch {
@@ -126,7 +129,11 @@ async function finalizeEpisode(item, id, sourceRoot, force) {
   const episode = JSON.parse(await readFile(episodePath, "utf8"));
   if (episode.status === "published" && !force) throw new Error(`${id}은 이미 게시 상태입니다. 다시 만들려면 --force를 사용하세요.`);
   const captions = parseNumberedLines(await readFile(join(episodeRoot, "story", "script.md"), "utf8"));
-  if (captions.length !== item.harness.pageCount) throw new Error(`script.md는 정확히 ${item.harness.pageCount}개의 번호 문장이 필요합니다.`);
+  const storyLineCount = item.harness.storyLineCount || item.harness.pageCount;
+  if (captions.length !== storyLineCount) throw new Error(`script.md는 정확히 ${storyLineCount}개의 번호 문장이 필요합니다.`);
+  if (storyLineCount !== item.harness.pageCount && item.harness.pageCount !== 1) {
+    throw new Error("storyLineCount가 pageCount와 다를 때는 한 페이지 합성 형식만 지원합니다.");
+  }
   if (!episode.lead || !episode.closingLine) throw new Error("episode.json의 lead와 closingLine을 먼저 작성하세요.");
   const targetRoot = join(episodeRoot, "pages");
   await mkdir(targetRoot, { recursive: true });
@@ -155,20 +162,32 @@ async function finalizeEpisode(item, id, sourceRoot, force) {
     ], { windowsHide: true });
     const { stdout } = await execFileAsync("magick", ["identify", "-format", "%w|%h", target], { windowsHide: true });
     const [width, height] = stdout.trim().split("|").map(Number);
+    const caption = item.harness.pageCount === storyLineCount
+      ? captions[number - 1]
+      : captions.join(" ");
     pages.push({
       number,
       file,
       width,
       height,
-      caption: captions[number - 1],
-      alt: `${episode.title} ${number}페이지. ${captions[number - 1]}`,
+      caption,
+      alt: `${episode.title} ${number}페이지. ${caption}`,
     });
   }
+  await cleanupExtraReaderPages(targetRoot, item.harness.pageCount);
   episode.pages = pages;
   episode.pageCount = pages.length;
   episode.status = "published";
   episode.publishedAt ||= new Date().toISOString();
-  episode.presentation = { mode: "site-native-caption" };
+  episode.presentation = { mode: item.harness.presentation.newEpisodes };
+  if (item.harness.presentation.newEpisodes === "baked-lettered") {
+    episode.provenance.lettering = {
+      stage: "이미지 내 레터링",
+      model: null,
+      tool: "deterministic local compositor",
+      status: "automated-tool",
+    };
+  }
   await writeJson(episodePath, episode);
   process.stdout.write(`${item.definition.slug}/${id} 최종화 완료: ${pages.length}페이지\n`);
 }
@@ -201,6 +220,15 @@ async function firstExisting(paths) {
     } catch {}
   }
   return null;
+}
+
+async function cleanupExtraReaderPages(targetRoot, pageCount) {
+  for (const file of await readdir(targetRoot)) {
+    const match = file.match(/^page-(\d{2})\.webp$/);
+    if (match && Number.parseInt(match[1], 10) > pageCount) {
+      await rm(join(targetRoot, file));
+    }
+  }
 }
 
 async function writeJson(path, value) {

@@ -16,15 +16,17 @@ Publish only through:
    npm run check
    ```
 
-3. Verify the local episode route at desktop and mobile widths: four distinct
-   images, readable captions, no overflow, correct source-grounded story, and
-   no console errors.
+3. Verify the local episode route at desktop and mobile widths: exactly one
+   image containing four distinct bordered panels and four readable Korean
+   speech balloons with tails, no redundant caption cards, no overflow, correct
+   source-grounded story, and no console errors.
 4. Create a `codex/` branch, stage only the episode, its ledger entry, and
    intentional series changes, commit, push, and open a PR.
 5. Merge only after local gates and PR state pass.
 6. Wait for `Deploy GitHub Pages` to succeed.
 7. Verify the Live route returns 200, identifies the expected episode, contains
-   four pages, and every reader asset returns 200.
+   one reader page with the 2×2 four-cut poster, and its reader asset returns
+   200.
 8. Record the episode, source fingerprint, merge commit, PR, deployment run,
    Live URL, and next episode in automation memory.
 
