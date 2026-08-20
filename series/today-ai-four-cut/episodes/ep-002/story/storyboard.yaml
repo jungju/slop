@@ -1,0 +1,41 @@
+version: 2
+episode: ep-002
+reader_page: 1
+layout: single_image_2x2
+generation_mode: one_complete_lettered_poster
+reference: ".codex/skills/today-ai-four-cut-series/assets/reference-layout.png"
+exact_copy:
+  kicker: "AI 뉴스 네 컷"
+  title: "청소년용 ChatGPT가 따로 생겼다"
+  footer: "AI 안전은 기능과 실제 효과를 함께 봐야 해요."
+  panels:
+    - { number: "1", speaker: "누리", text: "청소년이 쓰는 ChatGPT,\n이제 뭐가 달라졌나요?" }
+    - { number: "2", speaker: "픽", text: "13세부터 17세 계정엔\n청소년 모드가 자동으로 켜져요." }
+    - { number: "3", speaker: "누리", text: "공부는 답 대신 풀이를 돕고,\n위험한 대화는 더 막아요." }
+    - { number: "4", speaker: "픽", text: "그래도 안전이 증명된 건 아니에요.\n보호자와 함께 살펴봐요." }
+panels:
+  - panel: 1
+    role: hook
+    visual_action: "누리가 청소년 학습 화면 앞에서 달라진 점을 묻는다."
+    source_claims: [C1]
+    tail_target: character.nuri.001
+  - panel: 2
+    role: fact
+    visual_action: "픽이 13세부터 17세 계정 카드에 청소년 모드 방패가 자동 적용되는 흐름을 보여 준다."
+    source_claims: [C2, C3]
+    tail_target: character.pik.001
+  - panel: 3
+    role: meaning_and_limit
+    visual_action: "누리가 단계별 풀이 카드와 위험 대화를 막는 방패를 비교한다."
+    source_claims: [C4, C5]
+    tail_target: character.nuri.001
+  - panel: 4
+    role: takeaway
+    visual_action: "픽과 누리가 보호자 체크리스트로 안전 설정과 실제 효과를 함께 점검한다."
+    source_claims: [C6, C7]
+    tail_target: character.pik.001
+generation_requirements:
+  - "Built-in image generation creates the complete poster, panel borders, balloons, tails, all exact Korean copy, and digits in one result."
+  - "Exactly four panels and exactly four speech balloons."
+  - "No local lettering, local balloon drawing, or post-generation text repair."
+  - "Reject and regenerate for any typo, paraphrase, missing character, extra text, fake Korean, missing tail, or identity drift."

@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-002",
+  "number": 2,
+  "title": "2화: 청소년용 ChatGPT가 따로 생겼다",
+  "shortTitle": "청소년용 ChatGPT가 따로 생겼다",
+  "lead": "OpenAI가 13~17세 이용자에게 학습 도구와 강화된 보호 기능을 기본 적용하는 ChatGPT for Teens를 공개했다.",
+  "closingLine": "기본 보호 장치는 출발점이며 실제 효과는 계속 확인해야 한다.",
+  "news": {
+    "headline": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+    "eventDate": "2026-08-18",
+    "researchDate": "2026-08-21",
+    "summary": "OpenAI가 13~17세로 확인되거나 추정된 계정에 학습 중심 기능과 연령별 안전 장치를 자동 적용하는 청소년용 ChatGPT 경험을 출시했습니다.",
+    "selectionNote": "최근 48시간의 주요 발표를 검토한 뒤, 청소년의 교육과 안전에 직접 영향을 주고 독립 보도에서 한계도 확인된 최근 3일 내 출시를 선택했습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "1차 출처",
+      "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+      "publisher": "OpenAI",
+      "publishedAt": "2026-08-18",
+      "url": "https://openai.com/index/chatgpt-for-teens/",
+      "note": "자동 적용 대상, 학습 기능, 기본 안전 장치와 보호자 기능을 확인한 공식 발표입니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 확인",
+      "title": "OpenAI introduces ChatGPT for Teens, promising a more age-appropriate chatbot",
+      "publisher": "Associated Press",
+      "publishedAt": "2026-08-18",
+      "url": "https://apnews.com/article/openai-chatgpt-teens-ai-safety-650cb35591de6546054d6c4e73b3290a",
+      "note": "출시 내용을 확인하고, 아동 옹호 전문가가 보호 효과는 아직 검증되지 않았다고 지적한 보도입니다."
+    }
+  ],
+  "publishedAt": "2026-08-20T21:06:40.574Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: 청소년이 쓰는 ChatGPT, 이제 뭐가 달라졌나요? 픽: 13세부터 17세 계정엔 청소년 모드가 자동으로 켜져요. 누리: 공부는 답 대신 풀이를 돕고, 위험한 대화는 더 막아요. 픽: 그래도 안전이 증명된 건 아니에요. 보호자와 함께 살펴봐요.",
+      "alt": "2화: 청소년용 ChatGPT가 따로 생겼다 1페이지. 누리: 청소년이 쓰는 ChatGPT, 이제 뭐가 달라졌나요? 픽: 13세부터 17세 계정엔 청소년 모드가 자동으로 켜져요. 누리: 공부는 답 대신 풀이를 돕고, 위험한 대화는 더 막아요. 픽: 그래도 안전이 증명된 건 아니에요. 보호자와 함께 살펴봐요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": "GPT-5",
+      "status": "known-model"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}
