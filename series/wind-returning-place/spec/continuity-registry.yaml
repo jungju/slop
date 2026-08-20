@@ -2,6 +2,35 @@ version: 1
 factory_type: comic
 comic_id: wind-returning-place
 elements:
+  - id: prop.work-pause-token.001
+    name: 세워 두는 푸른 작업패
+    category: prop
+    scope: episode
+    status: active
+    introduced_in: ep-031
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-031
+        active_until: ep-031
+        supersedes: null
+        immutable_features:
+          - palm-sized oval wooden token painted muted cobalt blue on both faces
+          - narrow cream-painted edge and one tiny cream crescent chip near the lower edge
+          - separate low aged-brass tabletop slot that holds the token upright
+          - upright token means work pauses and flat token means the chosen work may proceed
+          - no text, numbers, arrows, hand symbol, logo, label, or printed mark
+        mutable_features:
+          - upright in the brass slot, lying flat, or held in one hand
+          - Jeju repair room or Seoul shared repair workroom
+          - beside a wooden pencil box, tools, or weathered picture frame
+        reference_asset_ids:
+          - prop-work-pause-token-001-v1-text-lock
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: text_locked
   - id: prop.quick-release-photo-wrap.001
     name: 내가 푸는 푸른 사진 보자기
     category: prop

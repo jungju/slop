@@ -303,6 +303,17 @@ the present. Future episodes should avoid immediately repeating photo bundles,
 cut cords, quick-release knots, broad pull loops, scissors, or self-opening
 handoff payoffs.
 
+Episode 31 turns reversible handoff into revisable repair scope. The oval
+cobalt work-pause token and brass tabletop slot,
+`prop.work-pause-token.001@v1`, teach Doyun that accepting an object does not
+grant permission for every possible improvement. Yunseo stops irreversible
+sanding, chooses only the loose hinge repair, tests the result herself, and
+keeps the blue crescent scuff she made. Soondeok supplies the pause rule;
+Minjae remains absent in the present. Future episodes should avoid immediately
+repeating wooden pencil boxes, loose brass hinges, blue crescent scuffs,
+sandpaper or oil, upright/flat work tokens, tabletop slots, or repair-scope
+payoffs.
+
 ## Good Future Episode Engines
 
 Use one concrete motif and one emotional question:
