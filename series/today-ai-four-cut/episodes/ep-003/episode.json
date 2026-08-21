@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-003",
+  "number": 3,
+  "title": "3화: 강한 보안 AI가 방어 도구에 들어갔다",
+  "shortTitle": "강한 보안 AI가 방어 도구에 들어갔다",
+  "lead": "Anthropic이 제한적으로 제공하던 강력한 사이버보안 모델 Claude Mythos 5를 코드 취약점 탐지와 수정 제안에 쓰는 Claude Security에 적용했다.",
+  "closingLine": "강한 보안 AI도 정해진 범위와 사람의 검토 안에서 써야 한다.",
+  "news": {
+    "headline": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
+    "eventDate": "2026-08-21",
+    "researchDate": "2026-08-22",
+    "summary": "Anthropic이 Claude Mythos 5를 Enterprise용 Claude Security 공개 베타의 코드 취약점 검사에 적용하고, 방어 도구 파트너 통합과 오픈소스 보안 지원 확대 계획을 발표했습니다.",
+    "selectionNote": "최근 48시간의 공식 AI 발표 가운데 실제 보안 업무의 도구와 접근 방식이 달라진 사례를 선택했으며, 독립 정부 평가로 이 모델 계열의 강한 사이버 능력과 현실 적용 한계를 함께 확인했습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "1차 출처",
+      "title": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
+      "publisher": "Anthropic",
+      "publishedAt": "2026-08-21",
+      "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
+      "note": "Claude Security 적용 범위, 제한된 결과 제공 방식, 사람의 패치 검토 요건을 확인한 공식 발표입니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 확인",
+      "title": "Our evaluation of Claude Mythos Preview’s cyber capabilities",
+      "publisher": "UK AI Security Institute",
+      "publishedAt": "2026-04-10",
+      "url": "https://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities",
+      "note": "이전 Mythos 계열의 강한 사이버 능력을 독립 평가하고, 시험 환경이 실제 방어 환경보다 단순하다는 한계를 밝힌 정부 연구기관 자료입니다."
+    }
+  ],
+  "publishedAt": "2026-08-21T21:06:06.003Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: 공격도 잘하는 AI를 방어에 써도 괜찮을까요? 픽: Mythos 5가 코드의 취약점을 찾고 수정안을 제안해요. 누리: 사용자는 정해진 결과만 받고, 모델엔 직접 접근하지 못해요. 픽: 그래도 자동 해결은 아니에요. 수정 전엔 사람이 꼭 검토해요.",
+      "alt": "3화: 강한 보안 AI가 방어 도구에 들어갔다 1페이지. 누리: 공격도 잘하는 AI를 방어에 써도 괜찮을까요? 픽: Mythos 5가 코드의 취약점을 찾고 수정안을 제안해요. 누리: 사용자는 정해진 결과만 받고, 모델엔 직접 접근하지 못해요. 픽: 그래도 자동 해결은 아니에요. 수정 전엔 사람이 꼭 검토해요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": "GPT-5",
+      "status": "known-model"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}

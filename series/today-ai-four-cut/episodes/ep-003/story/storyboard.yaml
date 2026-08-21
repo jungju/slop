@@ -1,0 +1,41 @@
+version: 2
+episode: ep-003
+reader_page: 1
+layout: single_image_2x2
+generation_mode: one_complete_lettered_poster
+reference: ".codex/skills/today-ai-four-cut-series/assets/reference-layout.png"
+exact_copy:
+  kicker: "AI 뉴스 네 컷"
+  title: "강한 보안 AI가 방어 도구에 들어갔다"
+  footer: "강한 AI일수록 범위 제한과 사람 검토가 필요해요."
+  panels:
+    - { number: "1", speaker: "누리", text: "공격도 잘하는 AI를\n방어에 써도 괜찮을까요?" }
+    - { number: "2", speaker: "픽", text: "Mythos 5가 코드의 취약점을 찾고\n수정안을 제안해요." }
+    - { number: "3", speaker: "누리", text: "사용자는 정해진 결과만 받고,\n모델엔 직접 접근하지 못해요." }
+    - { number: "4", speaker: "픽", text: "그래도 자동 해결은 아니에요.\n수정 전엔 사람이 꼭 검토해요." }
+panels:
+  - panel: 1
+    role: hook
+    visual_action: "누리가 방패와 경고 표시가 뜬 코드 화면 앞에서 공격에도 강한 AI를 방어에 써도 되는지 묻는다."
+    source_claims: [C1, C6]
+    tail_target: character.nuri.001
+  - panel: 2
+    role: fact
+    visual_action: "픽이 Claude Security 안에서 Mythos 5가 코드 취약점을 찾아 수정안 카드를 내는 흐름을 보여 준다."
+    source_claims: [C2, C3]
+    tail_target: character.pik.001
+  - panel: 3
+    role: meaning_and_limit
+    visual_action: "누리가 잠긴 모델 상자와 밖으로 나온 패치 카드만 비교하며 직접 접근이 제한됨을 확인한다."
+    source_claims: [C4]
+    tail_target: character.nuri.001
+  - panel: 4
+    role: takeaway
+    visual_action: "픽이 사람 검토자가 승인하기 전에는 수정안이 적용되지 않는 체크리스트를 가리킨다."
+    source_claims: [C5, C7]
+    tail_target: character.pik.001
+generation_requirements:
+  - "Built-in image generation creates the complete poster, panel borders, balloons, tails, all exact Korean copy, and digits in one result."
+  - "Exactly four panels and exactly four speech balloons."
+  - "No local lettering, local balloon drawing, or post-generation text repair."
+  - "Reject and regenerate for any typo, paraphrase, missing character, extra text, fake Korean, missing tail, or identity drift."
