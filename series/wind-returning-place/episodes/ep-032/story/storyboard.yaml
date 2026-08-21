@@ -1,0 +1,105 @@
+version: 1
+episode: ep-032
+title: "돌려 보는 한 장"
+format: vertical_scroll
+page_count: 20
+reading_order: top_to_bottom
+core_elements:
+  - { id: character.doyun.001, version: 1, panels: [1, 2, 3, 4, 8, 11, 13, 15, 18, 20] }
+  - { id: character.yunseo.001, version: 1, panels: [3, 5, 6, 8, 9, 10, 12, 14, 15, 16, 17] }
+  - { id: character.soondeok.001, version: 1, panels: [7, 8] }
+  - { id: prop.rotating-print-back.001, version: 1, panels: [11, 12, 13, 14, 15, 16, 18, 19, 20] }
+accepted_prompt_addenda:
+  2: "Single full-frame illustration; no inset panels or split-screen."
+  6: "Yunseo is unmistakably an 8-year-old child with a short straight jaw-length black bob and blunt bangs; Doyun is a visibly taller 26-year-old adult in gray hoodie and dark coat."
+  8: "Yunseo is an 8-year-old child with a jaw-length bob; Doyun is a 26-year-old adult; Soondeok is elderly; exactly one physical photograph rests on the easel."
+  9: "Only one portrait photograph with blue sea, one vertical pier post, and one downward child shadow; Yunseo is a small child with a jaw-length bob."
+  10: "Yunseo is an 8-year-old child with a jaw-length bob; Doyun is a 26-year-old adult; no arrows, diagrams, or motion symbols; the board shows only the pier photograph."
+  12: "Overhead child view; Yunseo has a jaw-length bob and child proportions; no adult woman."
+  13: "Yunseo is an 8-year-old child holding the separate brass pin; Doyun is a 26-year-old adult fastening the plate."
+  14: "Only child Yunseo touches the board and pin; adult Doyun stands back with hands lowered."
+  15: "Child Yunseo stands nearest the portrait photograph; Doyun's hands are lowered; no adult woman."
+  16: "One continuous moment: child Yunseo holds the removed brass pin while the portrait board is slightly turned; no step-by-step panels or duplicates."
+  17: "Yunseo is clearly a small child with a jaw-length bob; the portrait photograph hangs at child eye height."
+  19: "Single full-frame scene with one owner manipulating one mounted board while Doyun stands aside; no panels or repeated figures."
+pages:
+  - panel: 1
+    beat: "접착된 사진의 방향을 바꿀 수 없다"
+    caption: "서울에서 도윤은 접착된 사진의 방향을 바꿀 수 없다는 말을 들었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Seoul workroom, slim 26-year-old Korean man Han Doyun with slightly long wavy black hair, gray hoodie under dark coat, listens as an adult owner points at a landscape photograph permanently glued sideways on a plain backing board; dried adhesive visible at corners, disappointed practical moment. No photorealism, text, logo, watermark, caption, speech bubble."
+  - panel: 2
+    beat: "도윤이 되돌릴 수 있는 전시를 정한다"
+    caption: "제주 전시는 사진을 다시 돌릴 수 있게 준비하기로 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Doyun in Seoul workroom closes an unlabelled glue bottle and places it aside, then lays out clean removable corner mounts and a plain backing board for a Jeju exhibition; old brown messenger bag and black-silver film camera nearby. No photorealism, text, logo, watermark, caption, speech bubble."
+  - panel: 3
+    beat: "윤서가 방파제 사진을 건넨다"
+    caption: "윤서는 세로로 찍은 방파제 사진 한 장을 도윤에게 건넸다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Jeju community workroom; elementary-school-age Korean girl Kang Yunseo with clear child proportions, short straight black bob, muted sea-blue hooded rain jacket, cream sweatshirt, charcoal pants, hands Doyun one unlettered photograph showing abstract sea-blue water, one dark vertical pier post, and her small long shadow. No photorealism, text, logo, watermark, caption, speech bubble."
+  - panel: 4
+    beat: "도윤이 사진을 가로로 눕힌다"
+    caption: "도윤은 바다를 넓게 보이게 하려고 사진을 가로로 눕혔다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Overhead worktable view: Doyun rotates Yunseo's rectangular pier photograph into landscape orientation on a cream backing board, focusing on the broad sea area; the dark pier post and child shadow now visibly lie sideways inside the image. No photorealism, text, logo, watermark, caption, speech bubble."
+  - panel: 5
+    beat: "사진 속 기둥과 그림자가 눕는다"
+    caption: "사진 속 방파제 기둥과 윤서의 그림자가 옆으로 누웠다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Close-up of the landscape-oriented unlettered photograph: one dark pier post points sideways and a small child's long shadow runs horizontally in an obviously wrong gravity direction; Yunseo's small fingertip hovers beside the error. No photorealism, text, logo, watermark, caption, speech bubble."
+  - panel: 6
+    beat: "윤서가 자신이 본 방향으로 세운다"
+    caption: "윤서는 사진을 세워 들었다. “제가 본 쪽은 이쪽이에요.”"
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Yunseo lifts the rectangular photograph into portrait orientation with both small hands; within it the pier post stands upright and shadow falls downward, her calm direct face visible behind the top edge while Doyun watches with hands lowered. No photorealism, text, logo, watermark, caption, speech bubble."
+  - panel: 7
+    beat: "순덕이 멀리서 돌려 보는 검사를 제안한다"
+    caption: "순덕은 말했다. “멀리 놓고 한 바퀴 돌려 봐.”"
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Elderly Jeju Korean woman Soondeok with short gray-white hair and sea-colored practical outerwear sets a low empty easel several steps from the worktable and makes a simple circular hand gesture toward the photograph, grounded instruction in an ordinary community room. No photorealism, text, logo, watermark, caption, speech bubble."
+  - panel: 8
+    beat: "세 사람이 두 방향을 비교한다"
+    caption: "세 사람은 가로와 세로를 번갈아 놓고 사진을 비교했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Wide Jeju workroom view; Doyun, child Yunseo, and elderly Soondeok stand several steps back as the same single pier photograph rests on a low easel, Yunseo turns it between landscape and portrait orientations; only one physical photo, no duplicates. No photorealism, text, logo, watermark, caption, speech bubble."
+  - panel: 9
+    beat: "세로에서 기둥과 그림자가 바로 선다"
+    caption: "세로로 놓자 방파제 기둥이 서고 그림자가 아래로 이어졌다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Portrait-oriented pier photograph on low easel fills most of frame; abstract blue sea, one dark pier post truly vertical, small child's long shadow extending naturally downward; Yunseo stands beside it at child scale with relieved recognition. No photorealism, text, logo, watermark, caption, speech bubble."
+  - panel: 10
+    beat: "윤서가 세로를 고르고 다시 바꿀 수 있는지 묻는다"
+    caption: "윤서는 세로를 골랐다. “나중에 또 돌릴 수 있어요?”"
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Yunseo holds the portrait photograph against a plain cream backing board, then points from its upper edge toward a quarter-turn arc in the air, clear curious child question; no symbols or written marks, Doyun listens. No photorealism, text, logo, watermark, caption, speech bubble."
+  - panel: 11
+    beat: "도윤이 회전판과 모서리 집게를 꺼낸다"
+    caption: "도윤은 접착제 대신 푸른 회전판과 모서리 집게를 꺼냈다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Doyun lays out a reversible photo mounting system: matte cream rectangular backing board, palm-sized round muted cobalt rotating plate fixed behind center, four soft cream corner clips, and one short removable aged-brass stop pin; sealed glue bottle pushed far away. No photorealism, text, numbers, arrows, logo, watermark, caption, speech bubble."
+  - panel: 12
+    beat: "윤서가 네 집게의 압력을 확인한다"
+    caption: "윤서는 네 집게가 사진 모서리를 누르지 않는지 확인했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Close overhead view of Yunseo's small fingers checking each of four rounded cream corner clips around the unlettered portrait pier photograph; paper remains flat and uncreased, cobalt rotating plate partly visible behind backing board. No photorealism, text, logo, watermark, caption, speech bubble."
+  - panel: 13
+    beat: "도윤이 회전판을 달고 핀 구멍을 비운다"
+    caption: "도윤은 뒤판 중앙에 회전판을 달고 멈춤 핀은 비워 두었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Back view of mounting board on worktable: Doyun fastens one round matte cobalt rotating plate at the exact center; four small plain orientation holes around it remain empty and the short aged-brass stop pin lies separate near Yunseo's hand. No text, symbols, photorealism, logo, watermark, caption, speech bubble."
+  - panel: 14
+    beat: "윤서가 방향을 맞추고 핀을 꽂는다"
+    caption: "윤서는 뒤판을 세로로 맞추고 황동 핀을 직접 꽂았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Yunseo rotates the cream backing board into portrait orientation using both hands, then inserts the single short aged-brass stop pin into the upper hole of the round cobalt center plate; Doyun's hands remain off. No photorealism, text, arrows, logo, watermark, caption, speech bubble."
+  - panel: 15
+    beat: "선택한 세로 방향으로 벽에 건다"
+    caption: "벽에 건 사진은 윤서가 고른 세로 방향으로 곧게 섰다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Jeju community wall, Doyun releases both hands after hanging the cream-backed pier photograph at child eye height; portrait image stands straight with vertical dark pier post and downward shadow, Yunseo checks alignment. No labels, photorealism, text, logo, watermark, caption, speech bubble."
+  - panel: 16
+    beat: "윤서가 직접 다시 돌려 본다"
+    caption: "윤서는 핀을 뺐다가 다시 꽂아 방향을 바꿀 수 있음을 시험했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Close practical sequence in one scene: Yunseo removes the brass stop pin from the cobalt rear rotating plate, turns the mounted board one quarter turn, returns it to portrait, and reinserts the pin; Doyun watches without touching. No motion duplicates, text, arrows, logo, watermark, caption, speech bubble."
+  - panel: 17
+    beat: "사진이 아이 눈높이에서 바로 선다"
+    caption: "방파제 기둥과 긴 그림자가 아이 눈높이에서 바로 섰다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Quiet frontal Jeju wall composition: portrait pier photograph hangs at child eye height, vertical post and long downward shadow clearly readable; Yunseo stands a step back, small satisfied posture, sea-blue jacket. No other people, photorealism, text, logo, watermark, caption, speech bubble."
+  - panel: 18
+    beat: "서울에서도 같은 회전 뒤판을 쓴다"
+    caption: "서울에서 도윤은 다른 사진에도 같은 회전 뒤판을 달았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Seoul gallery workroom; Doyun attaches the same round matte cobalt rotating plate and four cream corner clips to the back of a different unlettered abstract harbor photograph, single brass stop pin beside it, no glue. No photorealism, text, logo, watermark, caption, speech bubble."
+  - panel: 19
+    beat: "사진 주인이 직접 새 방향을 고른다"
+    caption: "사진 주인은 핀을 빼고 사진을 세로로 돌려 다시 고정했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Adult photo owner in Seoul reaches behind a cream-backed mounted photograph, removes the single brass pin from the cobalt rotating plate, turns the board from landscape to portrait, and reinserts the pin; Doyun stands aside with lowered hands. No photorealism, text, logo, watermark, caption, speech bubble."
+  - panel: 20
+    beat: "도윤이 손을 내리고 바뀐 사진을 함께 본다"
+    caption: "도윤은 손을 내리고 주인과 함께 바뀐 사진을 바라봤다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Quiet final Seoul gallery view from behind: Doyun and the adult owner stand side by side with hands lowered, looking at the newly portrait-oriented unlettered harbor photograph on a pale wall; reversible mount is subtle, calm space and no explanatory signage. No photorealism, text, logo, watermark, caption, speech bubble."

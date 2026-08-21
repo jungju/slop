@@ -314,6 +314,17 @@ repeating wooden pencil boxes, loose brass hinges, blue crescent scuffs,
 sandpaper or oil, upright/flat work tokens, tabletop slots, or repair-scope
 payoffs.
 
+Episode 32 turns revisable scope into revisable presentation. The cream photo
+backing with a round cobalt rotating plate and removable brass stop pin,
+`prop.rotating-print-back.001@v1`, lets Yunseo correct the direction of her pier
+photograph after handing it over and test that she can change it again. Doyun
+replaces permanent adhesive with the reversible mount and stays beside a later
+owner who rotates another photograph. Soondeok supplies the practical distant
+viewing test; Minjae remains absent in the present. Future episodes should avoid
+immediately repeating sideways pier posts, rotating photo backs, four corner
+clips, brass stop pins, portrait-versus-landscape tests, or owner-rotation
+payoffs.
+
 ## Good Future Episode Engines
 
 Use one concrete motif and one emotional question:

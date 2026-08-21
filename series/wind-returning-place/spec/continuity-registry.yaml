@@ -2,6 +2,35 @@ version: 1
 factory_type: comic
 comic_id: wind-returning-place
 elements:
+  - id: prop.rotating-print-back.001
+    name: 다시 돌리는 푸른 사진 뒤판
+    category: prop
+    scope: episode
+    status: active
+    introduced_in: ep-032
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-032
+        active_until: ep-032
+        supersedes: null
+        immutable_features:
+          - matte cream rectangular photograph backing board with four rounded soft cream corner clips
+          - palm-sized round muted cobalt-blue rotating plate fixed at the exact rear center
+          - four plain orientation holes around the rotating plate
+          - one short removable aged-brass stop pin that fixes the selected orientation
+          - no adhesive, text, numbers, arrows, symbols, logo, label, or printed mark
+        mutable_features:
+          - portrait or landscape orientation
+          - front photograph may show abstract Jeju pier, sea, shadow, or Seoul harbor shapes without readable text
+          - Jeju community workroom or Seoul gallery workroom
+        reference_asset_ids:
+          - prop-rotating-print-back-001-v1-text-lock
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: text_locked
   - id: prop.work-pause-token.001
     name: 세워 두는 푸른 작업패
     category: prop
