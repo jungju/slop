@@ -2,6 +2,36 @@ version: 1
 factory_type: comic
 comic_id: wind-returning-place
 elements:
+  - id: prop.lift-off-photo-mat.001
+    name: 들어내는 푸른 사진 매트
+    category: prop
+    scope: episode
+    status: active
+    introduced_in: ep-033
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-033
+        active_until: ep-033
+        supersedes: null
+        immutable_features:
+          - deep matte cream rectangular box frame with a shallow inner ledge
+          - separate matte cream rectangular window mat that rests loose on the ledge
+          - one shallow semicircular finger notch at the mat's lower-right edge
+          - thin muted cobalt-blue storage shelf or backing support with a matching finger notch
+          - four tiny cream spacer pads keep the loose mat above the photograph surface
+          - no adhesive, clips, magnets, hinges, rotating plate, stop pin, text, numbers, arrows, symbols, logo, label, or printed mark
+        mutable_features:
+          - mat resting on the ledge, lifted by the finger notch, held separately, or stored flat below the frame
+          - front photograph may show Jeju seaweed work or a Seoul street edge without readable text
+          - Jeju community workroom or Seoul gallery workroom
+        reference_asset_ids:
+          - prop-lift-off-photo-mat-001-v1-text-lock
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: text_locked
   - id: prop.rotating-print-back.001
     name: 다시 돌리는 푸른 사진 뒤판
     category: prop

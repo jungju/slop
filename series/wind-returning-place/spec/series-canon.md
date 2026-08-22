@@ -325,6 +325,17 @@ immediately repeating sideways pier posts, rotating photo backs, four corner
 clips, brass stop pins, portrait-versus-landscape tests, or owner-rotation
 payoffs.
 
+Episode 33 turns revisable presentation into revisable framing. The loose cream
+window mat with a semicircular finger notch and cobalt storage shelf,
+`prop.lift-off-photo-mat.001@v1`, lets Yunseo restore the working hands and
+seaweed basket that Doyun's tidy crop hid at the edge of her photograph. She
+lifts, replaces, and removes the mat herself; Doyun later hands the same choice
+to another owner, who restores a small bicycle wheel at a street-photo edge.
+Soondeok supplies the practical work-reading test; Minjae remains absent in the
+present. Future episodes should avoid immediately repeating cropped working
+hands, seaweed baskets, loose window mats, semicircular finger notches, cobalt
+storage shelves, hidden bicycle wheels, or owner-uncropping payoffs.
+
 ## Good Future Episode Engines
 
 Use one concrete motif and one emotional question:

@@ -1,0 +1,104 @@
+version: 1
+episode: ep-033
+title: "남겨 둔 가장자리"
+format: vertical_scroll
+page_count: 20
+reading_order: top_to_bottom
+core_elements:
+  - { id: character.doyun.001, version: 1, panels: [1, 2, 3, 4, 8, 11, 13, 17, 18, 20] }
+  - { id: character.yunseo.001, version: 1, panels: [3, 4, 5, 6, 8, 9, 10, 12, 14, 15, 16, 17] }
+  - { id: character.soondeok.001, version: 1, panels: [7, 8, 9] }
+  - { id: prop.lift-off-photo-mat.001, version: 1, panels: [4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] }
+accepted_prompt_addenda:
+  7: "Only elderly Soondeok, the real cobalt seaweed basket, and the partly covered seaweed-hands photograph; no unrelated portrait, cloth, or extra people."
+  8: "Canonical Doyun, child Yunseo, and elderly Soondeok; exactly one seaweed-hands-and-cobalt-basket photograph and one separate loose mat in Yunseo's hands."
+  10: "Yunseo is an unmistakable 8-year-old child with jaw-length bob and sea-blue rain jacket; Doyun is 26 in gray hoodie and dark coat; the full seaweed-basket photograph and notched loose mat are both visible."
+  11: "Doyun is clean-shaven and wears a gray hoodie under a dark coat; show one deep frame, one notched cream mat, one notched cobalt shelf, and four cream spacer pads."
+  12: "Child-scale hands and sea-blue sleeves lift the notched mat above the seaweed-basket photograph; four spacer pads keep the mat separate."
+  13: "Clean-shaven 26-year-old Doyun in gray hoodie and dark coat rests the notched mat on the frame ledge above the seaweed-hands-and-basket photograph."
+  14: "Only child Yunseo lifts the mat; her short straight jaw-length bob, sea-blue rain jacket, cream sweatshirt, charcoal pants, and dark boots remain canonical; Doyun's hands are lowered."
+  15: "Indoor framed photograph, not an outdoor present scene; exactly two complete working forearms, seaweed, and one whole cobalt basket; child Yunseo stands beside it."
+  16: "One child, one frame, one mat, and one continuous moment; Yunseo holds the notched mat above the full seaweed-basket photograph while Doyun watches without touching."
+  17: "Indoor Jeju display; child Yunseo has a jaw-length bob and sea-blue rain jacket; Doyun wears gray hoodie and dark coat; the separate notched mat lies flat in the cobalt shelf."
+  18: "Clean-shaven 26-year-old Doyun in gray hoodie and dark coat hands one notched mat to one owner beside one street photograph and one cobalt shelf; no extra art or drawers."
+pages:
+  - panel: 1
+    beat: "잘린 가장자리의 사진이 돌아온다"
+    caption: "서울에서 도윤은 가장자리가 잘린 채 액자에 든 사진을 돌려받았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Seoul workroom, slim 26-year-old Korean man Han Doyun with slightly long wavy black hair, gray hoodie under dark coat, receives a framed unlettered harbor photograph from an adult owner; the rigid cream window mat visibly crops partial hands at the bottom edge, practical disappointment, single scene. No photorealism, live action, text, signs, logo, watermark, caption, speech bubble."
+  - panel: 2
+    beat: "도윤이 같은 크기의 매트를 준비한다"
+    caption: "그는 제주 전시 사진들을 같은 크기의 매트로 정돈하려 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Overhead Seoul worktable: Doyun arranges several plain cream rectangular window mats of identical opening size beside unlettered Jeju photographs, ruler without markings turned face down, old messenger bag and black-silver film camera nearby. No photorealism, text, numbers, signs, logo, watermark, caption, speech bubble."
+  - panel: 3
+    beat: "윤서가 해녀 작업 사진을 건넨다"
+    caption: "윤서는 해녀 작업을 찍은 사진 한 장을 도윤에게 건넸다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Jeju community workroom; unmistakable 8-year-old Korean girl Kang Yunseo with short straight jaw-length black bob, sea-blue hooded rain jacket, cream sweatshirt, charcoal pants and dark boots hands adult Doyun one unlettered photograph showing two working hands passing seaweed into a cobalt basket at the lower edge. No photorealism, text, logo, watermark, caption, speech bubble."
+  - panel: 4
+    beat: "좁은 매트가 푸른 바구니를 가린다"
+    caption: "좁은 매트를 얹자 사진 아래쪽 푸른 바구니가 가려졌다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Close overhead view: Doyun places a matte cream lift-off window mat over Yunseo's seaweed-work photograph; the narrow rectangular opening hides almost all of the cobalt basket at the bottom, Yunseo's small child hand beside the frame. No adhesive, clips, rotating plate, text, logo, watermark, caption, speech bubble, photorealism."
+  - panel: 5
+    beat: "두 손도 손목에서 끊겨 보인다"
+    caption: "해초를 건네는 두 손도 손목에서 끊겨 보였다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Extreme close-up of one framed unlettered photograph under a cream window mat: two illustrated working hands holding wet seaweed are abruptly cropped at both wrists, only a thin cobalt curve of the hidden basket remains, Yunseo's small fingertip indicates the missing edge. No photorealism, text, logo, watermark, caption, speech bubble."
+  - panel: 6
+    beat: "윤서가 가린 가장자리를 되찾는다"
+    caption: "윤서는 매트를 들었다. “바구니까지 넣어서 찍었어요.”"
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo, clearly age eight with jaw-length bob and sea-blue jacket, lifts the loose cream window mat a few centimeters with both small hands; beneath it the cobalt basket and full working hands reappear in the photograph, adult Doyun watches with hands lowered. No photorealism, text, logo, watermark, caption, speech bubble."
+  - panel: 7
+    beat: "순덕이 가려진 일의 뜻을 묻는다"
+    caption: "순덕은 물었다. “가장자리를 가리고도 무슨 일인지 알겠니?”"
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Elderly Jeju Korean woman Soondeok with short gray-white hair and sea-colored practical outerwear points first to a real cobalt seaweed basket on the floor and then to the partly covered photograph on the table, grounded practical question, no mystical gesture. No photorealism, text, logo, watermark, caption, speech bubble."
+  - panel: 8
+    beat: "세 사람이 두 범위를 비교한다"
+    caption: "세 사람은 매트를 얹은 사진과 벗긴 사진을 차례로 보았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Wide single Jeju workroom scene: adult Doyun, small child Yunseo, and elderly Soondeok stand several steps from one deep cream frame on a low easel; Yunseo holds the single removable mat beside the same one photograph, no duplicate images or split panels. No photorealism, text, logo, watermark, caption, speech bubble."
+  - panel: 9
+    beat: "두 손과 바구니가 한 장면으로 이어진다"
+    caption: "매트를 벗기자 두 손과 푸른 바구니가 한 장면으로 이어졌다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. The full unlettered seaweed-work photograph fills most of frame without a mat: one older hand passes green-brown seaweed to one smaller gloved hand directly above a complete cobalt-blue basket, clear continuous work action; child Yunseo and elderly Soondeok appear small at edge. No photorealism, text, logo, watermark, caption, speech bubble."
+  - panel: 10
+    beat: "윤서가 전체를 고르고 되돌릴 수 있는지 묻는다"
+    caption: "윤서는 사진 전체를 골랐다. “나중에 다시 바꿀 수 있어요?”"
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo stands beside the fully visible seaweed photograph, holds the loose cream mat upright away from the photo, and looks directly to Doyun with a calm practical question; Doyun listens, hands lowered. No arrows, diagrams, photorealism, text, logo, watermark, caption, speech bubble."
+  - panel: 11
+    beat: "들어내는 매트와 푸른 받침을 만든다"
+    caption: "도윤은 접착제 없는 매트와 손가락 홈이 있는 푸른 받침을 만들었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Doyun lays out a reversible display system on a worktable: deep matte cream rectangular box frame, loose cream window mat with one shallow semicircular finger notch at lower-right edge, thin muted cobalt-blue backing shelf with matching notch, four tiny cream spacer pads; glue bottle closed far away. No clips, magnets, rotating hardware, photorealism, text, logo, watermark, caption, speech bubble."
+  - panel: 12
+    beat: "윤서가 매트가 사진에 닿지 않는지 확인한다"
+    caption: "윤서는 매트가 사진에 닿지 않고 가볍게 들리는지 확인했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Side macro view at child hand scale: Yunseo's small fingers lift the cream notched mat while four tiny cream spacer pads keep it visibly above the photograph surface; cobalt backing shelf beneath, paper remains untouched and flat. No adult woman, photorealism, text, logo, watermark, caption, speech bubble."
+  - panel: 13
+    beat: "도윤이 매트를 붙이지 않고 낮은 턱에 놓는다"
+    caption: "도윤은 액자 안쪽 낮은 턱에 매트를 올리고 붙이지 않았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Three-quarter close view of deep cream box frame on table: adult Doyun gently rests the loose notched window mat on a shallow inner ledge above the seaweed photograph, no glue or fasteners, his other hand open and empty. No photorealism, text, logo, watermark, caption, speech bubble."
+  - panel: 14
+    beat: "윤서가 반달 홈으로 매트를 들어 낸다"
+    caption: "윤서는 반달 홈에 손가락을 넣어 좁은 매트를 직접 들어 냈다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Clear close action: only child Yunseo's small index finger uses the shallow semicircular notch at the lower-right edge to lift the loose cream window mat out of the deep frame; adult Doyun stands back with lowered hands. No photorealism, text, logo, watermark, caption, speech bubble."
+  - panel: 15
+    beat: "사진의 일하는 장면이 끝까지 보인다"
+    caption: "액자에는 해초를 건네는 손과 푸른 바구니가 끝까지 보였다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Frontal deep cream frame with no window mat covering it; full seaweed-work photograph shows both complete forearms, passing seaweed, and whole cobalt basket to all four edges, child Yunseo stands nearby satisfied at small scale. No photorealism, text, logo, watermark, caption, speech bubble."
+  - panel: 16
+    beat: "윤서가 선택을 되돌려 시험한다"
+    caption: "윤서는 매트를 다시 얹었다가 벗겨 선택을 되돌려 보았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. One continuous scene only: child Yunseo holds the loose notched mat just above the deep frame after briefly testing its fit, the full photograph remains visible below and adult Doyun watches without touching; no duplicate hands, figures, frames, or step-by-step panels. No photorealism, text, logo, watermark, caption, speech bubble."
+  - panel: 17
+    beat: "벗긴 매트를 아래 칸에 보관한다"
+    caption: "벗긴 매트는 아래 보관 칸에 놓이고 사진 전체가 전시됐다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Quiet Jeju display wall: full seaweed photograph visible in deep cream frame; directly beneath it an open shallow cobalt shelf stores the loose cream notched mat flat, child Yunseo nearest the display and Doyun farther back. No labels, photorealism, text, logo, watermark, caption, speech bubble."
+  - panel: 18
+    beat: "서울의 다른 주인에게 매트를 건넨다"
+    caption: "서울에서 도윤은 다른 사진 주인에게 들어내는 매트를 건넸다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Seoul gallery workroom; Doyun hands one loose cream window mat with lower-right semicircular finger notch to an adult photo owner beside a deep cream frame containing an unlettered city street photograph; cobalt storage shelf below. No photorealism, text, logo, watermark, caption, speech bubble."
+  - panel: 19
+    beat: "사진 주인이 자전거 바퀴를 다시 드러낸다"
+    caption: "주인은 매트를 벗겨 가장자리의 작은 자전거 바퀴를 드러냈다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Single full-frame Seoul scene: adult photo owner lifts the notched cream mat away from one deep frame, revealing a previously hidden small red bicycle wheel at the far left edge of the unlettered street photograph; Doyun stands aside with lowered hands. No panels, repeated figures, photorealism, text, logo, watermark, caption, speech bubble."
+  - panel: 20
+    beat: "도윤이 손을 내리고 넓어진 사진을 본다"
+    caption: "도윤은 매트를 보관하고 주인과 함께 넓어진 사진을 바라봤다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Quiet final Seoul gallery view from behind: Doyun and the adult owner stand side by side with hands lowered, looking at the full street photograph with its small bicycle wheel visible at the edge; removed cream notched mat rests flat in the cobalt shelf below. No photorealism, text, signage, logo, watermark, caption, speech bubble."
