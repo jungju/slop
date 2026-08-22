@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-004",
+  "number": 4,
+  "title": "4화: GPT-5.6 Sol 가격이 내려갔다",
+  "shortTitle": "GPT-5.6 Sol 가격이 내려갔다",
+  "lead": "OpenAI가 GPT-5.6 Sol의 API 및 크레딧 가격을 3개월 동안 20% 넘게 낮췄으며, AWS Bedrock에는 입력 100만 토큰당 4달러와 출력 100만 토큰당 20달러가 적용됐다.",
+  "closingLine": "한시 가격 인하 뒤의 단가는 아직 공개되지 않았다.",
+  "news": {
+    "headline": "GPT-5.6 Sol API and credit pricing reduced for three months",
+    "eventDate": "2026-08-21",
+    "researchDate": "2026-08-23",
+    "summary": "OpenAI가 GPT-5.6 Sol의 API 및 크레딧 가격을 3개월 동안 20% 넘게 낮췄습니다. AWS Bedrock 기준 새 단가는 입력 100만 토큰당 4달러, 출력 100만 토큰당 20달러입니다.",
+    "selectionNote": "최근 48시간의 공식 AI 발표 가운데 개발자의 실제 이용 비용을 곧바로 바꾸는 변화를 선택했으며, AWS의 적용 단가와 한시 적용 범위를 함께 확인했습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "1차 출처",
+      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+      "publisher": "OpenAI",
+      "publishedAt": "2026-08-21",
+      "url": "https://openai.com/index/gpt-5-6/",
+      "note": "2026-08-21 업데이트에서 GPT-5.6 Sol의 API 및 크레딧 가격을 3개월 동안 20% 넘게 낮춘다고 공지한 공식 페이지입니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "적용 단가 확인",
+      "title": "Amazon Bedrock announces reduced pricing for OpenAI GPT-5.6 Sol",
+      "publisher": "Amazon Web Services",
+      "publishedAt": "2026-08-21",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/bedrock-openai-gpt-56-sol-reduced-pricing/",
+      "note": "입력 4달러, 출력 20달러의 실제 적용 단가와 각각 20%, 33.3% 인하, 최소 2026-11-21까지의 프로모션 기간을 확인한 자료입니다."
+    }
+  ],
+  "publishedAt": "2026-08-22T21:10:20.755Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 928,
+      "height": 1694,
+      "caption": "누리: 가장 강한 GPT의 사용료가 정말 내려갔어요? 픽: Sol은 입력 100만 토큰 4달러, 출력은 20달러예요. 누리: 같은 양을 써도 전보다 비용이 줄겠네요. 픽: 하지만 3개월 한정이에요. 그 뒤 가격은 아직 몰라요.",
+      "alt": "4화: GPT-5.6 Sol 가격이 내려갔다 1페이지. 누리: 가장 강한 GPT의 사용료가 정말 내려갔어요? 픽: Sol은 입력 100만 토큰 4달러, 출력은 20달러예요. 누리: 같은 양을 써도 전보다 비용이 줄겠네요. 픽: 하지만 3개월 한정이에요. 그 뒤 가격은 아직 몰라요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": "GPT-5",
+      "status": "known-model"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}
