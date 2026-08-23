@@ -15,8 +15,18 @@ if (dirname(outDir) !== root || basename(outDir) !== "_site") {
 const { content, packages } = await loadSeriesContent(root);
 const stylesSource = await readFile(join(root, "src", "styles.css"), "utf8");
 const appSource = await readFile(join(root, "src", "app.js"), "utf8");
+const posthogProjectToken = process.env.NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN?.trim() || "";
+const posthogHost = process.env.NEXT_PUBLIC_POSTHOG_HOST?.trim() || "https://us.i.posthog.com";
+const posthogSource = posthogProjectToken
+  ? (await readFile(join(root, "src", "posthog.js"), "utf8"))
+      .replace('"__POSTHOG_PROJECT_TOKEN__"', JSON.stringify(posthogProjectToken))
+      .replace('"__POSTHOG_HOST__"', JSON.stringify(posthogHost))
+  : "";
 const stylesAsset = "styles." + fingerprint(stylesSource) + ".css";
 const appAsset = "app." + fingerprint(appSource) + ".js";
+const posthogAsset = posthogSource
+  ? "posthog." + fingerprint(posthogSource) + ".js"
+  : "";
 const site = content.site;
 const allSeries = content.series;
 const primarySeries = allSeries[0];
@@ -31,6 +41,9 @@ await cp(join(root, "public"), outDir, { recursive: true });
 await copySeriesAssets(outDir, packages);
 await writeFile(join(outDir, "assets", stylesAsset), stylesSource, "utf8");
 await writeFile(join(outDir, "assets", appAsset), appSource, "utf8");
+if (posthogAsset) {
+  await writeFile(join(outDir, "assets", posthogAsset), posthogSource, "utf8");
+}
 await cp(join(root, "CNAME"), join(outDir, "CNAME"));
 await writeFile(join(outDir, ".nojekyll"), "", "utf8");
 await writeFile(
@@ -280,6 +293,7 @@ function layout({
     ${image ? '<meta property="og:image" content="' + escapeHtml(image) + '">' : ""}
     <meta name="twitter:card" content="summary_large_image">
     ${jsonLd}
+    ${posthogAsset ? `<script src="/assets/${posthogAsset}" defer></script>` : ""}
     <script src="/assets/${appAsset}" defer></script>
   </head>
   <body data-page="${escapeHtml(page)}">

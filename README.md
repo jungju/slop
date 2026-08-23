@@ -14,6 +14,15 @@ Node.js 22 이상에서 다음 명령을 사용합니다.
     npm run check
     npm run serve
 
+## 웹 분석
+
+PostHog로 페이지 조회, 페이지 이탈, 링크·버튼 상호작용을 수집합니다.
+세션 녹화는 비활성화되어 있습니다. 배포 환경에서는 GitHub 저장소의
+Actions variables에 다음 값을 등록합니다.
+
+- `NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN`: PostHog 프로젝트 토큰
+- `NEXT_PUBLIC_POSTHOG_HOST`: PostHog 수집 호스트
+
 ## 연재 구조
 
 모든 연재는 `series/<slug>` 안에 스토리, 스펙, 하네스, 회차 메타데이터와

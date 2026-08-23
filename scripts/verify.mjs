@@ -88,6 +88,9 @@ const stylesPath = files.find((path) =>
 const appPath = files.find((path) =>
   /[\\/]assets[\\/]app\.[0-9a-f]{12}\.js$/.test(path),
 );
+const posthogPath = files.find((path) =>
+  /[\\/]assets[\\/]posthog\.[0-9a-f]{12}\.js$/.test(path),
+);
 const webpStats = await Promise.all(webpFiles.map((path) => stat(path)));
 const totalWebpBytes = webpStats.reduce((sum, info) => sum + info.size, 0);
 const largestWebpBytes = Math.max(...webpStats.map((info) => info.size), 0);
@@ -108,6 +111,20 @@ assert(cname === "slop.jjgo.io", "CNAME이 slop.jjgo.io가 아닙니다.");
 const home = await readFile(join(outDir, "index.html"), "utf8");
 assert(stylesPath, "내용 해시가 포함된 CSS 빌드 자산이 없습니다.");
 assert(appPath, "내용 해시가 포함된 JavaScript 빌드 자산이 없습니다.");
+if (process.env.NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN?.trim()) {
+  assert(posthogPath, "PostHog 빌드 자산이 없습니다.");
+  const posthog = posthogPath ? await readFile(posthogPath, "utf8") : "";
+  const posthogUrl = posthogPath
+    ? "/" + relative(outDir, posthogPath).replaceAll("\\", "/")
+    : "";
+  assert(home.includes('src="' + posthogUrl + '"'), "홈이 PostHog 자산을 참조하지 않습니다.");
+  assert(posthog.includes("posthog.init("), "PostHog 초기화 코드가 없습니다.");
+  assert(posthog.includes("capture_pageleave: true"), "PostHog 페이지 이탈 수집이 꺼져 있습니다.");
+  assert(posthog.includes("disable_session_recording: true"), "PostHog 세션 녹화가 꺼져 있지 않습니다.");
+  assert(!posthog.includes("__POSTHOG_"), "PostHog 설정 자리표시자가 빌드에 남아 있습니다.");
+} else {
+  assert(!posthogPath, "프로젝트 토큰 없이 PostHog 자산이 생성되었습니다.");
+}
 const styles = stylesPath ? await readFile(stylesPath, "utf8") : "";
 const app = appPath ? await readFile(appPath, "utf8") : "";
 const stylesUrl = stylesPath
