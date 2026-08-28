@@ -1,0 +1,39 @@
+version: 1
+episode: ep-034
+title: "고른 순서"
+format: vertical_scroll
+page_count: 20
+reading_order: top_to_bottom
+core_elements:
+  - { id: character.doyun.001, version: 1, panels: [1, 2, 4, 7, 9, 10, 14, 16, 18, 20] }
+  - { id: character.yunseo.001, version: 1, panels: [3, 4, 5, 7, 8, 11, 12, 13, 15, 16, 17] }
+  - { id: character.soondeok.001, version: 1, panels: [6, 7, 17] }
+  - { id: prop.reorderable-photo-rail.001, version: 1, panels: [9, 10, 11, 12, 13, 14, 15, 16, 18, 19, 20] }
+style_lock: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text."
+negative_prompt: "No photorealism, live action, cinematic stills, DSLR photography, skin pores, lens bokeh, generated text, fake Korean, signs, logos, watermarks, captions, speech bubbles, empty bubbles."
+accepted_prompt_addenda:
+  3: "Exactly three distinct harbor photographs remain visible while child Yunseo moves the middle handcart image to the front; jaw-length bob, no ponytail."
+  4: "Overhead row shows handcart first, rope-tying second, empty pier third; child Yunseo points from the wrong first image back to the rope image."
+  15: "Exactly three independent shallow rests remain in one rail groove while child Yunseo slides the handcart and empty-pier rests past each other."
+  16: "Exactly three rests show rope, handcart, empty pier left to right; child Yunseo releases them while Doyun stands behind hands-down."
+pages:
+  - { panel: 1, beat: "도윤이 크기순으로 사진을 줄 세운다", caption: "제주 작업실에서 도윤은 세 장의 부두 사진을 크기순으로 줄 세웠다.", prompt: "Jeju worktable, slim clean-shaven 26-year-old Korean man Han Doyun with slightly long wavy black hair, gray hoodie under dark coat, arranges three unlettered harbor photographs strictly by physical size; each shows rope work, a handcart, or an empty pier." }
+  - { panel: 2, beat: "도윤이 전시 순서를 정한다", caption: "그는 다음 주 작은 전시에 사진들을 그 순서대로 걸 생각이었다.", prompt: "Doyun studies three differently sized harbor photographs laid in a neat size order beside plain unmarked frames in a quiet Jeju workroom, practical planning expression." }
+  - { panel: 3, beat: "윤서가 가운데 사진을 앞에 둔다", caption: "윤서는 가운데 사진을 맨 앞으로 옮겼다.", prompt: "Unmistakable 8-year-old Korean girl Kang Yunseo, short straight jaw-length black bob, sea-blue hooded rain jacket, cream sweatshirt, charcoal pants, moves the middle harbor photograph to the front of three on a low table; Doyun watches." }
+  - { panel: 4, beat: "원래 줄이 일을 거꾸로 보이게 한다", caption: "도윤이 원래 줄로 돌려놓자 손수레가 밧줄 묶는 일보다 먼저 보였다.", prompt: "Overhead clear sequence: Doyun restores the three photos to size order, foreground photo shows a handcart before a separate photo of hands tying a boat rope; Yunseo points at the mismatch." }
+  - { panel: 5, beat: "윤서가 문제를 말한다", caption: "윤서는 사진 속 일을 거꾸로 말하면 안 된다고 했다.", prompt: "Child Yunseo speaks plainly with one small hand over three unlettered harbor photos, Doyun listens with hands lowered; visible rope-work and handcart images make the ordering problem clear." }
+  - { panel: 6, beat: "순덕이 작업 순서를 확인한다", caption: "순덕은 밧줄을 먼저 묶어야 손수레를 움직인다고 말했다.", prompt: "Elderly Jeju woman Soondeok with short gray hair, sea-colored practical work clothes, points from a boat rope photograph to a handcart photograph on the table; practical calm expression." }
+  - { panel: 7, beat: "세 사람이 사진 속 단서를 찾는다", caption: "세 사람은 바닥의 사진에서 밧줄과 손수레와 빈 부두를 찾았다.", prompt: "Wide overhead of Doyun, child Yunseo, and Soondeok kneeling around three separate unlettered photographs on a clean floor: tied boat rope, loaded handcart, then empty pier; no extra prints." }
+  - { panel: 8, beat: "윤서가 일의 순서를 고른다", caption: "윤서는 밧줄, 손수레, 빈 부두 순서로 사진을 골랐다.", prompt: "Yunseo deliberately places the rope photo first, handcart photo second, empty pier photo third in a horizontal row; Doyun and Soondeok observe without touching." }
+  - { panel: 9, beat: "도윤이 움직이는 레일을 만든다", caption: "도윤은 사진을 옆으로 밀 수 있는 얇은 나무 레일을 만들었다.", prompt: "Doyun assembles one simple pale wood horizontal display rail with three separate low dark rubber-footed photo rests, no clips, no labels, no glue, on a Jeju worktable." }
+  - { panel: 10, beat: "받침이 순서를 바꾸게 한다", caption: "레일 위 세 받침은 사진을 세우되 순서를 바꿀 수 있었다.", prompt: "Close side view of the plain wood rail: three individual shallow photo rests hold blank-backed photographs upright and can slide sideways; visibly no nails, adhesive, dividers, numbers, or text." }
+  - { panel: 11, beat: "윤서가 첫 사진을 세운다", caption: "윤서는 밧줄 사진을 왼쪽 받침에 직접 세웠다.", prompt: "Child Yunseo independently places the unlettered boat-rope photograph into the left sliding rest on the wooden rail; Doyun remains behind with hands down." }
+  - { panel: 12, beat: "두 번째 사진을 옆에 맞춘다", caption: "손수레 사진도 옆으로 밀어 첫 사진 곁에 맞췄다.", prompt: "Yunseo gently slides one separate photo rest carrying the handcart photograph beside the rope photograph on the same simple rail, clear child agency and practical mechanism." }
+  - { panel: 13, beat: "세 사진이 일을 끝까지 보여 준다", caption: "마지막 사진까지 놓자 부두에서 끝난 일이 차례로 보였다.", prompt: "Frontal readable display: three unlettered photographs on one rail in chosen sequence—boat rope tied, handcart moving supplies, empty quiet pier afterward—Yunseo stands beside the complete row." }
+  - { panel: 14, beat: "도윤이 고정하지 않는다", caption: "도윤은 사진을 못이나 접착제로 고정하지 않았다.", prompt: "Close worktable view: Doyun's open empty hands beside the movable three-rest wooden rail; closed glue bottle and unused nails sit far away, photographs remain freely movable." }
+  - { panel: 15, beat: "윤서가 두 장의 자리를 시험한다", caption: "윤서는 두 사진 자리를 바꿔 보고 이야기가 달라짐을 확인했다.", prompt: "Single continuous scene: Yunseo slides the handcart and empty-pier photograph rests past one another on the rail, comparing the changed visual sequence; no duplicated people or panels." }
+  - { panel: 16, beat: "윤서가 고른 순서로 돌아간다", caption: "그는 윤서가 고른 순서로 다시 놓고 손을 뗐다.", prompt: "Yunseo restores rope, handcart, empty pier sequence herself; Doyun stands aside with both hands lowered, calm Jeju workroom, three clear photo rests." }
+  - { panel: 17, beat: "순덕이 멀리서 결과를 읽는다", caption: "순덕은 멀리서도 일이 끝난 뒤 부두가 비었다는 것을 알겠다고 했다.", prompt: "Soondeok views the three-photo rail from several steps away while Yunseo is near it; the final empty-pier photograph clearly reads as after the work, Doyun listening." }
+  - { panel: 18, beat: "서울의 다른 주인에게 레일을 건넨다", caption: "서울에서 도윤은 다른 사진 주인에게 같은 레일과 받침을 건넸다.", prompt: "Seoul gallery workroom: Doyun gives one pale wood rail and three separate sliding photo rests to one adult owner beside three unlettered family picnic photographs; no signage or other display systems." }
+  - { panel: 19, beat: "주인이 자기 순서로 사진을 민다", caption: "주인은 가족 소풍 사진 세 장을 자기 순서로 밀어 놓았다.", prompt: "Adult owner independently slides three photo rests on the rail into a chosen order with unlettered family picnic photographs; Doyun watches at a respectful distance." }
+  - { panel: 20, beat: "도윤이 남은 자리까지 본다", caption: "도윤은 주인이 고른 배열과 레일 끝의 빈 자리를 함께 바라봤다.", prompt: "Quiet final Seoul view: Doyun and adult owner stand side by side with hands lowered, looking at the owner-chosen three-photo arrangement on a wood rail that has an intentional small empty space at its far end." }

@@ -2,6 +2,35 @@ version: 1
 factory_type: comic
 comic_id: wind-returning-place
 elements:
+  - id: prop.reorderable-photo-rail.001
+    name: 순서를 고르는 사진 레일
+    category: prop
+    scope: episode
+    status: active
+    introduced_in: ep-034
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-034
+        active_until: ep-034
+        supersedes: null
+        immutable_features:
+          - one plain pale-wood horizontal display rail with a single open groove
+          - exactly three separate shallow pale-wood photo rests that slide sideways in the groove
+          - small dark non-slip rubber feet beneath each movable rest
+          - each rest holds one unlettered photograph upright without clips, nails, adhesive, dividers, numbers, or labels
+          - no text, numbers, arrows, symbols, logo, label, or printed mark
+        mutable_features:
+          - rests arranged in any owner-chosen left-to-right order with an optional empty stretch at one rail end
+          - photographs may show Jeju harbor work or a Seoul family picnic without readable text
+          - Jeju community workroom or Seoul gallery workroom
+        reference_asset_ids:
+          - prop-reorderable-photo-rail-001-v1-text-lock
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: text_locked
   - id: prop.lift-off-photo-mat.001
     name: 들어내는 푸른 사진 매트
     category: prop

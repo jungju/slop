@@ -336,6 +336,17 @@ present. Future episodes should avoid immediately repeating cropped working
 hands, seaweed baskets, loose window mats, semicircular finger notches, cobalt
 storage shelves, hidden bicycle wheels, or owner-uncropping payoffs.
 
+Episode 34 turns revisable framing into revisable sequence. The pale wooden
+three-rest photo rail, `prop.reorderable-photo-rail.001@v1`, lets Yunseo reject
+Doyun's tidy size order and arrange her harbor photographs by the work that
+actually happened: rope first, handcart second, empty pier last. She slides the
+rests, tests a changed order, and restores her own sequence without fixed
+hardware. Soondeok supplies the practical work-order test; a later Seoul owner
+chooses a family-photo order; Minjae remains absent in the present. Future
+episodes should avoid immediately repeating three-photo sequences, sliding
+wooden rails, movable photo rests, rope-handcart-empty-pier ordering, size-order
+mistakes, or owner-reordering payoffs.
+
 ## Good Future Episode Engines
 
 Use one concrete motif and one emotional question:
