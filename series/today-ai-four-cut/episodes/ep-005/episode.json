@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-005",
+  "number": 5,
+  "title": "5화: AI 시험지를 양쪽에 숨겼다",
+  "shortTitle": "AI 시험지를 양쪽에 숨겼다",
+  "lead": "Google DeepMind와 외부 평가 기관들이 모델 가중치와 비공개 시험 문항을 서로 공개하지 않은 채 Gemini 2.5 Flash-Lite를 평가하는 이중맹검 파일럿을 진행했다.",
+  "closingLine": "이번 파일럿은 양쪽 비밀을 지키는 평가 방식을 보여 줬지만 모든 감사 문제를 해결한 것은 아니다.",
+  "news": {
+    "headline": "Google DeepMind pilots a double-blind evaluation of a proprietary AI model",
+    "eventDate": "2026-08-27",
+    "researchDate": "2026-08-29",
+    "summary": "Google DeepMind, AVERI, OpenMined, MLCommons와 Singapore AISI가 모델 가중치와 비공개 평가 문항을 서로 보지 못하도록 보안 엔클레이브에 넣어 Gemini 2.5 Flash-Lite를 시험하는 이중맹검 파일럿을 진행했습니다.",
+    "selectionNote": "최근 48시간의 AI 안전 발표 가운데 외부 평가의 독립성과 벤치마크 오염 문제를 기술적으로 다룬 새 파일럿을 선택했으며, 참여한 비영리 감사기관과 독립 벤치마크 컨소시엄의 기록으로 절차와 한계를 확인했습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "1차 출처",
+      "title": "Piloting the world's first double-blind AI evaluations",
+      "publisher": "Google DeepMind",
+      "publishedAt": "2026-08-27",
+      "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+      "note": "Gemini 2.5 Flash-Lite와 비공개 평가 문항을 보안 환경에서 실행해 개발사와 평가자가 서로의 기밀을 보지 못하게 한 파일럿의 공식 발표입니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "외부 감사기관 확인",
+      "title": "AVERI Pilot Report: The World’s First Double-Blind Evaluation of a Proprietary Language Model",
+      "publisher": "AI Verification and Evaluation Research Institute (AVERI)",
+      "publishedAt": "2026-08-27",
+      "url": "https://www.averi.org/ourwork/tag/pilot%2Breports",
+      "note": "비영리 외부 감사기관이 평가 절차, 비공개 결과의 범위, 고위험 감사에 남은 보증 한계를 설명한 기록입니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "평가 문항 확인",
+      "title": "The key to trustworthy AI evaluation is secrecy by design",
+      "publisher": "MLCommons",
+      "publishedAt": "2026-08-27",
+      "url": "https://mlcommons.org/2026/08/double-blind-reliability-evaluation/",
+      "note": "처음 쓰는 AILuminate 안전 문항을 제공하고 평가 데이터와 모델 가중치가 서로 노출되지 않은 구조를 확인한 자료입니다."
+    }
+  ],
+  "publishedAt": "2026-08-28T21:07:58.869Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 864,
+      "height": 1821,
+      "caption": "누리: AI가 시험 문제를 미리 보면 점수를 믿기 어렵죠? 픽: 이번엔 문제와 모델을 암호 상자 안에 넣었어요. 누리: 구글도 문제를 못 보고, 평가자도 모델을 못 봤군요. 픽: 아직 첫 실험이에요. 모든 감사를 대신하진 않아요.",
+      "alt": "5화: AI 시험지를 양쪽에 숨겼다 1페이지. 누리: AI가 시험 문제를 미리 보면 점수를 믿기 어렵죠? 픽: 이번엔 문제와 모델을 암호 상자 안에 넣었어요. 누리: 구글도 문제를 못 보고, 평가자도 모델을 못 봤군요. 픽: 아직 첫 실험이에요. 모든 감사를 대신하진 않아요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": "GPT-5",
+      "status": "known-model"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}
