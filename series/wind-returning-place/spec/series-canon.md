@@ -347,6 +347,18 @@ episodes should avoid immediately repeating three-photo sequences, sliding
 wooden rails, movable photo rests, rope-handcart-empty-pier ordering, size-order
 mistakes, or owner-reordering payoffs.
 
+Episode 35 turns revisable sequence into revisable viewing width. The paired
+low cobalt oval edge weights with cork undersides,
+`prop.paired-panorama-edge-weights.001@v1`, let Yunseo keep the folds of her
+accordion harbor picture book free while choosing how widely to open it. She
+tests a narrower width that hides the small boat, restores the full panorama,
+and leaves both weights at her chosen outer margins. Soondeok supplies the
+salt-stiffened-paper test; a later Seoul owner chooses the open width of an
+accordion city map; Minjae remains absent in the present. Future episodes
+should avoid immediately repeating accordion books or maps, paired oval
+weights, cork undersides, lighthouse-to-boat panoramas, narrow glass cases,
+compressed folds, or owner-chosen-width payoffs.
+
 ## Good Future Episode Engines
 
 Use one concrete motif and one emotional question:

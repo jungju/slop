@@ -2,6 +2,35 @@ version: 1
 factory_type: comic
 comic_id: wind-returning-place
 elements:
+  - id: prop.paired-panorama-edge-weights.001
+    name: 펼친 폭을 잡는 쌍추
+    category: prop
+    scope: episode
+    status: active
+    introduced_in: ep-035
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-035
+        active_until: ep-035
+        supersedes: null
+        immutable_features:
+          - exactly two separate low matte cobalt-blue oval paper weights
+          - palm-sized smooth oval tops with cream cork undersides
+          - one tiny crescent wear mark on each weight
+          - weights rest only on blank outer margins of an accordion work and never press its central folds
+          - no handles, magnets, grooves, rails, clips, adhesive, pins, text, numbers, arrows, symbols, logo, label, or printed mark
+        mutable_features:
+          - pair positioned closer together or farther apart according to the owner's chosen open width
+          - Jeju accordion harbor picture book or Seoul accordion city map without readable text
+          - Jeju community workroom or Seoul gallery workroom
+        reference_asset_ids:
+          - prop-paired-panorama-edge-weights-001-v1-text-lock
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: text_locked
   - id: prop.reorderable-photo-rail.001
     name: 순서를 고르는 사진 레일
     category: prop
