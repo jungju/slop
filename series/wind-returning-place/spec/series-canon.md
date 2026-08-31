@@ -359,6 +359,18 @@ should avoid immediately repeating accordion books or maps, paired oval
 weights, cork undersides, lighthouse-to-boat panoramas, narrow glass cases,
 compressed folds, or owner-chosen-width payoffs.
 
+Episode 36 turns revisable viewing into revisable movement and sound. Three
+independently removable cobalt felt sleeves,
+`prop.removable-felt-chime-dampers.001@v1`, let Yunseo choose which brass strip
+of her small wind mobile remains free to move. She first leaves only the
+shorter center strip free, tests a second moving strip, then restores the safer
+single-note setting herself. Soondeok supplies the strong-door-breeze test; a
+later Seoul owner independently frees two pieces of a four-piece metal mobile;
+Minjae remains absent in the present. Future episodes should avoid immediately
+repeating wind mobiles, brass chime strips, cobalt felt sleeves, removable
+dampers, selecting audible pieces, strong-door-breeze tests, or owner-chosen
+sound payoffs.
+
 ## Good Future Episode Engines
 
 Use one concrete motif and one emotional question:

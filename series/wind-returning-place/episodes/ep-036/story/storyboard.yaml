@@ -1,0 +1,101 @@
+version: 1
+episode: ep-036
+title: "남겨 둔 울림"
+format: vertical_scroll
+page_count: 20
+reading_order: top_to_bottom
+core_elements:
+  - { id: character.doyun.001, version: 1, panels: [1, 2, 4, 7, 9, 10, 14, 16, 18, 20] }
+  - { id: character.yunseo.001, version: 1, panels: [1, 3, 5, 7, 8, 11, 12, 13, 15, 16, 17] }
+  - { id: character.soondeok.001, version: 1, panels: [6, 7, 17] }
+  - { id: prop.removable-felt-chime-dampers.001, version: 1, panels: [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] }
+style_lock: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text."
+negative_prompt: "No photorealism, live action, cinematic stills, DSLR photography, skin pores, lens bokeh, generated text, fake Korean, signs, logos, watermarks, captions, speech bubbles, empty bubbles."
+accepted_prompt_addenda:
+  4: "Doyun keeps the gray hoodie under a dark long coat while hanging exactly three cord-bundled brass strips."
+  11: "Exactly three total felt sleeves remain: two fitted on the outer strips and one held above an empty wooden dish; Yunseo keeps her jaw-length bob."
+  12: "Exactly two outer strips remain damped at mid-strip, the shorter center strip moves, one sleeve rests on the dish, and Yunseo keeps her jaw-length bob."
+  14: "Doyun keeps the gray hoodie and dark coat; the removable sleeve stays palm-width and the nearby mobile remains the same three-strip design."
+  16: "Exactly two outer sleeves are fitted, the center strip is free, one sleeve rests on the dish, and Yunseo keeps her jaw-length bob."
+  17: "Soondeok tests the door while exactly two outer sleeves stay fitted, the center strip moves, and Yunseo keeps her jaw-length bob."
+pages:
+  - panel: 1
+    beat: "윤서가 세 줄 바람걸이를 맡긴다"
+    caption: "제주 작업실에서 윤서는 놋쇠 조각 세 개가 달린 작은 바람걸이를 맡겼다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Jeju community workroom, unmistakable 8-year-old Korean girl Kang Yunseo with jaw-length black bob, sea-blue hooded rain jacket, cream sweatshirt and charcoal pants hands a small handmade wind mobile to slim clean-shaven 26-year-old Korean man Han Doyun with slightly long wavy black hair, gray hoodie under dark coat. The mobile has exactly three separate thin aged-brass rounded strips hanging from a plain dark driftwood bar, no letters or symbols. No photorealism, text, logos, watermarks, captions, speech bubbles, or empty bubbles."
+  - panel: 2
+    beat: "도윤이 세 조각을 함께 묶는다"
+    caption: "도윤은 운반 중 부딪히지 않게 세 조각을 끈 하나로 함께 묶었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Close overhead view of Doyun's careful hands wrapping one plain cream cotton transport cord around exactly three hanging aged-brass rounded strips so they become one quiet bundle beneath a dark driftwood bar. No child hands, no extra metal pieces, no knots presented as a final handoff device. No photorealism, text, logos, watermarks, captions, speech bubbles, or empty bubbles."
+  - panel: 3
+    beat: "윤서가 움직일 조각을 고르겠다고 말한다"
+    caption: "윤서는 전시에서도 자기가 고른 조각은 움직여야 한다고 말했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo points firmly toward the tied three-strip wind mobile while Doyun listens with both hands lowered; the three brass strips remain visibly bundled by one cream cord. Clear child proportions and direct eyes, quiet Jeju workroom. No photorealism, text, logos, watermarks, captions, speech bubbles, or empty bubbles."
+  - panel: 4
+    beat: "묶인 조각들이 움직이지 않는다"
+    caption: "묶인 바람걸이를 문가에 걸자 세 조각은 한 덩어리로 붙어 있었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Doyun hangs the small wind mobile beside an open weathered Jeju wooden door; exactly three brass strips remain tightly bundled by one cream cord and hang as a motionless cluster despite a moving curtain and wind. No photorealism, text, logos, watermarks, captions, speech bubbles, or empty bubbles."
+  - panel: 5
+    beat: "윤서가 소리가 나지 않음을 확인한다"
+    caption: "윤서가 가운데 조각을 건드려도 아무 소리가 나지 않았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Close view: Yunseo's small index finger gently taps the shortest center brass strip, but the cream transport cord visibly holds all exactly three strips together; no motion marks or impact. Child sea-blue sleeve visible. No photorealism, text, logos, watermarks, captions, speech bubbles, or empty bubbles."
+  - panel: 6
+    beat: "순덕이 제주 돌풍의 위험을 짚는다"
+    caption: "순덕은 제주 바람에서는 풀린 조각끼리 세게 부딪힐 수 있다고 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Elderly Jeju woman Soondeok with short gray-white hair and sea-colored practical outerwear gestures from the bundled three-strip mobile toward the wind-bent doorway curtain, explaining the collision risk with a blunt practical expression. No photorealism, text, logos, watermarks, captions, speech bubbles, or empty bubbles."
+  - panel: 7
+    beat: "세 사람이 간격과 바람을 살핀다"
+    caption: "세 사람은 문간에서 조각 사이의 간격과 바람 방향을 살폈다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Wide Jeju doorway composition: Doyun, child Yunseo, and Soondeok examine exactly three separated brass strips held apart by hands to judge spacing and the breeze; driftwood bar overhead, curtain flowing one direction, adults do not take over Yunseo's choice. No photorealism, text, logos, watermarks, captions, speech bubbles, or empty bubbles."
+  - panel: 8
+    beat: "윤서가 가운데 하나만 울리기로 고른다"
+    caption: "윤서는 맑은 소리의 가운데 조각 하나만 움직이게 하기로 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo steadies the two longer outer brass strips with her left hand and points to the single shorter center strip with her right, making a clear choice; exactly three strips under one driftwood bar, adults observe in the background without touching. No photorealism, text, logos, watermarks, captions, speech bubbles, or empty bubbles."
+  - panel: 9
+    beat: "도윤이 탈착식 펠트 고리 세 개를 만든다"
+    caption: "도윤은 각 조각에 따로 끼우는 남색 펠트 고리 세 개를 만들었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Overhead worktable: Doyun makes exactly three separate palm-width muted cobalt-blue felt loops with cream inner lining and one tiny cream crescent stitch each, sized to slip around individual brass strips; scissors and plain felt scraps nearby, no writing. No photorealism, text, logos, watermarks, captions, speech bubbles, or empty bubbles."
+  - panel: 10
+    beat: "바깥 둘은 고정하고 가운데만 남긴다"
+    caption: "바깥 두 조각은 고리로 잡고 가운데 조각만 자유롭게 남겼다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Clear front view of exactly three aged-brass strips hanging separately: the left and right outer strips each wear one snug cobalt felt loop that softly holds them to nearby guide cords, while the shorter center strip is completely free; the third removed felt loop rests alone on a small pale-wood dish below. No photorealism, text, logos, watermarks, captions, speech bubbles, or empty bubbles."
+  - panel: 11
+    beat: "윤서가 가운데 고리를 직접 벗긴다"
+    caption: "윤서는 가운데 고리를 직접 벗겨 작은 나무 받침에 놓았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Close child-height view: Yunseo uses both small hands to slide one cobalt felt loop off the shorter center brass strip and places it on a shallow pale-wood dish; exactly two loops remain fitted on the outer strips. Doyun's hands stay lowered and out of the task. No photorealism, text, logos, watermarks, captions, speech bubbles, or empty bubbles."
+  - panel: 12
+    beat: "가운데 조각이 한 번 울린다"
+    caption: "문이 열리자 가운데 조각이 흔들려 작은 놋쇠 점을 한 번 쳤다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. The Jeju door opens into a gust; the free shorter center brass strip swings and touches one small round brass striker bead, while the two longer outer strips remain visibly held by their cobalt felt loops. Yunseo watches from safe distance, clear motion in fabric and center strip only. No photorealism, text, logos, watermarks, captions, speech bubbles, or empty bubbles."
+  - panel: 13
+    beat: "바깥 두 조각은 서로 부딪히지 않는다"
+    caption: "바깥 두 조각은 펠트 고리 안에서 서로 부딪히지 않았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Detail view during wind: exactly two outer brass strips stay separated and cushioned inside individual cobalt felt loops, with a clear air gap between them; the center strip swings freely farther forward. No people, no extra loops, no contact between outer strips. No photorealism, text, logos, watermarks, captions, speech bubbles, or empty bubbles."
+  - panel: 14
+    beat: "도윤이 고리를 영구 고정하지 않는다"
+    caption: "도윤은 고리를 붙이거나 끈으로 묶어 영구 고정하지 않았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Doyun deliberately pushes aside glue, staples, and cream tying cord while holding one plain removable cobalt felt loop open between his fingers; the three-strip mobile hangs nearby with no adhesive or permanent hardware. No photorealism, text, logos, watermarks, captions, speech bubbles, or empty bubbles."
+  - panel: 15
+    beat: "윤서가 두 조각을 울려 본다"
+    caption: "윤서는 왼쪽 고리도 벗겨 두 조각이 함께 울리게 해 봤다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Yunseo has removed the left felt loop and placed it beside the center loop on the pale-wood dish; the left and center brass strips both swing in the doorway breeze while only the right strip remains held by one cobalt loop. Exactly three strips and exactly three total loops, two on dish and one fitted. No photorealism, text, logos, watermarks, captions, speech bubbles, or empty bubbles."
+  - panel: 16
+    beat: "윤서가 가운데 하나만 남긴다"
+    caption: "소리가 겹치자 왼쪽 고리를 다시 끼우고 가운데만 풀어 뒀다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo slides the cobalt felt loop back around the left brass strip; left and right outer strips are now held, the shorter center strip stays free, and exactly one removed loop remains on the pale-wood dish. Doyun watches without touching. No photorealism, text, logos, watermarks, captions, speech bubbles, or empty bubbles."
+  - panel: 17
+    beat: "순덕이 강한 문바람으로 확인한다"
+    caption: "순덕은 문을 세게 열어도 풀린 한 조각만 움직이는지 확인했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Soondeok opens the Jeju door firmly for a practical gust test while Yunseo watches: only the single free center brass strip swings toward its small bead; both outer strips remain safely damped in cobalt felt loops, no collision. No photorealism, text, logos, watermarks, captions, speech bubbles, or empty bubbles."
+  - panel: 18
+    beat: "도윤이 서울 주인에게 고리를 건넨다"
+    caption: "서울에서 도윤은 다른 금속 모빌의 주인에게 같은 고리를 건넸다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Quiet gray Seoul workroom: Doyun offers four removable cobalt felt loops on a pale-wood dish to a distinct adult Korean woman owner beside her small four-piece brushed-metal mobile. Doyun does not install them; no Yunseo or Soondeok present. No photorealism, text, logos, watermarks, captions, speech bubbles, or empty bubbles."
+  - panel: 19
+    beat: "서울 주인이 두 조각을 고른다"
+    caption: "주인은 네 조각 가운데 남길 두 조각의 고리만 벗겼다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. The distinct adult woman owner independently removes felt loops from exactly two of four brushed-metal mobile pieces; two chosen pieces hang free, two remain damped, and exactly two removed cobalt loops rest on the pale-wood dish. Doyun stands back with hands lowered. No photorealism, text, logos, watermarks, captions, speech bubbles, or empty bubbles."
+  - panel: 20
+    beat: "두 고리와 다른 움직임이 남는다"
+    caption: "도윤은 받침의 두 고리와 서로 다르게 흔들리는 두 조각을 바라봤다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Restrained final Seoul composition: foreground pale-wood dish holds exactly two removed cobalt felt loops; beyond it exactly two owner-chosen metal pieces swing at visibly different angles while two other pieces stay softly damped. Doyun observes from the side, hands lowered, quiet gray window light. No photorealism, text, logos, watermarks, captions, speech bubbles, or empty bubbles."

@@ -2,6 +2,36 @@ version: 1
 factory_type: comic
 comic_id: wind-returning-place
 elements:
+  - id: prop.removable-felt-chime-dampers.001
+    name: 남겨 둘 울림을 고르는 펠트 고리
+    category: prop
+    scope: episode
+    status: active
+    introduced_in: ep-036
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-036
+        active_until: ep-036
+        supersedes: null
+        immutable_features:
+          - exactly three separate palm-width muted cobalt-blue felt sleeves for the Jeju three-strip wind mobile
+          - cream inner lining and one tiny cream crescent stitch on each removable sleeve
+          - each sleeve slips around the middle of one individual aged-brass rounded strip
+          - sleeves are independently removable so selected strips can move while the others remain softly damped
+          - one shallow plain pale-wood dish holds removed sleeves
+          - no adhesive, permanent fasteners, text, numbers, arrows, symbols, logo, label, or printed mark
+        mutable_features:
+          - zero, one, two, or more sleeves removed according to the owner's selected moving pieces
+          - exactly three brass strips in the Jeju wind mobile or four brushed-metal pieces in the Seoul owner's mobile
+          - Jeju community workroom doorway or Seoul workroom
+        reference_asset_ids:
+          - prop-removable-felt-chime-dampers-001-v1-text-lock
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: text_locked
   - id: prop.paired-panorama-edge-weights.001
     name: 펼친 폭을 잡는 쌍추
     category: prop
