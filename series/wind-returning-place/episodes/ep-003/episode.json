@@ -182,11 +182,11 @@
     },
     "image": {
       "stage": "이미지 생성",
-      "model": null,
-      "tool": null,
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
       "version": null,
-      "status": "not-recorded",
-      "note": "1–3화의 원본 제작 기록에는 제공사와 정확한 모델이 남아 있지 않습니다."
+      "status": "known-provider",
+      "note": "제공사와 생성 도구는 확인되며 정확한 모델 버전은 기록되지 않았습니다."
     },
     "lettering": {
       "stage": "레터링·내보내기",

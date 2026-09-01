@@ -481,6 +481,9 @@ function seriesFeature(currentSeries) {
 }
 
 function modelsPage() {
+  const episodesWithoutImageModel = allEpisodes.filter(
+    (episode) => episode.provenance?.image?.status !== "known-provider",
+  );
   return `
     <section class="page-intro">
       <p class="eyebrow">MODEL DISCLOSURE</p>
@@ -489,14 +492,16 @@ function modelsPage() {
     </section>
     <section class="model-list" aria-label="사용 모델">
       ${content.models.map((model) => modelCard(model)).join("")}
-      <article class="model-card model-card--unknown">
-        <div class="model-card__index">?</div>
-        <div>
-          <p class="eyebrow">RECORD NOT AVAILABLE</p>
-          <h2>일부 초기 회차 모델 기록 없음</h2>
-          <p>AI 이미지 생성물임은 확인되지만 제공사와 정확한 모델을 확인할 제작 기록이 없습니다.</p>
-        </div>
-      </article>
+      ${episodesWithoutImageModel.length > 0 ? `
+        <article class="model-card model-card--unknown">
+          <div class="model-card__index">?</div>
+          <div>
+            <p class="eyebrow">RECORD NOT AVAILABLE</p>
+            <h2>일부 회차 모델 기록 없음</h2>
+            <p>AI 이미지 생성물임은 확인되지만 제공사와 정확한 모델을 확인할 제작 기록이 없습니다.</p>
+          </div>
+        </article>
+      ` : ""}
     </section>
     <aside class="disclosure-note">
       <strong>표시 원칙</strong>
