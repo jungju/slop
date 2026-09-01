@@ -64,8 +64,8 @@ for (const episode of allEpisodes) {
     );
   } else {
     assert(
-      episode.provenance.image.model,
-      episode.id + "의 확인된 이미지 모델 정보가 없습니다.",
+      episode.provenance.image.model && episode.provenance.image.tool,
+      episode.id + "의 확인된 이미지 모델 또는 도구 정보가 없습니다.",
     );
   }
   const readerHtml = await readFile(
@@ -137,6 +137,10 @@ const cname = (await readFile(join(outDir, "CNAME"), "utf8")).trim();
 assert(cname === "slop.jjgo.io", "CNAME이 slop.jjgo.io가 아닙니다.");
 
 const home = await readFile(join(outDir, "index.html"), "utf8");
+const modelsHtml = await readFile(join(outDir, "models", "index.html"), "utf8");
+const episodesWithoutImageModel = allEpisodes.filter(
+  (episode) => episode.provenance?.image?.status !== "known-provider",
+);
 assert(stylesPath, "내용 해시가 포함된 CSS 빌드 자산이 없습니다.");
 assert(appPath, "내용 해시가 포함된 JavaScript 빌드 자산이 없습니다.");
 if (process.env.NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN?.trim()) {
@@ -218,6 +222,17 @@ assert(
 );
 assert(!home.includes("인기"), "초기 홈에 인기 영역이 포함되어 있습니다.");
 assert(!home.includes("추천"), "초기 홈에 추천 영역이 포함되어 있습니다.");
+if (episodesWithoutImageModel.length === 0) {
+  assert(
+    !modelsHtml.includes('class="model-card model-card--unknown"'),
+    "모든 이미지 모델이 확인됐지만 모델 기록 없음 카드가 노출됩니다.",
+  );
+} else {
+  assert(
+    modelsHtml.includes('class="model-card model-card--unknown"'),
+    "이미지 모델 기록이 없는 회차가 있지만 안내 카드가 없습니다.",
+  );
+}
 
 const windPackage = packages.find((item) => item.definition.id === "wind-returning-place");
 for (const required of [
