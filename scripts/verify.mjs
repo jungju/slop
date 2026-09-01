@@ -68,12 +68,40 @@ for (const episode of allEpisodes) {
       episode.id + "의 확인된 이미지 모델 정보가 없습니다.",
     );
   }
+  const readerHtml = await readFile(
+    join(outDir, "comics", episode.seriesSlug, episode.id, "index.html"),
+    "utf8",
+  );
+  assert(
+    readerHtml.includes('href="#comic-reader"') && readerHtml.includes('id="comic-reader"'),
+    `${episode.seriesSlug}/${episode.id} 만화 바로 읽기 링크가 없습니다.`,
+  );
+  assert(
+    readerHtml.includes('data-reader-view="fit"') &&
+      readerHtml.includes('data-reader-view="width"'),
+    `${episode.seriesSlug}/${episode.id} 보기 방식 전환이 없습니다.`,
+  );
+  assert(
+    (readerHtml.match(/data-reader-page="\d+"/g) || []).length === episode.pageCount,
+    `${episode.seriesSlug}/${episode.id} 페이지 표식 수가 맞지 않습니다.`,
+  );
+  assert(
+    readerHtml.includes(`aria-valuemax="${episode.pageCount}"`) &&
+      readerHtml.includes('data-reader-current'),
+    `${episode.seriesSlug}/${episode.id} 읽기 진행 정보가 없습니다.`,
+  );
+  assert(
+    readerHtml.indexOf('class="reader-production"') >
+      readerHtml.indexOf('id="comic-reader"'),
+    `${episode.seriesSlug}/${episode.id} 제작 정보가 만화보다 먼저 노출됩니다.`,
+  );
   if (Array.isArray(episode.sources) && episode.sources.length > 0) {
-    const readerHtml = await readFile(
-      join(outDir, "comics", episode.seriesSlug, episode.id, "index.html"),
-      "utf8",
-    );
     assert(readerHtml.includes('id="episode-sources-title"'), `${episode.seriesSlug}/${episode.id} 출처 영역이 공개되지 않았습니다.`);
+    assert(
+      readerHtml.indexOf('class="episode-sources"') >
+        readerHtml.indexOf('id="comic-reader"'),
+      `${episode.seriesSlug}/${episode.id} 출처 영역이 만화보다 먼저 노출됩니다.`,
+    );
     for (const source of episode.sources) {
       assert(readerHtml.includes(source.url), `${episode.seriesSlug}/${episode.id} 출처 링크가 공개되지 않았습니다: ${source.url}`);
     }
@@ -152,6 +180,10 @@ assert(
 assert(
   home.includes('class="hero__headline-word" data-hero-word>만듭니다.</span>'),
   "홈 히어로의 단일 전환 문구가 없습니다.",
+);
+assert(
+  home.includes('class="hero__visual-frame"'),
+  "홈 최신 만화가 전체 표지 프레임으로 표시되지 않습니다.",
 );
 assert(
   (home.match(/class="hero__headline-word"/g) || []).length === 1,
