@@ -1,0 +1,99 @@
+version: 1
+episode: ep-037
+title: "빌려 둔 둘"
+format: vertical_scroll
+page_count: 20
+reading_order: top_to_bottom
+core_elements:
+  - { id: character.doyun.001, version: 1, panels: [1, 2, 3, 7, 9, 10, 16, 18, 20] }
+  - { id: character.yunseo.001, version: 1, panels: [1, 3, 4, 7, 8, 10, 11, 12, 14, 15, 17] }
+  - { id: character.soondeok.001, version: 1, panels: [6, 7, 17] }
+  - { id: prop.flip-share-tool-roll.001, version: 1, panels: [1, 2, 3, 4, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] }
+style_lock: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text."
+negative_prompt: "No photorealism, live action, cinematic stills, DSLR photography, skin pores, lens bokeh, generated text, fake Korean, signs, logos, watermarks, captions, speech bubbles, empty bubbles."
+accepted_prompt_addenda:
+  9: "Corrected to exactly four pockets and four fixed pivot tabs with no fifth tab or detached marker."
+  14: "Corrected to exactly one cobalt tab and three cream tabs, with Yunseo's sea-blue jacket and jaw-length bob."
+  19: "Corrected to exactly four rollers, one cobalt tab, and three cream tabs under the adult owner's control."
+  20: "Corrected final view to exactly four rollers and four fixed tabs, one cobalt and three cream."
+pages:
+  - panel: 1
+    beat: "윤서가 붓 도구말이를 가져온다"
+    caption: "제주 작업실에 윤서는 붓 네 자루가 든 낡은 도구말이를 가져왔다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Jeju workroom, unmistakable 8-year-old Korean girl Kang Yunseo, jaw-length black bob, sea-blue hooded rain jacket, cream sweatshirt, charcoal pants, hands an open cream waxed-canvas tool roll to slim clean-shaven 26-year-old Korean man Han Doyun, slightly long wavy black hair, gray hoodie under dark coat. Exactly four vertical brush pockets and four distinct brushes. No photorealism, text, logos, watermarks, captions, speech bubbles, or empty bubbles."
+  - panel: 2
+    beat: "도윤이 모두 공용이라고 오해한다"
+    caption: "도윤은 정리를 맡았으니 네 자루 모두 함께 써도 된다고 생각했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Overhead Jeju worktable: Doyun lays exactly four different brushes in a neat shared row beside an open cream roll with four empty pockets, inviting general use; child Yunseo watches with concern. No photorealism, text, logos, watermarks, captions, speech bubbles, or empty bubbles."
+  - panel: 3
+    beat: "윤서가 빌려줄 붓을 고르겠다고 말한다"
+    caption: "윤서는 빌려줘도 되는 붓은 오늘 자기가 고르겠다고 말했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo places one small hand before the four-brush row and points to herself; Doyun listens with hands lowered. Open cream four-pocket tool roll visible, clear child proportions. No photorealism, text, logos, watermarks, captions, speech bubbles, or empty bubbles."
+  - panel: 4
+    beat: "풀 붓을 빌릴 뻔한다"
+    caption: "옆 작업자가 풀 묻은 넓은 붓에 손을 뻗자 윤서가 먼저 막았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Distinct adult participant reaches toward one wide flat brush with damp translucent paste; child Yunseo gently blocks the reach with an open palm. Three other brushes and cream roll remain on the table. No photorealism, text, logos, watermarks, captions, speech bubbles, or empty bubbles."
+  - panel: 5
+    beat: "덜 마른 풀이 종이를 더럽힌다"
+    caption: "덜 마른 풀은 깨끗한 종이 가장자리에 작은 얼룩을 남겼다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Close tabletop evidence: damp wide flat brush beside a blank cream paper sheet with one small translucent paste smear at the corner, no hands, practical materials only. No photorealism, text, logos, watermarks, captions, speech bubbles, or empty bubbles."
+  - panel: 6
+    beat: "순덕이 붓 상태가 달라짐을 짚는다"
+    caption: "순덕은 같은 붓도 젖었을 때와 말랐을 때 쓰임이 다르다고 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Elderly Jeju woman Soondeok, short gray-white hair, sea-colored practical outerwear, compares the damp wide brush with a clean dry round brush, blunt practical expression. No photorealism, text, logos, watermarks, captions, speech bubbles, or empty bubbles."
+  - panel: 7
+    beat: "세 사람이 네 붓을 확인한다"
+    caption: "세 사람은 네 붓의 털과 손잡이를 하나씩 확인했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Wide Jeju worktable: Doyun, child Yunseo, and Soondeok inspect exactly four brushes beside an open four-pocket cream roll: wide paste brush, soft dusting brush, dry round brush, short stiff brush. Yunseo touches each handle. No photorealism, text, logos, watermarks, captions, speech bubbles, or empty bubbles."
+  - panel: 8
+    beat: "윤서가 두 자루를 고른다"
+    caption: "윤서는 마른 둥근 붓과 뻣뻣한 짧은 붓만 빌려주기로 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo separates exactly two chosen brushes, one dry round and one short stiff, toward the table front, leaving the wide paste and soft dusting brushes by the open four-pocket roll. Adults remain hands-off. No photorealism, text, logos, watermarks, captions, speech bubbles, or empty bubbles."
+  - panel: 9
+    beat: "도윤이 양면 회전 표지를 단다"
+    caption: "도윤은 네 주머니마다 돌아가는 작은 양면 표지를 달았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Overhead craft close-up: Doyun installs exactly four small fixed round pivot tabs along four pockets of a cream waxed-canvas brush roll. Each tab has one aged-brass pivot, one muted cobalt face and one cream reverse, rotates but cannot detach. No photorealism, text, logos, watermarks, captions, speech bubbles, or empty bubbles."
+  - panel: 10
+    beat: "윤서가 두 표지를 파랗게 돌린다"
+    caption: "윤서는 고른 두 주머니의 표지를 파란 면으로 직접 돌렸다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child-height close view: Yunseo rotates two fixed pivot tabs to cobalt beneath pockets holding the dry round and short stiff brushes; exactly two other tabs remain cream. Doyun watches without touching. No photorealism, text, logos, watermarks, captions, speech bubbles, or empty bubbles."
+  - panel: 11
+    beat: "나머지 둘은 크림색으로 둔다"
+    caption: "풀 붓과 먼지 붓 아래에는 크림색 면이 그대로 남았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Front detail of open four-pocket cream roll: paste brush and dusting brush over exactly two cream tabs; round brush and short stiff brush over exactly two cobalt tabs. Yunseo's small hand points to the cream pair. No photorealism, text, logos, watermarks, captions, speech bubbles, or empty bubbles."
+  - panel: 12
+    beat: "다른 아이가 파란 주머니의 붓만 빌린다"
+    caption: "다른 아이는 파란 표지 아래의 둥근 붓만 빌려 갔다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. A distinct Korean child lifts only the dry round brush from a pocket with a cobalt tab; three brushes remain. Yunseo nods nearby, no adults directing exchange. No photorealism, text, logos, watermarks, captions, speech bubbles, or empty bubbles."
+  - panel: 13
+    beat: "돌아온 둥근 붓이 젖어 있다"
+    caption: "씻어 돌아온 둥근 붓은 깨끗했지만 털이 아직 젖어 있었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Close evidence: clean round brush with darkened wet bristles and one water droplet above a shallow wash bowl beside the cream tool roll, no people or writing. No photorealism, text, logos, watermarks, captions, speech bubbles, or empty bubbles."
+  - panel: 14
+    beat: "윤서가 마를 때까지 표지를 닫는다"
+    caption: "윤서는 붓이 마를 때까지 그 표지를 크림색으로 뒤집었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Yunseo returns the wet round brush and rotates its fixed tab from cobalt to cream; exactly one cobalt tab remains under the short stiff brush and exactly three show cream. No photorealism, text, logos, watermarks, captions, speech bubbles, or empty bubbles."
+  - panel: 15
+    beat: "마른 뒤 다시 파란 면으로 연다"
+    caption: "햇볕에 붓이 마르자 윤서는 표지를 다시 파란 면으로 돌렸다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Warm Jeju window light, round brush bristles visibly dry; Yunseo rotates its tab back to cobalt. Exactly two cobalt tabs and two cream tabs on the four-pocket roll. No photorealism, text, logos, watermarks, captions, speech bubbles, or empty bubbles."
+  - panel: 16
+    beat: "도윤이 영구 표시를 하지 않는다"
+    caption: "도윤은 영구 색칠을 멈추고 네 표지가 잘 도는지만 확인했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Doyun pushes an open cobalt paint jar aside unused, then tests one brass-pivoted two-sided tab on the four-pocket cream roll. No permanent painted marks; all four tabs stay rotatable. No photorealism, text, logos, watermarks, captions, speech bubbles, or empty bubbles."
+  - panel: 17
+    beat: "윤서가 오늘 쓸 붓도 다시 닫는다"
+    caption: "윤서는 오늘 쓸 뻣뻣한 붓도 크림색으로 바꿔 순덕에게 보여 줬다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Soondeok reaches toward the short stiff brush, but child Yunseo calmly rotates its tab to cream and holds the brush for her own work. Round brush remains above the only cobalt tab; three tabs show cream. Soondeok accepts with hands lowered. No photorealism, text, logos, watermarks, captions, speech bubbles, or empty bubbles."
+  - panel: 18
+    beat: "도윤이 서울 주인의 롤러말이에 표지를 단다"
+    caption: "서울에서 도윤은 판화 롤러 네 개의 주인에게 같은 표지를 달아 줬다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Quiet gray Seoul printmaking room: Doyun installs four fixed brass-pivoted cobalt-and-cream tabs on a distinct adult Korean woman's cream canvas roll holding exactly four small printmaking rollers. Woman owner watches; no Yunseo or Soondeok. No photorealism, text, logos, watermarks, captions, speech bubbles, or empty bubbles."
+  - panel: 19
+    beat: "서울 주인이 한 롤러만 고른다"
+    caption: "주인은 세척을 마친 작은 롤러 하나만 파란 면으로 바꿨다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Adult woman owner independently rotates only the tab beneath one clean small printmaking roller to cobalt; exactly three tabs remain cream beneath three other rollers. Doyun stands back, hands lowered. No photorealism, text, logos, watermarks, captions, speech bubbles, or empty bubbles."
+  - panel: 20
+    beat: "오늘의 한 칸만 파랗게 남는다"
+    caption: "파란 면 하나와 크림색 면 셋은 주인이 오늘 고른 그대로 남았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Restrained final Seoul view: open cream roll with exactly four printmaking rollers, exactly one fixed pivot tab showing cobalt and exactly three showing cream. Adult owner closes wash basin in background while Doyun observes from side, hands lowered. No photorealism, text, logos, watermarks, captions, speech bubbles, or empty bubbles."

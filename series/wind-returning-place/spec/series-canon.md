@@ -371,6 +371,18 @@ repeating wind mobiles, brass chime strips, cobalt felt sleeves, removable
 dampers, selecting audible pieces, strong-door-breeze tests, or owner-chosen
 sound payoffs.
 
+Episode 37 turns revisable movement into revisable borrowing. The cream
+four-pocket tool roll with fixed cobalt-and-cream pivot tabs,
+`prop.flip-share-tool-roll.001@v1`, lets Yunseo decide which of her four brushes
+may be borrowed today and change that decision when a returned brush is still
+wet or when she needs a brush for her own work. Doyun replaces his assumption
+of blanket permission with owner-operated reversible signals; a later Seoul
+printmaker chooses one cleaned roller to share. Soondeok supplies the practical
+wet-versus-dry test; Minjae remains absent in the present. Future episodes
+should avoid immediately repeating brush rolls, exactly four tool pockets,
+cobalt-and-cream flip tabs, wet returned brushes, borrowing permissions, or an
+owner-selected shared-tool payoff.
+
 ## Good Future Episode Engines
 
 Use one concrete motif and one emotional question:
