@@ -1,0 +1,41 @@
+version: 2
+episode: ep-006
+reader_page: 1
+layout: single_image_2x2
+generation_mode: one_complete_lettered_poster
+reference: ".codex/skills/today-ai-four-cut-series/assets/reference-layout.png"
+exact_copy:
+  kicker: "AI 뉴스 네 컷"
+  title: "같은 Claude를 두 길로 나눴다"
+  footer: "강한 기능일수록 접근 조건도 함께 봐요."
+  panels:
+    - { number: "1", speaker: "누리", text: "새 Claude가 두 가지로\n나왔다고요?" }
+    - { number: "2", speaker: "픽", text: "Fable 5.1은 모두에게,\nMythos 5.1은 제한 공개예요." }
+    - { number: "3", speaker: "누리", text: "같은 모델인데 왜\n길을 나눴죠?" }
+    - { number: "4", speaker: "픽", text: "위험한 보안·생물학 기능은\n검증된 기관만 쓸 수 있어요." }
+panels:
+  - panel: 1
+    role: hook
+    visual_action: "누리가 하나의 무문자 AI 코어에서 두 갈래 길이 뻗는 모습을 보며 묻는다."
+    source_claims: [C1]
+    tail_target: character.nuri.001
+  - panel: 2
+    role: fact
+    visual_action: "픽이 열린 문으로 가는 길과 자물쇠가 있는 검증 관문으로 가는 길을 가리킨다."
+    source_claims: [C2, C3]
+    tail_target: character.pik.001
+  - panel: 3
+    role: meaning_and_limit
+    visual_action: "누리가 두 갈래 길의 중심에 놓인 같은 무문자 모델 코어를 확대경으로 확인한다."
+    source_claims: [C4]
+    tail_target: character.nuri.001
+  - panel: 4
+    role: takeaway
+    visual_action: "픽이 방패, 현미경, 검증 배지가 놓인 제한 관문을 가리킨다. 배지에는 글자가 없다."
+    source_claims: [C5, C6]
+    tail_target: character.pik.001
+generation_requirements:
+  - "Built-in image generation creates the complete poster, panel borders, balloons, tails, all exact Korean copy, and digits in one result."
+  - "Exactly four panels and exactly four speech balloons."
+  - "No local lettering, local balloon drawing, or post-generation text repair."
+  - "Reject and regenerate for any typo, paraphrase, missing character, extra text, fake Korean, missing tail, or identity drift."

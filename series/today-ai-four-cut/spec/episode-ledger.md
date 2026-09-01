@@ -9,3 +9,4 @@
 | ep-003 | 2026-08-22 | 강한 보안 AI가 방어 도구에 들어갔다 | `https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders|2026-08-21` | 한 장 2×2 네 컷, 제한된 방어 결과와 사람 검토 요건을 함께 설명 |
 | ep-004 | 2026-08-23 | GPT-5.6 Sol 가격이 내려갔다 | `https://openai.com/index/gpt-5-6/|2026-08-21` | 한 장 2×2 네 컷, 새 API 단가와 3개월 한시 적용 범위를 함께 설명 |
 | ep-005 | 2026-08-29 | AI 시험지를 양쪽에 숨겼다 | `https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/|2026-08-27` | 한 장 2×2 네 컷, 이중맹검 평가 구조와 첫 파일럿의 한계를 함께 설명 |
+| ep-006 | 2026-09-02 | 같은 Claude를 두 길로 나눴다 | `https://www.anthropic.com/claude-fable-and-mythos-5-1|2026-09-01` | 한 장 2×2 네 컷, 같은 기반 모델의 일반 공개와 제한 접근 차이를 설명 |
