@@ -2,6 +2,36 @@ version: 1
 factory_type: comic
 comic_id: wind-returning-place
 elements:
+  - id: prop.flip-share-tool-roll.001
+    name: 오늘 빌려줄 붓을 고르는 양면 표지 도구말이
+    category: prop
+    scope: episode
+    status: active
+    introduced_in: ep-037
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-037
+        active_until: ep-037
+        supersedes: null
+        immutable_features:
+          - cream waxed-canvas roll with exactly four equal vertical tool pockets
+          - exactly four small round two-sided tabs, each permanently attached below one pocket by one aged-brass pivot
+          - every tab has one plain muted cobalt-blue face and one plain cream reverse and rotates in place without detaching
+          - one small cobalt crescent repair stitch at the lower-right corner of the canvas roll
+          - Jeju roll holds exactly four distinct brushes: wide paste brush, soft dusting brush, dry round brush, and short stiff brush
+          - no text, numbers, arrows, icons, symbols, logo, label, or printed mark
+        mutable_features:
+          - cobalt or cream face selected independently for each pocket by the owner
+          - brushes wet, dry, borrowed, returned, or held for current work
+          - Jeju community workroom with brushes or Seoul printmaking workroom with four rollers
+        reference_asset_ids:
+          - prop-flip-share-tool-roll-001-v1-text-lock
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: text_locked
   - id: prop.removable-felt-chime-dampers.001
     name: 남겨 둘 울림을 고르는 펠트 고리
     category: prop
