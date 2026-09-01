@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "kicker": "AI 뉴스 네 컷",
+  "title": "같은 Claude를 두 길로 나눴다",
+  "footer": "강한 기능일수록 접근 조건도 함께 봐요.",
+  "panels": [
+    { "number": 1, "speaker": "누리", "text": "새 Claude가 두 가지로\n나왔다고요?" },
+    { "number": 2, "speaker": "픽", "text": "Fable 5.1은 모두에게,\nMythos 5.1은 제한 공개예요." },
+    { "number": 3, "speaker": "누리", "text": "같은 모델인데 왜\n길을 나눴죠?" },
+    { "number": 4, "speaker": "픽", "text": "위험한 보안·생물학 기능은\n검증된 기관만 쓸 수 있어요." }
+  ]
+}
