@@ -1,352 +1,235 @@
 import { readFile, readdir, stat } from "node:fs/promises";
-import { dirname, extname, join, relative, resolve } from "node:path";
+import { extname, join, relative } from "node:path";
 import { fileURLToPath } from "node:url";
-import { loadSeriesContent } from "./lib/series-content.mjs";
+import { escapeHtml } from "./templates/html.mjs";
 
-const scriptDir = dirname(fileURLToPath(import.meta.url));
-const root = resolve(scriptDir, "..");
-const outDir = join(root, "_site");
-const { content, packages } = await loadSeriesContent(root);
-const series = content.series.find((item) => item.id === "wind-returning-place");
-const allEpisodes = content.series.flatMap((item) => item.episodes);
-const expectedWebpCount = allEpisodes.reduce((sum, episode) => sum + episode.pageCount, 0);
-const packageById = new Map(packages.map((item) => [item.definition.id, item]));
-const errors = [];
+const outDir = fileURLToPath(new URL("../_site/", import.meta.url));
 
-assert(series, "wind-returning-place 시리즈가 없습니다.");
-assert(content.series.length > 0, "등록된 연재가 없습니다.");
-
-for (const item of packages) {
-  assert(item.harness.series === item.definition.id, `${item.definition.slug} 하네스의 series가 일치하지 않습니다.`);
-  assert(item.harness.pageCount > 0, `${item.definition.slug} 하네스에 pageCount가 없습니다.`);
-  assert(item.definition.about, `${item.definition.slug} 작품 소개가 없습니다.`);
-  assert(item.definition.audience, `${item.definition.slug} 대상 독자 정보가 없습니다.`);
-  assert(item.definition.format?.label && item.definition.format?.detail, `${item.definition.slug} 형식 정보가 없습니다.`);
-  assert(
-    item.definition.schedule?.label &&
-      item.definition.schedule?.time &&
-      item.definition.schedule?.timezone &&
-      item.definition.schedule?.note,
-    `${item.definition.slug} 연재 일정 정보가 없습니다.`,
+async function main() {
+  const content = JSON.parse(
+    await readFile(join(outDir, "content.json"), "utf8"),
   );
-  assert(item.definition.basis?.label && item.definition.basis?.detail, `${item.definition.slug} 내용 기반 정보가 없습니다.`);
-  for (let index = 0; index < item.definition.episodes.length; index += 1) {
-    assert(item.definition.episodes[index].number === index + 1, `${item.definition.slug} 회차 번호가 연속적이지 않습니다.`);
+  const episodes = content.series.flatMap((series) => series.episodes);
+  const files = await readdir(outDir, { recursive: true });
+  const htmlFiles = files.filter((file) => extname(file) === ".html");
+  const webpFiles = files.filter((file) => extname(file) === ".webp");
+  const errors = [];
+  const assert = (condition, message) => {
+    if (!condition) errors.push(message);
+  };
+  const read = (path) => readFile(join(outDir, path), "utf8");
+  const htmlByPath = new Map();
+  for (const file of htmlFiles) {
+    const path = "/" + file.replaceAll("\\", "/").replace(/index\.html$/, "");
+    htmlByPath.set(path, await read(file));
   }
-  const seriesHtml = await readFile(
-    join(outDir, "series", item.definition.slug, "index.html"),
-    "utf8",
-  );
-  assert(seriesHtml.includes('id="series-guide-title"'), `${item.definition.slug} 작품 안내가 공개되지 않았습니다.`);
-  assert(seriesHtml.includes(item.definition.schedule.label), `${item.definition.slug} 연재 일정이 공개되지 않았습니다.`);
-  assert(seriesHtml.includes(item.definition.format.label), `${item.definition.slug} 작품 형식이 공개되지 않았습니다.`);
-}
-
-for (const episode of allEpisodes) {
-  const expectedPages = packageById.get(episode.seriesId)?.harness.pageCount;
-  assert(episode.pageCount === expectedPages, `${episode.seriesSlug}/${episode.id} pageCount가 하네스와 다릅니다.`);
-  assert(episode.pages.length === expectedPages, `${episode.seriesSlug}/${episode.id} 페이지 수가 하네스와 다릅니다.`);
+  assert(content.series.length > 0, "게시된 연재가 없습니다.");
   assert(
-    episode.pages.every(
-      (page) =>
-        page.width > 0 &&
-        page.height > 0 &&
-        page.alt &&
-        page.src.endsWith(".webp"),
-    ),
-    episode.id + " 페이지 메타데이터가 불완전합니다.",
+    episodes.every((episode) => episode.status !== "draft"),
+    "공개 데이터에 초안이 포함되었습니다.",
   );
-
-  if (episode.provenance.image.status === "not-recorded") {
+  for (const series of content.series) {
+    const html = htmlByPath.get(`/series/${series.slug}/`) || "";
     assert(
-      !episode.provenance.image.model,
-      episode.id + "의 모델 기록 없음 상태에 모델명이 포함되어 있습니다.",
+      html.includes('id="series-guide-title"'),
+      `${series.slug} 작품 안내가 없습니다.`,
     );
-  } else {
     assert(
-      episode.provenance.image.model && episode.provenance.image.tool,
-      episode.id + "의 확인된 이미지 모델 또는 도구 정보가 없습니다.",
+      html.includes(escapeHtml(series.schedule.label)) &&
+        html.includes(escapeHtml(series.format.label)),
+      `${series.slug} 일정 또는 형식이 공개되지 않았습니다.`,
     );
-  }
-  const readerHtml = await readFile(
-    join(outDir, "comics", episode.seriesSlug, episode.id, "index.html"),
-    "utf8",
-  );
-  assert(
-    readerHtml.includes('href="#comic-reader"') && readerHtml.includes('id="comic-reader"'),
-    `${episode.seriesSlug}/${episode.id} 만화 바로 읽기 링크가 없습니다.`,
-  );
-  assert(
-    readerHtml.includes('data-reader-view="fit"') &&
-      readerHtml.includes('data-reader-view="width"'),
-    `${episode.seriesSlug}/${episode.id} 보기 방식 전환이 없습니다.`,
-  );
-  assert(
-    (readerHtml.match(/data-reader-page="\d+"/g) || []).length === episode.pageCount,
-    `${episode.seriesSlug}/${episode.id} 페이지 표식 수가 맞지 않습니다.`,
-  );
-  assert(
-    readerHtml.includes(`aria-valuemax="${episode.pageCount}"`) &&
-      readerHtml.includes('data-reader-current'),
-    `${episode.seriesSlug}/${episode.id} 읽기 진행 정보가 없습니다.`,
-  );
-  assert(
-    readerHtml.indexOf('class="reader-production"') >
-      readerHtml.indexOf('id="comic-reader"'),
-    `${episode.seriesSlug}/${episode.id} 제작 정보가 만화보다 먼저 노출됩니다.`,
-  );
-  if (Array.isArray(episode.sources) && episode.sources.length > 0) {
-    assert(readerHtml.includes('id="episode-sources-title"'), `${episode.seriesSlug}/${episode.id} 출처 영역이 공개되지 않았습니다.`);
-    assert(
-      readerHtml.indexOf('class="episode-sources"') >
-        readerHtml.indexOf('id="comic-reader"'),
-      `${episode.seriesSlug}/${episode.id} 출처 영역이 만화보다 먼저 노출됩니다.`,
-    );
-    for (const source of episode.sources) {
-      assert(readerHtml.includes(source.url), `${episode.seriesSlug}/${episode.id} 출처 링크가 공개되지 않았습니다: ${source.url}`);
-    }
-  }
-}
-const files = await walk(outDir);
-const htmlFiles = files.filter((path) => extname(path) === ".html");
-const webpFiles = files.filter((path) => extname(path) === ".webp");
-const stylesPath = files.find((path) =>
-  /[\\/]assets[\\/]styles\.[0-9a-f]{12}\.css$/.test(path),
-);
-const appPath = files.find((path) =>
-  /[\\/]assets[\\/]app\.[0-9a-f]{12}\.js$/.test(path),
-);
-const posthogPath = files.find((path) =>
-  /[\\/]assets[\\/]posthog\.[0-9a-f]{12}\.js$/.test(path),
-);
-const webpStats = await Promise.all(webpFiles.map((path) => stat(path)));
-const totalWebpBytes = webpStats.reduce((sum, info) => sum + info.size, 0);
-const largestWebpBytes = Math.max(...webpStats.map((info) => info.size), 0);
-
-assert(webpFiles.length === expectedWebpCount, `독자용 WebP 이미지가 ${expectedWebpCount}장이 아닙니다.`);
-assert(
-  totalWebpBytes < 250 * 1024 * 1024,
-  "WebP 총용량이 250MiB를 넘습니다.",
-);
-assert(
-  largestWebpBytes < 5 * 1024 * 1024,
-  "5MiB를 넘는 WebP 이미지가 있습니다.",
-);
-
-const cname = (await readFile(join(outDir, "CNAME"), "utf8")).trim();
-assert(cname === "slop.jjgo.io", "CNAME이 slop.jjgo.io가 아닙니다.");
-
-const home = await readFile(join(outDir, "index.html"), "utf8");
-const modelsHtml = await readFile(join(outDir, "models", "index.html"), "utf8");
-const episodesWithoutImageModel = allEpisodes.filter(
-  (episode) => episode.provenance?.image?.status !== "known-provider",
-);
-assert(stylesPath, "내용 해시가 포함된 CSS 빌드 자산이 없습니다.");
-assert(appPath, "내용 해시가 포함된 JavaScript 빌드 자산이 없습니다.");
-if (process.env.NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN?.trim()) {
-  assert(posthogPath, "PostHog 빌드 자산이 없습니다.");
-  const posthog = posthogPath ? await readFile(posthogPath, "utf8") : "";
-  const posthogUrl = posthogPath
-    ? "/" + relative(outDir, posthogPath).replaceAll("\\", "/")
-    : "";
-  assert(home.includes('src="' + posthogUrl + '"'), "홈이 PostHog 자산을 참조하지 않습니다.");
-  assert(posthog.includes("posthog.init("), "PostHog 초기화 코드가 없습니다.");
-  assert(posthog.includes("capture_pageleave: true"), "PostHog 페이지 이탈 수집이 꺼져 있습니다.");
-  assert(posthog.includes("disable_session_recording: true"), "PostHog 세션 녹화가 꺼져 있지 않습니다.");
-  assert(!posthog.includes("__POSTHOG_"), "PostHog 설정 자리표시자가 빌드에 남아 있습니다.");
-} else {
-  assert(!posthogPath, "프로젝트 토큰 없이 PostHog 자산이 생성되었습니다.");
-}
-const styles = stylesPath ? await readFile(stylesPath, "utf8") : "";
-const app = appPath ? await readFile(appPath, "utf8") : "";
-const stylesUrl = stylesPath
-  ? "/" + relative(outDir, stylesPath).replaceAll("\\", "/")
-  : "";
-const appUrl = appPath
-  ? "/" + relative(outDir, appPath).replaceAll("\\", "/")
-  : "";
-assert(
-  home.includes('href="' + stylesUrl + '"'),
-  "홈이 내용 해시 CSS 자산을 참조하지 않습니다.",
-);
-assert(
-  home.includes('src="' + appUrl + '"'),
-  "홈이 내용 해시 JavaScript 자산을 참조하지 않습니다.",
-);
-assert(!home.includes('class="signal-list"'), "홈 히어로의 원칙 태그가 제거되지 않았습니다.");
-assert(!home.includes("<li>100% AI 제작</li>"), "홈에 100% AI 제작 태그가 남아 있습니다.");
-assert(!home.includes("<li>자동 게시</li>"), "홈에 자동 게시 태그가 남아 있습니다.");
-assert(!home.includes("<li>모델 정보 공개</li>"), "홈에 모델 정보 공개 태그가 남아 있습니다.");
-assert(
-  home.includes("hero__headline-fixed\">AI가</span>"),
-  "홈 히어로에 고정 문구 ‘AI가’가 없습니다.",
-);
-assert(
-  home.includes('class="hero__headline-word" data-hero-word>만듭니다.</span>'),
-  "홈 히어로의 단일 전환 문구가 없습니다.",
-);
-assert(
-  home.includes('class="hero__visual-frame"'),
-  "홈 최신 만화가 전체 표지 프레임으로 표시되지 않습니다.",
-);
-assert(
-  (home.match(/class="hero__headline-word"/g) || []).length === 1,
-  "홈 히어로의 전환 문구 레이어는 하나여야 합니다.",
-);
-for (const message of ["만듭니다.", "생각합니다.", "운영합니다."]) {
-  assert(
-    app.includes('"' + message + '"'),
-    "홈 히어로 순환 스크립트에 문구가 없습니다: " + message,
-  );
-}
-assert(
-  home.includes("AI가 만듭니다. AI가 생각합니다. AI가 운영합니다."),
-  "홈 히어로의 접근 가능한 전체 문구가 없습니다.",
-);
-assert(
-  app.includes("rotatingWord.animate"),
-  "홈 히어로 단일 레이어 전환 애니메이션이 없습니다.",
-);
-assert(
-  app.includes("prefers-reduced-motion: reduce"),
-  "홈 히어로에 모션 감소 처리가 없습니다.",
-);
-assert(
-  !home.includes("hero__headline-track") &&
-    !styles.includes("@keyframes hero-copy-cycle"),
-  "홈 히어로에 이전 다중 레이어 트랙이 남아 있습니다.",
-);
-assert(
-  !home.includes("AI가 만들고,<br>AI가 연재합니다."),
-  "홈 히어로에 이전 문구가 남아 있습니다.",
-);
-assert(!home.includes("인기"), "초기 홈에 인기 영역이 포함되어 있습니다.");
-assert(!home.includes("추천"), "초기 홈에 추천 영역이 포함되어 있습니다.");
-if (episodesWithoutImageModel.length === 0) {
-  assert(
-    !modelsHtml.includes('class="model-card model-card--unknown"'),
-    "모든 이미지 모델이 확인됐지만 모델 기록 없음 카드가 노출됩니다.",
-  );
-} else {
-  assert(
-    modelsHtml.includes('class="model-card model-card--unknown"'),
-    "이미지 모델 기록이 없는 회차가 있지만 안내 카드가 없습니다.",
-  );
-}
-
-const windPackage = packages.find((item) => item.definition.id === "wind-returning-place");
-for (const required of [
-  "series-canon.md",
-  "episode-ledger.md",
-  "comic-dna.yaml",
-  "comic-profile.yaml",
-  "continuity-registry.yaml",
-  "story-clarity-contract.yaml",
-  "page-layout-contract.yaml",
-]) {
-  try {
-    await stat(join(windPackage.packageRoot, "spec", required));
-  } catch {
-    errors.push(`바람이 돌아오는 곳 스펙이 없습니다: ${required}`);
-  }
-}
-
-for (const htmlPath of htmlFiles) {
-  const html = await readFile(htmlPath, "utf8");
-  const publicPath =
-    "/" +
-    htmlPath
-      .slice(outDir.length + 1)
-      .replaceAll("\\", "/")
-      .replace(/index\.html$/, "");
-  assert(
-    /<html lang="ko">/.test(html),
-    publicPath + "에 한국어 문서 언어가 없습니다.",
-  );
-  assert(
-    /<main id="main">/.test(html),
-    publicPath + "에 main 랜드마크가 없습니다.",
-  );
-  assert(
-    !/<img(?![^>]*\balt=)[^>]*>/i.test(html),
-    publicPath + "에 alt가 없는 이미지가 있습니다.",
-  );
-
-  for (const url of extractLocalReferences(html)) {
-    const target = resolveReference(url);
-    try {
-      const info = await stat(target);
-      if (url.endsWith("/")) {
+    for (const episode of series.episodes) {
+      const path = `/comics/${series.slug}/${episode.id}/`;
+      const reader = htmlByPath.get(path) || "";
+      assert(
+        reader.includes('href="#comic-reader"') &&
+          reader.includes('id="comic-reader"'),
+        `${path} 만화 본문 이동이 없습니다.`,
+      );
+      assert(
+        ["fit", "width"].every((view) =>
+          reader.includes(`data-reader-view="${view}"`),
+        ),
+        `${path} 보기 방식 전환이 없습니다.`,
+      );
+      assert(
+        (reader.match(/data-reader-page="\d+"/g) || []).length ===
+          episode.pageCount,
+        `${path} 페이지 수가 맞지 않습니다.`,
+      );
+      assert(
+        reader.includes(`aria-valuemax="${episode.pageCount}"`) &&
+          reader.includes("data-reader-current"),
+        `${path} 진행 정보가 없습니다.`,
+      );
+      const expectedCaptions =
+        episode.presentation?.mode === "site-native-caption"
+          ? episode.pageCount
+          : 0;
+      assert(
+        (reader.match(/class="comic-reader__caption"/g) || []).length ===
+          expectedCaptions,
+        `${path} 캡션 수가 맞지 않습니다.`,
+      );
+      assert(
+        reader.indexOf('class="reader-production"') >
+          reader.indexOf('id="comic-reader"'),
+        `${path} 제작 정보가 본문보다 먼저 노출됩니다.`,
+      );
+      for (const source of episode.sources || [])
         assert(
-          info.isFile() && target.endsWith("index.html"),
-          publicPath + "의 링크 대상이 페이지가 아닙니다: " + url,
+          reader.includes(escapeHtml(source.url)),
+          `${path} 출처 링크가 없습니다: ${source.url}`,
         );
-      }
-    } catch {
-      errors.push(publicPath + "의 내부 참조가 없습니다: " + url);
     }
   }
-}
-
-if (errors.length > 0) {
-  process.stderr.write(
-    "검증 실패 (" + errors.length + ")\n- " + errors.join("\n- ") + "\n",
+  const expectedImages = new Set(
+    episodes.flatMap((episode) => episode.pages.map((page) => page.src)),
   );
-  process.exit(1);
-}
-
-process.stdout.write(
-  "검증 통과: " +
-    htmlFiles.length +
-    " HTML, " +
-    content.series.length +
-    " Series, " +
-    allEpisodes.length +
-    " Episodes, " +
-    webpFiles.length +
-    " WebP, " +
-    (totalWebpBytes / 1024 / 1024).toFixed(2) +
-    " MiB\n",
-);
-
-function assert(condition, message) {
-  if (!condition) errors.push(message);
-}
-
-async function walk(directory) {
-  const entries = await readdir(directory, { withFileTypes: true });
-  const nested = await Promise.all(
-    entries.map(async (entry) => {
-      const path = join(directory, entry.name);
-      return entry.isDirectory() ? walk(path) : [path];
+  assert(
+    webpFiles.length === expectedImages.size,
+    `독자용 WebP 수가 맞지 않습니다: ${webpFiles.length}/${expectedImages.size}`,
+  );
+  const sizes = await Promise.all(
+    webpFiles.map(async (file) => {
+      assert(
+        expectedImages.has("/" + file.replaceAll("\\", "/")),
+        `사용하지 않는 이미지가 빌드에 포함되었습니다: ${file}`,
+      );
+      return (await stat(join(outDir, file))).size;
     }),
   );
-  return nested.flat();
-}
+  const totalBytes = sizes.reduce((sum, size) => sum + size, 0);
+  assert(totalBytes < 250 * 1024 * 1024, "WebP 총용량이 250MiB를 넘습니다.");
+  assert(
+    sizes.every((size) => size > 0 && size < 5 * 1024 * 1024),
+    "비어 있거나 5MiB를 넘는 WebP 이미지가 있습니다.",
+  );
+  assert(
+    (await read("CNAME")).trim() === new URL(content.site.url).hostname,
+    "CNAME과 사이트 주소가 다릅니다.",
+  );
 
-function extractLocalReferences(html) {
-  const urls = [];
-  const pattern = /\b(?:href|src)="([^"]+)"/g;
-  for (const match of html.matchAll(pattern)) {
-    const url = match[1];
-    if (
-      !url ||
-      url.startsWith("#") ||
-      url.startsWith("http://") ||
-      url.startsWith("https://") ||
-      url.startsWith("mailto:") ||
-      url.startsWith("data:")
-    ) {
-      continue;
-    }
-    urls.push(url.split(/[?#]/)[0]);
+  const home = htmlByPath.get("/") || "";
+  for (const [name, extension, attribute] of [
+    ["styles", "css", "href"],
+    ["app", "js", "src"],
+  ]) {
+    const asset = files.find((file) =>
+      new RegExp(`^assets[/\\\\]${name}\\.[0-9a-f]{12}\\.${extension}$`).test(
+        file,
+      ),
+    );
+    assert(
+      asset && home.includes(`${attribute}="/${asset.replaceAll("\\", "/")}"`),
+      `${name} 해시 자산을 찾을 수 없습니다.`,
+    );
   }
-  return [...new Set(urls)];
+  const posthogAsset = files.find((file) =>
+    /[/\\]posthog\.[0-9a-f]{12}\.js$/.test(file),
+  );
+  if (process.env.NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN?.trim()) {
+    const posthog = posthogAsset ? await read(posthogAsset) : "";
+    assert(
+      posthogAsset && home.includes(posthogAsset.replaceAll("\\", "/")),
+      "PostHog 자산 참조가 없습니다.",
+    );
+    for (const required of [
+      "posthog.init(",
+      "capture_pageleave: true",
+      "disable_session_recording: true",
+    ])
+      assert(
+        posthog.includes(required),
+        `PostHog 설정이 없습니다: ${required}`,
+      );
+    assert(
+      !posthog.includes("__POSTHOG_"),
+      "PostHog 설정 자리표시자가 남아 있습니다.",
+    );
+  } else {
+    assert(!posthogAsset, "토큰 없이 PostHog가 생성되었습니다.");
+  }
+  const models = htmlByPath.get("/models/") || "";
+  assert(
+    models.includes("model-card--unknown") ===
+      episodes.some(
+        (episode) => episode.provenance.image.status !== "known-provider",
+      ),
+    "모델 기록 없음 표시가 실제 기록과 다릅니다.",
+  );
+
+  const checkedFiles = new Set();
+  for (const [path, html] of htmlByPath) {
+    assert(
+      html.includes('<html lang="ko">') && html.includes('<main id="main">'),
+      `${path} 문서 언어 또는 본문 랜드마크가 없습니다.`,
+    );
+    assert(
+      (html.match(/<h1\b/g) || []).length === 1,
+      `${path} h1은 하나여야 합니다.`,
+    );
+    assert(
+      !/<img(?![^>]*\balt=)[^>]*>/i.test(html),
+      `${path} alt가 없는 이미지가 있습니다.`,
+    );
+    const ids = [...html.matchAll(/\bid="([^"]+)"/g)].map((match) => match[1]);
+    assert(new Set(ids).size === ids.length, `${path} 중복 id가 있습니다.`);
+    for (const match of html.matchAll(
+      /<script type="application\/ld\+json">(.*?)<\/script>/gs,
+    )) {
+      try {
+        JSON.parse(match[1]);
+      } catch {
+        errors.push(`${path} 구조화 데이터가 올바른 JSON이 아닙니다.`);
+      }
+    }
+    for (const match of html.matchAll(/\b(?:href|src)="([^"]+)"/g)) {
+      const url = new URL(
+        match[1].replaceAll("&amp;", "&"),
+        content.site.url + path,
+      );
+      if (url.origin !== content.site.url) continue;
+      const targetPath = decodeURIComponent(url.pathname);
+      if (url.hash) {
+        const targetHtml = htmlByPath.get(targetPath) || "";
+        assert(
+          targetHtml.includes(
+            `id="${escapeHtml(decodeURIComponent(url.hash.slice(1)))}"`,
+          ),
+          `${path} 앵커 대상이 없습니다: ${url.pathname}${url.hash}`,
+        );
+      }
+      if (checkedFiles.has(targetPath)) continue;
+      checkedFiles.add(targetPath);
+      const target = join(
+        outDir,
+        targetPath,
+        targetPath.endsWith("/") ? "index.html" : "",
+      );
+      assert(
+        !relative(outDir, target).startsWith(".."),
+        `${path} 빌드 밖을 참조합니다: ${targetPath}`,
+      );
+      try {
+        assert(
+          (await stat(target)).isFile(),
+          `${path} 파일이 아닌 참조입니다: ${targetPath}`,
+        );
+      } catch {
+        errors.push(`${path} 내부 참조가 없습니다: ${targetPath}`);
+      }
+    }
+  }
+  if (errors.length)
+    throw new Error(`검증 실패 (${errors.length})\n- ${errors.join("\n- ")}`);
+  process.stdout.write(
+    `검증 통과: ${htmlFiles.length} HTML, ${content.series.length} Series, ${episodes.length} Episodes, ${webpFiles.length} WebP, ${(totalBytes / 1024 / 1024).toFixed(2)} MiB\n`,
+  );
 }
 
-function resolveReference(url) {
-  const clean = url.replace(/^\//, "");
-  if (url === "/") return join(outDir, "index.html");
-  if (url.endsWith("/")) return join(outDir, clean, "index.html");
-  return join(outDir, clean);
-}
+main().catch((error) => {
+  process.stderr.write(error.message + "\n");
+  process.exitCode = 1;
+});

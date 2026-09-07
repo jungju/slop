@@ -1,0 +1,7 @@
+_site/
+output/
+.codex/
+.playwright-cli/
+series/
+src/posthog.js
+package-lock.json

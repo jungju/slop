@@ -3,6 +3,15 @@
   "series": "wind-returning-place",
   "episodeIdPattern": "ep-NNN",
   "pageCount": 20,
+  "requiredSpecFiles": [
+    "series-canon.md",
+    "episode-ledger.md",
+    "comic-dna.yaml",
+    "comic-profile.yaml",
+    "continuity-registry.yaml",
+    "story-clarity-contract.yaml",
+    "page-layout-contract.yaml"
+  ],
   "sourceArt": {
     "format": "png",
     "readerFacingText": "forbidden",

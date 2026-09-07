@@ -30,6 +30,9 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
+      - name: Install development tools
+        run: npm ci
+
       - name: Test, build, and verify
         run: npm run check
         env:

@@ -11,10 +11,16 @@
     "test": "node --test scripts/*.test.mjs",
     "build": "node scripts/build.mjs",
     "verify": "node scripts/verify.mjs",
-    "check": "npm run test && npm run series:verify && npm run build && npm run verify",
+    "lint": "eslint scripts src eslint.config.mjs && prettier --check .",
+    "format": "prettier --write .",
+    "check": "npm run lint && npm run test && npm run series:verify && npm run build && npm run verify",
     "serve": "npx --yes serve _site"
   },
   "engines": {
-    "node": ">=22"
+    "node": "^22.13.0 || >=24"
+  },
+  "devDependencies": {
+    "eslint": "10.10.0",
+    "prettier": "3.6.2"
   }
 }
