@@ -2,6 +2,36 @@ version: 1
 factory_type: comic
 comic_id: wind-returning-place
 elements:
+  - id: prop.interchangeable-crank-grips.001
+    name: 바꿔 끼우는 두 굵기 덧손잡이
+    category: prop
+    scope: episode
+    status: active
+    introduced_in: ep-038
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-038
+        active_until: ep-038
+        supersedes: null
+        immutable_features:
+          - exactly two removable same-length cylindrical grip sleeves for one plain aged-brass crank shaft
+          - one slim cream natural-cork sleeve and one thick muted cobalt-blue rubber sleeve
+          - one tiny crescent wear mark on each sleeve and one round threaded cream end cap that retains either sleeve
+          - one shallow plain pale-wood cradle holds the single unused sleeve
+          - sleeves slide on and off without adhesive and the user chooses one fitted sleeve at a time
+          - no text, numbers, arrows, icons, symbols, logo, label, or printed mark
+        mutable_features:
+          - slim cream or thick cobalt sleeve fitted according to bare hand or bulky wet work glove
+          - Jeju tabletop paper press or Seoul hand-crank photo trimmer
+          - end cap installed, removed, or held during a grip change
+        reference_asset_ids:
+          - prop-interchangeable-crank-grips-001-v1-text-lock
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: text_locked
   - id: prop.flip-share-tool-roll.001
     name: 오늘 빌려줄 붓을 고르는 양면 표지 도구말이
     category: prop

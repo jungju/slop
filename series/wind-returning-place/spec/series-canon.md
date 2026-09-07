@@ -383,6 +383,18 @@ should avoid immediately repeating brush rolls, exactly four tool pockets,
 cobalt-and-cream flip tabs, wet returned brushes, borrowing permissions, or an
 owner-selected shared-tool payoff.
 
+Episode 38 turns revisable borrowing into revisable physical fit. Exactly two
+interchangeable crank grips, `prop.interchangeable-crank-grips.001@v1`, let
+Yunseo choose a slim cream cork sleeve for her bare hand and a thick muted
+cobalt rubber sleeve for a bulky wet work glove. She stops Doyun from gluing
+one answer in place, swaps the grips herself, and restores the slim grip for
+the next dry sheet; a later Seoul owner chooses the thick grip for her photo
+trimmer. Soondeok supplies the bare-hand-versus-glove test; Minjae remains
+absent in the present. Future episodes should avoid immediately repeating
+paper presses or photo trimmers, paired grip sleeves, cork-versus-rubber
+thickness tests, threaded end caps, wet work gloves, or owner-chosen handle-fit
+payoffs.
+
 ## Good Future Episode Engines
 
 Use one concrete motif and one emotional question:
