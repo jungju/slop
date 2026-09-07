@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-007",
+  "number": 7,
+  "title": "7화: AI가 연구 인턴 자리에 섰다",
+  "shortTitle": "AI가 연구 인턴 자리에 섰다",
+  "lead": "OpenAI는 자사 내부 측정상 사람의 지시 아래 며칠짜리 연구 과제를 맡는 ‘자동화된 연구 인턴’ 목표에 도달했다고 밝혔다.",
+  "closingLine": "이는 OpenAI 내부 자료에 따른 자체 평가이며, 복잡한 과제일수록 사람의 지시와 결과 검토가 여전히 필요하다.",
+  "news": {
+    "headline": "OpenAI says it reached its automated research intern milestone",
+    "eventDate": "2026-09-06",
+    "researchDate": "2026-09-08",
+    "summary": "OpenAI는 자사 연구 조직에서 코딩 에이전트 사용과 실험이 늘었으며, 사람의 지시 아래 숙련 연구자에게 며칠 걸릴 수 있는 잘 정의된 과제를 수행하는 ‘자동화된 연구 인턴’ 목표에 도달했다고 발표했습니다. 다만 수치는 내부 측정이고, 복잡한 과제에는 사람의 개입과 결과 판단이 계속 필요합니다.",
+    "selectionNote": "최근 48시간의 주요 AI 발표를 검토해 2026년 9월 6일 공개된 연구 업무 자동화 측정을 선택했습니다. 독립 논평으로 공개 그래프를 확인하고, 과거 보도로 사전 목표를 교차 확인했습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "1차 출처",
+      "title": "Research acceleration: The view inside OpenAI",
+      "publisher": "OpenAI",
+      "publishedAt": "2026-09-06",
+      "url": "https://openai.com/index/research-acceleration-view-inside-openai/",
+      "note": "자동화된 연구 인턴의 정의, 내부 사용량과 과제 성공 측정, 사람 개입과 측정 한계를 공개한 1차 자료입니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 논평 확인",
+      "title": "Research acceleration: The view inside OpenAI",
+      "publisher": "Simon Willison's Weblog",
+      "publishedAt": "2026-09-06",
+      "url": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
+      "note": "OpenAI가 공개한 연구 조직 내 코딩 에이전트 사용량 그래프를 독립적으로 확인하고 해석한 당일 논평입니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "사전 목표 확인",
+      "title": "Sam Altman says OpenAI will have a ‘legitimate AI researcher’ by 2028",
+      "publisher": "TechCrunch",
+      "publishedAt": "2025-10-28",
+      "url": "https://techcrunch.com/2025/10/28/sam-altman-says-openai-will-have-a-legitimate-ai-researcher-by-2028/",
+      "note": "2026년 9월 연구 인턴과 2028년 자동 연구자라는 목표가 사전에 공개됐음을 확인한 당시 보도입니다."
+    }
+  ],
+  "publishedAt": "2026-09-07T21:10:49.379Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: AI가 이제 연구 인턴이 됐다고요? 픽: OpenAI는 정해진 과제를 며칠씩 맡길 수준이라 밝혔어요. 누리: 그럼 연구를 혼자 끝내는 건가요? 픽: 아니요, 복잡할수록 사람의 지시와 검토가 필요해요.",
+      "alt": "7화: AI가 연구 인턴 자리에 섰다 1페이지. 누리: AI가 이제 연구 인턴이 됐다고요? 픽: OpenAI는 정해진 과제를 며칠씩 맡길 수준이라 밝혔어요. 누리: 그럼 연구를 혼자 끝내는 건가요? 픽: 아니요, 복잡할수록 사람의 지시와 검토가 필요해요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": "GPT-5",
+      "status": "known-model"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}

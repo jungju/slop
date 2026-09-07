@@ -1,0 +1,41 @@
+version: 2
+episode: ep-007
+reader_page: 1
+layout: single_image_2x2
+generation_mode: one_complete_lettered_poster
+reference: ".codex/skills/today-ai-four-cut-series/assets/reference-layout.png"
+exact_copy:
+  kicker: "AI 뉴스 네 컷"
+  title: "AI가 연구 인턴 자리에 섰다"
+  footer: "회사 안 측정값과 사람의 검토를 함께 봐요."
+  panels:
+    - { number: "1", speaker: "누리", text: "AI가 이제 연구 인턴이\n됐다고요?" }
+    - { number: "2", speaker: "픽", text: "OpenAI는 정해진 과제를\n며칠씩 맡길 수준이라 밝혔어요." }
+    - { number: "3", speaker: "누리", text: "그럼 연구를 혼자\n끝내는 건가요?" }
+    - { number: "4", speaker: "픽", text: "아니요, 복잡할수록\n사람의 지시와 검토가 필요해요." }
+panels:
+  - panel: 1
+    role: hook
+    visual_action: "누리가 연구실 책상에서 여러 무문자 실험 창과 작은 로봇을 보며 놀라 묻는다."
+    source_claims: [C1]
+    tail_target: character.nuri.001
+  - panel: 2
+    role: fact
+    visual_action: "픽이 사람이 적어 준 무문자 과제 카드와 여러 날을 뜻하는 달력 아이콘을 가리킨다."
+    source_claims: [C2]
+    tail_target: character.pik.001
+  - panel: 3
+    role: meaning_and_limit
+    visual_action: "누리가 빈 연구 책임자 의자와 멈춘 실험 화면을 번갈아 보며 혼자 끝내는지 묻는다."
+    source_claims: [C3, C4]
+    tail_target: character.nuri.001
+  - panel: 4
+    role: takeaway
+    visual_action: "픽과 누리가 함께 결과 그래프를 검토하고 체크 표시를 남긴다. 그래프에는 글자가 없다."
+    source_claims: [C5, C6]
+    tail_target: character.pik.001
+generation_requirements:
+  - "Built-in image generation creates the complete poster, panel borders, balloons, tails, all exact Korean copy, and digits in one result."
+  - "Exactly four panels and exactly four speech balloons."
+  - "No local lettering, local balloon drawing, or post-generation text repair."
+  - "Reject and regenerate for any typo, paraphrase, missing character, extra text, fake Korean, missing tail, or identity drift."
