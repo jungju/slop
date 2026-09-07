@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "kicker": "AI 뉴스 네 컷",
+  "title": "AI가 연구 인턴 자리에 섰다",
+  "footer": "회사 안 측정값과 사람의 검토를 함께 봐요.",
+  "panels": [
+    { "number": 1, "speaker": "누리", "text": "AI가 이제 연구 인턴이\n됐다고요?" },
+    { "number": 2, "speaker": "픽", "text": "OpenAI는 정해진 과제를\n며칠씩 맡길 수준이라 밝혔어요." },
+    { "number": 3, "speaker": "누리", "text": "그럼 연구를 혼자\n끝내는 건가요?" },
+    { "number": 4, "speaker": "픽", "text": "아니요, 복잡할수록\n사람의 지시와 검토가 필요해요." }
+  ]
+}
