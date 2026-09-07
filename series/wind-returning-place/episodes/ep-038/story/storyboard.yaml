@@ -1,0 +1,98 @@
+version: 1
+episode: ep-038
+title: "바꿔 끼운 손잡이"
+format: vertical_scroll
+page_count: 20
+reading_order: top_to_bottom
+core_elements:
+  - { id: character.doyun.001, version: 1, panels: [1, 2, 3, 7, 8, 9, 18, 20] }
+  - { id: character.yunseo.001, version: 1, panels: [1, 3, 4, 7, 8, 10, 11, 12, 14, 15, 16, 17] }
+  - { id: character.soondeok.001, version: 1, panels: [6, 7, 14] }
+  - { id: prop.interchangeable-crank-grips.001, version: 1, panels: [1, 2, 4, 5, 7, 8, 9, 10, 11, 12, 14, 15, 16, 17, 18, 19, 20] }
+style_lock: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text."
+negative_prompt: "No photorealism, live action, cinematic stills, DSLR photography, skin pores, lens bokeh, generated text, fake Korean, signs, logos, watermarks, captions, speech bubbles, empty bubbles."
+accepted_prompt_addenda:
+  8: "Corrected Yunseo to her fixed jaw-length bob and sea-blue rain jacket, with Doyun in his gray hoodie and dark coat; the glue jar remains closed."
+  15: "Corrected the cobalt part to a hand-sized external crank grip rather than the press roller, with exactly one cream alternative in the cradle."
+  19: "Corrected to exactly two sleeves total: the cobalt grip installed by the adult owner and the single cream cork grip left in its cradle."
+pages:
+  - panel: 1
+    beat: "윤서가 수동 압착기를 올린다"
+    caption: "제주 작업실에서 윤서는 작은 수동 종이 압착기를 작업대에 올렸다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Jeju community workroom, unmistakable 8-year-old Korean girl Kang Yunseo with jaw-length black bob, sea-blue hooded rain jacket, cream sweatshirt and charcoal pants places a small tabletop hand-crank paper press on a low workbench; slim clean-shaven 26-year-old Korean man Han Doyun in gray hoodie and dark coat watches. Plain brass crank shaft, no grip fitted yet. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 2
+    beat: "도윤이 굵은 덧손잡이를 끼운다"
+    caption: "도윤은 손잡이가 굵으면 편할 거라며 푸른 덧손잡이를 끼웠다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Close Jeju workbench view: Doyun slides one thick muted cobalt-blue rubber cylindrical grip sleeve onto the plain aged-brass crank shaft of a small tabletop paper press; one slim cream cork grip sleeve rests separately in a shallow pale-wood cradle. No adhesive applied. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 3
+    beat: "윤서가 굵기를 고르겠다고 한다"
+    caption: "윤서는 오늘 쓸 손잡이 굵기는 자기가 고르겠다고 말했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo points to her own small hand and then toward the crank grip choices; Doyun lowers both hands and listens beside the compact paper press. Clear child proportions, calm practical exchange. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 4
+    beat: "굵은 손잡이가 작은 손에 맞지 않는다"
+    caption: "굵은 손잡이에서는 윤서의 작은 손가락 끝이 서로 닿지 않았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Tight hand evidence: Yunseo's small bare child hand tries to wrap around the thick cobalt rubber cylindrical crank grip but fingertips remain visibly far apart; paper press and brass end cap visible. No injury. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 5
+    beat: "압착이 고르지 않게 된다"
+    caption: "손잡이가 반 바퀴에서 미끄러져 젖은 종이 한쪽이 덜 눌렸다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Overhead practical evidence: small hand-crank paper press stopped halfway with thick cobalt grip turned sideways; one blank wet cream sheet emerges with left side compressed flat and right side visibly puffed and damp. No people required. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 6
+    beat: "순덕이 맨손과 장갑 차이를 짚는다"
+    caption: "순덕은 맨손과 장갑 낀 손에는 맞는 굵기가 다르다고 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Elderly Jeju woman Soondeok with short gray-white hair and sea-colored practical outerwear holds one bare hand beside one bulky wet work glove, blunt practical expression, paper press blurred behind. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 7
+    beat: "두 덧손잡이를 비교한다"
+    caption: "세 사람은 얇은 코르크와 굵은 고무 덧손잡이를 비교했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Wide Jeju worktable: Doyun, child Yunseo, and Soondeok compare exactly two removable cylindrical grip sleeves in a shallow pale-wood cradle: one slim cream cork sleeve and one thick muted cobalt rubber sleeve, both same length, each with one tiny crescent wear mark. Compact paper press beside them. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 8
+    beat: "윤서가 접착을 멈춘다"
+    caption: "도윤이 접착제를 꺼내자 윤서는 다시 바꿀 수 있어야 한다고 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Doyun sets a plain closed glue jar near the thick cobalt grip; child Yunseo raises an open stop palm and holds the slim cream cork grip, asking for reversibility. Glue remains closed and unused. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 9
+    beat: "접착 없는 축과 끝마개를 정리한다"
+    caption: "도윤은 접착제 없이 황동 축과 나사식 끝마개만 정리했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Overhead mechanism close-up: Doyun cleans one plain aged-brass crank shaft and one separate round threaded cream end cap; exactly two removable grip sleeves, slim cream cork and thick cobalt rubber, lie in one shallow cradle. No glue, labels, symbols, or extra parts. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 10
+    beat: "윤서가 얇은 손잡이로 바꾼다"
+    caption: "윤서는 푸른 덧손잡이를 빼고 얇은 크림색 덧손잡이를 끼웠다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo independently slides the thick cobalt grip off the brass crank shaft and slides the slim cream cork sleeve onto the same shaft; Doyun watches hands-off. Only these two sleeves visible. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 11
+    beat: "윤서가 끝마개를 고정한다"
+    caption: "윤서는 황동 끝마개를 직접 돌려 얇은 손잡이를 고정했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Close child-height view: Yunseo's small fingers turn the single round threaded cream end cap onto the aged-brass crank shaft, retaining the slim cream cork sleeve while allowing later removal; thick cobalt sleeve rests in its cradle. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 12
+    beat: "얇은 손잡이로 고르게 돌린다"
+    caption: "작은 손가락이 편히 감기자 압착기는 끝까지 고르게 돌았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Medium side view: child Yunseo's bare hand wraps comfortably around the slim cream cork crank grip, fingertips nearly meeting, as she turns the small paper press through a full smooth arc; stable child posture. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 13
+    beat: "종이가 고르게 눌린다"
+    caption: "눌린 종이는 네 모서리가 평평하고 물기도 고르게 빠졌다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Clean overhead evidence: one blank cream handmade paper sheet exits the press with all four corners flat and an even faint damp sheen; shallow catch tray holds equal droplets along its edge. No people, writing, symbols, or printed imagery. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 14
+    beat: "젖은 장갑으로 얇은 손잡이를 시험한다"
+    caption: "순덕이 젖은 장갑을 건네자 윤서는 얇은 손잡이를 다시 시험했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Soondeok hands one bulky damp work glove to child Yunseo; Yunseo wears it and reaches for the slim cream cork grip on the press, while thick cobalt grip remains in cradle. Doyun absent. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 15
+    beat: "장갑에 맞게 굵은 쪽으로 바꾼다"
+    caption: "장갑 낀 손이 미끄러지자 윤서는 굵은 푸른 쪽으로 바꿨다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo removes the slim cream cork sleeve and installs the thick muted cobalt rubber sleeve on the brass crank shaft for her bulky wet glove; cream threaded end cap beside her hand, Soondeok watches hands lowered. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 16
+    beat: "굵은 손잡이가 장갑에 맞는다"
+    caption: "굵은 손잡이는 젖은 장갑에 맞았고 압착기는 다시 고르게 돌았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Dynamic but restrained side view: Yunseo's bulky damp work glove holds the thick cobalt rubber crank grip securely and turns the small paper press smoothly; slim cream cork sleeve rests alone in shallow cradle. Clear child body proportions. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 17
+    beat: "맨손 작업을 위해 얇은 쪽으로 되돌린다"
+    caption: "장갑을 벗은 윤서는 다음 마른 종이를 위해 얇은 쪽으로 되돌렸다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Yunseo sets the damp glove aside and, with bare small hands, reinstalls the slim cream cork sleeve on the brass crank; thick cobalt grip returns to shallow cradle beside one dry blank sheet. Adults hands-off. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 18
+    beat: "서울 재단기에도 두 굵기를 마련한다"
+    caption: "서울에서 도윤은 사진 재단기에도 두 굵기의 덧손잡이를 마련했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Quiet gray Seoul photo workroom: Doyun places exactly two removable same-length cylindrical grip sleeves, one slim cream cork and one thick muted cobalt rubber, in a shallow pale-wood cradle beside a distinct adult owner's hand-crank photo trimmer with one plain brass shaft and threaded cream end cap. No Yunseo or Soondeok. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 19
+    beat: "서울 사용자가 굵은 쪽을 고른다"
+    caption: "사용자는 둘을 잡아 본 뒤 굵은 푸른 덧손잡이를 스스로 골랐다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Distinct adult Korean woman owner tests both removable grip sleeves in her hands, then independently slides only the thick cobalt rubber sleeve onto her photo trimmer's brass crank shaft; slim cream cork sleeve remains in cradle. Doyun stands back with hands lowered. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 20
+    beat: "남은 손잡이를 다음 선택에 남긴다"
+    caption: "남은 얇은 덧손잡이는 옆 받침에서 다음 선택을 기다렸다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Restrained final Seoul view: adult owner uses hand-crank photo trimmer with thick cobalt grip selected; the single unused slim cream cork sleeve rests clearly in its shallow pale-wood cradle beside the machine. Doyun observes from a respectful distance, hands lowered. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
