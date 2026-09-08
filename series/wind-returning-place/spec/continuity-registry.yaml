@@ -2,6 +2,36 @@ version: 1
 factory_type: comic
 comic_id: wind-returning-place
 elements:
+  - id: prop.repositionable-work-board.001
+    name: 당겨 쓰는 낮은 작업판
+    category: prop
+    scope: episode
+    status: active
+    introduced_in: ep-039
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-039
+        active_until: ep-039
+        supersedes: null
+        immutable_features:
+          - one low rectangular pale-wood work board with softly rounded corners
+          - one shallow semicircular finger notch centered on the front edge
+          - thin muted cobalt-blue non-slip fabric covering the underside
+          - exactly four small cream rubber feet near the underside corners
+          - the whole board can be lifted slightly and moved nearer, farther, left, or right without fixed hardware
+          - no rails, grooves, handles, clamps, screws, adhesive, text, numbers, arrows, icons, symbols, logo, label, or printed mark
+        mutable_features:
+          - positioned for a seated child, standing child, or left-handed adult owner
+          - holding four blank photo cards or one large blank sheet
+          - Jeju community workroom or Seoul shared photo workroom
+        reference_asset_ids:
+          - prop-repositionable-work-board-001-v1-text-lock
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: text_locked
   - id: prop.interchangeable-crank-grips.001
     name: 바꿔 끼우는 두 굵기 덧손잡이
     category: prop
