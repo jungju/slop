@@ -1,0 +1,100 @@
+version: 1
+episode: ep-039
+title: "당겨 둔 작업판"
+format: vertical_scroll
+page_count: 20
+reading_order: top_to_bottom
+core_elements:
+  - { id: character.doyun.001, version: 1, panels: [2, 3, 7, 8, 9, 18, 20] }
+  - { id: character.yunseo.001, version: 1, panels: [1, 3, 4, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17] }
+  - { id: character.soondeok.001, version: 1, panels: [6, 7] }
+  - { id: prop.repositionable-work-board.001, version: 1, panels: [1, 2, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] }
+style_lock: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text."
+negative_prompt: "No photorealism, live action, cinematic stills, DSLR photography, skin pores, lens bokeh, generated text, fake Korean, signs, logos, watermarks, captions, speech bubbles, empty bubbles."
+accepted_prompt_addenda:
+  6: "Corrected the scene to show Soondeok only once while demonstrating near and far reach."
+  8: "Corrected Doyun to his fixed gray hoodie and dark coat while keeping the screws unused."
+  11: "Corrected Yunseo to her fixed sea-blue rain jacket and showed the cobalt underside with four cream feet."
+  19: "Corrected the Seoul scene to exactly one work board, shifted by the adult owner's left hand."
+  20: "Corrected the final composition to keep the single work board prominent at the owner's near-left position and the table center open."
+pages:
+  - panel: 1
+    beat: "윤서가 빈 사진 카드 네 장을 놓는다"
+    caption: "제주 작업실에서 윤서는 빈 사진 카드 네 장을 작업대에 놓았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Jeju community workroom, unmistakable 8-year-old Korean girl Kang Yunseo with jaw-length black bob, muted sea-blue hooded rain jacket, cream sweatshirt and charcoal pants sits on a low stool and places exactly four blank cream photo cards on one low rectangular pale-wood work board. The board has one shallow semicircular finger notch centered on its front edge and a thin muted cobalt-blue non-slip fabric underside, no markings. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 2
+    beat: "도윤이 작업판을 가운데 고정한다"
+    caption: "도윤은 단정한 가운데 자리에 작업판을 고정했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Slim clean-shaven 26-year-old Korean man Han Doyun with slightly long wavy black hair, gray hoodie under dark long coat, fastens one temporary plain brass bench clamp to hold the pale-wood work board exactly at the center of a wide Jeju worktable. Yunseo watches from her low stool. Four blank cards stay on the board. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 3
+    beat: "윤서가 작업 거리를 고르겠다고 한다"
+    caption: "윤서는 자기가 쓸 거리는 자기가 정해 보겠다고 말했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo points from her own seated reach toward the center-fixed work board, calmly asserting her choice; Doyun lowers both hands and listens. Clear child proportions and practical body language, exactly four blank cards. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 4
+    beat: "가운데 작업판이 너무 멀다"
+    caption: "먼 카드에 닿으려 몸을 기울이자 윤서의 손목이 뻣뻣해졌다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Side view evidence: seated child Yunseo must lean her whole torso far over the table to reach the farthest of four blank cards on the center-fixed board; her wrist is awkwardly straight and shoulder raised, no injury, Doyun absent. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 5
+    beat: "먼 거리에서 카드가 비뚤어진다"
+    caption: "카드 한 장이 비뚤어져 젖은 풀 자국이 한쪽에 번졌다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Overhead practical evidence: exactly four blank cream cards on the pale-wood board; three are straight while one far card is visibly skewed with a small uneven translucent paste smear along one edge. No readable imagery, people, injury, or extra cards. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 6
+    beat: "순덕이 자세마다 거리가 다르다고 한다"
+    caption: "순덕은 앉을 때와 설 때 편한 거리가 다르다고 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Elderly Jeju Korean woman Soondeok with short gray-white hair and sea-colored practical outerwear demonstrates one hand close while seated and the other farther while standing beside the worktable, blunt practical expression. Work board blurred behind. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 7
+    beat: "옮길 수 있는 작업판을 살핀다"
+    caption: "세 사람은 옮겨 쓸 수 있는 낮은 작업판을 살폈다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Wide Jeju worktable: Doyun, child Yunseo, and Soondeok inspect one low rectangular pale-wood work board lifted slightly to reveal its thin muted cobalt-blue non-slip fabric underside, four small cream rubber feet, and one front semicircular finger notch. Exactly one board, no rails or labels. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 8
+    beat: "윤서가 영구 고정을 멈춘다"
+    caption: "도윤이 나사를 꺼내자 윤서는 다시 옮길 수 있어야 한다고 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Doyun sets two plain unused screws and a hand screwdriver near the board; child Yunseo raises an open stop palm and touches the board's front finger notch, asking to keep it movable. Screws remain unused, adults hands-off. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 9
+    beat: "고정 집게를 푼다"
+    caption: "도윤은 고정 집게를 풀고 작업판을 완전히 떼어 냈다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Close workbench view: Doyun removes the single temporary brass clamp completely from the pale-wood work board and sets it aside; the board now rests unattached on the wide table, underside and front notch intact. No screws installed. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 10
+    beat: "윤서가 작업판을 가까이 당긴다"
+    caption: "윤서는 반달 홈에 손가락을 걸어 작업판을 가까이 당겼다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child-height side view: seated Yunseo hooks small fingers into the single front semicircular notch, lifts the board edge slightly, and pulls the whole pale-wood board toward her. Doyun watches with hands lowered. No clamp, screws, rails, text, or extra board. No photorealism, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 11
+    beat: "푸른 밑면이 새 자리를 잡는다"
+    caption: "푸른 밑면은 내려놓은 자리에서 작업판을 단단히 잡았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Tight practical view: Yunseo lowers the near edge of the pale-wood board so its thin cobalt-blue non-slip fabric underside and four cream rubber feet contact the worktable firmly. Her small hands release it; no fixed hardware. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 12
+    beat: "네 카드가 편한 범위에 들어온다"
+    caption: "카드 네 장이 윤서가 편히 닿는 범위에 들어왔다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Overhead oblique view: the movable board now sits close to seated child Yunseo, and exactly four blank cards form a neat two-by-two arrangement fully within her relaxed bent-arm reach. Shoulders low, posture upright, adults absent. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 13
+    beat: "윤서가 네 카드를 고르게 붙인다"
+    caption: "윤서는 네 장의 모서리를 고르게 눌러 붙였다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Seated child Yunseo comfortably presses the four corners of the fourth blank cream card on the near-positioned board; exactly three other blank cards are already straight and clean, no paste smears. Calm successful work. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 14
+    beat: "선 자세에는 가까운 판이 걸린다"
+    caption: "큰 종이를 위해 일어서자 가까운 작업판이 이번에는 배에 걸렸다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Side view: child Yunseo stands to handle one large blank cream sheet, but the near-positioned work board touches the front of her rain jacket and leaves too little working space. She pauses calmly, no distress or injury. No adults. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 15
+    beat: "윤서가 작업판을 앞으로 민다"
+    caption: "윤서는 작업판을 한 뼘 앞으로 밀어 새 거리를 골랐다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Standing child Yunseo uses the front semicircular notch to lift slightly and push the single movable board about one handspan farther away, choosing a new fore-aft position herself. Large blank sheet waits beside it, adults hands-off. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 16
+    beat: "선 자세에서 큰 종이가 맞는다"
+    caption: "선 자세에서 큰 종이의 네 모서리가 고르게 놓였다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Standing Yunseo works comfortably with one large blank cream sheet centered on the farther-positioned pale-wood board; all four corners lie flat and her elbows bend naturally. Cobalt underside barely visible, no adults. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 17
+    beat: "윤서가 다시 가까이 되당긴다"
+    caption: "다시 앉은 윤서는 다음 카드를 위해 작업판을 되당겼다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Yunseo sits again on the low stool and independently pulls the same board back toward her with the semicircular finger notch; one new blank card waits in her other hand. Clear repeatable movement and child agency. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 18
+    beat: "서울 공동 작업대에 고정하지 않는다"
+    caption: "서울에서 도윤은 공동 작업대에도 작업판을 고정하지 않았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Quiet gray Seoul shared photo workroom: Doyun places one identical pale-wood movable work board loosely on a broad communal table, deliberately leaving its clamp-free edges visible. The board has one front semicircular notch and cobalt non-slip underside. No Yunseo or Soondeok. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 19
+    beat: "왼손잡이 사용자가 왼쪽 가까이 옮긴다"
+    caption: "왼손잡이 사용자는 작업판을 왼쪽 가까이 옮겨 놓았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Distinct adult Korean woman printmaker seated at the Seoul shared table uses her left hand in the front notch to shift the single movable board closer and to her left; blank photo paper and a plain paste brush wait nearby. Doyun stands back, hands lowered. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 20
+    beat: "작업판이 사용자가 남긴 자리에 머문다"
+    caption: "작업판의 자리는 쓰는 사람이 다시 당겨 정하는 거리였다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Restrained final Seoul view: the adult left-handed owner works comfortably with the single pale-wood board kept close and left of center; the middle of the broad communal table remains visibly open. Doyun observes from a respectful distance, hands lowered. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."

@@ -395,6 +395,18 @@ paper presses or photo trimmers, paired grip sleeves, cork-versus-rubber
 thickness tests, threaded end caps, wet work gloves, or owner-chosen handle-fit
 payoffs.
 
+Episode 39 turns revisable physical fit into revisable working distance. The
+low movable work board, `prop.repositionable-work-board.001@v1`, lets Yunseo
+pull four photo cards within her seated reach, push the board farther away for
+a larger sheet while standing, and return it again without fixed hardware.
+Doyun removes his clamp and leaves the Seoul board unassigned; a left-handed
+adult owner moves it close and left for her own posture. Soondeok supplies the
+seated-versus-standing reach test; Minjae remains absent in the present. Future
+episodes should avoid immediately repeating movable work boards, centered
+semicircular finger notches, cobalt non-slip undersides, four cream rubber
+feet, seated-versus-standing reach tests, or left-handed board-placement
+payoffs.
+
 ## Good Future Episode Engines
 
 Use one concrete motif and one emotional question:
