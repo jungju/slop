@@ -1,0 +1,41 @@
+version: 2
+episode: ep-008
+reader_page: 1
+layout: single_image_2x2
+generation_mode: one_complete_lettered_poster
+reference: ".codex/skills/today-ai-four-cut-series/assets/reference-layout.png"
+exact_copy:
+  kicker: "AI 뉴스 네 컷"
+  title: "메타 AI가 대신 일을 시작했다"
+  footer: "편리함만큼 연결 권한도 꼼꼼히 봐요."
+  panels:
+    - { number: "1", speaker: "누리", text: "대답만 하던 AI가\n이제 대신 움직인다고요?" }
+    - { number: "2", speaker: "픽", text: "메타의 Muse는 브라우저로\n메일·예약 같은 일을 처리해요." }
+    - { number: "3", speaker: "누리", text: "내 계정 정보까지\n맡겨도 괜찮을까요?" }
+    - { number: "4", speaker: "픽", text: "미국 성인부터 출시됐어요.\n권한과 승인 기록을 꼭 확인해요." }
+panels:
+  - panel: 1
+    role: hook
+    visual_action: "누리가 채팅 창에서 나온 무문자 작업 카드와 움직이는 브라우저를 보며 놀라 묻는다."
+    source_claims: [C1]
+    tail_target: character.nuri.001
+  - panel: 2
+    role: fact
+    visual_action: "픽이 무문자 메일 봉투, 여행 가방, 브라우저 창을 가리키며 실제 행동 범위를 설명한다."
+    source_claims: [C2]
+    tail_target: character.pik.001
+  - panel: 3
+    role: meaning_and_limit
+    visual_action: "누리가 자물쇠가 달린 계정 열쇠 꾸러미를 조심스럽게 들고 연결 권한을 살핀다."
+    source_claims: [C3, C4]
+    tail_target: character.nuri.001
+  - panel: 4
+    role: takeaway
+    visual_action: "픽과 누리가 미국 지도 실루엣, 성인 아이콘, 권한 스위치와 승인 기록을 함께 점검한다. 아이콘에는 글자가 없다."
+    source_claims: [C5, C6]
+    tail_target: character.pik.001
+generation_requirements:
+  - "Built-in image generation creates the complete poster, panel borders, balloons, tails, all exact Korean copy, and digits in one result."
+  - "Exactly four panels and exactly four speech balloons."
+  - "No local lettering, local balloon drawing, or post-generation text repair."
+  - "Reject and regenerate for any typo, paraphrase, missing character, extra text, fake Korean, missing tail, or identity drift."

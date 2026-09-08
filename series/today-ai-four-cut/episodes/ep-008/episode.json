@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-008",
+  "number": 8,
+  "title": "8화: 메타 AI가 대신 일을 시작했다",
+  "shortTitle": "메타 AI가 대신 일을 시작했다",
+  "lead": "Meta는 브라우저와 연결 서비스에서 메일·예약 같은 일을 사용자를 대신해 처리하는 개인 AI 에이전트 Muse를 미국 성인 대상으로 출시했다.",
+  "closingLine": "전용 가상 머신과 승인 장치가 있어도 실제 보호 효과와 장기 작업 성능은 아직 검증 중이므로, 연결 권한과 민감 행동 승인 기록을 직접 확인해야 한다.",
+  "news": {
+    "headline": "Meta launches Muse personal AI agent in the United States",
+    "eventDate": "2026-09-08",
+    "researchDate": "2026-09-09",
+    "summary": "Meta는 브라우저를 열고 메일 전송이나 여행 예약 같은 일을 사용자를 대신해 수행하는 개인 AI 에이전트 Muse를 미국의 18세 이상 이용자에게 출시했습니다. 회사는 전용 가상 머신과 별도 Sentinel 승인 시스템을 내세우지만, 실제 보호 효과와 장기 작업 성능은 아직 독립적으로 검증되지 않았으므로 연결 권한과 승인 기록을 살펴야 합니다.",
+    "selectionNote": "최근 48시간의 주요 AI 발표를 검토해 2026년 9월 8일 공개된 Meta Muse 출시를 선택했습니다. Meta의 제품·기술 자료와 AP·Axios의 당일 독립 보도로 출시 범위, 실제 작업 예시, 권한·승인 구조를 교차 확인했습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "1차 출처",
+      "title": "Introducing Muse: The World’s First Personal AI Agent Built for Everyone",
+      "publisher": "Meta",
+      "publishedAt": "2026-09-08",
+      "url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+      "note": "Muse의 작업 범위, 전용 가상 머신, 사용자 승인과 미국 초기 출시 범위를 공개한 제품 발표입니다."
+    },
+    {
+      "kind": "primary",
+      "label": "기술 1차 자료",
+      "title": "How We Built Safety Into Muse",
+      "publisher": "Meta AI Research",
+      "publishedAt": "2026-09-08",
+      "url": "https://research.meta.ai/blog/security-and-safety-for-ai-agents-our-approach-with-muse",
+      "note": "가상 머신 격리, 자격 증명 분리, Sentinel 승인과 데이터 사용 설정의 출시 구조를 설명합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 보도 확인",
+      "title": "Meta launches personal AI agent, Muse, emphasizes safety and privacy",
+      "publisher": "AP News",
+      "publishedAt": "2026-09-08",
+      "url": "https://apnews.com/article/meta-muse-ai-agent-3a4572eb4cf4e95d8a0dfdad6e6ca065",
+      "note": "미국 18세 이상 대상 출시와 메일·예약·장기 계획 등 제품 범위를 확인하고 실제 이용 여부가 아직 불확실함을 짚습니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "출시 구조 확인",
+      "title": "Meta debuts Muse, its long-planned personal AI agent",
+      "publisher": "Axios",
+      "publishedAt": "2026-09-08",
+      "url": "https://www.axios.com/2026/09/08/meta-debuts-muse-personal-ai-agent",
+      "note": "미국 iOS·Android·웹 제공, 전용 가상 머신, 요금제와 Sentinel 승인 구조를 확인합니다."
+    }
+  ],
+  "publishedAt": "2026-09-08T21:10:22.573Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: 대답만 하던 AI가 이제 대신 움직인다고요? 픽: 메타의 Muse는 브라우저로 메일·예약 같은 일을 처리해요. 누리: 내 계정 정보까지 맡겨도 괜찮을까요? 픽: 미국 성인부터 출시됐어요. 권한과 승인 기록을 꼭 확인해요.",
+      "alt": "8화: 메타 AI가 대신 일을 시작했다 1페이지. 누리: 대답만 하던 AI가 이제 대신 움직인다고요? 픽: 메타의 Muse는 브라우저로 메일·예약 같은 일을 처리해요. 누리: 내 계정 정보까지 맡겨도 괜찮을까요? 픽: 미국 성인부터 출시됐어요. 권한과 승인 기록을 꼭 확인해요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": "GPT-5",
+      "status": "known-model"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}
