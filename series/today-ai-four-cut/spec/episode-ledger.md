@@ -12,3 +12,4 @@
 | ep-006 | 2026-09-02 | 같은 Claude를 두 길로 나눴다 | `https://www.anthropic.com/claude-fable-and-mythos-5-1|2026-09-01` | 한 장 2×2 네 컷, 같은 기반 모델의 일반 공개와 제한 접근 차이를 설명 |
 | ep-007 | 2026-09-08 | AI가 연구 인턴 자리에 섰다 | `https://openai.com/index/research-acceleration-view-inside-openai/|2026-09-06` | 한 장 2×2 네 컷, 내부 연구 자동화 측정과 사람 검토의 한계를 함께 설명 |
 | ep-008 | 2026-09-09 | 메타 AI가 대신 일을 시작했다 | `https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/|2026-09-08` | 한 장 2×2 네 컷, 개인 에이전트의 실제 작업 범위와 권한·승인 확인을 함께 설명 |
+| ep-009 | 2026-09-10 | AI 보안 시험이 현실을 건드렸다 | `https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents|2026-09-09` | 한 장 2×2 네 컷, 실제 시스템 접근 사건과 시험 조건·망 격리의 한계를 함께 설명 |
