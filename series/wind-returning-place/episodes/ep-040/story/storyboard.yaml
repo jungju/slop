@@ -1,0 +1,106 @@
+version: 1
+episode: ep-040
+title: "눕혀 둔 받침"
+format: vertical_scroll
+page_count: 20
+reading_order: top_to_bottom
+core_elements:
+  - { id: character.doyun.001, version: 1, panels: [2, 3, 7, 8, 18, 19] }
+  - { id: character.yunseo.001, version: 1, panels: [1, 3, 4, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17] }
+  - { id: character.soondeok.001, version: 1, panels: [6, 7] }
+  - { id: prop.removable-tilt-wedge-rack.001, version: 1, panels: [1, 2, 4, 5, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20] }
+style_lock: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text."
+negative_prompt: "No photorealism, live action, cinematic stills, DSLR photography, skin pores, lens bokeh, generated text, fake Korean, signs, logos, watermarks, captions, speech bubbles, empty bubbles."
+accepted_prompt_addenda:
+  1: "Corrected the rack to a flat low frame on runners without tall legs."
+  3: "Corrected the scene to one photograph and the fixed child and adult identities."
+  4: "Corrected the setting to an indoor worktable and isolated the sliding evidence."
+  5: "Corrected the photograph to lie on the rack instead of standing upright."
+  8: "Corrected the prop from an upright plate rack to the low five-slat drying rack."
+  9: "Corrected Yunseo's action to a tight sea-blue-sleeved wedge-removal view."
+  10: "Corrected Yunseo identity drift with a hands-only alignment view."
+  11: "Corrected wardrobe and hair drift with a sea-blue-sleeved hands-only view."
+  13: "Corrected Yunseo to the canonical jaw-length bob and sea-blue rain jacket."
+  14: "Corrected the location and wardrobe with an indoor hands-only decision view."
+  15: "Corrected the outfit and setting with a tight indoor wedge-insertion view."
+pages:
+  - panel: 1
+    beat: "윤서가 젖은 바다 사진을 받침에 올린다"
+    caption: "제주 작업실에서 윤서는 물기 남은 바다 사진을 건조 받침에 올렸다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Jeju community workroom, unmistakable elementary-school-age Korean girl Kang Yunseo with short jaw-length black bob, muted sea-blue hooded rain jacket, cream sweatshirt and charcoal pants gently places one wet unlettered coastal photograph on one low cream-painted wooden drying rack with exactly five narrow cross slats. One separate muted cobalt triangular wedge rests beside the rack. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 2
+    beat: "도윤이 처음부터 받침을 기울인다"
+    caption: "도윤은 빨리 말리려고 푸른 쐐기로 받침을 비스듬히 세웠다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Slim clean-shaven 26-year-old Korean man Han Doyun with slightly long wavy black hair, gray hoodie under dark long coat slides the single cobalt triangular wedge under the rear rail of the five-slat cream drying rack, tilting it while the wet unlettered photograph rests on top. Clear practical side view, no other wedge. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 3
+    beat: "윤서가 먼저 모서리를 펴겠다고 한다"
+    caption: "윤서는 먼저 들뜬 모서리를 반듯하게 놓고 싶다고 말했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo points to one visibly lifted lower corner of the wet photograph and calmly asks to straighten it first; Doyun lowers his hands and looks at the corner. Jeju worktable, clear child proportions, no distress. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 4
+    beat: "젖은 사진이 아래로 미끄러진다"
+    caption: "기울어진 받침에서 젖은 사진이 아래로 미끄러졌다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Side view evidence: the wet unlettered coastal photograph has slid several centimeters downhill on the gently tilted five-slat cream rack while child Yunseo reaches but does not grab it; the single cobalt wedge is clearly under the rear rail. No injury, adults absent. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 5
+    beat: "아래 모서리가 접히고 물이 고인다"
+    caption: "아래 모서리가 접히고 물이 한쪽 가장자리에 고였다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Tight practical close-up of the tilted rack: the photograph's lower corner touches the front cross slat and bends slightly, with a small clear water pool gathering along that lower edge. No people, no severe damage, no readable image detail. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 6
+    beat: "순덕이 기울일 순서를 짚는다"
+    caption: "순덕은 사진이 자리 잡은 뒤에야 기울이는 거라고 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Elderly Jeju Korean woman Soondeok with short gray-white hair and sea-colored practical outerwear holds one palm flat, then angles it slightly only after pausing, demonstrating the order with a blunt practical expression beside the worktable. No duplicate person. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 7
+    beat: "세 사람이 분리되는 쐐기를 살핀다"
+    caption: "세 사람은 받침과 따로 빠지는 푸른 쐐기를 살폈다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Wide Jeju worktable: Doyun, child Yunseo, and Soondeok inspect exactly one low rectangular cream wooden drying rack with five cross slats and exactly one separate muted cobalt triangular wedge with a shallow open groove across its top. Two cream felt runners show beneath the rack side rails. No hardware or markings. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 8
+    beat: "윤서가 영구 고정을 멈춘다"
+    caption: "도윤이 쐐기를 붙이려 하자 윤서는 눕힐 때도 있어야 한다고 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Doyun sets an unopened plain glue pot well away from the rack while child Yunseo raises an open stop palm and touches the removable cobalt wedge, insisting it remain separate. Doyun's hands stop; no glue touches the object. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 9
+    beat: "윤서가 쐐기를 뺀다"
+    caption: "윤서는 쐐기를 직접 빼서 받침 옆에 놓았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child-height side view: Yunseo independently slides the single cobalt triangular wedge out from beneath the rack's rear rail and places it beside the rack; the five-slat cream rack lowers toward flat. Adults hands-off, no other wedge. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 10
+    beat: "평평한 받침에 사진을 다시 놓는다"
+    caption: "평평한 받침 위에 젖은 사진이 다시 반듯하게 놓였다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Overhead oblique view: the cream five-slat drying rack now lies completely flat on its two felt runners; child Yunseo uses both small hands to align one wet unlettered coastal photograph squarely over the slats. The cobalt wedge rests separate at the right. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 11
+    beat: "윤서가 둘레의 물만 걷는다"
+    caption: "윤서는 마른 천으로 사진 둘레의 물만 천천히 걷었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Close view of child Yunseo carefully pressing a plain dry cream cloth only around the outer edges of the wet photograph while leaving the center untouched, calm precise hands on a flat work surface. No adults. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 12
+    beat: "사진이 평평하게 자리 잡는다"
+    caption: "사진의 네 모서리가 움직이지 않고 고르게 남았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Calm overhead evidence: one damp unlettered coastal photograph sits square and still on the flat five-slat cream rack, all four corners evenly supported, with no pooled water and no hands touching it. Single cobalt wedge remains separate beside it. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 13
+    beat: "윤서가 손을 떼고 기다린다"
+    caption: "윤서는 손을 떼고 표면의 물기가 잦아들기를 기다렸다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Medium Jeju workroom view: child Yunseo sits beside the flat drying rack with both hands folded in her lap, watching the damp photograph without touching it; the separate cobalt wedge waits nearby. Quiet practical patience, no adults. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 14
+    beat: "윤서가 다음 단계를 고른다"
+    caption: "모서리를 들어도 흐르지 않자 윤서는 다음 단계를 골랐다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo gently lifts just one corner of the now-set photograph a fingertip height and sees that it no longer slides or drips; her other hand reaches toward the separate cobalt wedge. Clear decision point, adults absent. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 15
+    beat: "윤서가 쐐기를 다시 끼운다"
+    caption: "윤서는 푸른 쐐기를 뒤 가로대 아래에 다시 끼웠다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Side close-up: child Yunseo independently aligns the shallow top groove of the single cobalt triangular wedge with the drying rack's rear rail and slides it securely underneath, gently raising only the back of the five-slat rack. No fixed hardware. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 16
+    beat: "남은 물과 공기가 빠져나간다"
+    caption: "남은 물방울이 빠지고 가로대 사이로 공기가 지났다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Low side view beneath the gently tilted five-slat cream rack: a few clear droplets fall cleanly from the lower edge into a plain shallow catch tray, while open gaps between slats visibly allow air beneath the stable photograph. The single cobalt wedge supports the rear rail. No people. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 17
+    beat: "윤서가 마른 사진과 쐐기를 정리한다"
+    caption: "마른 사진을 든 윤서는 쐐기를 다시 받침 옆에 빼 두었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo holds the dry unlettered coastal photograph upright with both hands while the cream five-slat rack lies flat again and the single cobalt wedge rests separately beside it. Her calm expression shows finished work and retained choice. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 18
+    beat: "서울에서 도윤도 평평하게 시작한다"
+    caption: "서울에서 도윤도 젖은 큰 인화를 평평한 받침에 먼저 놓았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Quiet gray Seoul photo workroom: Doyun in gray hoodie and dark long coat places one large wet unlettered print on an identical cream five-slat rack lying completely flat; the single cobalt wedge remains separate beside it. No Yunseo or Soondeok. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 19
+    beat: "도윤이 기다린 뒤 기울인다"
+    caption: "표면이 자리 잡은 뒤에야 도윤은 쐐기를 끼워 물을 뺐다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Same Seoul workroom later: the large print now sits stable while Doyun slides the single cobalt wedge under the rack's rear rail, gently tilting the five-slat cream rack only after waiting. A few droplets enter a shallow catch tray; no extra rack or wedge. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 20
+    beat: "빈 받침과 분리된 쐐기가 다음 순서를 기다린다"
+    caption: "받침의 기울기는 일이 바뀔 때마다 다시 고르는 순서였다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Restrained final Seoul view: one empty cream five-slat drying rack lies flat on the clean worktable, and its single muted cobalt triangular wedge rests clearly separate beside it; two finished unlettered prints dry farther back. Doyun leaves the adjustable equipment ready without fixing a setting. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."

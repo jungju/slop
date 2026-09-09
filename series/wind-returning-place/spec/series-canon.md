@@ -407,6 +407,17 @@ semicircular finger notches, cobalt non-slip undersides, four cream rubber
 feet, seated-versus-standing reach tests, or left-handed board-placement
 payoffs.
 
+Episode 40 turns revisable working distance into revisable working sequence.
+The low five-slat drying rack and its separate cobalt tilt wedge,
+`prop.removable-tilt-wedge-rack.001@v1`, let Yunseo keep a wet photograph flat
+until its surface stops moving, then tilt it herself so the remaining water can
+drain and air can pass beneath. Doyun abandons a permanently fixed slope and
+uses the same flat-first, tilted-later sequence on his own Seoul print;
+Soondeok supplies the practical timing test, and Minjae remains absent in the
+present. Future episodes should avoid immediately repeating drying racks,
+five cross slats, triangular tilt wedges, wet photographs sliding downhill,
+flat-first drying tests, or a delayed-tilt Seoul payoff.
+
 ## Good Future Episode Engines
 
 Use one concrete motif and one emotional question:
