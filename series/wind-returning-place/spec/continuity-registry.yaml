@@ -2,6 +2,36 @@ version: 1
 factory_type: comic
 comic_id: wind-returning-place
 elements:
+  - id: prop.removable-tilt-wedge-rack.001
+    name: 눕혔다 기울이는 사진 건조 받침
+    category: prop
+    scope: episode
+    status: active
+    introduced_in: ep-040
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-040
+        active_until: ep-040
+        supersedes: null
+        immutable_features:
+          - one low rectangular cream-painted wooden drying rack with exactly five narrow cross slats
+          - one separate palm-sized muted cobalt-blue triangular wooden wedge
+          - one shallow open groove across the wedge top that receives the rack's rear rail
+          - two long cream felt runners under the rack side rails
+          - the rack lies flat when the wedge is removed and tilts gently when the single wedge supports its rear rail
+          - no hinge, clamp, screw, adhesive, handle, text, numbers, arrows, icons, symbols, logo, label, or printed mark
+        mutable_features:
+          - wedge installed under the rear rail or resting separately beside the rack
+          - holding one wet unlettered coastal photograph or one large blank-looking print
+          - Jeju community workroom or Seoul photo workroom
+        reference_asset_ids:
+          - prop-removable-tilt-wedge-rack-001-v1-text-lock
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: text_locked
   - id: prop.repositionable-work-board.001
     name: 당겨 쓰는 낮은 작업판
     category: prop
