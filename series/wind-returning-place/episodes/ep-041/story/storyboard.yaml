@@ -1,0 +1,102 @@
+version: 1
+episode: ep-041
+title: "옮겨 끼운 푸른 띠"
+format: vertical_scroll
+page_count: 20
+reading_order: top_to_bottom
+core_elements:
+  - { id: character.doyun.001, version: 1, panels: [3, 4, 5, 15, 18, 19] }
+  - { id: character.yunseo.001, version: 1, panels: [1, 4, 8, 9, 10, 12, 14, 15, 16, 17] }
+  - { id: character.soondeok.001, version: 1, panels: [7] }
+  - { id: prop.movable-clean-water-band.001, version: 1, panels: [9, 10, 11, 12, 14, 15, 16, 17, 18, 19, 20] }
+style_lock: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text."
+negative_prompt: "No photorealism, live action, cinematic stills, DSLR photography, skin pores, lens bokeh, generated text, fake Korean, signs, logos, watermarks, captions, speech bubbles, empty bubbles."
+accepted_prompt_addenda:
+  2: "Corrected the setting from an outdoor coast to an indoor worktable."
+  3: "Corrected Doyun's setting and wardrobe to the indoor charcoal-coat design."
+  4: "Corrected both character identities, wardrobe, and the indoor refill action."
+  12: "Corrected Yunseo to the canonical bob and sea-blue jacket while preserving exactly one band."
+  14: "Corrected the band count so only the empty left pail remains marked before transfer."
+  16: "Corrected Yunseo's wardrobe and isolated the one-band transfer action."
+  17: "Corrected Yunseo's wardrobe while retaining the separated brush-and-cloth test."
+pages:
+  - panel: 1
+    beat: "윤서가 같은 물통 두 개를 쓴다"
+    caption: "윤서는 제주 작업실에서 같은 크림색 물통 두 개를 나란히 썼다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Jeju community art workroom, elementary-school-age Korean girl Kang Yunseo with short jaw-length black bob, muted sea-blue hooded rain jacket, cream sweatshirt and charcoal pants works at a low table with exactly two identical small cream enamel pails, each with a dark navy rolled rim and simple wire handle. Practical paintbrush cleaning. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 2
+    beat: "탁한 물과 맑은 물이 나뉜다"
+    caption: "한 통은 붓을 씻는 물이고, 다른 통은 종이를 닦는 맑은 물이었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Overhead close-up of exactly two identical cream enamel pails: left holds cloudy blue-gray brush-rinse water with one plain brush nearby, right holds clear water beside a folded white cloth. No people or labels. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 3
+    beat: "도윤이 통을 영구히 칠하려 한다"
+    caption: "도윤은 맑은 물통을 푸르게 칠해 두자고 말했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Slim clean-shaven 26-year-old Korean man Han Doyun with slightly long wavy black hair, gray hoodie under dark long coat holds an unopened plain cobalt paint tin and dry brush near exactly two identical cream enamel pails; paint has not touched them. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 4
+    beat: "윤서가 쓰임이 바뀐다고 말한다"
+    caption: "윤서는 물을 갈아 담으면 통의 쓰임도 바뀐다고 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo points between two identical cream enamel pails while Doyun lowers an unopened paint tin and listens. One pail is empty and the other is refilled from a plain pitcher, showing changing use. Clear child proportions. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 5
+    beat: "도윤이 붓을 잘못 넣는다"
+    caption: "도윤이 잘못 고른 통에 붓을 넣자 맑던 물이 금세 흐려졌다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Tight hands-only view: Doyun dips one blue-paint-stained brush into the wrong cream enamel pail of clear water, and a blue-gray cloud spreads. Exactly one other identical pail behind. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 6
+    beat: "시험 종이에 얼룩이 번진다"
+    caption: "그 물이 닿은 하얀 시험 종이 가장자리에 푸른 얼룩이 번졌다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Close evidence: a plain white test sheet has one soft blue smear spreading along its edge from a damp cloth; two cream enamel pails behind. No people or readable image. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 7
+    beat: "순덕이 물을 확인하는 법을 보인다"
+    caption: "순덕은 통이 아니라 물의 맑기를 먼저 보라고 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Elderly Jeju Korean woman Soondeok with short gray-white hair and sea-colored practical outerwear lifts a small plain white cloth swatch from one pail to check the water, blunt practical expression, exactly two cream enamel pails. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 8
+    beat: "윤서가 두 통을 씻어 다시 채운다"
+    caption: "윤서는 두 통을 비우고 헹군 뒤 새 물을 나눠 담았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo independently rinses exactly two small cream enamel pails at a low utility sink and pours fresh clear water from a plain pitcher. Sea-blue sleeves safely rolled above wrists, adults absent. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 9
+    beat: "윤서가 푸른 띠를 가져온다"
+    caption: "윤서는 글자 없는 넓은 푸른 고무 띠 하나를 가져왔다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo holds exactly one wide flexible muted cobalt-blue rubber band shaped for a pail body; one tiny cream crescent repair stitch. Exactly two identical cream enamel pails wait. No extra rings. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 10
+    beat: "윤서가 맑은 물통에 띠를 끼운다"
+    caption: "맑은 물이 든 왼쪽 통에 윤서가 푸른 띠를 끼웠다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child-height side view: Yunseo stretches the single wide cobalt rubber band around the middle of the left cream enamel pail holding clear water. Identical right pail has no band. Adults hands-off. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 11
+    beat: "띠의 수선 자국이 앞에 놓인다"
+    caption: "띠의 크림색 초승달 꿰맨 자국이 앞쪽에 또렷이 놓였다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Object close-up: one wide muted cobalt rubber band around one cream enamel pail, one tiny cream crescent repair stitch visible at front. Second identical unbanded pail nearby. No hands. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 12
+    beat: "윤서가 서로 다른 물을 정확히 쓴다"
+    caption: "윤서는 띠 없는 통에서 붓을 씻고 띠 있는 통에서 천을 적셨다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Overhead: child Yunseo rinses a blue-stained brush in the unbanded cream pail with one hand while dipping a folded white cloth into clear water in the cobalt-banded pail with the other. Exactly two pails and one band. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 13
+    beat: "시험 종이가 깨끗하게 닦인다"
+    caption: "하얀 시험 종이는 이번에는 얼룩 없이 닦였다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Close clean result: a folded white cloth wipes the edge of a plain white test sheet, leaving it crisp and unstained. The cobalt-banded cream pail of clear water is visible. No face. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 14
+    beat: "맑은 물의 위치가 바뀐다"
+    caption: "물을 다시 갈자 맑은 물은 오른쪽 통에 담겼다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo pours clear water into the right of exactly two identical cream enamel pails; left pail is empty but still temporarily wears the single wide cobalt band. Strong visible mismatch. No adult. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 15
+    beat: "윤서가 통을 옮기려는 도윤을 막는다"
+    caption: "도윤이 통을 옮기려 하자 윤서는 띠만 옮기면 된다고 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Doyun reaches to swap two cream enamel pails, but child Yunseo calmly stops him with an open palm and points to the removable cobalt band around the empty left pail. Right pail holds clear water. Doyun pauses. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 16
+    beat: "윤서가 띠를 오른쪽 통으로 옮긴다"
+    caption: "윤서는 푸른 띠를 벗겨 오른쪽 통에 다시 끼웠다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo holds one wide cobalt rubber band stretched between both hands while transferring it from the empty left cream pail onto the right cream pail of clear water. Exactly two pails, adults absent. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 17
+    beat: "두 번째 작업도 정확히 나뉜다"
+    caption: "두 번째 작업에서도 붓과 닦는 천은 서로 다른 물을 썼다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Medium Jeju worktable: child Yunseo uses the unbanded left pail for a brush and cobalt-banded right pail for a white cloth, clean test sheet between them. Exactly two pails and one band. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 18
+    beat: "서울에서 도윤이 띠를 사용한다"
+    caption: "서울에서 도윤도 새 물을 받은 통에 푸른 띠를 끼웠다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Quiet gray Seoul print workroom: Doyun in gray hoodie and dark long coat stretches the single wide cobalt band around the cream enamel pail filled with clear water; identical unbanded pail beside it. No Yunseo. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 19
+    beat: "도윤이 바뀐 쓰임을 따라 띠를 옮긴다"
+    caption: "두 통의 쓰임이 바뀌자 도윤은 띠도 반대쪽으로 옮겼다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Same Seoul table later: hands-only Doyun transfers the one wide cobalt band from the now-cloudy left cream pail to the newly clear right cream pail. Exactly two pails, obvious cloudy-versus-clear water. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 20
+    beat: "빈 통과 띠가 다음 쓰임을 기다린다"
+    caption: "푸른 띠는 통의 이름이 아니라, 지금 담긴 물의 쓰임을 따라갔다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Restrained final Seoul view: exactly two clean empty identical cream enamel pails side by side, and exactly one wide muted cobalt rubber band with tiny cream crescent stitch lies separately between them, ready for next changing use. No people. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."

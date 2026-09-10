@@ -418,6 +418,19 @@ present. Future episodes should avoid immediately repeating drying racks,
 five cross slats, triangular tilt wedges, wet photographs sliding downhill,
 flat-first drying tests, or a delayed-tilt Seoul payoff.
 
+Episode 41 turns revisable sequence into revisable identification. Exactly two
+identical cream enamel pails and one removable cobalt rubber band,
+`prop.movable-clean-water-band.001@v1`, let Yunseo mark whichever pail currently
+holds clear cleaning water instead of permanently assigning a pail by color or
+position. After Doyun contaminates clear water by relying on the container,
+Yunseo empties, rinses, refills, tests, and moves the band herself when the
+pails' uses switch. Soondeok supplies the practical white-cloth water test;
+Doyun carries the changing-use marker into his Seoul print workroom; Minjae
+remains absent in the present. Future episodes should avoid immediately
+repeating paired enamel pails, clear-versus-cloudy water, cobalt rubber bands,
+cream crescent stitches, permanent color-label mistakes, or a marker-following-
+contents payoff.
+
 ## Good Future Episode Engines
 
 Use one concrete motif and one emotional question:
