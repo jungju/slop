@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "kicker": "AI 뉴스 네 컷",
+  "title": "AI가 감시 업무를 자동화했다",
+  "footer": "강한 도구일수록 권한과 감시를 함께 확인해요.",
+  "panels": [
+    { "number": 1, "speaker": "누리", "text": "AI가 감시 대상까지\n골랐다고요?" },
+    { "number": 2, "speaker": "픽", "text": "여러 나라 감시 조직이 Claude로\n분석을 자동화한 사례가 공개됐어요." },
+    { "number": 3, "speaker": "누리", "text": "계정을 막으면 감시도\n끝나는 건가요?" },
+    { "number": 4, "speaker": "픽", "text": "다른 모델로 옮길 수 있어\n권한 점검과 외부 감시가 필요해요." }
+  ]
+}
