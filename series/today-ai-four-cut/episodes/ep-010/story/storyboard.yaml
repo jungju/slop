@@ -1,0 +1,41 @@
+version: 2
+episode: ep-010
+reader_page: 1
+layout: single_image_2x2
+generation_mode: one_complete_lettered_poster
+reference: ".codex/skills/today-ai-four-cut-series/assets/reference-layout.png"
+exact_copy:
+  kicker: "AI 뉴스 네 컷"
+  title: "AI가 감시 업무를 자동화했다"
+  footer: "강한 도구일수록 권한과 감시를 함께 확인해요."
+  panels:
+    - { number: "1", speaker: "누리", text: "AI가 감시 대상까지\n골랐다고요?" }
+    - { number: "2", speaker: "픽", text: "여러 나라 감시 조직이 Claude로\n분석을 자동화한 사례가 공개됐어요." }
+    - { number: "3", speaker: "누리", text: "계정을 막으면 감시도\n끝나는 건가요?" }
+    - { number: "4", speaker: "픽", text: "다른 모델로 옮길 수 있어\n권한 점검과 외부 감시가 필요해요." }
+panels:
+  - panel: 1
+    role: hook
+    visual_action: "누리가 여러 사람을 뜻하는 무문자 사진 카드가 자동 분류되는 감시 보드를 보고 놀라 묻는다. 얼굴은 모두 단순한 익명 도형이다."
+    source_claims: [C1, C2]
+    tail_target: character.nuri.001
+  - panel: 2
+    role: fact
+    visual_action: "픽이 여러 나라를 뜻하는 무문자 지도 표식과 정보 수집에서 분석과 대상 선별로 이어지는 도형 흐름을 설명한다."
+    source_claims: [C1, C2, C3]
+    tail_target: character.pik.001
+  - panel: 3
+    role: meaning_and_limit
+    visual_action: "누리가 차단 표시가 붙은 익명 계정 아이콘과 멈추지 않은 감시 흐름을 비교하며 묻는다."
+    source_claims: [C4, C5]
+    tail_target: character.nuri.001
+  - panel: 4
+    role: takeaway
+    visual_action: "픽이 다른 모델로 향하는 화살표를 끊고, 권한 자물쇠와 사람의 독립 감시를 뜻하는 눈 모양 방패를 함께 세운다."
+    source_claims: [C5, C6]
+    tail_target: character.pik.001
+generation_requirements:
+  - "Built-in image generation creates the complete poster, panel borders, balloons, tails, all exact Korean copy, and digits in one result."
+  - "Exactly four panels and exactly four speech balloons."
+  - "No local lettering, local balloon drawing, or post-generation text repair."
+  - "Reject and regenerate for any typo, paraphrase, missing character, extra text, fake Korean, missing tail, or identity drift."
