@@ -2,6 +2,35 @@ version: 1
 factory_type: comic
 comic_id: wind-returning-place
 elements:
+  - id: prop.movable-clean-water-band.001
+    name: 맑은 물을 따라가는 푸른 띠
+    category: prop
+    scope: episode
+    status: active
+    introduced_in: ep-041
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-041
+        active_until: ep-041
+        supersedes: null
+        immutable_features:
+          - exactly two identical small cream enamel pails with dark navy rolled rims and simple wire handles
+          - exactly one wide removable muted cobalt-blue flexible rubber band sized around either pail body
+          - one tiny cream crescent repair stitch on the front of the band
+          - the single band always marks the pail currently holding clear cleaning water and moves when the pails' uses change
+          - no paint, adhesive, permanent fastener, text, numbers, arrows, icons, symbols, logo, label, or printed mark
+        mutable_features:
+          - band around the left pail, around the right pail, held during transfer, or resting separately between empty pails
+          - clear water, cloudy blue-gray brush-rinse water, or empty pails
+          - Jeju community art workroom or Seoul print workroom
+        reference_asset_ids:
+          - prop-movable-clean-water-band-001-v1-text-lock
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: text_locked
   - id: prop.removable-tilt-wedge-rack.001
     name: 눕혔다 기울이는 사진 건조 받침
     category: prop
