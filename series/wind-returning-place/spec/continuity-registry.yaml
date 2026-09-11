@@ -2,6 +2,36 @@ version: 1
 factory_type: comic
 comic_id: wind-returning-place
 elements:
+  - id: prop.repositionable-supply-cart.001
+    name: 옮겨 잠그는 낮은 재료 수레
+    category: prop
+    scope: episode
+    status: active
+    introduced_in: ep-042
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-042
+        active_until: ep-042
+        supersedes: null
+        immutable_features:
+          - one child-reachable low pale-wood supply cart with exactly two open shelves and softly rounded corners
+          - one rounded horizontal pale-wood push handle at one short end
+          - exactly four small gray swivel casters
+          - exactly two muted cobalt-blue foot-operated locking pedals on the two casters nearest the handle
+          - the user unlocks, repositions, path-checks, and locks the cart according to the current task
+          - no fixed floor position, tape, paint, rails, tether, text, numbers, arrows, icons, symbols, logo, label, or printed mark
+        mutable_features:
+          - parked beside the right or left side of a worktable, against an open wall, or in an unassigned neutral bay
+          - holding a folded dry cloth, plain wooden clips, blank paper, or ordinary print supplies
+          - Jeju community art workroom or Seoul print workroom
+        reference_asset_ids:
+          - prop-repositionable-supply-cart-001-v1-text-lock
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: text_locked
   - id: prop.movable-clean-water-band.001
     name: 맑은 물을 따라가는 푸른 띠
     category: prop

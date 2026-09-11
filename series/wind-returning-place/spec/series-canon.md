@@ -431,6 +431,18 @@ repeating paired enamel pails, clear-versus-cloudy water, cobalt rubber bands,
 cream crescent stitches, permanent color-label mistakes, or a marker-following-
 contents payoff.
 
+Episode 42 turns revisable identification into revisable equipment placement.
+The low two-shelf supply cart with four casters and two cobalt locking pedals,
+`prop.repositionable-supply-cart.001@v1`, lets Yunseo reject Doyun's fixed floor
+outline, unlock and move the cart to the safe reachable side of her current
+task, walk-test the shared passage, and lock it herself. Doyun removes the
+outline and later leaves a Seoul cart unassigned so another worker can place it
+for standing or seated work. Soondeok supplies the practical person-and-passage
+test; Minjae remains absent in the present. Future episodes should avoid
+immediately repeating rolling supply carts, exactly two shelves, cobalt caster
+pedals, floor tape rectangles, large paper caught at a doorway, path-walking
+tests, or owner-chosen cart-placement payoffs.
+
 ## Good Future Episode Engines
 
 Use one concrete motif and one emotional question:

@@ -1,0 +1,99 @@
+version: 1
+episode: ep-042
+title: "옮겨 잠근 수레"
+format: vertical_scroll
+page_count: 20
+reading_order: top_to_bottom
+core_elements:
+  - { id: character.doyun.001, version: 1, panels: [2, 4, 15, 16, 18] }
+  - { id: character.yunseo.001, version: 1, panels: [1, 3, 5, 6, 8, 10, 11, 12, 13, 14, 15, 16, 17] }
+  - { id: character.soondeok.001, version: 1, panels: [7] }
+  - { id: prop.repositionable-supply-cart.001, version: 1, panels: [2, 4, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20] }
+style_lock: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text."
+negative_prompt: "No photorealism, live action, cinematic stills, DSLR photography, skin pores, lens bokeh, generated text, fake Korean, signs, logos, watermarks, captions, speech bubbles, empty bubbles."
+accepted_prompt_addenda:
+  5: "Corrected Yunseo to the canonical loose bob and sea-blue jacket while preserving the bent-corner passage evidence."
+  6: "Corrected Yunseo's identity and moved the scene back inside the Jeju workroom."
+  8: "Replaced a split-panel candidate with one uninterrupted unlocking action and canonical child identity."
+  16: "Corrected the cart to exactly two shelves and two locking pedals while preserving the tape-removal action."
+pages:
+  - panel: 1
+    beat: "윤서가 큰 종이와 재료를 나른다"
+    caption: "윤서는 작업대와 세척대 사이로 큰 종이와 재료를 날랐다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Jeju community art workroom, elementary-school-age Korean girl Kang Yunseo with short jaw-length black bob, muted sea-blue hooded rain jacket, cream sweatshirt, charcoal pants and dark rubber boots carefully carries one large blank cream paper sheet between a low worktable and utility sink. No cart yet. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 2
+    beat: "도윤이 바닥에 고정 자리를 만든다"
+    caption: "도윤은 수레 자리를 정하려고 바닥 한쪽에 얇은 사각형을 붙였다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Slim clean-shaven 26-year-old Korean man Han Doyun with slightly long wavy black hair, gray hoodie under dark long coat crouches to apply one plain thin cream tape rectangle on the floor beside a low pale-wood two-shelf supply cart with one rounded push handle, exactly four small gray casters, and exactly two muted cobalt locking pedals on the near casters. No writing or symbols. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 3
+    beat: "윤서가 오늘 필요한 가까운 자리를 고른다"
+    caption: "윤서는 오늘은 수레가 큰 종이 가까이에 있어야 한다고 말했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo stands at a low table with one large blank sheet spread wide, points to the open right side within her reach, then looks toward the supply cart farther by the wall. Clear child proportions and practical gesture. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 4
+    beat: "도윤이 수레를 사각형 안에 잠근다"
+    caption: "도윤은 수레를 사각형 안에 밀고 두 바퀴를 잠갔다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Doyun pushes the single low pale-wood two-shelf supply cart fully inside the plain floor tape rectangle by the wall and presses exactly two cobalt locking pedals down with his shoe. Exactly four casters total, no Yunseo. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 5
+    beat: "좁은 통로에서 종이가 구겨진다"
+    caption: "윤서가 수레로 가는 좁은 길에서 종이 모서리가 문틀에 구겨졌다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo turns through a narrow workroom passage holding one large blank cream sheet; one paper corner visibly bends against a plain doorframe while the cart blocks the easy approach farther ahead. No injury or distress. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 6
+    beat: "윤서가 종이를 내려놓고 왕복한다"
+    caption: "손이 닿지 않아 윤서는 종이를 내려놓고 두 번 왕복했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo has set the large blank sheet safely on the low table and walks back from the distant cart carrying one folded dry cream cloth, with another plain clip still visible on the cart. Single-scene composition showing inconvenient distance. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 7
+    beat: "순덕이 사람과 통로를 먼저 확인한다"
+    caption: "순덕은 수레보다 사람과 통로의 자리를 먼저 보라고 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Elderly Jeju Korean woman Soondeok with short gray-white hair and sea-colored practical outerwear lightly tests the empty low supply cart by its rounded handle, then gestures toward the child-height worktable and the open doorway path. Blunt practical expression. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 8
+    beat: "윤서가 두 잠금 발판을 올린다"
+    caption: "윤서는 코발트색 잠금 발판 두 개를 올려 바퀴를 풀었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Low close view: child Yunseo uses one boot and one hand in sequence to lift exactly two muted cobalt locking pedals on the two near casters of one pale-wood supply cart. Exactly four casters total, adults hands-off. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 9
+    beat: "수레의 구조와 재료가 보인다"
+    caption: "낮은 나무 수레의 두 칸에는 마른 천과 집게가 나뉘어 있었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Clean object view of one child-reachable pale-wood supply cart: exactly two open shelves, one rounded push handle, exactly four small gray swivel casters, exactly two cobalt locking pedals on the near casters, a folded dry cream cloth on the upper shelf and plain wooden clips in a shallow tray below. No people, writing, labels, logo, or extra cart. No photorealism, watermark, caption, speech bubble, or empty bubble."
+  - panel: 10
+    beat: "윤서가 수레를 열린 오른쪽으로 옮긴다"
+    caption: "윤서는 수레를 큰 종이 작업대의 열린 오른쪽으로 옮겼다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo independently pushes the single low two-shelf supply cart by its rounded handle toward the open right side of a low worktable holding one large blank sheet. Wide view, doorway path stays visible. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 11
+    beat: "윤서가 통로를 걸어 확인한다"
+    caption: "문과 세척대로 가는 길이 비었는지 윤서가 직접 걸어 보았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Wide overhead-oblique Jeju workroom view: child Yunseo walks the clear one-person-wide path from open doorway to utility sink; the low cart sits beside the worktable without blocking her route. No floor arrows or labels. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 12
+    beat: "윤서가 두 발판을 눌러 잠근다"
+    caption: "윤서는 두 발판을 눌러 수레 바퀴를 다시 잠갔다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Low side view at the chosen table side: child Yunseo presses down exactly two cobalt locking pedals on the two near casters of the single pale-wood cart, making it stable. Exactly four casters total. No adult. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 13
+    beat: "윤서가 종이를 놓지 않고 재료를 꺼낸다"
+    caption: "이제 윤서는 종이를 놓지 않고 옆 수레에서 재료를 꺼냈다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo keeps one hand flat on a large blank sheet while comfortably reaching with the other hand to take a folded dry cloth from the locked cart immediately beside her. Clear independent reach, no adult assistance. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 14
+    beat: "작업 순서가 바뀌어 수레를 왼쪽으로 옮긴다"
+    caption: "물을 쓰는 순서가 오자 수레를 풀어 젖지 않은 왼쪽으로 옮겼다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Later in the Jeju workroom, a small damp patch lies near the right-side sink. Child Yunseo pushes the unlocked single supply cart around the dry left side of the worktable, avoiding the wet floor. One clear action, no adults. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 15
+    beat: "윤서가 바닥 선보다 열린 통로를 가리킨다"
+    caption: "도윤이 바닥 선을 가리키자 윤서는 열린 통로를 먼저 가리켰다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Doyun points toward the now-empty thin tape rectangle by the wall; child Yunseo calmly points instead toward the clear doorway path and the safely placed cart beside the table. Doyun pauses and listens. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 16
+    beat: "도윤이 사각형을 떼고 잠금만 확인한다"
+    caption: "도윤은 사각형을 떼고 윤서가 고른 자리의 잠금만 확인했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Doyun peels the plain cream tape rectangle from the floor into one loose strip while child Yunseo tests the cart handle at her chosen position; the two cobalt caster pedals are visibly locked down. Cooperative but child-led. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 17
+    beat: "윤서가 작업을 끝내고 수레를 빈 벽으로 돌려놓는다"
+    caption: "윤서는 종이를 구기지 않고 끝낸 뒤 수레를 빈 벽 쪽에 돌려놓았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo holds one finished unlettered coastal color print with crisp corners, then parks the low supply cart against an open wall away from the doorway. No floor rectangle remains. Quiet completed Jeju workroom. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 18
+    beat: "서울에서 도윤이 수레를 고정하지 않는다"
+    caption: "서울에서도 도윤은 재료 수레의 자리를 바닥에 고정하지 않았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Quiet gray Seoul print workroom: Doyun in gray hoodie and dark long coat checks the two cobalt caster locks on a similar low pale-wood two-shelf cart, with completely plain floor and no tape, paint, sign, label, or assigned outline. No Yunseo. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 19
+    beat: "서울 작업자가 자세에 맞춰 수레를 옮긴다"
+    caption: "작업자는 서거나 앉는 자세에 맞춰 수레를 옮기고 직접 잠갔다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Seoul adult printmaker with short hair and rust-brown work apron independently rolls the single low supply cart from the side of a standing print table toward a seated sorting stool, then reaches toward a cobalt locking pedal. Doyun observes from a respectful distance. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 20
+    beat: "열린 곳의 수레가 다음 이동을 기다린다"
+    caption: "수레의 자리는 선이 아니라, 다음 사람의 일에 맞춰 다시 열렸다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Restrained final Seoul view: one clean low pale-wood two-shelf supply cart rests unlocked in an open neutral bay between two work areas, rounded handle accessible, four casters aligned, two cobalt locking pedals visible, wide clear paths around it, no people and no floor markings. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
