@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "kicker": "AI 뉴스 네 컷",
+  "title": "ChatGPT 저장소가 Rust로 갈아탔다",
+  "footer": "큰 성능 수치는 측정 주체와 조건을 함께 봐요.",
+  "panels": [
+    { "number": 1, "speaker": "누리", "text": "ChatGPT 뒤의 저장소가\nRust로 바뀌었다고요?" },
+    { "number": 2, "speaker": "픽", "text": "Habitat의 95% 트래픽이\n이미 Rust에서 돌아가요." },
+    { "number": 3, "speaker": "누리", "text": "그럼 더 빠르고 가벼워졌다는\n측정도 있나요?" },
+    { "number": 4, "speaker": "픽", "text": "OpenAI 내부 수치예요.\n독립 검증은 아직 없어요." }
+  ]
+}
