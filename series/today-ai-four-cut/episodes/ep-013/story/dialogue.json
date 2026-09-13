@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "kicker": "AI 뉴스 네 컷",
+  "title": "Anthropic이 외부 평가자를 들인다",
+  "footer": "안전 약속은 실제 실행과 검증까지 확인해야 해요.",
+  "panels": [
+    { "number": 1, "speaker": "누리", "text": "AI 회사 안에 외부 평가자가\n들어간다고요?" },
+    { "number": 2, "speaker": "픽", "text": "Anthropic이 안전 절차와 사고를\n계속 보게 하겠대요." },
+    { "number": 3, "speaker": "누리", "text": "그럼 AI 개발을 완전히\n멈춘다는 뜻인가요?" },
+    { "number": 4, "speaker": "픽", "text": "아니요. 속도 조절 제안이고\n실행은 더 봐야 해요." }
+  ]
+}

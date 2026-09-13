@@ -16,3 +16,4 @@
 | ep-010 | 2026-09-11 | AI가 감시 업무를 자동화했다 | `https://www.anthropic.com/threat-intelligence-report-september-2026|2026-09-10` | 한 장 2×2 네 컷, 감시 분석 자동화 사례와 계정 차단만으로 끝나지 않는 한계를 함께 설명 |
 | ep-011 | 2026-09-12 | AI 작업 관리가 API로 들어왔다 | `https://openai.com/index/introducing-the-agents-api/|2026-09-10` | 한 장 2×2 네 컷, 관리형 에이전트 운영과 공개 베타의 비용·복구 검증 필요를 함께 설명 |
 | ep-012 | 2026-09-13 | ChatGPT 저장소가 Rust로 갈아탔다 | `https://openai.com/index/scaling-storage-one-billion-users-part-one/|2026-09-11` | 한 장 2×2 네 컷, Rust 전환 운영 결과와 OpenAI 내부 측정의 독립 검증 한계를 함께 설명 |
+| ep-013 | 2026-09-14 | Anthropic이 외부 평가자를 들인다 | `https://darioamodei.com/post/we-must-pace-the-frontier|2026-09-12` | 한 장 2×2 네 컷, 외부 평가자 접근 약속과 구체적 이행·검증이 남은 한계를 함께 설명 |
