@@ -1,0 +1,103 @@
+version: 1
+episode: ep-043
+title: "낮춰 건 도구함"
+format: vertical_scroll
+page_count: 20
+reading_order: top_to_bottom
+core_elements:
+  - { id: character.doyun.001, version: 1, panels: [2, 6, 8, 10, 15, 16, 18] }
+  - { id: character.yunseo.001, version: 1, panels: [1, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17] }
+  - { id: character.soondeok.001, version: 1, panels: [7] }
+  - { id: prop.rehangable-tool-caddy.001, version: 1, panels: [2, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19, 20] }
+style_lock: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text."
+negative_prompt: "No photorealism, live action, cinematic stills, DSLR photography, skin pores, lens bokeh, generated text, fake Korean, signs, logos, watermarks, captions, speech bubbles, empty bubbles."
+accepted_prompt_addenda:
+  3: "Corrected Yunseo to the canonical loose black bob and sea-blue jacket, and restored the two-height rail and caddy evidence."
+  4: "Corrected Yunseo's identity and wardrobe and restored the unreachable hooked caddy."
+  6: "Restored the caddy and lower rail while keeping Yunseo safely on the floor and Doyun listening."
+  7: "Corrected the caddy to hang by two hooks above its body while preserving Soondeok's elbow-height test."
+  10: "Removed extra containers and tools and showed Yunseo lifting the empty two-hook caddy by its cobalt grip."
+  12: "Removed extra caddies and clarified the seated elbow-height reach test."
+  13: "Restored a single hanging one-compartment caddy beside the table and the one-clip reach action."
+  17: "Removed printed imagery and possible generated marks from the cards, leaving exactly four blank finished cards."
+pages:
+  - panel: 1
+    beat: "윤서가 낮은 탁자에서 사진 카드를 다듬는다"
+    caption: "윤서는 낮은 탁자에서 작은 사진 카드의 모서리를 다듬었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Jeju community art workroom, elementary-school-age Korean girl Kang Yunseo with short jaw-length black bob, muted sea-blue hooded rain jacket, cream sweatshirt, charcoal pants and dark rubber boots sits at a low table carefully rounding one corner of a small blank coastal photo card with a safe hand tool. Four small cards nearby. No wall caddy visible yet. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 2
+    beat: "도윤이 도구함을 높은 벽 레일에 건다"
+    caption: "도윤은 얕은 금속 도구함을 높은 벽 레일에 정리해 걸었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Slim clean-shaven 26-year-old Korean man Han Doyun with slightly long wavy black hair, gray hoodie under dark long coat hangs one shallow cream-painted metal tool caddy on an adult-height pale wooden wall rail. The caddy has rounded corners, exactly two backward aged-brass hooks and one muted cobalt padded front grip; plain scissors and wooden clips inside. A second empty rail is visible lower on the wall. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 3
+    beat: "윤서가 손 닿는 높이에서 작업하고 싶다고 말한다"
+    caption: "윤서는 도구를 자기 손이 닿는 높이에 두고 끝까지 쓰고 싶었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo sits at her low table, points from her own hand and elbow toward the empty child-height wall rail, then looks at the tool caddy far above. Clear practical child gesture, Doyun listening at a respectful distance. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 4
+    beat: "윤서의 손끝이 높은 도구함에 닿지 않는다"
+    caption: "필요한 집게는 보였지만 윤서의 손끝은 도구함 아래에만 닿았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo stands safely on the floor and reaches upward; her fingertips touch only the underside of the high cream tool caddy while one plain wooden clip remains clearly visible inside beyond reach. Strong height difference, no adult hands. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 5
+    beat: "발판에서 뻗자 도구함이 기울고 집게가 떨어진다"
+    caption: "발판에서 몸을 뻗자 도구함이 기울고 집게 하나가 떨어졌다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo stands on one low stable wooden step but must lean upward; the high wall caddy tilts slightly on its two brass hooks and exactly one wooden clip is caught mid-fall toward the empty floor. Yunseo is cautious, not injured, no dramatic peril. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 6
+    beat: "윤서가 내려와 높은 자리를 거절한다"
+    caption: "윤서는 더 뻗지 않고 내려와 높은 자리는 쓰기 어렵다고 말했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo has stepped fully down onto the floor, gently pushes the unused wooden step aside, and points up at the inaccessible caddy while speaking plainly to Doyun. Doyun pauses and listens, hands lowered. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 7
+    beat: "순덕이 팔꿈치 높이를 확인한다"
+    caption: "순덕은 사람보다 쓰는 물건을 팔꿈치 가까이 내리라고 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Elderly Jeju Korean woman Soondeok with short gray-white hair and sea-colored practical outerwear holds one palm beside child Yunseo's bent elbow, then gestures toward the empty lower wall rail and the high tool caddy. Blunt practical expression; no one moves the caddy yet. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 8
+    beat: "윤서가 도구함을 먼저 비운다"
+    caption: "윤서는 가위와 집게를 먼저 탁자 위에 안전하게 비웠다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Doyun holds the still-hooked high caddy steady without moving it while child Yunseo, now on the floor, receives the few plain scissors and wooden clips one at a time and lays them neatly on the low table before relocation. Clear cooperative safety step, child directs. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 9
+    beat: "빈 도구함의 구조가 보인다"
+    caption: "한 칸 도구함에는 두 황동 걸쇠와 푸른 앞 손잡이가 있었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Clean object study of one empty shallow cream-painted metal tool caddy with one open compartment, rounded corners, exactly two backward aged-brass hanging hooks, one muted cobalt padded horizontal front grip, and one small crescent enamel chip near the lower-right edge. No people, tools, labels, symbols, logo, or extra caddy. No photorealism, text, watermark, caption, speech bubble, or empty bubble."
+  - panel: 10
+    beat: "윤서가 높은 레일에서 빈 도구함을 들어 뺀다"
+    caption: "윤서는 손잡이를 잡고 높은 레일에서 도구함을 들어 뺐다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. The high rail is now reachable from a safe broad low platform placed by an adult; child Yunseo grips the cobalt front handle with both hands and lifts the empty lightweight caddy upward so exactly two brass hooks clear the rail. Doyun spots from the side without taking over. Single action, no tools inside. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 11
+    beat: "윤서가 낮은 레일에 걸고 흔들어 확인한다"
+    caption: "낮은 레일에 건 뒤 두 걸쇠가 버티는지 직접 흔들어 보았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo hangs the single empty cream caddy on a child-height pale wooden rail, both brass hooks visibly seated over the rail, then gently tests the cobalt front grip with one hand. Feet flat on floor, no adults in frame. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 12
+    beat: "팔꿈치와 도구함 윗선이 같은 높이다"
+    caption: "앉은 윤서의 팔꿈치와 도구함 윗선이 나란히 놓였다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Clear side view: child Yunseo sits naturally at the low worktable, her bent elbow aligns with the top edge of the empty caddy on the nearby lower wall rail. Her hand reaches the cobalt grip without lifting her shoulder. No measuring marks or text. No photorealism, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 13
+    beat: "윤서가 앉은 채 필요한 집게를 꺼낸다"
+    caption: "윤서는 도구를 다시 넣고 앉은 채 필요한 집게를 꺼냈다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo sits at the low table, keeps one hand on a small photo card and comfortably reaches sideways with the other to take one wooden clip from the now-loaded low caddy. Plain scissors remain safely inside, no stool, no adult help. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 14
+    beat: "젖은 붓을 세척대 옆 낮은 레일로 옮긴다"
+    caption: "젖은 붓은 세척대 옆 낮은 레일로 도구함째 따로 옮겼다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Later, child Yunseo carries the same single caddy by its cobalt grip at waist height; inside are two visibly wet plain paintbrushes only. She approaches another child-height rail beside a utility sink, while dry scissors and clips remain on the distant table. One clear relocation, dry floor. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 15
+    beat: "윤서가 높은 레일 대신 손 닿는 레일을 고른다"
+    caption: "도윤이 높은 레일을 보자 윤서는 손 닿는 낮은 쪽을 가리켰다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Doyun glances toward the empty high rail; child Yunseo calmly points to the child-height rail beside the sink while holding the one wet-brush caddy by its cobalt grip. Doyun listens, hands away from the caddy. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 16
+    beat: "윤서가 다시 걸고 도윤은 도구만 받아 준다"
+    caption: "도윤은 도구만 받아 들고 윤서가 두 걸쇠를 다시 걸게 두었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. At the low sink rail, Doyun holds only the two wet brushes over the basin while child Yunseo independently lifts the empty cream caddy and seats both brass hooks on the rail. Cooperative child-led action, exactly one caddy, no stool. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 17
+    beat: "윤서가 발판 없이 카드 네 장을 마친다"
+    caption: "윤서는 발판 없이 사진 카드 네 장의 모서리를 모두 마쳤다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Quiet completed Jeju workroom: child Yunseo remains seated with feet on floor, smiles slightly at exactly four finished unlettered coastal photo cards with neatly rounded corners. The low caddy is within easy reach; the unused wooden step is folded against a distant wall. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 18
+    beat: "서울에서도 도구함 높이를 고정하지 않는다"
+    caption: "서울에서도 도윤은 도구함 높이를 하나로 정해 두지 않았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Quiet gray Seoul print workroom: Doyun installs several plain pale wooden horizontal rails at different reachable heights on one blank wall, while the single cream tool caddy rests unattached on a table. No labels, height numbers, Yunseo, or floor markings. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 19
+    beat: "서울 작업자가 자기 팔 높이에 도구함을 건다"
+    caption: "한 작업자는 자기 팔 높이에 도구함을 걸고 편하게 꺼내 썼다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Seoul adult printmaker with short hair and rust-brown work apron, keeping one shoulder relaxed low, independently hangs the single cream caddy on a comfortable mid-low rail and takes a plain clip without raising that shoulder. Doyun observes from a respectful distance. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."
+  - panel: 20
+    beat: "여러 레일 앞의 도구함이 다음 손을 기다린다"
+    caption: "도구함은 정해진 벽이 아니라, 다음 손의 높이를 기다렸다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Restrained final Seoul view: one clean cream metal caddy rests on a mid-low pale wooden rail among several empty rails at different heights, cobalt front grip accessible, exactly two brass hooks visible, open uncluttered worktable nearby, no people. No photorealism, text, logo, watermark, caption, speech bubble, or empty bubble."

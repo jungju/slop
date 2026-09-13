@@ -443,6 +443,19 @@ immediately repeating rolling supply carts, exactly two shelves, cobalt caster
 pedals, floor tape rectangles, large paper caught at a doorway, path-walking
 tests, or owner-chosen cart-placement payoffs.
 
+Episode 43 turns revisable equipment placement into revisable access height.
+The shallow hook-on tool caddy, `prop.rehangable-tool-caddy.001@v1`, lets
+Yunseo reject an adult-height storage position that makes her climb and tip a
+wooden clip. She empties the caddy, removes it by its cobalt front grip, hangs
+both brass hooks on a lower rail, tests the fit at her own elbow, and later
+moves wet brushes separately beside the sink. Doyun supports the safe transfer
+without choosing the final height; a Seoul worker later hangs the caddy where
+one relaxed shoulder can reach it. Soondeok supplies the practical elbow-height
+test; Minjae remains absent in the present. Future episodes should avoid
+immediately repeating metal tool caddies, exactly two brass hooks, cobalt front
+grips, parallel wall rails, step-reaching hazards, elbow-height tests, or an
+owner-chosen hanging-height payoff.
+
 ## Good Future Episode Engines
 
 Use one concrete motif and one emotional question:

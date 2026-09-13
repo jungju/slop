@@ -2,6 +2,36 @@ version: 1
 factory_type: comic
 comic_id: wind-returning-place
 elements:
+  - id: prop.rehangable-tool-caddy.001
+    name: 낮춰 거는 푸른 손잡이 도구함
+    category: prop
+    scope: episode
+    status: active
+    introduced_in: ep-043
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-043
+        active_until: ep-043
+        supersedes: null
+        immutable_features:
+          - one shallow cream-painted metal caddy with rounded corners and one open compartment
+          - exactly two backward aged-brass hooks for hanging on plain horizontal wall rails
+          - one muted cobalt padded horizontal grip centered on the front
+          - one small crescent enamel chip near the lower-right edge
+          - no text, numbers, logo, label, or printed mark
+        mutable_features:
+          - empty or holding plain scissors, wooden clips, or wet brushes
+          - hung on high, child-height, or mid-low rails in Jeju or Seoul workrooms
+          - carried by the front grip or lifted by Yunseo or an adult worker
+          - nearby hands, low table, utility sink, cards, and lighting
+        reference_asset_ids:
+          - prop-rehangable-tool-caddy-001-v1-text-lock
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: text_locked
   - id: prop.repositionable-supply-cart.001
     name: 옮겨 잠그는 낮은 재료 수레
     category: prop
