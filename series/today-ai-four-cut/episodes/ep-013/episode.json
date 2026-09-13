@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-013",
+  "number": 13,
+  "title": "13화: Anthropic이 외부 평가자를 들인다",
+  "shortTitle": "Anthropic이 외부 평가자를 들인다",
+  "lead": "Anthropic CEO Dario Amodei는 프런티어 AI 개발 속도를 조절하자고 제안하며, 외부 평가자에게 안전 절차와 사고를 지속적으로 살필 수 있는 접근을 주겠다고 밝혔다.",
+  "closingLine": "외부 평가자 접근은 공개 약속 단계이므로 구체적인 권한과 시작 시점, 실제 독립 평가 결과까지 확인해야 한다.",
+  "news": {
+    "headline": "Anthropic CEO proposes pacing frontier AI and embedded external evaluators",
+    "eventDate": "2026-09-12",
+    "researchDate": "2026-09-14",
+    "summary": "Anthropic CEO Dario Amodei는 AI 모델 역량 발전의 속도를 늦춰 안전 조치가 따라잡을 시간을 확보하자고 제안했습니다. 첫 단계로 외부 평가자에게 안전 절차 준수와 사고, 학습 과정을 지속적으로 살필 수 있는 직원 수준의 접근을 주며 Anthropic이 자발적으로 참여하겠다고 밝혔습니다. 다만 참여 기관, 구체적 권한, 시작 시점과 실제 독립 평가 결과는 아직 공개되지 않았습니다.",
+    "selectionNote": "최근 48시간의 주요 AI 발표를 검토해 2026년 9월 12일 공개된 Dario Amodei의 제안과 Anthropic의 외부 평가자 접근 약속을 선택했습니다. 원문을 읽고 AP와 Axios의 독립 보도로 발표 범위와 이행이 아직 확인되지 않았다는 한계를 교차 확인했습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "1차 출처",
+      "title": "We Must Pace the Frontier",
+      "publisher": "Dario Amodei",
+      "publishedAt": "2026-09-12",
+      "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+      "note": "프런티어 AI 개발 속도 조절의 세 단계와 Anthropic의 상주형 외부 평가자 접근 약속을 설명합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 보도",
+      "title": "Anthropic CEO Dario Amodei says AI industry needs to give safety measures time to catch up",
+      "publisher": "AP News",
+      "publishedAt": "2026-09-12",
+      "url": "https://apnews.com/article/anthropic-ai-dario-amodei-d59552edcb27892d8ee4d98a48397706",
+      "note": "속도 조절 제안과 Anthropic의 자발적 첫 단계, 나머지 단계에 필요한 업계·정부 조정을 확인합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "약속 범위와 실행 한계",
+      "title": "Anthropic, OpenAI CEOs call for slowdown in AI development",
+      "publisher": "Axios",
+      "publishedAt": "2026-09-12",
+      "url": "https://www.axios.com/2026/09/12/anthropic-ai-amodei-pacing",
+      "note": "Anthropic의 외부 평가자 접근 약속과 다른 회사의 참여 및 실제 이행 여부가 남아 있음을 보도합니다."
+    }
+  ],
+  "publishedAt": "2026-09-13T21:08:29.441Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: AI 회사 안에 외부 평가자가 들어간다고요? 픽: Anthropic이 안전 절차와 사고를 계속 보게 하겠대요. 누리: 그럼 AI 개발을 완전히 멈춘다는 뜻인가요? 픽: 아니요. 속도 조절 제안이고 실행은 더 봐야 해요.",
+      "alt": "13화: Anthropic이 외부 평가자를 들인다 1페이지. 누리: AI 회사 안에 외부 평가자가 들어간다고요? 픽: Anthropic이 안전 절차와 사고를 계속 보게 하겠대요. 누리: 그럼 AI 개발을 완전히 멈춘다는 뜻인가요? 픽: 아니요. 속도 조절 제안이고 실행은 더 봐야 해요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": "GPT-5",
+      "status": "known-model"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}
