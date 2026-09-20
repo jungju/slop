@@ -2,6 +2,37 @@ version: 1
 factory_type: comic
 comic_id: wind-returning-place
 elements:
+  - id: prop.paired-carry-grips.001
+    name: 나란히 드는 푸른 운반 손잡이 한 쌍
+    category: prop
+    scope: episode
+    status: active
+    introduced_in: ep-044
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-044
+        active_until: ep-044
+        supersedes: null
+        immutable_features:
+          - exactly two matching detachable carry grips used at opposite short edges of one broad board
+          - one soft muted-cobalt woven fabric loop on each grip
+          - one cream-painted wooden clamp jaw with plain cork pads on each grip
+          - one aged-brass round tightening screw on each grip
+          - one tiny cream crescent repair stitch near the base of each fabric loop
+          - no text, numbers, logo, label, printed mark, rail, hook, wheel, or permanent board attachment
+        mutable_features:
+          - clamped to a large pale plywood exhibition board or laid loose beside it
+          - held by Yunseo, Doyun, or an adult Seoul worker
+          - Jeju community art workroom or Seoul shared print workroom
+          - nearby blank photographs, low table, padded trestles, drying stand, doorway, and lighting
+        reference_asset_ids:
+          - prop-paired-carry-grips-001-v1-text-lock
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: text_locked
   - id: prop.rehangable-tool-caddy.001
     name: 낮춰 거는 푸른 손잡이 도구함
     category: prop
