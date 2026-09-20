@@ -456,6 +456,19 @@ immediately repeating metal tool caddies, exactly two brass hooks, cobalt front
 grips, parallel wall rails, step-reaching hazards, elbow-height tests, or an
 owner-chosen hanging-height payoff.
 
+Episode 44 turns revisable access into directed cooperation. Exactly two
+detachable carry grips, `prop.paired-carry-grips.001@v1`, let Yunseo stop
+Doyun's solo lift when a large exhibition board bows and one of her six
+photographs shifts. She clamps one cobalt loop grip to each short end, assigns
+Doyun the opposite end, controls the stop-and-start signals at the doorway,
+corrects the photograph herself, and completes a level two-person carry.
+Soondeok supplies the practical two-holding-places test; Doyun later waits for
+another Seoul worker instead of moving a large board alone; Minjae remains
+absent in the present. Future episodes should avoid immediately repeating
+large exhibition boards, exactly six photographs, paired cobalt loop grips,
+cream clamp jaws, brass screws, bowed-board accidents, doorway stop signals,
+or coordinated two-person carry payoffs.
+
 ## Good Future Episode Engines
 
 Use one concrete motif and one emotional question:

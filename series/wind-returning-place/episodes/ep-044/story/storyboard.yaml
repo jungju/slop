@@ -1,0 +1,97 @@
+version: 1
+episode: ep-044
+title: "나란히 든 큰 판"
+format: vertical_scroll
+page_count: 20
+reading_order: top_to_bottom
+core_elements:
+  - { id: character.doyun.001, version: 1, panels: [2, 4, 5, 11, 12, 13, 15, 16, 19] }
+  - { id: character.yunseo.001, version: 1, panels: [1, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18] }
+  - { id: character.soondeok.001, version: 1, panels: [6] }
+  - { id: prop.paired-carry-grips.001, version: 1, panels: [7, 8, 9, 10, 11, 12, 13, 15, 16, 18, 19, 20] }
+style_lock: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text."
+negative_prompt: "No photorealism, live action, cinematic stills, DSLR photography, skin pores, lens bokeh, generated text, fake Korean, signs, logos, watermarks, captions, speech bubbles, empty bubbles."
+accepted_prompt_addenda:
+  10: "Corrected Yunseo to clear child proportions and canonical wardrobe, restored exactly two opposite carry grips, and removed printed imagery from the six cards."
+  13: "Corrected Yunseo to clear child proportions and canonical wardrobe while preserving the stop signal, two padded trestles, and two opposite carry grips."
+pages:
+  - panel: 1
+    beat: "윤서가 큰 전시판 위 사진 여섯 장의 순서를 맞춘다"
+    caption: "윤서는 큰 전시판 위에 마른 사진 여섯 장의 순서를 맞췄다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Jeju community art workroom. Elementary-school-age Korean girl Kang Yunseo, child proportions, short straight jaw-length black bob with blunt bangs, muted sea-blue hooded rain jacket, cream sweatshirt, charcoal pants, dark rubber boots, arranges exactly six blank cream-backed photographs in two neat rows on one large thin pale plywood exhibition board resting flat on a low table. No carrying grips visible yet. Vertical single scene. No photorealism, text, signs, logo, watermark, caption, speech bubble, empty bubble, or panel grid."
+  - panel: 2
+    beat: "도윤이 큰 판을 혼자 옮기려 한다"
+    caption: "도윤은 완성된 판을 혼자 건조대로 옮기려 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Jeju workroom. Slim clean-shaven 26-year-old Korean man Han Doyun with slightly long wavy black hair, gray hoodie under dark long coat and old brown messenger bag reaches toward the center edge of one large pale plywood exhibition board holding exactly six blank photographs, intending to lift it alone toward a low open drying stand in the background. Vertical single scene. No photorealism, text, logo, watermark, speech bubble, empty bubble, or panel grid."
+  - panel: 3
+    beat: "윤서는 판을 평평하게 옮기고 싶다"
+    caption: "윤서는 사진 순서를 지키며 판을 평평하게 옮기고 싶었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Yunseo stands beside the long exhibition board and holds both palms level above its left and right ends, clearly indicating the board must remain flat so exactly six blank photos keep their order. Calm direct expression, child proportions, canonical sea-blue jacket. No grips yet. Vertical single scene, no photorealism, text, logo, watermark, caption, speech bubble, empty bubble, or panel grid."
+  - panel: 4
+    beat: "가운데만 든 판이 휘고 사진이 미끄러진다"
+    caption: "도윤이 가운데만 들자 판 양끝이 휘고 사진 한 장이 미끄러졌다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Doyun lifts one large thin pale plywood board only by its middle long edge; the unsupported ends visibly bow downward and exactly one of six blank photographs slides toward a corner while the other five remain. His posture shows immediate concern, not heroism. No grips visible. Vertical single scene, no photorealism, text, logo, watermark, speech bubble, empty bubble, or panel grid."
+  - panel: 5
+    beat: "윤서가 사진을 받고 혼자 들기를 멈춘다"
+    caption: "윤서는 사진을 받아 놓고 혼자 들면 작업이 망가진다고 말했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Yunseo safely catches the one sliding blank photograph and raises her free palm to stop; Doyun has already lowered the bowed board back onto the low table and listens. Exactly six photos total. Clear child agency and safe posture. No grips visible. Vertical single scene, no photorealism, text, logo, watermark, speech bubble, empty bubble, or panel grid."
+  - panel: 6
+    beat: "순덕이 두 사람이 잡을 자리를 만들자고 한다"
+    caption: "순덕은 두 사람이 잡을 자리를 먼저 만들자고 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Elderly Jeju Korean woman Soondeok with short gray-white hair, wind-weathered face and sea-colored work outerwear stands beside Yunseo and points to the two opposite short ends of the flat exhibition board, demonstrating two separate carrying positions with grounded practical posture. The board remains on the table with six blank photos. Vertical single scene, no photorealism, text, logo, watermark, speech bubble, empty bubble, or panel grid."
+  - panel: 7
+    beat: "윤서가 한 쌍의 손잡이를 꺼낸다"
+    caption: "윤서는 선반에서 한 쌍의 운반 손잡이를 꺼냈다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Yunseo removes exactly two matching detachable carry grips from a low open shelf: each has one soft muted-cobalt woven fabric loop, one cream-painted wooden clamp jaw with cork pads, and one aged-brass round tightening screw. Both grips fully visible, no extras. Vertical single scene, no photorealism, text, numbers, logo, watermark, speech bubble, empty bubble, or panel grid."
+  - panel: 8
+    beat: "운반 손잡이 한 쌍의 구조를 확인한다"
+    caption: "푸른 천 고리 두 개에는 나무 집게턱과 황동 나사가 달려 있었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Clean close view of Yunseo's hands holding exactly two matching detachable carry grips side by side on a plain worktable: muted cobalt woven loop, cream wooden clamp jaw with cork lining, one aged-brass round screw on each, and a tiny crescent stitch on each loop. Practical tool study, no people duplicated. Vertical single scene, no photorealism, text, numbers, logos, watermarks, bubbles, or panel grid."
+  - panel: 9
+    beat: "윤서가 첫 손잡이를 판 왼쪽에 고정한다"
+    caption: "윤서는 판의 왼쪽 짧은 변에 첫 손잡이를 단단히 고정했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Yunseo kneels safely beside the flat table and clamps exactly one cream wooden carry grip onto the center of the exhibition board's left short edge, turning its single brass screw; its cobalt fabric loop hangs outward. The second matching grip lies beside the opposite end. Six blank photos stay on the board. Vertical single scene, no photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 10
+    beat: "두 손잡이를 같은 높이에 달고 당겨 시험한다"
+    caption: "반대쪽도 같은 높이에 달고 두 고리를 당겨 확인했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Top three-quarter view: exactly two matching grips are clamped at the centers of opposite short edges of one flat pale plywood board. Yunseo pulls each cobalt fabric loop outward with one hand to test both clamps while exactly six blank photos remain arranged. No extra handles or clamps. Vertical single scene, no photorealism, text, logo, watermark, speech bubble, empty bubble, or panel grid."
+  - panel: 11
+    beat: "윤서가 자기 신호에 맞춰 들자고 요청한다"
+    caption: "윤서는 자기 신호에 맞춰 반대편만 들어 달라고 부탁했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Yunseo firmly holds the left cobalt loop and makes a clear ready gesture; Doyun crouches at the opposite short end holding only the other cobalt loop and watches her signal. The large board is still flat on the table with six blank photos. Exactly two grips. Vertical single scene, no photorealism, text, logo, watermark, speech bubble, empty bubble, or panel grid."
+  - panel: 12
+    beat: "둘이 함께 들어 판이 평평해진다"
+    caption: "둘이 함께 들자 큰 판은 허리 높이에서 평평해졌다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Yunseo and Doyun stand at opposite short ends carrying one large exhibition board perfectly level at their comfortable waist heights, each using one cobalt fabric loop attached by a cream clamp. Exactly six blank photographs remain aligned; no bending. Clear safe cooperative carry. Vertical single scene, no photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 13
+    beat: "윤서의 멈춤 신호에 둘이 판을 내려놓는다"
+    caption: "좁은 문 앞에서 윤서가 멈추자 도윤도 곧바로 내려놓았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. At a narrow plain wooden doorway, Yunseo gives a visible stop palm while holding her end; Doyun mirrors her careful motion and together they lower the level board onto two low padded trestles before the doorway. Two cobalt loop grips remain attached, six blank photos visible. Vertical single scene, no photorealism, signs, text, logo, watermark, speech bubble, empty bubble, or panel grid."
+  - panel: 14
+    beat: "윤서가 사진과 모서리 고정을 바로잡는다"
+    caption: "윤서는 미끄러진 사진과 네 모서리 고정을 바로잡았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Board resting flat on padded trestles. Yunseo returns one slightly shifted blank photograph to its place among exactly six and presses the four plain corner tabs around it. No adult hands intervene. The paired grips stay attached at opposite ends but mostly out of frame. Vertical single scene, no photorealism, printed imagery, text, logo, watermark, bubble, or panel grid."
+  - panel: 15
+    beat: "윤서의 출발 신호로 문을 통과한다"
+    caption: "윤서가 다시 출발을 말하자 둘은 짧은 걸음으로 문을 지났다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Yunseo leads with a deliberate small step through a plain wide-open workroom doorway while she and Doyun carry the large board level from opposite cobalt loop grips. Exactly six blank photographs stay aligned; both people look at the path and board. Vertical single scene, no photorealism, text, signs, logos, watermarks, bubbles, or panel grid."
+  - panel: 16
+    beat: "셋 신호에 맞춰 판을 건조대에 놓는다"
+    caption: "셋 신호에 맞춰 두 사람은 판을 건조대에 나란히 놓았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Yunseo visibly counts with three raised fingers, then she and Doyun lower the level exhibition board together onto one broad low horizontal drying stand, each still holding one cobalt loop. Exactly six blank photos, exactly two grips, no bending. Vertical single scene, no photorealism, text, numbers, logo, watermark, bubble, or panel grid."
+  - panel: 17
+    beat: "여섯 사진의 순서와 간격이 유지된다"
+    caption: "여섯 사진은 처음 정한 순서와 간격을 그대로 지켰다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Quiet top-down three-quarter view of the large board resting flat on the drying stand; exactly six blank cream-backed photographs remain evenly spaced in the original two rows. Yunseo checks their alignment with a satisfied calm child expression. No rearranging hands. Vertical single scene, no photorealism, printed imagery, text, logo, watermark, bubble, or panel grid."
+  - panel: 18
+    beat: "윤서가 손잡이를 떼어 한 쌍으로 건다"
+    caption: "윤서는 손잡이 두 개를 떼어 한 쌍으로 걸어 두었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Yunseo loosens the brass screws, removes exactly two matching carry grips from the board, and hangs their two cobalt fabric loops together on one low plain wooden peg. Cream clamp jaws with cork pads remain clearly visible; no wall rails or tool caddy. Vertical single scene, no photorealism, text, logo, watermark, speech bubble, empty bubble, or panel grid."
+  - panel: 19
+    beat: "서울에서도 도윤이 혼자 들지 않는다"
+    caption: "서울에서도 도윤은 큰 판 옆에 두 손잡이를 먼저 놓았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Seoul shared print workroom. Doyun stands beside a different large flat pale board and deliberately places exactly two matching cobalt-loop cream clamp grips at its opposite short ends before lifting anything. Another adult worker approaches the far end; Doyun waits rather than carrying alone. No Yunseo present. Vertical single scene, no photorealism, text, signs, logo, watermark, bubble, or panel grid."
+  - panel: 20
+    beat: "두 고리가 큰 판을 평평하게 다음 자리로 건넨다"
+    caption: "마주 잡은 두 고리가 큰 판을 휘지 않게 다음 자리로 건넸다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Restrained final image in the Seoul workroom: two pairs of hands at opposite edges hold exactly two muted cobalt fabric loops, carrying one broad pale board perfectly level into an open workspace. The cream clamp jaws and brass screws are visible, the board does not bend, faces mostly out of frame. Quiet earned cooperation, concrete image. Vertical single scene, no photorealism, text, signs, logos, watermarks, speech bubbles, empty bubbles, or panel grid."
