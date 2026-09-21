@@ -1,0 +1,101 @@
+version: 1
+episode: ep-045
+title: "들춰 본 푸른 바늘땀"
+format: vertical_scroll
+page_count: 20
+reading_order: top_to_bottom
+core_elements:
+  - { id: character.doyun.001, version: 1, panels: [3, 4, 5, 11, 19] }
+  - { id: character.yunseo.001, version: 1, panels: [1, 2, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18] }
+  - { id: character.soondeok.001, version: 1, panels: [6] }
+  - { id: prop.inspectable-camera-strap-repair.001, version: 1, panels: [1, 3, 4, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20] }
+style_lock: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text."
+negative_prompt: "No photorealism, live action, cinematic stills, DSLR photography, skin pores, lens bokeh, generated text, fake Korean, signs, logos, watermarks, captions, speech bubbles, empty bubbles, or panel grids."
+accepted_prompt_addenda:
+  9: "Regenerated to restore Yunseo's canonical child proportions, jaw-length bob, sea-blue jacket, cream sweatshirt, and charcoal pants while preserving the open sleeve alignment action."
+  10: "Regenerated to restore Yunseo's canonical child identity and wardrobe while keeping exactly three countable cobalt cross-stitches."
+  12: "Regenerated to restore Yunseo's canonical child identity and wardrobe while preserving the single-snap, glue-free closure."
+  13: "Regenerated to restore Yunseo's canonical child identity and wardrobe while showing the cobalt lift tab, one brass snap, and three visible stitches."
+  14: "Regenerated to restore Yunseo's canonical child identity and wardrobe during the low-bench load test."
+  15: "Regenerated to restore Yunseo's canonical child identity and wardrobe and retain exactly three stitches with the middle stitch under repair."
+pages:
+  - panel: 1
+    beat: "윤서가 낡은 카메라 끈을 살핀다"
+    caption: "윤서는 낡은 소형 카메라의 갈색 천 어깨끈을 살폈다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Jeju community workroom. Elementary-school-age Korean girl Kang Yunseo, clear child proportions, short straight jaw-length black bob with blunt bangs, muted sea-blue hooded rain jacket, cream sweatshirt, charcoal pants, dark rubber boots, examines one worn brown woven shoulder strap attached to a small plain cream camera on a low table; a frayed joined section is visible. Vertical single scene. No photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 2
+    beat: "윤서가 다음 날 촬영에 카메라를 메고 싶어 한다"
+    caption: "다음 날 물때 기록 촬영에는 그 카메라를 직접 메고 싶었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Yunseo stands beside an open workroom window facing a practical gray Jeju tidal shore, holding the small cream camera at chest height and laying its worn brown strap across her shoulder to test the intended fit; child proportions and canonical clothes. Vertical single scene. No photorealism, text, sign, logo, watermark, bubble, or panel grid."
+  - panel: 3
+    beat: "도윤이 수선을 완전히 가리려 한다"
+    caption: "도윤은 헤진 이음매를 꿰매고 덮개로 가리려 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Slim clean-shaven 26-year-old Korean man Han Doyun with slightly long wavy black hair, gray hoodie under dark long coat and old brown messenger bag, holds the frayed section of one brown woven camera strap and a plain closed fabric sleeve as if planning to conceal the repair; small cream camera rests nearby. Vertical single scene. No photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 4
+    beat: "기존 덮개 안의 끊어진 실과 벌어진 이음매가 드러난다"
+    caption: "기존 덮개 안에서 끊어진 실과 벌어진 이음매가 드러났다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Close practical view of Doyun's hands sliding an old plain sleeve away from one brown woven camera strap joint, revealing one broken thread and a clearly separated seam beneath; the camera remains safely on the low table. Vertical single scene. No photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 5
+    beat: "윤서가 보이지 않는 수선을 멈춘다"
+    caption: "윤서는 보이지 않는 수선은 확인할 수 없다며 멈춰 세웠다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Yunseo raises one clear stop palm and points with the other hand to the exposed failed seam on the brown camera strap; Doyun sets the closed sleeve down and listens. Child agency, calm workroom, camera flat on table. Vertical single scene. No photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 6
+    beat: "순덕이 눈과 손으로 다시 검사하라고 한다"
+    caption: "순덕은 몸에 거는 끈은 눈과 손으로 다시 검사해야 한다고 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Elderly Jeju Korean woman Soondeok with short gray-white hair, wind-weathered face and sea-colored work outerwear gently bends a separate scrap of brown woven strap between both hands while looking closely at its seam, demonstrating visual and touch inspection; Yunseo watches. Vertical single scene. No photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 7
+    beat: "윤서가 들춰 보는 점검 덮개를 고른다"
+    caption: "윤서는 수선함에서 들춰 볼 수 있는 점검 덮개를 골랐다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Yunseo takes one small cream waxed-canvas inspection sleeve from a low open repair box. It has one muted-cobalt fabric lift tab and one aged-brass snap, unfolded and fully visible, no other sleeves or paired tools. Vertical single scene. No photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 8
+    beat: "점검 덮개의 구조를 확인한다"
+    caption: "크림색 덮개에는 푸른 손잡이와 황동 단추 하나가 달려 있었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Clean close view on a plain table: Yunseo's hands hold one unfolded cream waxed-canvas inspection sleeve with one muted-cobalt rectangular lift tab, exactly one round aged-brass snap, and a narrow cream reinforcement patch inside. No writing or symbols. Vertical single scene. No photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 9
+    beat: "윤서가 끈 두 끝을 보강천 위에 맞춘다"
+    caption: "윤서는 보강천 위에 끈의 두 끝과 구멍을 곧게 맞췄다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Top three-quarter close view: Yunseo aligns the two ends of one brown woven camera strap straight across the narrow cream reinforcement patch inside the open inspection sleeve, matching three pairs of plain pre-punched holes. Camera body stays aside. Vertical single scene. No photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 10
+    beat: "윤서가 푸른 교차 바늘땀 세 개를 만든다"
+    caption: "윤서는 굵은 푸른 실로 교차 바늘땀 세 개를 만들었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Close view of Yunseo's careful hands finishing exactly three large muted-cobalt cross-stitches through the aligned brown strap ends and cream reinforcement patch, using one blunt repair needle; stitches clearly countable, open cream sleeve beneath. Vertical single scene. No blood, photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 11
+    beat: "윤서가 덮개를 풀로 붙이지 못하게 한다"
+    caption: "도윤이 덮개를 붙이려 하자 윤서는 다시 열 수 있어야 한다고 말했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Doyun pauses with a small plain glue brush above the cream sleeve edge; Yunseo points instead to the single brass snap and the cobalt lift tab, clearly choosing a reopenable closure. The three blue cross-stitches remain visible inside. Vertical single scene. No photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 12
+    beat: "윤서가 풀 없이 단추 하나만 잠근다"
+    caption: "윤서는 풀 없이 덮개를 접고 황동 단추 하나만 잠갔다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Yunseo folds the cream inspection sleeve neatly around the repaired brown strap joint and presses exactly one round aged-brass snap closed; one cobalt lift tab remains visible outside, no glue present. Vertical single scene. No photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 13
+    beat: "푸른 손잡이로 덮개를 열어 세 바늘땀을 본다"
+    caption: "푸른 손잡이를 당기자 세 바늘땀이 한눈에 보였다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Yunseo pulls the single muted-cobalt lift tab and opens the cream sleeve flap, revealing exactly three countable cobalt cross-stitches across the brown strap joint and the cream reinforcement patch. Clear inspection mechanism. Vertical single scene. No photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 14
+    beat: "윤서가 낮은 작업대에서 무게 시험을 한다"
+    caption: "윤서는 천 주머니를 매달아 낮은 작업대 위에서 무게를 시험했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. On a low padded workbench, Yunseo safely suspends one small cream cloth sandbag from the repaired brown camera strap while keeping both hands close; the open cream inspection flap exposes exactly three blue cross-stitches under tension. No camera attached during test. Vertical single scene. No photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 15
+    beat: "윤서가 느슨한 가운데 한 땀을 다시 조인다"
+    caption: "가운데 한 땀이 느슨해져 윤서는 그 실을 다시 조였다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Close practical view: Yunseo identifies the slightly loose middle stitch among exactly three cobalt cross-stitches and tightens only that stitch with a blunt repair needle while the strap lies flat on the low table; cream sleeve fully open. Vertical single scene. No blood, photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 16
+    beat: "두 번째 시험에서 수선이 움직이지 않는다"
+    caption: "두 번째 시험에서는 세 바늘땀과 이음매가 움직이지 않았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Second safe low-bench load test: the same small cream cloth sandbag hangs from the brown strap, exactly three taut cobalt cross-stitches remain aligned and the joint stays closed; Yunseo checks with a calm satisfied child expression. Vertical single scene. No photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 17
+    beat: "윤서가 수선한 끈을 카메라에 연결한다"
+    caption: "윤서는 덮개를 닫고 수선한 끈을 카메라에 연결했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Yunseo closes the cream inspection sleeve with its one brass snap, then attaches the repaired brown woven strap to both side lugs of the small plain cream camera. One cobalt lift tab is clearly visible on the strap joint. Vertical single scene. No photorealism, text, brand, logo, watermark, bubble, or panel grid."
+  - panel: 18
+    beat: "윤서가 걸어 본 뒤 마지막으로 수선을 확인한다"
+    caption: "카메라를 메고 걸은 윤서는 덮개를 열어 마지막으로 확인했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. After a short indoor walking test, Yunseo stands beside the low worktable with the small camera safely resting on it and opens the strap's cream inspection flap by its cobalt tab, checking exactly three blue cross-stitches herself. Vertical single scene. No photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 19
+    beat: "서울에서 도윤이 주인에게 수선을 먼저 열어 보인다"
+    caption: "서울에서도 도윤은 수선한 가방 끈을 주인에게 먼저 열어 보였다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Seoul shared repair table. Doyun places a different repaired canvas bag strap flat and holds its small inspection flap open toward the adult woman owner, who leans in and touches the visible stitches before accepting it; he does not conceal or decide for her. Vertical single scene. No photorealism, text, signs, logo, watermark, bubble, or panel grid."
+  - panel: 20
+    beat: "들린 손잡이 아래 세 바늘땀이 다음 촬영을 버틴다"
+    caption: "푸른 손잡이를 들추자 세 바늘땀이 다음 촬영을 버티고 있었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Restrained final close image in soft Jeju morning light: one small plain cream camera rests ready beside the window, its brown woven shoulder strap curves forward, and one hand lifts the muted-cobalt tab of the cream inspection sleeve to reveal exactly three secure cobalt cross-stitches. Concrete earned ending. Vertical single scene. No photorealism, text, sign, logo, watermark, bubble, or panel grid."

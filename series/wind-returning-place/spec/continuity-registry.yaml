@@ -2,6 +2,37 @@ version: 1
 factory_type: comic
 comic_id: wind-returning-place
 elements:
+  - id: prop.inspectable-camera-strap-repair.001
+    name: 들춰 보는 푸른 바늘땀 점검 덮개
+    category: prop
+    scope: episode
+    status: active
+    introduced_in: ep-045
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-045
+        active_until: ep-045
+        supersedes: null
+        immutable_features:
+          - one small cream waxed-canvas inspection sleeve wrapping a repaired brown woven camera strap joint
+          - one muted-cobalt rectangular fabric lift tab on the sleeve flap
+          - exactly one round aged-brass snap as the only closure
+          - one narrow cream reinforcement patch beneath exactly three countable muted-cobalt cross-stitches
+          - the flap opens without glue so the owner can inspect and retighten the repair
+          - no text, numbers, logo, label, printed mark, second snap, adhesive, carry grip, clamp, or speech bubble
+        mutable_features:
+          - sleeve open or closed, snap fastened or released
+          - attached to a small plain cream camera strap or laid flat during a low-bench load test
+          - held by Yunseo or inspected by Doyun and an adult Seoul owner
+          - Jeju community workroom or Seoul shared repair table
+        reference_asset_ids:
+          - prop-inspectable-camera-strap-repair-001-v1-text-lock
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: text_locked
   - id: prop.paired-carry-grips.001
     name: 나란히 드는 푸른 운반 손잡이 한 쌍
     category: prop
