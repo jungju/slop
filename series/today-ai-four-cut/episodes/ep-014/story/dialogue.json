@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "kicker": "AI 뉴스 네 컷",
+  "title": "Claude가 AI 연구 26%를 이끌었다",
+  "footer": "자동화 비율은 감독 방식과 측정 기준까지 함께 봐야 해요.",
+  "panels": [
+    { "number": 1, "speaker": "누리", "text": "Claude가 다음 AI를 만드는 일을\n돕는다고요?" },
+    { "number": 2, "speaker": "픽", "text": "Anthropic 연구 업무의 26%를\nAI가 주도한다고 밝혔어요." },
+    { "number": 3, "speaker": "누리", "text": "그럼 사람 없이 스스로\n연구하나요?" },
+    { "number": 4, "speaker": "픽", "text": "아니요. 사람 감독 아래고 자체 측정이라\n검증이 더 필요해요." }
+  ]
+}

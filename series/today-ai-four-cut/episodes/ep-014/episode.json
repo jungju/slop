@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-014",
+  "number": 14,
+  "title": "14화: Claude가 AI 연구 26%를 이끌었다",
+  "shortTitle": "Claude가 AI 연구 26%를 이끌었다",
+  "lead": "Anthropic은 2026년 8월 기준 Claude가 자사 AI 연구개발 업무의 26%를 사람 감독 아래 주도한다고 자체 측정했다.",
+  "closingLine": "26%는 완전 자율 연구가 아니라 Anthropic의 내부 측정치이므로 감독 방식과 외부 검증까지 함께 확인해야 한다.",
+  "news": {
+    "headline": "Anthropic reports Claude leads 26% of its AI research and development work",
+    "eventDate": "2026-09-17",
+    "researchDate": "2026-09-22",
+    "summary": "Anthropic은 2026년 8월 기준 Claude가 자사 AI 연구개발 업무 중 26%를 높은 수준의 지시 뒤 대부분 수행하는 '주도' 단계로 처리한다고 발표했습니다. 다만 모든 측정 업무에는 사람 감독이 남아 있고 완전 자율 단계는 없었습니다. 수치는 Anthropic의 내부 기록과 Claude 기반 평가로 만든 자체 측정치여서 공통 방법론과 제3자 검증이 필요합니다.",
+    "selectionNote": "2026년 9월 22일 최근 48시간과 7일 보완 창의 주요 AI 발표를 다시 검토하고 기존 초안의 2026년 9월 17일 Anthropic AI 연구개발 자동화 측정치를 유지했습니다. 9월 21일 OpenAI 표준 제안은 앞선 안전·속도 조절 회차와 주제가 겹치고, 언어 데이터 연합은 아직 운영 세부가 정해지지 않아 제외했습니다. 공식 방법론과 AP 보도를 다시 열어 읽고, 사람 감독이 남아 있으며 완전 자율 연구가 아니라는 범위를 교차 확인했습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "1차 출처",
+      "title": "Measurements for understanding the pace of AI development inside frontier labs",
+      "publisher": "Anthropic",
+      "publishedAt": "2026-09-17",
+      "url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
+      "note": "Claude의 내부 AI 연구개발 주도 비율, 사람 감독 범위, 측정 방법과 검증 한계를 공개합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 보도",
+      "title": "Anthropic says its model Claude is helping to build the next version of itself",
+      "publisher": "AP News",
+      "publishedAt": "2026-09-18",
+      "url": "https://apnews.com/article/anthropic-claude-ai-model-self-improvement-4d3a7430f57cbc7c39e1c5f2b7d7e132",
+      "note": "26% 주도와 90%가량 협업이라는 회사 발표를 보도하고 완전 자율이 아니라는 범위를 확인합니다."
+    }
+  ],
+  "publishedAt": "2026-09-21T21:05:40.557Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: Claude가 다음 AI를 만드는 일을 돕는다고요? 픽: Anthropic 연구 업무의 26%를 AI가 주도한다고 밝혔어요. 누리: 그럼 사람 없이 스스로 연구하나요? 픽: 아니요. 사람 감독 아래고 자체 측정이라 검증이 더 필요해요.",
+      "alt": "14화: Claude가 AI 연구 26%를 이끌었다 1페이지. 누리: Claude가 다음 AI를 만드는 일을 돕는다고요? 픽: Anthropic 연구 업무의 26%를 AI가 주도한다고 밝혔어요. 누리: 그럼 사람 없이 스스로 연구하나요? 픽: 아니요. 사람 감독 아래고 자체 측정이라 검증이 더 필요해요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": "GPT-5",
+      "status": "known-model"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}
