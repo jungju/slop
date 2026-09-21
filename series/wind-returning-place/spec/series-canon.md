@@ -469,6 +469,18 @@ large exhibition boards, exactly six photographs, paired cobalt loop grips,
 cream clamp jaws, brass screws, bowed-board accidents, doorway stop signals,
 or coordinated two-person carry payoffs.
 
+Episode 45 turns directed cooperation into inspectable care. The cream
+waxed-canvas inspection sleeve, `prop.inspectable-camera-strap-repair.001@v1`,
+lets Yunseo open a repaired brown camera strap by one cobalt lift tab and check
+exactly three cobalt cross-stitches beneath it. She rejects a glued-shut cover,
+load-tests the strap, finds and retightens the loose middle stitch, tests again,
+and connects the strap to the camera only after the repair stays still. Soondeok
+supplies the practical eyes-and-hands inspection rule; Doyun later opens a
+repaired bag strap for its Seoul owner before handoff; Minjae remains absent in
+the present. Future episodes should avoid immediately repeating camera straps,
+exactly three cobalt cross-stitches, cream inspection sleeves, single brass
+snaps, concealed broken seams, low-bench load tests, or owner-inspection payoffs.
+
 ## Good Future Episode Engines
 
 Use one concrete motif and one emotional question:
