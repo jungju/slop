@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-015",
+  "number": 15,
+  "title": "15화: 알리바바가 새 인공지능 칩을 공개했다",
+  "shortTitle": "알리바바가 새 인공지능 칩을 공개했다",
+  "lead": "알리바바는 2026년 9월 22일 인공지능 훈련과 추론에 쓰는 젠우 V900 칩을 공개하고 이전 세대보다 성능이 세 배라고 발표했다.",
+  "closingLine": "세 배 성능은 회사 발표치이고 상용 출시는 2027년 1분기 예정이므로 실제 환경의 성능과 공급 여부는 출시 뒤 확인해야 한다.",
+  "news": {
+    "headline": "Alibaba unveils Zhenwu V900 AI chip and full-stack AI roadmap",
+    "eventDate": "2026-09-22",
+    "researchDate": "2026-09-23",
+    "summary": "알리바바는 인공지능 훈련과 추론용 젠우 V900을 공개하며 이전 세대 젠우 M890보다 성능이 세 배라고 밝혔습니다. 칩은 216GB 메모리와 초당 1,200GB의 칩 간 대역폭을 갖췄다고 회사가 설명했지만, 상용 출시는 2027년 1분기 예정이어서 실제 배치 성능은 아직 확인되지 않았습니다.",
+    "selectionNote": "최근 48시간의 주요 인공지능 발표를 검토해 2026년 9월 22일 알리바바 클라우드의 공식 발표를 선택했습니다. AP 보도로 칩 공개와 세 배 성능 주장, 출시 전 단계라는 범위를 교차 확인했으며, 회사 수치를 독립 성능 검증으로 확대 해석하지 않았습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "1차 출처",
+      "title": "Alibaba Unveils Roadmap on Full-Stack AI Strategy from Chips, Cloud Infrastructure, Models to Agents",
+      "publisher": "Alibaba Cloud",
+      "publishedAt": "2026-09-22",
+      "url": "https://www.alibabacloud.com/en/press-room/alibaba-unveils-roadmap-on-full-stack-ai-strategy",
+      "note": "젠우 V900의 용도, 회사가 밝힌 세 배 성능, 메모리·대역폭 사양과 2027년 1분기 상용화 일정을 공개합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 보도",
+      "title": "China's Alibaba unveils new powerful chip and ambitious AI model plans",
+      "publisher": "AP News",
+      "publishedAt": "2026-09-22",
+      "url": "https://apnews.com/article/alibaba-ai-chip-qwen-zhenwu-china-us-b29908e516faff9f5a82b201ba954aab",
+      "note": "칩 공개와 세 배 성능이라는 회사 주장을 확인하고, 실제 격차는 제조 역량 등에도 달렸다는 전문가 한계를 전합니다."
+    }
+  ],
+  "publishedAt": "2026-09-22T21:07:06.019Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: 알리바바가 새 인공지능 칩을 공개했다고요? 픽: 이전 칩보다 성능이 세 배라고 회사가 밝혔어요. 누리: 그럼 지금 바로 쓸 수 있나요? 픽: 아니요. 내년 1분기 출시 뒤 실제 성능을 확인해야 해요.",
+      "alt": "15화: 알리바바가 새 인공지능 칩을 공개했다 1페이지. 누리: 알리바바가 새 인공지능 칩을 공개했다고요? 픽: 이전 칩보다 성능이 세 배라고 회사가 밝혔어요. 누리: 그럼 지금 바로 쓸 수 있나요? 픽: 아니요. 내년 1분기 출시 뒤 실제 성능을 확인해야 해요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": "GPT-5",
+      "status": "known-model"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}
