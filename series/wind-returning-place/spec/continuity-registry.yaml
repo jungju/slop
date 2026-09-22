@@ -2,6 +2,37 @@ version: 1
 factory_type: comic
 comic_id: wind-returning-place
 elements:
+  - id: prop.two-way-rinse-tray.001
+    name: 옮겨 막는 양방향 물받이
+    category: prop
+    scope: episode
+    status: active
+    introduced_in: ep-046
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-046
+        active_until: ep-046
+        supersedes: null
+        immutable_features:
+          - one shallow rectangular cream enamel rinse tray with softly rounded corners
+          - exactly two matching semicircular drain notches centered on opposite short sides
+          - exactly one removable muted-cobalt silicone stopper that seals either notch
+          - one tiny cream crescent repair mark on the stopper's outer face
+          - the user chooses the drain direction by moving the single stopper and bucket, then tests with water before washing tools
+          - no second stopper, fixed pipe, valve, label, text, numbers, arrows, icons, symbols, logo, or printed mark
+        mutable_features:
+          - stopper installed in the left or right notch and the opposite notch open
+          - one plain bucket placed beneath the open notch
+          - holding a shell-pattern roller, brushes, rinse water, or nothing during testing
+          - Jeju community workroom, sheltered outdoor table, or Seoul shared print workroom
+        reference_asset_ids:
+          - prop-two-way-rinse-tray-001-v1-text-lock
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: text_locked
   - id: prop.inspectable-camera-strap-repair.001
     name: 들춰 보는 푸른 바늘땀 점검 덮개
     category: prop
