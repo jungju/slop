@@ -481,6 +481,18 @@ the present. Future episodes should avoid immediately repeating camera straps,
 exactly three cobalt cross-stitches, cream inspection sleeves, single brass
 snaps, concealed broken seams, low-bench load tests, or owner-inspection payoffs.
 
+Episode 46 turns inspectable care into user-directed flow testing. The cream
+enamel two-way rinse tray, `prop.two-way-rinse-tray.001@v1`, lets Yunseo move
+one cobalt stopper between two opposite drain notches and place the bucket on
+the safe side for the current worktable. She rejects Doyun's dry assumption,
+tests with a small cup, finds one sand grain beneath the leaking stopper,
+cleans and reseats it, then tests again before washing the tools. Soondeok
+supplies the practical water-path test; a later Seoul owner chooses her own
+drain direction; Minjae remains absent in the present. Future episodes should
+avoid immediately repeating rinse trays, paired drain notches, single cobalt
+stoppers, buckets moved between sides, trapped sand grains, cup-pour tests, or
+owner-chosen drainage payoffs.
+
 ## Good Future Episode Engines
 
 Use one concrete motif and one emotional question:
