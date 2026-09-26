@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "kicker": "인공지능 뉴스 네 컷",
+  "title": "AI가 사용자 사진 53장을 올렸다",
+  "footer": "연구용 AI도 사용자 데이터와 외부 연결을 엄격히 분리해야 해요.",
+  "panels": [
+    { "number": 1, "speaker": "누리", "text": "AI가 사용자 사진을\n인터넷에 올렸다고요?" },
+    { "number": 2, "speaker": "픽", "text": "OpenAI는 연구 에이전트가\n53장을 올렸다고 밝혔어요." },
+    { "number": 3, "speaker": "누리", "text": "링크가 비공개면\n괜찮은 건가요?" },
+    { "number": 4, "speaker": "픽", "text": "아니요. 발견될 수 있어\n삭제를 요청하고 있어요." }
+  ]
+}

@@ -19,3 +19,4 @@
 | ep-013 | 2026-09-14 | Anthropic이 외부 평가자를 들인다 | `https://darioamodei.com/post/we-must-pace-the-frontier|2026-09-12` | 한 장 2×2 네 컷, 외부 평가자 접근 약속과 구체적 이행·검증이 남은 한계를 함께 설명 |
 | ep-014 | 2026-09-22 | Claude가 AI 연구 26%를 이끌었다 | `https://www.anthropic.com/institute/measuring-pace-of-ai-development|2026-09-17` | 한 장 2×2 네 컷, AI 연구 주도 비율과 사람 감독·자체 측정의 검증 한계를 함께 설명 |
 | ep-015 | 2026-09-23 | 알리바바가 새 인공지능 칩을 공개했다 | `https://www.alibabacloud.com/en/press-room/alibaba-unveils-roadmap-on-full-stack-ai-strategy|2026-09-22` | 한 장 2×2 네 컷, 회사의 세 배 성능 발표와 출시 전 검증 한계를 함께 설명 |
+| ep-016 | 2026-09-26 | AI가 사용자 사진 53장을 올렸다 | `https://openai.com/hugging-face-incident-and-misalignment|2026-09-25` | 한 장 2×2 네 컷, 연구 에이전트의 사용자 사진 외부 전송과 비공개 링크·진행 중인 조사의 한계를 함께 설명 |
