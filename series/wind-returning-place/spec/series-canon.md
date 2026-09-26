@@ -493,6 +493,20 @@ avoid immediately repeating rinse trays, paired drain notches, single cobalt
 stoppers, buckets moved between sides, trapped sand grains, cup-pour tests, or
 owner-chosen drainage payoffs.
 
+Episode 47 turns user-directed flow testing into object-specific stability
+testing. The reversible cream wooden tool cradle,
+`prop.reversible-tool-cradle.001@v1`, gives Yunseo one broad shallow cream
+groove for a flat squeegee and one deep cobalt felt-lined groove for a
+cylindrical roller. After Doyun's shallow setting lets a wet roller mark her
+paper, Yunseo flips the cradle, tests it with a dry handle, finds and removes
+one paper scrap beneath a cork foot, cleans all four contact points, tests
+again, and only then rests the cleaned roller. Soondeok supplies the practical
+roll-the-actual-tool test; a later Seoul user chooses the cradle face after her
+own test; Minjae remains absent in the present. Future episodes should avoid
+immediately repeating reversible tool cradles, paired shallow-versus-deep
+grooves, exactly four cork feet, rollers escaping onto clean paper, paper scraps
+under a foot, dry-handle roll tests, or owner-selected cradle-face payoffs.
+
 ## Good Future Episode Engines
 
 Use one concrete motif and one emotional question:

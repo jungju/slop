@@ -2,6 +2,37 @@ version: 1
 factory_type: comic
 comic_id: wind-returning-place
 elements:
+  - id: prop.reversible-tool-cradle.001
+    name: 뒤집어 쓰는 양면 도구 받침
+    category: prop
+    scope: episode
+    status: active
+    introduced_in: ep-047
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-047
+        active_until: ep-047
+        supersedes: null
+        immutable_features:
+          - one solid cream-painted wooden reversible tool cradle with rounded short ends
+          - one broad shallow cream concave groove on one face for a wide flat squeegee
+          - one deep muted-cobalt felt-lined U groove on the opposite face for a cylindrical roller
+          - exactly four round natural-cork feet positioned to support either face when flipped
+          - the user tests the actual tool, cleans all contact points, and selects the safer face for the current tool
+          - no hinge, clamp, label, text, numbers, arrows, icons, transparent body, logo, or printed mark
+        mutable_features:
+          - shallow cream groove or deep cobalt groove facing upward
+          - holding one shell-pattern roller, one dry wooden handle, one wide rubber squeegee, or nothing
+          - one temporary dry paper scrap caught beneath one cork foot before cleaning
+          - Jeju community print workroom or Seoul shared print workroom
+        reference_asset_ids:
+          - prop-reversible-tool-cradle-001-v1-text-lock
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: text_locked
   - id: prop.two-way-rinse-tray.001
     name: 옮겨 막는 양방향 물받이
     category: prop
