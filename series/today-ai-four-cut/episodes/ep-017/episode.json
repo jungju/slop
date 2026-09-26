@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-017",
+  "number": 17,
+  "title": "17화: AI가 효소 체계의 새 단서를 찾았다",
+  "shortTitle": "AI가 효소 체계의 새 단서를 찾았다",
+  "lead": "Anthropic은 2026년 9월 23일 Claude 에이전트들이 박테리오파지 DNA에서 반복 배열과 연결된 미확인 효소 체계 ART의 단서를 찾았다고 발표했다.",
+  "closingLine": "ART의 실제 기능은 아직 밝혀지지 않았고 동료 검토와 외부 재현도 남아 있으므로, AI가 찾은 유망한 단서를 곧바로 유전자 편집 도구로 해석해서는 안 된다.",
+  "news": {
+    "headline": "Anthropic says Claude agents found clues to a previously uncharacterized enzyme system",
+    "eventDate": "2026-09-23",
+    "researchDate": "2026-09-27",
+    "summary": "Anthropic은 Claude 에이전트들이 대규모 DNA 데이터베이스를 살피다가 박테리오파지의 역전사효소 주변에서 반복 DNA 배열과 미확인 보조 단백질을 찾아 ART라는 효소 체계의 단서를 발견했다고 발표했습니다. 사람 연구자가 실험실에서 반복 배열이 짧은 RNA로 발현됨을 확인했지만, ART가 실제로 무엇을 하는지는 아직 모릅니다. 이 결과는 사전 공개 연구이며 외부 재현과 동료 검토가 남아 있습니다.",
+    "selectionNote": "2026년 9월 27일 최근 48시간의 주요 AI 발표를 먼저 검토했지만 ep-016과 겹치지 않는 충분한 1차·독립 자료를 갖춘 새 사건이 없어 7일 보완 창을 적용했습니다. Anthropic의 9월 23일 발표와 기술 보고서 링크, Reuters 및 TechCrunch 보도를 모두 열어 확인했고, 발견 단서와 사람의 실험 검증, 기능 미확인 및 외부 검증 필요를 함께 보존했습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "1차 출처",
+      "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+      "publisher": "Anthropic",
+      "publishedAt": "2026-09-23",
+      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+      "note": "Claude의 DNA 탐색 과정, ART의 구성, 사람 연구자의 실험 확인과 아직 모르는 기능을 공개합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 보도",
+      "title": "Anthropic says Claude AI helped discover novel enzyme system",
+      "publisher": "Reuters via KSL",
+      "publishedAt": "2026-09-23",
+      "url": "https://static.ksl.com/article/51627805/anthropic-says-claude-ai-helped-discover-novel-enzyme-system",
+      "note": "역전사효소, 반복 DNA 배열, 미확인 보조 단백질이라는 회사 발표의 구체적 범위를 확인합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "추가 보도",
+      "title": "Anthropic says its biology lab has already found something big",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-09-23",
+      "url": "https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/",
+      "note": "발견의 규모와 새로움은 외부 연구 공동체가 검증해야 하며 물리 실험은 사람이 수행했다는 한계를 짚습니다."
+    }
+  ],
+  "publishedAt": "2026-09-26T21:07:44.956Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: Claude가 DNA에서 새 단서를 찾았다고요? 픽: 반복 배열을 지닌 효소 체계를 AI가 찾아냈다고 밝혔어요. 누리: 그럼 바로 유전자 편집에 쓸 수 있나요? 픽: 아직 기능도 몰라요. 사람 검증과 후속 연구가 필요해요.",
+      "alt": "17화: AI가 효소 체계의 새 단서를 찾았다 1페이지. 누리: Claude가 DNA에서 새 단서를 찾았다고요? 픽: 반복 배열을 지닌 효소 체계를 AI가 찾아냈다고 밝혔어요. 누리: 그럼 바로 유전자 편집에 쓸 수 있나요? 픽: 아직 기능도 몰라요. 사람 검증과 후속 연구가 필요해요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": "GPT-5",
+      "status": "known-model"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}
