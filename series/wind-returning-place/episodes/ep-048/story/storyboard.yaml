@@ -1,0 +1,107 @@
+version: 1
+episode: ep-048
+style_lock: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text."
+continuity:
+  characters:
+    - character.han-doyun.001@v1
+    - character.kang-yunseo.001@v1
+    - character.soondeok.001@v1
+  props:
+    - prop.adjustable-photo-easel.001@v1
+clarity:
+  concrete_pages: 20
+  metaphor_pages: []
+  concrete_ratio: 1.0
+  protagonist_goal_visible_by_page: 2
+  concrete_problem_visible_by_page: 4
+  choice_changes_next_action: true
+  payoff_visually_observable: true
+accepted_prompt_addenda:
+  4: "Regenerated to restore Yunseo's canonical short straight bob and adult Doyun's clear age and wardrobe during the catch."
+  5: "Regenerated twice to remove a tall painter easel and duplicate framed photos, leaving one tabletop easel and one actual frame."
+  9: "Regenerated to remove a ponytail and overalls and restore Yunseo's canonical bob, rain jacket, and plain sweatshirt."
+  11: "Regenerated to restore Yunseo's canonical wardrobe and keep the single framed photograph face-down during cleaning."
+  13: "Regenerated to remove an integrated frame back and show the separate empty tabletop easel during the one-step adjustment."
+  14: "Regenerated to replace a tall outdoor painter easel with the empty tabletop easel and middle-hole pin action."
+  17: "Regenerated to restore the distinct dark-wood frame on the separate cream easel during the shelf-nudge test."
+pages:
+  - panel: 1
+    beat: "윤서가 작은 항구 사진 액자를 고른다"
+    caption: "윤서는 공동 작업실 선반에 놓을 작은 항구 사진 액자를 골랐다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Jeju community workroom. Elementary-school-age Korean girl Kang Yunseo with clear child proportions, short jaw-length black bob and blunt bangs, muted sea-blue hooded rain jacket, cream sweatshirt, charcoal pants, and dark rubber boots chooses one small dark-wood framed harbor photograph from a low table. The photograph shows only boats and pier shapes, no people or writing. Vertical single scene. No photorealism, text, sign, logo, watermark, caption, speech bubble, or panel grid."
+  - panel: 2
+    beat: "윤서가 사진을 선반에 세우려 한다"
+    caption: "방문객이 오기 전에 사진을 손대지 않고 볼 수 있게 세우려 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Yunseo carries the single small framed harbor photograph toward an empty low display shelf before visitors arrive, purposeful child posture, canonical clothes, one folded cream wooden tabletop easel waiting nearby. Vertical single scene. No photorealism, text, sign, logo, watermark, caption, speech bubble, or panel grid."
+  - panel: 3
+    beat: "도윤이 빈 이젤을 가장 좁게 고정한다"
+    caption: "도윤은 빈 접이식 이젤의 뒤기둥을 가장 좁게 고정했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Slim clean-shaven 26-year-old Korean man Han Doyun with slightly long wavy black hair, gray hoodie under dark long coat, and old brown messenger bag opens one empty cream-painted wooden tabletop A-frame photo easel. He fixes its hinged rear support in the narrowest of exactly three round adjustment holes using one removable aged-brass pin. One muted-cobalt rubber front lip and one small muted-cobalt rear contact pad. Vertical single scene. No photorealism, text, numbers, arrows, logo, watermark, bubble, or panel grid."
+  - panel: 4
+    beat: "실제 액자가 앞으로 기울어 윤서가 받는다"
+    caption: "실제 액자를 올리자 앞으로 기울어 윤서가 두 손으로 받아 냈다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Clear cause and effect: the single small dark-wood framed harbor photograph tips forward from the too-narrow cream tabletop easel, and child Yunseo catches it safely with both hands before it falls. Doyun stops and watches. Vertical single scene. No broken glass, photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 5
+    beat: "윤서가 실제 액자로 다시 시험하겠다고 정한다"
+    caption: "윤서는 자기 액자를 올려 다시 시험하겠다고 말했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Yunseo holds her intact small framed harbor photo against her chest and raises a calm stop palm toward Doyun, then points from the actual frame to the easel to insist on testing them together. Doyun listens with hands back. Vertical single scene. No photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 6
+    beat: "순덕이 앞뒤 접촉면을 보라고 한다"
+    caption: "순덕은 손을 떼기 전에 액자의 앞뒤가 닿는 곳부터 보라고 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Elderly Jeju Korean woman Soondeok with short gray-white hair, wind-weathered face, sea-colored work outerwear over dark practical clothes points calmly to the front lower edge and rear contact area of the framed photo on the easel while Yunseo studies the two contact points. Vertical single scene. No photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 7
+    beat: "윤서가 이젤의 구조를 살핀다"
+    caption: "윤서는 푸른 앞턱과 등받이 패드, 세 구멍 뒤기둥을 살폈다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Clean three-quarter object inspection in Yunseo's small hands: one cream-painted wooden tabletop A-frame photo easel with one muted-cobalt rubber front lip, one small muted-cobalt rubber rear contact pad, one hinged rear support with exactly three plain round adjustment holes, and one removable aged-brass locking pin. No other parts. Vertical single scene. No photorealism, text, symbols, logo, watermark, bubble, or panel grid."
+  - panel: 8
+    beat: "실제 액자가 앞쪽으로 기우는 것을 확인한다"
+    caption: "액자에서 손을 조금 떼자 윗부분이 앞으로 기울었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Yunseo places the actual small framed harbor photograph on the narrow-set easel and cautiously loosens her fingertips; the top edge visibly leans forward while her hands remain ready to catch it. Doyun does not intervene. Vertical single scene. No falling glass, photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 9
+    beat: "윤서가 앞턱의 마른 풀을 찾는다"
+    caption: "푸른 앞턱에는 마른 풀이 붙어 표면이 미끄러웠다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Practical close-up: Yunseo has removed the frame and uses one fingertip to find a thin translucent patch of dried craft glue stuck on the single muted-cobalt rubber front lip of the cream easel, making the contact surface slick. Vertical single scene. No photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 10
+    beat: "윤서가 등받이 패드의 먼지를 확인한다"
+    caption: "뒤쪽 푸른 패드에도 고운 종이 먼지가 덮여 있었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Practical close-up from behind: Yunseo tilts the empty cream easel and sees a light coating of cream paper dust on its one small muted-cobalt rubber rear contact pad; her small fingertip leaves one clean swipe. Vertical single scene. No photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 11
+    beat: "윤서가 두 접촉면을 닦는다"
+    caption: "윤서는 젖은 천과 마른 천으로 두 접촉면을 차례로 닦았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Yunseo cleans the single cobalt front lip with one damp plain cloth and dries the single cobalt rear pad with one dry plain cloth, both contact surfaces visibly clean, actual frame safely set aside. Vertical single scene. No photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 12
+    beat: "깨끗해도 좁은 각도에서는 액자가 너무 곧게 선다"
+    caption: "깨끗해져도 가장 좁은 구멍에서는 액자가 너무 곧게 섰다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Side view: the clean cream A-frame easel remains fixed in the narrowest of three adjustment holes, so the actual small framed harbor photo stands nearly vertical and begins leaning forward despite clean cobalt contact pads; Yunseo supports its top edge. Vertical single scene. No photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 13
+    beat: "윤서가 핀을 빼고 뒤기둥을 한 칸 넓힌다"
+    caption: "윤서는 황동 핀을 빼고 뒤기둥을 한 칸 넓혔다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo removes the one aged-brass pin herself and opens the hinged rear support of the empty cream tabletop easel one step wider, aligning it with the middle of exactly three round holes. Doyun's hands stay back. Vertical single scene. No photorealism, text, symbols, logo, watermark, bubble, or panel grid."
+  - panel: 14
+    beat: "윤서가 가운데 구멍에 핀을 다시 꽂는다"
+    caption: "가운데 구멍에 핀을 꽂고 뒤기둥을 당겨 확인했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Close clear action: Yunseo inserts the single aged-brass locking pin through the middle of exactly three round adjustment holes, then gently pulls the cream rear support to verify it is locked at the wider angle. Vertical single scene. No photorealism, text, numbers, arrows, logo, watermark, bubble, or panel grid."
+  - panel: 15
+    beat: "윤서가 실제 액자를 깨끗한 접촉면에 올린다"
+    caption: "윤서는 실제 액자를 두 푸른 접촉면에 다시 올렸다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Yunseo places the same small dark-wood framed harbor photograph onto the widened cream tabletop easel so its lower edge meets the clean cobalt rubber front lip and its back meets the clean cobalt rear pad. Vertical single scene. No photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 16
+    beat: "윤서가 손을 떼도 액자가 안정된다"
+    caption: "윗모서리에서 두 손을 떼어도 액자는 안정되게 서 있었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Yunseo slowly releases both hands from the upper corners of the actual framed harbor photograph; it now leans safely backward against the widened easel and remains still, her open hands visible nearby. Vertical single scene. No photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 17
+    beat: "윤서가 선반의 작은 흔들림을 시험한다"
+    caption: "선반을 한 번 밀어도 액자는 앞으로 움직이지 않았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Yunseo gives the low wooden display shelf one small controlled fingertip nudge while watching the framed harbor photo; the widened cream easel and frame remain stable with no forward movement. Doyun waits beside her. Vertical single scene. No dramatic shaking, photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 18
+    beat: "윤서가 선반에 맞는 가운데 구멍을 선택한다"
+    caption: "윤서는 선반 깊이에 맞는 가운데 구멍을 그대로 골랐다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Side view of Yunseo measuring with her hand: the easel locked in the middle of three holes fits fully within the low shelf depth, while the unused widest hole remains visible; she leaves the safe middle setting unchanged. Vertical single scene. No rulers, text, numbers, arrows, logo, watermark, bubble, or panel grid."
+  - panel: 19
+    beat: "서울 사용자도 접촉면과 폭을 직접 맞춘다"
+    caption: "서울의 사용자도 액자를 올리기 전에 접촉면을 닦고 폭을 맞췄다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Seoul shared workroom. One adult Korean woman owner wipes the cobalt contact pads and opens a similar cream adjustable easel wider before placing her heavier framed photograph; Doyun stands aside and lets her choose and test. Vertical single scene. No photorealism, text, sign, logo, watermark, bubble, or panel grid."
+  - panel: 20
+    beat: "작은 사진이 손 없이 안정되게 서 있다"
+    caption: "넓어진 뒤기둥 앞에서 작은 사진은 누구의 손도 빌리지 않고 서 있었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Restrained final image in soft Jeju daylight: the single small dark-wood framed harbor photograph stands steady and hands-free on the clean cream tabletop easel, rear support widened and brass pin visible in the middle hole, cobalt front lip and rear pad supporting it. Yunseo watches from a small respectful distance. Vertical single scene. No photorealism, text, sign, logo, watermark, bubble, or panel grid."

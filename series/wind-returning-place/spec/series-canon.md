@@ -507,6 +507,19 @@ immediately repeating reversible tool cradles, paired shallow-versus-deep
 grooves, exactly four cork feet, rollers escaping onto clean paper, paper scraps
 under a foot, dry-handle roll tests, or owner-selected cradle-face payoffs.
 
+Episode 48 turns object-specific testing into support-angle verification. The
+small cream tabletop photo easel, `prop.adjustable-photo-easel.001@v1`, lets
+Yunseo reject Doyun's empty-stand assumption when her actual dark-wood frame
+tips forward. She tests the real frame, finds dried glue on the cobalt front
+lip and paper dust on the cobalt rear pad, cleans both contact surfaces, then
+moves one brass pin from the narrow setting to the middle of three holes and
+tests the shelf before display. Soondeok supplies the practical front-and-back
+contact check; a later Seoul owner cleans and adjusts an easel before placing a
+heavier frame; Minjae remains absent in the present. Future episodes should
+avoid immediately repeating tabletop photo easels, exactly three adjustment
+holes, single brass pins, dried glue on a front lip, paper dust on a rear pad,
+shelf-nudge tests, or owner-adjusted framed-photo payoffs.
+
 ## Good Future Episode Engines
 
 Use one concrete motif and one emotional question:
