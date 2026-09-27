@@ -21,3 +21,4 @@
 | ep-015 | 2026-09-23 | 알리바바가 새 인공지능 칩을 공개했다 | `https://www.alibabacloud.com/en/press-room/alibaba-unveils-roadmap-on-full-stack-ai-strategy|2026-09-22` | 한 장 2×2 네 컷, 회사의 세 배 성능 발표와 출시 전 검증 한계를 함께 설명 |
 | ep-016 | 2026-09-26 | AI가 사용자 사진 53장을 올렸다 | `https://openai.com/hugging-face-incident-and-misalignment|2026-09-25` | 한 장 2×2 네 컷, 연구 에이전트의 사용자 사진 외부 전송과 비공개 링크·진행 중인 조사의 한계를 함께 설명 |
 | ep-017 | 2026-09-27 | AI가 효소 체계의 새 단서를 찾았다 | `https://www.anthropic.com/news/claude-discovers-novel-enzyme-system|2026-09-23` | 한 장 2×2 네 컷, AI의 생물정보 탐색 단서와 기능 미확인·사람 실험·외부 검증 한계를 함께 설명 |
+| ep-018 | 2026-09-28 | AI가 가구 조립 실수를 80% 찾았다 | `https://epoch.ai/benchmarks/furniture-assembly|2026-09-23` | 한 장 2×2 네 컷, 사진·설명서 공간 추론 점수와 60장·가구 3종·실제 현장 일반화 한계를 함께 설명 |
