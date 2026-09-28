@@ -520,6 +520,20 @@ avoid immediately repeating tabletop photo easels, exactly three adjustment
 holes, single brass pins, dried glue on a front lip, paper dust on a rear pad,
 shelf-nudge tests, or owner-adjusted framed-photo payoffs.
 
+Episode 49 turns support-angle verification into material-specific light
+testing. The compact cream clamp lamp, `prop.swiveling-clamp-lamp.001@v1`,
+lets Yunseo reject Doyun's straight-down light when glare hides the raised
+shell pattern on her actual cobalt glazed tile. She tests the real tile, finds
+dried clay and glaze dust on the two cork-lined clamp jaws, cleans both contact
+surfaces, then rejects a too-low side angle that casts her hand shadow and
+locks a higher oblique angle that reveals the relief from child and adult eye
+levels. Soondeok supplies the practical contact-and-reflection check; a later
+Seoul potter cleans and adjusts the lamp for her own bowl; Minjae remains
+absent in the present. Future episodes should avoid immediately repeating
+clamp lamps, paired cork jaws, short cream curved arms, cobalt lamp shades,
+single brass friction knobs, cobalt shell-relief tiles, overhead glare,
+hand-shadow angle tests, or owner-adjusted ceramic-lighting payoffs.
+
 ## Good Future Episode Engines
 
 Use one concrete motif and one emotional question:

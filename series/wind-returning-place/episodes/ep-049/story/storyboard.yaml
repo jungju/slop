@@ -1,0 +1,118 @@
+version: 1
+episode: ep-049
+style_lock: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text."
+continuity:
+  characters:
+    - character.han-doyun.001@v1
+    - character.kang-yunseo.001@v1
+    - character.soondeok.001@v1
+  props:
+    - prop.swiveling-clamp-lamp.001@v1
+clarity:
+  concrete_pages: 20
+  metaphor_pages: []
+  concrete_ratio: 1.0
+  protagonist_goal_visible_by_page: 2
+  concrete_problem_visible_by_page: 4
+  choice_changes_next_action: true
+  payoff_visually_observable: true
+accepted_prompt_addenda:
+  2: "Regenerated to restore Yunseo's canonical elementary-school child proportions, short untied bob, and sea-blue rain jacket."
+  4: "Regenerated twice to keep one tile, restore child Yunseo, and make the compact lamp visibly clamp to the shelf without a base or wall mount."
+  5: "Regenerated to replace an adult-looking Yunseo with her canonical child identity and wardrobe."
+  6: "Regenerated twice to restore child Yunseo and the shelf-clamped cream lamp while keeping Soondeok's contact-and-reflection instruction."
+  7: "Regenerated to restore child Yunseo during the two-jaw clamp-lamp inspection."
+  8: "Regenerated twice to replace an adult figure and a based desk lamp with child Yunseo inspecting the shelf clamp contact."
+  9: "Regenerated to restore child Yunseo holding the open two-pad clamp for debris inspection."
+  10: "Regenerated twice to restore child Yunseo and the cream shelf clamp during contact-surface cleaning."
+  11: "Regenerated twice to keep the stable two-jaw shelf clamp while preserving the unresolved vertical glare."
+  12: "Regenerated twice to restore child Yunseo and the single-knob swivel action on a shelf-clamped lamp."
+  13: "Regenerated twice to restore child Yunseo and remove a weighted desk-lamp base during the failed shadow test."
+  14: "Regenerated to restore Yunseo's canonical child identity and untied bob during the higher oblique-angle correction."
+  15: "Regenerated twice to keep the actual tile, child Yunseo's agency, and the shelf-clamped one-knob lamp during locking."
+  16: "Regenerated twice to restore child Yunseo and the hands-away relief-shadow proof with a clamped lamp."
+  17: "Regenerated twice to keep child Yunseo distinct from adult Doyun and preserve the same shelf-clamped lamp across two eye levels."
+  18: "Regenerated twice to remove Doyun handling the tile and show child Yunseo verifying mixed daylight from the doorway."
+  19: "Regenerated once for a cleaner owner-adjusted shelf clamp while preserving the adult Seoul potter and cobalt bowl."
+  20: "Regenerated to replace an adult-looking Yunseo with the canonical child observing the final hands-free display."
+pages:
+  - panel: 1
+    beat: "윤서가 푸른 조개무늬 타일을 완성한다"
+    caption: "윤서는 조개무늬가 도드라진 작은 푸른 유광 타일을 완성했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Jeju community pottery corner. Elementary-school-age Korean girl Kang Yunseo with clear child proportions, short jaw-length black bob and blunt bangs, muted sea-blue hooded rain jacket over a cream sweatshirt, charcoal pants, and dark rubber boots lifts one palm-sized square cobalt-glazed ceramic tile with a simple raised seashell relief from a padded low worktable. The tile is intact, glossy, and has no writing. Vertical single scene, quiet daylight. No photorealism, text, letters, numbers, sign, logo, watermark, caption, speech bubble, or panel grid."
+  - panel: 2
+    beat: "윤서가 손대지 않는 전시를 준비한다"
+    caption: "손대지 않아도 무늬가 보이게 낮은 선반에 전시하려 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Yunseo carefully places the single cobalt glazed seashell-relief tile upright on a plain cream groove block at the center of a low wooden display shelf, then steps back to her child eye level with hands away, preparing a touch-free community display. Vertical single scene. No frame, easel, label, photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 3
+    beat: "도윤이 집게등을 바로 위로 향한다"
+    caption: "도윤은 집게등의 푸른 갓을 타일 바로 위로 향하게 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Slim clean-shaven 26-year-old Korean man Han Doyun with slightly long wavy black hair, gray hoodie under a dark long coat, old brown messenger bag, and black-and-silver vintage film camera clamps one small cream metal display lamp to the shelf edge. The lamp has exactly two cork-lined clamp jaws, one short cream curved arm, one shallow muted-cobalt metal shade, and one round aged-brass friction knob at the shade joint. He points the shade straight down over the blue tile. Vertical single scene. No photorealism, text, icons, logo, watermark, bubble, or panel grid."
+  - panel: 4
+    beat: "수직 빛의 반사가 무늬를 덮는다"
+    caption: "불을 켜자 흰 반사가 조개무늬를 덮어 굴곡이 보이지 않았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Clear problem from Yunseo's child-height viewpoint: the lamp shines straight down and creates one broad white glare patch across the glossy cobalt tile, visually washing out the raised seashell relief. Yunseo squints slightly; Doyun notices. Vertical single scene. No magical glow, photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 5
+    beat: "윤서가 실제 타일로 다시 시험하겠다고 정한다"
+    caption: "윤서는 실제 타일을 둔 채 빛의 방향을 다시 시험하겠다고 말했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Yunseo keeps the actual blue relief tile in place, raises one calm stop palm toward Doyun, and points with her other hand from the glare on the tile to the adjustable blue lamp shade. Doyun withdraws both hands and listens. Vertical single scene. No photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 6
+    beat: "순덕이 접촉면과 되비친 빛을 함께 보게 한다"
+    caption: "순덕은 집게가 닿는 곳과 되돌아오는 빛을 함께 보라고 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Elderly Jeju Korean woman Soondeok with short gray-white hair, wind-weathered face, and sea-colored practical work outerwear points first to the two lamp clamp contacts at the shelf edge and then to the glare returning from the glossy tile. Yunseo follows both points attentively. Vertical single scene. No photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 7
+    beat: "윤서가 집게등의 구조를 살핀다"
+    caption: "윤서는 두 코르크 면과 곡선 팔, 푸른 갓, 황동 손잡이를 살폈다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Clean three-quarter object inspection in Yunseo's small hands: one compact cream metal clamp lamp with exactly two plain natural-cork jaw pads, one short fixed cream curved arm, one shallow muted-cobalt metal shade, and one round aged-brass friction knob controlling shade tilt. No extra joints, holes, pins, labels, cords in focus, or decorative parts. Vertical single scene. No photorealism, text, symbols, logo, watermark, bubble, or panel grid."
+  - panel: 8
+    beat: "들린 집게 한쪽이 등을 비뚤게 만든다"
+    caption: "실제 타일을 놓자 들린 집게 한쪽이 등을 비뚤게 만들었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Side close view of the actual setup: the blue relief tile stays centered while one side of the cream lamp clamp sits slightly lifted from the wooden shelf edge, making the short lamp arm lean toward the tile. Yunseo sights along the shelf to see the uneven contact. Vertical single scene. No frame, easel, photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 9
+    beat: "집게면의 흙과 유약 가루를 찾는다"
+    caption: "두 집게면에는 마른 흙 부스러기와 고운 유약 가루가 끼어 있었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Close inspection after unclamping: Yunseo holds the open cream clamp so both cork jaw pads are visible. One tiny dried white clay crumb rests on the upper cork pad and a light dusting of pale blue glaze powder sits on the lower cork pad, clearly causing uneven contact. Vertical single scene. No glue, paper dust, photorealism, text, symbols, logo, watermark, bubble, or panel grid."
+  - panel: 10
+    beat: "윤서가 두 집게면과 선반을 닦는다"
+    caption: "윤서는 집게를 풀어 두 코르크 면과 선반 가장자리를 닦았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Yunseo uses a small plain soft brush on both cork jaw pads, then wipes the matching wooden shelf edge with a dry cream cloth. The lamp is safely unclamped and unlit; the actual blue tile remains protected farther back. Vertical single scene. No wet rag, photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 11
+    beat: "집게는 안정되지만 수직 반사는 남는다"
+    caption: "등을 평평하게 다시 물려도 수직 빛의 흰 반사는 남았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. The cleaned cream clamp now sits flat and firm on the shelf edge, its short arm upright, but the blue shade still points straight down and the actual glossy cobalt tile still shows the same broad white glare hiding its shell relief. Yunseo compares stable clamp and unresolved light problem. Vertical single scene. No photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 12
+    beat: "윤서가 황동 손잡이를 풀어 갓을 돌린다"
+    caption: "윤서는 황동 손잡이를 풀어 푸른 갓을 옆으로 돌렸다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Close clear action: with the lamp off, Yunseo steadies the cream curved arm with one hand, loosens the single round aged-brass friction knob with the other, and swivels the shallow muted-cobalt shade from straight down toward one side. Doyun's hands stay back. Vertical single scene. No holes, pin, photorealism, text, arrows, logo, watermark, bubble, or panel grid."
+  - panel: 13
+    beat: "첫 옆각도가 손 그림자를 만든다"
+    caption: "낮은 옆각도에서는 윤서의 손 그림자가 타일을 가렸다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. First test failure: the blue lamp shade is tilted too low from the side, and as Yunseo moves one hand away from the tile, a long clear hand shadow crosses the raised seashell relief. She notices the shadow and pauses. Vertical single scene. No horror lighting, photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 14
+    beat: "윤서가 갓을 높여 비껴 비추게 한다"
+    caption: "윤서는 갓을 높여 왼쪽 앞에서 비껴 비추게 다시 맞췄다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Yunseo carefully raises the lamp shade angle and swivels it to cast an oblique beam from the front-left across the actual blue relief tile, keeping the compact cream clamp fixed flat on the shelf. Clear child agency and precise hand placement. Vertical single scene. No photorealism, text, arrows, logo, watermark, bubble, or panel grid."
+  - panel: 15
+    beat: "윤서가 타일을 그대로 두고 각도를 고정한다"
+    caption: "타일은 그대로 두고 황동 손잡이를 조여 각도를 고정했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Yunseo leaves the actual cobalt tile unmoved on its plain groove block and tightens the lamp's single round aged-brass friction knob to lock the raised oblique shade angle. The clean two-jaw clamp remains flat; Doyun watches without touching. Vertical single scene. No frame, easel, photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 16
+    beat: "손을 떼자 조개 양각에 가는 그림자가 생긴다"
+    caption: "두 손을 떼자 조개 양각 가장자리에 가는 그림자가 생겼다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. From Yunseo's child-height viewpoint, she releases both hands and steps back. Oblique light now reveals the raised seashell relief through thin soft shadows along each ridge, with no broad glare patch; her open hands remain visible away from the display. Vertical single scene. No photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 17
+    beat: "도윤이 다른 눈높이에서도 무늬를 확인한다"
+    caption: "도윤도 뒤와 높은 눈높이에서 무늬가 보이는지 확인했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Doyun stands one step behind and views the same illuminated blue relief tile from his taller adult eye level while Yunseo remains at the lower side. Both viewpoints clearly see the shell ridges; the oblique lamp stays fixed and stable. Vertical single scene. No touching tile, photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 18
+    beat: "낮빛이 섞여도 타일의 굴곡이 보인다"
+    caption: "문을 열어 낮빛이 섞여도 타일의 굴곡과 푸른색은 또렷했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. The workroom door opens to soft Jeju daylight, which mixes with the warm oblique clamp-lamp beam. The cobalt tile keeps its true blue color and readable shell relief shadows without glare. Yunseo observes from the doorway line. Vertical single scene. No scenic tourism, photorealism, text, sign, logo, watermark, bubble, or panel grid."
+  - panel: 19
+    beat: "서울 도예가도 자기 그릇에 맞춰 빛을 고른다"
+    caption: "서울의 도예가도 자기 그릇을 놓고 닦은 뒤 빛을 맞췄다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Seoul shared ceramics workroom. One adult Korean woman potter places her own plain glossy cobalt bowl on a low display shelf, brushes the two cork clamp pads clean, and personally swivels a matching cream clamp lamp's blue shade to an oblique angle. Doyun stands aside. Vertical single scene. No photo frame, label, photorealism, text, sign, logo, watermark, bubble, or panel grid."
+  - panel: 20
+    beat: "비껴 든 빛이 푸른 조개무늬를 드러낸다"
+    caption: "비껴 든 빛 아래 푸른 조개무늬는 얕은 그림자로 드러났다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Restrained final Jeju image: the single palm-sized cobalt glazed tile stands untouched on its simple cream groove block. A stable cream clamp lamp with clean cork jaws and raised muted-cobalt shade casts soft oblique light, revealing the shell relief through shallow shadows. Yunseo watches from a respectful small distance. Vertical single scene. No frame, easel, photorealism, text, sign, logo, watermark, bubble, or panel grid."
