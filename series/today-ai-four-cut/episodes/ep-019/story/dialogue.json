@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "kicker": "인공지능 뉴스 네 컷",
+  "title": "법원이 Claude의 국방부 제외를 인정했다",
+  "footer": "AI 안전 기준은 기술뿐 아니라 계약과 법원의 판단도 바꿔요.",
+  "panels": [
+    { "number": 1, "speaker": "누리", "text": "Claude가 미 국방부에서\n제외됐다고요?" },
+    { "number": 2, "speaker": "픽", "text": "항소법원이 공급망 제외를\n2대1로 인정했어요." },
+    { "number": 3, "speaker": "누리", "text": "안전 제한이 있는데\n왜 위험으로 봤나요?" },
+    { "number": 4, "speaker": "픽", "text": "군은 임무 중단을 걱정했어요.\n별도 판결과 재심은 남았어요." }
+  ]
+}

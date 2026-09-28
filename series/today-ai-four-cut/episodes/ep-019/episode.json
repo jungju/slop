@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-019",
+  "number": 19,
+  "title": "19화: 법원이 Claude의 국방부 제외를 인정했다",
+  "shortTitle": "법원이 Claude의 국방부 제외를 인정했다",
+  "lead": "미국 D.C. 연방항소법원은 Anthropic이 Claude의 군사 사용 제한을 완화하지 않은 뒤 내려진 국방부 공급망 제외 결정을 2대1로 인정했다.",
+  "closingLine": "이번 판결은 국방부 조달법상 제외를 다룬 것으로, 별도 법률에 따른 다른 법원의 판결과 추가 재심 가능성은 남아 있다.",
+  "news": {
+    "headline": "U.S. appeals court upheld the Pentagon's exclusion of Claude from its supply chain",
+    "eventDate": "2026-09-25",
+    "researchDate": "2026-09-29",
+    "summary": "미국 D.C. 연방항소법원은 2대1 판결로 국방부가 Claude를 공급망에서 제외한 조치를 인정했습니다. 다수 의견은 Anthropic의 사용 제한 때문에 군 임무 중 모델이 예상대로 작동하지 않을 위험을 국방부가 고려할 수 있다고 봤습니다. 다만 이는 국방부 조달법상 판단이며, 다른 법률을 다룬 캘리포니아 연방법원의 별도 판결과 추가 재심 가능성은 남아 있습니다.",
+    "selectionNote": "2026년 9월 29일 최근 48시간의 주요 AI 발표를 먼저 검토했지만 충분한 1차 자료와 독립 확인을 갖춘 비중복 사건을 찾지 못해 7일 보완 창을 적용했습니다. 9월 25일 법원 의견서 원문과 Reuters, Ars Technica, Washington Post 보도를 모두 열어 읽고, 국방부 조달 제외 인정과 별도 소송·추가 재심 가능성이라는 범위를 보존했습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "1차 판결문",
+      "title": "Anthropic PBC v. United States Department of War, Nos. 26-1049 and 26-1162",
+      "publisher": "U.S. Court of Appeals for the District of Columbia Circuit (Justia mirror)",
+      "publishedAt": "2026-09-25",
+      "url": "https://law.justia.com/cases/federal/appellate-courts/cadc/26-1049/26-1049-2026-09-25.html",
+      "note": "2대1 다수 의견, 국방부 공급망 제외의 법적 근거, 절차·헌법 주장에 대한 판단과 반대 의견을 담습니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 보도",
+      "title": "Anthropic's Pentagon blacklist upheld in US appeals court: How the conflict unfolded",
+      "publisher": "Reuters via MarketScreener",
+      "publishedAt": "2026-09-25",
+      "url": "https://www.marketscreener.com/news/anthropic-s-pentagon-blacklist-upheld-in-us-appeals-court-how-the-conflict-unfolded-ce785adfd18af02c",
+      "note": "판결 결과와 군사 사용 제한을 둘러싼 분쟁의 경과를 확인합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "법률 맥락",
+      "title": "Court rules Pentagon can blacklist Anthropic for refusing to enable Claude features",
+      "publisher": "Ars Technica",
+      "publishedAt": "2026-09-25",
+      "url": "https://arstechnica.com/tech-policy/2026/09/court-rules-trump-can-blacklist-anthropic-for-refusing-to-enable-claude-features/",
+      "note": "두 법원이 서로 다른 법률을 심사했다는 차이와 추가 재심 가능성을 설명합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "추가 보도",
+      "title": "Federal appeals court rules Pentagon can blacklist Anthropic",
+      "publisher": "The Washington Post",
+      "publishedAt": "2026-09-25",
+      "url": "https://www.washingtonpost.com/technology/2026/09/25/federal-appeals-court-rules-pentagon-can-blacklist-anthropic/",
+      "note": "2대1 판결과 국방부만 계속 Claude를 제외할 수 있다는 현재 범위를 확인합니다."
+    }
+  ],
+  "publishedAt": "2026-09-28T21:05:57.961Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: Claude가 미 국방부에서 제외됐다고요? 픽: 항소법원이 공급망 제외를 2대1로 인정했어요. 누리: 안전 제한이 있는데 왜 위험으로 봤나요? 픽: 군은 임무 중단을 걱정했어요. 별도 판결과 재심은 남았어요.",
+      "alt": "19화: 법원이 Claude의 국방부 제외를 인정했다 1페이지. 누리: Claude가 미 국방부에서 제외됐다고요? 픽: 항소법원이 공급망 제외를 2대1로 인정했어요. 누리: 안전 제한이 있는데 왜 위험으로 봤나요? 픽: 군은 임무 중단을 걱정했어요. 별도 판결과 재심은 남았어요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": "GPT-5",
+      "status": "known-model"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}
