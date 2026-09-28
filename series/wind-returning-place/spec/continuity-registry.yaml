@@ -2,6 +2,36 @@ version: 1
 factory_type: comic
 comic_id: wind-returning-place
 elements:
+  - id: prop.swiveling-clamp-lamp.001
+    name: 비껴 비추는 회전식 집게등
+    category: prop
+    scope: episode
+    status: active
+    introduced_in: ep-049
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-049
+        active_until: ep-049
+        supersedes: null
+        immutable_features:
+          - one compact cream-painted metal clamp lamp with exactly two natural-cork-lined clamp jaws
+          - one short fixed cream curved arm and one shallow muted-cobalt metal shade
+          - exactly one round aged-brass friction knob that swivels and locks the shade angle
+          - the user tests the actual glossy object, cleans both clamp contacts, and chooses an oblique light angle that reveals relief without glare
+          - no adjustment holes, locking pin, label, text, numbers, arrows, icons, transparent body, logo, or printed mark
+        mutable_features:
+          - shade pointed straight down, too low from the side, or raised to an oblique front-side angle
+          - illuminating one cobalt glazed seashell-relief tile, one Seoul ceramic bowl, or nothing
+          - one temporary dried white clay crumb and pale glaze dust on the cork pads before cleaning
+          - Jeju community pottery corner or Seoul shared ceramics workroom
+        reference_asset_ids:
+          - prop-swiveling-clamp-lamp-001-v1-text-lock
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: text_locked
   - id: prop.adjustable-photo-easel.001
     name: 넓혀 세우는 작은 사진 이젤
     category: prop
