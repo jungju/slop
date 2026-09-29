@@ -1,0 +1,118 @@
+version: 1
+episode: ep-050
+style_lock: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text."
+continuity:
+  characters:
+    - character.han-doyun.001@v1
+    - character.kang-yunseo.001@v1
+    - character.soondeok.001@v1
+  props:
+    - prop.resilient-printing-pad.001@v1
+clarity:
+  concrete_pages: 20
+  metaphor_pages: []
+  concrete_ratio: 1.0
+  protagonist_goal_visible_by_page: 2
+  concrete_problem_visible_by_page: 4
+  choice_changes_next_action: true
+  payoff_visually_observable: true
+accepted_prompt_addenda:
+  3: "Regenerated to preserve canonical child Yunseo and Doyun while showing exactly one felt pad removed from the hard board."
+  4: "Regenerated to restore Yunseo's short untied bob and canonical rain-jacket wardrobe around the broken-wave result."
+  5: "Regenerated repeatedly to remove the inherited lamp, preserve one full-size removed felt pad, and keep canonical character identity."
+  6: "Regenerated with canonical Soondeok, Yunseo, and Doyun references while isolating the fabric-felt-board contact layers."
+  7: "Regenerated to restore Yunseo's short untied bob and show one board, one felt pad, and exactly four brass buttons."
+  8: "Regenerated to restore canonical Yunseo while making the single lifted felt corner visually readable."
+  9: "Regenerated to restore canonical Yunseo and isolate exactly one trapped thread on one felt pad."
+  10: "Regenerated to restore canonical Yunseo while cleaning the single pad on the four-button board."
+  11: "Regenerated to restore canonical Yunseo and Doyun while proving the cleaned pad lies flat at all four corners."
+  12: "Regenerated to restore canonical Yunseo during the one-level, two-hand wave-block press."
+  13: "Regenerated with canonical Yunseo and Doyun references while keeping the visibly smeared overlong-pressure failure."
+  14: "Regenerated to replace a shell-shaped block with a wave-ridge block and preserve canonical child identity."
+  15: "Regenerated as an object-focused clean result with one continuous wave, one pad, and four board buttons."
+  16: "Regenerated to separate the actual pocket from the apron body and keep all brass buttons on the board only."
+  17: "Regenerated with canonical Yunseo, Doyun, and Soondeok references for the successful actual-pocket reveal."
+  18: "Regenerated to show only canonical rain-jacket sleeves, one separate pocket, and an uncracked cresting-wave print."
+  19: "Regenerated to replace the Jeju group with one Seoul textile owner and canonical Doyun standing aside."
+  20: "Regenerated to remove character and prop drift, leaving one drying pocket and one plain felt-backed board."
+pages:
+  - panel: 1
+    beat: "윤서가 거친 리넨 주머니를 만든다"
+    caption: "윤서는 거친 크림색 리넨으로 작은 앞치마 주머니를 만들었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Jeju community textile corner. Elementary-school-age Korean girl Kang Yunseo with clear child proportions, short straight jaw-length black bob and soft blunt bangs, muted sea-blue hooded rain jacket over a cream sweatshirt, charcoal pants, and dark rubber boots holds one small rectangular pocket made from visibly coarse cream linen against a plain work apron. The woven texture is clearly drawn. Vertical single scene. No printed pattern yet, photorealism, text, letters, numbers, sign, logo, watermark, caption, speech bubble, or panel grid."
+  - panel: 2
+    beat: "윤서가 온전한 파도무늬를 목표로 한다"
+    caption: "주머니 한가운데에 푸른 파도무늬를 온전히 찍으려 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo with the same bob, sea-blue rain jacket, cream sweatshirt, charcoal pants, and boots places the single unprinted coarse-linen pocket at the center of a low worktable and holds one palm-sized plain wooden relief block carved with simple flowing wave ridges above it, clearly planning one centered print. Vertical single scene. No readable marks, extra fabric pieces, photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 3
+    beat: "도윤이 탄성 받침을 빼고 맨 판을 쓴다"
+    caption: "도윤은 탄성 받침을 빼고 리넨을 단단한 나무판에 놓았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Slim clean-shaven 26-year-old Korean man Han Doyun with slightly long wavy black hair, gray hoodie under a dark long coat, old brown messenger bag, and black-and-silver vintage film camera removes one thin muted-cobalt felt pad from a low cream-painted wooden printing board and sets it visibly beside the board. He lays one coarse cream linen test scrap directly on the hard bare board. Yunseo watches without touching. Exactly four low round aged-brass corner buttons remain on the board. Vertical single scene. No clamp, roller, lamp, photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 4
+    beat: "첫 무늬가 천의 높은 실에서 끊긴다"
+    caption: "첫 인쇄는 높은 실에만 닿아 파도무늬가 여러 곳에서 끊겼다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Clear problem close-up after lifting the wooden wave block: the coarse cream linen scrap rests on the bare hard board and shows one muted-blue wave print broken into many short marks because ink touched only the raised threads; uninked fabric valleys interrupt every wave line. Child Yunseo points to the gaps while Doyun notices. Vertical single scene. No letters, fake writing, extra prints, photorealism, logo, watermark, bubble, or panel grid."
+  - panel: 5
+    beat: "윤서가 더 세게 누르지 않고 아래를 시험한다"
+    caption: "윤서는 더 누르지 말고 실제 천 아래부터 시험하겠다고 말했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo in canonical wardrobe raises one calm stop palm toward Doyun's hands, keeps the actual coarse linen scrap on the cream printing board, and points with her other hand beneath the fabric toward the removed muted-cobalt felt pad. Doyun withdraws and listens. Vertical single scene. No adult-looking Yunseo, pressing harder, photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 6
+    beat: "순덕이 천 아래 접촉을 보게 한다"
+    caption: "순덕은 천 아래에서 버티고 닿는 곳을 함께 보라고 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Elderly Jeju Korean woman Soondeok with short gray-white hair, wind-weathered face, and sea-colored practical work outerwear lifts one corner of the coarse linen and points to the contact path from fabric to felt to cream board. Child Yunseo follows the layers attentively; Doyun stands back. Vertical single scene. No magical gesture, photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 7
+    beat: "윤서가 인쇄 받침 구조를 살핀다"
+    caption: "윤서는 인쇄판과 푸른 펠트, 네 황동 단추를 살폈다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Clean object inspection from above in child Yunseo's small hands: one low rectangular cream-painted wooden printing board with softly rounded corners, one separate thin muted-cobalt felt pad sized to the inner surface, and exactly four low round aged-brass corner buttons, one at each corner. No hinge, clamp, roller, holes, pins, labels, symbols, or extra hardware. Vertical single scene. No photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 8
+    beat: "펠트 오른쪽 앞모서리가 들린다"
+    caption: "펠트를 얹자 오른쪽 앞모서리가 들려 작은 둔덕이 생겼다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Side close view of the actual cream printing board: the thin cobalt felt pad is placed inside but its front-right corner sits visibly raised at the brass button, creating one small mound under a loose coarse linen scrap. Child Yunseo sights along the board edge to see the uneven support. Vertical single scene. No multiple pads, photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 9
+    beat: "실밥과 모래가 접촉을 방해한다"
+    caption: "펠트 뒤에는 실밥이 붙고 단추 하나에는 검은 모래가 끼어 있었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Close inspection after removing the felt: child Yunseo turns over the single muted-cobalt pad, revealing exactly one dry cream thread stuck to its underside, while exactly one tiny black sand grain is caught at the front-right aged-brass corner button on the cream board. The other three buttons are clean. Vertical single scene. No glue, paper dust, letters, photorealism, logo, watermark, bubble, or panel grid."
+  - panel: 10
+    beat: "윤서가 모든 접촉면을 닦는다"
+    caption: "윤서는 펠트 양면과 판, 네 단추의 접촉면을 솔로 닦았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo uses one small plain dry soft brush to clean both faces of the cobalt felt pad, then brushes the cream board surface and each of exactly four low brass corner buttons. The coarse linen and wave block remain safely farther back. Vertical single scene. No water, adult helper hands, photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 11
+    beat: "깨끗한 펠트가 평평하게 고정된다"
+    caption: "펠트를 다시 고정하자 네 모서리가 평평하게 붙었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. The cleaned single cobalt felt pad lies completely flat inside the cream board, held by exactly four low round brass corner buttons. Child Yunseo presses one open palm lightly at the center while all four corners stay level and still. Doyun watches without touching. Vertical single scene. No fabric on top yet, photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 12
+    beat: "같은 리넨으로 탄성 받침을 시험한다"
+    caption: "윤서는 같은 리넨 조각에 파도 목판을 한 번 고르게 눌렀다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo places a fresh coarse cream linen test scrap on the flat cobalt felt pad and presses the single palm-sized wooden wave relief block once with both small palms held level. The cream board and exactly four brass buttons remain visible at the edges. Vertical single scene. No mechanical press, roller, adult hands, photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 13
+    beat: "오래 누른 시험은 잉크가 번진다"
+    caption: "너무 오래 누른 무늬는 푸른 잉크가 번져 선 사이를 메웠다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. First felt-backed test result close-up: one coarse linen scrap shows a blue wave motif with thick smeared edges and pooled blue ink visibly filling the narrow spaces between wave ridges. Child Yunseo holds the lifted wooden block straight above and recognizes the overlong pressure failure. Vertical single scene. No readable text, extra motifs, photorealism, logo, watermark, bubble, or panel grid."
+  - panel: 14
+    beat: "윤서가 힘 대신 누르는 시간을 줄인다"
+    caption: "새 조각에는 힘을 더 주지 않고 짧게 눌렀다가 손을 뗐다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo places one new coarse cream linen scrap on the cleaned flat cobalt felt, makes one brief even press with the wave block, and immediately lifts both hands while keeping the block level. Her posture is controlled rather than forceful; Doyun's hands remain back. Vertical single scene. No clock, numbers, arrows, photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 15
+    beat: "두 번째 파도 선이 천의 골까지 이어진다"
+    caption: "두 번째 파도 선은 거친 천의 골 사이까지 깨끗하게 이어졌다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Clear successful test close-up: one coarse cream linen scrap on the cobalt felt shows a simple continuous muted-blue wave motif, with clean narrow spaces and ink reaching gently into the fabric valleys while the woven texture remains visible. Child Yunseo's small hands hold the block away from the result. Vertical single scene. No letters, symbols, photorealism, logo, watermark, bubble, or panel grid."
+  - panel: 16
+    beat: "윤서가 실제 주머니에 목판 위치를 정한다"
+    caption: "윤서는 실제 주머니를 받침 위에 놓고 목판 위치를 정했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo centers the actual unprinted coarse-linen apron pocket on the cleaned cobalt felt pad and hovers the single wooden wave relief block squarely over its middle, checking equal blank margins by eye. The cream board and exactly four brass buttons stay stable. Vertical single scene. No ruler markings, extra pockets, adult intervention, photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 17
+    beat: "실제 주머니에 온전한 파도무늬가 나타난다"
+    caption: "한 번 짧게 누르고 들자 주머니에 온전한 파도무늬가 나타났다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo lifts the wooden wave block straight upward after one brief press, revealing one centered complete muted-blue wave motif on the actual coarse cream apron pocket. Every curved line is continuous, no smear, and the linen weave remains visible. Doyun and Soondeok observe from behind without touching. Vertical single scene. No fake writing, photorealism, logo, watermark, bubble, or panel grid."
+  - panel: 18
+    beat: "접고 펴도 무늬와 천의 결이 남는다"
+    caption: "천을 접고 펴도 푸른 선과 리넨의 결은 함께 남았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo gently bends and reopens the printed coarse-linen pocket between both hands. The single blue wave motif remains continuous without cracks, and the rough woven grain remains clearly visible through and around the ink. Vertical single scene. No extra fabric, tearing, photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 19
+    beat: "서울 작업자도 자기 거친 천 아래를 준비한다"
+    caption: "서울의 직물 작업자도 자기 천 아래를 닦고 펠트를 받쳤다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Seoul shared textile workroom. One adult Korean woman textile worker brushes both faces of the same kind of single cobalt felt pad and all four brass corner buttons on a cream printing board, then places her own rough unprinted gray cloth on top. Doyun stands aside as a witness. Vertical single scene. No wave print yet, mechanical press, photorealism, text, sign, logo, watermark, bubble, or panel grid."
+  - panel: 20
+    beat: "푸른 파도가 천의 결과 함께 마른다"
+    caption: "마르는 주머니 위 푸른 파도는 천의 결을 지우지 않고 이어졌다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Restrained final Jeju image: the single coarse cream apron pocket lies flat on a plain drying cloth, its centered muted-blue wave motif clean and continuous while the linen grain remains visible. The cleaned cream printing board with flat cobalt felt and four brass corner buttons rests nearby; child Yunseo watches from a respectful small distance. Vertical single scene. No lamp, ceramic tile, photorealism, text, sign, logo, watermark, bubble, or panel grid."

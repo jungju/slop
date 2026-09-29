@@ -2,6 +2,36 @@ version: 1
 factory_type: comic
 comic_id: wind-returning-place
 elements:
+  - id: prop.resilient-printing-pad.001
+    name: 결을 받치는 탄성 인쇄 받침
+    category: prop
+    scope: episode
+    status: active
+    introduced_in: ep-050
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-050
+        active_until: ep-050
+        supersedes: null
+        immutable_features:
+          - one low rectangular cream-painted wooden printing board with softly rounded corners
+          - one thin removable muted-cobalt felt pad sized exactly inside the board surface
+          - exactly four low round aged-brass corner buttons that hold the felt without covering the printing area
+          - the user tests actual coarse linen, cleans both felt faces, the board, and all four button contacts, then uses brief even hand pressure so the print reaches the fabric valleys without smearing
+          - no hinge, clamp, roller, adjustment holes, pin, lamp, label, text, numbers, arrows, icons, logo, or printed mark
+        mutable_features:
+          - felt removed, laid loose, or held flat by all four corner buttons
+          - supporting one coarse cream linen test scrap, one apron pocket, or a Seoul textile worker's rough cloth
+          - one temporary dry thread and one black sand grain trapped at contacts before cleaning
+          - Jeju community textile corner or Seoul shared textile workroom
+        reference_asset_ids:
+          - prop-resilient-printing-pad-001-v1-text-lock
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: text_locked
   - id: prop.swiveling-clamp-lamp.001
     name: 비껴 비추는 회전식 집게등
     category: prop
