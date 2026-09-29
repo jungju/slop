@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-020",
+  "number": 20,
+  "title": "20화: Claude Sonnet 5.5가 더 빨라졌다",
+  "shortTitle": "Claude Sonnet 5.5가 더 빨라졌다",
+  "lead": "Anthropic은 Claude Sonnet 5.5가 이전 Sonnet 5보다 출력을 30% 넘게 빠르게 만들고, 같은 API 단가에서 더 적은 토큰과 도구 호출로 작업당 비용을 최대 30% 낮췄다고 발표했다.",
+  "closingLine": "속도와 작업당 비용 수치는 Anthropic의 측정이므로 실제 업무에서는 자신의 작업과 설정으로 다시 확인해야 한다.",
+  "news": {
+    "headline": "Anthropic released Claude Sonnet 5.5 with faster output and claimed lower cost per task",
+    "eventDate": "2026-09-28",
+    "researchDate": "2026-09-30",
+    "summary": "Anthropic은 Claude Sonnet 5.5를 모든 주요 플랫폼에 공개하며 이전 Sonnet 5보다 출력이 30% 넘게 빠르고 작업당 비용이 최대 30% 낮다고 발표했습니다. 다만 입력·출력 토큰 단가는 이전 모델과 같으며, 비용 절감은 더 적은 토큰과 도구 호출을 쓸 때 생기는 회사 측 측정입니다.",
+    "selectionNote": "최근 48시간의 비중복 AI 발표를 검토한 뒤 2026년 9월 28일 Sonnet 5.5 출시를 선정했습니다. Anthropic 원문과 VentureBeat 보도를 모두 열어 읽고, 속도·비용 수치를 회사 주장으로 표시하며 같은 토큰 단가와 작업별 재검증 필요를 보존했습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "1차 발표",
+      "title": "Introducing Claude Sonnet 5.5",
+      "publisher": "Anthropic",
+      "publishedAt": "2026-09-28",
+      "url": "https://www.anthropic.com/claude-sonnet-5-5",
+      "note": "모델의 공개 범위, API 단가, 회사 측 속도·작업당 비용 측정, 벤치마크와 안전장치를 설명합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 보도",
+      "title": "Anthropic launches Claude Sonnet 5.5 with 30% cost reduction per-task due to faster speeds and fewer tool calls",
+      "publisher": "VentureBeat",
+      "publishedAt": "2026-09-28",
+      "url": "https://venturebeat.com/technology/anthropic-launches-claude-sonnet-5-5-with-30-cost-reduction-per-task-due-to-faster-speeds-and-fewer-tool-calls",
+      "note": "출시와 동일한 토큰 단가를 확인하고, 30% 수치가 회사 측 측정이며 실제 작업 비용은 토큰·도구 호출에 달렸다고 구분합니다."
+    }
+  ],
+  "publishedAt": "2026-09-29T21:49:51.628Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: 새 Claude가 더 빨라졌다고요? 픽: Sonnet 5.5는 출력이 30% 넘게 빨라졌대요. 누리: 그럼 토큰 요금도 30% 내렸나요? 픽: 단가는 같아요. 적게 쓸 때만 작업비가 줄어요.",
+      "alt": "20화: Claude Sonnet 5.5가 더 빨라졌다 1페이지. 누리: 새 Claude가 더 빨라졌다고요? 픽: Sonnet 5.5는 출력이 30% 넘게 빨라졌대요. 누리: 그럼 토큰 요금도 30% 내렸나요? 픽: 단가는 같아요. 적게 쓸 때만 작업비가 줄어요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": "GPT-5",
+      "status": "known-model"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}

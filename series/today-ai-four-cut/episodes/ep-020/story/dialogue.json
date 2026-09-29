@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "kicker": "인공지능 뉴스 네 컷",
+  "title": "Claude Sonnet 5.5가 더 빨라졌다",
+  "footer": "속도와 비용은 실제 작업으로 다시 확인하세요.",
+  "panels": [
+    { "number": 1, "speaker": "누리", "text": "새 Claude가 더\n빨라졌다고요?" },
+    { "number": 2, "speaker": "픽", "text": "Sonnet 5.5는 출력이\n30% 넘게 빨라졌대요." },
+    { "number": 3, "speaker": "누리", "text": "그럼 토큰 요금도\n30% 내렸나요?" },
+    { "number": 4, "speaker": "픽", "text": "단가는 같아요. 적게 쓸 때만\n작업비가 줄어요." }
+  ]
+}
