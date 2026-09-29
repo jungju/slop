@@ -534,6 +534,21 @@ clamp lamps, paired cork jaws, short cream curved arms, cobalt lamp shades,
 single brass friction knobs, cobalt shell-relief tiles, overhead glare,
 hand-shadow angle tests, or owner-adjusted ceramic-lighting payoffs.
 
+Episode 50 turns material-specific light testing into material-specific
+pressure support. The cream printing board with one removable cobalt felt pad
+and four low brass corner buttons, `prop.resilient-printing-pad.001@v1`, lets
+Yunseo reject Doyun's harder bare-board approach when a wave print breaks
+across the valleys of her actual coarse linen. She checks the support beneath
+the cloth, removes one trapped thread and one black sand grain, seats the felt
+flat, rejects an overlong press that smears the ink, then chooses one brief even
+press that carries the wave through the weave without hiding it. Soondeok
+supplies the practical look-under-the-cloth test; a later Seoul textile worker
+cleans and uses the support beneath her own rough fabric; Minjae remains absent
+in the present. Future episodes should avoid immediately repeating textile
+printing, removable felt pads, exactly four brass corner buttons, broken-versus-
+smeared wave tests, trapped thread or sand contacts, apron pockets, or an
+owner-cleaned fabric-printing payoff.
+
 ## Good Future Episode Engines
 
 Use one concrete motif and one emotional question:
