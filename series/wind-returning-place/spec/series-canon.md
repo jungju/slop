@@ -549,6 +549,20 @@ printing, removable felt pads, exactly four brass corner buttons, broken-versus-
 smeared wave tests, trapped thread or sand contacts, apron pockets, or an
 owner-cleaned fabric-printing payoff.
 
+Episode 51 turns material-specific pressure support into fold-specific piercing
+support. The low cream V-groove bookbinding cradle with one removable muted-
+cobalt cork channel insert, `prop.bookbinding-piercing-cradle.001@v1`, lets
+Yunseo reject Doyun's repeated shallow awl pushes after they crush and tear the
+fold of her actual thick paper stack. She removes one curled paper shaving from
+beneath the insert, cleans both insert faces and the wooden groove, tests the
+actual booklet thickness, then chooses one steady complete vertical press for
+each binding hole. Soondeok supplies the practical empty-channel-and-two-sides
+test; a later Seoul bookbinder cleans and tests the support beneath her own
+thick cover; Minjae remains absent in the present. Future episodes should avoid
+immediately repeating bookbinding cradles, V grooves, removable cobalt cork
+inserts, exactly three binding holes, awls, curled paper shavings, repeated-
+shallow-versus-single-complete presses, or owner-cleaned bookbinding payoffs.
+
 ## Good Future Episode Engines
 
 Use one concrete motif and one emotional question:

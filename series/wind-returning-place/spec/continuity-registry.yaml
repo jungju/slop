@@ -2,6 +2,36 @@ version: 1
 factory_type: comic
 comic_id: wind-returning-place
 elements:
+  - id: prop.bookbinding-piercing-cradle.001
+    name: 접힌 골을 받치는 제본 송곳 받침
+    category: prop
+    scope: episode
+    status: active
+    introduced_in: ep-051
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-051
+        active_until: ep-051
+        supersedes: null
+        immutable_features:
+          - one low rectangular cream-painted wooden bookbinding piercing cradle with softly rounded short ends
+          - one centered shallow V groove that supports both sides of a folded paper stack while leaving an open channel for an awl point
+          - one removable muted-cobalt dense-cork channel insert shaped to nest inside the V groove
+          - one plain wooden-handled steel bookbinding awl used in a single steady vertical press through the actual folded paper thickness
+          - no hinge, clamp, felt, brass corner buttons, printed guide, label, text, numbers, arrows, icons, logo, or printed mark
+        mutable_features:
+          - cork insert removed, cleaned, or seated level in the V groove
+          - supporting one folded cream test stack, one small photo booklet, or one Seoul bookbinder's thick gray cover
+          - exactly one temporary curled paper shaving trapped beneath the insert's front end before cleaning
+          - Jeju community bookbinding corner or Seoul shared bookbinding workroom
+        reference_asset_ids:
+          - prop-bookbinding-piercing-cradle-001-v1-text-lock
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: text_locked
   - id: prop.resilient-printing-pad.001
     name: 결을 받치는 탄성 인쇄 받침
     category: prop

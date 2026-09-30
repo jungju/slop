@@ -1,0 +1,106 @@
+version: 1
+episode: ep-051
+style_lock: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text."
+continuity:
+  characters:
+    - character.doyun.001@v1
+    - character.yunseo.001@v1
+    - character.soondeok.001@v1
+  props:
+    - prop.bookbinding-piercing-cradle.001@v1
+clarity:
+  concrete_pages: 20
+  metaphor_pages: []
+  concrete_ratio: 1.0
+  protagonist_goal_visible_by_page: 2
+  concrete_problem_visible_by_page: 4
+  choice_changes_next_action: true
+  payoff_visually_observable: true
+accepted_prompt_addenda:
+  4: "Regenerated as a tight object-evidence view to remove youthful Doyun identity drift while preserving the single ragged fold tear."
+  5: "Regenerated to replace a complex pin-and-knob jig with the canonical simple V-groove cradle and seated cobalt insert."
+  6: "Regenerated to remove a long-haired false Doyun and duplicate cradles, leaving canonical Soondeok and child Yunseo with one support."
+  14: "Regenerated without the youthful false Doyun so canonical child Yunseo alone demonstrates one complete vertical press."
+  17: "Regenerated to remove tied hair, pink apron, and brown-only prop drift while showing exactly three clean holes in the canonical cradle."
+  20: "Regenerated to replace a solid blue cylinder with two flush cobalt cork faces and a visibly open central V channel."
+pages:
+  - panel: 1
+    beat: "윤서가 작은 사진책 재료를 고른다"
+    caption: "윤서는 글자 없는 바닷가 사진으로 작은 사진책을 만들려 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Jeju community bookbinding corner. Elementary-school-age Korean girl Kang Yunseo with clear child proportions, short straight jaw-length black bob with soft blunt bangs, muted sea-blue hooded rain jacket over a cream sweatshirt, charcoal pants, and dark rubber boots chooses several small unlettered coastal photographs, thick cream cover paper, and blank folded sheets on a low worktable. Vertical single scene. No readable writing, book title, printed letters, adult-looking child, photorealism, logo, watermark, caption, speech bubble, or panel grid."
+  - panel: 2
+    beat: "윤서가 푸른 실로 직접 묶으려 한다"
+    caption: "접힌 표지와 속지를 푸른 실로 직접 묶는 것이 윤서의 목표였다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo in the same canonical wardrobe folds one thick cream cover around a small stack of blank pages and lays one plain muted-cobalt binding thread beside it, clearly planning a hand-bound photo booklet. The coastal photographs remain face-down or abstract and unlettered. Vertical single scene. No text, labels, extra people, photorealism, logo, watermark, bubble, or panel grid."
+  - panel: 3
+    beat: "도윤이 평평한 판에서 거듭 찌른다"
+    caption: "도윤은 종이 묶음을 평평한 판에 놓고 송곳을 여러 번 얕게 찔렀다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Slim clean-shaven 26-year-old Korean man Han Doyun with slightly long wavy black hair, gray hoodie under a dark long coat, old brown messenger bag, and black-and-silver vintage film camera places the folded thick cream paper stack flat on a hard bare wooden board and makes several hesitant shallow pushes with one plain wooden-handled steel bookbinding awl. Child Yunseo watches. Vertical single scene. No piercing cradle yet, blood, text, logo, watermark, bubble, or panel grid."
+  - panel: 4
+    beat: "첫 구멍이 접힌 골을 길게 찢는다"
+    caption: "송곳이 빠질 곳이 없어 접힌 골이 눌리고 첫 구멍이 길게 찢어졌다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Clear problem close-up: the thick folded cream paper lies crushed against a flat hard board, and the first attempted binding hole has become one elongated ragged tear along the fold because the awl had nowhere to pass. Child Yunseo points to the damaged fold while Doyun pulls the awl away. Vertical single scene. No blood, extra tears, readable marks, photorealism, logo, watermark, bubble, or panel grid."
+  - panel: 5
+    beat: "윤서가 실제 종이와 아래 받침을 시험한다"
+    caption: "윤서는 실제 종이와 그 아래 받침부터 시험하겠다고 말했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Canonical child Yunseo raises one calm stop palm toward Doyun's awl hand and points with her other hand from the actual folded thick paper down toward a low cream bookbinding piercing cradle waiting nearby. Doyun withdraws and listens. Vertical single scene. No adult-looking Yunseo, forceful action, text, logo, watermark, bubble, or panel grid."
+  - panel: 6
+    beat: "순덕이 송곳 아래의 빈곳과 두 지지를 짚는다"
+    caption: "순덕은 송곳 끝이 지나갈 빈곳과 종이를 받칠 두 면을 함께 보라고 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Elderly Jeju Korean woman Soondeok with short gray-white hair, wind-weathered face, and sea-colored practical work outerwear points into the empty center of one shallow V-shaped bookbinding cradle while her other hand indicates the two sloping support faces. Child Yunseo follows the path of the awl tip; Doyun stands back. Vertical single scene. No magical gesture, text, logo, watermark, bubble, or panel grid."
+  - panel: 7
+    beat: "윤서가 제본 받침 구조를 살핀다"
+    caption: "윤서는 제본 받침의 V홈과 푸른 코르크 홈받이를 살폈다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Clean object inspection from above in child Yunseo's small hands: one low rectangular cream-painted wooden bookbinding piercing cradle with softly rounded short ends and one centered shallow V groove, plus one separate removable muted-cobalt dense-cork channel insert shaped to nest inside the V. One plain wooden-handled steel awl rests safely aside. No hinge, clamp, felt, brass buttons, printed guide, label, text, logo, or extra hardware. Vertical single scene. No photorealism, watermark, bubble, or panel grid."
+  - panel: 8
+    beat: "홈받이 앞쪽이 흔들려 종이가 기운다"
+    caption: "홈받이 앞쪽이 흔들리자 그 위의 접힌 종이도 한쪽으로 기울었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Side close view of the actual cream V-groove cradle: the single muted-cobalt cork channel insert is nested inside but its front end rocks visibly upward, making the thick folded test paper above lean to one side instead of standing centered. Child Yunseo sights along the groove to see the tilt. Vertical single scene. No second insert, photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 9
+    beat: "홈받이 아래 종이 부스러기를 찾는다"
+    caption: "홈받이 밑에는 말린 종이 부스러기 한 조각이 눌려 있었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Close inspection after child Yunseo lifts the single cobalt cork channel insert from the cream V groove: exactly one small curled cream paper shaving is flattened beneath the insert's front end, while the rest of the groove is empty. Her short bob and sea-blue sleeves are visible. Vertical single scene. No sand, thread, glue, multiple debris pieces, photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 10
+    beat: "윤서가 홈받이와 V홈 접촉면을 닦는다"
+    caption: "윤서는 홈받이 양면과 나무 V홈의 접촉면을 마른 솔로 닦았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Canonical child Yunseo uses one small plain dry soft brush to clean both faces of the single cobalt cork channel insert and both sloping contact faces of the empty cream wooden V groove. The awl and folded paper remain safely farther back. Vertical single scene. No water, adult helper hands, photorealism, text, logo, watermark, bubble, or panel grid."
+  - panel: 11
+    beat: "깨끗한 홈받이가 평평하게 고정된다"
+    caption: "홈받이를 다시 넣자 양끝이 평평하게 붙고 흔들리지 않았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. The cleaned single muted-cobalt cork channel insert now lies fully seated and level inside the cream wooden V groove. Child Yunseo presses lightly at the front and rear ends with two fingertips; neither end rocks or lifts. Doyun watches without touching. Vertical single scene. No paper on top yet, text, logo, watermark, bubble, or panel grid."
+  - panel: 12
+    beat: "실제 책 두께의 시험 종이를 세운다"
+    caption: "윤서는 실제 책과 같은 두께의 시험 종이를 V홈에 세웠다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo places one folded cream test-paper stack matching the real booklet thickness upright and centered in the cleaned cobalt-lined V groove, with the sharp fold resting over the empty channel. She steadies both sides with small hands while the awl remains aside. Vertical single scene. No printed marks, ruler, clamp, text, logo, watermark, bubble, or panel grid."
+  - panel: 13
+    beat: "급한 얕은 압력은 종이 섬유를 일으킨다"
+    caption: "송곳을 급하게 얕게 누르자 끝이 멈추고 종이 섬유가 거칠게 일어났다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. First cradle-supported test close-up: child Yunseo has made one too-quick shallow push with the wooden-handled awl; its point has stopped halfway through the folded thick paper and rough pale paper fibers rise around one incomplete hole. The fold remains centered over the cobalt channel. Vertical single scene. No blood, second hole, text, logo, watermark, bubble, or panel grid."
+  - panel: 14
+    beat: "윤서가 한 번 천천히 끝까지 누른다"
+    caption: "윤서는 송곳을 수직으로 맞춰 한 번 천천히 끝까지 눌렀다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Canonical child Yunseo aligns the wooden-handled steel awl perfectly vertical over a fresh spot on the folded cream test stack and makes one steady complete downward press into the open cobalt-lined channel. Her free hand supports both paper sides safely away from the point; Doyun's hands remain back. Vertical single scene. No repeated jabs, clock, arrows, text, logo, watermark, bubble, or panel grid."
+  - panel: 15
+    beat: "두 번째 구멍과 접힌 골이 깨끗하다"
+    caption: "두 번째 구멍은 깨끗했고 접힌 골 양쪽도 찢어지지 않았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Clear successful test close-up after lifting the awl: one small clean round hole passes through the folded cream paper exactly at the fold, and both sides of the crease remain sharp, smooth, and uncrushed above the stable cobalt-lined V groove. Child Yunseo inspects the result. Vertical single scene. No extra holes, letters, photorealism, logo, watermark, bubble, or panel grid."
+  - panel: 16
+    beat: "윤서가 실제 표지와 속지를 가지런히 세운다"
+    caption: "윤서는 실제 표지와 속지를 가지런히 포개 V홈에 세웠다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo aligns the actual thick cream booklet cover and blank inner pages into one even folded stack, then sets the fold upright in the cleaned cobalt-lined V groove. Several small unlettered coastal photographs wait face-down nearby. Vertical single scene. No printed guide, adult intervention, text, logo, watermark, bubble, or panel grid."
+  - panel: 17
+    beat: "세 제본 자리에 한 번씩 구멍을 낸다"
+    caption: "세 제본 자리에 송곳을 한 번씩 수직으로 눌러 구멍을 냈다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Object-focused view of the actual folded booklet stack standing in the cobalt-lined V groove after child Yunseo has made exactly three clean evenly spaced binding holes along the fold, each from one vertical complete awl press. She lifts the awl straight away while Doyun and Soondeok observe from behind. Vertical single scene. No printed measurement marks, extra holes, blood, text, logo, watermark, bubble, or panel grid."
+  - panel: 18
+    beat: "윤서가 푸른 실로 묶고 접힘을 확인한다"
+    caption: "윤서는 푸른 실을 꿰어 묶고 책을 펼쳐 접힌 골을 확인했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Canonical child Yunseo threads one plain muted-cobalt cord through exactly three clean holes in the small cream booklet, ties a simple secure binding, and opens the finished booklet flat to inspect the intact center fold. The interior holds small unlettered coastal photographs without signs or words. Vertical single scene. No sewing machine, printed title, fake writing, text, logo, watermark, bubble, or panel grid."
+  - panel: 19
+    beat: "서울 작업자가 자기 표지 아래를 닦고 시험한다"
+    caption: "서울의 제본 작업자도 자기 표지 아래 홈받이를 닦고 시험했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Seoul shared bookbinding workroom. One adult Korean woman bookbinder lifts and brushes both faces of the same kind of single cobalt cork channel insert and the cream wooden V groove, then places her own thick unlettered gray cover fold in the cleaned cradle for a test. Doyun stands aside as a witness. Vertical single scene. No child, printing press, text, sign, logo, watermark, bubble, or panel grid."
+  - panel: 20
+    beat: "완성된 작은 책이 온전한 골로 펼쳐진다"
+    caption: "푸른 실로 묶인 작은 책은 접힌 골을 찢지 않고 끝까지 펼쳐졌다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Restrained final Jeju image: one finished small cream photo booklet lies fully open and flat on the worktable, bound by one neat muted-cobalt thread through three clean holes; the center fold is straight and unbroken, and small coastal photographs inside contain no readable signs or words. The cleaned cream V-groove cradle with seated cobalt cork insert rests nearby while child Yunseo watches from a respectful small distance. Vertical single scene. No printing board, felt pad, wave motif, photorealism, text, logo, watermark, bubble, or panel grid."
