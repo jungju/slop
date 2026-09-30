@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-021",
+  "number": 21,
+  "title": "21화: Gemini 4는 아직 모두 못 쓴다",
+  "shortTitle": "Gemini 4는 아직 모두 못 쓴다",
+  "lead": "Google은 Gemini 4 Argon을 발표했지만 현재는 일부 신뢰된 사이버 보안 파트너에게만 먼저 제공하고, 더 넓은 공개 전에 평가와 안전장치 보완을 이어 가고 있다.",
+  "closingLine": "회사가 공개한 높은 벤치마크와 제한된 초기 접근은 구분해야 하며, 넓은 공개 뒤 독립적인 실사용 검증이 필요하다.",
+  "news": {
+    "headline": "Google announced Gemini 4 Argon for a limited group of trusted cyber defenders",
+    "eventDate": "2026-09-30",
+    "researchDate": "2026-10-01",
+    "summary": "Google은 복잡한 지식 업무·코딩·사이버 보안을 겨냥한 Gemini 4 Argon을 발표했습니다. 회사 측 벤치마크는 높은 점수를 제시하지만, 현재는 일부 신뢰된 사이버 보안 파트너에게만 먼저 제공되며 공개 출시 일정과 광범위한 독립 실사용 결과는 아직 없습니다.",
+    "selectionNote": "최근 48시간의 비중복 AI 발표를 검토한 뒤 2026년 9월 30일 Gemini 4 Argon 발표를 선정했습니다. Google 공식 발표·모델 페이지와 Axios·Reuters를 모두 열어 읽고, 회사 측 성능표와 제한된 초기 접근, 공개 검증의 공백을 함께 보존했습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "1차 발표",
+      "title": "Gemini 4 Argon: our next era of frontier intelligence",
+      "publisher": "Google",
+      "publishedAt": "2026-09-30",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "note": "모델 발표, Fairwind Program의 제한된 초기 접근, 회사 측 평가와 단계적 배포 계획을 설명합니다."
+    },
+    {
+      "kind": "primary",
+      "label": "공식 모델 자료",
+      "title": "Gemini 4 Argon",
+      "publisher": "Google DeepMind",
+      "publishedAt": "2026-09-30",
+      "url": "https://deepmind.google/models/gemini/",
+      "note": "회사 측 벤치마크 표와 안전장치, 제한 배포 범위를 공개합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 보도",
+      "title": "Google unveils long-awaited Gemini 4",
+      "publisher": "Axios",
+      "publishedAt": "2026-09-30",
+      "url": "https://www.axios.com/2026/09/30/google-gemini-4",
+      "note": "초기 제공 대상과 회사 벤치마크를 확인하고, 실제 사용 검증이 별도로 필요하다고 짚습니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 보도",
+      "title": "Google announces Gemini 4 flagship AI model after months of delays",
+      "publisher": "Reuters via StreetInsider",
+      "publishedAt": "2026-09-30",
+      "url": "https://www.streetinsider.com/Reuters/Google+announces+Gemini+4+flagship+AI+model+after+months+of+delays/27128604.html",
+      "note": "선택된 사이버 보안 파트너에게만 제공되며 공개 출시 일정이 없다는 점을 확인합니다."
+    }
+  ],
+  "publishedAt": "2026-09-30T21:10:31.644Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: 새 Gemini 4가 나왔다고요? 픽: 지금은 일부 보안 전문가만 써요. 누리: 성능표가 좋아도 바로 믿어도 될까요? 픽: 아직은 공개 시험과 실사용 검증이 필요해요.",
+      "alt": "21화: Gemini 4는 아직 모두 못 쓴다 1페이지. 누리: 새 Gemini 4가 나왔다고요? 픽: 지금은 일부 보안 전문가만 써요. 누리: 성능표가 좋아도 바로 믿어도 될까요? 픽: 아직은 공개 시험과 실사용 검증이 필요해요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": "GPT-5",
+      "status": "known-model"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}

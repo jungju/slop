@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "kicker": "인공지능 뉴스 네 컷",
+  "title": "Gemini 4는 아직 모두 못 쓴다",
+  "footer": "성능표와 공개 접근은 따로 확인하세요.",
+  "panels": [
+    { "number": 1, "speaker": "누리", "text": "새 Gemini 4가\n나왔다고요?" },
+    { "number": 2, "speaker": "픽", "text": "지금은 일부 보안\n전문가만 써요." },
+    { "number": 3, "speaker": "누리", "text": "성능표가 좋아도 바로\n믿어도 될까요?" },
+    { "number": 4, "speaker": "픽", "text": "아직은 공개 시험과\n실사용 검증이 필요해요." }
+  ]
+}

@@ -24,3 +24,4 @@
 | ep-018 | 2026-09-28 | AI가 가구 조립 실수를 80% 찾았다 | `https://epoch.ai/benchmarks/furniture-assembly|2026-09-23` | 한 장 2×2 네 컷, 사진·설명서 공간 추론 점수와 60장·가구 3종·실제 현장 일반화 한계를 함께 설명 |
 | ep-019 | 2026-09-29 | 법원이 Claude의 국방부 제외를 인정했다 | `https://law.justia.com/cases/federal/appellate-courts/cadc/26-1049/26-1049-2026-09-25.html|2026-09-25` | 한 장 2×2 네 컷, 국방부 공급망 제외를 인정한 2대1 판결과 별도 소송·추가 재심 가능성을 함께 설명 |
 | ep-020 | 2026-09-30 | Claude Sonnet 5.5가 더 빨라졌다 | `https://www.anthropic.com/claude-sonnet-5-5|2026-09-28` | 한 장 2×2 네 컷, 회사 발표 속도·작업당 비용과 동일 토큰 단가·실작업 재검증 필요를 함께 설명 |
+| ep-021 | 2026-10-01 | Gemini 4는 아직 모두 못 쓴다 | `https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/|2026-09-30` | 한 장 2×2 네 컷, 제한된 보안 파트너 접근과 회사 측 성능표·공개 실사용 검증 필요를 함께 설명 |
