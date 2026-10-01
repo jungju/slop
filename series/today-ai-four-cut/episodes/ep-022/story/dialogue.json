@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "kicker": "인공지능 뉴스 네 컷",
+  "title": "AI의 숨은 풀이를 노렸다",
+  "footer": "시도 수와 성공 수는 다르게 봐야 해요.",
+  "panels": [
+    { "number": 1, "speaker": "누리", "text": "AI의 숨은 풀이도\n빼낼 수 있나요?" },
+    { "number": 2, "speaker": "픽", "text": "대규모 요청이 숨은\n추론을 노렸어요." },
+    { "number": 3, "speaker": "누리", "text": "암호가 깨진 건\n아니었죠?" },
+    { "number": 4, "speaker": "픽", "text": "맞아요. 서비스마다\n겹겹이 막아야 해요." }
+  ]
+}
