@@ -1,0 +1,41 @@
+version: 2
+episode: ep-022
+reader_page: 1
+layout: single_image_2x2
+generation_mode: one_complete_lettered_poster
+reference: ".codex/skills/today-ai-four-cut-series/assets/reference-layout.png"
+exact_copy:
+  kicker: "인공지능 뉴스 네 컷"
+  title: "AI의 숨은 풀이를 노렸다"
+  footer: "시도 수와 성공 수는 다르게 봐야 해요."
+  panels:
+    - { number: "1", speaker: "누리", text: "AI의 숨은 풀이도\n빼낼 수 있나요?" }
+    - { number: "2", speaker: "픽", text: "대규모 요청이 숨은\n추론을 노렸어요." }
+    - { number: "3", speaker: "누리", text: "암호가 깨진 건\n아니었죠?" }
+    - { number: "4", speaker: "픽", text: "맞아요. 서비스마다\n겹겹이 막아야 해요." }
+panels:
+  - panel: 1
+    role: hook
+    visual_action: "누리가 잠긴 생각 구름이 표시된 투명 모형을 들여다보며 픽에게 묻는다. 로고와 추가 글자는 없다."
+    source_claims: [C1]
+    tail_target: character.nuri.001
+  - panel: 2
+    role: fact
+    visual_action: "픽이 여러 익명 계정 아이콘에서 한 모델로 몰리는 요청 흐름을 가리킨다. 아이콘과 흐름에는 글자나 숫자가 없다."
+    source_claims: [C2, C3]
+    tail_target: character.pik.001
+  - panel: 3
+    role: meaning_and_limit
+    visual_action: "누리가 손상되지 않은 자물쇠와 그 옆의 우회 화살표를 비교한다. 암호 파괴나 데이터베이스 침입으로 보이지 않게 한다."
+    source_claims: [C4]
+    tail_target: character.nuri.001
+  - panel: 4
+    role: takeaway
+    visual_action: "픽이 여러 서비스 노드를 함께 덮는 겹겹의 방패를 세운다. 서비스 노드에는 읽을 수 있는 글자가 없다."
+    source_claims: [C5, C6]
+    tail_target: character.pik.001
+generation_requirements:
+  - "Built-in image generation creates the complete poster, panel borders, balloons, tails, all exact Korean copy, and digits in one result."
+  - "Exactly four panels and exactly four speech balloons."
+  - "No local lettering, local balloon drawing, or post-generation text repair."
+  - "Reject and regenerate for any typo, paraphrase, missing character, extra text, fake Korean, missing tail, or identity drift."

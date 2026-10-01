@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-022",
+  "number": 22,
+  "title": "22화: AI의 숨은 풀이를 노렸다",
+  "shortTitle": "AI의 숨은 풀이를 노렸다",
+  "lead": "OpenAI는 보호된 모델 추론을 빼내려 한 조직적 활동을 발견해 차단했다고 공개했다. 다만 회사가 밝힌 16,000건은 성공한 탈취가 아니라 관련 패턴의 시도 수다.",
+  "closingLine": "암호나 데이터베이스가 뚫린 사건으로 과장하지 말고, 계정·출력·제3자 클라우드까지 같은 수준의 방어가 적용되는지 확인해야 한다.",
+  "news": {
+    "headline": "OpenAI disclosed and disrupted a coordinated model-distillation campaign",
+    "eventDate": "2026-09-30",
+    "researchDate": "2026-10-02",
+    "summary": "OpenAI는 보호된 추론을 추출하려 한 조직적 활동을 공개했습니다. 회사는 7월의 대규모 요청 패턴과 관련 계정 군집을 차단했다고 밝혔지만, 공개된 수치는 성공 건수가 아니라 시도 규모이며 암호·데이터베이스·저장된 사용자 대화가 직접 침해된 사건은 아니라고 설명했습니다.",
+    "selectionNote": "최근 48시간의 비중복 AI 발표를 검토한 뒤 2026년 9월 30일 OpenAI 보안 공개를 선정했습니다. 공식 발표, 보안 연구, The Independent와 The Decoder를 모두 열어 읽고 시도 규모, 귀속의 한계, 제3자 클라우드 방어 지연을 함께 보존했습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "1차 발표",
+      "title": "Disrupting a coordinated model-distillation campaign",
+      "publisher": "OpenAI",
+      "publishedAt": "2026-09-30",
+      "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign/",
+      "note": "활동의 규모, 공격 방식, 부분 귀속, 적용한 방어와 시도 수라는 한계를 설명합니다."
+    },
+    {
+      "kind": "primary",
+      "label": "보안 연구",
+      "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+      "publisher": "arXiv / 연구 저자 8인",
+      "publishedAt": "2026-08-10",
+      "url": "https://arxiv.org/abs/2608.09867",
+      "note": "세션·사용자·모델 사이의 암호화 추론 블록 호환성을 악용한 공격 경로와 완화책을 실증합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 보도",
+      "title": "OpenAI reveals huge ‘co-ordinated campaign’ to attack ChatGPT",
+      "publisher": "The Independent",
+      "publishedAt": "2026-10-01",
+      "url": "https://www.independent.co.uk/tech/security/chatgpt-openai-moonshot-distillation-b3059668.html",
+      "note": "OpenAI 발표의 규모·차단 시점·부분 귀속을 확인하고 합법적 증류와 무단 추출을 구분합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 분석",
+      "title": "OpenAI says it stopped a campaign to steal its models' reasoning, but the trick still worked on Azure",
+      "publisher": "The Decoder",
+      "publishedAt": "2026-10-01",
+      "url": "https://the-decoder.com/openai-says-it-stopped-a-campaign-to-steal-its-models-reasoning-but-the-trick-still-worked-on-azure/",
+      "note": "공식 발표와 연구진 후속 감사를 대조해 제3자 클라우드의 방어 적용 지연을 설명합니다."
+    }
+  ],
+  "publishedAt": "2026-10-01T21:07:21.244Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: AI의 숨은 풀이도 빼낼 수 있나요? 픽: 대규모 요청이 숨은 추론을 노렸어요. 누리: 암호가 깨진 건 아니었죠? 픽: 맞아요. 서비스마다 겹겹이 막아야 해요.",
+      "alt": "22화: AI의 숨은 풀이를 노렸다 1페이지. 누리: AI의 숨은 풀이도 빼낼 수 있나요? 픽: 대규모 요청이 숨은 추론을 노렸어요. 누리: 암호가 깨진 건 아니었죠? 픽: 맞아요. 서비스마다 겹겹이 막아야 해요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": "GPT-5",
+      "status": "known-model"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}
