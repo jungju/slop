@@ -1,0 +1,120 @@
+version: 1
+episode: ep-052
+style_lock: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text."
+continuity:
+  characters:
+    - character.doyun.001@v1
+    - character.yunseo.001@v1
+    - character.soondeok.001@v1
+  props:
+    - prop.continuous-cold-roller.001@v1
+clarity:
+  concrete_pages: 20
+  metaphor_pages: []
+  concrete_ratio: 1.0
+  protagonist_goal_visible_by_page: 2
+  concrete_problem_visible_by_page: 4
+  choice_changes_next_action: true
+  payoff_visually_observable: true
+accepted_prompt_addenda:
+  1: "Regenerated against a plain blank workroom to remove wall-map writing-like marks and unrelated photographs."
+  2: "Regenerated with the accepted page-1 child reference to preserve Yunseo's canonical bob, child proportions, rain jacket, trousers, and boots."
+  3: "Regenerated with the accepted child reference and canonical prop reference so Doyun works beside canonical Yunseo and one stable machine."
+  4: "Regenerated with the accepted child and prop references; the accepted pouch visibly carries several long trapped-air bands and one creased corner."
+  5: "Regenerated with the accepted child and prop references to remove tied hair, overalls, and incompatible machine geometry."
+  6: "Regenerated with the accepted child and prop references so canonical Soondeok demonstrates the contact line and exit path."
+  7: "Regenerated as a clean text-locked prop reference with exactly two exposed rollers, one cobalt right-side crank, and cream entry and exit trays."
+  8: "Regenerated from the accepted child and prop references to preserve both identities during the empty-roller test."
+  9: "Regenerated from the accepted child and prop references; the accepted close view contains exactly one dried adhesive crumb on the lower roller."
+  10: "Regenerated from the accepted child and prop references to preserve canonical wardrobe and dry-cloth cleaning."
+  11: "Regenerated from the accepted child and prop references to preserve the straight empty contact test."
+  12: "Regenerated from the accepted child and prop references to preserve the blank thickness-test packet without wardrobe drift."
+  13: "Regenerated from the accepted child and prop references; two parallel pressure bands remain visible on the stopped test packet."
+  14: "Regenerated from the accepted child and prop references to preserve the straight sealed-edge alignment."
+  15: "Regenerated from the accepted child and prop references to preserve one forward operation and keep Doyun's hands off the crank."
+  16: "Regenerated from the accepted child and prop references to preserve the fully exited smooth test packet."
+  17: "Regenerated twice; the final single-character composition removes the false boy and dog while preserving Yunseo and the canonical roller."
+  18: "Regenerated twice; the final single-character inspection removes the false child companion and preserves Yunseo's agency."
+  19: "Regenerated from the canonical prop reference so the Seoul archivist uses the same roller structure."
+  20: "Regenerated from the accepted child and prop references to remove tied hair and preserve the flat-box payoff."
+pages:
+  - panel: 1
+    beat: "윤서가 말린 항구 사진을 고른다"
+    caption: "윤서는 비에 젖을 때마다 가장자리가 말리는 글자 없는 항구 사진 한 장을 골랐다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Jeju community archive workroom. Elementary-school-age Korean girl Kang Yunseo with clear child proportions, short straight jaw-length black bob with soft blunt bangs, muted sea-blue hooded rain jacket over a cream sweatshirt, charcoal pants, and dark rubber boots chooses one small unlettered harbor photograph whose two corners curl upward from damp weather. Low wooden worktable, calm child-scale view. Vertical single scene. No readable signs, letters, adult-looking child, photorealism, logo, watermark, caption, speech bubble, or panel grid."
+  - panel: 2
+    beat: "윤서가 투명 보호지로 사진을 지키려 한다"
+    caption: "투명 보호지에 넣어 작업 상자에 오래 두는 것이 윤서의 목표였다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Canonical child Yunseo in the same wardrobe slides the single curled unlettered harbor photograph into one clear archival protective pouch beside a plain cream storage box. The pouch is transparent, blank, and slightly larger than the photograph. Vertical single scene. No laminator yet, printed label, writing, extra photographs, photorealism, logo, watermark, bubble, or panel grid."
+  - panel: 3
+    beat: "도윤이 손잡이를 조금 돌렸다 되감는다"
+    caption: "도윤은 수동 롤러 손잡이를 조금 돌렸다가 자꾸 되감았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Slim clean-shaven 26-year-old Korean man Han Doyun with slightly long wavy black hair, gray hoodie under a dark long coat, old brown messenger bag, and black-and-silver vintage film camera feeds the clear pouch into one compact hand-cranked cold roller machine and hesitantly turns its single muted-cobalt side handle forward a short distance then backward. Child Yunseo watches. The machine has a low cream rectangular base, two horizontal pale-gray silicone rollers, and flat cream entry and exit trays, with no heat, motor, controls, labels, or extra knobs. Vertical single scene. No text, logo, watermark, bubble, arrows, or panel grid."
+  - panel: 4
+    beat: "기포와 모서리 주름이 남는다"
+    caption: "짧게 오간 자국 사이로 긴 기포와 한쪽 모서리 주름이 남았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Clear problem close-up on the partially rolled transparent photo pouch: several long narrow air bubbles lie parallel between short pressure bands, and exactly one corner is creased where the pouch reversed direction. The unlettered harbor image remains visible beneath. Yunseo's small finger points near but not on the damaged corner. Vertical single scene. No fake text, extra photos, photorealism, logo, watermark, bubble, or panel grid."
+  - panel: 5
+    beat: "윤서가 실제 두께와 아래 롤러를 보려 한다"
+    caption: "윤서는 더 밀기 전에 실제 두께와 아래 롤러부터 보겠다고 말했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Canonical child Yunseo raises one calm stop palm toward Doyun's hand on the cobalt crank and points with her other hand from the actual clear photo pouch down toward the lower roller beneath it. Doyun releases the handle and listens. One compact cream cold roller machine only. Vertical single scene. No adult-looking Yunseo, argument, text, logo, watermark, bubble, or panel grid."
+  - panel: 6
+    beat: "순덕이 맞물림과 배출 길을 짚는다"
+    caption: "순덕은 두 롤러가 만나는 선과 보호지가 나올 길을 함께 보라고 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Elderly Jeju Korean woman Soondeok with short gray-white hair, wind-weathered face, and sea-colored practical work outerwear points to the straight contact line between the two horizontal pale-gray rollers, then traces the clear empty exit path across the rear cream tray. Child Yunseo follows both points while Doyun stands back. Vertical single scene. No magical gesture, writing, logo, watermark, bubble, arrows, or panel grid."
+  - panel: 7
+    beat: "윤서가 롤러 구조를 살핀다"
+    caption: "윤서는 크림색 받침대와 두 롤러, 푸른 손잡이의 맞물림을 살폈다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Clean top three-quarter inspection view in front of child Yunseo: exactly one compact manual cold roller with one low rectangular cream-painted base, two equal horizontal pale-gray silicone rollers, one simple muted-cobalt crank on the right side, and flat cream entry and exit support trays. No heat unit, motor, cable, dial, buttons, printed scale, label, brand, text, brass hardware, felt, V groove, or clamp. Vertical single scene. No photorealism, watermark, bubble, or panel grid."
+  - panel: 8
+    beat: "아래 롤러가 한 지점에서 들썩인다"
+    caption: "손잡이를 비워 돌리자 아래 롤러가 한 지점에서 작게 들썩였다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Side close view of the empty compact cream roller machine as child Yunseo slowly turns the single cobalt crank: the lower pale-gray silicone roller makes one tiny visible bump at a single point while the upper roller stays level. Her clear child profile and sea-blue sleeve are visible. Vertical single scene. No pouch inside, second machine, gear diagram, arrows, text, logo, watermark, bubble, or panel grid."
+  - panel: 9
+    beat: "아래 롤러의 마른 풀 알갱이를 찾는다"
+    caption: "아래 실리콘 롤러에는 마른 풀 알갱이 한 개가 붙어 있었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Tight evidence view after the upper roller has been safely lifted on its simple side slots: exactly one tiny dried cream adhesive crumb sticks to the lower pale-gray silicone roller at the bump point. Child Yunseo indicates the single crumb with one fingertip held just above it. Vertical single scene. No sand, thread, paper shaving, multiple debris pieces, tools, text, logo, watermark, bubble, or panel grid."
+  - panel: 10
+    beat: "윤서가 두 롤러와 배출면을 닦는다"
+    caption: "윤서는 두 롤러와 배출 받침면을 부드러운 마른 천으로 닦았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Canonical child Yunseo uses one plain soft dry cream cloth to wipe both pale-gray silicone rollers and the flat cream exit tray. The single dried crumb has been removed and rests separately on a small scrap for disposal. Doyun watches without touching. Vertical single scene. No water, solvent bottle, brush, adult helper hands, text, logo, watermark, bubble, or panel grid."
+  - panel: 11
+    beat: "두 롤러가 매끄럽게 맞물린다"
+    caption: "다시 돌린 두 롤러는 같은 속도로 매끄럽게 맞물렸다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. The cleaned upper and lower pale-gray rollers are reseated straight in the compact cream machine. Child Yunseo turns the single cobalt crank with two small hands while both empty rollers meet evenly and rotate smoothly with no bump; Doyun sights along the straight contact line. Vertical single scene. No pouch yet, motion arrows, gauge, text, logo, watermark, bubble, or panel grid."
+  - panel: 12
+    beat: "실제 두께의 시험 묶음을 만든다"
+    caption: "윤서는 실제 사진과 같은 두께의 빈 종이로 시험 묶음을 만들었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo builds one test packet from one blank cream card matching the actual photograph thickness inside one clear unlettered protective pouch, carefully aligning all four edges beside the cleaned compact cream roller machine. Vertical single scene. No real photo inside, ruler, printed marks, multiple pouches, text, logo, watermark, bubble, or panel grid."
+  - panel: 13
+    beat: "멈추고 되감자 시험 묶음에 기포가 생긴다"
+    caption: "중간에 멈추고 되감자 시험 묶음에도 평행한 기포 줄이 생겼다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Controlled failure test: the blank cream-card pouch is halfway through the rollers after one stop and short reversal, showing two clear parallel trapped-air bands at the reversal point. Child Yunseo holds the cobalt crank still and studies the result; Doyun's hands remain back. Vertical single scene. No photograph, extra creases, arrows, text, logo, watermark, bubble, or panel grid."
+  - panel: 14
+    beat: "윤서가 밀봉 모서리를 곧게 맞춘다"
+    caption: "윤서는 밀봉된 앞쪽 모서리를 롤러에 곧게 맞췄다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Canonical child Yunseo starts a fresh blank test pouch by aligning its already sealed straight leading edge evenly against the full contact line of the two cleaned rollers. Her small hands keep both corners square on the cream entry tray; the cobalt crank waits untouched. Vertical single scene. No adult-looking child, printed guide, ruler, arrows, text, logo, watermark, bubble, or panel grid."
+  - panel: 15
+    beat: "윤서가 한 방향으로 끝까지 돌린다"
+    caption: "푸른 손잡이를 멈추지 않고 한 방향으로 끝까지 돌렸다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Canonical child Yunseo steadily turns the single muted-cobalt crank forward with both hands in one continuous operation while the fresh blank pouch travels smoothly between the pale-gray rollers. Doyun supports only the far exit tray edge and does not touch the pouch or handle. Vertical single scene. No reversal, extra handles, motion arrows, speed lines, text, logo, watermark, bubble, or panel grid."
+  - panel: 16
+    beat: "시험 묶음이 깨끗하게 완전히 나온다"
+    caption: "시험 묶음은 기포와 주름 없이 반대편으로 완전히 나왔다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Clear successful test view: the entire blank cream-card pouch lies flat on the rear cream exit tray beyond the rollers, perfectly smooth with no bubbles, wrinkles, or curled edges. Child Yunseo lifts one corner gently to inspect the clear surface while the machine remains still. Vertical single scene. No photograph, second pouch, printed mark, text, logo, watermark, bubble, or panel grid."
+  - panel: 17
+    beat: "실제 항구 사진을 같은 방향으로 넣는다"
+    caption: "윤서는 실제 항구 사진과 투명 보호지를 같은 방향으로 넣었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo aligns the actual single unlettered harbor photograph inside a fresh clear protective pouch and feeds its sealed leading edge squarely into the cleaned compact cream roller machine in the same tested direction. The photo corners are still slightly curled before entry. Doyun and Soondeok observe behind her. Vertical single scene. No extra photos, fake writing, adult intervention, text, logo, watermark, bubble, or panel grid."
+  - panel: 18
+    beat: "한 번 통과한 사진 면을 빛에 비춘다"
+    caption: "한 번의 연속 통과 뒤 가장자리와 사진 면을 빛에 비춰 확인했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. After one complete forward pass, canonical child Yunseo holds the fully protected harbor photograph at a gentle angle under plain Jeju window light, checking all four flat edges and the bubble-free transparent surface. Doyun looks where she points rather than taking it. Vertical single scene. No glare hiding the image, lamp, printed signs, text, logo, watermark, bubble, or panel grid."
+  - panel: 19
+    beat: "서울 기록 작업자도 자기 사진으로 시험한다"
+    caption: "서울의 기록 작업자도 자기 큰 사진 두께로 시험한 뒤 한 번에 통과시켰다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Seoul shared archive workroom. One adult Korean woman archivist first compares one blank test card to her own larger unlettered abstract photograph, then turns the same kind of compact cream cold roller's single cobalt crank continuously as the larger clear pouch passes straight through. Doyun stands aside as a witness. Vertical single scene. No child, bookbinding, textile printing, labels, signs, text, logo, watermark, bubble, or panel grid."
+  - panel: 20
+    beat: "보호된 사진이 작업 상자에 평평하게 놓인다"
+    caption: "투명하게 보호된 항구 사진은 윤서의 작업 상자에 평평하게 놓였다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Restrained final Jeju image: the single transparent-protected unlettered harbor photograph lies perfectly flat inside Yunseo's plain open cream work box, its four edges smooth and its surface bubble-free. The cleaned compact cream cold roller with two pale-gray rollers and one cobalt crank rests nearby while child Yunseo closes the blank box lid partway. Vertical single scene. No bookbinding cradle, awl, felt printing pad, printed label, text, logo, watermark, bubble, or panel grid."

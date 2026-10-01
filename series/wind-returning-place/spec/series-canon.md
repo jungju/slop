@@ -563,6 +563,20 @@ immediately repeating bookbinding cradles, V grooves, removable cobalt cork
 inserts, exactly three binding holes, awls, curled paper shavings, repeated-
 shallow-versus-single-complete presses, or owner-cleaned bookbinding payoffs.
 
+Episode 52 turns fold-specific piercing support into continuous passage through
+a hidden contact. The compact cream manual cold roller,
+`prop.continuous-cold-roller.001@v1`, lets Yunseo stop Doyun's short forward-
+and-reverse cranks after they leave long bubbles and a corner crease in the
+clear pouch around her actual harbor photograph. She inspects the lower roller,
+finds and removes one dried adhesive crumb, dry-cleans both rollers and the exit
+tray, tests the actual photograph thickness, then aligns the sealed edge and
+uses one uninterrupted forward pass. Soondeok supplies the practical contact-
+line-and-exit-path check; a later Seoul archivist tests her own larger photo;
+Minjae remains absent in the present. Future episodes should avoid immediately
+repeating cold laminating rollers, transparent archival pouches, paired pale-
+gray silicone rollers, single cobalt side cranks, dried adhesive crumbs, short-
+reverse-versus-continuous-pass tests, or archivist photo-protection payoffs.
+
 ## Good Future Episode Engines
 
 Use one concrete motif and one emotional question:

@@ -2,6 +2,35 @@ version: 1
 factory_type: comic
 comic_id: wind-returning-place
 elements:
+  - id: prop.continuous-cold-roller.001
+    name: 멈추지 않고 통과시키는 수동 냉간 롤러
+    category: prop
+    scope: episode
+    status: active
+    introduced_in: ep-052
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-052
+        active_until: ep-052
+        supersedes: null
+        immutable_features:
+          - one compact manual cold roller with one low rectangular cream-painted base and flat cream entry and exit support trays
+          - exactly two equal horizontal pale-gray silicone rollers that meet along one straight contact line
+          - one simple muted-cobalt crank on the right side used for one continuous forward pass
+          - no heat unit, motor, cable, dial, buttons, printed scale, label, brand, text, brass hardware, felt, V groove, or clamp
+        mutable_features:
+          - rollers empty, lifted for inspection, wiped dry, or carrying one transparent protective pouch
+          - one temporary dried cream adhesive crumb on the lower roller before cleaning
+          - one blank thickness-test card or one unlettered harbor photograph inside the pouch
+          - Jeju community archive workroom or Seoul shared archive workroom
+        reference_asset_ids:
+          - prop-continuous-cold-roller-001-v1-text-lock
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: text_locked
   - id: prop.bookbinding-piercing-cradle.001
     name: 접힌 골을 받치는 제본 송곳 받침
     category: prop
