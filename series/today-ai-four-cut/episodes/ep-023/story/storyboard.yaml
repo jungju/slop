@@ -1,0 +1,41 @@
+version: 2
+episode: ep-023
+reader_page: 1
+layout: single_image_2x2
+generation_mode: one_complete_lettered_poster
+reference: ".codex/skills/today-ai-four-cut-series/assets/reference-layout.png"
+exact_copy:
+  kicker: "인공지능 뉴스 네 컷"
+  title: "Claude Code에 모드가 생겼다"
+  footer: "모드는 기능이면서 실행 코드예요."
+  panels:
+    - { number: "1", speaker: "누리", text: "AI 코딩 도구를 직접\n바꿀 수 있나요?" }
+    - { number: "2", speaker: "픽", text: "모드가 화면과 도구\n호출을 바꿔요." }
+    - { number: "3", speaker: "누리", text: "편리해도 아무거나 깔면\n위험하겠네요?" }
+    - { number: "4", speaker: "픽", text: "맞아요. 내 권한으로\n돌아가니 꼭 확인해요." }
+panels:
+  - panel: 1
+    role: hook
+    visual_action: "누리가 작은 퍼즐 모양 확장 부품을 들고 픽에게 묻는다. 로고와 추가 글자는 없다."
+    source_claims: [C1]
+    tail_target: character.nuri.001
+  - panel: 2
+    role: fact
+    visual_action: "픽이 하나의 모드 부품에서 프롬프트 카드, 도구 팔, 화면 패널로 이어지는 세 갈래 변화를 가리킨다. 모든 아이콘에는 글자가 없다."
+    source_claims: [C2, C3]
+    tail_target: character.pik.001
+  - panel: 3
+    role: meaning_and_limit
+    visual_action: "누리가 빛나는 모드 부품 뒤에 이어진 파일, 열쇠, 네트워크 아이콘을 보고 경계한다. 실제 비밀값이나 추가 글자는 없다."
+    source_claims: [C4, C5]
+    tail_target: character.nuri.001
+  - panel: 4
+    role: takeaway
+    visual_action: "픽이 돋보기와 방패로 모드 부품을 검사하고 누리가 고개를 끄덕인다. 검증과 신뢰를 상징하되 추가 글자는 없다."
+    source_claims: [C6]
+    tail_target: character.pik.001
+generation_requirements:
+  - "Built-in image generation creates the complete poster, panel borders, balloons, tails, all exact Korean copy, and digits in one result."
+  - "Exactly four panels and exactly four speech balloons."
+  - "No local lettering, local balloon drawing, or post-generation text repair."
+  - "Reject and regenerate for any typo, paraphrase, missing character, extra text, fake Korean, missing tail, or identity drift."
