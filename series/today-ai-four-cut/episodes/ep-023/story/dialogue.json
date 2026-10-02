@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "kicker": "인공지능 뉴스 네 컷",
+  "title": "Claude Code에 모드가 생겼다",
+  "footer": "모드는 기능이면서 실행 코드예요.",
+  "panels": [
+    { "number": 1, "speaker": "누리", "text": "AI 코딩 도구를 직접\n바꿀 수 있나요?" },
+    { "number": 2, "speaker": "픽", "text": "모드가 화면과 도구\n호출을 바꿔요." },
+    { "number": 3, "speaker": "누리", "text": "편리해도 아무거나 깔면\n위험하겠네요?" },
+    { "number": 4, "speaker": "픽", "text": "맞아요. 내 권한으로\n돌아가니 꼭 확인해요." }
+  ]
+}

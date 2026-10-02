@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-023",
+  "number": 23,
+  "title": "23화: Claude Code에 모드가 생겼다",
+  "shortTitle": "Claude Code에 모드가 생겼다",
+  "lead": "Anthropic은 Claude Code의 프롬프트, 도구 호출, 명령과 화면을 바꿀 수 있는 TypeScript 기반 모드 기능을 공개했다. 다만 모드는 샌드박스되지 않고 사용자의 권한으로 실행된다.",
+  "closingLine": "모드는 강력한 확장 기능인 동시에 실행 코드다. 설치 전 출처와 접근 범위를 확인해야 한다.",
+  "news": {
+    "headline": "Anthropic introduced TypeScript mods for Claude Code",
+    "eventDate": "2026-10-01",
+    "researchDate": "2026-10-03",
+    "summary": "Anthropic은 Claude Code의 프롬프트·도구 호출·명령·화면 동작을 바꿀 수 있는 TypeScript 기반 모드를 공개했습니다. 모드는 플러그인으로 배포되고 CLI와 데스크톱 앱에서 작동하지만, 샌드박스되지 않은 채 사용자의 권한으로 실행되므로 신뢰할 수 있는 출처와 접근 범위를 먼저 확인해야 합니다.",
+    "selectionNote": "최근 48시간의 비중복 AI 발표를 검토한 뒤 2026년 10월 1일 Claude Code 모드 공개를 선정했습니다. 공식 발표와 문서, 독립 기술 요약을 모두 열어 읽고 기능 범위와 실행 권한 위험을 함께 보존했습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "1차 발표",
+      "title": "Customize Claude Code with mods",
+      "publisher": "Anthropic",
+      "publishedAt": "2026-10-01",
+      "url": "https://claude.com/blog/claude-code-mods",
+      "note": "모드의 출시, 프롬프트·도구 호출·UI 변경 기능, 플러그인 배포 방식과 비샌드박스 실행 경고를 설명합니다."
+    },
+    {
+      "kind": "primary",
+      "label": "공식 문서",
+      "title": "Mods overview",
+      "publisher": "Claude Code Docs",
+      "publishedAt": "2026-10-01",
+      "url": "https://code.claude.com/docs/en/plugins/mods/overview",
+      "note": "모드가 접근할 수 있는 파일·비밀·세션·네트워크 범위와 설치 전 검증 방법을 구체적으로 설명합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 기술 확인",
+      "title": "Customize Claude Code with mods",
+      "publisher": "ClaudeKit",
+      "publishedAt": "2026-10-01",
+      "url": "https://claudekit.io/en/updates/claude-code-mods/",
+      "note": "공식 문서를 바탕으로 지원 버전, 실행 위치, 비샌드박스 권한과 비활성화·검증 방법을 독립적으로 정리합니다."
+    }
+  ],
+  "publishedAt": "2026-10-02T21:10:26.707Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: AI 코딩 도구를 직접 바꿀 수 있나요? 픽: 모드가 화면과 도구 호출을 바꿔요. 누리: 편리해도 아무거나 깔면 위험하겠네요? 픽: 맞아요. 내 권한으로 돌아가니 꼭 확인해요.",
+      "alt": "23화: Claude Code에 모드가 생겼다 1페이지. 누리: AI 코딩 도구를 직접 바꿀 수 있나요? 픽: 모드가 화면과 도구 호출을 바꿔요. 누리: 편리해도 아무거나 깔면 위험하겠네요? 픽: 맞아요. 내 권한으로 돌아가니 꼭 확인해요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": "GPT-5",
+      "status": "known-model"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}
