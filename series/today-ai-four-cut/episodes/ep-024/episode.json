@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-024",
+  "number": 24,
+  "title": "24화: AI 현장 엔지니어 1만 명을 키운다",
+  "shortTitle": "AI 현장 엔지니어 1만 명을 키운다",
+  "lead": "Anthropic은 1억 달러를 투입해 2027년 말까지 기업 현장에서 AI를 배치할 엔지니어 1만 명을 양성하는 Claude Frontier Academy를 시작했다. 다만 1만 명은 이미 훈련된 인원이 아니라 앞으로 달성하려는 목표다.",
+  "closingLine": "교육 계획의 규모와 실제 성과는 다르다. 첫 수료자와 현장 결과가 나온 뒤 효과를 판단해야 한다.",
+  "news": {
+    "headline": "Anthropic launched a $100 million academy aiming to train 10,000 AI deployment engineers",
+    "eventDate": "2026-10-02",
+    "researchDate": "2026-10-05",
+    "summary": "Anthropic은 Claude Frontier Academy를 시작하며 1억 달러를 투입해 2027년 말까지 기업 현장에서 AI 시스템을 배치할 엔지니어 1만 명을 양성하겠다고 발표했습니다. 첫 과정은 며칠간의 대면 교육과 12주 현장 프로젝트로 구성되지만, 1만 명은 완료 실적이 아니라 목표이며 첫 최종 자격 취득자도 2027년 초에 나올 예정입니다.",
+    "selectionNote": "2026년 10월 5일 최근 48시간과 7일 보완 창을 다시 검토하고 기존 초안의 10월 2일 Claude Frontier Academy 출범을 유지했습니다. Anthropic 공식 발표와 독립 보도를 다시 열어 읽고 투자 규모, 과정 구조, 대상 범위와 아직 확인되지 않은 성과를 함께 보존했습니다. 새 연방 AI 태스크포스 보도는 소셜 게시물 외의 공식 1차 문서가 부족했고, 교토 과학 비전은 구체적 실행 결과가 없는 선언 단계라 제외했습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "1차 발표",
+      "title": "Claude Frontier Academy: $100M to train 10,000 engineers",
+      "publisher": "Anthropic",
+      "publishedAt": "2026-10-02",
+      "url": "https://www.anthropic.com/news/claude-frontier-academy",
+      "note": "1억 달러 투자 약속, 2027년 말까지 1만 명 목표, 첫 참여 기관, 교육·평가·12주 현장 과정과 첫 자격 취득 예상 시점을 설명합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 확인",
+      "title": "Anthropic commits $100 million to train 10,000 engineers, starting with McKinsey and Deloitte",
+      "publisher": "MIXED",
+      "publishedAt": "2026-10-03",
+      "url": "https://mixed-news.com/en/anthropic-claude-frontier-academy-100-million-10000-engineers/",
+      "note": "공식 발표의 과정과 참여 기관을 확인하고, 1만 명과 1억 달러가 현재 성과가 아닌 목표이며 아직 최종 자격 취득자는 없다고 구분합니다."
+    }
+  ],
+  "publishedAt": "2026-10-04T21:04:38.080Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: AI가 좋아도 현장에 붙일 사람이 부족한가요? 픽: 1억 달러로 엔지니어 1만 명을 훈련한대요. 누리: 그럼 벌써 1만 명이 현장에 투입됐나요? 픽: 아니요. 2027년 말 목표라 결과를 지켜봐야 해요.",
+      "alt": "24화: AI 현장 엔지니어 1만 명을 키운다 1페이지. 누리: AI가 좋아도 현장에 붙일 사람이 부족한가요? 픽: 1억 달러로 엔지니어 1만 명을 훈련한대요. 누리: 그럼 벌써 1만 명이 현장에 투입됐나요? 픽: 아니요. 2027년 말 목표라 결과를 지켜봐야 해요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": "GPT-5",
+      "status": "known-model"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}
