@@ -27,3 +27,4 @@
 | ep-021 | 2026-10-01 | Gemini 4는 아직 모두 못 쓴다 | `https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/|2026-09-30` | 한 장 2×2 네 컷, 제한된 보안 파트너 접근과 회사 측 성능표·공개 실사용 검증 필요를 함께 설명 |
 | ep-022 | 2026-10-02 | AI의 숨은 풀이를 노렸다 | `https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign/|2026-09-30` | 한 장 2×2 네 컷, 대규모 추론 추출 시도와 성공 건수의 구분·서비스 전반의 겹겹 방어를 함께 설명 |
 | ep-023 | 2026-10-03 | Claude Code에 모드가 생겼다 | `https://claude.com/blog/claude-code-mods|2026-10-01` | 한 장 2×2 네 컷, 프롬프트·도구·화면 확장 기능과 비샌드박스 사용자 권한 실행 위험을 함께 설명 |
+| ep-024 | 2026-10-05 | AI 현장 엔지니어 1만 명을 키운다 | `https://www.anthropic.com/news/claude-frontier-academy|2026-10-02` | 한 장 2×2 네 컷, 1억 달러 교육 약속과 1만 명 목표·아직 확인되지 않은 현장 성과를 함께 설명 |
