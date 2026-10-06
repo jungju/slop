@@ -1,0 +1,103 @@
+version: 1
+episode: ep-053
+continuity_bindings:
+  characters:
+    - character.han-doyun.001@v1
+    - character.kang-yunseo.001@v1
+    - character.soondeok.001@v1
+  props:
+    - prop.height-adjustable-scanner-lid.001@v1
+generation:
+  model: OpenAI Image Generation
+  tool: built-in image_gen
+  text_policy: text-free
+  reference_policy: canonical textual character and prop locks only; no preceding generated panel as identity baseline
+  acceptance_notes:
+    - "Accepted source set contains exactly 20 text-free pages with unique files."
+    - "Rejected page 4 candidate changed Yunseo into a tied-hair adult worker."
+    - "Rejected page 5 candidate introduced text-like marks on book spines."
+    - "Rejected page 6 candidate changed the scanner body from cream to black."
+    - "Rejected page 10 candidate multiplied the single paper crescent into a tray of repeated shapes."
+    - "Rejected page 17 and 18 candidates used black scanner bodies or an incompatible blue scan light."
+    - "Rejected page 19 candidate introduced text-like book-spine marks; the accepted version uses blank storage boxes."
+pages:
+  - panel: 1
+    beat: "윤서가 두꺼운 접이식 사진첩의 한 페이지를 고른다"
+    caption: "윤서는 두꺼운 접이식 사진첩에서 말린 해초 사진이 붙은 한 페이지를 골랐다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Jeju community archive workroom. Elementary-school-age Korean girl Kang Yunseo with clear child proportions, short straight jaw-length black bob with soft blunt bangs, muted sea-blue hooded rain jacket over a cream sweatshirt, charcoal pants, and dark rubber boots opens one thick cream accordion-bound photo album and chooses one page holding an unlettered pressed-seaweed photograph. Vertical single scene. No readable writing, adult-looking child, photorealism, logo, watermark, caption, speech bubble, or panel grid."
+  - panel: 2
+    beat: "제본을 풀지 않고 페이지를 복사하려 한다"
+    caption: "제본을 풀지 않고 그 페이지를 또렷하게 복사해 두려 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Canonical child Yunseo carries the same open thick accordion-bound album toward one low cream flatbed scanner on a wooden worktable, keeping the binding intact. The scanner has a clear rectangular glass bed and separate padded cream lid, no visible display, brand, text, buttons, or cable clutter. Vertical single scene. No extra albums, photorealism, logo, watermark, bubble, or panel grid."
+  - panel: 3
+    beat: "도윤이 낮은 덮개를 손으로 누른다"
+    caption: "도윤은 낮은 스캐너 덮개를 사진첩 위에서 손으로 눌렀다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Slim clean-shaven 26-year-old Korean man Han Doyun with slightly long wavy black hair, gray hoodie under a dark long coat, old brown messenger bag, and black-and-silver vintage film camera presses both palms on the low cream scanner lid over Yunseo's thick open accordion album. The outer edge of the lid visibly sits higher than the spine edge. Yunseo watches with concern. Vertical single scene. No forceful drama, text, logo, watermark, bubble, or panel grid."
+  - panel: 4
+    beat: "복사본에 검은 띠와 흐린 가장자리가 남는다"
+    caption: "복사본에는 책등의 검은 띠와 바깥쪽의 흐린 가장자리가 남았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Clear problem close-up: one fresh unlettered copy sheet beside the scanner shows the pressed seaweed image with a broad dark shadow band near the album-spine side and a visibly soft blurred outer edge. Yunseo's small finger points between the two defects. Vertical single scene. No readable text, printer interface, extra copies, photorealism, logo, watermark, bubble, or panel grid."
+  - panel: 5
+    beat: "윤서가 실제 두께와 덮개 아래를 먼저 보자고 한다"
+    caption: "윤서는 더 누르지 말고 실제 두께와 덮개 아래부터 보자고 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Canonical child Yunseo raises one calm stop palm toward Doyun's pressing hands and points with her other hand from the real thick album spine to the underside of the scanner lid. Doyun lifts both hands away and listens. Vertical single scene. No argument, adult-looking Yunseo, text, logo, watermark, bubble, or panel grid."
+  - panel: 6
+    beat: "순덕이 세 접촉 지점을 짚는다"
+    caption: "순덕은 유리면과 덮개 안쪽, 두 뒤쪽 지지점을 함께 짚었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Elderly Jeju Korean woman Soondeok with short gray-white hair, wind-weathered face, and sea-colored practical outerwear points in sequence to the clear glass bed, the cream padded underside of the raised lid, and the two rear brass support posts. Yunseo follows the three practical contact areas while Doyun stands back. Vertical single scene. No mystical gesture, arrows, text, logo, watermark, bubble, or panel grid."
+  - panel: 7
+    beat: "윤서가 높이 조절 덮개 구조를 살핀다"
+    caption: "윤서는 유리판과 압착 패드, 두 황동 기둥, 푸른 높이 막대를 살폈다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Clean three-quarter inspection view of exactly one compact cream flatbed scanner: clear rectangular glass bed, separate cream lid with a plain padded underside, exactly two short aged-brass vertical rear posts, one muted-cobalt horizontal height bar sliding evenly across both posts, and one round brass thumb screw at each end of the bar. A tiny cobalt crescent chip marks the lid's front-left corner. No display, brand, printed scale, labels, extra knobs, rollers, crank, or transparent pouch. Vertical single scene. No text, logo, watermark, bubble, or panel grid."
+  - panel: 8
+    beat: "왼쪽 뒤 압착 패드가 들뜬다"
+    caption: "덮개를 들어 보니 왼쪽 뒤 압착 패드만 작게 들떠 있었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Side close view as child Yunseo lifts the empty cream scanner lid: the padded underside lies flat except for one small raised spot at the rear-left corner near the brass support post. Her clear child profile and sea-blue sleeve remain visible. Vertical single scene. No album on glass, extra defect, arrows, text, logo, watermark, bubble, or panel grid."
+  - panel: 9
+    beat: "패드 아래 마른 종이 조각을 찾는다"
+    caption: "패드 아래에는 마른 종이 조각 하나가 초승달처럼 붙어 있었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Tight evidence view under the raised scanner lid: exactly one small dry cream paper crescent is trapped beneath the rear-left edge of the plain cream pressure pad. Child Yunseo indicates the single crescent with one fingertip held just beside it. Vertical single scene. No adhesive crumb, sand, thread, multiple debris, writing, logo, watermark, bubble, or panel grid."
+  - panel: 10
+    beat: "윤서가 패드와 유리 가장자리를 닦는다"
+    caption: "윤서는 조각을 떼고 패드와 유리 가장자리를 마른 천으로 닦았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Canonical child Yunseo removes the one paper crescent and uses one plain soft dry cloth to wipe the cream pressure pad and all four edges of the clear scanner glass. Doyun holds only the raised lid steady without touching the cleaning area. Vertical single scene. No water, solvent, brush, text, logo, watermark, bubble, or panel grid."
+  - panel: 11
+    beat: "빈 덮개가 같은 높이로 멈춘다"
+    caption: "빈 덮개는 두 뒤쪽 기둥에서 같은 높이로 고르게 멈췄다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. The cleaned empty cream scanner lid rests level across the clear glass bed, with both rear brass posts visible at equal height beneath the single muted-cobalt crossbar. Child Yunseo sights carefully along the straight front edge while Doyun watches. Vertical single scene. No album, gauge, printed scale, arrows, text, logo, watermark, bubble, or panel grid."
+  - panel: 12
+    beat: "실제 책등과 같은 두께의 시험 묶음을 만든다"
+    caption: "빈 종이와 판지로 실제 사진첩 책등과 같은 두께를 만들었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo builds one blank test stack from unlettered cream paper and plain board until its side profile matches the actual thick accordion album spine placed beside it. She compares only the thickness by touch, with the cleaned scanner nearby. Vertical single scene. No ruler, numbers, writing, extra albums, logo, watermark, bubble, or panel grid."
+  - panel: 13
+    beat: "낮은 설정에서 시험 묶음이 휜다"
+    caption: "낮은 설정에서는 시험 묶음의 바깥 모서리가 들리고 가운데가 휘었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Controlled side-view failure test: the blank thickness-matched stack sits on the scanner glass under the lid at its original low setting. The stack's center bows slightly and its outer edge lifts visibly because the lid is too low near the rear. Yunseo studies the shape without pressing. Vertical single scene. No real album, broken paper, arrows, text, logo, watermark, bubble, or panel grid."
+  - panel: 14
+    beat: "윤서가 푸른 높이 막대를 올린다"
+    caption: "윤서는 두 나사를 풀고 푸른 높이 막대를 시험 묶음만큼 올렸다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Canonical child Yunseo loosens exactly two round brass thumb screws, one at each end of the single muted-cobalt horizontal height bar, slides the bar evenly upward on the two rear brass posts to match the blank stack thickness, then holds it level. Doyun keeps his hands away. Vertical single scene. No numbered scale, extra screws, crank, text, logo, watermark, bubble, or panel grid."
+  - panel: 15
+    beat: "시험 묶음의 네 가장자리가 고르게 닿는다"
+    caption: "다시 덮자 시험 묶음은 휘지 않고 네 가장자리가 고르게 닿았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Successful side and front evidence view: the cream scanner lid now rests level at the raised setting over the blank thickness-matched stack. The stack remains flat with all four edges evenly contacting the glass and no bowing. Child Yunseo checks both front corners. Vertical single scene. No real album yet, arrows, text, logo, watermark, bubble, or panel grid."
+  - panel: 16
+    beat: "종이띠로 둘레의 접촉을 확인한다"
+    caption: "얇은 종이띠가 어느 쪽에서도 헐겁게 빠지지 않는지 확인했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo gently tests one narrow blank cream paper strip at the front, left, and right edges of the closed lid around the flat blank test stack; the strip meets even light resistance at every side. Doyun observes the test result. Vertical single scene. No multiple strips, printed marks, force, text, logo, watermark, bubble, or panel grid."
+  - panel: 17
+    beat: "윤서가 실제 사진첩을 같은 위치에 맞춘다"
+    caption: "윤서는 실제 사진첩의 책등과 바깥 모서리를 같은 자리에 맞췄다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Canonical child Yunseo removes the blank test stack and places the actual thick open accordion album on the clear scanner glass in the same tested position, aligning its spine and outer corner without pulling apart the binding. The unlettered pressed-seaweed photograph lies flat on the chosen page. Vertical single scene. No extra album, readable marks, adult intervention, logo, watermark, bubble, or panel grid."
+  - panel: 18
+    beat: "맞춘 높이에서 한 번 복사한다"
+    caption: "맞춘 높이에서 덮개를 누르지 않고 한 번 복사했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. The adjusted cream scanner lid rests level over the real thick album with no hand pressure. A gentle plain light passes beneath the glass during one scan while child Yunseo watches the even lid gap and Doyun stands back. The single cobalt height bar remains level on the two brass posts. Vertical single scene. No screen, buttons, fake writing, futuristic glow, text, logo, watermark, bubble, or panel grid."
+  - panel: 19
+    beat: "새 복사본이 가장자리까지 또렷하다"
+    caption: "새 복사본에는 책등부터 바깥 모서리까지 해초 사진이 또렷했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Clear success close-up: one fresh unlettered copy sheet shows the pressed-seaweed photograph sharply from the album-spine side through the outer edge, with no dark shadow band and no blur. Child Yunseo compares it beside the earlier visibly flawed copy while keeping both sheets blank of writing. Vertical single scene. No readable text, extra images, logo, watermark, bubble, or panel grid."
+  - panel: 20
+    beat: "원본과 복사본이 눌림 없이 나란히 놓인다"
+    caption: "원래 사진첩은 눌린 자국 없이 온전한 복사본과 나란히 놓였다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Restrained final Jeju image: Yunseo's original thick accordion album remains open and uncrushed beside one crisp unlettered pressed-seaweed copy on the wooden table. The compact cream scanner rests nearby with its level lid raised on the single cobalt height bar and two brass posts. Child Yunseo lightly closes only the blank album cover edge. Vertical single scene. No transparent pouch, rollers, crank, printed labels, text, logo, watermark, bubble, or panel grid."
