@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-025",
+  "number": 25,
+  "title": "25화: AI 4사가 뉴욕에서 선서 증언했다",
+  "shortTitle": "AI 4사가 뉴욕에서 선서 증언했다",
+  "lead": "뉴욕 시의회는 2026년 10월 5일 AI 안전 청문회를 열고 OpenAI, Anthropic, Google, Meta 관계자의 공개 증언을 들었다. 시의원들은 위험과 안전 대책을 질문하고 10개 입법 제안을 검토했다.",
+  "closingLine": "공개 증언과 법안 검토는 안전성 검증 완료나 규제 확정이 아니다. 수정, 표결과 시행 여부를 계속 확인해야 한다.",
+  "news": {
+    "headline": "OpenAI, Anthropic, Google and Meta testified at a New York City Council AI safety hearing",
+    "eventDate": "2026-10-05",
+    "researchDate": "2026-10-07",
+    "summary": "뉴욕 시의회는 10월 5일 전체 시의회 차원의 AI 안전 청문회를 열고 OpenAI, Anthropic, Google, Meta 관계자의 증언을 들었습니다. 의원들은 최악의 위험과 안전 대책을 질문하고 제3자 검증, 사람의 중단 장치, 내부고발자 보상과 사고 신고 등을 포함한 10개 입법 제안을 검토했습니다. 다만 청문회 개최와 회사의 답변은 안전성 검증 완료나 법안 통과를 뜻하지 않습니다.",
+    "selectionNote": "2026년 10월 7일 최근 48시간의 주요 AI 소식을 다시 검색하고, 10월 5일 실제 열린 뉴욕 시의회 청문회를 유지했습니다. 시의회 공식 발표와 법안 설명, 참가 단체의 공개 증언, AP 현장 보도를 다시 열어 개최 사실과 참가 범위를 교차 확인했습니다. 10월 6일 영국 의료 AI 규제 권고 수용은 의료 규제라는 별도 고위험 주제여서 추가 검증이 필요했고, Mistral Large 4 공개는 회사 성능 주장의 독립 검증 범위를 더 확인해야 해 이미 출처와 이미지가 잠긴 이번 회차를 대체하지 않았습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "시의회 공식 발표",
+      "title": "New York City Council Announces Anthropic, OpenAI, Google, and Meta to Publicly Testify Under Oath for First Time Since Recent Incident Reports",
+      "publisher": "New York City Council",
+      "publishedAt": "2026-09-28",
+      "url": "https://council.nyc.gov/press/2026/09/28/3266/",
+      "note": "10월 5일 전체 시의회 청문회, 네 AI 회사의 선서 증언과 입법 검토 범위를 공식 설명합니다."
+    },
+    {
+      "kind": "primary",
+      "label": "법안 공식 설명",
+      "title": "New York City Council Unveils Legislative Proposals to Safeguard New Yorkers from Potential Risks of Artificial Intelligence",
+      "publisher": "New York City Council",
+      "publishedAt": "2026-09-25",
+      "url": "https://council.nyc.gov/press/2026/09/25/3252/",
+      "note": "제3자 검증, 중단 장치, 내부고발자 보상과 사고 신고 등 청문회에서 검토한 10개 제안을 설명합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "현장 보도",
+      "title": "AI industry insiders voice alarms to NYC council as local governments take up safety concerns",
+      "publisher": "AP News",
+      "publishedAt": "2026-10-05",
+      "url": "https://apnews.com/article/ai-nyc-whistleblower-artificial-intelligence-4be252d137ff1de1006130cdbb42ec24",
+      "note": "청문회가 실제 열렸고 네 회사 관계자가 증언했으며 의원들이 위험과 규제안을 질문했다고 현장에서 확인합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "참가자 공개 증언",
+      "title": "BetaNYC testimony on AI to the NYC Council, Oct 5, 2026",
+      "publisher": "BetaNYC",
+      "publishedAt": "2026-10-05",
+      "url": "https://www.beta.nyc/2026/10/05/council-ai-hearing-2026/",
+      "note": "청문회 참가 단체가 10개 법안 의제를 확인하고 각 제안에 추가 검토와 수정이 필요하다고 설명합니다."
+    }
+  ],
+  "publishedAt": "2026-10-06T21:05:40.782Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: AI 회사도 시의회에서 선서하고 답했다고요? 픽: 네 회사가 안전 문제에 공개 답변했어요. 누리: 그럼 새 규제가 바로 확정된 건가요? 픽: 아니요. 법안을 검토한 청문회라 더 지켜봐야 해요.",
+      "alt": "25화: AI 4사가 뉴욕에서 선서 증언했다 1페이지. 누리: AI 회사도 시의회에서 선서하고 답했다고요? 픽: 네 회사가 안전 문제에 공개 답변했어요. 누리: 그럼 새 규제가 바로 확정된 건가요? 픽: 아니요. 법안을 검토한 청문회라 더 지켜봐야 해요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": "GPT-5",
+      "status": "known-model"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}
