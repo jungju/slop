@@ -577,6 +577,20 @@ repeating cold laminating rollers, transparent archival pouches, paired pale-
 gray silicone rollers, single cobalt side cranks, dried adhesive crumbs, short-
 reverse-versus-continuous-pass tests, or archivist photo-protection payoffs.
 
+Episode 53 turns continuous passage into object-specific lid-height control. The
+compact cream flatbed scanner with two brass rear posts and one muted-cobalt
+height bar, `prop.height-adjustable-scanner-lid.001@v1`, lets Yunseo stop
+Doyun from forcing a low lid onto her actual thick accordion photo album. She
+finds one dry paper crescent beneath the rear-left pressure pad, dry-cleans the
+pad and glass edges, builds a blank stack matching the real album-spine
+thickness, raises both sides of the bar evenly, checks all four edges with one
+thin paper strip, and makes one copy without pressing the original. Soondeok
+supplies the practical glass-pad-post contact check; Minjae remains absent in
+the present. Future episodes should avoid immediately repeating flatbed
+scanners, adjustable scanner lids, paired brass rear posts, single cobalt
+height bars, thick accordion albums, trapped paper crescents, paper-strip edge
+tests, or a no-pressure scanning payoff.
+
 ## Good Future Episode Engines
 
 Use one concrete motif and one emotional question:

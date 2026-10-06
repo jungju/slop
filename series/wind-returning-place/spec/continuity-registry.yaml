@@ -2,6 +2,36 @@ version: 1
 factory_type: comic
 comic_id: wind-returning-place
 elements:
+  - id: prop.height-adjustable-scanner-lid.001
+    name: 높이를 맞추는 푸른 막대 스캐너 덮개
+    category: prop
+    scope: episode
+    status: active
+    introduced_in: ep-053
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-053
+        active_until: ep-053
+        supersedes: null
+        immutable_features:
+          - one compact cream flatbed scanner with one clear rectangular glass bed and one separate cream lid with a plain padded underside
+          - exactly two short aged-brass vertical rear posts supporting one muted-cobalt horizontal height bar across both posts
+          - exactly one round aged-brass thumb screw at each end of the cobalt bar so both sides can be raised evenly to the actual object thickness
+          - one tiny muted-cobalt crescent enamel chip on the lid front-left corner
+          - no display, buttons, printed scale, label, brand, text, rollers, crank, transparent pouch, black body, or motor housing
+        mutable_features:
+          - lid open, lowered, or held level above a thickness-matched test stack or one thick accordion-bound album
+          - one temporary dry cream paper crescent trapped beneath the rear-left pressure-pad edge before cleaning
+          - glass and pad dry-cleaned, height bar low or raised, and one warm plain scan light under the glass
+          - Jeju community archive workroom
+        reference_asset_ids:
+          - prop-height-adjustable-scanner-lid-001-v1-text-lock
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: text_locked
   - id: prop.continuous-cold-roller.001
     name: 멈추지 않고 통과시키는 수동 냉간 롤러
     category: prop
