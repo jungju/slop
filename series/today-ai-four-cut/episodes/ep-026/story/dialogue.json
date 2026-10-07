@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "kicker": "인공지능 뉴스 네 컷",
+  "title": "ChatGPT가 답변에 도구를 넣는다",
+  "footer": "새 기능은 출시 범위와 계정별 적용 여부를 확인하세요.",
+  "panels": [
+    { "number": 1, "speaker": "누리", "text": "ChatGPT 답변이 화면처럼\n움직인다고요?" },
+    { "number": 2, "speaker": "픽", "text": "GPT-6가 차트와 버튼,\n작은 도구를 만들어요." },
+    { "number": 3, "speaker": "누리", "text": "그럼 모든 곳이 오늘\n한꺼번에 바뀌나요?" },
+    { "number": 4, "speaker": "픽", "text": "아니요. Chat부터 순차 출시고\nWork와 Codex는 그대로예요." }
+  ]
+}
