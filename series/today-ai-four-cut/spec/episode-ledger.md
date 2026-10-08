@@ -30,3 +30,4 @@
 | ep-024 | 2026-10-05 | AI 현장 엔지니어 1만 명을 키운다 | `https://www.anthropic.com/news/claude-frontier-academy|2026-10-02` | 한 장 2×2 네 컷, 1억 달러 교육 약속과 1만 명 목표·아직 확인되지 않은 현장 성과를 함께 설명 |
 | ep-025 | 2026-10-07 | AI 4사가 뉴욕에서 선서 증언했다 | `https://council.nyc.gov/press/2026/09/28/3266/|2026-10-05` | 한 장 2×2 네 컷, 네 AI 회사의 공개 선서 증언과 청문회·법안 검토가 규제 확정은 아니라는 한계를 함께 설명 |
 | ep-026 | 2026-10-08 | ChatGPT가 답변에 도구를 넣는다 | `https://openai.com/index/gpt-6-for-everyone/|2026-10-07` | 한 장 2×2 네 컷, 답변 내 대화형 UI와 요금제별 순차 출시·Work와 Codex 비변경 범위를 함께 설명 |
+| ep-027 | 2026-10-09 | AI가 오픈소스 버그를 무료로 찾는다 | `https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source|2026-10-08` | 한 장 2×2 네 컷, 핵심 오픈소스 대상 무료 정기 AI 검사와 무검토 보고서의 사람 검증 책임을 함께 설명 |

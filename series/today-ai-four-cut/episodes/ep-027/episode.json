@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-027",
+  "number": 27,
+  "title": "27화: AI가 오픈소스 버그를 무료로 찾는다",
+  "shortTitle": "AI가 오픈소스 버그를 무료로 찾는다",
+  "lead": "Anthropic은 2026년 10월 8일 핵심 오픈소스 프로젝트가 자사 AI 모델의 정기 취약점 검사를 무료로 받을 수 있는 선택형 OSS Scanner를 출시했다.",
+  "closingLine": "보고서는 사람의 사전 검토 없이 전송되므로 유지보수자가 오탐, 중복, 심각도와 수정안을 직접 확인해야 한다.",
+  "news": {
+    "headline": "Anthropic launches free opt-in OSS Scanner for critical open-source projects",
+    "eventDate": "2026-10-08",
+    "researchDate": "2026-10-09",
+    "summary": "Anthropic은 핵심 오픈소스 프로젝트가 자사 최신 AI 모델의 정기 취약점 검사를 무료로 받을 수 있는 선택형 OSS Scanner를 출시했습니다. 각 보고서에는 재현 방법, 취약점 설명과 가능한 경우 수정안이 포함되지만, 사람의 검토 없이 바로 전송되므로 오탐·중복·심각도 오류를 유지보수자가 확인해야 합니다.",
+    "selectionNote": "2026년 10월 9일 최근 48시간의 AI 발표를 검색해 10월 8일 OSS Scanner 출시를 선택했습니다. Anthropic의 공식 Cyber Mission 발표와 기술 설명, Axios의 독립 보도를 모두 열어 무료·선택형·대상 제한과 무검토 보고서의 한계를 교차 확인했습니다. 같은 날의 Anthropic 사용 정책 개정은 대부분 기존 규칙의 명료화였고, Cyber Mission의 기반시설 프로그램은 실제 운영 결과보다 장기 계획 비중이 커 이번 소식보다 구체성이 낮아 제외했습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "공식 기술 설명",
+      "title": "Launching an opt-in vulnerability-finding service for open-source software",
+      "publisher": "Anthropic",
+      "publishedAt": "2026-10-08",
+      "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
+      "note": "무료 선택형 정기 검사, 보고서 구성, 대상 기준과 사람 검토 없이 전송되는 한계를 설명합니다."
+    },
+    {
+      "kind": "primary",
+      "label": "공식 발표",
+      "title": "Introducing the Anthropic Cyber Mission",
+      "publisher": "Anthropic",
+      "publishedAt": "2026-10-08",
+      "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+      "note": "OSS Scanner 출시와 핵심 오픈소스 프로젝트 지원을 더 넓은 Cyber Mission 안에서 설명합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 보도",
+      "title": "Anthropic launches AI push to protect critical infrastructure",
+      "publisher": "Axios",
+      "publishedAt": "2026-10-08",
+      "url": "https://www.axios.com/2026/10/08/anthropic-critical-infrastructure-cybersecurity",
+      "note": "무료 OSS Scanner의 정기 검사와 자동 보고서, 사람 검토 없이 전송되어 부정확할 수 있다는 범위를 독립적으로 확인합니다."
+    }
+  ],
+  "publishedAt": "2026-10-08T21:13:24.619Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: 오픈소스도 AI 보안 검사를 받나요? 픽: 핵심 프로젝트엔 정기 검사를 무료로 제공해요. 누리: 그럼 나온 버그는 바로 믿어도 되나요? 픽: 아니요. 사람 검토 없는 보고라 직접 확인해야 해요.",
+      "alt": "27화: AI가 오픈소스 버그를 무료로 찾는다 1페이지. 누리: 오픈소스도 AI 보안 검사를 받나요? 픽: 핵심 프로젝트엔 정기 검사를 무료로 제공해요. 누리: 그럼 나온 버그는 바로 믿어도 되나요? 픽: 아니요. 사람 검토 없는 보고라 직접 확인해야 해요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": "GPT-6.1 Sol",
+      "status": "known-model"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}
