@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-029",
+  "number": 29,
+  "title": "29화: AI가 답 대신 판단을 돌려준다",
+  "shortTitle": "AI가 답 대신 판단을 돌려준다",
+  "lead": "OpenAI는 2026년 10월 6일 글과 이미지를 확률·선택·점수 같은 정형 답으로 바꾸는 Decisions API를 모든 개발자 대상 공개 베타로 열었다.",
+  "closingLine": "빠른 정형 판단도 모델의 추정이므로 실제 자료로 임계값과 오판 비용을 검증하고 사람 검토 경계를 정해야 한다.",
+  "news": {
+    "headline": "OpenAI releases the Decisions API in public beta",
+    "eventDate": "2026-10-06",
+    "researchDate": "2026-10-11",
+    "summary": "OpenAI는 글과 이미지를 받아 참일 확률, 고정 선택지, 기준표 점수 같은 정형 결과를 돌려주는 Decisions API를 공개 베타로 열었습니다. 현재 GPT-6 Luna만 지원하며 OpenAI는 Responses API보다 약 10배 빠르다고 설명합니다. 다만 공식 문서는 실제 업무의 라벨 자료로 임계값을 정하고 오탐·미탐 비용에 맞춰 검토 경계를 설계하라고 안내합니다.",
+    "selectionNote": "2026년 10월 11일 최근 48시간 발표를 우선 검토했지만 10월 9일 Anthropic의 의도치 않은 모델 행동 보고는 ep-009와 ep-016의 실제 시스템 접근·통제 실패 주제와 중복되어 제외했습니다. 최근 7일 보완 창에서 10월 6일 공개 베타가 된 Decisions API를 선택하고 OpenAI 변경 기록과 가이드, TechCrunch의 사전 발표 보도, Jev News의 공개 접근 확인을 모두 열어 읽었습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "공식 변경 기록",
+      "title": "OpenAI API Changelog",
+      "publisher": "OpenAI",
+      "publishedAt": "2026-10-06",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "note": "Decisions API가 GPT-6 Luna 기반 공개 베타로 출시됐고 글과 이미지를 정형 답으로 바꾼다고 기록합니다."
+    },
+    {
+      "kind": "primary",
+      "label": "공식 사용 가이드",
+      "title": "Decisions",
+      "publisher": "OpenAI",
+      "publishedAt": "2026-10-06",
+      "url": "https://developers.openai.com/api/docs/guides/decisions",
+      "note": "확률·선택·점수 출력, GPT-6 Luna 전용 공개 베타, 실제 라벨 자료로 임계값을 정하는 방법을 설명합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 보도",
+      "title": "OpenAI's Jev clone could help the frontier lab stop its swarming agents",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-09-30",
+      "url": "https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents/",
+      "note": "미리 정한 선택지의 확률을 빠르게 내는 제품 목적과 실제 보정 정확도가 핵심 과제라는 점을 확인합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "공개 접근 확인",
+      "title": "OpenAI's Decisions API preview says results come back in 150 milliseconds",
+      "publisher": "Jev News",
+      "publishedAt": "2026-10-06",
+      "url": "https://jevainews.com/news/openai-decisions/",
+      "note": "10월 6일 공개 베타 전환 뒤 실제 API 요청이 HTTP 200으로 응답한 것을 기록합니다."
+    }
+  ],
+  "publishedAt": "2026-10-10T21:05:07.641Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: AI가 답은 안 쓰고 판단만 한다고요? 픽: 글과 그림을 보고 확률이나 선택, 점수로 결과를 돌려줘요. 누리: 그럼 곧바로 자동 처리해도 괜찮을까요? 픽: 공개 베타예요. 실제 자료로 기준과 사람 검토를 정해야 해요.",
+      "alt": "29화: AI가 답 대신 판단을 돌려준다 1페이지. 누리: AI가 답은 안 쓰고 판단만 한다고요? 픽: 글과 그림을 보고 확률이나 선택, 점수로 결과를 돌려줘요. 누리: 그럼 곧바로 자동 처리해도 괜찮을까요? 픽: 공개 베타예요. 실제 자료로 기준과 사람 검토를 정해야 해요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": "GPT-5",
+      "status": "known-model"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}
