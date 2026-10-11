@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-030",
+  "number": 30,
+  "title": "30화: 작은 클로드가 더 싸졌다",
+  "shortTitle": "작은 클로드가 더 싸졌다",
+  "lead": "Anthropic은 2026년 10월 7일 고빈도·저지연 작업용 소형 모델 Claude Haiku 5.5를 출시하고, 10만 토큰 이하 프롬프트의 입력·출력 토큰 단가를 Haiku 4.5보다 90% 낮췄다.",
+  "closingLine": "낮은 토큰 단가는 출발점일 뿐이므로 입력 길이, 출력량, 재시도, 정확도를 포함한 실제 작업 총비용과 복잡도를 함께 확인해야 한다.",
+  "news": {
+    "headline": "Anthropic launches Claude Haiku 5.5",
+    "eventDate": "2026-10-07",
+    "researchDate": "2026-10-12",
+    "summary": "Anthropic은 요약·분류·라우팅·보조 에이전트처럼 빠르고 반복적인 작업을 겨냥한 Claude Haiku 5.5를 출시했습니다. 10만 토큰 이하 프롬프트의 API 단가는 입력 100만 토큰당 0.10달러, 출력 0.50달러로 Haiku 4.5보다 90% 낮지만, 10만 토큰을 넘으면 단가가 다섯 배가 됩니다. 복잡한 코딩은 Sonnet·Opus가 더 적합하다는 회사 설명과 독립 보도의 비용 한계를 함께 반영했습니다.",
+    "selectionNote": "최근 48시간 후보인 Anthropic의 10월 9일 의도치 않은 모델 행동 보고는 ep-009와 ep-016의 실제 시스템 접근·통제 실패 주제와 겹쳐 제외했습니다. 최근 7일 보완 창에서 10월 7일 출시된 Haiku 5.5를 선택하고 Anthropic 공식 발표와 TechRepublic, DataCamp의 독립 확인을 모두 열어 읽었습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "공식 발표",
+      "title": "Claude Haiku 5.5",
+      "publisher": "Anthropic",
+      "publishedAt": "2026-10-07",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "note": "출시일, 대상 작업, 10만 토큰 전후의 API 단가, 벤치마크와 복잡한 코딩의 모델 선택 범위를 설명합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 보도",
+      "title": "Anthropic Launches Claude Haiku 5.5 With API Prices Starting at $0.10",
+      "publisher": "TechRepublic",
+      "publishedAt": "2026-10-09",
+      "url": "https://www.techrepublic.com/article/news-anthropic-claude-haiku-5-5-api-pricing/",
+      "note": "가격 경계와 벤치마크 출처를 확인하고, 토큰 단가만으로 실제 작업비를 판단할 수 없다고 짚습니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 실험",
+      "title": "Claude Haiku 5.5: Features, Pricing, and a Hands-On Test",
+      "publisher": "DataCamp",
+      "publishedAt": "2026-10-07",
+      "url": "https://www.datacamp.com/blog/claude-haiku-5-5",
+      "note": "24개 송장 분류 실험과 함께 입력 길이·토크나이저·출력량이 실제 비용에 미치는 한계를 설명합니다."
+    }
+  ],
+  "publishedAt": "2026-10-11T21:09:57.588Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: 작은 클로드가 새로 나왔어요? 픽: 하이쿠 5.5예요. 짧은 입력은 토큰값이 90% 낮아요. 누리: 그럼 모든 일을 맡겨도 될까요? 픽: 긴 입력은 더 비싸고 복잡한 코딩은 큰 모델이 나아요.",
+      "alt": "30화: 작은 클로드가 더 싸졌다 1페이지. 누리: 작은 클로드가 새로 나왔어요? 픽: 하이쿠 5.5예요. 짧은 입력은 토큰값이 90% 낮아요. 누리: 그럼 모든 일을 맡겨도 될까요? 픽: 긴 입력은 더 비싸고 복잡한 코딩은 큰 모델이 나아요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": "GPT-5",
+      "status": "known-model"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}
