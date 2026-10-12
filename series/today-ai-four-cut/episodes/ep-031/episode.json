@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-031",
+  "number": 31,
+  "title": "31화: 마이크로소프트가 AI 칩을 공개했다",
+  "shortTitle": "마이크로소프트가 AI 칩을 공개했다",
+  "lead": "Microsoft는 2026년 10월 12일 AI 추론용 자체 가속기 Maia 300을 공개하고, 2027년부터 생산 배포해 자사 AI 서비스의 주력 추론 시스템으로 확대할 계획이라고 밝혔다.",
+  "closingLine": "40% 메가와트당 토큰 향상과 최대 7배 랙 처리량은 아직 배포 전 회사 예상치이므로 실제 작업 조건과 독립 측정을 확인해야 한다.",
+  "news": {
+    "headline": "Microsoft unveils Maia 300 AI inference accelerator",
+    "eventDate": "2026-10-12",
+    "researchDate": "2026-10-13",
+    "summary": "Microsoft는 긴 문맥과 다단계 에이전트 작업을 겨냥한 자체 AI 추론 가속기 Maia 300을 공개했습니다. 회사는 선도 GPU 시스템보다 메가와트당 토큰이 40% 많고 96개 가속기 랙이 Maia 200보다 최대 7배 처리량을 낼 것으로 예상하지만, 생산 배포는 2027년부터이며 비교 GPU와 세부 작업 조건은 공개하지 않았습니다.",
+    "selectionNote": "최근 48시간의 새 발표로, Microsoft 공식 원문과 SiliconANGLE·The Next Web의 독립 보도를 모두 열어 확인했습니다. 직전 회차와 겹치는 Decision-1은 제외하고, 배포 전 회사 예상치라는 한계를 네 번째 대사에 명시했습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "공식 발표",
+      "title": "Microsoft to expand Azure Maia system to multi-gigawatt deployments",
+      "publisher": "Microsoft",
+      "publishedAt": "2026-10-12",
+      "url": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/",
+      "note": "Maia 300의 추론 중심 설계, 회사의 40%·최대 7배 예상치와 2027년 배포 계획을 설명합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 보도",
+      "title": "Microsoft debuts multichiplet Maia 300 inference accelerator",
+      "publisher": "SiliconANGLE",
+      "publishedAt": "2026-10-12",
+      "url": "https://siliconangle.com/2026/10/12/microsoft-debuts-multichiplet-maia-300-inference-accelerator/",
+      "note": "칩렛·메모리·랙 구성을 확인하고 성능 수치를 Microsoft의 예상치로 구분합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 보도",
+      "title": "Microsoft says Maia 300 chip will run its AI services from 2027",
+      "publisher": "The Next Web",
+      "publishedAt": "2026-10-12",
+      "url": "https://thenextweb.com/news/microsoft-maia-300-ai-chip-2027",
+      "note": "2027년 배포 계획을 확인하고, 40% 비교의 GPU 시스템이 공개되지 않았다고 지적합니다."
+    }
+  ],
+  "publishedAt": "2026-10-12T21:03:30.948Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: 새 AI 칩이 나왔어요? 픽: 마이아 300이에요. AI 답변용 칩이에요. 누리: 전기는 덜 쓰고 답은 더 많이 내나요? 픽: 40% 효율 주장은 아직 2027년 배포 전이에요.",
+      "alt": "31화: 마이크로소프트가 AI 칩을 공개했다 1페이지. 누리: 새 AI 칩이 나왔어요? 픽: 마이아 300이에요. AI 답변용 칩이에요. 누리: 전기는 덜 쓰고 답은 더 많이 내나요? 픽: 40% 효율 주장은 아직 2027년 배포 전이에요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": "GPT-5",
+      "status": "known-model"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}
