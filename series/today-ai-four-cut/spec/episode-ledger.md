@@ -34,3 +34,4 @@
 | ep-028 | 2026-10-10 | AI 동료가 회사 계정을 받는다 | `https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026/|2026-10-08` | 한 장 2×2 네 컷, 업무용 통합 에이전트의 별도 신원·권한·감사 기록과 비공개 시험 범위를 함께 설명 |
 | ep-029 | 2026-10-11 | AI가 답 대신 판단을 돌려준다 | `https://developers.openai.com/api/docs/changelog|2026-10-06` | 한 장 2×2 네 컷, 정형 판단 API의 공개 베타와 실제 자료 기반 임계값·사람 검토 필요를 함께 설명 |
 | ep-030 | 2026-10-12 | 작은 클로드가 더 싸졌다 | `https://www.anthropic.com/claude-haiku-5-5|2026-10-07` | 한 장 2×2 네 컷, 10만 토큰 이하 단가 인하와 긴 입력·복잡한 코딩의 작업별 선택 한계를 함께 설명 |
+| ep-031 | 2026-10-13 | 마이크로소프트가 AI 칩을 공개했다 | `https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/|2026-10-12` | 한 장 2×2 네 컷, 추론 칩의 전력 효율 예상과 2027년 배포 전 회사 주장이라는 한계를 함께 설명 |

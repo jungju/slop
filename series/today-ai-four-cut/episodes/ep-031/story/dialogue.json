@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "kicker": "인공지능 뉴스 네 컷",
+  "title": "마이크로소프트가 AI 칩을 공개했다",
+  "footer": "발표 수치와 실제 배포 결과를 나눠 봐요.",
+  "panels": [
+    { "number": 1, "speaker": "누리", "text": "새 AI 칩이\n나왔어요?" },
+    { "number": 2, "speaker": "픽", "text": "마이아 300이에요.\nAI 답변용 칩이에요." },
+    { "number": 3, "speaker": "누리", "text": "전기는 덜 쓰고\n답은 더 많이 내나요?" },
+    { "number": 4, "speaker": "픽", "text": "40% 효율 주장은 아직\n2027년 배포 전이에요." }
+  ]
+}
