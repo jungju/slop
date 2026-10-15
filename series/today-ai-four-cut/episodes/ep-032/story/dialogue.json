@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "kicker": "인공지능 뉴스 네 컷",
+  "title": "AI가 사기 대화를 폰 안에서 살핀다",
+  "footer": "출시 전에는 정확도와 오탐률을 확인해야 해요.",
+  "panels": [
+    { "number": 1, "speaker": "누리", "text": "내 대화를 서버가\n읽는 건가요?" },
+    { "number": 2, "speaker": "픽", "text": "아니요. 폰 안의 AI가\n사기 신호를 살펴요." },
+    { "number": 3, "speaker": "누리", "text": "그럼 지금 바로\n쓸 수 있나요?" },
+    { "number": 4, "speaker": "픽", "text": "아직 앱·출시일·정확도는\n공개되지 않았어요." }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-032",
+  "number": 32,
+  "title": "32화: AI가 사기 대화를 폰 안에서 살핀다",
+  "shortTitle": "AI가 사기 대화를 폰 안에서 살핀다",
+  "lead": "Google DeepMind와 싱가포르 GovTech는 사기성 대화의 조작 신호를 스마트폰 안에서 분석하도록 현지 사기 사례로 조정한 Gemma 기반 모델을 공개했다.",
+  "closingLine": "대화는 기기 안에서 처리하도록 설계됐지만, 실제 앱·출시일·탐지 정확도와 오탐률은 아직 공개되지 않았다.",
+  "news": {
+    "headline": "Google DeepMind and Singapore GovTech unveil an on-device scam detection model",
+    "eventDate": "2026-10-14",
+    "researchDate": "2026-10-15",
+    "summary": "Google DeepMind와 싱가포르 GovTech는 현지 사기 대화로 조정한 Gemma 기반 모델이 스마트폰 안에서 대화 흐름을 분석하고 조작 신호를 발견하면 경고하도록 설계했다고 발표했습니다. 모델은 앱에 통합될 때 사용자 동의를 받아 기기 안에서 작동하도록 계획됐지만, 구체적인 앱과 출시일, 탐지 정확도·오탐률은 아직 공개되지 않았습니다.",
+    "selectionNote": "최근 48시간의 새 1차 발표로, Google DeepMind 원문과 CNA 현장 보도, 독립 기술 보도를 모두 열어 확인했습니다. 기기 내 처리라는 설계와 실제 배포·성능 검증을 구분하고, 아직 바로 쓸 수 있는 소비자 기능이 아니라는 한계를 네 번째 대사에 명시했습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "공식 발표",
+      "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+      "publisher": "Google DeepMind",
+      "publishedAt": "2026-10-14",
+      "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+      "note": "현지 사기 대화로 조정한 Gemma 모델의 기기 내 처리, 2단계 탐지 구조, 사용자 동의와 단계적 배포 계획을 설명합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "현장 보도",
+      "title": "GovTech and Google DeepMind developing real-time detection of scams on devices",
+      "publisher": "CNA",
+      "publishedAt": "2026-10-14",
+      "url": "https://www.channelnewsasia.com/singapore/govtech-google-deepmind-ai-scam-quantum-sicw-6455621",
+      "note": "싱가포르 국제 사이버 주간 발표와 기기 내 분석·실시간 경고 계획을 현장에서 확인합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 분석",
+      "title": "GovTech and Google DeepMind build on-device AI to flag scam chats",
+      "publisher": "Fintech.com.sg",
+      "publishedAt": "2026-10-14",
+      "url": "https://fintech.com.sg/govtech-deepmind-on-device-scam-detection-singapore",
+      "note": "공개 앱·출시일·탐지율·오탐률이 아직 없고 실제 피해 감소도 검증되지 않았다는 범위를 짚습니다."
+    }
+  ],
+  "publishedAt": "2026-10-15T13:00:47.745Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: 내 대화를 서버가 읽는 건가요? 픽: 아니요. 폰 안의 AI가 사기 신호를 살펴요. 누리: 그럼 지금 바로 쓸 수 있나요? 픽: 아직 앱·출시일·정확도는 공개되지 않았어요.",
+      "alt": "32화: AI가 사기 대화를 폰 안에서 살핀다 1페이지. 누리: 내 대화를 서버가 읽는 건가요? 픽: 아니요. 폰 안의 AI가 사기 신호를 살펴요. 누리: 그럼 지금 바로 쓸 수 있나요? 픽: 아직 앱·출시일·정확도는 공개되지 않았어요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": "GPT-5",
+      "status": "known-model"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}
