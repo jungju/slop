@@ -36,3 +36,4 @@
 | ep-030 | 2026-10-12 | 작은 클로드가 더 싸졌다 | `https://www.anthropic.com/claude-haiku-5-5|2026-10-07` | 한 장 2×2 네 컷, 10만 토큰 이하 단가 인하와 긴 입력·복잡한 코딩의 작업별 선택 한계를 함께 설명 |
 | ep-031 | 2026-10-13 | 마이크로소프트가 AI 칩을 공개했다 | `https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/|2026-10-12` | 한 장 2×2 네 컷, 추론 칩의 전력 효율 예상과 2027년 배포 전 회사 주장이라는 한계를 함께 설명 |
 | ep-032 | 2026-10-15 | AI가 사기 대화를 폰 안에서 살핀다 | `https://deepmind.google/blog/on-device-ai-scam-detection-mddi/|2026-10-14` | 한 장 2×2 네 컷, 기기 내 사기 대화 탐지 설계와 앱·출시일·정확도 미공개 한계를 함께 설명 |
+| ep-033 | 2026-10-16 | 초대형 AI 모델의 가중치가 열렸다 | `https://github.com/stepfun-ai/Step-5-Preview|2026-10-15` | 한 장 2×2 네 컷, 공개 가중치의 직접 검증 가능성과 1.21TB·다중 GPU 배포 문턱을 함께 설명 |
