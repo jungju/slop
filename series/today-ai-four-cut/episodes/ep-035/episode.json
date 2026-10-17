@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-035",
+  "number": 35,
+  "title": "35화: AI 승인 뒤 행동이 바뀔 수 있었다",
+  "shortTitle": "AI 승인 뒤 행동이 바뀔 수 있었다",
+  "lead": "새 연구는 10개 AI 에이전트 런타임의 승인 경로를 감사해, 행동 결합을 측정할 수 있었던 8개 중 4개에서 승인 뒤 도구 인수가 바뀔 수 있음을 재현했다.",
+  "closingLine": "승인 화면은 에이전트의 설명이 아니라 실제 실행할 정확한 행동을 보여 주고, 그 행동에 일회용으로 결합되어야 한다.",
+  "news": {
+    "headline": "Study audits whether AI-agent approvals stay bound to the action that executes",
+    "eventDate": "2026-10-15",
+    "researchDate": "2026-10-18",
+    "summary": "연구진은 10개 AI 에이전트 런타임의 승인 경로를 감사하고, 행동 결합을 측정할 수 있었던 8개 중 4개에서 승인 뒤 도구 인수가 바뀔 수 있음을 재현했습니다. 제안한 참조 방어는 실제 실행할 호출을 정규화한 카드와 승인 서명을 결합해 저장된 호출만 한 번 실행합니다. 다만 결과는 공개 런타임과 모의 공격에 한정되며, 승인 요청 남발이나 사람이 해로운 행동을 직접 승인하는 문제까지 해결하지는 않습니다.",
+    "selectionNote": "최근 48시간의 Beam 1.0 공개 가중치 후보는 ep-033과 핵심 주제가 겹쳐 제외했습니다. 7일 보완 창에서 arXiv 논문, 공개 코드·결과 저장소, Rosetta Intel의 독립 요약을 모두 열어 읽고 4/8 감사 결과와 실험 범위, 남은 한계를 교차 확인했습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "연구 논문",
+      "title": "Approve What, Exactly? Effect Binding and Trusted Rendering for Agent Step-Up Authorization",
+      "publisher": "arXiv",
+      "publishedAt": "2026-10-15",
+      "url": "https://arxiv.org/abs/2610.21063",
+      "note": "10개 런타임 감사, 승인 후 인수 변경, 정확한 행동 결합 방어와 모의 공격 결과·한계를 설명합니다."
+    },
+    {
+      "kind": "primary-artifact",
+      "label": "공개 코드와 결과",
+      "title": "Agent Step-Up (ASU)",
+      "publisher": "SportsVision AI 연구진",
+      "publishedAt": "2026-10-15",
+      "url": "https://github.com/Sports-Vision-Inc/agent-step-up",
+      "note": "게이트웨이, 공격 시나리오, 감사 결과, 실험 데이터와 형식 검증 자료를 공개합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 요약",
+      "title": "AI Frontier · Oct 16, 2026",
+      "publisher": "Rosetta Intel",
+      "publishedAt": "2026-10-16",
+      "url": "https://intel.rosettalab.dev/ai-frontier/2026-10-16",
+      "note": "4/8 결합 실패와 신뢰 카드 실험을 요약하고, 시험 범위·승인 남발·정책 허용 행동의 한계를 함께 확인합니다."
+    }
+  ],
+  "publishedAt": "2026-10-17T21:08:41.953Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: 승인 버튼을 누르면 그 행동만 실행되죠? 픽: 연구진은 8개 중 4개에서 승인 뒤 인수 변경을 찾았어요. 누리: 그럼 승인 화면만 믿으면 안 되나요? 픽: 실행할 정확한 행동에 묶고 한 번만 쓰게 해야 해요.",
+      "alt": "35화: AI 승인 뒤 행동이 바뀔 수 있었다 1페이지. 누리: 승인 버튼을 누르면 그 행동만 실행되죠? 픽: 연구진은 8개 중 4개에서 승인 뒤 인수 변경을 찾았어요. 누리: 그럼 승인 화면만 믿으면 안 되나요? 픽: 실행할 정확한 행동에 묶고 한 번만 쓰게 해야 해요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": "GPT-5",
+      "status": "known-model"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}
