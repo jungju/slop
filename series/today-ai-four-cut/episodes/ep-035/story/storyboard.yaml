@@ -1,0 +1,41 @@
+version: 2
+episode: ep-035
+reader_page: 1
+layout: single_image_2x2
+generation_mode: one_complete_lettered_poster
+reference: ".codex/skills/today-ai-four-cut-series/assets/reference-layout.png"
+exact_copy:
+  kicker: "인공지능 뉴스 네 컷"
+  title: "AI 승인 뒤 행동이 바뀔 수 있었다"
+  footer: "승인은 실행할 정확한 행동에 묶여야 해요."
+  panels:
+    - { number: "1", speaker: "누리", text: "승인 버튼을 누르면\n그 행동만 실행되죠?" }
+    - { number: "2", speaker: "픽", text: "연구진은 8개 중 4개에서\n승인 뒤 인수 변경을 찾았어요." }
+    - { number: "3", speaker: "누리", text: "그럼 승인 화면만\n믿으면 안 되나요?" }
+    - { number: "4", speaker: "픽", text: "실행할 정확한 행동에 묶고\n한 번만 쓰게 해야 해요." }
+panels:
+  - panel: 1
+    role: hook
+    visual_action: "누리가 따뜻한 편집실에서 승인 도장이 찍힌 무문자 작업 카드와 뒤에서 슬쩍 달라진 봉투를 나란히 비교한다. 카드와 봉투에는 추가 글자나 로고가 없다."
+    source_claims: [C1]
+    tail_target: character.nuri.001
+  - panel: 2
+    role: fact
+    visual_action: "픽이 여덟 개의 단순한 런타임 상자를 보여 주고, 그중 네 개에서 승인 전후의 작은 도형 인수가 달라진 모습을 가리킨다. 대사 외에는 읽을 수 있는 글자가 없다."
+    source_claims: [C2]
+    tail_target: character.pik.001
+  - panel: 3
+    role: meaning
+    visual_action: "누리가 보기 좋은 설명 카드와 실제 실행을 상징하는 봉인 카드가 서로 다름을 발견하고 두 카드를 들어 보인다. 카드에는 문자나 숫자가 없다."
+    source_claims: [C3, C4]
+    tail_target: character.nuri.001
+  - panel: 4
+    role: limit_and_takeaway
+    visual_action: "픽이 정확한 실행 명세에 지문처럼 결합된 일회용 승인 열쇠를 보여 주고, 옆에는 승인 요청이 몰려드는 작은 경고 종들을 배치해 남은 한계를 암시한다."
+    source_claims: [C4, C5, C6]
+    tail_target: character.pik.001
+generation_requirements:
+  - "Built-in image generation creates the complete poster, panel borders, balloons, tails, all exact Korean copy, and digits in one result."
+  - "Exactly four panels and exactly four speech balloons."
+  - "No local lettering, local balloon drawing, or post-generation text repair."
+  - "Reject and regenerate for any typo, paraphrase, missing character, extra text, fake Korean, missing tail, or identity drift."
