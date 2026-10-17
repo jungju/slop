@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-034",
+  "number": 34,
+  "title": "34화: AI 뉴런이 생각보다 읽힌다?",
+  "shortTitle": "AI 뉴런이 생각보다 읽힌다?",
+  "lead": "Goodfire의 닉 카마라타는 이미지 모델과 공개 언어 모델의 뉴런을 다시 살펴본 결과, 많은 뉴런에 일관된 주된 역할이 보인다는 작업 가설을 발표했다.",
+  "closingLine": "흥미로운 초기 분석이지만 기술 논문과 독립 재현이 아직 없고, 뉴런 일부를 읽는 것만으로 모델 전체의 작동이나 안전성이 입증되지는 않는다.",
+  "news": {
+    "headline": "Goodfire researcher argues neural networks may be more legible than previously thought",
+    "eventDate": "2026-10-15",
+    "researchDate": "2026-10-17",
+    "summary": "Goodfire 연구자 닉 카마라타는 고전적인 이미지 모델 사례와 공개 언어 모델 Qwen3-32B의 뉴런을 다시 분석해, 서로 무관한 개념이 뒤엉켰다고 여겨졌던 뉴런에도 일관된 주된 역할이 보일 수 있다는 작업 가설을 제시했습니다. 다만 동료 검토를 거친 기술 논문과 독립 재현은 아직 없으며, 뉴런을 설명하는 일이 모델 전체의 행동을 이해하거나 안전성을 보장하는 것과 같지는 않습니다.",
+    "selectionNote": "최근 48시간에 공개된 1차 연구 에세이와 두 독립 보도를 모두 열어 확인했습니다. 연구자의 주장과 관찰을 사실로 단정하지 않고, 작업 가설·예비 언어 모델 분석·미공개 기술 논문·외부 재현 부재를 독자에게 함께 보여 줍니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "연구 에세이",
+      "title": "Neural Networks Are Already Clean",
+      "publisher": "Goodfire",
+      "publishedAt": "2026-10-15",
+      "url": "https://already-clean.goodfire.com/",
+      "note": "이미지·언어 모델 뉴런이 생각보다 직접 읽힐 수 있다는 주장, 재분석 사례와 Qwen3-32B 예비 감사를 작업 가설로 제시합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 보도",
+      "title": "The Blog Post That Set the AI World on Fire",
+      "publisher": "The Atlantic",
+      "publishedAt": "2026-10-16",
+      "url": "https://www.theatlantic.com/technology/2026/10/ai-neuron-blog-post/689058/",
+      "note": "핵심 주장과 함께 동료 검토·기술 논문·언어 모델 일반화가 아직 없고, 뉴런 설명이 전체 모델 이해와 같지 않다는 비판을 전합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 분석",
+      "title": "Goodfire Researcher Says AI Neurons Are Far Easier to Read, Rejecting His Own Theory",
+      "publisher": "The Implicator",
+      "publishedAt": "2026-10-16",
+      "url": "https://www.implicator.ai/goodfire-cammarata-ai-neurons-easier-to-read/",
+      "note": "Qwen3-32B 감사 수치가 예비 결과이고 외부 재현과 기술 논문이 없으며 Goodfire가 이해가능성 사업의 이해관계자라는 한계를 짚습니다."
+    }
+  ],
+  "publishedAt": "2026-10-17T00:43:44.922Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: AI 속은 아직도 깜깜한 상자인가요? 픽: 한 연구자는 뉴런 대부분이 읽힌다고 주장했어요. 누리: 그럼 AI를 다 이해한 건가요? 픽: 아니요. 가설·초기 분석이라 독립 검증이 남았어요.",
+      "alt": "34화: AI 뉴런이 생각보다 읽힌다? 1페이지. 누리: AI 속은 아직도 깜깜한 상자인가요? 픽: 한 연구자는 뉴런 대부분이 읽힌다고 주장했어요. 누리: 그럼 AI를 다 이해한 건가요? 픽: 아니요. 가설·초기 분석이라 독립 검증이 남았어요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": "GPT-5",
+      "status": "known-model"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}
