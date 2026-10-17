@@ -1,0 +1,41 @@
+version: 2
+episode: ep-034
+reader_page: 1
+layout: single_image_2x2
+generation_mode: one_complete_lettered_poster
+reference: ".codex/skills/today-ai-four-cut-series/assets/reference-layout.png"
+exact_copy:
+  kicker: "인공지능 뉴스 네 컷"
+  title: "AI 뉴런이 생각보다 읽힌다?"
+  footer: "읽히는 뉴런과 안전한 AI는 같은 말이 아니에요."
+  panels:
+    - { number: "1", speaker: "누리", text: "AI 속은 아직도\n깜깜한 상자인가요?" }
+    - { number: "2", speaker: "픽", text: "한 연구자는 뉴런 대부분이\n읽힌다고 주장했어요." }
+    - { number: "3", speaker: "누리", text: "그럼 AI를 다\n이해한 건가요?" }
+    - { number: "4", speaker: "픽", text: "아니요. 가설·초기 분석이라\n독립 검증이 남았어요." }
+panels:
+  - panel: 1
+    role: hook
+    visual_action: "누리가 따뜻한 편집실에서 어두운 상자처럼 보이는 추상 신경망 모형을 확대경으로 들여다본다. 모형에는 글자나 로고가 없다."
+    source_claims: [C1]
+    tail_target: character.nuri.001
+  - panel: 2
+    role: fact
+    visual_action: "픽이 하나의 빛나는 뉴런과 V자 모양의 관련 가지를 확대경 아래에서 보여 준다. 고양이·자동차를 직접 복제하지 않고 단순한 점과 선으로만 개념을 표현한다."
+    source_claims: [C2, C3, C4]
+    tail_target: character.pik.001
+  - panel: 3
+    role: meaning
+    visual_action: "누리가 수많은 점과 선으로 된 큰 전체 신경망 지도를 펼쳐 들고, 작은 한 부분과 전체가 다름을 몸짓으로 묻는다."
+    source_claims: [C5]
+    tail_target: character.nuri.001
+  - panel: 4
+    role: limit_and_takeaway
+    visual_action: "픽이 비어 있는 논문 모양 종이와 서로 다른 두 확대경을 가리킨다. 체크 표시나 추가 문자 없이 검증이 남았음을 시각화한다."
+    source_claims: [C5, C6]
+    tail_target: character.pik.001
+generation_requirements:
+  - "Built-in image generation creates the complete poster, panel borders, balloons, tails, all exact Korean copy, and digits in one result."
+  - "Exactly four panels and exactly four speech balloons."
+  - "No local lettering, local balloon drawing, or post-generation text repair."
+  - "Reject and regenerate for any typo, paraphrase, missing character, extra text, fake Korean, missing tail, or identity drift."
