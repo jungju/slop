@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-036",
+  "number": 36,
+  "title": "36화: AI가 25년 암호의 씨앗을 찾았다",
+  "shortTitle": "AI가 25년 암호의 씨앗을 찾았다",
+  "lead": "Anthropic의 내부 연구 모델은 약 25년 동안 기원이 설명되지 않았던 다섯 NIST 타원곡선 씨앗을 1997~98년 시계값 기반 난수 생성 절차로 재현했고, 암호학자가 이를 독립 구현으로 확인했다.",
+  "closingLine": "이번 발견은 암호 해독이 아니라 공개 씨앗의 기원 재현이며, 일부 선택 기준과 전체 작업 기록은 아직 남아 있다.",
+  "news": {
+    "headline": "Claude traces five NIST elliptic-curve seeds to a 1997–98 clock-based generator",
+    "eventDate": "2026-10-16",
+    "researchDate": "2026-10-19",
+    "summary": "Anthropic의 내부 연구 모델은 다섯 NIST 타원곡선의 공개 씨앗이 1997~98년 Unix 시각으로 초기화한 옛 난수 생성 절차에서 나왔음을 찾아냈습니다. 현상금 주최 암호학자가 별도 Go 구현으로 같은 씨앗을 재현했습니다. 이는 ECDSA를 깨거나 새 취약점을 만든 것이 아니며, 후보 선택 기준 일부와 사용 모델의 전체 작업 기록은 공개되지 않았습니다.",
+    "selectionNote": "최근 48시간 자료 중 Anthropic의 원문, Filippo Valsorda의 독립 재구현, CoinDesk의 보도를 모두 열어 읽고 생성 기원·독립 재현·암호 비파괴 범위·남은 선택 기준을 교차 확인했습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "연구 기록",
+      "title": "Claude reveals ECDSA curve origins",
+      "publisher": "Anthropic",
+      "publishedAt": "2026-10-16",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "note": "다섯 NIST 곡선 씨앗의 시계값 기반 생성 절차와 암호 비파괴 범위, 남은 질문을 설명합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 기술 재현",
+      "title": "The NIST Elliptic Curves Seeds Bounty Has Been Claimed",
+      "publisher": "Filippo Valsorda",
+      "publishedAt": "2026-10-16",
+      "url": "https://words.filippo.io/seeds-solved/",
+      "note": "현상금 주최 암호학자가 생성 절차를 Go로 재구현해 씨앗을 확인하고 미해결 선택 기준을 기록합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 보도",
+      "title": "‘Wow, it’s a real discovery’: Claude cracks a 25-year NSA curve mystery",
+      "publisher": "CoinDesk",
+      "publishedAt": "2026-10-17",
+      "url": "https://www.coindesk.com/tech/2026/10/17/wow-it-s-a-real-discovery-claude-cracks-a-25-year-nsa-number-mystery",
+      "note": "1997~98년 생성 절차와 독립 확인, 이번 발견이 암호 해독이 아니라는 범위를 보도합니다."
+    }
+  ],
+  "publishedAt": "2026-10-18T21:05:18.338Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: AI가 25년 된 암호 수수께끼를 풀었다고요? 픽: 다섯 씨앗을 1997~98년 시계값으로 재현했어요. 누리: 그럼 인터넷 암호가 깨진 건가요? 픽: 아니요. 기원을 재현했고 선택 기준 일부는 남았어요.",
+      "alt": "36화: AI가 25년 암호의 씨앗을 찾았다 1페이지. 누리: AI가 25년 된 암호 수수께끼를 풀었다고요? 픽: 다섯 씨앗을 1997~98년 시계값으로 재현했어요. 누리: 그럼 인터넷 암호가 깨진 건가요? 픽: 아니요. 기원을 재현했고 선택 기준 일부는 남았어요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": "GPT-5",
+      "status": "known-model"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}
