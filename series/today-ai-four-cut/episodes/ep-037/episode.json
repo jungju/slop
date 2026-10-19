@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-037",
+  "number": 37,
+  "title": "37화: AI 회사가 주식 5%를 공익에 건다",
+  "shortTitle": "AI 회사가 주식 5%를 공익에 건다",
+  "lead": "Anthropic은 주주 승인 뒤 회사 주식 5%를 새 공익 기금에 배정하겠다고 발표했으며, 회사 가치가 커지면 이사회 판단으로 지분을 더 보탤 수 있다고 밝혔다.",
+  "closingLine": "현재 확인된 것은 조건부 지분 약속이며, 기금의 구체적 운영 구조와 실제 사용처는 앞으로 공개될 예정이다.",
+  "news": {
+    "headline": "Anthropic commits 5% of its shares to a new Public Benefit Fund",
+    "eventDate": "2026-10-18",
+    "researchDate": "2026-10-20",
+    "summary": "Anthropic은 주주 승인 뒤 회사 주식 5%를 새 공익 기금에 배정하겠다고 발표했습니다. 회사 가치가 정해진 기준보다 50% 오를 때마다 이사회 판단으로 2%를 추가할 수 있고, 기금은 비영리단체 기부나 특정 집단에 대한 직접 지원 등을 검토할 수 있습니다. 다만 기금의 상세한 지배구조와 실제 사용처는 아직 공개되지 않았습니다.",
+    "selectionNote": "최근 48시간 안의 공식 발표와 eWeek 보도를 모두 열어 읽고, 5% 약속이 주주 승인 전이며 실제 현금 지급이나 확정된 노동자 지원책이 아니라는 범위를 교차 확인했습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "공식 발표",
+      "title": "Investing in the public benefit",
+      "publisher": "Anthropic",
+      "publishedAt": "2026-10-18",
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "note": "초기 5% 지분 약속의 주주 승인 조건, 추가 지분 구조, 기금 형태와 아직 공개되지 않은 운영 세부를 설명합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 보도",
+      "title": "Anthropic Pledges 5% of Its Shares to Public Benefit Fund as IPO Approaches",
+      "publisher": "eWeek",
+      "publishedAt": "2026-10-18",
+      "url": "https://www.eweek.com/news/anthropic-public-benefit-fund-pledge/",
+      "note": "주주 승인 조건과 재량적 추가 지분, 지원금 전환·배분 시점과 감독 구조가 아직 공개되지 않았다는 한계를 확인합니다."
+    }
+  ],
+  "publishedAt": "2026-10-19T22:13:44.032Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: AI 회사가 주식 5%를 공익 기금에 넣는다고요? 픽: Anthropic이 주주 승인 뒤 새 기금에 내놓겠대요. 누리: 그 돈은 바로 노동자에게 가는 건가요? 픽: 아직 아니에요. 운영 방식과 사용처는 더 공개돼야 해요.",
+      "alt": "37화: AI 회사가 주식 5%를 공익에 건다 1페이지. 누리: AI 회사가 주식 5%를 공익 기금에 넣는다고요? 픽: Anthropic이 주주 승인 뒤 새 기금에 내놓겠대요. 누리: 그 돈은 바로 노동자에게 가는 건가요? 픽: 아직 아니에요. 운영 방식과 사용처는 더 공개돼야 해요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": "GPT-5",
+      "status": "known-model"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}
