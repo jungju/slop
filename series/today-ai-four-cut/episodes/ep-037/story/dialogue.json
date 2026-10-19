@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "kicker": "인공지능 뉴스 네 컷",
+  "title": "AI 회사가 주식 5%를 공익에 건다",
+  "footer": "약속은 승인과 운영 규칙까지 확인해야 해요.",
+  "panels": [
+    { "number": 1, "speaker": "누리", "text": "AI 회사가 주식 5%를\n공익 기금에 넣는다고요?" },
+    { "number": 2, "speaker": "픽", "text": "Anthropic이 주주 승인 뒤\n새 기금에 내놓겠대요." },
+    { "number": 3, "speaker": "누리", "text": "그 돈은 바로 노동자에게\n가는 건가요?" },
+    { "number": 4, "speaker": "픽", "text": "아직 아니에요. 운영 방식과\n사용처는 더 공개돼야 해요." }
+  ]
+}
