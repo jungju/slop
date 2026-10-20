@@ -1,0 +1,41 @@
+version: 2
+episode: ep-038
+reader_page: 1
+layout: single_image_2x2
+generation_mode: one_complete_lettered_poster
+reference: ".codex/skills/today-ai-four-cut-series/assets/reference-layout.png"
+exact_copy:
+  kicker: "인공지능 뉴스 네 컷"
+  title: "AI가 신약 개발 일정을 챙긴다"
+  footer: "인수 발표와 실제 성과는 구분해야 해요."
+  panels:
+    - { number: "1", speaker: "누리", text: "AI가 신약 개발 일정도 챙긴다고요?" }
+    - { number: "2", speaker: "픽", text: "OpenAI가 Orchestra Bio를 인수했어요." }
+    - { number: "3", speaker: "누리", text: "그럼 신약이 바로 빨라지나요?" }
+    - { number: "4", speaker: "픽", text: "아직 몰라요. 실제 단축 성과는 공개되지 않았어요." }
+panels:
+  - panel: 1
+    role: hook
+    visual_action: "누리가 따뜻한 연구실에서 신약 후보 병 옆에 얽힌 연구·제조·시험 일정판을 보며 묻는다. 대사 외 읽을 수 있는 글자나 로고는 없다."
+    source_claims: [C1, C2]
+    tail_target: character.nuri.001
+  - panel: 2
+    role: fact
+    visual_action: "픽이 생명과학 도구와 운영 플랫폼을 상징하는 두 무문자 퍼즐 조각을 합친다. 대사 외 읽을 수 있는 글자나 로고는 없다."
+    source_claims: [C1, C3]
+    tail_target: character.pik.001
+  - panel: 3
+    role: meaning
+    visual_action: "누리가 제조 지연을 상징하는 경고 표식과 뒤로 밀린 임상시험 달력을 보며 실제 기간 단축 여부를 묻는다. 대사 외 읽을 수 있는 글자는 없다."
+    source_claims: [C4, C5]
+    tail_target: character.nuri.001
+  - panel: 4
+    role: limit_and_takeaway
+    visual_action: "픽이 아직 비어 있는 성과표와 사람이 찍을 결정 도장을 나란히 보여 준다. 확정된 인수와 미확인 성과를 대비하되 추가 글자는 없다."
+    source_claims: [C4, C6]
+    tail_target: character.pik.001
+generation_requirements:
+  - "Built-in image generation creates the complete poster, panel borders, balloons, tails, all exact Korean copy, and digits in one result."
+  - "Exactly four panels and exactly four speech balloons."
+  - "No local lettering, local balloon drawing, or post-generation text repair."
+  - "Reject and regenerate for any typo, paraphrase, missing character, extra text, fake Korean, missing tail, or identity drift."

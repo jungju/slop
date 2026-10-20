@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-038",
+  "number": 38,
+  "title": "38화: AI가 신약 개발 일정을 챙긴다",
+  "shortTitle": "AI가 신약 개발 일정을 챙긴다",
+  "lead": "OpenAI는 신약 개발 과정의 연구·제조·시험 일정과 지연 요인을 추적하는 AI 에이전트 플랫폼 Orchestra Bio를 인수해 생명과학 도구 Rosalind에 합치겠다고 발표했다.",
+  "closingLine": "이번 발표는 개발 운영을 연결하려는 인수이며, 신약 개발 기간을 실제로 줄였다는 성과나 거래 조건은 공개되지 않았다.",
+  "news": {
+    "headline": "OpenAI acquires Orchestra Bio",
+    "eventDate": "2026-10-20",
+    "researchDate": "2026-10-21",
+    "summary": "OpenAI는 바이오·제약팀의 연구, 제조, 임상시험 일정과 지연 요인을 AI 에이전트로 추적하는 Orchestra Bio를 인수했습니다. 회사는 Orchestra의 팀과 기술을 생명과학 모델·도구 모음인 Rosalind에 통합해 연구 결과와 다음 개발 단계를 연결하겠다고 밝혔습니다. 다만 거래 조건과 신약 개발 기간을 실제로 줄인 결과는 공개되지 않았습니다.",
+    "selectionNote": "최근 48시간 안의 OpenAI 공식 발표와 TechCrunch·Axios 보도를 모두 열어 읽고, 확인된 인수와 운영 지원 범위를 실제 치료제 개발 성과와 구분했습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "공식 발표",
+      "title": "OpenAI acquires Orchestra Bio",
+      "publisher": "OpenAI",
+      "publishedAt": "2026-10-20",
+      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio/",
+      "note": "Orchestra Bio 인수와 Rosalind 통합 계획, 에이전트가 추적할 개발 운영 업무, 사람이 최종 결정을 맡는 구조를 설명합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 보도",
+      "title": "OpenAI acquires startup Orchestra Bio to beef up its biotech business",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-10-20",
+      "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%E2%81%A0-to-beef-up-its-biotech-business/",
+      "note": "인수 사실과 Orchestra의 일정·재무·임상시험 운영 지원 범위, 거래 조건 비공개를 확인합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "추가 보도",
+      "title": "Exclusive: OpenAI acquires biotech startup as AI race moves into drug development",
+      "publisher": "Axios",
+      "publishedAt": "2026-10-20",
+      "url": "https://www.axios.com/2026/10/20/exclusive-openai-biotech-startup-drug-development",
+      "note": "Orchestra의 팀·기술이 Rosalind에 통합되고 거래 조건은 공개되지 않았다는 점을 확인합니다."
+    }
+  ],
+  "publishedAt": "2026-10-20T22:16:24.816Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: AI가 신약 개발 일정도 챙긴다고요? 픽: OpenAI가 Orchestra Bio를 인수했어요. 누리: 그럼 신약이 바로 빨라지나요? 픽: 아직 몰라요. 실제 단축 성과는 공개되지 않았어요.",
+      "alt": "38화: AI가 신약 개발 일정을 챙긴다 1페이지. 누리: AI가 신약 개발 일정도 챙긴다고요? 픽: OpenAI가 Orchestra Bio를 인수했어요. 누리: 그럼 신약이 바로 빨라지나요? 픽: 아직 몰라요. 실제 단축 성과는 공개되지 않았어요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": "GPT-5",
+      "status": "known-model"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}
