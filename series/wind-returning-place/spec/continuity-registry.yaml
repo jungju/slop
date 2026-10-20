@@ -2,6 +2,36 @@ version: 1
 factory_type: comic
 comic_id: wind-returning-place
 elements:
+  - id: prop.adjustable-print-storage-slot.001
+    name: 간격을 맞추는 푸른 보관 홈
+    category: prop
+    scope: episode
+    status: active
+    introduced_in: ep-054
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-054
+        active_until: ep-054
+        supersedes: null
+        immutable_features:
+          - one low cream-painted wooden vertical print-storage rack with one open lower bay
+          - exactly two parallel muted-cobalt felt-lined rails forming one straight storage slot, with one rail fixed and one rail removable
+          - exactly three unmarked round spacing holes and one removable aged-brass locking pin for the movable rail
+          - one tiny cream crescent wear mark on the movable rail front tip
+          - no doors, labels, numbers, printed scale, text, logo, glass, scanner lid, rollers, crank, or motor
+        mutable_features:
+          - slot empty or holding one blank thickness test board or one thick mounted seaweed print board
+          - movable rail in narrow or middle spacing hole
+          - one temporary dry salt crystal and light paper dust beneath the movable rail before cleaning
+          - Jeju community archive workroom
+        reference_asset_ids:
+          - prop-adjustable-print-storage-slot-001-v1-text-lock
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: text_locked
   - id: prop.height-adjustable-scanner-lid.001
     name: 높이를 맞추는 푸른 막대 스캐너 덮개
     category: prop
