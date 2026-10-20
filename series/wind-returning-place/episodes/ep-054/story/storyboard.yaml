@@ -1,0 +1,102 @@
+version: 1
+episode: ep-054
+continuity_bindings:
+  characters:
+    - character.han-doyun.001@v1
+    - character.kang-yunseo.001@v1
+    - character.soondeok.001@v1
+  props:
+    - prop.adjustable-print-storage-slot.001@v1
+generation:
+  model: OpenAI Image Generation
+  tool: built-in image_gen
+  text_policy: text-free
+  reference_policy: canonical textual character and prop locks, plus accepted page 1 as one fixed within-episode Yunseo identity reference for nonsequential replacements; no preceding-panel identity chaining
+  acceptance_notes:
+    - "Accepted source set contains exactly 20 unique text-free pages."
+    - "Rejected the initial pages 3-20 set for tied or long hair, older-looking Yunseo, wardrobe drift, or unstable rack structure."
+    - "Rejected replacement pages 4, 5, 12, 14, 15, and 16 for split-panel or montage compositions."
+    - "Rejected replacement pages 6, 9, and 10 for railway, machine, or contact-structure drift."
+    - "Rejected the first accepted-looking pages 17, 19, and 20 at final contact-sheet review because Doyun appeared as a boy or teenager; regenerated those pages with canonical 26-year-old adult Doyun identity, wardrobe, messenger bag, and vintage camera."
+    - "Final accepted pages use one fixed page-1 child identity reference only; no accepted page is used as the next page's scene or composition baseline."
+pages:
+  - panel: 1
+    beat: "윤서가 두꺼운 인화 보드를 보관하려 한다"
+    caption: "윤서는 말린 해조류를 붙인 두꺼운 인화 보드를 보관장에 세우려 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Jeju community archive workroom. Elementary-school-age Korean girl Kang Yunseo, clear child proportions, short straight jaw-length black bob with blunt bangs, muted sea-blue hooded rain jacket, cream sweatshirt, charcoal pants and dark rubber boots, carries one thick cream mounted board bearing a simple unlettered pressed-seaweed image toward a low cream vertical print rack. No writing, adult-looking child, photorealism, logo, watermark, caption, speech bubble, or panel grid."
+  - panel: 2
+    beat: "가장자리를 지켜 아래 홈에 넣는 목표"
+    caption: "가장자리를 상하게 하지 않고 아래쪽 홈에 넣어 두려 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo kneels beside one open lower bay of a cream wooden print rack and aligns the thick seaweed board above one straight cobalt felt-lined storage slot, carefully protecting all four corners. No doors, labels, text, logo, watermark, bubble, or panel grid."
+  - panel: 3
+    beat: "도윤이 좁은 홈에 보드를 민다"
+    caption: "도윤은 좁은 푸른 홈에 보드를 밀어 넣었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Slim clean-shaven 26-year-old Korean man Han Doyun, slightly long wavy black hair, gray hoodie under dark coat, old brown messenger bag and black-silver vintage film camera, pushes the thick mounted board downward into the visibly narrow cobalt slot while child Yunseo watches. No scanner, text, logo, watermark, bubble, or panel grid."
+  - panel: 4
+    beat: "보드가 걸리고 모서리가 긁힌다"
+    caption: "보드는 중간에 걸렸고 아래 모서리에 가는 긁힘이 생겼다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Clear close-up: the thick cream board is stuck halfway in the narrow felt slot, with one fine fresh scrape on its lower corner and the felt pinched inward. Yunseo points at the single damage mark. No broken board, writing, logo, watermark, bubble, or panel grid."
+  - panel: 5
+    beat: "윤서가 밀기를 멈춘다"
+    caption: "윤서는 더 밀지 말고 보드 두께와 홈 안쪽부터 보자고 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Canonical child Yunseo raises one calm stop palm toward Doyun, then indicates the board edge and the dark interior of the slot; Doyun releases the board and listens. No argument, adult-looking Yunseo, text, logo, watermark, bubble, or panel grid."
+  - panel: 6
+    beat: "순덕이 레일 바닥을 비추게 한다"
+    caption: "순덕은 두 레일의 바닥까지 손전등으로 비추라고 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Elderly Jeju Korean woman Soondeok, short gray-white hair, wind-weathered face and sea-colored work outerwear, hands child Yunseo one plain small flashlight and points into the bottoms of both parallel rails while Doyun stands back. No mystical gesture, writing, logo, watermark, bubble, or panel grid."
+  - panel: 7
+    beat: "윤서가 조절 구조를 살핀다"
+    caption: "윤서는 두 레일과 황동 핀, 세 간격 구멍을 살폈다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Clean three-quarter inspection of exactly one cream wooden lower rack bay: exactly two parallel muted-cobalt felt-lined rails, left rail fixed, right rail removable, exactly three unmarked round spacing holes, one removable aged-brass locking pin, and one tiny cream crescent wear mark on the movable rail tip. No doors, labels, numbers, glass, scanner, rollers, text, logo, watermark, bubble, or panel grid."
+  - panel: 8
+    beat: "홈 안쪽 소금 결정을 찾는다"
+    caption: "좁은 홈 안쪽 한편에서 마른 소금 결정 하나가 빛났다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Flashlight evidence close-up inside the narrow slot: exactly one small dry white salt crystal glints beneath the movable cobalt rail beside a little plain paper dust; child Yunseo's fingertip stops nearby. No multiple crystals, writing, logo, watermark, bubble, or panel grid."
+  - panel: 9
+    beat: "레일을 들어 결정과 먼지를 턴다"
+    caption: "윤서는 핀을 빼고 이동 레일 아래의 결정과 먼지를 털었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Canonical child Yunseo removes the single brass pin, lifts only the right cobalt felt-lined rail, and tips out the one salt crystal and light paper dust onto a plain cloth. Doyun steadies only the rack. No extra pins, water, text, logo, watermark, bubble, or panel grid."
+  - panel: 10
+    beat: "두 레일의 숨은 면을 닦는다"
+    caption: "마른 솔과 천으로 두 레일 바닥과 펠트 면을 닦았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo uses one small dry brush and one plain dry cloth to clean the exposed rail bed and both cobalt felt contact faces, with the movable rail resting beside them. No liquid, scanner, text, logo, watermark, bubble, or panel grid."
+  - panel: 11
+    beat: "깨끗한 두 펠트 면이 곧게 이어진다"
+    caption: "빈 레일을 다시 놓자 양쪽 펠트가 곧게 이어졌다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Empty cleaned slot viewed from the front: two straight parallel cobalt felt faces run evenly into the cream rack, with the movable rail temporarily seated and the single brass pin nearby. Yunseo sights along them. No board, dirt, labels, text, logo, watermark, bubble, or panel grid."
+  - panel: 12
+    beat: "실제 보드와 같은 두께의 시험판을 만든다"
+    caption: "빈 판지를 겹쳐 실제 인화 보드와 같은 두께를 만들었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo stacks plain blank cream board pieces into one test board whose side profile exactly matches the actual thick seaweed board placed beside it; she compares thickness by touch. No ruler, numbers, writing, extra prints, logo, watermark, bubble, or panel grid."
+  - panel: 13
+    beat: "좁은 설정이 펠트를 말리게 한다"
+    caption: "좁은 홈에서는 시험판 양쪽의 펠트가 눌려 말렸다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Controlled close side view: the blank thickness-matched test board enters the narrow first-hole setting and visibly rolls both cobalt felt edges inward without reaching the end. Yunseo stops before forcing it. No real artwork, damage, arrows, text, logo, watermark, bubble, or panel grid."
+  - panel: 14
+    beat: "이동 레일을 가운데 구멍으로 옮긴다"
+    caption: "윤서는 이동 레일을 가운데 구멍으로 옮겨 다시 고정했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Canonical child Yunseo moves only the right cobalt rail from the narrow first unmarked hole to the middle of exactly three holes and inserts the one brass locking pin; left rail stays fixed. No scale, extra holes, extra pins, text, logo, watermark, bubble, or panel grid."
+  - panel: 15
+    beat: "시험판이 고르게 오간다"
+    caption: "시험판은 흔들리지 않으면서 끝까지 곧게 오갔다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. The blank test board slides straight to the end of the widened middle setting and back out, upright with light even felt contact and no side wobble; child Yunseo guides it with open hands. No real print, force, text, logo, watermark, bubble, or panel grid."
+  - panel: 16
+    beat: "시험판과 펠트에 자국이 없는지 확인한다"
+    caption: "네 모서리와 두 펠트 면에는 새 자국이 없었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Evidence close-up: child Yunseo turns the blank test board to inspect all four clean corners, then touches both straight unrolled cobalt felt faces; no new scrape or residue is visible. No writing, logo, watermark, bubble, or panel grid."
+  - panel: 17
+    beat: "실제 보드를 홈과 평행하게 맞춘다"
+    caption: "윤서는 실제 보드를 홈과 평행하게 세워 모서리를 맞췄다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Canonical child Yunseo removes the test board and holds the actual thick cream mounted seaweed print perfectly parallel above the cleaned widened cobalt slot, aligning both lower corners herself while Doyun watches. No extra board, text, logo, watermark, bubble, or panel grid."
+  - panel: 18
+    beat: "실제 보드가 홈 끝까지 들어간다"
+    caption: "보드는 누르지 않아도 청소하고 넓힌 홈 끝까지 들어갔다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. The real thick seaweed board slides upright to the end of the cleaned middle-width slot under only Yunseo's light guiding fingertips; both cobalt felt rails remain straight, the brass pin fixed. No pressing hands, scanner, text, logo, watermark, bubble, or panel grid."
+  - panel: 19
+    beat: "새 긁힘이 없는 결과를 확인한다"
+    caption: "다시 꺼낸 보드에는 처음의 긁힘 말고 새 자국이 없었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Clear result close-up: Yunseo holds the removed seaweed board beside the slot and traces its clean lower edge; only the single earlier fine scrape remains, with no new marks or bent corners. Doyun looks relieved. No writing, logo, watermark, bubble, or panel grid."
+  - panel: 20
+    beat: "맞는 간격의 홈에 보드를 세워 둔다"
+    caption: "윤서는 온전한 보드를 맞는 간격의 푸른 홈에 세워 두었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Quiet final Jeju image: the intact thick seaweed print board stands straight and protected in the properly spaced cobalt felt slot of the cream rack; child Yunseo removes her hands after confirming stability, with Soondeok and Doyun nearby. No other boards, labels, writing, logo, watermark, bubble, or panel grid."
