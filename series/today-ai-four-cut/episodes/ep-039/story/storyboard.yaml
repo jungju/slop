@@ -1,0 +1,41 @@
+version: 2
+episode: ep-039
+reader_page: 1
+layout: single_image_2x2
+generation_mode: one_complete_lettered_poster
+reference: ".codex/skills/today-ai-four-cut-series/assets/reference-layout.png"
+exact_copy:
+  kicker: "인공지능 뉴스 네 컷"
+  title: "OpenAI 모델이 구글 클라우드에 온다"
+  footer: "발표된 계획과 현재 이용 범위는 달라요."
+  panels:
+    - { number: "1", speaker: "누리", text: "구글 클라우드에서도 OpenAI 모델을 쓴다고요?" }
+    - { number: "2", speaker: "픽", text: "세 모델과 Codex가 비공개 시험에 들어갔어요." }
+    - { number: "3", speaker: "누리", text: "그럼 누구나 바로 쓸 수 있나요?" }
+    - { number: "4", speaker: "픽", text: "아직 아니에요. 지금은 일부 기업만 초대받아요." }
+panels:
+  - panel: 1
+    role: hook
+    visual_action: "누리가 서로 다른 AI 모형이 놓인 구름형 진열대를 보며 묻는다. 대사 외 읽을 수 있는 글자나 로고는 없다."
+    source_claims: [C1]
+    tail_target: character.nuri.001
+  - panel: 2
+    role: fact
+    visual_action: "픽이 세 개의 서로 다른 무문자 모델 블록과 코딩 도구를 구름형 서버 선반에 연결한다. 대사 외 읽을 수 있는 글자나 로고는 없다."
+    source_claims: [C2, C3]
+    tail_target: character.pik.001
+  - panel: 3
+    role: meaning
+    visual_action: "누리가 열린 문 앞의 초대장을 들어 보이며 지금 누구나 이용할 수 있는지 확인한다. 초대장에도 읽을 수 있는 글자는 없다."
+    source_claims: [C4, C5]
+    tail_target: character.nuri.001
+  - panel: 4
+    role: limit_and_takeaway
+    visual_action: "픽이 일부만 열린 출입문과 아직 넘어가지 않은 무문자 공개 일정표를 보여 준다. 대사 외 읽을 수 있는 글자는 없다."
+    source_claims: [C5, C6]
+    tail_target: character.pik.001
+generation_requirements:
+  - "Built-in image generation creates the complete poster, panel borders, balloons, tails, all exact Korean copy, and digits in one result."
+  - "Exactly four panels and exactly four speech balloons."
+  - "No local lettering, local balloon drawing, or post-generation text repair."
+  - "Reject and regenerate for any typo, paraphrase, missing character, extra text, fake Korean, missing tail, or identity drift."
