@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-039",
+  "number": 39,
+  "title": "39화: OpenAI 모델이 구글 클라우드에 온다",
+  "shortTitle": "OpenAI 모델이 구글 클라우드에 온다",
+  "lead": "OpenAI와 Google Cloud는 OpenAI 프런티어 모델과 Codex 워크플로를 Google Cloud Model Garden에 제공하고 Marketplace에서 구매할 수 있게 하겠다고 발표했다.",
+  "closingLine": "현재는 일부 기업 고객 대상 비공개 시험이며, 일반 공개는 정확한 날짜 없이 앞으로 몇 주 안으로만 계획됐다.",
+  "news": {
+    "headline": "OpenAI models are coming to Google Cloud",
+    "eventDate": "2026-10-21",
+    "researchDate": "2026-10-22",
+    "summary": "OpenAI와 Google Cloud는 OpenAI의 프런티어 모델과 Codex를 Google Cloud Model Garden에 제공하고 Marketplace를 통해 구매할 수 있게 하겠다고 발표했습니다. Google Cloud는 GPT-6 Astra, GPT-6.1 Sol, GPT-6 Luna를 일부 기업 고객에게 비공개 시험으로 배포 중이라고 밝혔습니다. 일반 공개는 앞으로 몇 주 안에 계획됐지만 정확한 날짜와 실제 도입 성과는 아직 제시되지 않았습니다.",
+    "selectionNote": "최근 48시간 안의 양사 공식 발표와 Reuters·Ars Technica·CNBC 보도를 모두 읽고, 향후 일반 공개 계획을 현재 일부 기업 대상 비공개 시험과 구분했습니다. 공개 링크는 격리 브라우저에서 실제로 열린 자료만 실었습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "Google Cloud 공식 발표",
+      "title": "Google Cloud expands model choice and flexibility, bringing OpenAI models to customers",
+      "publisher": "Google Cloud",
+      "publishedAt": "2026-10-21",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers",
+      "note": "세 OpenAI 모델의 일부 기업 대상 비공개 시험과 API·Codex 연결 범위를 설명합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "기술 보도",
+      "title": "OpenAI’s latest AI models are coming to Google Cloud and Antigravity",
+      "publisher": "Ars Technica",
+      "publishedAt": "2026-10-21",
+      "url": "https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/",
+      "note": "현재 일부 기업 대상 비공개 시험이며 관심 기업이 조기 접근을 신청해야 한다는 범위를 확인합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "추가 독립 보도",
+      "title": "OpenAI to bring AI models to Google’s cloud, in further expansion beyond Microsoft",
+      "publisher": "CNBC",
+      "publishedAt": "2026-10-21",
+      "url": "https://www.cnbc.com/2026/10/21/openai-bring-its-ai-models-to-googles-cloud-expands-beyond-microsoft.html",
+      "note": "OpenAI 모델의 Google Cloud 유통 확대와 Model Garden·Antigravity 제공 계획을 확인합니다."
+    }
+  ],
+  "publishedAt": "2026-10-22T01:25:49.527Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: 구글 클라우드에서도 OpenAI 모델을 쓴다고요? 픽: 세 모델과 Codex가 비공개 시험에 들어갔어요. 누리: 그럼 누구나 바로 쓸 수 있나요? 픽: 아직 아니에요. 지금은 일부 기업만 초대받아요.",
+      "alt": "39화: OpenAI 모델이 구글 클라우드에 온다 1페이지. 누리: 구글 클라우드에서도 OpenAI 모델을 쓴다고요? 픽: 세 모델과 Codex가 비공개 시험에 들어갔어요. 누리: 그럼 누구나 바로 쓸 수 있나요? 픽: 아직 아니에요. 지금은 일부 기업만 초대받아요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": "GPT-5",
+      "status": "known-model"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}
