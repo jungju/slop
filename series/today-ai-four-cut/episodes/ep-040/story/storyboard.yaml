@@ -1,0 +1,41 @@
+version: 2
+episode: ep-040
+reader_page: 1
+layout: single_image_2x2
+generation_mode: one_complete_lettered_poster
+reference: ".codex/skills/today-ai-four-cut-series/assets/reference-layout.png"
+exact_copy:
+  kicker: "인공지능 뉴스 네 컷"
+  title: "군사용 AI 포럼이 열렸다"
+  footer: "포럼 출범은 합의된 규칙의 완성을 뜻하지 않아요."
+  panels:
+    - { number: "1", speaker: "누리", text: "군사용 AI를 두고 세계가 한자리에 모였나요?" }
+    - { number: "2", speaker: "픽", text: "유엔 연구소가 여러 주체의 포럼을 열었어요." }
+    - { number: "3", speaker: "누리", text: "그럼 지켜야 할 규칙도 정해졌나요?" }
+    - { number: "4", speaker: "픽", text: "아직 대화의 시작이에요. 규칙은 더 만들어야 해요." }
+panels:
+  - panel: 1
+    role: hook
+    visual_action: "누리가 평화로운 국제 회의실의 둥근 테이블과 서로 다른 무문자 참가 배지를 보며 묻는다. 무기, 국기, 로고, 추가 글자는 없다."
+    source_claims: [C1, C2]
+    tail_target: character.nuri.001
+  - panel: 2
+    role: fact
+    visual_action: "픽이 정부·기업·시민사회를 상징하는 세 개의 무문자 의자를 한 테이블로 모은다. 대사 외 읽을 수 있는 글자는 없다."
+    source_claims: [C2, C3]
+    tail_target: character.pik.001
+  - panel: 3
+    role: meaning
+    visual_action: "누리가 내용이 비어 있는 규칙책 모형을 펼쳐 이미 규칙이 정해졌는지 확인한다. 대사 외 읽을 수 있는 글자는 없다."
+    source_claims: [C4, C5]
+    tail_target: character.nuri.001
+  - panel: 4
+    role: limit_and_takeaway
+    visual_action: "픽이 첫 번째 퍼즐 조각과 아직 빈 칸이 많은 방패 모형을 가리키며 대화가 이제 시작됐음을 보여 준다. 대사 외 읽을 수 있는 글자는 없다."
+    source_claims: [C5, C6]
+    tail_target: character.pik.001
+generation_requirements:
+  - "Built-in image generation creates the complete poster, panel borders, balloons, tails, all exact Korean copy, and digits in one result."
+  - "Exactly four panels and exactly four speech balloons."
+  - "No local lettering, local balloon drawing, or post-generation text repair."
+  - "Reject and regenerate for any typo, paraphrase, missing character, extra text, fake Korean, missing tail, or identity drift."
