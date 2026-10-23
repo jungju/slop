@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-040",
+  "number": 40,
+  "title": "40화: 군사용 AI 포럼이 열렸다",
+  "shortTitle": "군사용 AI 포럼이 열렸다",
+  "lead": "유엔 군축연구소(UNIDIR)는 2026년 10월 22일 군사용 AI를 논의하는 포럼을 출범시키고 정부·기업·시민사회 등 여러 주체의 참여 신청을 열었다.",
+  "closingLine": "포럼은 의견 수렴과 협업을 위한 출발점이며, 구속력 있는 국제 규칙이나 완성된 안전 기준이 마련됐다는 뜻은 아니다.",
+  "news": {
+    "headline": "UNIDIR launches a forum on AI, peace and security",
+    "eventDate": "2026-10-22",
+    "researchDate": "2026-10-24",
+    "summary": "유엔 군축연구소(UNIDIR)는 군사용 AI의 위험과 책임 있는 이용을 논의할 다자 포럼을 2026년 10월 22일 출범시켰습니다. 정부·기업·시민사회·학계 등이 의견을 나누고 협업하는 중립 공간을 목표로 합니다. 다만 포럼 출범은 구속력 있는 국제 규칙이나 완성된 안전 기준이 생겼다는 뜻은 아닙니다.",
+    "selectionNote": "최근 48시간의 공식 UNIDIR 행사 기록과 AP 보도를 모두 열어 확인했습니다. 바로 전 회차의 클라우드 유통 발표와 지문·주제가 다르고, 군사용 AI에 관한 새 국제 논의 구조라는 공적 중요성이 있어 선택했습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "UNIDIR 공식 행사",
+      "title": "UNIDIR’s Centre of Excellence on AI, Peace and Security: Forum launch",
+      "publisher": "UNIDIR",
+      "publishedAt": "2026-10-22",
+      "url": "https://unidir.org/event/unidirs-centre-of-excellence-on-ai-peace-and-security-forum-launch/",
+      "note": "포럼의 출범일, 참여 범위, 의견 교환·상담·협업이라는 목적을 설명합니다."
+    },
+    {
+      "kind": "primary",
+      "label": "UNIDIR 책임 지침 설명",
+      "title": "Industry responsibility in developing military AI",
+      "publisher": "UNIDIR",
+      "publishedAt": "2026-10-22",
+      "url": "https://unidir.org/industry-responsibility-in-developing-military-ai/",
+      "note": "군사용 AI 책임 지침이 아직 여러 주체의 협의를 거쳐 개발되는 자발적 실무 지침임을 설명합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 보도",
+      "title": "New UN initiative will aim to tackle the military uses of AI",
+      "publisher": "AP News",
+      "publishedAt": "2026-10-20",
+      "url": "https://apnews.com/article/un-artificial-intelligence-military-china-us-e0a3c48c91a9de89cab72609d185f658",
+      "note": "포럼 출범과 군사용 AI에서 인간 판단이 줄어드는 우려, 아직 구체적 실행이 정해지지 않은 범위를 확인합니다."
+    }
+  ],
+  "publishedAt": "2026-10-24",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: 군사용 AI를 두고 세계가 한자리에 모였나요? 픽: 유엔 연구소가 여러 주체의 포럼을 열었어요. 누리: 그럼 지켜야 할 규칙도 정해졌나요? 픽: 아직 대화의 시작이에요. 규칙은 더 만들어야 해요.",
+      "alt": "40화: 군사용 AI 포럼이 열렸다 1페이지. 누리: 군사용 AI를 두고 세계가 한자리에 모였나요? 픽: 유엔 연구소가 여러 주체의 포럼을 열었어요. 누리: 그럼 지켜야 할 규칙도 정해졌나요? 픽: 아직 대화의 시작이에요. 규칙은 더 만들어야 해요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": "GPT-5",
+      "status": "known-model"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}
