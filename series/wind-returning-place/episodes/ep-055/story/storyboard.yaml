@@ -1,0 +1,101 @@
+version: 1
+episode: ep-055
+continuity_bindings:
+  characters:
+    - character.han-doyun.001@v1
+    - character.kang-yunseo.001@v1
+    - character.soondeok.001@v1
+  props:
+    - prop.visible-failure-archive-folder.001@v1
+generation:
+  model: OpenAI Image Generation
+  tool: built-in image_gen
+  text_policy: text-free
+  reference_policy: canonical textual character and prop locks only; no preceding-panel identity chaining
+  acceptance_notes:
+    - "Accepted source set contains exactly 20 unique text-free OpenAI-generated pages."
+    - "Rejected initial pages 6, 10, and 18 for split-panel or montage compositions and regenerated them as single continuous scenes."
+    - "Rejected initial page 13 for long tied hair and regenerated it with Yunseo's canonical short jaw-length bob."
+    - "Replaced initial pages 3 and 4 because their outdoor staging broke the continuous Jeju darkroom sequence; accepted replacements are strictly indoors."
+    - "No accepted page was used as the next page's scene or identity baseline."
+pages:
+  - panel: 1
+    beat: "윤서가 실패한 인화 세 장을 꺼낸다"
+    caption: "윤서는 작업대 아래 상자에서 실패한 인화 세 장을 꺼냈다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Jeju community darkroom worktable. Elementary-school-age Korean girl Kang Yunseo, clear child proportions, short straight jaw-length black bob with blunt bangs, muted sea-blue hooded rain jacket, cream sweatshirt, charcoal pants, dark rubber boots, kneels and lifts exactly three cream photographic prints from one plain shallow discard box. No readable image content, text, logo, watermark, bubble, or panel grid."
+  - panel: 2
+    beat: "실패 흔적을 남기는 목표"
+    caption: "같은 실수를 피하려면 세 장의 실패 흔적을 남겨 두어야 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo lays exactly three failed photographic prints separately across a wooden worktable beside one clean blank test print, comparing them with focused practical attention. Each failed print has a different visible defect but no writing. No labels, text, logo, watermark, bubbles, or montage."
+  - panel: 3
+    beat: "도윤이 실패면을 숨겨 포갠다"
+    caption: "도윤은 얼룩과 줄무늬가 안 보이게 인화면을 안쪽으로 포개려 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Slim clean-shaven 26-year-old Korean man Han Doyun, slightly long wavy black hair, gray hoodie under dark coat, old brown messenger bag and black-silver vintage film camera, turns the three defective prints face inward into one stack; child Yunseo watches his hands. No child-looking man, text, logo, watermark, bubble, or panel grid."
+  - panel: 4
+    beat: "숨은 소금 가루를 발견한다"
+    caption: "맨 아래 인화 뒷면에는 거친 소금 가루가 붙어 있었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Evidence close-up of the underside of the lowest cream print: a few coarse dry sea-salt grains cling to its back and cast tiny side-light shadows; Yunseo's small fingertip stops nearby. No glitter, text, logo, watermark, bubble, or panel grid."
+  - panel: 5
+    beat: "윤서가 포개는 손을 멈춘다"
+    caption: "윤서는 다른 인화까지 긁히기 전에 도윤의 손을 멈췄다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Canonical child Yunseo raises one calm stop palm between the salt-grained print and the clean print above it; adult Doyun immediately holds the stack apart and listens. Clear cause-and-effect hand action. No argument, text, logo, watermark, bubble, or panel grid."
+  - panel: 6
+    beat: "순덕이 앞뒷면 검사를 알려 준다"
+    caption: "순덕은 버릴 종이도 빛에 비춰 앞뒷면을 모두 보라고 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Elderly Jeju Korean woman Soondeok, short gray-white hair, wind-weathered face, sea-colored work outerwear over dark practical clothes, tilts one plain failed print through a beam of side light and turns it to show front then back; Yunseo and Doyun observe. No mystical gesture, text, logo, watermark, bubble, or panel grid."
+  - panel: 7
+    beat: "첫 인화의 물얼룩"
+    caption: "옆빛을 받은 첫 인화에서 마른 물얼룩이 드러났다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Close view of the first plain monochrome harbor test print under raking light, showing one irregular pale dried-water tide mark across the lower area; child Yunseo holds only the edges. No letters, text, logo, watermark, bubble, or panel grid."
+  - panel: 8
+    beat: "둘째 인화의 롤러 줄"
+    caption: "둘째 인화에는 롤러가 멈춘 굵은 줄 하나가 남아 있었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Close view of the second plain photographic test print showing exactly one broad uneven dark roller streak crossing a soft abstract harbor image; Yunseo points beside, not on, the streak. No letters, symbols, text, logo, watermark, bubble, or panel grid."
+  - panel: 9
+    beat: "셋째 인화의 꺾인 모서리"
+    caption: "셋째 인화는 젖은 채 집은 한 모서리만 꺾여 있었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Close view of the third cream photographic print: exactly one damp-hand pinched corner is bent while the other three corners remain flat; Yunseo supports it on an open palm. No extra damage, text, logo, watermark, bubble, or panel grid."
+  - panel: 10
+    beat: "뒷면과 작업대를 따로 청소한다"
+    caption: "윤서는 부드러운 솔로 세 장의 뒷면과 작업대를 따로 털었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo uses one soft dry brush to clean the backs of exactly three separated prints, then sweeps the bare worktable toward a small plain cloth; all image faces stay apart. No liquid, text, logo, watermark, bubble, or panel grid."
+  - panel: 11
+    beat: "접착식 덮개를 거절한다"
+    caption: "도윤이 흠을 덮을 접착 모서리를 내밀자 윤서는 고개를 저었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Adult Doyun offers one opaque self-adhesive corner patch above the bent defect; child Yunseo gently shakes her head and keeps the patch away from the print. The three defects remain visible on the table. No labels, text, logo, watermark, bubble, or panel grid."
+  - panel: 12
+    beat: "빈 인화지로 접착 없는 받침을 시험한다"
+    caption: "윤서는 같은 크기의 빈 인화지로 푸른 모서리 받침을 시험했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo tests four removable muted-cobalt folded paper corner pockets on one blank cream sheet exactly matching the failed prints' size, over one cream archival backing board. No glue, real artwork, measurement marks, text, logo, watermark, bubble, or panel grid."
+  - panel: 13
+    beat: "첫 받침이 실패 흔적을 가린다"
+    caption: "첫 받침은 너무 깊어 빈 종이의 모서리를 가렸다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Clear close-up: one first cobalt paper corner pocket extends too deeply over the blank test sheet, covering a large triangular area; Yunseo marks the fold only with her thumbnail, no tool or writing. No real print, glue, text, logo, watermark, bubble, or panel grid."
+  - panel: 14
+    beat: "얕게 다시 접은 네 받침이 종이를 잡는다"
+    caption: "다시 접은 네 받침은 종이를 누르지 않고 제자리에 잡았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Top-down proof view: exactly four shallow removable cobalt folded-paper corner pockets lightly hold the blank cream test sheet on a cream backing board while leaving nearly the entire sheet visible and flat. No glue, pressure weights, text, logo, watermark, bubble, or panel grid."
+  - panel: 15
+    beat: "세 실패 흔적이 보이는 방향을 고른다"
+    caption: "윤서는 세 실패 흔적이 모두 보이도록 인화의 방향을 정했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo rotates the three separate failed prints on three cream backing boards so the water mark, single roller streak, and one bent corner remain clearly exposed away from shallow cobalt corner pockets. Adult Doyun watches without directing. No labels, text, logo, watermark, bubble, or panel grid."
+  - panel: 16
+    beat: "장착 뒤 새 자국을 확인한다"
+    caption: "세 인화를 보존판에 끼운 뒤 앞뒷면의 새 자국을 확인했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Yunseo lifts each of exactly three mounted failed prints in turn and inspects clean backs and unpressed edges; shallow cobalt corner pockets hold without adhesive or new marks. Soondeok observes nearby. No extra prints, text, logo, watermark, bubble, or panel grid."
+  - panel: 17
+    beat: "도윤이 얕은 폴더를 내민다"
+    caption: "도윤은 버리던 상자 대신 세 보존판을 펼칠 얕은 폴더를 내밀었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Adult Doyun places one shallow open cream archival tri-fold folder on the table, sized to display exactly three mounted boards side by side; child Yunseo chooses where each board will rest. Folder has no pockets, labels, writing, ties, or logo. No text, watermark, bubble, or panel grid."
+  - panel: 18
+    beat: "윤서가 세 실패를 다시 확인한다"
+    caption: "윤서는 물얼룩과 롤러 줄, 꺾인 모서리를 차례로 짚었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Open cream tri-fold folder displays exactly three mounted failed prints; child Yunseo's finger moves visually from the dried water mark to the single dark roller streak to the one bent corner, all unobscured. No labels, arrows, text, logo, watermark, bubble, or panel grid."
+  - panel: 19
+    beat: "다음 시험 인화 순서를 고친다"
+    caption: "열린 폴더 옆에서 다음 시험 인화의 순서를 다시 맞췄다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Beside the open three-print failure folder, child Yunseo prepares one new blank test print: dry clean table, soft roller resting fully off the paper, and hands waiting until the corner is dry. Doyun follows her sequence. No instructional writing, text, logo, watermark, bubble, or panel grid."
+  - panel: 20
+    beat: "세 실패가 다음 작업을 기다린다"
+    caption: "세 번의 실패는 가려지지 않은 채 다음 작업을 기다렸다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Quiet final Jeju workroom image: one open cream tri-fold archive folder holds exactly three failed prints in shallow cobalt corner pockets, visibly showing one water mark, one roller streak, and one bent corner; a clean blank test print waits beside it. Yunseo removes her hands. No labels, writing, text, logo, watermark, bubble, or panel grid."

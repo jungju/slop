@@ -1275,3 +1275,31 @@ elements:
           canonical_source_only: true
           previous_panel_as_reference: false
           exact_method: reference_guided
+  - id: prop.visible-failure-archive-folder.001
+    name: 실패를 가리지 않는 푸른 모서리 폴더
+    category: prop
+    scope: episode
+    status: active
+    introduced_in: ep-055
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-055
+        active_until: ep-055
+        supersedes: null
+        immutable_features:
+          - shallow cream archival tri-fold folder sized for exactly three separate backing boards
+          - each cream backing board uses exactly four shallow removable muted-cobalt folded-paper corner pockets
+          - corner pockets use no glue and leave the failed image and defect visible
+          - no text, labels, numbers, logo, ties, or decorative lettering
+        mutable_features:
+          - open or closed state
+          - order and orientation of the three failed prints
+          - Jeju workroom table placement and lighting
+        reference_asset_ids:
+          - prop-visible-failure-archive-folder-001-v1-model-sheet
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: reference_guided
