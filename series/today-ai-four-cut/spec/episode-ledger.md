@@ -44,3 +44,4 @@
 | ep-038 | 2026-10-21 | AI가 신약 개발 일정을 챙긴다 | `https://openai.com/index/openai-to-acquire-orchestra-bio/|2026-10-20` | 한 장 2×2 네 컷, 신약 개발 운영 플랫폼 인수와 실제 기간 단축 성과가 아직 공개되지 않은 한계를 함께 설명 |
 | ep-039 | 2026-10-22 | OpenAI 모델이 구글 클라우드에 온다 | `https://openai.com/index/openai-models-google-cloud/|2026-10-21` | 한 장 2×2 네 컷, Google Cloud 비공개 시험과 향후 일반 공개 계획의 차이를 함께 설명 |
 | ep-040 | 2026-10-24 | 군사용 AI 포럼이 열렸다 | `https://unidir.org/event/unidirs-centre-of-excellence-on-ai-peace-and-security-forum-launch/|2026-10-22` | 한 장 2×2 네 컷, 군사용 AI 다자 포럼 출범과 합의된 규칙은 아직 완성되지 않았다는 한계를 함께 설명 |
+| ep-041 | 2026-10-25 | 영국이 AI 생물보안 연구소를 세운다 | `https://www.gov.uk/government/news/introducing-the-ai-biosecurity-lab|2026-10-24` | 한 장 2×2 네 컷, 연구소 설립·지원 약속과 실제 탐지·백신 개발 성과는 아직 검증 전이라는 한계를 함께 설명 |
