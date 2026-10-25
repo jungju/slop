@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-041",
+  "number": 41,
+  "title": "41화: 영국이 AI 생물보안 연구소를 세운다",
+  "shortTitle": "영국이 AI 생물보안 연구소를 세운다",
+  "lead": "영국 정부는 2026년 10월 24일 AI를 이용해 생물학적 위협을 더 일찍 탐지하고 의료 대응책 개발을 돕는 AI 생물보안 연구소 설립 계획을 발표했다.",
+  "closingLine": "정부 예산과 기업 지원 약속은 확인됐지만, 연구소는 이제 출범하는 단계여서 실제 탐지·백신 개발 성과는 앞으로 검증해야 한다.",
+  "news": {
+    "headline": "UK announces a new AI Biosecurity Lab",
+    "eventDate": "2026-10-24",
+    "researchDate": "2026-10-25",
+    "summary": "영국 정부는 AI로 생물학적 위협을 더 일찍 탐지하고 백신·치료제 같은 의료 대응책 개발을 돕는 AI 생물보안 연구소를 세운다고 발표했습니다. 정부는 1억 파운드를 지원하고 OpenAI와 Anthropic은 최대 2억 파운드 상당의 컴퓨팅·모델 접근·기술 지원을 약속했습니다. 다만 이는 출범 계획과 지원 약속이며, 실제 탐지나 백신 개발 성과가 이미 입증됐다는 뜻은 아닙니다.",
+    "selectionNote": "최근 48시간 안의 영국 정부 발표 두 건과 독립 보도를 모두 열어 확인했습니다. 바로 전 회차의 군사용 AI 국제 포럼과 출처 지문·핵심 주제가 다르고, AI의 생물안보 활용과 위험 대응을 함께 다룬 새 공공 정책이라 선택했습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "영국 정부 연구소 발표",
+      "title": "Introducing the AI Biosecurity Lab",
+      "publisher": "UK Cabinet Office",
+      "publishedAt": "2026-10-24",
+      "url": "https://www.gov.uk/government/news/introducing-the-ai-biosecurity-lab",
+      "note": "연구소의 설립 목적, 1억 파운드 정부 지원, 기업 지원 약속과 초기 임무를 설명합니다."
+    },
+    {
+      "kind": "primary",
+      "label": "영국 정부 AI 투자 패키지",
+      "title": "Chancellor unveils Britain’s ambitious plan for AI",
+      "publisher": "HM Treasury",
+      "publishedAt": "2026-10-24",
+      "url": "https://www.gov.uk/government/news/chancellor-unveils-britains-ambitious-plan-for-ai",
+      "note": "연구소를 포함한 AI 보안 투자 항목과 예산 범위를 확인할 수 있습니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 보도",
+      "title": "UK to set up AI ‘biosecurity lab’ to detect risks of future pandemics",
+      "publisher": "The Independent",
+      "publishedAt": "2026-10-24",
+      "url": "https://www.independent.co.uk/news/uk/home-news/john-healey-government-budget-anthropic-openai-b3072549.html",
+      "note": "연구소와 지원 규모를 독립적으로 확인하고 세부 운영과 성과가 아직 남았음을 보여 줍니다."
+    }
+  ],
+  "publishedAt": "2026-10-25",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: AI로 생물 위협을 찾는 연구소가 생기나요? 픽: 영국이 1억 파운드를 들여 새 연구소를 세워요. 누리: 백신과 탐지도 바로 빨라지는 건가요? 픽: 아직 계획 단계예요. 실제 성과는 더 확인해야 해요.",
+      "alt": "41화: 영국이 AI 생물보안 연구소를 세운다 1페이지. 누리: AI로 생물 위협을 찾는 연구소가 생기나요? 픽: 영국이 1억 파운드를 들여 새 연구소를 세워요. 누리: 백신과 탐지도 바로 빨라지는 건가요? 픽: 아직 계획 단계예요. 실제 성과는 더 확인해야 해요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": "GPT-5",
+      "status": "known-model"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}
