@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-042",
+  "number": 42,
+  "title": "42화: 짧은 판단용 AI API가 정식 출시됐다",
+  "shortTitle": "짧은 판단용 AI API가 정식 출시됐다",
+  "lead": "OpenAI는 2026년 10월 22일 정해진 선택지 안에서 확률·선택·점수를 빠르게 반환하는 Decisions API를 정식 출시했다.",
+  "closingLine": "최대 10배 빠르다는 수치는 OpenAI의 자체 비교이므로 실제 업무에서는 속도와 정확도를 함께 시험해야 한다.",
+  "news": {
+    "headline": "OpenAI makes the Decisions API generally available",
+    "eventDate": "2026-10-22",
+    "researchDate": "2026-10-27",
+    "summary": "OpenAI는 앱과 에이전트가 분류·경로 선택 같은 작은 결정을 빠르게 처리하도록 만든 Decisions API를 정식 출시했습니다. 개발자가 답 후보를 정하면 GPT-6 Luna 기반 API가 확률, 선택 또는 점수를 반환하며 텍스트·이미지·JSON을 받을 수 있습니다. 다만 최대 10배 빠르다는 수치는 OpenAI가 Responses API와 비교한 자체 주장이고, 정확도와 효용은 실제 업무별 평가가 필요합니다.",
+    "selectionNote": "2026년 10월 27일 최근 48시간의 주요 1차 발표를 다시 검토했지만 전날 회차보다 새롭고 독립 확인 가능한 소재를 찾지 못해 7일 보완 창을 사용했습니다. OpenAI 발표와 공식 문서, TechCrunch 보도를 모두 다시 열어 일반 공개 시점과 제한된 답 형식, 속도 주장 범위를 교차 확인했습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "OpenAI 제품 발표",
+      "title": "Build more responsive apps with the Decisions API",
+      "publisher": "OpenAI",
+      "publishedAt": "2026-10-22",
+      "url": "https://openai.com/index/decisions-api/",
+      "note": "정식 출시, 지원 입력과 세 가지 답 형식, 최대 10배 속도라는 회사 측 비교를 설명합니다."
+    },
+    {
+      "kind": "primary",
+      "label": "OpenAI 개발자 문서",
+      "title": "Decisions",
+      "publisher": "OpenAI Developers",
+      "publishedAt": "2026-10-22",
+      "url": "https://developers.openai.com/api/docs/guides/decisions",
+      "note": "전용 엔드포인트의 입력, 답 형식, 요청 구조와 평가 방법을 확인할 수 있습니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 보도",
+      "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-10-22",
+      "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+      "note": "일반 공개와 GPT-6 Luna 기반 구현을 확인하고 업무별 속도·정확도 균형이 다르다는 한계를 짚습니다."
+    }
+  ],
+  "publishedAt": "2026-10-26T21:04:59.688Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: AI가 앱의 작은 결정을 바로 골라 준다고요? 픽: OpenAI가 정해진 답을 고르는 API를 정식 출시했어요. 누리: 그럼 정말 열 배 빠르고 정확한 건가요? 픽: 속도는 회사 주장이고 업무별 정확도 시험이 필요해요.",
+      "alt": "42화: 짧은 판단용 AI API가 정식 출시됐다 1페이지. 누리: AI가 앱의 작은 결정을 바로 골라 준다고요? 픽: OpenAI가 정해진 답을 고르는 API를 정식 출시했어요. 누리: 그럼 정말 열 배 빠르고 정확한 건가요? 픽: 속도는 회사 주장이고 업무별 정확도 시험이 필요해요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": "GPT-5",
+      "status": "known-model"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}
