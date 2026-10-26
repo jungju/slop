@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "kicker": "인공지능 뉴스 네 컷",
+  "title": "짧은 판단용 AI API가 정식 출시됐다",
+  "footer": "빠른 분류도 실제 업무별 정확도 시험이 필요해요.",
+  "panels": [
+    { "number": 1, "speaker": "누리", "text": "AI가 앱의 작은 결정을 바로 골라 준다고요?" },
+    { "number": 2, "speaker": "픽", "text": "OpenAI가 정해진 답을 고르는 API를 정식 출시했어요." },
+    { "number": 3, "speaker": "누리", "text": "그럼 정말 열 배 빠르고 정확한 건가요?" },
+    { "number": 4, "speaker": "픽", "text": "속도는 회사 주장이고 업무별 정확도 시험이 필요해요." }
+  ]
+}
