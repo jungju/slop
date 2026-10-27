@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-043",
+  "number": 43,
+  "title": "43화: 소리 나는 가상세계가 바로 열린다",
+  "shortTitle": "소리 나는 가상세계가 바로 열린다",
+  "lead": "Google DeepMind는 2026년 10월 27일 말로 장면을 바꾸며 화면과 소리를 실시간 생성하는 세계 모델 Genie 4를 연구 미리보기로 공개했다.",
+  "closingLine": "Genie 4는 아직 신뢰 테스터 중심의 연구 미리보기이며 몇 분 뒤 장면과 물체가 흔들릴 수 있어 데모를 완성된 장기 가상세계로 보면 안 된다.",
+  "news": {
+    "headline": "Google DeepMind announces the Genie 4 world model research preview",
+    "eventDate": "2026-10-27",
+    "researchDate": "2026-10-28",
+    "summary": "Google DeepMind는 텍스트 지시로 장면을 실시간 바꾸고 화면과 음악·환경음·대화를 함께 생성하는 세계 모델 Genie 4를 연구 미리보기로 공개했습니다. 현재는 신뢰 테스터에게 먼저 제공되며 Google AI Ultra와 일부 개발자 파트너로 순차 확대될 예정입니다. 다만 연속 상호작용은 몇 분 수준이고, 시간이 길어지면 장면·물체·공간과 소리의 정확도가 흔들릴 수 있습니다.",
+    "selectionNote": "2026년 10월 28일 최근 48시간의 주요 AI 발표를 확인하고, 공식 발표와 모델 페이지 및 Ars Technica·TechCrunch 보도를 모두 열어 공개 범위와 한계를 교차 확인했습니다. 같은 기간 GPT-6.1 Terra도 검토했지만 전날 Decisions API 회차와 제품 API 주제가 가까워, 더 새롭고 시각적으로 설명 가능한 Genie 4를 선택했습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "Google DeepMind 발표",
+      "title": "Genie 4: A new generation of world simulation",
+      "publisher": "Google DeepMind",
+      "publishedAt": "2026-10-27",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "note": "실시간 장면 조정, 화면·소리 생성, 연구 미리보기 범위와 장면 일관성 한계를 설명합니다."
+    },
+    {
+      "kind": "primary",
+      "label": "Google DeepMind 모델 안내",
+      "title": "Genie 4",
+      "publisher": "Google DeepMind",
+      "publishedAt": "2026-10-27",
+      "url": "https://deepmind.google/models/genie/",
+      "note": "접근 대상, 몇 분 수준의 상호작용, 물체·공간·텍스트·소리의 현재 한계를 정리합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 보도",
+      "title": "DeepMind unveils Genie 4 world model promising more realistic physics and humans",
+      "publisher": "Ars Technica",
+      "publishedAt": "2026-10-27",
+      "url": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/",
+      "note": "실시간 조정과 소리 생성을 확인하면서 구체적 확대 일정이 없고 장기 일관성이 제한됨을 짚습니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 보도",
+      "title": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-10-27",
+      "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+      "note": "연구 미리보기 출시와 실시간 편집을 확인하고 장면·물체·소리·글자 정확도의 남은 한계를 전합니다."
+    }
+  ],
+  "publishedAt": "2026-10-27T21:07:46.013Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: 말로 만든 세계를 바로 걸어 다닌다고요? 픽: Genie 4가 화면과 소리를 실시간으로 만들어요. 누리: 그럼 오래 놀아도 세계가 그대로인가요? 픽: 아직 몇 분짜리 시험판이라 장면이 흔들릴 수 있어요.",
+      "alt": "43화: 소리 나는 가상세계가 바로 열린다 1페이지. 누리: 말로 만든 세계를 바로 걸어 다닌다고요? 픽: Genie 4가 화면과 소리를 실시간으로 만들어요. 누리: 그럼 오래 놀아도 세계가 그대로인가요? 픽: 아직 몇 분짜리 시험판이라 장면이 흔들릴 수 있어요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": "GPT-5",
+      "status": "known-model"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}

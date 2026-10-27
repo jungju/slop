@@ -46,3 +46,4 @@
 | ep-040 | 2026-10-24 | 군사용 AI 포럼이 열렸다 | `https://unidir.org/event/unidirs-centre-of-excellence-on-ai-peace-and-security-forum-launch/|2026-10-22` | 한 장 2×2 네 컷, 군사용 AI 다자 포럼 출범과 합의된 규칙은 아직 완성되지 않았다는 한계를 함께 설명 |
 | ep-041 | 2026-10-25 | 영국이 AI 생물보안 연구소를 세운다 | `https://www.gov.uk/government/news/introducing-the-ai-biosecurity-lab|2026-10-24` | 한 장 2×2 네 컷, 연구소 설립·지원 약속과 실제 탐지·백신 개발 성과는 아직 검증 전이라는 한계를 함께 설명 |
 | ep-042 | 2026-10-27 | 짧은 판단용 AI API가 정식 출시됐다 | `https://openai.com/index/decisions-api/|2026-10-22` | 한 장 2×2 네 컷, 제한된 답을 빠르게 반환하는 API 정식 출시와 회사 측 속도 주장·업무별 정확도 시험 필요를 함께 설명 |
+| ep-043 | 2026-10-28 | 소리 나는 가상세계가 바로 열린다 | `https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/|2026-10-27` | 한 장 2×2 네 컷, 실시간 화면·소리 세계 생성과 신뢰 테스터 연구 미리보기·몇 분 수준 일관성 한계를 함께 설명 |
