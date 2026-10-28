@@ -47,3 +47,4 @@
 | ep-041 | 2026-10-25 | 영국이 AI 생물보안 연구소를 세운다 | `https://www.gov.uk/government/news/introducing-the-ai-biosecurity-lab|2026-10-24` | 한 장 2×2 네 컷, 연구소 설립·지원 약속과 실제 탐지·백신 개발 성과는 아직 검증 전이라는 한계를 함께 설명 |
 | ep-042 | 2026-10-27 | 짧은 판단용 AI API가 정식 출시됐다 | `https://openai.com/index/decisions-api/|2026-10-22` | 한 장 2×2 네 컷, 제한된 답을 빠르게 반환하는 API 정식 출시와 회사 측 속도 주장·업무별 정확도 시험 필요를 함께 설명 |
 | ep-043 | 2026-10-28 | 소리 나는 가상세계가 바로 열린다 | `https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/|2026-10-27` | 한 장 2×2 네 컷, 실시간 화면·소리 세계 생성과 신뢰 테스터 연구 미리보기·몇 분 수준 일관성 한계를 함께 설명 |
+| ep-044 | 2026-10-29 | 로봇 판단 두뇌가 클라우드에 열렸다 | `https://cloud.google.com/blog/products/ai-machine-learning/gemini-robotics-embodied-reasoning-2-is-now-available-on-google-cloud|2026-10-27` | 한 장 2×2 네 컷, 로봇 상위 판단 모델의 공개 시험과 저수준 제어·물리 안전의 운영자 검증 책임을 함께 설명 |
