@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-044",
+  "number": 44,
+  "title": "44화: 로봇 판단 두뇌가 클라우드에 열렸다",
+  "shortTitle": "로봇 판단 두뇌가 클라우드에 열렸다",
+  "lead": "Google Cloud는 2026년 10월 27일 로봇의 영상 이해와 상위 작업 계획을 맡는 Gemini Robotics ER 2를 공개 시험으로 제공하기 시작했다.",
+  "closingLine": "이 모델은 저수준 제어 도구를 호출하는 상위 판단 계층이며, 공개 시험 단계의 오류 가능성과 실제 로봇 주변 안전은 운영자가 별도로 검증해야 한다.",
+  "news": {
+    "headline": "Google Cloud opens Gemini Robotics ER 2 in public preview",
+    "eventDate": "2026-10-27",
+    "researchDate": "2026-10-29",
+    "summary": "Google Cloud는 로봇의 카메라 영상을 해석하고 작업 진행을 판단하며 여러 단계의 행동을 계획하는 Gemini Robotics ER 2를 Model Garden의 공개 시험으로 제공하기 시작했습니다. 이 모델은 모터를 직접 움직이는 단일 제어기가 아니라 개발자가 연결한 이동·조작 API나 저수준 로봇 모델을 도구처럼 호출하는 상위 판단 계층입니다. 공식 문서는 생성형 AI가 틀릴 수 있고 실제 로봇은 손상을 일으킬 수 있으므로 안전한 환경을 유지할 책임이 운영자에게 있다고 밝힙니다.",
+    "selectionNote": "2026년 10월 29일 최근 48시간의 AI 발표를 조사했습니다. 전날 회차에서 다룬 Genie 4는 중복이라 제외했고, 10월 28일 Rime Prism은 새 발표지만 독립 검증 자료가 충분하지 않아 제외했습니다. Google Cloud 공식 발표와 문서, 10월 28일 독립 요약을 모두 열어 공개 범위와 상위 판단 계층이라는 한계를 확인했습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "Google Cloud 발표",
+      "title": "Gemini Robotics Embodied Reasoning 2 is now available on Google Cloud",
+      "publisher": "Google Cloud",
+      "publishedAt": "2026-10-27",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-robotics-embodied-reasoning-2-is-now-available-on-google-cloud",
+      "note": "공개 시험 출시, 영상 기반 진행 판단, 상위 계획과 저수준 로봇 API 호출 구조를 설명합니다."
+    },
+    {
+      "kind": "primary",
+      "label": "Google Cloud 문서",
+      "title": "Gemini Robotics ER 2 overview",
+      "publisher": "Google Cloud Documentation",
+      "publishedAt": "2026-10-27",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/gemini-robotics-er",
+      "note": "공개 시험 조건, 기능, 환각 가능성, 물리적 안전과 운영자 책임을 명시합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 출시 확인",
+      "title": "Gemini Robotics ER 2 Hits Public Preview as a High-Level Brain for Arms to Humanoids",
+      "publisher": "Nvdium",
+      "publishedAt": "2026-10-28",
+      "url": "https://nvdium.com/en/articles/178522196",
+      "note": "Model Garden 공개 시험과 상위 판단·저수준 제어 분리, 실환경 검증 과제를 요약합니다."
+    }
+  ],
+  "publishedAt": "2026-10-28T21:04:50.726Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: 로봇이 보고 다음 행동까지 정한다고요? 픽: 로봇 판단 모델이 공개 시험으로 클라우드에 열렸어요. 누리: 그럼 바로 혼자 움직여도 안전한가요? 픽: 아니요. 제어 도구와 안전 환경은 사람이 따로 검증해야 해요.",
+      "alt": "44화: 로봇 판단 두뇌가 클라우드에 열렸다 1페이지. 누리: 로봇이 보고 다음 행동까지 정한다고요? 픽: 로봇 판단 모델이 공개 시험으로 클라우드에 열렸어요. 누리: 그럼 바로 혼자 움직여도 안전한가요? 픽: 아니요. 제어 도구와 안전 환경은 사람이 따로 검증해야 해요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": "GPT-5",
+      "status": "known-model"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}
