@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "kicker": "AI 뉴스 네 컷",
+  "title": "AI 행동 지침이 다섯 원칙으로 바뀌었다",
+  "footer": "공개 지침과 실제 모델 행동은 따로 확인해야 해요.",
+  "panels": [
+    { "number": 1, "speaker": "누리", "text": "AI는 시킨 말만 그대로\n따르는 게 아닌가요?" },
+    { "number": 2, "speaker": "픽", "text": "OpenAI가 행동 지침을\n다섯 원칙으로 다시 묶었어요." },
+    { "number": 3, "speaker": "누리", "text": "그럼 지금 AI가 모두\n그렇게 행동하나요?" },
+    { "number": 4, "speaker": "픽", "text": "아니요. 목표 지침이고 현재 모델은\n아직 다 반영하지 못했어요." }
+  ]
+}

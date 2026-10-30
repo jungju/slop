@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-045",
+  "number": 45,
+  "title": "45화: AI 행동 지침이 다섯 원칙으로 바뀌었다",
+  "shortTitle": "AI 행동 지침이 다섯 원칙으로 바뀌었다",
+  "lead": "OpenAI는 2026년 10월 29일 모델의 목표 행동을 설명하는 공개 Model Spec을 다섯 가치 중심으로 다시 구성했다.",
+  "closingLine": "공개 지침은 목표 행동을 설명하며 현재 모델이 이를 아직 완전히 반영하지 않으므로 실제 동작과 구분해 확인해야 한다.",
+  "news": {
+    "headline": "OpenAI reorganizes its Model Spec around five core values",
+    "eventDate": "2026-10-29",
+    "researchDate": "2026-10-31",
+    "summary": "OpenAI는 모델이 어떻게 행동하기를 원하는지 설명하는 공개 Model Spec을 다섯 가치 중심으로 다시 구성했습니다. 사람의 의도에 충실하기, 피해 최소화, 정직과 투명성, 인간의 주도권, 배려가 중심입니다. 새 지침은 맥락과 감독, 부작용 설명을 보강하고 상세한 문체 규칙은 대부분 줄였습니다. 다만 OpenAI는 현재 모델이 이 지침을 아직 완전히 반영하지는 않는다고 밝혔습니다.",
+    "selectionNote": "2026년 10월 31일 최근 48시간의 AI 발표를 다시 조사했습니다. 10월 29일 OpenAI 발표와 실제 Model Spec, 10월 30일 The File 보도를 모두 열어 읽었습니다. 기존 10월 28일 Gemini 4 Carbon 초안보다 최신이며, 공개 지침과 실제 모델 행동의 차이를 독자가 바로 이해할 수 있어 교체했습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "OpenAI 발표",
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "publisher": "OpenAI",
+      "publishedAt": "2026-10-29",
+      "url": "https://openai.com/index/updated-model-spec/",
+      "note": "다섯 가치, 맥락·감독·주도권 지침의 보강, 상세 문체 지침 축소와 현재 모델의 반영 한계를 설명합니다."
+    },
+    {
+      "kind": "primary",
+      "label": "공개 지침 원문",
+      "title": "Model Spec (2026/10/29)",
+      "publisher": "OpenAI",
+      "publishedAt": "2026-10-29",
+      "url": "https://model-spec.openai.com/2026-10-29.html",
+      "note": "다섯 가치 아래의 실제 행동 원칙, 지시 우선순위, 감독과 부작용 통제 항목을 공개합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 보도",
+      "title": "OpenAI rewrites its model rulebook around five values",
+      "publisher": "The File",
+      "publishedAt": "2026-10-30",
+      "url": "https://thefile.news/story/openai-model-spec-oct29",
+      "note": "개편된 다섯 가치, 상세 문체 지침 축소와 현재 모델이 아직 지침을 완전히 반영하지 않는다는 범위를 확인합니다."
+    }
+  ],
+  "publishedAt": "2026-10-30T21:04:39.556Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: AI는 시킨 말만 그대로 따르는 게 아닌가요? 픽: OpenAI가 행동 지침을 다섯 원칙으로 다시 묶었어요. 누리: 그럼 지금 AI가 모두 그렇게 행동하나요? 픽: 아니요. 목표 지침이고 현재 모델은 아직 다 반영하지 못했어요.",
+      "alt": "45화: AI 행동 지침이 다섯 원칙으로 바뀌었다 1페이지. 누리: AI는 시킨 말만 그대로 따르는 게 아닌가요? 픽: OpenAI가 행동 지침을 다섯 원칙으로 다시 묶었어요. 누리: 그럼 지금 AI가 모두 그렇게 행동하나요? 픽: 아니요. 목표 지침이고 현재 모델은 아직 다 반영하지 못했어요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": "GPT-5",
+      "status": "known-model"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}
