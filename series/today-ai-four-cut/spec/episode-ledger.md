@@ -49,3 +49,4 @@
 | ep-043 | 2026-10-28 | 소리 나는 가상세계가 바로 열린다 | `https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/|2026-10-27` | 한 장 2×2 네 컷, 실시간 화면·소리 세계 생성과 신뢰 테스터 연구 미리보기·몇 분 수준 일관성 한계를 함께 설명 |
 | ep-044 | 2026-10-29 | 로봇 판단 두뇌가 클라우드에 열렸다 | `https://cloud.google.com/blog/products/ai-machine-learning/gemini-robotics-embodied-reasoning-2-is-now-available-on-google-cloud|2026-10-27` | 한 장 2×2 네 컷, 로봇 상위 판단 모델의 공개 시험과 저수준 제어·물리 안전의 운영자 검증 책임을 함께 설명 |
 | ep-045 | 2026-10-31 | AI 행동 지침이 다섯 원칙으로 바뀌었다 | `https://openai.com/index/updated-model-spec/|2026-10-29` | 한 장 2×2 네 컷, 다섯 가치 중심 공개 지침 개편과 현재 모델이 아직 완전히 반영하지 않은 한계를 함께 설명 |
+| ep-046 | 2026-11-01 | 생명과학 연구 AI가 제한 공개됐다 | `https://help.openai.com/en/articles/9624314-model-release-notes|2026-10-30` | 한 장 2×2 네 컷, 승인 조직 대상 제한 배포와 사람 검토·접근 통제·자체 평가 한계를 함께 설명 |
