@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-047",
+  "number": 47,
+  "title": "47화: AI 학습 거절 신호가 하나로 모인다",
+  "shortTitle": "AI 학습 거절 신호가 하나로 모인다",
+  "lead": "OpenAI와 Google 등은 2026년 10월 30일 웹사이트 운영자가 여러 AI 제공자에게 학습 선호를 한 번에 알릴 수 있는 공통 robots.txt 신호를 지원하겠다고 밝혔다.",
+  "closingLine": "공통 신호는 관리 부담을 줄일 수 있지만 아직 작업 중인 초안이므로 실제 지원 시점과 회사별 적용 범위를 함께 확인해야 한다.",
+  "news": {
+    "headline": "OpenAI and Google support a shared robots.txt signal for AI-training preferences",
+    "eventDate": "2026-10-30",
+    "researchDate": "2026-11-02",
+    "summary": "OpenAI와 Google 등은 웹사이트가 robots.txt에 공통 정책 신호를 넣어 여러 AI 제공자에게 생성형 AI 학습 선호를 표현할 수 있도록 지원하겠다고 발표했습니다. 제안된 신호는 사이트 전체뿐 아니라 경로별 허용·거절도 표현할 수 있지만 크롤링 자체를 막는 규칙과는 별개입니다. OpenAI는 수개월 내 구현을 목표로 하고 Google은 2027년 지원을 예고했습니다. 다만 기반 문서는 아직 IETF 개인 인터넷 초안으로 공식 표준이 아니며, 현재 모든 AI가 즉시 따르는 보편적 차단 장치도 아닙니다.",
+    "selectionNote": "2026년 11월 2일 최근 48시간의 새 AI 발표를 먼저 조사했으나 1차 출처와 독립 확인을 갖춘 적합한 소재가 없어 최근 7일로 확장했습니다. 10월 30일 OpenAI 발표, Google 공식 설명, IETF 초안, 독립 보도를 모두 열어 읽었고 웹 게시자의 선택권과 아직 남은 구현 한계를 함께 설명할 수 있어 선정했습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "OpenAI 공식 발표",
+      "title": "Making it easier for websites to express AI training preferences",
+      "publisher": "OpenAI",
+      "publishedAt": "2026-10-30",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences/",
+      "note": "공통 robots.txt 신호를 존중하고 수개월 안에 구현하되 기존 크롤러 제어도 유지하겠다는 약속을 설명합니다."
+    },
+    {
+      "kind": "primary",
+      "label": "기술 초안",
+      "title": "Machine-Readable Training Preference Signal",
+      "publisher": "IETF Datatracker",
+      "publishedAt": "2026-10-30",
+      "url": "https://datatracker.ietf.org/doc/draft-kelley-aipref-training-preference-signal/",
+      "note": "경로별 학습 선호를 표현하는 정책 토큰의 동작을 제안하며, 개인 인터넷 초안이라 공식 표준 지위가 없음을 명시합니다."
+    },
+    {
+      "kind": "primary",
+      "label": "Google 공식 확인",
+      "title": "Supporting a shared AI training control for websites",
+      "publisher": "Google Search Central",
+      "publishedAt": "2026-10-30",
+      "url": "https://developers.google.com/search/blog/2026/10/ai-training-control",
+      "note": "Google도 공통 신호 지원 계획과 기존 Google-Extended 제어의 병행, 2027년 지원 목표를 설명합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 확인",
+      "title": "Google also gives publishers more control over how AI uses their content",
+      "publisher": "Search Engine Land",
+      "publishedAt": "2026-10-30",
+      "url": "https://searchengineland.com/google-also-gives-publishers-more-control-over-how-ai-uses-their-content-499971",
+      "note": "여러 제공자의 공동 참여와 아직 작업 중인 제안이라는 범위, 회사별 구현 일정 차이를 확인합니다."
+    }
+  ],
+  "publishedAt": "2026-11-01T22:11:59.905Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: 웹사이트마다 AI 봇을 따로 막아야 하나요? 픽: 여러 회사가 공통 학습 거절 신호를 지원하기로 했어요. 누리: 그럼 지금 바로 모든 AI가 따르는 건가요? 픽: 아니요. 아직 초안이고 회사마다 적용 시점이 달라요.",
+      "alt": "47화: AI 학습 거절 신호가 하나로 모인다 1페이지. 누리: 웹사이트마다 AI 봇을 따로 막아야 하나요? 픽: 여러 회사가 공통 학습 거절 신호를 지원하기로 했어요. 누리: 그럼 지금 바로 모든 AI가 따르는 건가요? 픽: 아니요. 아직 초안이고 회사마다 적용 시점이 달라요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": "GPT-5",
+      "status": "known-model"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}

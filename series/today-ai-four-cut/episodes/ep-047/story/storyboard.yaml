@@ -1,0 +1,41 @@
+version: 2
+episode: ep-047
+reader_page: 1
+layout: single_image_2x2
+generation_mode: one_complete_lettered_poster
+reference: ".codex/skills/today-ai-four-cut-series/assets/reference-layout.png"
+exact_copy:
+  kicker: "AI 뉴스 네 컷"
+  title: "AI 학습 거절 신호가 하나로 모인다"
+  footer: "공동 신호는 약속 단계, 실제 적용 시점도 확인해야 해요."
+  panels:
+    - { number: "1", speaker: "누리", text: "웹사이트마다 AI 봇을\n따로 막아야 하나요?" }
+    - { number: "2", speaker: "픽", text: "여러 회사가 공통 학습 거절 신호를\n지원하기로 했어요." }
+    - { number: "3", speaker: "누리", text: "그럼 지금 바로 모든 AI가\n따르는 건가요?" }
+    - { number: "4", speaker: "픽", text: "아니요. 아직 초안이고\n회사마다 적용 시점이 달라요." }
+panels:
+  - panel: 1
+    role: hook
+    visual_action: "누리가 따뜻한 편집실 책상 위 웹사이트 창과 서로 다른 네 개의 추상 AI 봇 문지기를 보며 묻는다. 화면과 봇에는 읽을 수 있는 글자나 로고가 없다."
+    source_claims: [C1, C2]
+    tail_target: character.nuri.001
+  - panel: 2
+    role: fact
+    visual_action: "픽이 하나의 공통 스위치에서 여러 추상 AI 제공자 아이콘으로 이어지는 선을 보여 준다. 아이콘에는 글자나 상표가 없다."
+    source_claims: [C1, C2]
+    tail_target: character.pik.001
+  - panel: 3
+    role: meaning_and_limit
+    visual_action: "누리가 아직 꺼진 공통 스위치와 서로 다른 날짜 칸을 가진 여러 달력을 번갈아 보며 묻는다. 달력에는 숫자나 글자가 없다."
+    source_claims: [C4]
+    tail_target: character.nuri.001
+  - panel: 4
+    role: takeaway
+    visual_action: "픽이 도장 없는 초안 서류와 서로 다른 속도로 움직이는 작은 모래시계를 함께 가리킨다. 서류에는 읽을 수 있는 글자가 없다."
+    source_claims: [C3, C5, C6]
+    tail_target: character.pik.001
+generation_requirements:
+  - "Built-in image generation creates the complete poster, panel borders, balloons, tails, all exact Korean copy, and digits in one result."
+  - "Exactly four panels and exactly four speech balloons."
+  - "No local lettering, local balloon drawing, or post-generation text repair."
+  - "Reject and regenerate for any typo, paraphrase, missing character, extra text, fake Korean, missing tail, or identity drift."
