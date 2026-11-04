@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-049",
+  "number": 49,
+  "title": "49화: Codex에 코드 저장 도구가 온다",
+  "shortTitle": "Codex에 코드 저장 도구가 온다",
+  "lead": "OpenAI는 Codex가 이미 사용하는 코드 탐색·변경 검토 도구와 Code Storage를 만든 Pierre Computer를 인수하기로 했다고 발표했다.",
+  "closingLine": "거래는 규제 승인 등 통상적인 종결 조건을 남겨 두고 있어, 완료 전까지 OpenAI와 Pierre는 별도 회사로 운영된다.",
+  "news": {
+    "headline": "OpenAI, Codex 개발 도구 회사 Pierre Computer 인수 계획 발표",
+    "eventDate": "2026-11-04",
+    "researchDate": "2026-11-05",
+    "summary": "OpenAI는 코드 저장 서비스와 오픈소스 개발 도구를 만드는 Pierre Computer를 인수하기로 했다고 발표했습니다. Pierre의 Trees와 Diffs는 이미 Codex의 파일 탐색과 변경 검토에 쓰이고 있으며, OpenAI는 인수 뒤 Code Storage 기능도 Codex에 통합할 계획입니다. 다만 거래는 규제 승인을 포함한 종결 조건을 남겨 두고 있어 두 회사는 아직 별도입니다.",
+    "selectionNote": "2026년 11월 5일 KST 기준 최근 48시간의 AI 발표를 검색하고 공식 발표와 Axios 보도를 모두 열어 확인했습니다. 코딩 에이전트가 코드 작성뿐 아니라 저장·검토 인프라까지 확장되는 변화를 보여 주면서도, 인수 완료 전이라는 분명한 한계를 함께 설명할 수 있어 선정했습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "1차 출처",
+      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+      "publisher": "OpenAI",
+      "publishedAt": "2026-11-04",
+      "url": "https://openai.com/index/openai-to-acquire-pierre/",
+      "note": "인수 계획, Codex가 이미 사용하는 Pierre 도구, Code Storage 통합 계획, 오픈소스 유지와 거래 종결 조건을 설명합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 보도",
+      "title": "Exclusive: OpenAI targets Microsoft's GitHub with deal for startup",
+      "publisher": "Axios",
+      "publishedAt": "2026-11-04",
+      "url": "https://www.axios.com/2026/11/04/openai-pierre-computer-github",
+      "note": "Pierre 인수 계획과 Code Storage의 Codex 통합, 재무 조건 미공개, 오픈소스 유지 방침을 독립적으로 확인합니다."
+    }
+  ],
+  "publishedAt": "2026-11-04T21:10:57.102Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: AI가 쓰는 코드가 늘면 저장 도구도 바뀌나요? 픽: OpenAI가 코드 저장 회사 Pierre를 인수하기로 했어요. 누리: 그럼 벌써 Codex 안으로 합쳐진 건가요? 픽: 아니요. 승인 전이라 두 회사는 아직 따로예요.",
+      "alt": "49화: Codex에 코드 저장 도구가 온다 1페이지. 누리: AI가 쓰는 코드가 늘면 저장 도구도 바뀌나요? 픽: OpenAI가 코드 저장 회사 Pierre를 인수하기로 했어요. 누리: 그럼 벌써 Codex 안으로 합쳐진 건가요? 픽: 아니요. 승인 전이라 두 회사는 아직 따로예요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": "GPT-6.1 Sol",
+      "status": "known-model"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}
