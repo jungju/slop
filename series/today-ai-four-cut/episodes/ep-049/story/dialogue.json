@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "kicker": "AI 뉴스 네 컷",
+  "title": "Codex에 코드 저장 도구가 온다",
+  "footer": "인수 발표와 거래 완료는 다른 단계예요.",
+  "panels": [
+    { "number": 1, "speaker": "누리", "text": "AI가 쓰는 코드가 늘면\n저장 도구도 바뀌나요?" },
+    { "number": 2, "speaker": "픽", "text": "OpenAI가 코드 저장 회사 Pierre를\n인수하기로 했어요." },
+    { "number": 3, "speaker": "누리", "text": "그럼 벌써 Codex 안으로\n합쳐진 건가요?" },
+    { "number": 4, "speaker": "픽", "text": "아니요. 승인 전이라\n두 회사는 아직 따로예요." }
+  ]
+}
