@@ -1,0 +1,102 @@
+version: 1
+episode: ep-056
+continuity_bindings:
+  characters:
+    - character.doyun.001@v1
+    - character.yunseo.001@v1
+    - character.soondeok.001@v1
+  props:
+    - prop.open-center-drying-frame.001@v1
+generation:
+  model: OpenAI Image Generation
+  tool: built-in image_gen
+  text_policy: text-free
+  reference_policy: canonical textual character and prop locks only; no preceding-panel identity chaining
+  acceptance_notes:
+    - "Accepted source set contains exactly 20 unique text-free OpenAI-generated pages."
+    - "Rejected the first page 1 candidate because its lighting and materials were too photorealistic; regenerated it with a strict flat 2D webtoon lock."
+    - "Rejected the first page 4 candidate because it replaced the paper print with an outdoor boot scene; regenerated the correct indoor print-back evidence close-up."
+    - "Rejected the first page 6 candidate because it duplicated the scene as a stacked montage; regenerated one continuous demonstration scene."
+    - "Rejected initial pages 11, 12, and 13 because the open-center frame, four-ring count, or blank-sheet contact test drifted; regenerated them with the prop lock repeated."
+    - "No accepted page was used as the next page's identity or scene baseline."
+pages:
+  - panel: 1
+    beat: "윤서가 갓 씻은 인화를 옮긴다"
+    caption: "윤서는 마지막 물세척을 마친 엽서 크기 인화 한 장을 옮겼다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Jeju community darkroom, elementary-school-age Korean girl Kang Yunseo with clear child proportions, short straight jaw-length black bob and blunt bangs, muted sea-blue hooded rain jacket over cream sweatshirt, charcoal pants and dark rubber boots, carefully carrying one freshly rinsed postcard-size photographic print by its edges from a plain water tray to a wooden worktable. Single continuous scene, no text, logo, watermark, caption, speech bubble, or panel grid."
+  - panel: 2
+    beat: "앞뒤를 눌림 없이 말리는 목표"
+    caption: "앞과 뒤를 눌린 자국 없이 말려 보관해야 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo holds one damp postcard-size print upright at eye level, inspecting both exposed faces and clean edges before drying; simple darkroom tools remain secondary. Clear practical goal, single scene, no text, logo, watermark, bubbles, or montage."
+  - panel: 3
+    beat: "도윤이 앞면만 보고 천에 눕히려 한다"
+    caption: "도윤은 앞면만 보고 인화를 마른 천 위에 눕히려 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Slim clean-shaven 26-year-old Korean man Han Doyun with slightly long wavy black hair, gray hoodie under dark coat, old brown messenger bag and black-silver vintage film camera, looks only at the face of one damp postcard print and lowers it toward a plain dry cream cloth; child Yunseo watches his hands. No text, logo, watermark, bubbles, or grid."
+  - panel: 4
+    beat: "윤서가 뒷면의 젖은 반달을 보여 준다"
+    caption: "윤서는 뒷면 아래쪽의 젖은 반달 자국을 보여 주었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Evidence close-up: Yunseo turns the one print to reveal a single wet crescent along the lower back surface, her small finger pointing beside it while Doyun pauses. No printed writing, logo, watermark, bubbles, or split panel."
+  - panel: 5
+    beat: "젖은 뒷면과 천 보풀의 위험"
+    caption: "그대로 눕히면 젖은 뒷면에 천의 보풀이 붙을 수 있었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Clear cause-and-effect close view: the wet print back hovers just above a cream cloth with visible loose fibers, while Yunseo raises a calm stop hand before contact. Doyun keeps the print suspended. No text, logo, watermark, bubbles, or grid."
+  - panel: 6
+    beat: "순덕이 같은 빛에서 앞뒤를 보게 한다"
+    caption: "순덕은 가장자리만 잡고 두 면을 같은 빛에서 보라고 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Elderly Jeju Korean woman Soondeok with short gray-white hair, wind-weathered face and sea-colored work outerwear demonstrates holding one blank test sheet only by the edges and turning front then back through the same side light; Yunseo and Doyun observe. Single scene, no text, logo, watermark, bubbles, or montage."
+  - panel: 7
+    beat: "윤서가 보풀을 떼고 두 면을 살핀다"
+    caption: "윤서는 보풀 하나를 떼고 앞뒤의 남은 물기를 살폈다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo uses plain rounded tweezers to remove exactly one loose lint fiber from the damp back of the postcard print, then angles the print to see moisture on both faces. No damage, writing, logo, watermark, bubbles, or grid."
+  - panel: 8
+    beat: "윤서가 접착 테이프를 거절한다"
+    caption: "도윤이 접착 테이프를 꺼내자 윤서는 고개를 저었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Adult Doyun offers one plain roll of adhesive tape near the damp print; child Yunseo gently shakes her head and keeps the tape away while holding the print edge. No labels, text, logo, watermark, bubbles, or grid."
+  - panel: 9
+    beat: "열린 건조틀과 네 푸른 고리"
+    caption: "윤서는 가운데가 열린 건조틀과 푸른 고리 네 개를 골랐다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Top-down object view: child Yunseo selects one low cream-painted rectangular open-center tabletop drying frame with no backing and exactly four removable muted-cobalt soft rubber C-shaped edge rings, one at each corner area. No solid center, tape, string, labels, text, logo, watermark, bubbles, or grid."
+  - panel: 10
+    beat: "같은 크기와 두께의 빈 시험지"
+    caption: "실제 인화와 크기와 두께가 같은 빈 시험지를 준비했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Yunseo compares one blank cream test sheet directly edge-to-edge with the single postcard print, clearly matching size and thickness, while the open-center frame waits nearby. No rulers, writing, labels, text, logo, watermark, bubbles, or grid."
+  - panel: 11
+    beat: "첫 고리가 종이 안쪽을 누른다"
+    caption: "첫 시험에서는 고리 하나가 종이 안쪽을 눌렀다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Close-up of the blank test sheet held over the open-center frame by four cobalt C-shaped edge rings; exactly one ring sits too far inward and leaves a shallow curved pressure mark, while the other three remain at outer margins. No real print, text, logo, watermark, bubbles, or grid."
+  - panel: 12
+    beat: "윤서가 고리를 바깥쪽으로 옮긴다"
+    caption: "윤서는 그 고리를 가장자리 바깥쪽으로 옮겼다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo removes the single inward cobalt C-ring and reseats it only on the outer corner margin of the matching blank test sheet, keeping the sheet center suspended above the empty frame opening. No adhesive, text, logo, watermark, bubbles, or grid."
+  - panel: 13
+    beat: "시험지의 앞뒤 접촉점을 확인한다"
+    caption: "도윤이 틀을 기울이고 윤서는 시험지의 앞뒤 접촉점을 봤다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Adult Doyun gently tilts the one cream open-center frame while child Yunseo inspects front and back contact points of the blank sheet at all four cobalt edge rings. Both faces remain visible through the open center. No text, logo, watermark, bubbles, or montage."
+  - panel: 14
+    beat: "시험지에 자국이 없고 가운데가 뜬다"
+    caption: "두 면에 자국이 없고 가운데도 틀에 닿지 않았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Proof close-up: the blank test sheet is flat and unmarked, supported only at four outer corners by cobalt C-rings above a clearly open empty center; Yunseo's hand passes beneath without touching. No writing, text, logo, watermark, bubbles, or grid."
+  - panel: 15
+    beat: "윤서가 젖은 인화를 직접 끼운다"
+    caption: "윤서는 젖은 인화를 네 고리에 직접 끼웠다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo replaces the blank sheet with the single damp postcard print, sliding each outer corner margin into exactly four cobalt C-shaped soft rings on the cream open-center frame. Doyun steadies only the frame. No adhesive, text, logo, watermark, bubbles, or grid."
+  - panel: 16
+    beat: "뒷면 아래의 열린 공간을 확인한다"
+    caption: "인화 뒷면과 작업대 사이에는 빈 공간이 이어졌다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Low side angle beneath the frame: Yunseo slides her open hand through the uninterrupted air gap between the damp print back and wooden worktable; the print center touches nothing and four cobalt rings hold only corners. No text, logo, watermark, bubbles, or grid."
+  - panel: 17
+    beat: "윤서가 약한 바람 자리를 고른다"
+    caption: "도윤은 틀을 옮겼고 윤서는 약한 바람이 닿는 자리를 골랐다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Doyun carries the small open-center frame level toward a partly open Jeju workroom window; child Yunseo points to a sheltered spot with only a weak curtain movement, choosing the final placement. No strong gust, text, logo, watermark, bubbles, or grid."
+  - panel: 18
+    beat: "틀을 돌려 두 면의 물기를 확인한다"
+    caption: "둘은 틀을 한 번 돌려 앞과 뒤의 물기를 함께 확인했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Single continuous scene: Yunseo rotates the small frame once on the table while Doyun holds one corner steady; both inspect the now mostly dry front and back through the open center and edge gap. No duplicate frame, montage, text, logo, watermark, bubbles, or grid."
+  - panel: 19
+    beat: "마른 인화의 두 면을 옆빛에서 검사한다"
+    caption: "다 마른 인화를 빼고 옆빛 아래 두 면을 검사했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo removes the dry postcard print from the four cobalt rings and tilts it through side light, checking front then back for pressure marks or lint; Soondeok watches nearby. No defects, writing, text, logo, watermark, bubbles, or montage."
+  - panel: 20
+    beat: "앞뒤에 새 눌림이 없는 결과"
+    caption: "마른 인화의 앞과 뒤에는 새로 눌린 자국이 없었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Quiet final proof image in the Jeju workroom: one fully dry postcard print stands at a slight angle beside the empty cream open-center frame and exactly four cobalt C-rings; both front edge and clean back are visible, unmarked and lint-free, while Yunseo withdraws her hands. No text, logo, watermark, bubbles, or grid."
