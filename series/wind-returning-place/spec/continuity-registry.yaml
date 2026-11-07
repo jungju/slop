@@ -2,6 +2,35 @@ version: 1
 factory_type: comic
 comic_id: wind-returning-place
 elements:
+  - id: prop.open-center-drying-frame.001
+    name: 앞뒤를 띄우는 푸른 고리 건조틀
+    category: prop
+    scope: episode
+    status: active
+    introduced_in: ep-056
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-056
+        active_until: ep-056
+        supersedes: null
+        immutable_features:
+          - one low cream-painted rectangular open-center tabletop drying frame with no solid backing
+          - exactly four removable muted-cobalt soft rubber C-shaped edge rings, one supporting each corner margin
+          - rings hold only the outer edge and keep both faces and the center of one postcard-size print free from the frame
+          - no adhesive, tape, string, labels, numbers, printed scale, text, logo, glass, felt, or decorative lettering
+        mutable_features:
+          - empty, holding one matching blank test sheet, or holding one damp postcard-size photographic print
+          - resting flat, gently tilted for two-sided inspection, or placed near a weak indoor breeze
+          - one temporary lint fiber on the damp print back before removal
+          - Jeju community darkroom worktable and window area
+        reference_asset_ids:
+          - prop-open-center-drying-frame-001-v1-text-lock
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: text_locked
   - id: prop.adjustable-print-storage-slot.001
     name: 간격을 맞추는 푸른 보관 홈
     category: prop
