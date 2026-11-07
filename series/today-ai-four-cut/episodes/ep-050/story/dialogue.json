@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "kicker": "AI 뉴스 네 컷",
+  "title": "AI 연구 속도가 약 두 배",
+  "footer": "두 배는 불확실한 추정치, 공개 근거도 함께 봐야 해요.",
+  "panels": [
+    { "number": 1, "speaker": "누리", "text": "AI가 다음 AI 연구도\n돕나요?" },
+    { "number": 2, "speaker": "픽", "text": "METR은 발전 속도가\n약 두 배라고 추정했어요." },
+    { "number": 3, "speaker": "누리", "text": "그럼 AI가 혼자\n연구하는 건가요?" },
+    { "number": 4, "speaker": "픽", "text": "아니요. 사람 보조가 중심이고\n공개 근거도 제한됐어요." }
+  ]
+}

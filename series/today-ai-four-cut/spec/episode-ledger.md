@@ -53,3 +53,4 @@
 | ep-047 | 2026-11-02 | AI 학습 거절 신호가 하나로 모인다 | `https://openai.com/index/helping-websites-express-ai-training-preferences/|2026-10-30` | 한 장 2×2 네 컷, 여러 제공자의 공통 학습 선호 신호 약속과 아직 초안·회사별 구현 시점 차이를 함께 설명 |
 | ep-048 | 2026-11-04 | AI가 유전 계획을 잇는다 | `https://www.mediaoffice.abudhabi/en/crown-prince-news/khaled-bin-mohamed-bin-zayed-meets-sam-altman-and-witnesses-signing-of-agreements-with-openai/|2026-11-02` | 한 장 2×2 네 컷, 유전 계획부터 시장 판단까지 잇는 산업 AI 구축 계획과 미공개 운영 성능·사람 감독 한계를 함께 설명 |
 | ep-049 | 2026-11-05 | Codex에 코드 저장 도구가 온다 | `https://openai.com/index/openai-to-acquire-pierre/|2026-11-04` | 한 장 2×2 네 컷, 코드 저장·검토 도구 인수 계획과 규제 승인 전 별도 회사라는 한계를 함께 설명 |
+| ep-050 | 2026-11-08 | AI 연구 속도가 약 두 배 | `https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/|2026-11-05` | 한 장 2×2 네 컷, 외부 평가의 약 두 배 추정과 사람 보조·비공개 근거로 인한 검증 한계를 함께 설명 |
