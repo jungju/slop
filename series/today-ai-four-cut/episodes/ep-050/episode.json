@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-050",
+  "number": 50,
+  "title": "50화: AI 연구 속도가 약 두 배",
+  "shortTitle": "AI 연구 속도가 약 두 배",
+  "lead": "METR은 앤스로픽의 내부 자료와 직원 인터뷰를 검토한 결과, 잘 정의된 과제에서 모델 능력 발전 속도가 과거보다 약 두 배 빨라졌다고 추정했다.",
+  "closingLine": "약 두 배는 범위가 좁고 불확실성이 큰 추정이며, 핵심 근거 상당수가 가려져 공개 검증에도 한계가 있다.",
+  "news": {
+    "headline": "METR, 앤스로픽 AI 연구개발 가속도를 외부 평가",
+    "eventDate": "2026-11-05",
+    "researchDate": "2026-11-08",
+    "summary": "비영리 평가기관 METR은 11주 동안 앤스로픽의 내부 자료와 직원 인터뷰를 검토한 뒤, 잘 정의된 과제에서 모델 능력 발전 속도가 2024년 3월부터 2025년 10월까지의 기준보다 현재 약 두 배 빠르다고 추정했습니다. 다만 실제 값은 1.3배에서 3배에 가까울 수도 있을 만큼 불확실하고, AI는 주로 사람의 연구를 보조했으며, 핵심 근거 상당수가 비공개로 남았습니다.",
+    "selectionNote": "2026년 11월 8일 KST 기준 최근 48시간의 주요 AI 발표를 다시 검색한 뒤, 게시 보류 상태였던 이 회차의 METR 공식 보고서 두 건과 AP 보도를 모두 다시 열어 확인했습니다. 최근 48시간 후보보다 이미 완성된 이 7일 이내 외부 평가가 출처·독립 확인·한계 설명을 더 충실히 갖춰 유지했습니다. 앞선 회차의 외부 평가 약속이나 내부 26% 측정과 달리 실제 고접근 외부 평가가 공개한 새 가속 추정과 공개 검증 한계를 다룹니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "1차 출처",
+      "title": "Independent Assessment of AI R&D Acceleration at Anthropic in October 2026",
+      "publisher": "METR",
+      "publishedAt": "2026-11-05",
+      "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+      "note": "11주 평가 범위, 약 두 배라는 불확실한 추정, AI 보조의 기여와 대규모 비공개 근거를 설명합니다."
+    },
+    {
+      "kind": "primary",
+      "label": "위험 보고서 검토",
+      "title": "Review of the Risks from automated R&D section in Anthropic's Risk Report",
+      "publisher": "METR",
+      "publishedAt": "2026-11-05",
+      "url": "https://metr.org/blog/2026-11-05-rd-section-anthropic-risk-report-august-2026-review/",
+      "note": "공개 위험 보고서가 가속 증거와 불확실성을 충분히 드러내지 않았다는 외부 검토 결과를 제공합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 보도",
+      "title": "Anthropic is rapidly accelerating AI development amid slowdown calls, outside research group says",
+      "publisher": "Associated Press / Yahoo Tech",
+      "publishedAt": "2026-11-05",
+      "url": "https://tech.yahoo.com/ai/claude/articles/anthropic-rapidly-accelerating-ai-development-180018169.html",
+      "note": "평가 기간과 약 두 배 추정을 확인하고, 완전 자율 연구가 아니며 공개 근거가 제한된다는 범위를 보도합니다."
+    }
+  ],
+  "publishedAt": "2026-11-07T21:06:18.374Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: AI가 다음 AI 연구도 돕나요? 픽: METR은 발전 속도가 약 두 배라고 추정했어요. 누리: 그럼 AI가 혼자 연구하는 건가요? 픽: 아니요. 사람 보조가 중심이고 공개 근거도 제한됐어요.",
+      "alt": "50화: AI 연구 속도가 약 두 배 1페이지. 누리: AI가 다음 AI 연구도 돕나요? 픽: METR은 발전 속도가 약 두 배라고 추정했어요. 누리: 그럼 AI가 혼자 연구하는 건가요? 픽: 아니요. 사람 보조가 중심이고 공개 근거도 제한됐어요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": "GPT-6.1 Sol",
+      "status": "known-model"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}
