@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-051",
+  "number": 51,
+  "title": "51화: TPU 두 개가 역할을 나눴다",
+  "shortTitle": "TPU 두 개가 역할을 나눴다",
+  "lead": "Google은 기존 8세대 TPU 칩을 보안 추론과 대용량 문맥 처리에 맞게 구성한 TPU 8tx와 TPU 8i Max 두 시스템을 발표했다.",
+  "closingLine": "두 시스템의 역할 차이는 분명하지만 속도와 효율 수치는 Google 발표값이므로 실제 작업별 독립 검증이 더 필요하다.",
+  "news": {
+    "headline": "Google, 보안 추론·대용량 문맥용 TPU 8tx와 8i Max 발표",
+    "eventDate": "2026-11-10",
+    "researchDate": "2026-11-10",
+    "summary": "Google은 완전히 새로운 칩 두 종이 아니라 기존 8세대 TPU를 용도별로 구성한 TPU 8tx와 TPU 8i Max를 공개했습니다. 8tx는 처리 중 민감 데이터 보호를, 8i Max는 두 개의 8i 칩을 결합한 대용량 문맥 처리를 겨냥합니다. 다만 공개된 속도와 효율 수치는 회사 발표값으로 독립 실사용 검증이 남아 있습니다.",
+    "selectionNote": "2026년 11월 10일 KST 기준 최근 48시간 발표를 검색하고 Google Cloud 원문과 Reuters 보도를 모두 열어 확인했습니다. 새 칩 발표로 오해하기 쉬운 사건에서 실제 시스템 구성 차이와 회사 수치의 검증 한계를 함께 설명할 수 있어 선정했습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "1차 출처",
+      "title": "Our newest TPUs: 8tx and 8i Max, built for the agentic era",
+      "publisher": "Google Cloud",
+      "publishedAt": "2026-11-10",
+      "url": "https://cloud.google.com/blog/topics/ai-infrastructure/tpu-8tx-and-tpu-8i-max",
+      "note": "두 시스템이 새 칩과 어떻게 다른지, 8tx의 보안 구성과 8i Max의 두 칩 결합 구조를 설명합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 보도",
+      "title": "Google unveils new AI chip variants as cloud demand surges",
+      "publisher": "Reuters / Euronext",
+      "publishedAt": "2026-11-09",
+      "url": "https://live.euronext.com/en/financial-news/google-unveils-new-ai-chip-variants-cloud-demand-surges",
+      "note": "기존 프로세서의 용도별 변형이라는 점을 확인하고 성능 수치가 Google 설명에 따른 것임을 구분합니다."
+    }
+  ],
+  "publishedAt": "2026-11-09T21:05:45.919Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: 구글이 AI 칩을 두 개 더 냈나요? 픽: 새 칩보다, 기존 TPU를 두 시스템으로 바꿨어요. 누리: 하나는 비밀을 지키고 하나는 긴 문맥을 맡나요? 픽: 맞아요. 성능 수치는 구글 발표라 검증이 남았어요.",
+      "alt": "51화: TPU 두 개가 역할을 나눴다 1페이지. 누리: 구글이 AI 칩을 두 개 더 냈나요? 픽: 새 칩보다, 기존 TPU를 두 시스템으로 바꿨어요. 누리: 하나는 비밀을 지키고 하나는 긴 문맥을 맡나요? 픽: 맞아요. 성능 수치는 구글 발표라 검증이 남았어요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": "GPT-6.1 Sol",
+      "status": "known-model"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}
