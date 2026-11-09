@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "kicker": "AI 뉴스 네 컷",
+  "title": "TPU 두 개가 역할을 나눴다",
+  "footer": "보안 처리와 긴 문맥에 맞춘 시스템, 실제 성능은 더 확인해야 해요.",
+  "panels": [
+    { "number": 1, "speaker": "누리", "text": "구글이 AI 칩을\n두 개 더 냈나요?" },
+    { "number": 2, "speaker": "픽", "text": "새 칩보다, 기존 TPU를\n두 시스템으로 바꿨어요." },
+    { "number": 3, "speaker": "누리", "text": "하나는 비밀을 지키고\n하나는 긴 문맥을 맡나요?" },
+    { "number": 4, "speaker": "픽", "text": "맞아요. 성능 수치는\n구글 발표라 검증이 남았어요." }
+  ]
+}

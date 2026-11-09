@@ -1,0 +1,41 @@
+version: 2
+episode: ep-051
+reader_page: 1
+layout: single_image_2x2
+generation_mode: one_complete_lettered_poster
+reference: ".codex/skills/today-ai-four-cut-series/assets/reference-layout.png"
+exact_copy:
+  kicker: "AI 뉴스 네 컷"
+  title: "TPU 두 개가 역할을 나눴다"
+  footer: "보안 처리와 긴 문맥에 맞춘 시스템, 실제 성능은 더 확인해야 해요."
+  panels:
+    - { number: "1", speaker: "누리", text: "구글이 AI 칩을\n두 개 더 냈나요?" }
+    - { number: "2", speaker: "픽", text: "새 칩보다, 기존 TPU를\n두 시스템으로 바꿨어요." }
+    - { number: "3", speaker: "누리", text: "하나는 비밀을 지키고\n하나는 긴 문맥을 맡나요?" }
+    - { number: "4", speaker: "픽", text: "맞아요. 성능 수치는\n구글 발표라 검증이 남았어요." }
+panels:
+  - panel: 1
+    role: hook
+    visual_action: "누리가 따뜻한 서버실 책상 위의 서로 다른 두 무문자 칩 모형을 보며 묻는다. 로고나 추가 글자는 없다."
+    source_claims: [C1]
+    tail_target: character.nuri.001
+  - panel: 2
+    role: fact
+    visual_action: "픽이 기존 칩 하나와 그 둘레의 보안 방패, 메모리 블록, 연결선을 가리켜 새 칩보다 시스템 구성 차이임을 보여 준다."
+    source_claims: [C2]
+    tail_target: character.pik.001
+  - panel: 3
+    role: meaning_and_limit
+    visual_action: "누리가 자물쇠로 둘러싸인 데이터 상자와 길게 이어진 무문자 문서 더미를 양손에 들어 두 역할을 비교한다."
+    source_claims: [C3, C4]
+    tail_target: character.nuri.001
+  - panel: 4
+    role: takeaway
+    visual_action: "픽이 회사 발표를 상징하는 무문자 발표판과 아직 비어 있는 독립 시험 체크판을 나란히 놓고 돋보기를 든다."
+    source_claims: [C5, C6]
+    tail_target: character.pik.001
+generation_requirements:
+  - "Built-in image generation creates the complete poster, panel borders, balloons, tails, all exact Korean copy, and digits in one result."
+  - "Exactly four panels and exactly four speech balloons."
+  - "No local lettering, local balloon drawing, or post-generation text repair."
+  - "Reject and regenerate for any typo, paraphrase, missing character, extra text, fake Korean, missing tail, or identity drift."
