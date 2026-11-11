@@ -55,3 +55,4 @@
 | ep-049 | 2026-11-05 | Codex에 코드 저장 도구가 온다 | `https://openai.com/index/openai-to-acquire-pierre/|2026-11-04` | 한 장 2×2 네 컷, 코드 저장·검토 도구 인수 계획과 규제 승인 전 별도 회사라는 한계를 함께 설명 |
 | ep-050 | 2026-11-08 | AI 연구 속도가 약 두 배 | `https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/|2026-11-05` | 한 장 2×2 네 컷, 외부 평가의 약 두 배 추정과 사람 보조·비공개 근거로 인한 검증 한계를 함께 설명 |
 | ep-051 | 2026-11-10 | TPU 두 개가 역할을 나눴다 | `https://cloud.google.com/blog/topics/ai-infrastructure/tpu-8tx-and-tpu-8i-max|2026-11-10` | 한 장 2×2 네 컷, 보안 처리·긴 문맥용 시스템 분화와 회사 성능 수치의 독립 검증 한계를 함께 설명 |
+| ep-052 | 2026-11-11 | ChatGPT에 가게 안내원이 생겼다 | `https://community.openai.com/t/introducing-businesses-in-chatgpt-in-beta/1414865|2026-11-10` | 한 장 2×2 네 컷, 인증된 사업자 안내와 개별 대화 비공유·미국 일부 업종 베타 한계를 함께 설명 |

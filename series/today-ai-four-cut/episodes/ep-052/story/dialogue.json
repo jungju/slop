@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "kicker": "AI 뉴스 네 컷",
+  "title": "ChatGPT에 가게 안내원이 생겼다",
+  "footer": "광고와 독립 답변은 구분, 아직 베타예요.",
+  "panels": [
+    { "number": 1, "speaker": "누리", "text": "가게가 ChatGPT 안에서\n직접 답해 준다고요?" },
+    { "number": 2, "speaker": "픽", "text": "사업자가 정보를 인증하고\n전용 안내원을 만들어요." },
+    { "number": 3, "speaker": "누리", "text": "제 대화 내용도\n가게가 볼 수 있나요?" },
+    { "number": 4, "speaker": "픽", "text": "아니요. 요약된 통계만,\n미국 일부 업종부터예요." }
+  ]
+}
