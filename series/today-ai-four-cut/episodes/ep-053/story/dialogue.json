@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "kicker": "AI 뉴스 네 컷",
+  "title": "포토샵이 외부 AI와 연결된다",
+  "footer": "로컬 연결은 미리보기, 공개 범위도 조정 중이에요.",
+  "panels": [
+    { "number": 1, "speaker": "누리", "text": "이제 AI 비서가 포토샵 파일도 고친다고요?" },
+    { "number": 2, "speaker": "픽", "text": "네, 어도비가 외부 AI 연결을 미리 공개했어요." },
+    { "number": 3, "speaker": "누리", "text": "레이어와 편집 순서는 그대로 남나요?" },
+    { "number": 4, "speaker": "픽", "text": "네, 편집 가능하지만 아직 시험 단계예요." }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-053",
+  "number": 53,
+  "title": "53화: 포토샵이 외부 AI와 연결된다",
+  "shortTitle": "포토샵이 외부 AI와 연결된다",
+  "lead": "Adobe는 외부 AI 에이전트가 Photoshop, Illustrator, Premiere, After Effects의 로컬 프로젝트 파일을 편집하도록 연결하는 로컬 MCP 통합을 미리 공개했다.",
+  "closingLine": "레이어·시퀀스·컴포지션은 계속 편집 가능한 상태로 남지만, 연결 기능은 아직 미리보기이며 공개할 기능 범위도 조정 중이다.",
+  "news": {
+    "headline": "Adobe, Creative Cloud 앱용 로컬 AI 에이전트 연결을 미리 공개",
+    "eventDate": "2026-11-10",
+    "researchDate": "2026-11-12",
+    "summary": "Adobe는 사용자가 선호하는 외부 AI 에이전트로 Photoshop, Illustrator, Premiere, After Effects의 로컬 프로젝트 파일을 수정할 수 있게 하는 로컬 MCP 통합을 미리 공개했습니다. 수정 뒤에도 레이어, 시퀀스, 컴포지션은 편집 가능한 상태로 남습니다. Adobe는 어떤 기능을 외부에 공개할지 아직 사용자 피드백을 보며 조정하고 있습니다.",
+    "selectionNote": "2026년 11월 12일 KST 기준 최근 48시간의 AI 발표를 검색하고 Adobe 공식 발표와 TechCrunch의 독립 보도를 모두 열어 확인했습니다. 일반 창작 도구에서 외부 AI가 실제 프로젝트 파일을 다루는 변화이면서 미리보기 상태와 공개 범위의 불확실성을 함께 설명할 수 있어 선정했습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "1차 출처",
+      "title": "Adobe Powers a New Era of Creativity, Bringing Agents and Tools to Creatives Wherever and However They Create",
+      "publisher": "Adobe Newsroom",
+      "publishedAt": "2026-11-10",
+      "url": "https://news.adobe.com/news/2026/11/adobe-powers-new-era-of-creativity",
+      "note": "Creative Cloud 네 앱의 로컬 MCP 통합, 외부 에이전트 편집, 편집 가능한 프로젝트 구조와 미리보기 상태를 설명합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 보도",
+      "title": "Adobe brings AI agents and new creative tools to Photoshop, Premiere, and Firefly",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-11-10",
+      "url": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
+      "note": "외부 챗봇용 로컬 MCP 공개와 Adobe가 노출 기능 범위를 아직 조정 중이라는 점을 독립적으로 확인합니다."
+    }
+  ],
+  "publishedAt": "2026-11-11T21:06:05.901Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: 이제 AI 비서가 포토샵 파일도 고친다고요? 픽: 네, 어도비가 외부 AI 연결을 미리 공개했어요. 누리: 레이어와 편집 순서는 그대로 남나요? 픽: 네, 편집 가능하지만 아직 시험 단계예요.",
+      "alt": "53화: 포토샵이 외부 AI와 연결된다 1페이지. 누리: 이제 AI 비서가 포토샵 파일도 고친다고요? 픽: 네, 어도비가 외부 AI 연결을 미리 공개했어요. 누리: 레이어와 편집 순서는 그대로 남나요? 픽: 네, 편집 가능하지만 아직 시험 단계예요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": null,
+      "status": "not-recorded"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}
