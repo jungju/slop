@@ -1,0 +1,41 @@
+version: 2
+episode: ep-053
+reader_page: 1
+layout: single_image_2x2
+generation_mode: one_complete_lettered_poster
+reference: ".codex/skills/today-ai-four-cut-series/assets/reference-layout.png"
+exact_copy:
+  kicker: "AI 뉴스 네 컷"
+  title: "포토샵이 외부 AI와 연결된다"
+  footer: "로컬 연결은 미리보기, 공개 범위도 조정 중이에요."
+  panels:
+    - { number: "1", speaker: "누리", text: "이제 AI 비서가 포토샵 파일도 고친다고요?" }
+    - { number: "2", speaker: "픽", text: "네, 어도비가 외부 AI 연결을 미리 공개했어요." }
+    - { number: "3", speaker: "누리", text: "레이어와 편집 순서는 그대로 남나요?" }
+    - { number: "4", speaker: "픽", text: "네, 편집 가능하지만 아직 시험 단계예요." }
+panels:
+  - panel: 1
+    role: hook
+    visual_action: "누리가 로고 없는 창작 앱 화면 옆의 외부 AI 연결선을 보고 묻는다. 추가 글자는 없다."
+    source_claims: [C1, C2]
+    tail_target: character.nuri.001
+  - panel: 2
+    role: fact
+    visual_action: "픽이 네 종류의 무문자 창작 앱 타일과 하나의 로컬 연결 포트를 가리킨다. 로고나 추가 글자는 없다."
+    source_claims: [C2, C3]
+    tail_target: character.pik.001
+  - panel: 3
+    role: meaning
+    visual_action: "누리가 층층이 분리된 이미지 레이어와 이어진 영상 시퀀스를 손으로 확인한다."
+    source_claims: [C4]
+    tail_target: character.nuri.001
+  - panel: 4
+    role: takeaway
+    visual_action: "픽이 편집 가능한 층 구조와 작은 시험 상태를 상징하는 노란 원뿔을 함께 가리킨다. 추가 글자는 없다."
+    source_claims: [C5, C6]
+    tail_target: character.pik.001
+generation_requirements:
+  - "Built-in image generation creates the complete poster, panel borders, balloons, tails, all exact Korean copy, and digits in one result."
+  - "Exactly four panels and exactly four speech balloons."
+  - "No local lettering, local balloon drawing, or post-generation text repair."
+  - "Reject and regenerate for any typo, paraphrase, missing character, extra text, fake Korean, missing tail, or identity drift."
