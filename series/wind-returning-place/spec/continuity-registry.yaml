@@ -2,6 +2,35 @@ version: 1
 factory_type: comic
 comic_id: wind-returning-place
 elements:
+  - id: prop.three-point-glass-inspection-tray.001
+    name: 가장자리를 받치는 세 점 유리 점검 쟁반
+    category: prop
+    scope: episode
+    status: active
+    introduced_in: ep-057
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-057
+        active_until: ep-057
+        supersedes: null
+        immutable_features:
+          - one shallow solid cream-painted rectangular inspection tray with softly rounded corners and no opening through its base
+          - exactly three separate low round muted-cobalt dense-cork support pads with cream natural-cork undersides
+          - the three pads move independently and support only the transparent outer margin of one palm-sized glass photographic negative
+          - no frame, ring, adhesive, clamp, fixed corner block, label, number, printed scale, text, logo, watermark, or decorative lettering
+        mutable_features:
+          - pads arranged unstably for a blank-plate test or moved into a stable triangle on clear outer margins
+          - holding one matching blank glass plate, one abstract harbor glass negative, or nothing
+          - one temporary dust line and one black sand grain removed before actual use
+          - Jeju community archive workroom and overhead copy-camera station
+        reference_asset_ids:
+          - prop-three-point-glass-inspection-tray-001-v1-text-lock
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: text_locked
   - id: prop.open-center-drying-frame.001
     name: 앞뒤를 띄우는 푸른 고리 건조틀
     category: prop
