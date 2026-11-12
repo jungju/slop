@@ -1,0 +1,102 @@
+version: 1
+episode: ep-057
+continuity_bindings:
+  characters:
+    - character.doyun.001@v1
+    - character.yunseo.001@v1
+    - character.soondeok.001@v1
+  props:
+    - prop.three-point-glass-inspection-tray.001@v1
+generation:
+  model: OpenAI Image Generation
+  tool: built-in image_gen
+  text_policy: text-free
+  reference_policy: canonical textual character and prop locks only; no preceding-panel identity chaining
+  acceptance_notes:
+    - "Accepted source set contains exactly 20 unique text-free OpenAI-generated pages."
+    - "The glass negative carries only abstract harbor silhouettes and tonal shapes, never readable writing, numbers, logos, or labels."
+    - "Rejected the first pages 1-5 because page 1 became flexible film and pages 2-5 made child Yunseo an adult; regenerated with rigid-glass and child-identity locks."
+    - "Rejected the next pages 5-6 because the workroom shifted outdoors; regenerated both inside the Jeju archive workroom."
+    - "Rejected another page 5 because it used a split-panel montage, page 6 because round pads became square blocks, page 12 because the rectangular blank plate became circular, and page 14 because pads were attached to the glass; regenerated each with a single-scene structural lock."
+    - "No accepted page may be used as the next page's identity or scene baseline."
+pages:
+  - panel: 1
+    beat: "윤서가 유리 네거티브를 꺼낸다"
+    caption: "윤서는 종이 봉투에서 오래된 유리 네거티브 한 장을 꺼냈다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Jeju community archive workroom, elementary-school-age Korean girl Kang Yunseo with clear child proportions, short straight jaw-length black bob and blunt bangs, muted sea-blue hooded rain jacket over cream sweatshirt, charcoal pants and dark rubber boots, carefully sliding one palm-sized transparent glass photographic negative from a plain cream paper envelope by its clear outer edges; faint abstract harbor silhouettes only. Single scene, no readable marks, logo, watermark, caption, speech bubble, or panel grid."
+  - panel: 2
+    beat: "앞뒤를 긁지 않고 촬영하는 목표"
+    caption: "앞뒤를 긁지 않고 각각 촬영해 기록해야 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo holds one glass negative upright by two clear side margins, showing that both faces must remain untouched; a simple overhead copy camera and plain worktable wait nearby. Clear practical goal, one continuous scene, no text, symbols, logo, watermark, bubbles, or montage."
+  - panel: 3
+    beat: "도윤이 펠트 위에 유리를 눕힌다"
+    caption: "도윤은 유리를 회색 펠트 위에 바로 눕혔다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Slim clean-shaven 26-year-old Korean man Han Doyun with slightly long wavy black hair, gray hoodie under dark long coat, old brown messenger bag and black-silver vintage film camera nearby, lowering the single glass negative flat onto a gray felt work mat to steady it; Yunseo watches his hands. No text, logo, watermark, bubbles, or split panel."
+  - panel: 4
+    beat: "윤서가 뒷면 가장자리 먼지를 찾는다"
+    caption: "윤서는 옆빛에서 뒷면 가장자리의 먼지 줄을 발견했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Evidence close-up: Yunseo lifts one clear edge of the glass negative into soft side light, revealing a fine pale dust line along the lower back margin while the faint harbor image remains centered. Doyun pauses. No readable marks, text, logo, watermark, bubble, or montage."
+  - panel: 5
+    beat: "모래 한 알이 뒷면에 닿는다"
+    caption: "펠트의 모래 한 알이 유리 뒷면에 맞닿아 있었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Extreme practical close-up of exactly one tiny black sand grain trapped between gray felt and the back edge of the glass negative; Yunseo raises a calm stop hand before pressure is applied. Clear cause and risk, no crack, text, logo, watermark, bubble, or grid."
+  - panel: 6
+    beat: "순덕이 빈 유리판 시험을 지시한다"
+    caption: "순덕은 같은 크기와 두께의 빈 유리판부터 시험하라고 했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Elderly Jeju Korean woman Soondeok with short gray-white hair, wind-weathered face and sea-colored work outerwear presents one clean blank glass plate matching the negative, while the real negative remains safely in Yunseo's hands. Doyun listens. Single scene, no text, logo, watermark, bubble, or montage."
+  - panel: 7
+    beat: "윤서가 투명한 바깥 여백을 확인한다"
+    caption: "윤서는 네거티브 앞뒤의 투명한 바깥 여백을 확인했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo holds the glass negative only by two clear outer margins and turns it gently in the same side light, visually distinguishing the untouched transparent border from the centered abstract harbor image on both faces. No writing, text, logo, watermark, bubble, or split panel."
+  - panel: 8
+    beat: "고정 받침이 이미지 영역을 침범한다"
+    caption: "고정 받침 하나가 이미지가 있는 부분까지 들어왔다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Top-down evidence view: a blank glass plate rests near four fixed cream corner blocks, and one block reaches too far inward over the area corresponding to the centered image; Yunseo points beside the intrusion while Doyun withdraws his hand. No actual negative on the blocks, no text, logo, watermark, bubble, or grid."
+  - panel: 9
+    beat: "세 개의 옮길 수 있는 푸른 받침"
+    caption: "윤서는 옮길 수 있는 푸른 코르크 받침 세 개를 골랐다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Clean top-down object view: child Yunseo selects one shallow solid cream-painted rectangular inspection tray and exactly three separate low round muted-cobalt cork pads, each with a cream cork underside and no fasteners. No frame, rings, adhesive, labels, numbers, text, logo, watermark, bubble, or grid."
+  - panel: 10
+    beat: "빈 유리판의 크기와 두께를 맞춘다"
+    caption: "빈 유리판은 실제 네거티브와 크기와 두께가 같았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Yunseo compares one clean blank glass plate edge-to-edge beside the single photographic glass negative, clearly matching length, width, and thickness without stacking the real image surface; the cream tray and three cobalt pads wait nearby. No ruler, writing, text, logo, watermark, bubble, or grid."
+  - panel: 11
+    beat: "첫 세 점에서 빈 유리가 흔들린다"
+    caption: "처음 놓은 세 점에서는 빈 유리판 한쪽이 흔들렸다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. The blank glass plate sits on exactly three cobalt cork pads inside the solid cream tray; Yunseo presses one outer corner lightly and the opposite edge visibly lifts, showing a small wobble. Doyun observes. No real negative, no text, logo, watermark, bubble, montage, or extra pads."
+  - panel: 12
+    beat: "세 점을 투명 여백으로 옮긴다"
+    caption: "윤서는 세 점이 투명한 바깥 여백만 받치게 옮겼다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo moves exactly one of the three low cobalt cork pads outward, arranging all three beneath only the blank plate's clear outer border in a stable triangle; solid cream tray beneath, center image-equivalent area untouched. No text, logo, watermark, bubble, grid, ring, or frame."
+  - panel: 13
+    beat: "네 모서리 흔들림 시험"
+    caption: "네 모서리를 차례로 눌러도 빈 유리판은 흔들리지 않았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Single continuous stability test: Yunseo presses one corner of the matching blank glass plate while small natural hand-position cues imply the four-corner sequence; exactly three cobalt pads stay on clear outer margins and the plate remains level. No duplicated hands, montage, text, logo, watermark, bubble, or grid."
+  - panel: 14
+    beat: "앞뒤에서 세 접점을 확인한다"
+    caption: "앞뒤에서 본 세 접점은 모두 이미지 영역 밖에 있었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Doyun gently tilts the solid cream inspection tray toward side light while Yunseo looks along the front and back edges of the matching blank glass plate; exactly three cobalt cork contact points are clearly confined to the transparent outer border area. Single scene, no text, logo, watermark, bubble, or montage."
+  - panel: 15
+    beat: "실제 네거티브를 세 받침에 올린다"
+    caption: "윤서는 깨끗해진 네거티브를 세 받침 위에 올렸다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. After a plain soft brush and the removed sand grain sit aside, child Yunseo lowers the cleaned single glass negative by its clear edges onto exactly three cobalt cork pads in the solid cream inspection tray; pads touch only transparent margins. No text, logo, watermark, bubble, grid, or extra glass."
+  - panel: 16
+    beat: "첫 번째 면을 촬영한다"
+    caption: "도윤은 첫 번째 면을 촬영하고 윤서는 유리를 지켜봤다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Doyun operates one simple overhead copy camera above the level glass negative in the cream tray; Yunseo watches the three clear-margin support points and keeps her hands away. Abstract harbor tonal image only, no screen writing, text, logo, watermark, bubble, or grid."
+  - panel: 17
+    beat: "윤서가 투명 가장자리로 유리를 뒤집는다"
+    caption: "윤서는 투명한 양쪽 가장자리만 잡아 유리를 뒤집었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Child Yunseo uses both hands only on the two transparent side margins to lift and turn the single glass negative over above the solid cream tray; Doyun steadies only the tray, and exactly three cobalt pads remain in place. No duplicated glass, text, logo, watermark, bubble, or montage."
+  - panel: 18
+    beat: "뒤집은 뒤 세 점을 다시 확인한다"
+    caption: "뒤집은 뒤에도 세 점은 바깥 여백만 받치고 있었다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Low oblique proof view after the flip: the opposite face of the single glass negative is level, exactly three cobalt cork pads visible beneath only its clear outer margins, centered abstract harbor image untouched; Yunseo checks edge alignment. No text, logo, watermark, bubble, grid, or drying scene."
+  - panel: 19
+    beat: "두 번째 면과 초점을 확인한다"
+    caption: "도윤은 두 번째 면을 촬영해 두 장의 초점을 확인했다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Doyun finishes the second overhead photograph; beside the camera, one plain monitor shows exactly two small unlabeled abstract harbor thumbnails with crisp edges, while Yunseo compares them and the physical glass stays supported on three pads. Absolutely no letters, numbers, icons, logo, watermark, bubble, or split-panel layout."
+  - panel: 20
+    beat: "새 흠집 없이 두 면의 기록을 남긴다"
+    caption: "유리는 새 흠집 없이 돌아가고 두 면의 기록이 남았다."
+    prompt: "Restrained Korean webtoon illustration, soft ink linework, simplified visible contours, calm flat painterly color blocks, light cel-shaded faces and hands, gentle paper finish, quiet Seoul/Jeju composition, repeatable drawn character design, no reader-facing text. Quiet final proof in the Jeju archive workroom: the intact glass negative slides back into its plain cream paper envelope beside the solid cream inspection tray and exactly three cobalt cork pads; two small unlettered photographic proof cards of opposite abstract tonal faces rest nearby. Yunseo withdraws her hands. No scratches, text, logo, watermark, bubble, or grid."
