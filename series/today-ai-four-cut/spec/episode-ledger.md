@@ -57,3 +57,4 @@
 | ep-051 | 2026-11-10 | TPU 두 개가 역할을 나눴다 | `https://cloud.google.com/blog/topics/ai-infrastructure/tpu-8tx-and-tpu-8i-max|2026-11-10` | 한 장 2×2 네 컷, 보안 처리·긴 문맥용 시스템 분화와 회사 성능 수치의 독립 검증 한계를 함께 설명 |
 | ep-052 | 2026-11-11 | ChatGPT에 가게 안내원이 생겼다 | `https://community.openai.com/t/introducing-businesses-in-chatgpt-in-beta/1414865|2026-11-10` | 한 장 2×2 네 컷, 인증된 사업자 안내와 개별 대화 비공유·미국 일부 업종 베타 한계를 함께 설명 |
 | ep-053 | 2026-11-12 | 포토샵이 외부 AI와 연결된다 | `https://news.adobe.com/news/2026/11/adobe-powers-new-era-of-creativity|2026-11-10` | 한 장 2×2 네 컷, 외부 AI의 로컬 프로젝트 편집과 편집 구조 보존·미리보기 상태·공개 범위 조정 한계를 함께 설명 |
+| ep-054 | 2026-11-14 | AI가 DNA 변이를 세포별로 본다 | `https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/|2026-11-11` | 한 장 2×2 네 컷, 세포별 변이 영향 예측과 연구용 API·임상 진단 미검증 한계를 함께 설명 |
