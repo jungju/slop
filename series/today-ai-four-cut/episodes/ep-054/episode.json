@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-054",
+  "number": 54,
+  "title": "54화: AI가 DNA 변이를 세포별로 본다",
+  "shortTitle": "AI가 DNA 변이를 세포별로 본다",
+  "lead": "Google DeepMind는 DNA 서열과 변이가 특정 세포 종류와 상태에 미치는 영향을 예측하는 연구용 모델 AlphaGenome 2를 발표했다.",
+  "closingLine": "비상업 연구용 API는 공개됐지만, 임상·진단용으로 검증되거나 승인된 도구는 아니다.",
+  "news": {
+    "headline": "Google DeepMind, 세포별 DNA 변이 영향을 예측하는 AlphaGenome 2 발표",
+    "eventDate": "2026-11-11",
+    "researchDate": "2026-11-14",
+    "summary": "Google DeepMind는 DNA 서열과 변이가 특정 세포 종류와 상태에 미치는 영향을 예측하는 AlphaGenome 2를 발표했습니다. 이 모델은 68개 조직의 인간·생쥐 단일세포 프로필 1억 700만 개 이상을 학습에 활용했습니다. 비상업 연구자는 API를 사용할 수 있고 상업 연구는 비공개 시험 단계지만, 임상·진단용으로 검증되거나 승인되지는 않았습니다.",
+    "selectionNote": "2026년 11월 14일 KST 기준 최근 48시간의 AI 발표를 다시 검색하고 Google DeepMind 공식 발표와 Nature의 독립 보도를 모두 열어 확인했습니다. 세포별 유전 변이 예측이라는 구체적 연구 변화와 임상 사용 불가라는 중요한 한계를 함께 설명할 수 있어 선정했습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "1차 출처",
+      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+      "publisher": "Google DeepMind",
+      "publishedAt": "2026-11-11",
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "note": "세포 종류·상태별 변이 영향 예측, 학습 데이터 범위, 연구용 API 공개와 임상·진단 미검증 범위를 설명합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 보도",
+      "title": "DeepMind’s ultra-powerful AI for genome mapping wows scientists",
+      "publisher": "Nature",
+      "publishedAt": "2026-11-11",
+      "url": "https://www.nature.com/articles/d41586-026-03673-0",
+      "note": "AlphaGenome 2가 DNA 변이가 작용할 가능성이 있는 세포 종류를 예측한다는 발표를 독립적으로 확인합니다."
+    }
+  ],
+  "publishedAt": "2026-11-13T20:59:17.667Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: 같은 DNA 변이도 세포마다 다르게 보나요? 픽: 네, 새 AI는 세포 종류별 영향을 따로 예측해요. 누리: 그럼 질병 진단에도 바로 쓸 수 있나요? 픽: 아니요, 연구용이며 임상·진단 검증은 아직이에요.",
+      "alt": "54화: AI가 DNA 변이를 세포별로 본다 1페이지. 누리: 같은 DNA 변이도 세포마다 다르게 보나요? 픽: 네, 새 AI는 세포 종류별 영향을 따로 예측해요. 누리: 그럼 질병 진단에도 바로 쓸 수 있나요? 픽: 아니요, 연구용이며 임상·진단 검증은 아직이에요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": null,
+      "status": "not-recorded"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}
