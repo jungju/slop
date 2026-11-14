@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-055",
+  "number": 55,
+  "title": "55화: AI가 결제까지 맡는다",
+  "shortTitle": "AI가 결제까지 맡는다",
+  "lead": "OpenAI는 dots 에이전트가 사용자를 대신해 온라인 결제를 진행할 수 있는 ChatGPT Wallet을 미국의 일부 적격 Pro 사용자에게 순차 출시했다.",
+  "closingLine": "현재는 구매마다 사용자의 생체 승인이 필요하고, 승인 뒤에도 판매자의 주문 확정을 별도로 확인해야 한다.",
+  "news": {
+    "headline": "OpenAI, AI 에이전트가 사용자 승인 뒤 결제하는 ChatGPT Wallet 출시",
+    "eventDate": "2026-11-13",
+    "researchDate": "2026-11-15",
+    "summary": "OpenAI는 dots 에이전트가 사용자를 대신해 온라인 결제를 진행할 수 있는 ChatGPT Wallet을 출시하기 시작했습니다. 사용자는 구매마다 상품·합계·카드를 검토하고 생체 인증으로 승인하며, 결제망은 실제 카드 정보 대신 토큰을 제공합니다. 미국의 18세 이상 일부 Pro 사용자와 적격 미국 발급 카드로 시작하고, 승인만으로 판매자 주문이 확정되는 것은 아닙니다.",
+    "selectionNote": "2026년 11월 15일 KST 기준 최근 48시간의 AI 발표를 검색하고 OpenAI 공식 발표·도움말과 Reuters 보도를 모두 열어 확인했습니다. AI 에이전트가 추천을 넘어 실제 결제를 수행하는 변화와 구매별 승인·제한된 출시·주문 확인 책임을 함께 설명할 수 있어 선정했습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "1차 출처",
+      "title": "Introducing ChatGPT Wallet",
+      "publisher": "OpenAI",
+      "publishedAt": "2026-11-13",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet/",
+      "note": "구매별 생체 승인, 결제 토큰, 미국 일부 Pro 사용자 대상 초기 출시 범위를 설명합니다."
+    },
+    {
+      "kind": "primary",
+      "label": "공식 사용 안내",
+      "title": "Making purchases with ChatGPT Wallet",
+      "publisher": "OpenAI Help Center",
+      "publishedAt": "2026-11-14",
+      "url": "https://help.openai.com/en/articles/20001654-making-purchases-with-chatgpt-wallet",
+      "note": "지원 범위, 구매별 승인 절차, 판매자 주문 확인과 모든 상점에서 작동하지 않는 한계를 설명합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 보도",
+      "title": "OpenAI launches ChatGPT Wallet, letting AI agents pay for purchases",
+      "publisher": "Reuters",
+      "publishedAt": "2026-11-13",
+      "url": "https://www.investing.com/news/stock-market-news/openai-launches-chatgpt-wallet-letting-ai-agents-pay-for-purchases-5026114",
+      "note": "Wallet 출시, 초기 미국 대상, 구매별 보안 확인과 결제 토큰 사용을 독립적으로 확인합니다."
+    }
+  ],
+  "publishedAt": "2026-11-14T21:03:37.972Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: AI가 이제 제 카드로 직접 결제하나요? 픽: 네, 미국 일부 사용자는 구매마다 승인해요. 누리: 카드 번호도 AI와 가게에 보이나요? 픽: 아니요, 결제 토큰을 쓰고 주문 확인은 따로 해요.",
+      "alt": "55화: AI가 결제까지 맡는다 1페이지. 누리: AI가 이제 제 카드로 직접 결제하나요? 픽: 네, 미국 일부 사용자는 구매마다 승인해요. 누리: 카드 번호도 AI와 가게에 보이나요? 픽: 아니요, 결제 토큰을 쓰고 주문 확인은 따로 해요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": null,
+      "status": "not-recorded"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}
