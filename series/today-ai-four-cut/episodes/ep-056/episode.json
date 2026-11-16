@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-056",
+  "number": 56,
+  "title": "56화: AI 강수 지도가 공개됐다",
+  "shortTitle": "AI 강수 지도가 공개됐다",
+  "lead": "Google DeepMind와 Google Research는 WeatherNext 3에 쓰인 위성 관측 모자이크 SatWeave와 AI 기반 강수 자료 PARDIG의 과거 기록과 실시간 피드를 공개했다.",
+  "closingLine": "PARDIG는 약 10킬로미터 격자의 강수 추정 자료이므로 동네 단위 홍수 예보처럼 구체적인 용도에는 별도의 지역 검증이 필요하다.",
+  "news": {
+    "headline": "Google DeepMind, AI 날씨 모델의 위성·강수 데이터셋 공개",
+    "eventDate": "2026-11-13",
+    "researchDate": "2026-11-17",
+    "summary": "Google DeepMind와 Google Research는 WeatherNext 3에 쓰인 SatWeave와 PARDIG의 과거 자료와 실시간 피드를 공개했습니다. SatWeave는 여러 정지궤도 위성 관측을 하나의 모자이크로 묶고, PARDIG는 위성·대기 자료로 약 10킬로미터 격자의 강수를 15분 간격으로 추정합니다. 공개 자료는 연구와 응용 개발에 쓸 수 있지만, 특정 지역의 홍수 예보 성능을 곧바로 보장하지는 않습니다.",
+    "selectionNote": "초안이 잠긴 2026년 11월 16일 KST에 최근 48시간의 AI 발표를 우선 검색했으나 중복이 아니면서 충분히 검증 가능한 중대 발표를 찾지 못해 최근 7일로 확장했습니다. 11월 17일 재개 실행에서도 실시간 검색과 세 출처 재열람으로 사실·공개 범위·한계를 다시 확인했습니다. Google DeepMind 공식 발표, PARDIG 논문, 독립 연구행정 매체를 함께 근거로 삼았습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "1차 출처",
+      "title": "Opening the datasets behind our AI weather models",
+      "publisher": "Google DeepMind",
+      "publishedAt": "2026-11-13",
+      "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+      "note": "SatWeave와 PARDIG의 과거 자료·실시간 피드 공개, 구성과 해상도, 공개 범위를 설명합니다."
+    },
+    {
+      "kind": "primary",
+      "label": "연구 논문",
+      "title": "PARDIG: Global Precipitation Estimates Learned from Sparse Satellite Observations",
+      "publisher": "arXiv",
+      "publishedAt": "2026-11-10",
+      "url": "https://arxiv.org/abs/2611.13941",
+      "note": "PARDIG의 학습 방식, 0.1도·15분 해상도, 평가 범위와 공개 라이선스를 기록합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 확인",
+      "title": "DeepMind opens datasets behind its AI weather forecasting models",
+      "publisher": "CASRAI",
+      "publishedAt": "2026-11-14",
+      "url": "https://casrai.org/news/deepmind-open-ai-weather-model-datasets-2026",
+      "note": "두 데이터셋의 공개와 CC BY 4.0 조건, 약 10킬로미터 격자 및 연구 활용 범위를 독립적으로 정리합니다."
+    }
+  ],
+  "publishedAt": "2026-11-16T21:53:26.966Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: AI가 만든 강수 지도도 공개됐나요? 픽: 네, 위성 자료와 강수 지도를 누구나 쓸 수 있어요. 누리: 그럼 동네 홍수도 바로 맞힐 수 있나요? 픽: 아니요, 약 10km 자료라 지역별 검증이 필요해요.",
+      "alt": "56화: AI 강수 지도가 공개됐다 1페이지. 누리: AI가 만든 강수 지도도 공개됐나요? 픽: 네, 위성 자료와 강수 지도를 누구나 쓸 수 있어요. 누리: 그럼 동네 홍수도 바로 맞힐 수 있나요? 픽: 아니요, 약 10km 자료라 지역별 검증이 필요해요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": null,
+      "status": "not-recorded"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}

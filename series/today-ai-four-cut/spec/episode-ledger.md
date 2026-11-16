@@ -59,3 +59,4 @@
 | ep-053 | 2026-11-12 | 포토샵이 외부 AI와 연결된다 | `https://news.adobe.com/news/2026/11/adobe-powers-new-era-of-creativity|2026-11-10` | 한 장 2×2 네 컷, 외부 AI의 로컬 프로젝트 편집과 편집 구조 보존·미리보기 상태·공개 범위 조정 한계를 함께 설명 |
 | ep-054 | 2026-11-14 | AI가 DNA 변이를 세포별로 본다 | `https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/|2026-11-11` | 한 장 2×2 네 컷, 세포별 변이 영향 예측과 연구용 API·임상 진단 미검증 한계를 함께 설명 |
 | ep-055 | 2026-11-15 | AI가 결제까지 맡는다 | `https://openai.com/index/introducing-chatgpt-wallet/|2026-11-13` | 한 장 2×2 네 컷, 에이전트 결제와 구매별 생체 승인·토큰 보호·판매자 주문 확인 한계를 함께 설명 |
+| ep-056 | 2026-11-17 | AI 강수 지도가 공개됐다 | `https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/|2026-11-13` | 한 장 2×2 네 컷, 위성·AI 강수 자료 공개와 약 10킬로미터 격자·지역별 검증 한계를 함께 설명 |
