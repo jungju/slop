@@ -60,3 +60,4 @@
 | ep-054 | 2026-11-14 | AI가 DNA 변이를 세포별로 본다 | `https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/|2026-11-11` | 한 장 2×2 네 컷, 세포별 변이 영향 예측과 연구용 API·임상 진단 미검증 한계를 함께 설명 |
 | ep-055 | 2026-11-15 | AI가 결제까지 맡는다 | `https://openai.com/index/introducing-chatgpt-wallet/|2026-11-13` | 한 장 2×2 네 컷, 에이전트 결제와 구매별 생체 승인·토큰 보호·판매자 주문 확인 한계를 함께 설명 |
 | ep-056 | 2026-11-17 | AI 강수 지도가 공개됐다 | `https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/|2026-11-13` | 한 장 2×2 네 컷, 위성·AI 강수 자료 공개와 약 10킬로미터 격자·지역별 검증 한계를 함께 설명 |
+| ep-057 | 2026-11-18 | GPT-6.2가 두 모델로 나왔다 | `https://openai.com/index/introducing-gpt-6-2-astra-sol/|2026-11-17` | 한 장 2×2 네 컷, 복잡한 작업용 Astra·일상 작업용 Sol의 동시 출시와 실제 업무 품질·비용 검증 필요를 함께 설명 |
