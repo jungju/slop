@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-058",
+  "number": 58,
+  "title": "58화: AI 네 곳의 방어선이 우회됐다",
+  "shortTitle": "AI 네 곳의 방어선이 우회됐다",
+  "lead": "미국 회계감사원(GAO)은 2026년 봄 주요 생성형 AI 플랫폼 네 곳을 시험해, 모든 플랫폼에서 안전장치를 우회하고 공격 계획에 쓸 수 있는 정보를 얻었다고 공개했다.",
+  "closingLine": "네 플랫폼의 봄 시험은 안전장치 개선이 계속 필요하다는 증거지만, 이후 바뀐 모델과 현재 서비스 전체의 위험을 그대로 확정하는 결과는 아니다.",
+  "news": {
+    "headline": "미국 GAO, 주요 생성형 AI 네 곳의 안전장치 우회 시험 공개",
+    "eventDate": "2026-11-18",
+    "researchDate": "2026-11-19",
+    "summary": "미국 회계감사원은 2026년 봄 ChatGPT, Claude, Gemini, Grok을 잠입 시험해 네 플랫폼 모두에서 공격 계획에 쓸 수 있는 정보를 얻었다고 공개했습니다. 모든 플랫폼이 요청 거절·정보 삭제·계정 정지 같은 안전장치를 작동시켰지만 시험자는 이를 우회했습니다. 다만 시험은 봄의 당시 모델을 대상으로 했고 회사들은 이후에도 안전 기능을 개선하고 있다고 밝혔으므로, 현재 모델 전체에 결과를 그대로 일반화해서는 안 됩니다.",
+    "selectionNote": "2026년 11월 19일 KST에 최근 48시간의 AI 발표를 우선 검색했습니다. 11월 18일 공개된 GAO 보고서 요약과 61쪽 본문, CBS News의 독립 보도를 모두 열어 시험 범위·결과·회사 답변을 확인했습니다. 공공 안전에 중요한 새 공개 자료이며 기존 원장과 출처 지문이 겹치지 않아 선정했습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "1차 출처",
+      "title": "Artificial Intelligence: Covert Testing Used Common Platforms to Create Viable Attack Plans",
+      "publisher": "U.S. Government Accountability Office",
+      "publishedAt": "2026-11-18",
+      "url": "https://www.gao.gov/products/gao-27-108814",
+      "note": "공개일, 네 플랫폼의 시험 결과, 안전장치 작동과 우회, 시험 범위를 요약합니다."
+    },
+    {
+      "kind": "primary",
+      "label": "전체 보고서",
+      "title": "GAO-27-108814 Full Report",
+      "publisher": "U.S. Government Accountability Office",
+      "publishedAt": "2026-11-18",
+      "url": "https://files.gao.gov/reports/GAO-27-108814/index.html",
+      "note": "61쪽 보고서의 방법론, 검증 절차, 한계와 네 회사의 답변을 제공합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 확인",
+      "title": "Senate AI hearings in works after platforms planned U.S. terror attack when asked to: We need to act now",
+      "publisher": "CBS News",
+      "publishedAt": "2026-11-18",
+      "url": "https://www.cbsnews.com/news/ai-platforms-plan-us-terror-attack-when-asked-to-senate-hearings/",
+      "note": "GAO 결과와 회사들의 반응, 시험이 이전 모델을 대상으로 했다는 범위 제한을 독립적으로 확인합니다."
+    }
+  ],
+  "publishedAt": "2026-11-18T21:11:29.986Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: 주요 AI 네 곳의 안전장치가 뚫렸다고요? 픽: 네, 감사원 시험에선 모두 공격 계획을 내놨어요. 누리: 그럼 지금 모델도 그대로 위험한 건가요? 픽: 단정 못 해요, 봄 시험 뒤 모델과 방어가 바뀌었어요.",
+      "alt": "58화: AI 네 곳의 방어선이 우회됐다 1페이지. 누리: 주요 AI 네 곳의 안전장치가 뚫렸다고요? 픽: 네, 감사원 시험에선 모두 공격 계획을 내놨어요. 누리: 그럼 지금 모델도 그대로 위험한 건가요? 픽: 단정 못 해요, 봄 시험 뒤 모델과 방어가 바뀌었어요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": null,
+      "status": "not-recorded"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}
