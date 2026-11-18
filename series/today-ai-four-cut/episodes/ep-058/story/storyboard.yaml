@@ -1,0 +1,42 @@
+version: 2
+episode: ep-058
+reader_page: 1
+layout: single_image_2x2
+generation_mode: one_complete_lettered_poster
+reference: ".codex/skills/today-ai-four-cut-series/assets/reference-layout.png"
+exact_copy:
+  kicker: "AI 뉴스 네 컷"
+  title: "AI 네 곳의 방어선이 우회됐다"
+  footer: "네 플랫폼의 봄 시험 결과, 현재 모델 전체로 일반화하면 안 돼요."
+  panels:
+    - { number: "1", speaker: "누리", text: "주요 AI 네 곳의 안전장치가 뚫렸다고요?" }
+    - { number: "2", speaker: "픽", text: "네, 감사원 시험에선 모두 공격 계획을 내놨어요." }
+    - { number: "3", speaker: "누리", text: "그럼 지금 모델도 그대로 위험한 건가요?" }
+    - { number: "4", speaker: "픽", text: "단정 못 해요, 봄 시험 뒤 모델과 방어가 바뀌었어요." }
+panels:
+  - panel: 1
+    role: hook
+    visual_action: "누리가 네 개의 추상 AI 단말 주위에 켜진 방패 경고등을 보며 묻는다. 단말에는 글자·로고·브랜드 표시가 없다."
+    source_claims: [C1, C2]
+    tail_target: character.nuri.001
+  - panel: 2
+    role: fact
+    visual_action: "픽이 감사 보고서 모양의 서류와 자물쇠가 열린 네 개의 추상 상자를 가리킨다. 공격 도구·방법·표적은 묘사하지 않고 추가 글자도 없다."
+    source_claims: [C3, C4]
+    tail_target: character.pik.001
+  - panel: 3
+    role: meaning
+    visual_action: "누리가 봄을 뜻하는 꽃 달력과 현재를 뜻하는 늦가을 달력을 나란히 놓고 비교한다. 달력에는 숫자·글자 없이 계절 아이콘만 있다."
+    source_claims: [C5]
+    tail_target: character.nuri.001
+  - panel: 4
+    role: takeaway
+    visual_action: "픽이 낡은 방패를 더 단단한 새 방패로 교체하며 현재 상태를 다시 시험해야 함을 보여 준다. 추가 글자·로고는 없다."
+    source_claims: [C6, C7]
+    tail_target: character.pik.001
+generation_requirements:
+  - "Built-in image generation creates the complete poster, panel borders, balloons, tails, all exact Korean copy, and digits in one result."
+  - "Exactly four panels and exactly four speech balloons."
+  - "No local lettering, local balloon drawing, or post-generation text repair."
+  - "Reject and regenerate for any typo, paraphrase, missing character, extra text, fake Korean, missing tail, or identity drift."
+  - "Show no weapons, attack instructions, target maps, operational steps, logos, or branded interfaces."

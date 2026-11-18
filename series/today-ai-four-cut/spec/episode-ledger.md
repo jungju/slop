@@ -61,3 +61,4 @@
 | ep-055 | 2026-11-15 | AI가 결제까지 맡는다 | `https://openai.com/index/introducing-chatgpt-wallet/|2026-11-13` | 한 장 2×2 네 컷, 에이전트 결제와 구매별 생체 승인·토큰 보호·판매자 주문 확인 한계를 함께 설명 |
 | ep-056 | 2026-11-17 | AI 강수 지도가 공개됐다 | `https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/|2026-11-13` | 한 장 2×2 네 컷, 위성·AI 강수 자료 공개와 약 10킬로미터 격자·지역별 검증 한계를 함께 설명 |
 | ep-057 | 2026-11-18 | GPT-6.2가 두 모델로 나왔다 | `https://openai.com/index/introducing-gpt-6-2-astra-sol/|2026-11-17` | 한 장 2×2 네 컷, 복잡한 작업용 Astra·일상 작업용 Sol의 동시 출시와 실제 업무 품질·비용 검증 필요를 함께 설명 |
+| ep-058 | 2026-11-19 | AI 네 곳의 방어선이 우회됐다 | `https://www.gao.gov/products/gao-27-108814|2026-11-18` | 한 장 2×2 네 컷, 네 주요 플랫폼의 안전장치 우회 시험과 봄 당시 모델·제한된 시나리오라는 일반화 한계를 함께 설명 |
