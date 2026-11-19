@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-059",
+  "number": 59,
+  "title": "59화: Gemini 4에 중간 모델이 생겼다",
+  "shortTitle": "Gemini 4에 중간 모델이 생겼다",
+  "lead": "Google은 복잡한 코딩·분석 작업에서 깊이와 속도의 균형을 노린 Gemini 4 Neon을 2026년 11월 18일 공개하고 유료 앱·API·기업 채널에 출시했다.",
+  "closingLine": "Neon의 출시·사양은 확인됐지만 성능과 비용 우위는 회사 및 제한된 벤치마크 결과이므로 실제 업무 자료로 다시 비교해야 한다.",
+  "news": {
+    "headline": "Google, Gemini 4의 깊이와 속도 사이를 겨냥한 Neon 출시",
+    "eventDate": "2026-11-18",
+    "researchDate": "2026-11-20",
+    "summary": "Google은 Gemini 4 Carbon의 깊은 추론과 Hydrogen의 빠른 실행 사이를 겨냥한 Gemini 4 Neon을 공개했습니다. Neon은 최대 100만 토큰 문맥과 네 단계 사고 수준을 지원하며 Gemini 앱, 유료 API, 기업용 채널 등에 순차 출시됐습니다. 다만 성능·비용 우위는 Google과 제한된 벤치마크의 수치이므로 실제 업무 품질과 총비용은 사용자가 직접 비교해야 합니다.",
+    "selectionNote": "2026년 11월 20일 KST에 최근 48시간의 AI 발표를 우선 검색했습니다. 11월 18일 Google 공식 발표와 DeepMind 모델 카드, Digital Trends의 독립 보도를 모두 열어 출시 범위·사양·성능 주장·한계를 확인했습니다. 직전 회차와 출처 지문이 겹치지 않고 일반 사용자의 모델 선택에 직접 영향을 주는 새 제품 변화라 선정했습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "공식 발표",
+      "title": "Introducing Gemini 4 Neon",
+      "publisher": "Google",
+      "publishedAt": "2026-11-18",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "note": "Neon의 포지셔닝, 가격, 100만 토큰 문맥, 배포 채널과 회사 측 벤치마크 주장을 설명합니다."
+    },
+    {
+      "kind": "primary",
+      "label": "모델 카드",
+      "title": "Gemini 4 Neon - Model Card",
+      "publisher": "Google DeepMind",
+      "publishedAt": "2026-11-18",
+      "url": "https://deepmind.google/models/model-cards/gemini-4-neon/",
+      "note": "Carbon 기반 모델이라는 점, 입력·출력 범위, 배포 채널, 알려진 한계와 안전 평가 범위를 제공합니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 확인",
+      "title": "Google releases Gemini 4 Neon AI model, rivals Claude Opus 5.5 and GPT-6.2 Sol",
+      "publisher": "Digital Trends",
+      "publishedAt": "2026-11-18",
+      "url": "https://www.digitaltrends.com/computing/google-says-gemini-4-neon-can-hang-with-claude-opus-5-5-and-gpt-6-2-sol-for-less/",
+      "note": "실제 출시 채널과 가격을 확인하고, 공개 성능표가 Google 측 수치라 독립 시험이 더 필요하다고 짚습니다."
+    }
+  ],
+  "publishedAt": "2026-11-19T21:05:07.472Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: 주요 Gemini 사이에 새 모델이 나왔다고요? 픽: 네, Neon은 깊이와 속도의 균형을 노렸어요. 누리: 회사 벤치마크가 좋으면 실무도 최고인가요? 픽: 단정 못 해요, 내 작업으로 품질과 비용을 재야 해요.",
+      "alt": "59화: Gemini 4에 중간 모델이 생겼다 1페이지. 누리: 주요 Gemini 사이에 새 모델이 나왔다고요? 픽: 네, Neon은 깊이와 속도의 균형을 노렸어요. 누리: 회사 벤치마크가 좋으면 실무도 최고인가요? 픽: 단정 못 해요, 내 작업으로 품질과 비용을 재야 해요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": null,
+      "status": "not-recorded"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}
