@@ -1,0 +1,42 @@
+version: 2
+episode: ep-059
+reader_page: 1
+layout: single_image_2x2
+generation_mode: one_complete_lettered_poster
+reference: ".codex/skills/today-ai-four-cut-series/assets/reference-layout.png"
+exact_copy:
+  kicker: "AI 뉴스 네 컷"
+  title: "Gemini 4에 중간 모델이 생겼다"
+  footer: "출시와 사양은 확인됐지만, 실제 업무 품질과 비용은 다시 재야 해요."
+  panels:
+    - { number: "1", speaker: "누리", text: "주요 Gemini 사이에 새 모델이 나왔다고요?" }
+    - { number: "2", speaker: "픽", text: "네, Neon은 깊이와 속도의 균형을 노렸어요." }
+    - { number: "3", speaker: "누리", text: "회사 벤치마크가 좋으면 실무도 최고인가요?" }
+    - { number: "4", speaker: "픽", text: "단정 못 해요, 내 작업으로 품질과 비용을 재야 해요." }
+panels:
+  - panel: 1
+    role: hook
+    visual_action: "누리가 깊은 작업을 뜻하는 큰 톱니와 빠른 작업을 뜻하는 작은 톱니 사이에 놓인 새 중간 톱니를 살핀다. 톱니와 기기에는 추가 글자·숫자·로고가 없다."
+    source_claims: [C1, C2]
+    tail_target: character.nuri.001
+  - panel: 2
+    role: fact
+    visual_action: "픽이 깊이를 뜻하는 층층이 쌓인 블록과 속도를 뜻하는 빛줄기를 양팔 저울에 균형 있게 올린다. 추가 글자·숫자·브랜드 표시는 없다."
+    source_claims: [C2, C3, C4]
+    tail_target: character.pik.001
+  - panel: 3
+    role: meaning
+    visual_action: "누리가 서로 다른 길이의 막대만 있는 성능표 클립보드를 들고 의문을 보인다. 표에는 글자·숫자·로고가 없다."
+    source_claims: [C5, C6]
+    tail_target: character.nuri.001
+  - panel: 4
+    role: takeaway
+    visual_action: "픽이 실제 업무를 뜻하는 문서 상자 두 개를 품질 저울과 동전 모양 비용 접시에 올려 직접 비교한다. 동전과 상자에는 글자·숫자가 없다."
+    source_claims: [C6, C7]
+    tail_target: character.pik.001
+generation_requirements:
+  - "Built-in image generation creates the complete poster, panel borders, balloons, tails, all exact Korean copy, and digits in one result."
+  - "Exactly four panels and exactly four speech balloons."
+  - "No local lettering, local balloon drawing, or post-generation text repair."
+  - "Reject and regenerate for any typo, paraphrase, missing character, extra text, fake Korean, missing tail, or identity drift."
+  - "Do not reproduce Google product UI, logos, benchmark labels, decorative words, or extra digits."
