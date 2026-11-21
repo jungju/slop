@@ -63,3 +63,4 @@
 | ep-057 | 2026-11-18 | GPT-6.2가 두 모델로 나왔다 | `https://openai.com/index/introducing-gpt-6-2-astra-sol/|2026-11-17` | 한 장 2×2 네 컷, 복잡한 작업용 Astra·일상 작업용 Sol의 동시 출시와 실제 업무 품질·비용 검증 필요를 함께 설명 |
 | ep-058 | 2026-11-19 | AI 네 곳의 방어선이 우회됐다 | `https://www.gao.gov/products/gao-27-108814|2026-11-18` | 한 장 2×2 네 컷, 네 주요 플랫폼의 안전장치 우회 시험과 봄 당시 모델·제한된 시나리오라는 일반화 한계를 함께 설명 |
 | ep-059 | 2026-11-20 | Gemini 4에 중간 모델이 생겼다 | `https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/|2026-11-18` | 한 장 2×2 네 컷, 깊이·속도 사이의 새 모델 출시와 회사 벤치마크를 실제 업무로 재검증해야 하는 한계를 함께 설명 |
+| ep-060 | 2026-11-21 | Hy4 모델 가중치가 공개됐다 | `https://huggingface.co/tencent/Hy4|2026-11-20` | 한 장 2×2 네 컷, 세 종류의 공개 가중치와 대형 실행 장비·별도 사용 조건 확인 필요를 함께 설명 |
