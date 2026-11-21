@@ -1,0 +1,42 @@
+version: 2
+episode: ep-060
+reader_page: 1
+layout: single_image_2x2
+generation_mode: one_complete_lettered_poster
+reference: ".codex/skills/today-ai-four-cut-series/assets/reference-layout.png"
+exact_copy:
+  kicker: "AI 뉴스 네 컷"
+  title: "Hy4 모델 가중치가 공개됐다"
+  footer: "가중치는 공개됐지만, 실행 장비와 사용 조건을 먼저 봐야 해요."
+  panels:
+    - { number: "1", speaker: "누리", text: "Hy4를 직접 내려받을 수 있다고요?" }
+    - { number: "2", speaker: "픽", text: "네, 세 종류의 모델 가중치가 공개됐어요." }
+    - { number: "3", speaker: "누리", text: "그럼 내 컴퓨터에서도 바로 쓸 수 있나요?" }
+    - { number: "4", speaker: "픽", text: "아니요, 큰 장비와 사용 조건부터 확인해야 해요." }
+panels:
+  - panel: 1
+    role: hook
+    visual_action: "누리가 열린 보관함에서 내려오는 서로 다른 모양의 모델 상자 세 개를 보며 놀란다. 상자와 보관함에는 추가 글자·숫자·로고가 없다."
+    source_claims: [C1, C2]
+    tail_target: character.nuri.001
+  - panel: 2
+    role: fact
+    visual_action: "픽이 서로 다른 재질과 크기의 세 모델 상자를 공개 선반에 차례로 정리한다. 상자와 선반에는 글자·숫자·브랜드 표시가 없다."
+    source_claims: [C2, C3]
+    tail_target: character.pik.001
+  - panel: 3
+    role: meaning
+    visual_action: "누리가 작은 개인용 컴퓨터 옆에서 여러 장비가 층층이 쌓인 거대한 서버 탑을 올려다본다. 화면과 장비에는 글자·숫자·로고가 없다."
+    source_claims: [C4, C5]
+    tail_target: character.nuri.001
+  - panel: 4
+    role: takeaway
+    visual_action: "픽이 한쪽에는 서버 장비 그림, 다른 쪽에는 봉인 표시가 있는 사용 조건 문서를 놓고 두 항목을 함께 확인하라고 손짓한다. 문서와 장비에는 추가 글자·숫자가 없다."
+    source_claims: [C5, C6, C7]
+    tail_target: character.pik.001
+generation_requirements:
+  - "Built-in image generation creates the complete poster, panel borders, balloons, tails, all exact Korean copy, and digits in one result."
+  - "Exactly four panels and exactly four speech balloons."
+  - "No local lettering, local balloon drawing, or post-generation text repair."
+  - "Reject and regenerate for any typo, paraphrase, missing character, extra text, fake Korean, missing tail, or identity drift."
+  - "Do not reproduce Tencent or Hugging Face UI, logos, benchmark labels, decorative words, or extra digits."

@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "ep-060",
+  "number": 60,
+  "title": "60화: Hy4 모델 가중치가 공개됐다",
+  "shortTitle": "Hy4 모델 가중치가 공개됐다",
+  "lead": "Tencent은 2026년 11월 20일 무렵 Hy4의 지시형·FP8·사전학습 모델 가중치를 공개 저장소에 올려 직접 내려받아 배포하거나 추가 학습할 수 있게 했다.",
+  "closingLine": "가중치 공개는 확인됐지만 Hy4는 매우 큰 모델이고 Tencent Hy License의 별도 상업 조건도 있으므로 실행 장비와 사용 목적을 먼저 확인해야 한다.",
+  "news": {
+    "headline": "Tencent, 대형 멀티모달 모델 Hy4 가중치 공개",
+    "eventDate": "2026-11-20",
+    "researchDate": "2026-11-21",
+    "summary": "Tencent은 Hy4의 지시형, FP8, 사전학습 가중치를 Hugging Face·ModelScope·GitCode에 공개했습니다. Hy4는 텍스트·이미지·영상을 다루는 7700억 매개변수 혼합전문가 모델이며 공식 실행 예시는 FP8 모델을 GPU 8개에 나눠 올립니다. 가중치는 내려받을 수 있지만 Apache 2.0이 아닌 Tencent Hy License가 적용되고, 일부 대규모 모델 서비스 사업에는 별도 서면 계약이 필요합니다.",
+    "selectionNote": "2026년 11월 21일 KST에 최근 48시간 발표를 우선 검색했습니다. Tencent 공식 모델 카드와 라이선스 원문, 공개 저장소 상태를 직접 확인한 독립 보도를 모두 열어 공개 범위·모델 크기·실행 예시·사용 조건을 대조했습니다. 저장소 갱신 시각은 11월 20일이지만 Tencent가 정확한 공개 시각을 따로 발표하지 않았다는 한계도 보존했습니다."
+  },
+  "sources": [
+    {
+      "kind": "primary",
+      "label": "공식 모델 카드",
+      "title": "Hy4",
+      "publisher": "Tencent Hy Team on Hugging Face",
+      "publishedAt": "2026-11-20",
+      "url": "https://huggingface.co/tencent/Hy4",
+      "note": "세 종류의 공개 가중치, 7700억 전체·토큰당 490억 활성 매개변수, 100만 토큰 문맥, 알려진 한계와 GPU 8개 실행 예시를 제공합니다."
+    },
+    {
+      "kind": "primary",
+      "label": "공식 라이선스",
+      "title": "Tencent Hy License, Version 1.0",
+      "publisher": "Tencent Hy Team on Hugging Face",
+      "publishedAt": "2026-11-20",
+      "url": "https://huggingface.co/tencent/Hy4/blob/main/LICENSE",
+      "note": "Apache 2.0과 다른 라이선스이며 일정 규모 이상의 범용 모델 서비스 사업에 별도 서면 계약이 필요한 조건을 확인할 수 있습니다."
+    },
+    {
+      "kind": "confirmation",
+      "label": "독립 확인",
+      "title": "Tencent releases Hy4 and Hy4 flash weights on Hugging Face",
+      "publisher": "ORIENS.AI News",
+      "publishedAt": "2026-11-21",
+      "url": "https://ai-oriens.com/en/news/tencent-hy4-vl-transformers/",
+      "note": "공개 저장소에서 실제 다운로드 가능 여부를 확인하고 모델 규모, 다중 GPU 요구, 라이선스 조건과 공개 시각의 불확실성을 검토합니다."
+    }
+  ],
+  "publishedAt": "2026-11-21T01:51:09.468Z",
+  "status": "published",
+  "pageCount": 1,
+  "presentation": {
+    "mode": "baked-lettered"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-01.webp",
+      "width": 1024,
+      "height": 1536,
+      "caption": "누리: Hy4를 직접 내려받을 수 있다고요? 픽: 네, 세 종류의 모델 가중치가 공개됐어요. 누리: 그럼 내 컴퓨터에서도 바로 쓸 수 있나요? 픽: 아니요, 큰 장비와 사용 조건부터 확인해야 해요.",
+      "alt": "60화: Hy4 모델 가중치가 공개됐다 1페이지. 누리: Hy4를 직접 내려받을 수 있다고요? 픽: 네, 세 종류의 모델 가중치가 공개됐어요. 누리: 그럼 내 컴퓨터에서도 바로 쓸 수 있나요? 픽: 아니요, 큰 장비와 사용 조건부터 확인해야 해요."
+    }
+  ],
+  "provenance": {
+    "story": {
+      "stage": "기획·대본",
+      "model": null,
+      "status": "not-recorded"
+    },
+    "image": {
+      "stage": "이미지 생성",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "version": null,
+      "status": "known-provider"
+    },
+    "lettering": {
+      "stage": "이미지 생성 내 레터링",
+      "model": "OpenAI Image Generation",
+      "tool": "built-in image_gen",
+      "status": "known-provider"
+    }
+  }
+}
