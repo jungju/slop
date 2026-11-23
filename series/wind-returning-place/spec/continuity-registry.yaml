@@ -2,6 +2,35 @@ version: 1
 factory_type: comic
 comic_id: wind-returning-place
 elements:
+  - id: prop.repositionable-felt-edge-clips.001
+    name: 뒤집어 확인하는 푸른 펠트 집게
+    category: prop
+    scope: episode
+    status: active
+    introduced_in: ep-058
+    fidelity: structural
+    current_version: 1
+    versions:
+      - version: 1
+        active_from: ep-058
+        active_until: ep-058
+        supersedes: null
+        immutable_features:
+          - one flat cream-painted rectangular measuring board with softly rounded corners and no grid, ruler, lettering, or fixed clamps
+          - exactly two separate removable muted-cobalt low-profile edge clips that can attach to any outer edge of the board
+          - each clip has two plain cream felt jaw liners; the jaws touch only the unprinted margins of one irregular-edged cyanotype sheet
+          - no adhesive, pin, screw, corner block, glass, tray, label, number, printed scale, text, logo, watermark, or decorative lettering
+        mutable_features:
+          - clips on opposite margins, one clip shifted sideways, or both removed beside the board
+          - holding one matching blank handmade-paper test sheet, one blue cyanotype print, or nothing
+          - one temporary folded felt corner corrected before actual use
+          - board facing either direction after a half-turn in the Jeju community archive workroom
+        reference_asset_ids:
+          - prop-repositionable-felt-edge-clips-001-v1-text-lock
+        generation_policy:
+          canonical_source_only: true
+          previous_panel_as_reference: false
+          exact_method: text_locked
   - id: prop.three-point-glass-inspection-tray.001
     name: 가장자리를 받치는 세 점 유리 점검 쟁반
     category: prop
